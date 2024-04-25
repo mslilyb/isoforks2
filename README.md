@@ -3,7 +3,8 @@ Isoforms
 
 ## Data ##
 
-Data collection is described in `datacore2024/project_splicing`.
+Data collection is described in `datacore2024/project_splicing`. The 665 genes
+of the APC set are in the `apc` directory.
 
 ## Models ##
 
@@ -27,10 +28,9 @@ Python-based applications use `isoform.py` for common functions.
 The genomikon library contains a couple of faster implementations in the
 `isoformer` directory.
 
-+ `isoformer` - the standard algorithm for all reasonable isoforms
-+ `isocounter` - as above, but only counting, not calculating
++ `isoformer` - this is the same as `geniso`
++ `isocounter` - as above, but only counting, not calculating probabilities
 + `isorandom` - counting isoforms in random sequences
-
 
 ## To Do ##
 
