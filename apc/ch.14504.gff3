@@ -1,0 +1,100 @@
+ch.14504	RNASeq_reads	transcript_region	79	100	2.0	.	.	
+ch.14504	RNASeq_F_asymmetry	transcript_region	85	98	8827.0	.	.	
+ch.14504	RNASeq_F_asymmetry	transcript_region	99	101	13889.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	101	103	5.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	101	104	1.0	+	.	
+ch.14504	WormBase	five_prime_UTR	101	118	.	+	.	Parent=Transcript:F41E6.2.1
+ch.14504	WormBase	exon	101	197	.	+	.	Parent=Transcript:F41E6.2.1
+ch.14504	WormBase	gene	101	939	.	+	.	ID=Gene:WBGene00001694
+ch.14504	WormBase	mRNA	101	939	.	+	.	ID=Transcript:F41E6.2.1;Parent=Gene:WBGene00001694
+ch.14504	RNASeq_F_asymmetry	transcript_region	102	103	20897.0	.	.	
+ch.14504	RNASeq_F_asymmetry	transcript_region	104	105	38819.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	104	105	9.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	105	105	2.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	106	110	14.0	+	.	
+ch.14504	RNASeq_F_asymmetry	transcript_region	106	111	273623.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	106	111	55.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	111	123	22.0	+	.	
+ch.14504	RNASeq_F_asymmetry	transcript_region	112	121	627788.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	112	121	125.0	.	.	
+ch.14504	WormBase	CDS	119	197	.	+	.	ID=CDS:F41E6.2;Parent=Transcript:F41E6.2.1
+ch.14504	RNASeq_reads	transcript_region	122	159	192.0	.	.	
+ch.14504	RNASeq_F_asymmetry	transcript_region	122	173	946801.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	124	138	34.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	139	197	56.0	+	.	
+ch.14504	RNASeq_reads	transcript_region	160	197	291.0	.	.	
+ch.14504	RNASeq_splice	intron	181	721	3.0	-	.	
+ch.14504	RNASeq_F_asymmetry	transcript_region	198	199	142764.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	198	199	29.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	198	199	4.0	+	.	
+ch.14504	RNASeq_splice	intron	198	246	4.0	+	.	
+ch.14504	RNASeq_splice	intron	198	505	125.0	+	.	
+ch.14504	WormBase	intron	198	512	.	+	.	Parent=Transcript:F41E6.2.1
+ch.14504	RNASeq_splice	intron	198	512	1541950.0	+	.	
+ch.14504	RNASeq_reads	transcript_region	200	464	1.0	.	.	
+ch.14504	RNASeq_splice	intron	203	519	22.0	-	.	
+ch.14504	RNASeq_splice	intron	203	529	5.0	-	.	
+ch.14504	RNASeq_splice	intron	210	512	34.0	+	.	
+ch.14504	RNASeq	possible_base_call_error	326	327	.	+	.	
+ch.14504	RNASeq_splice	intron	403	505	8.0	+	.	
+ch.14504	RNASeq_splice	intron	403	512	8.0	+	.	
+ch.14504	RNASeq_reads	transcript_region	484	511	1.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	512	512	34.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	512	512	2.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	513	557	56.0	+	.	
+ch.14504	WormBase	CDS	513	742	.	+	.	ID=CDS:F41E6.2;Parent=Transcript:F41E6.2.1
+ch.14504	RNASeq_reads	transcript_region	513	844	323.0	.	.	
+ch.14504	WormBase	exon	513	939	.	+	.	Parent=Transcript:F41E6.2.1
+ch.14504	RNASeq_stranded	transcript_region	514	516	1.0	-	.	
+ch.14504	RNASeq_stranded	transcript_region	517	567	2.0	-	.	
+ch.14504	RNASeq_splice	intron	543	733	24.0	+	.	
+ch.14504	RNASeq_splice	intron	546	779	20.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	558	607	85.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	568	585	1.0	-	.	
+ch.14504	RNASeq_splice	intron	588	847	9.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	608	621	50.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	622	670	76.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	648	664	1.0	-	.	
+ch.14504	RNASeq_splice	intron	662	759	6.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	665	697	2.0	-	.	
+ch.14504	RNASeq_stranded	transcript_region	671	674	27.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	675	726	41.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	698	716	1.0	-	.	
+ch.14504	RNASeq_stranded	transcript_region	727	777	81.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	731	776	1.0	-	.	
+ch.14504	WormBase	three_prime_UTR	743	939	.	+	.	Parent=Transcript:F41E6.2.1
+ch.14504	RNASeq_stranded	transcript_region	777	799	2.0	-	.	
+ch.14504	RNASeq_stranded	transcript_region	778	889	46.0	+	.	
+ch.14504	RNASeq_stranded	transcript_region	800	854	4.0	-	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	809	870	1099990.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	845	895	206.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	855	903	8.0	-	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	871	898	725524.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	890	895	30.0	+	.	
+ch.14504	RNASeq_reads	transcript_region	896	898	135.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	896	916	19.0	+	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	899	903	398936.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	899	903	86.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	904	905	4.0	-	.	
+ch.14504	RNASeq_reads	transcript_region	904	907	31.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	906	906	1.0	+	.	
+ch.14504	RNASeq	transcription_end_site	906	906	.	+	.	
+ch.14504	RNASeq_reads	transcript_region	908	931	19.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	917	930	12.0	+	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	925	937	56996.0	.	.	
+ch.14504	RNASeq	transcription_end_site	926	926	.	+	.	
+ch.14504	RNASeq_stranded	transcript_region	931	932	7.0	+	.	
+ch.14504	RNASeq_reads	transcript_region	932	938	12.0	.	.	
+ch.14504	RNASeq_stranded	transcript_region	933	938	4.0	+	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	938	938	32196.0	.	.	
+ch.14504	RNASeq	transcription_end_site	938	938	.	+	.	
+ch.14504	RNASeq	transcription_end_site	939	939	.	+	.	
+ch.14504	RNASeq_stranded	transcript_region	939	940	1.0	+	.	
+ch.14504	RNASeq_reads	transcript_region	939	959	2.0	.	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	939	967	7591.0	.	.	
+ch.14504	RNASeq	transcription_end_site	940	940	.	+	.	
+ch.14504	RNASeq	transcription_end_site	959	959	.	+	.	
+ch.14504	RNASeq_reads	transcript_region	960	978	1.0	.	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	968	978	4684.0	.	.	
+ch.14504	RNASeq_R_asymmetry	transcript_region	979	980	1828.0	.	.	
+ch.14504	RNASeq_reads	transcript_region	992	1006	1.0	.	.	

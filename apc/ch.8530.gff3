@@ -1,0 +1,91 @@
+ch.8530	RNASeq_stranded	transcript_region	1080	1106	1.0	+	.	
+ch.8530	RNASeq_splice	intron	1034	1086	281.0	+	.	
+ch.8530	RNASeq	transcription_end_site	1085	1085	.	-	.	
+ch.8530	RNASeq_stranded	transcript_region	1009	1084	38.0	-	.	
+ch.8530	RNASeq	transcription_end_site	1075	1075	.	-	.	
+ch.8530	RNASeq	transcription_end_site	1066	1066	.	-	.	
+ch.8530	RNASeq_reads	transcript_region	884	1066	34.0	.	.	
+ch.8530	WormBase	three_prime_UTR	954	1065	.	-	.	Parent=Transcript:T20G5.9.1
+ch.8530	RNASeq	transcription_end_site	1053	1053	.	-	.	
+ch.8530	WormBase	three_prime_UTR	904	1045	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	WormBase	exon	851	1045	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	WormBase	gene	101	1045	.	+	.	ID=Gene:WBGene00011872
+ch.8530	WormBase	mRNA	101	1045	.	+	.	ID=Transcript:T20G5.10.1;Parent=Gene:WBGene00011872
+ch.8530	RNASeq	transcription_end_site	1044	1044	.	-	.	
+ch.8530	RNASeq	transcription_end_site	1043	1043	.	-	.	
+ch.8530	RNASeq	transcription_end_site	1040	1040	.	-	.	
+ch.8530	RNASeq_stranded	transcript_region	1007	1014	1.0	+	.	
+ch.8530	RNASeq_R_asymmetry	transcript_region	1011	1011	110502.0	.	.	
+ch.8530	RNASeq	transcription_end_site	1009	1009	.	-	.	
+ch.8530	RNASeq	transcription_end_site	1009	1009	.	-	.	
+ch.8530	RNASeq	transcription_end_site	1008	1008	.	-	.	
+ch.8530	RNASeq_stranded	transcript_region	987	1008	25.0	-	.	
+ch.8530	RNASeq	transcription_end_site	1007	1007	.	-	.	
+ch.8530	RNASeq_stranded	transcript_region	1002	1006	2.0	+	.	
+ch.8530	RNASeq_stranded	transcript_region	996	1001	4.0	+	.	
+ch.8530	RNASeq_stranded	transcript_region	988	995	7.0	+	.	
+ch.8530	RNASeq_stranded	transcript_region	977	987	11.0	+	.	
+ch.8530	RNASeq_R_asymmetry	transcript_region	977	986	90227.0	.	.	
+ch.8530	RNASeq_stranded	transcript_region	974	986	12.0	-	.	
+ch.8530	RNASeq_stranded	transcript_region	975	976	17.0	+	.	
+ch.8530	RNASeq_R_asymmetry	transcript_region	970	974	111552.0	.	.	
+ch.8530	RNASeq_stranded	transcript_region	860	974	45.0	+	.	
+ch.8530	RNASeq_stranded	transcript_region	965	973	7.0	-	.	
+ch.8530	RNASeq_stranded	transcript_region	957	964	4.0	-	.	
+ch.8530	RNASeq	transcription_end_site	956	956	.	-	.	
+ch.8530	RNASeq_stranded	transcript_region	954	956	2.0	-	.	
+ch.8530	RNASeq_stranded	transcript_region	945	953	1.0	-	.	
+ch.8530	RNASeq_F_asymmetry	transcript_region	927	939	126916.0	.	.	
+ch.8530	RNASeq	transcription_end_site	903	903	.	-	.	
+ch.8530	RNASeq	transcription_end_site	903	903	.	-	.	
+ch.8530	WormBase	CDS	851	903	.	+	.	ID=CDS:T20G5.10;Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_reads	transcript_region	851	883	52.0	.	.	
+ch.8530	RNASeq_stranded	transcript_region	851	859	29.0	+	.	
+ch.8530	RNASeq_splice	intron	808	853	24.0	+	.	
+ch.8530	RNASeq_splice	intron	804	853	11.0	+	.	
+ch.8530	RNASeq_reads	transcript_region	850	850	4.0	.	.	
+ch.8530	RNASeq_stranded	transcript_region	850	850	4.0	-	.	
+ch.8530	WormBase	intron	804	850	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_splice	intron	804	850	303429.0	+	.	
+ch.8530	RNASeq_stranded	transcript_region	711	803	19.0	+	.	
+ch.8530	WormBase	CDS	589	803	.	+	.	ID=CDS:T20G5.10;Parent=Transcript:T20G5.10.1
+ch.8530	WormBase	exon	589	803	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_reads	transcript_region	589	803	53.0	.	.	
+ch.8530	RNASeq_splice	intron	140	717	3.0	-	.	
+ch.8530	RNASeq_stranded	transcript_region	589	710	12.0	+	.	
+ch.8530	RNASeq_splice	intron	390	590	3.0	+	.	
+ch.8530	RNASeq_splice	intron	298	590	88.0	+	.	
+ch.8530	RNASeq_splice	intron	405	588	14.0	+	.	
+ch.8530	RNASeq_splice	intron	388	588	2780.0	+	.	
+ch.8530	WormBase	intron	298	588	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_splice	intron	298	588	258022.0	+	.	
+ch.8530	WormBase_transposon	transposable_element	323	517	.	-	.	ID=Transposon:Predicted_CELE2_6924
+ch.8530	RNASeq_stranded	transcript_region	434	468	1.0	+	.	
+ch.8530	RNASeq_reads	transcript_region	435	457	1.0	.	.	
+ch.8530	RNASeq_reads	transcript_region	298	387	1.0	.	.	
+ch.8530	RNASeq	transcription_end_site	366	366	.	-	.	
+ch.8530	RNASeq	transcription_end_site	364	364	.	-	.	
+ch.8530	RNASeq	transcription_end_site	356	356	.	-	.	
+ch.8530	RNASeq	transcription_end_site	353	353	.	-	.	
+ch.8530	RNASeq_stranded	transcript_region	265	297	12.0	+	.	
+ch.8530	WormBase	CDS	225	297	.	+	.	ID=CDS:T20G5.10;Parent=Transcript:T20G5.10.1
+ch.8530	WormBase	exon	225	297	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_reads	transcript_region	225	297	49.0	.	.	
+ch.8530	RNASeq_stranded	transcript_region	225	264	7.0	+	.	
+ch.8530	RNASeq_splice	intron	174	235	7.0	+	.	
+ch.8530	RNASeq_reads	transcript_region	224	224	7.0	.	.	
+ch.8530	RNASeq_stranded	transcript_region	223	224	1.0	+	.	
+ch.8530	WormBase	intron	174	224	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_splice	intron	174	224	200175.0	+	.	
+ch.8530	RNASeq_reads	transcript_region	223	223	4.0	.	.	
+ch.8530	RNASeq_reads	transcript_region	113	173	39.0	.	.	
+ch.8530	WormBase	CDS	107	173	.	+	.	ID=CDS:T20G5.10;Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_stranded	transcript_region	106	173	7.0	+	.	
+ch.8530	RNASeq_R_asymmetry	transcript_region	104	173	160278.0	.	.	
+ch.8530	WormBase	exon	101	173	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_reads	transcript_region	102	112	25.0	.	.	
+ch.8530	WormBase	five_prime_UTR	101	106	.	+	.	Parent=Transcript:T20G5.10.1
+ch.8530	RNASeq_stranded	transcript_region	101	105	4.0	+	.	
+ch.8530	RNASeq_R_asymmetry	transcript_region	102	103	101141.0	.	.	
+ch.8530	RNASeq_R_asymmetry	transcript_region	101	101	39197.0	.	.	
+ch.8530	RNASeq_reads	transcript_region	101	101	8.0	.	.	

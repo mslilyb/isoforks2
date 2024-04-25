@@ -1,0 +1,85 @@
+ch.8827	RNASeq_stranded	transcript_region	971	1082	79.0	-	.	
+ch.8827	RNASeq	transcription_end_site	1065	1065	.	-	.	
+ch.8827	WormBase	three_prime_UTR	947	1063	.	-	.	Parent=Transcript:Y56A3A.17.1
+ch.8827	RNASeq_stranded	transcript_region	1027	1047	1.0	+	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	1030	1043	258308.0	.	.	
+ch.8827	RNASeq_reads	transcript_region	885	1029	57.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	1024	1026	2.0	+	.	
+ch.8827	RNASeq	transcription_end_site	1024	1024	.	-	.	
+ch.8827	RNASeq_stranded	transcript_region	1022	1023	1.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	987	1021	2.0	+	.	
+ch.8827	RNASeq	transcription_end_site	1016	1016	.	-	.	
+ch.8827	RNASeq	transcription_end_site	1006	1006	.	-	.	
+ch.8827	RNASeq	transcription_end_site	1006	1006	.	-	.	
+ch.8827	RNASeq_stranded	transcript_region	986	986	4.0	-	.	
+ch.8827	RNASeq	transcription_end_site	985	985	.	-	.	
+ch.8827	RNASeq	transcription_end_site	985	985	.	-	.	
+ch.8827	RNASeq_stranded	transcript_region	982	985	8.0	+	.	
+ch.8827	WormBase	three_prime_UTR	875	984	.	+	.	Parent=Transcript:Y56A3A.18.1
+ch.8827	WormBase	exon	614	984	.	+	.	Parent=Transcript:Y56A3A.18.1
+ch.8827	WormBase	gene	101	984	.	+	.	ID=Gene:WBGene00013236
+ch.8827	WormBase	mRNA	101	984	.	+	.	ID=Transcript:Y56A3A.18.1;Parent=Gene:WBGene00013236
+ch.8827	RNASeq_stranded	transcript_region	978	981	14.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	969	977	22.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	959	970	50.0	-	.	
+ch.8827	RNASeq_stranded	transcript_region	962	968	35.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	944	961	55.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	957	958	32.0	-	.	
+ch.8827	RNASeq_stranded	transcript_region	952	956	14.0	-	.	
+ch.8827	RNASeq_stranded	transcript_region	944	951	9.0	-	.	
+ch.8827	RNASeq_stranded	transcript_region	938	943	5.0	-	.	
+ch.8827	RNASeq_stranded	transcript_region	917	943	83.0	+	.	
+ch.8827	RNASeq	transcription_end_site	937	937	.	-	.	
+ch.8827	RNASeq_stranded	transcript_region	901	937	3.0	-	.	
+ch.8827	RNASeq	transcription_end_site	935	935	.	-	.	
+ch.8827	RNASeq_stranded	transcript_region	826	916	125.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	895	900	1.0	-	.	
+ch.8827	RNASeq_reads	transcript_region	858	884	88.0	.	.	
+ch.8827	WormBase	CDS	614	874	.	+	.	ID=CDS:Y56A3A.18;Parent=Transcript:Y56A3A.18.1
+ch.8827	RNASeq_reads	transcript_region	691	857	138.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	805	825	82.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	770	819	1.0	-	.	
+ch.8827	RNASeq_splice	intron	737	807	4.0	-	.	
+ch.8827	RNASeq_stranded	transcript_region	722	804	54.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	678	721	35.0	+	.	
+ch.8827	RNASeq_reads	transcript_region	614	690	209.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	628	677	55.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	614	627	19.0	+	.	
+ch.8827	RNASeq_reads	transcript_region	612	613	16.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	612	613	2.0	+	.	
+ch.8827	WormBase	intron	233	613	.	+	.	Parent=Transcript:Y56A3A.18.1
+ch.8827	RNASeq_splice	intron	233	613	932153.0	+	.	
+ch.8827	RNASeq_splice	intron	153	613	3.0	+	.	
+ch.8827	RNASeq	transcription_end_site	611	611	.	-	.	
+ch.8827	RNASeq_reads	transcript_region	494	611	1.0	.	.	
+ch.8827	RNASeq	transcription_end_site	606	606	.	-	.	
+ch.8827	RNASeq_splice	intron	221	603	4.0	-	.	
+ch.8827	RNASeq_splice	intron	233	596	10.0	+	.	
+ch.8827	RNASeq_reads	transcript_region	233	492	1.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	177	232	15.0	+	.	
+ch.8827	RNASeq_reads	transcript_region	120	232	166.0	.	.	
+ch.8827	WormBase	CDS	107	232	.	+	.	ID=CDS:Y56A3A.18;Parent=Transcript:Y56A3A.18.1
+ch.8827	WormBase	exon	101	232	.	+	.	Parent=Transcript:Y56A3A.18.1
+ch.8827	RNASeq_R_asymmetry	transcript_region	116	198	758048.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	166	176	23.0	+	.	
+ch.8827	RNASeq_stranded	transcript_region	107	165	35.0	+	.	
+ch.8827	RNASeq_reads	transcript_region	103	119	109.0	.	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	102	115	486573.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	102	106	21.0	+	.	
+ch.8827	WormBase	five_prime_UTR	101	106	.	+	.	Parent=Transcript:Y56A3A.18.1
+ch.8827	RNASeq_reads	transcript_region	101	102	70.0	.	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	100	101	277611.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	99	101	13.0	+	.	
+ch.8827	RNASeq_reads	transcript_region	100	100	41.0	.	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	99	99	135075.0	.	.	
+ch.8827	RNASeq_reads	transcript_region	99	99	27.0	.	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	95	98	18582.0	.	.	
+ch.8827	RNASeq_reads	transcript_region	95	98	4.0	.	.	
+ch.8827	RNASeq_stranded	transcript_region	94	98	1.0	+	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	91	94	10415.0	.	.	
+ch.8827	RNASeq_reads	transcript_region	91	94	2.0	.	.	
+ch.8827	RNASeq_reads	transcript_region	87	90	1.0	.	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	49	90	2338.0	.	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	40	48	1383.0	.	.	
+ch.8827	RNASeq_R_asymmetry	transcript_region	39	39	871.0	.	.	
+ch.8827	RNASeq	transcription_end_site	17	17	.	-	.	

@@ -1,0 +1,115 @@
+ch.1595	RNASeq_stranded	transcript_region	52	98	1.0	+	.	
+ch.1595	RNASeq_reads	transcript_region	57	98	1.0	.	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	66	93	2447.0	.	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	94	98	4089.0	.	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	99	103	110079.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	99	103	22.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	99	107	9.0	+	.	
+ch.1595	WormBase	CDS	101	193	.	+	.	ID=CDS:R05D11.5;Parent=Transcript:R05D11.5.1
+ch.1595	WormBase	exon	101	193	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	WormBase	gene	101	937	.	+	.	ID=Gene:WBGene00011033
+ch.1595	WormBase	mRNA	101	937	.	+	.	ID=Transcript:R05D11.5.1;Parent=Gene:WBGene00011033
+ch.1595	RNASeq_F_asymmetry	transcript_region	104	109	171205.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	104	110	34.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	108	114	14.0	+	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	110	130	261209.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	111	134	55.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	115	137	22.0	+	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	131	181	395055.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	135	193	83.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	138	188	60.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	189	193	20.0	+	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	194	194	57886.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	194	194	12.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	194	194	5.0	+	.	
+ch.1595	WormBase	intron	194	243	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_splice	intron	194	243	462529.0	+	.	
+ch.1595	RNASeq_splice	intron	194	415	3.0	+	.	
+ch.1595	RNASeq_splice	intron	194	624	23.0	+	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	195	197	25372.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	195	197	5.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	195	197	1.0	+	.	
+ch.1595	RNASeq_reads	transcript_region	243	243	10.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	243	243	3.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	244	251	15.0	+	.	
+ch.1595	WormBase	CDS	244	361	.	+	.	ID=CDS:R05D11.5;Parent=Transcript:R05D11.5.1
+ch.1595	WormBase	exon	244	361	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_reads	transcript_region	244	361	97.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	252	361	23.0	+	.	
+ch.1595	RNASeq_splice	intron	263	316	314.0	+	.	
+ch.1595	RNASeq_splice	intron	263	415	4.0	+	.	
+ch.1595	RNASeq_splice	intron	287	682	53.0	+	.	
+ch.1595	RNASeq_reads	transcript_region	362	365	1.0	.	.	
+ch.1595	WormBase	intron	362	415	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_splice	intron	362	415	561508.0	+	.	
+ch.1595	RNASeq_splice	intron	362	418	54.0	+	.	
+ch.1595	RNASeq_splice	intron	362	423	26.0	+	.	
+ch.1595	RNASeq_splice	intron	362	436	8.0	+	.	
+ch.1595	RNASeq_splice	intron	362	624	16.0	+	.	
+ch.1595	RNASeq_splice	intron	366	415	1252.0	+	.	
+ch.1595	RNASeq_splice	intron	366	418	138.0	+	.	
+ch.1595	RNASeq_splice	intron	370	415	9.0	+	.	
+ch.1595	RNASeq_reads	transcript_region	414	415	1.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	416	434	22.0	+	.	
+ch.1595	WormBase	CDS	416	528	.	+	.	ID=CDS:R05D11.5;Parent=Transcript:R05D11.5.1
+ch.1595	WormBase	exon	416	528	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_reads	transcript_region	416	528	101.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	435	473	34.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	474	523	55.0	+	.	
+ch.1595	RNASeq_splice	intron	494	624	19.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	504	513	1.0	-	.	
+ch.1595	RNASeq_stranded	transcript_region	515	515	1.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	524	524	34.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	525	528	21.0	+	.	
+ch.1595	WormBase	intron	529	624	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_splice	intron	529	624	472183.0	+	.	
+ch.1595	RNASeq_splice	intron	529	1035	7.0	+	.	
+ch.1595	RNASeq_reads	transcript_region	622	624	6.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	622	624	1.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	625	633	21.0	+	.	
+ch.1595	WormBase	CDS	625	810	.	+	.	ID=CDS:R05D11.5;Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_reads	transcript_region	625	829	89.0	.	.	
+ch.1595	WormBase	exon	625	937	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_stranded	transcript_region	629	683	1.0	-	.	
+ch.1595	RNASeq_stranded	transcript_region	634	670	34.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	671	693	53.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	684	767	2.0	-	.	
+ch.1595	RNASeq_stranded	transcript_region	694	713	34.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	714	829	52.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	768	785	1.0	-	.	
+ch.1595	RNASeq_stranded	transcript_region	790	831	1.0	-	.	
+ch.1595	RNASeq_splice	intron	793	1035	38.0	+	.	
+ch.1595	RNASeq_splice	intron	798	1035	6.0	+	.	
+ch.1595	RNASeq	transcription_end_site	806	806	.	+	.	
+ch.1595	WormBase	three_prime_UTR	811	937	.	+	.	Parent=Transcript:R05D11.5.1
+ch.1595	RNASeq_reads	transcript_region	830	863	58.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	830	878	80.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	834	834	1.0	+	.	
+ch.1595	RNASeq	transcription_end_site	846	846	.	+	.	
+ch.1595	RNASeq	transcription_end_site	864	864	.	+	.	
+ch.1595	RNASeq_reads	transcript_region	864	886	38.0	.	.	
+ch.1595	RNASeq	transcription_end_site	866	866	.	+	.	
+ch.1595	RNASeq_stranded	transcript_region	866	872	1.0	-	.	
+ch.1595	RNASeq_stranded	transcript_region	879	900	51.0	+	.	
+ch.1595	RNASeq_reads	transcript_region	887	906	25.0	.	.	
+ch.1595	RNASeq	transcription_end_site	898	898	.	+	.	
+ch.1595	RNASeq_stranded	transcript_region	901	912	31.0	+	.	
+ch.1595	RNASeq_R_asymmetry	transcript_region	906	916	66742.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	907	918	16.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	913	920	20.0	+	.	
+ch.1595	RNASeq_R_asymmetry	transcript_region	918	918	42227.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	919	925	10.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	921	928	13.0	+	.	
+ch.1595	RNASeq_reads	transcript_region	926	934	6.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	929	931	8.0	+	.	
+ch.1595	RNASeq_stranded	transcript_region	932	934	5.0	+	.	
+ch.1595	RNASeq_R_asymmetry	transcript_region	933	935	14950.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	935	939	3.0	.	.	
+ch.1595	RNASeq_stranded	transcript_region	935	940	3.0	+	.	
+ch.1595	RNASeq	transcription_end_site	936	936	.	+	.	
+ch.1595	RNASeq_reads	transcript_region	940	940	1.0	.	.	
+ch.1595	RNASeq	transcription_end_site	940	940	.	+	.	
+ch.1595	RNASeq	transcription_end_site	941	941	.	+	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	992	1022	1547.0	.	.	
+ch.1595	RNASeq_reads	transcript_region	1019	1033	1.0	.	.	
+ch.1595	RNASeq_F_asymmetry	transcript_region	1030	1033	3586.0	.	.	

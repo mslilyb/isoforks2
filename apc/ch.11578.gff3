@@ -1,0 +1,98 @@
+ch.11578	RNASeq_splice	intron	58	100	10.0	+	.	
+ch.11578	RNASeq_splice	intron	60	100	23.0	+	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	89	91	9178.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	89	92	2.0	.	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	92	93	14270.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	92	94	1.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	93	94	4.0	.	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	94	94	21872.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	95	98	2.0	+	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	95	100	77694.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	95	100	16.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	99	112	14.0	+	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	101	103	135186.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	101	103	27.0	.	.	
+ch.11578	WormBase	five_prime_UTR	101	103	.	+	.	Parent=Transcript:T12G3.5.1
+ch.11578	WormBase	exon	101	236	.	+	.	Parent=Transcript:T12G3.5.1
+ch.11578	WormBase	gene	101	931	.	+	.	ID=Gene:WBGene00011740
+ch.11578	WormBase	mRNA	101	931	.	+	.	ID=Transcript:T12G3.5.1;Parent=Gene:WBGene00011740
+ch.11578	RNASeq_F_asymmetry	transcript_region	104	111	208509.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	104	111	41.0	.	.	
+ch.11578	WormBase	CDS	104	236	.	+	.	ID=CDS:T12G3.5;Parent=Transcript:T12G3.5.1
+ch.11578	RNASeq_reads	transcript_region	112	167	66.0	.	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	112	173	329289.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	113	233	22.0	+	.	
+ch.11578	RNASeq_splice	intron	157	201	16.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	168	236	100.0	.	.	
+ch.11578	RNASeq_splice	intron	178	326	6.0	-	.	
+ch.11578	RNASeq_splice	intron	197	429	3.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	217	236	1.0	-	.	
+ch.11578	RNASeq_stranded	transcript_region	234	236	14.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	237	238	13.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	237	238	1.0	+	.	
+ch.11578	WormBase	intron	237	284	.	+	.	Parent=Transcript:T12G3.5.1
+ch.11578	RNASeq_splice	intron	237	284	524897.0	+	.	
+ch.11578	RNASeq_splice	intron	237	311	5.0	+	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	238	238	36282.0	.	.	
+ch.11578	RNASeq_F_asymmetry	transcript_region	239	243	7797.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	239	243	2.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	284	284	12.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	284	284	1.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	285	305	12.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	285	315	1.0	-	.	
+ch.11578	RNASeq_reads	transcript_region	285	433	96.0	.	.	
+ch.11578	WormBase	CDS	285	649	.	+	.	ID=CDS:T12G3.5;Parent=Transcript:T12G3.5.1
+ch.11578	WormBase	exon	285	649	.	+	.	Parent=Transcript:T12G3.5.1
+ch.11578	RNASeq_stranded	transcript_region	306	457	19.0	+	.	
+ch.11578	RNASeq_splice	intron	417	593	3.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	434	649	145.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	458	494	29.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	460	504	1.0	-	.	
+ch.11578	RNASeq_stranded	transcript_region	495	501	44.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	502	549	67.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	550	588	39.0	+	.	
+ch.11578	RNASeq_splice	intron	551	761	22.0	-	.	
+ch.11578	RNASeq_stranded	transcript_region	552	554	1.0	-	.	
+ch.11578	RNASeq_stranded	transcript_region	557	650	1.0	-	.	
+ch.11578	RNASeq_stranded	transcript_region	589	641	77.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	642	649	47.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	650	650	16.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	650	650	11.0	+	.	
+ch.11578	WormBase	intron	650	701	.	+	.	Parent=Transcript:T12G3.5.1
+ch.11578	RNASeq_splice	intron	650	701	570161.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	651	653	6.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	651	653	1.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	699	701	13.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	699	701	15.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	702	731	1.0	-	.	
+ch.11578	RNASeq_reads	transcript_region	702	765	112.0	.	.	
+ch.11578	WormBase	CDS	702	803	.	+	.	ID=CDS:T12G3.5;Parent=Transcript:T12G3.5.1
+ch.11578	RNASeq_stranded	transcript_region	702	811	48.0	+	.	
+ch.11578	WormBase	exon	702	931	.	+	.	Parent=Transcript:T12G3.5.1
+ch.11578	RNASeq_reads	transcript_region	766	799	73.0	.	.	
+ch.11578	RNASeq	transcription_end_site	797	797	.	+	.	
+ch.11578	RNASeq_reads	transcript_region	800	894	48.0	.	.	
+ch.11578	WormBase	three_prime_UTR	804	931	.	+	.	Parent=Transcript:T12G3.5.1
+ch.11578	RNASeq_stranded	transcript_region	812	887	73.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	854	931	1.0	-	.	
+ch.11578	RNASeq	transcription_end_site	872	872	.	+	.	
+ch.11578	RNASeq_R_asymmetry	transcript_region	877	907	155283.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	888	907	48.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	895	913	31.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	908	917	31.0	+	.	
+ch.11578	RNASeq_R_asymmetry	transcript_region	908	926	96408.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	914	926	20.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	918	925	20.0	+	.	
+ch.11578	RNASeq_stranded	transcript_region	926	931	13.0	+	.	
+ch.11578	RNASeq_R_asymmetry	transcript_region	927	931	54652.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	927	931	13.0	.	.	
+ch.11578	RNASeq_reads	transcript_region	932	932	6.0	.	.	
+ch.11578	RNASeq_stranded	transcript_region	932	932	8.0	+	.	
+ch.11578	RNASeq	transcription_end_site	932	932	.	+	.	
+ch.11578	RNASeq_stranded	transcript_region	933	940	1.0	+	.	
+ch.11578	RNASeq_reads	transcript_region	933	976	3.0	.	.	
+ch.11578	RNASeq	transcription_end_site	935	935	.	+	.	
+ch.11578	RNASeq	transcription_end_site	937	937	.	+	.	
+ch.11578	RNASeq	transcription_end_site	938	938	.	+	.	
+ch.11578	RNASeq	transcription_end_site	941	941	.	+	.	
+ch.11578	RNASeq	transcription_end_site	961	961	.	+	.	

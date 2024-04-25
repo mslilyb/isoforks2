@@ -1,0 +1,97 @@
+ch.1227	RNASeq_reads	transcript_region	97	98	2.0	.	.	
+ch.1227	RNASeq_F_asymmetry	transcript_region	99	103	179521.0	.	.	
+ch.1227	RNASeq_reads	transcript_region	99	103	35.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	99	103	18.0	+	.	
+ch.1227	WormBase	five_prime_UTR	101	115	.	+	.	Parent=Transcript:H27M09.2.1
+ch.1227	WormBase	exon	101	175	.	+	.	Parent=Transcript:H27M09.2.1
+ch.1227	WormBase	gene	101	945	.	+	.	ID=Gene:WBGene00019246
+ch.1227	WormBase	mRNA	101	945	.	+	.	ID=Transcript:H27M09.2.1;Parent=Gene:WBGene00019246
+ch.1227	RNASeq_stranded	transcript_region	104	105	29.0	+	.	
+ch.1227	RNASeq_F_asymmetry	transcript_region	104	109	295286.0	.	.	
+ch.1227	RNASeq_reads	transcript_region	104	109	58.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	106	121	62.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	110	124	91.0	.	.	
+ch.1227	RNASeq_F_asymmetry	transcript_region	110	126	468668.0	.	.	
+ch.1227	WormBase	CDS	116	175	.	+	.	ID=CDS:H27M09.2;Parent=Transcript:H27M09.2.1
+ch.1227	RNASeq_stranded	transcript_region	122	167	98.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	125	175	137.0	.	.	
+ch.1227	RNASeq_F_asymmetry	transcript_region	127	175	713362.0	.	.	
+ch.1227	RNASeq_splice	intron	167	220	216.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	168	175	62.0	+	.	
+ch.1227	RNASeq_F_asymmetry	transcript_region	176	176	1224.0	.	.	
+ch.1227	WormBase	intron	176	220	.	+	.	Parent=Transcript:H27M09.2.1
+ch.1227	RNASeq_splice	intron	176	220	828792.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	216	218	10.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	216	218	1.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	219	220	18.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	219	220	3.0	+	.	
+ch.1227	RNASeq_F_asymmetry	transcript_region	221	227	667706.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	221	366	40.0	+	.	
+ch.1227	WormBase	CDS	221	651	.	+	.	ID=CDS:H27M09.2;Parent=Transcript:H27M09.2.1
+ch.1227	WormBase	exon	221	651	.	+	.	Parent=Transcript:H27M09.2.1
+ch.1227	RNASeq_reads	transcript_region	221	651	162.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	241	273	1.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	274	297	2.0	-	.	
+ch.1227	RNASeq_splice	intron	287	332	30.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	298	330	1.0	-	.	
+ch.1227	RNASeq_splice	intron	309	355	8.0	-	.	
+ch.1227	RNASeq_splice	intron	339	579	19.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	358	359	1.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	367	398	1.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	367	403	68.0	+	.	
+ch.1227	RNASeq_splice	intron	379	428	3828.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	399	468	2.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	404	417	43.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	418	482	25.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	469	640	1.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	483	531	38.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	532	582	25.0	+	.	
+ch.1227	RNASeq_splice	intron	561	587	3.0	-	.	
+ch.1227	RNASeq_splice	intron	572	696	4.0	+	.	
+ch.1227	RNASeq_splice	intron	581	616	4.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	583	617	38.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	618	649	59.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	650	651	38.0	+	.	
+ch.1227	WormBase	intron	652	696	.	+	.	Parent=Transcript:H27M09.2.1
+ch.1227	RNASeq_reads	transcript_region	652	696	1.0	.	.	
+ch.1227	RNASeq_splice	intron	652	696	944320.0	+	.	
+ch.1227	RNASeq_splice	intron	652	706	1310.0	+	.	
+ch.1227	RNASeq_splice	intron	652	715	389.0	+	.	
+ch.1227	RNASeq_splice	intron	658	701	53.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	697	716	35.0	+	.	
+ch.1227	WormBase	CDS	697	841	.	+	.	ID=CDS:H27M09.2;Parent=Transcript:H27M09.2.1
+ch.1227	RNASeq_reads	transcript_region	697	868	179.0	.	.	
+ch.1227	WormBase	exon	697	945	.	+	.	Parent=Transcript:H27M09.2.1
+ch.1227	RNASeq_stranded	transcript_region	717	782	53.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	783	838	82.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	808	810	1.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	811	858	2.0	-	.	
+ch.1227	RNASeq_stranded	transcript_region	839	920	124.0	+	.	
+ch.1227	WormBase	three_prime_UTR	842	945	.	+	.	Parent=Transcript:H27M09.2.1
+ch.1227	RNASeq_stranded	transcript_region	859	859	1.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	863	972	1.0	-	.	
+ch.1227	RNASeq_reads	transcript_region	869	923	114.0	.	.	
+ch.1227	RNASeq_R_asymmetry	transcript_region	908	928	345474.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	921	931	81.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	924	928	75.0	.	.	
+ch.1227	RNASeq_reads	transcript_region	929	939	48.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	932	950	51.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	940	951	29.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	951	955	33.0	+	.	
+ch.1227	RNASeq	transcription_end_site	952	952	.	+	.	
+ch.1227	RNASeq_reads	transcript_region	952	953	17.0	.	.	
+ch.1227	RNASeq	transcription_end_site	953	953	.	+	.	
+ch.1227	RNASeq	transcription_end_site	954	954	.	+	.	
+ch.1227	RNASeq_reads	transcript_region	954	973	10.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	956	963	21.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	964	970	11.0	+	.	
+ch.1227	RNASeq_R_asymmetry	transcript_region	970	984	28253.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	971	997	7.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	974	997	6.0	.	.	
+ch.1227	RNASeq	transcription_end_site	977	977	.	+	.	
+ch.1227	RNASeq_R_asymmetry	transcript_region	985	990	18475.0	.	.	
+ch.1227	RNASeq_reads	transcript_region	998	1014	3.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	998	1014	4.0	+	.	
+ch.1227	RNASeq_stranded	transcript_region	1015	1018	2.0	+	.	
+ch.1227	RNASeq_reads	transcript_region	1015	1025	1.0	.	.	
+ch.1227	RNASeq_stranded	transcript_region	1019	1028	1.0	+	.	

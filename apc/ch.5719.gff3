@@ -1,0 +1,56 @@
+ch.5719	RNASeq_F_asymmetry	transcript_region	17	25	861.0	.	.	
+ch.5719	RNASeq_F_asymmetry	transcript_region	26	46	1352.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	49	69	1.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	70	81	2.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	70	105	1.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	82	91	4.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	92	105	9.0	.	.	
+ch.5719	WormBase	five_prime_UTR	101	144	.	+	.	Parent=Transcript:T24F1.7.1
+ch.5719	WormBase	exon	101	291	.	+	.	Parent=Transcript:T24F1.7.1
+ch.5719	WormBase	gene	101	924	.	+	.	ID=Gene:WBGene00011999
+ch.5719	WormBase	mRNA	101	924	.	+	.	ID=Transcript:T24F1.7.1;Parent=Gene:WBGene00011999
+ch.5719	RNASeq_stranded	transcript_region	106	113	2.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	106	115	14.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	114	132	4.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	116	124	23.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	125	150	35.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	133	148	8.0	+	.	
+ch.5719	WormBase	CDS	145	291	.	+	.	ID=CDS:T24F1.7;Parent=Transcript:T24F1.7.1
+ch.5719	RNASeq_stranded	transcript_region	149	198	13.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	151	209	53.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	199	237	8.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	210	291	80.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	238	254	5.0	+	.	
+ch.5719	RNASeq_stranded	transcript_region	255	291	3.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	292	294	1.0	.	.	
+ch.5719	WormBase	intron	292	759	.	+	.	Parent=Transcript:T24F1.7.1
+ch.5719	RNASeq_splice	intron	292	759	366719.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	517	518	1.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	561	564	1.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	758	759	4.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	760	771	4.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	760	832	71.0	.	.	
+ch.5719	WormBase	CDS	760	849	.	+	.	ID=CDS:T24F1.7;Parent=Transcript:T24F1.7.1
+ch.5719	WormBase	exon	760	924	.	+	.	Parent=Transcript:T24F1.7.1
+ch.5719	RNASeq_stranded	transcript_region	772	816	7.0	+	.	
+ch.5719	RNASeq_stranded	transcript_region	813	863	1.0	-	.	
+ch.5719	RNASeq_stranded	transcript_region	817	832	4.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	833	861	45.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	833	910	2.0	+	.	
+ch.5719	WormBase	three_prime_UTR	850	924	.	+	.	Parent=Transcript:T24F1.7.1
+ch.5719	RNASeq_reads	transcript_region	862	883	29.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	884	902	19.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	903	912	12.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	911	924	1.0	+	.	
+ch.5719	RNASeq_reads	transcript_region	913	920	7.0	.	.	
+ch.5719	RNASeq_stranded	transcript_region	920	987	1.0	-	.	
+ch.5719	RNASeq_reads	transcript_region	921	923	4.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	924	926	2.0	.	.	
+ch.5719	RNASeq_reads	transcript_region	927	974	1.0	.	.	
+ch.5719	RNASeq	transcription_end_site	972	972	.	+	.	
+ch.5719	RNASeq	transcription_end_site	972	972	.	+	.	
+ch.5719	RNASeq	transcription_end_site	973	973	.	+	.	
+ch.5719	RNASeq	transcription_end_site	973	973	.	+	.	
+ch.5719	RNASeq_reads	transcript_region	975	1010	2.0	.	.	
+ch.5719	RNASeq_F_asymmetry	transcript_region	976	995	8639.0	.	.	
+ch.5719	RNASeq_F_asymmetry	transcript_region	996	1009	13674.0	.	.	

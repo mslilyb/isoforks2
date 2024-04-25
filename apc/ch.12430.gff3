@@ -1,0 +1,92 @@
+ch.12430	RNASeq_reads	transcript_region	1017	1059	3.0	.	.	
+ch.12430	RNASeq_R_asymmetry	transcript_region	1045	1048	11153.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	1023	1048	1.0	-	.	
+ch.12430	RNASeq_R_asymmetry	transcript_region	1027	1043	9322.0	.	.	
+ch.12430	WormBase	three_prime_UTR	961	1025	.	-	.	Parent=Transcript:C30H6.6.1
+ch.12430	WormBase	three_prime_UTR	866	1024	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	WormBase	exon	650	1024	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	WormBase	gene	101	1024	.	+	.	ID=Gene:WBGene00007826
+ch.12430	WormBase	mRNA	101	1024	.	+	.	ID=Transcript:C30H6.9.1;Parent=Gene:WBGene00007826
+ch.12430	RNASeq_stranded	transcript_region	1018	1022	1.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	969	1022	2.0	-	.	
+ch.12430	RNASeq_stranded	transcript_region	1006	1017	2.0	+	.	
+ch.12430	RNASeq_reads	transcript_region	1000	1016	5.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	990	1005	4.0	+	.	
+ch.12430	RNASeq_reads	transcript_region	969	999	8.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	970	989	7.0	+	.	
+ch.12430	RNASeq_F_asymmetry	transcript_region	958	979	44136.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	958	969	11.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	951	968	1.0	-	.	
+ch.12430	RNASeq_reads	transcript_region	947	968	13.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	855	957	17.0	+	.	
+ch.12430	RNASeq	transcription_end_site	953	953	.	-	.	
+ch.12430	RNASeq	transcription_end_site	951	951	.	-	.	
+ch.12430	RNASeq	transcription_end_site	951	951	.	-	.	
+ch.12430	RNASeq_stranded	transcript_region	920	948	1.0	-	.	
+ch.12430	RNASeq_F_asymmetry	transcript_region	926	947	75541.0	.	.	
+ch.12430	RNASeq_reads	transcript_region	886	946	20.0	.	.	
+ch.12430	RNASeq	transcription_end_site	917	917	.	-	.	
+ch.12430	RNASeq	transcription_end_site	917	917	.	-	.	
+ch.12430	RNASeq_stranded	transcript_region	916	916	1.0	-	.	
+ch.12430	RNASeq	transcription_end_site	901	901	.	-	.	
+ch.12430	RNASeq_reads	transcript_region	792	885	31.0	.	.	
+ch.12430	WormBase	CDS	650	865	.	+	.	ID=CDS:C30H6.9;Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq	transcription_end_site	860	860	.	-	.	
+ch.12430	RNASeq	transcription_end_site	860	860	.	-	.	
+ch.12430	RNASeq_stranded	transcript_region	760	854	11.0	+	.	
+ch.12430	RNASeq_reads	transcript_region	650	791	47.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	677	759	7.0	+	.	
+ch.12430	RNASeq_splice	intron	689	734	9.0	+	.	
+ch.12430	RNASeq_splice	intron	581	686	7.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	660	676	4.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	650	659	7.0	+	.	
+ch.12430	WormBase	intron	581	649	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq_splice	intron	581	649	205554.0	+	.	
+ch.12430	RNASeq_splice	intron	223	649	4.0	+	.	
+ch.12430	RNASeq_reads	transcript_region	581	582	4.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	581	582	2.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	553	580	8.0	+	.	
+ch.12430	WormBase	CDS	397	580	.	+	.	ID=CDS:C30H6.9;Parent=Transcript:C30H6.9.1
+ch.12430	WormBase	exon	397	580	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq_reads	transcript_region	397	580	38.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	540	552	13.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	429	539	8.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	496	519	1.0	-	.	
+ch.12430	RNASeq_stranded	transcript_region	397	428	5.0	+	.	
+ch.12430	RNASeq_reads	transcript_region	394	396	2.0	.	.	
+ch.12430	WormBase	intron	352	396	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq_splice	intron	352	396	199534.0	+	.	
+ch.12430	RNASeq_reads	transcript_region	368	393	1.0	.	.	
+ch.12430	RNASeq_splice	intron	341	387	5.0	-	.	
+ch.12430	RNASeq_reads	transcript_region	352	363	1.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	331	351	5.0	+	.	
+ch.12430	WormBase	CDS	273	351	.	+	.	ID=CDS:C30H6.9;Parent=Transcript:C30H6.9.1
+ch.12430	WormBase	exon	273	351	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq_reads	transcript_region	273	351	37.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	273	330	8.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	273	287	1.0	-	.	
+ch.12430	RNASeq_reads	transcript_region	271	272	5.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	271	272	2.0	+	.	
+ch.12430	WormBase	intron	223	272	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq_splice	intron	223	272	224971.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	191	222	10.0	+	.	
+ch.12430	RNASeq_stranded	transcript_region	138	222	1.0	-	.	
+ch.12430	RNASeq_reads	transcript_region	133	222	45.0	.	.	
+ch.12430	WormBase	CDS	102	222	.	+	.	ID=CDS:C30H6.9;Parent=Transcript:C30H6.9.1
+ch.12430	WormBase	exon	101	222	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq_stranded	transcript_region	130	190	17.0	+	.	
+ch.12430	RNASeq_R_asymmetry	transcript_region	124	171	182815.0	.	.	
+ch.12430	RNASeq_reads	transcript_region	111	132	29.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	129	129	11.0	-	.	
+ch.12430	RNASeq_stranded	transcript_region	109	128	5.0	+	.	
+ch.12430	RNASeq_R_asymmetry	transcript_region	104	123	118600.0	.	.	
+ch.12430	RNASeq_reads	transcript_region	104	110	19.0	.	.	
+ch.12430	RNASeq_stranded	transcript_region	99	108	3.0	+	.	
+ch.12430	RNASeq_R_asymmetry	transcript_region	100	103	48835.0	.	.	
+ch.12430	RNASeq_reads	transcript_region	100	103	10.0	.	.	
+ch.12430	WormBase	five_prime_UTR	101	101	.	+	.	Parent=Transcript:C30H6.9.1
+ch.12430	RNASeq_splice	intron	58	100	21.0	+	.	
+ch.12430	RNASeq_R_asymmetry	transcript_region	95	99	30213.0	.	.	
+ch.12430	RNASeq_reads	transcript_region	95	99	6.0	.	.	
+ch.12430	RNASeq_R_asymmetry	transcript_region	88	94	3683.0	.	.	
+ch.12430	RNASeq_reads	transcript_region	88	94	1.0	.	.	

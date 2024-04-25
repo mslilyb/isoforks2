@@ -1,0 +1,121 @@
+ch.8829	RNASeq_reads	transcript_region	90	98	2.0	.	.	
+ch.8829	RNASeq_F_asymmetry	transcript_region	99	101	573434.0	.	.	
+ch.8829	RNASeq_reads	transcript_region	99	101	112.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	99	102	26.0	+	.	
+ch.8829	WormBase	five_prime_UTR	101	106	.	+	.	Parent=Transcript:Y56A3A.21.1
+ch.8829	WormBase	exon	101	152	.	+	.	Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_splice	intron	101	286	13.0	+	.	
+ch.8829	WormBase	gene	101	952	.	+	.	ID=Gene:WBGene00013238
+ch.8829	WormBase	mRNA	101	952	.	+	.	ID=Transcript:Y56A3A.21.1;Parent=Gene:WBGene00013238
+ch.8829	RNASeq_F_asymmetry	transcript_region	102	109	861011.0	.	.	
+ch.8829	RNASeq_reads	transcript_region	102	109	169.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	103	127	40.0	+	.	
+ch.8829	WormBase	CDS	107	152	.	+	.	ID=CDS:Y56A3A.21;Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_reads	transcript_region	110	126	288.0	.	.	
+ch.8829	RNASeq_F_asymmetry	transcript_region	110	127	1457770.0	.	.	
+ch.8829	RNASeq_reads	transcript_region	127	152	434.0	.	.	
+ch.8829	RNASeq_F_asymmetry	transcript_region	128	152	2213040.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	128	152	61.0	+	.	
+ch.8829	RNASeq_splice	intron	134	317	3.0	-	.	
+ch.8829	RNASeq_splice	intron	147	380	7.0	-	.	
+ch.8829	RNASeq_F_asymmetry	transcript_region	153	153	154045.0	.	.	
+ch.8829	RNASeq_reads	transcript_region	153	153	30.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	153	153	7.0	+	.	
+ch.8829	RNASeq_splice	intron	153	240	5.0	+	.	
+ch.8829	WormBase	intron	153	286	.	+	.	Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_splice	intron	153	286	2843070.0	+	.	
+ch.8829	RNASeq_splice	intron	153	294	4.0	+	.	
+ch.8829	RNASeq_splice	intron	153	300	3.0	+	.	
+ch.8829	RNASeq_reads	transcript_region	154	286	1.0	.	.	
+ch.8829	RNASeq_splice	intron	157	294	4.0	+	.	
+ch.8829	RNASeq_splice	intron	242	286	12.0	+	.	
+ch.8829	RNASeq_F_asymmetry	transcript_region	287	303	2185190.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	287	328	63.0	+	.	
+ch.8829	WormBase	CDS	287	615	.	+	.	ID=CDS:Y56A3A.21;Parent=Transcript:Y56A3A.21.1
+ch.8829	WormBase	exon	287	615	.	+	.	Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_reads	transcript_region	287	615	499.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	308	322	1.0	-	.	
+ch.8829	RNASeq_splice	intron	309	375	3.0	+	.	
+ch.8829	RNASeq_splice	intron	309	474	29.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	323	342	2.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	329	379	113.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	343	352	4.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	353	403	7.0	-	.	
+ch.8829	RNASeq_splice	intron	363	521	4.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	380	398	67.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	399	415	101.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	404	413	2.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	414	428	1.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	416	449	167.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	429	440	2.0	-	.	
+ch.8829	RNASeq_splice	intron	434	504	8.0	+	.	
+ch.8829	RNASeq_splice	intron	439	470	17.0	-	.	
+ch.8829	RNASeq_splice	intron	439	675	7.0	-	.	
+ch.8829	RNASeq_splice	intron	439	708	7.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	441	496	1.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	450	470	109.0	+	.	
+ch.8829	RNASeq_splice	intron	454	534	7.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	471	615	71.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	497	518	2.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	519	568	4.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	569	575	2.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	576	612	1.0	-	.	
+ch.8829	RNASeq_reads	transcript_region	616	616	55.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	616	616	16.0	+	.	
+ch.8829	WormBase	intron	616	667	.	+	.	Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_splice	intron	616	667	2684370.0	+	.	
+ch.8829	RNASeq_reads	transcript_region	617	666	1.0	.	.	
+ch.8829	RNASeq_reads	transcript_region	667	667	79.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	667	667	13.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	668	693	83.0	+	.	
+ch.8829	WormBase	CDS	668	772	.	+	.	ID=CDS:Y56A3A.21;Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_reads	transcript_region	668	801	535.0	.	.	
+ch.8829	WormBase	exon	668	952	.	+	.	Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_stranded	transcript_region	694	807	125.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	702	719	1.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	720	745	2.0	-	.	
+ch.8829	RNASeq_splice	intron	741	894	5.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	746	802	4.0	-	.	
+ch.8829	WormBase	three_prime_UTR	773	952	.	+	.	Parent=Transcript:Y56A3A.21.1
+ch.8829	RNASeq_reads	transcript_region	802	925	347.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	803	804	2.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	805	816	1.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	808	892	190.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	833	834	1.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	835	836	2.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	837	846	4.0	-	.	
+ch.8829	RNASeq	transcription_end_site	839	839	.	+	.	
+ch.8829	RNASeq_stranded	transcript_region	847	866	8.0	-	.	
+ch.8829	RNASeq_R_asymmetry	transcript_region	851	892	1216820.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	867	877	13.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	878	926	20.0	-	.	
+ch.8829	RNASeq	transcription_end_site	880	880	.	+	.	
+ch.8829	RNASeq_stranded	transcript_region	893	927	656.0	+	.	
+ch.8829	RNASeq_reads	transcript_region	926	927	225.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	927	934	9.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	928	932	149.0	+	.	
+ch.8829	RNASeq_reads	transcript_region	928	934	108.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	933	947	98.0	+	.	
+ch.8829	RNASeq_stranded	transcript_region	935	945	5.0	-	.	
+ch.8829	RNASeq_reads	transcript_region	935	949	68.0	.	.	
+ch.8829	RNASeq	transcription_end_site	937	937	.	+	.	
+ch.8829	RNASeq_stranded	transcript_region	946	954	3.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	948	952	63.0	+	.	
+ch.8829	RNASeq_reads	transcript_region	950	953	43.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	953	954	38.0	+	.	
+ch.8829	RNASeq_reads	transcript_region	954	955	28.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	955	956	1.0	-	.	
+ch.8829	RNASeq_stranded	transcript_region	955	956	25.0	+	.	
+ch.8829	RNASeq_reads	transcript_region	956	956	14.0	.	.	
+ch.8829	RNASeq_reads	transcript_region	957	964	8.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	957	966	7.0	+	.	
+ch.8829	RNASeq	transcription_end_site	964	964	.	+	.	
+ch.8829	RNASeq_reads	transcript_region	965	982	5.0	.	.	
+ch.8829	RNASeq_stranded	transcript_region	967	973	4.0	+	.	
+ch.8829	RNASeq	transcription_end_site	970	970	.	+	.	
+ch.8829	RNASeq_stranded	transcript_region	974	982	2.0	+	.	
+ch.8829	RNASeq	transcription_end_site	983	983	.	+	.	
+ch.8829	RNASeq_stranded	transcript_region	983	1028	1.0	+	.	
+ch.8829	RNASeq	transcription_end_site	984	984	.	+	.	
+ch.8829	RNASeq	transcription_end_site	986	986	.	+	.	
+ch.8829	RNASeq	transcription_end_site	991	991	.	+	.	

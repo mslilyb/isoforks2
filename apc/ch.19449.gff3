@@ -1,0 +1,85 @@
+ch.19449	RNASeq_splice	intron	1007	1056	26.0	-	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	1019	1032	622.0	.	.	
+ch.19449	RNASeq	transcription_end_site	1017	1017	.	-	.	
+ch.19449	RNASeq	transcription_end_site	1017	1017	.	-	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	1016	1017	802.0	.	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	1015	1015	2422.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	1014	1015	1.0	.	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	1014	1014	5130.0	.	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	1010	1013	7915.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	1008	1013	2.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	1003	1013	2.0	+	.	
+ch.19449	RNASeq	transcription_end_site	1011	1011	.	-	.	
+ch.19449	WormBase	three_prime_UTR	937	1010	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	WormBase	exon	688	1010	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	WormBase	gene	101	1010	.	+	.	ID=Gene:WBGene00008207
+ch.19449	WormBase	mRNA	101	1010	.	+	.	ID=Transcript:C49F5.3.1;Parent=Gene:WBGene00008207
+ch.19449	RNASeq_F_asymmetry	transcript_region	1004	1009	14710.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	991	1007	4.0	.	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	985	1003	22394.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	994	1002	4.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	967	993	7.0	+	.	
+ch.19449	RNASeq_reads	transcript_region	984	990	7.0	.	.	
+ch.19449	RNASeq	transcription_end_site	987	987	.	-	.	
+ch.19449	RNASeq	transcription_end_site	987	987	.	-	.	
+ch.19449	RNASeq	transcription_end_site	986	986	.	-	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	983	984	34139.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	972	983	11.0	.	.	
+ch.19449	RNASeq_F_asymmetry	transcript_region	953	982	57670.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	913	971	17.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	947	966	11.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	922	946	17.0	+	.	
+ch.19449	WormBase	CDS	688	936	.	+	.	ID=CDS:C49F5.3;Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_stranded	transcript_region	894	921	26.0	+	.	
+ch.19449	RNASeq_reads	transcript_region	688	912	26.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	879	893	16.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	855	878	10.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	785	854	6.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	742	784	3.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	690	741	5.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	688	689	3.0	+	.	
+ch.19449	RNASeq_reads	transcript_region	685	687	3.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	685	687	1.0	+	.	
+ch.19449	WormBase	intron	579	687	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_splice	intron	579	687	115101.0	+	.	
+ch.19449	RNASeq_reads	transcript_region	582	582	1.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	579	581	2.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	557	578	3.0	+	.	
+ch.19449	WormBase	CDS	453	578	.	+	.	ID=CDS:C49F5.3;Parent=Transcript:C49F5.3.1
+ch.19449	WormBase	exon	453	578	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_reads	transcript_region	453	578	24.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	540	556	5.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	453	539	3.0	+	.	
+ch.19449	RNASeq	transcription_end_site	520	520	.	-	.	
+ch.19449	RNASeq	transcription_end_site	520	520	.	-	.	
+ch.19449	RNASeq_splice	intron	466	518	19.0	-	.	
+ch.19449	RNASeq	transcription_end_site	497	497	.	-	.	
+ch.19449	RNASeq	transcription_end_site	495	495	.	-	.	
+ch.19449	RNASeq	transcription_end_site	495	495	.	-	.	
+ch.19449	RNASeq_splice	intron	410	452	3.0	+	.	
+ch.19449	WormBase	intron	406	452	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_splice	intron	406	452	143290.0	+	.	
+ch.19449	WormBase	CDS	208	405	.	+	.	ID=CDS:C49F5.3;Parent=Transcript:C49F5.3.1
+ch.19449	WormBase	exon	208	405	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_reads	transcript_region	208	405	28.0	.	.	
+ch.19449	RNASeq_stranded	transcript_region	208	405	3.0	+	.	
+ch.19449	RNASeq_splice	intron	63	315	3.0	-	.	
+ch.19449	RNASeq_R_asymmetry	transcript_region	208	220	93328.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	206	207	3.0	.	.	
+ch.19449	WormBase	intron	162	207	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_splice	intron	162	207	103861.0	+	.	
+ch.19449	RNASeq_stranded	transcript_region	145	161	2.0	+	.	
+ch.19449	RNASeq_reads	transcript_region	115	161	20.0	.	.	
+ch.19449	RNASeq_R_asymmetry	transcript_region	110	161	86342.0	.	.	
+ch.19449	WormBase	CDS	108	161	.	+	.	ID=CDS:C49F5.3;Parent=Transcript:C49F5.3.1
+ch.19449	WormBase	exon	101	161	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_stranded	transcript_region	100	144	1.0	+	.	
+ch.19449	RNASeq_reads	transcript_region	104	114	13.0	.	.	
+ch.19449	RNASeq_R_asymmetry	transcript_region	102	109	56559.0	.	.	
+ch.19449	WormBase	five_prime_UTR	101	107	.	+	.	Parent=Transcript:C49F5.3.1
+ch.19449	RNASeq_reads	transcript_region	100	103	8.0	.	.	
+ch.19449	RNASeq_R_asymmetry	transcript_region	99	101	35324.0	.	.	
+ch.19449	RNASeq_reads	transcript_region	94	99	5.0	.	.	
+ch.19449	RNASeq_R_asymmetry	transcript_region	94	98	21435.0	.	.	
+ch.19449	RNASeq_R_asymmetry	transcript_region	89	90	829.0	.	.	
+ch.19449	RNASeq_R_asymmetry	transcript_region	38	48	341.0	.	.	

@@ -1,0 +1,117 @@
+ch.9255	RNASeq_R_asymmetry	transcript_region	1013	1013	776.0	.	.	
+ch.9255	RNASeq	transcription_end_site	925	925	.	-	.	
+ch.9255	RNASeq	transcription_end_site	924	924	.	-	.	
+ch.9255	RNASeq	transcription_end_site	924	924	.	-	.	
+ch.9255	RNASeq_F_asymmetry	transcript_region	923	923	1312.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	922	922	1.0	-	.	
+ch.9255	RNASeq	transcription_end_site	922	922	.	-	.	
+ch.9255	RNASeq	transcription_end_site	922	922	.	-	.	
+ch.9255	RNASeq_F_asymmetry	transcript_region	921	922	15225.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	921	922	3.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	919	921	2.0	+	.	
+ch.9255	RNASeq	transcription_end_site	920	920	.	-	.	
+ch.9255	RNASeq_F_asymmetry	transcript_region	918	920	28183.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	917	920	6.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	907	918	4.0	+	.	
+ch.9255	RNASeq_F_asymmetry	transcript_region	912	917	42598.0	.	.	
+ch.9255	WormBase	three_prime_UTR	855	917	.	+	.	Parent=Transcript:F56B3.11a.1
+ch.9255	WormBase	exon	563	917	.	+	.	Parent=Transcript:F56B3.11a.1
+ch.9255	WormBase	mRNA	107	917	.	+	.	ID=Transcript:F56B3.11a.1;Parent=Gene:WBGene00018934
+ch.9255	WormBase	gene	101	917	.	+	.	ID=Gene:WBGene00018934
+ch.9255	RNASeq_reads	transcript_region	910	916	10.0	.	.	
+ch.9255	WormBase	three_prime_UTR	724	912	.	+	.	Parent=Transcript:F56B3.11b.1
+ch.9255	WormBase	exon	213	912	.	+	.	Parent=Transcript:F56B3.11b.1
+ch.9255	WormBase	mRNA	101	912	.	+	.	ID=Transcript:F56B3.11b.1;Parent=Gene:WBGene00018934
+ch.9255	RNASeq_F_asymmetry	transcript_region	896	911	69311.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	892	909	18.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	866	907	1.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	900	906	7.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	882	899	11.0	+	.	
+ch.9255	RNASeq_F_asymmetry	transcript_region	888	895	103985.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	878	891	30.0	.	.	
+ch.9255	RNASeq_F_asymmetry	transcript_region	845	887	171795.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	876	881	17.0	+	.	
+ch.9255	RNASeq_reads	transcript_region	831	877	46.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	856	875	26.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	743	855	40.0	+	.	
+ch.9255	WormBase	CDS	563	854	.	+	.	ID=CDS:F56B3.11a;Parent=Transcript:F56B3.11a.1
+ch.9255	RNASeq	transcription_end_site	840	840	.	-	.	
+ch.9255	RNASeq	transcription_end_site	840	840	.	-	.	
+ch.9255	RNASeq_reads	transcript_region	790	830	70.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	563	789	106.0	.	.	
+ch.9255	RNASeq_splice	intron	720	753	4.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	712	742	67.0	+	.	
+ch.9255	WormBase	CDS	213	723	.	+	.	ID=CDS:F56B3.11b;Parent=Transcript:F56B3.11b.1
+ch.9255	RNASeq_stranded	transcript_region	688	711	101.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	676	687	66.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	651	680	1.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	670	675	42.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	592	669	27.0	+	.	
+ch.9255	RNASeq_splice	intron	288	613	8.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	563	591	41.0	+	.	
+ch.9255	RNASeq_splice	intron	507	564	134.0	+	.	
+ch.9255	RNASeq_reads	transcript_region	561	562	1.0	.	.	
+ch.9255	RNASeq_splice	intron	511	562	18.0	+	.	
+ch.9255	WormBase	intron	507	562	.	+	.	Parent=Transcript:F56B3.11a.1
+ch.9255	RNASeq_splice	intron	507	562	612933.0	+	.	
+ch.9255	RNASeq_splice	intron	440	562	5.0	+	.	
+ch.9255	RNASeq_splice	intron	166	562	3.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	456	506	33.0	+	.	
+ch.9255	WormBase	CDS	213	506	.	+	.	ID=CDS:F56B3.11a;Parent=Transcript:F56B3.11a.1
+ch.9255	WormBase	exon	213	506	.	+	.	Parent=Transcript:F56B3.11a.1
+ch.9255	RNASeq_reads	transcript_region	213	506	117.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	435	455	50.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	407	434	31.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	364	413	1.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	402	406	19.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	387	401	12.0	+	.	
+ch.9255	RNASeq_splice	intron	349	387	5.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	373	386	19.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	323	372	29.0	+	.	
+ch.9255	RNASeq_splice	intron	305	343	4.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	323	340	1.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	273	322	14.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	310	312	1.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	262	309	2.0	-	.	
+ch.9255	RNASeq_splice	intron	269	306	3.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	213	272	25.0	+	.	
+ch.9255	RNASeq_stranded	transcript_region	245	261	1.0	-	.	
+ch.9255	RNASeq_stranded	transcript_region	242	243	1.0	-	.	
+ch.9255	RNASeq_splice	intron	166	242	544.0	+	.	
+ch.9255	RNASeq_splice	intron	138	242	98.0	+	.	
+ch.9255	RNASeq_splice	intron	170	216	281.0	-	.	
+ch.9255	RNASeq_reads	transcript_region	211	212	18.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	211	212	2.0	+	.	
+ch.9255	WormBase	intron	166	212	.	+	.	Parent=Transcript:F56B3.11a.1
+ch.9255	WormBase	intron	166	212	.	+	.	Parent=Transcript:F56B3.11b.1
+ch.9255	RNASeq_splice	intron	166	212	623253.0	+	.	
+ch.9255	RNASeq_splice	intron	138	212	110.0	+	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	166	168	9781.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	166	168	2.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	117	165	119.0	.	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	114	165	491918.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	113	165	17.0	+	.	
+ch.9255	WormBase	CDS	110	165	.	+	.	ID=CDS:F56B3.11a;Parent=Transcript:F56B3.11a.1
+ch.9255	WormBase	CDS	110	165	.	+	.	ID=CDS:F56B3.11b;Parent=Transcript:F56B3.11b.1
+ch.9255	WormBase	exon	107	165	.	+	.	Parent=Transcript:F56B3.11a.1
+ch.9255	WormBase	exon	101	165	.	+	.	Parent=Transcript:F56B3.11b.1
+ch.9255	RNASeq_reads	transcript_region	111	116	77.0	.	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	109	113	296965.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	109	112	11.0	+	.	
+ch.9255	RNASeq_reads	transcript_region	107	110	47.0	.	.	
+ch.9255	WormBase	five_prime_UTR	107	109	.	+	.	Parent=Transcript:F56B3.11a.1
+ch.9255	WormBase	five_prime_UTR	101	109	.	+	.	Parent=Transcript:F56B3.11b.1
+ch.9255	RNASeq_R_asymmetry	transcript_region	106	108	191847.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	106	108	7.0	+	.	
+ch.9255	RNASeq_reads	transcript_region	105	106	28.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	105	105	4.0	-	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	101	105	115605.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	101	104	17.0	.	.	
+ch.9255	RNASeq_stranded	transcript_region	101	104	1.0	+	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	99	100	4615.0	.	.	
+ch.9255	RNASeq_reads	transcript_region	97	100	1.0	.	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	97	98	2950.0	.	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	80	96	1942.0	.	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	54	79	1250.0	.	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	39	53	822.0	.	.	
+ch.9255	RNASeq_R_asymmetry	transcript_region	30	34	481.0	.	.	

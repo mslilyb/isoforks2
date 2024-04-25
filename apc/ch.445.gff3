@@ -1,0 +1,88 @@
+ch.445	RNASeq_F_asymmetry	transcript_region	33	44	532.0	.	.	
+ch.445	RNASeq_F_asymmetry	transcript_region	45	89	929.0	.	.	
+ch.445	RNASeq_F_asymmetry	transcript_region	90	90	1464.0	.	.	
+ch.445	RNASeq_F_asymmetry	transcript_region	91	94	24208.0	.	.	
+ch.445	RNASeq_reads	transcript_region	91	94	5.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	91	96	1.0	+	.	
+ch.445	RNASeq_F_asymmetry	transcript_region	95	98	37168.0	.	.	
+ch.445	RNASeq_reads	transcript_region	95	98	8.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	97	98	2.0	+	.	
+ch.445	RNASeq_F_asymmetry	transcript_region	99	104	89978.0	.	.	
+ch.445	RNASeq_reads	transcript_region	99	104	18.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	99	111	5.0	+	.	
+ch.445	WormBase	five_prime_UTR	101	103	.	+	.	Parent=Transcript:Y54E10A.7.1
+ch.445	WormBase	exon	101	310	.	+	.	Parent=Transcript:Y54E10A.7.1
+ch.445	WormBase	gene	101	873	.	+	.	ID=Gene:WBGene00021829
+ch.445	WormBase	mRNA	101	873	.	+	.	ID=Transcript:Y54E10A.7.1;Parent=Gene:WBGene00021829
+ch.445	WormBase	CDS	104	310	.	+	.	ID=CDS:Y54E10A.7;Parent=Transcript:Y54E10A.7.1
+ch.445	RNASeq_F_asymmetry	transcript_region	105	119	140078.0	.	.	
+ch.445	RNASeq_reads	transcript_region	105	119	28.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	112	132	8.0	+	.	
+ch.445	RNASeq_F_asymmetry	transcript_region	120	165	210266.0	.	.	
+ch.445	RNASeq_reads	transcript_region	120	310	43.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	133	297	14.0	+	.	
+ch.445	RNASeq_splice	intron	191	262	7.0	+	.	
+ch.445	RNASeq_splice	intron	260	294	3.0	+	.	
+ch.445	RNASeq_splice	intron	295	417	6.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	298	310	9.0	+	.	
+ch.445	RNASeq_reads	transcript_region	311	370	1.0	.	.	
+ch.445	WormBase	intron	311	371	.	+	.	Parent=Transcript:Y54E10A.7.1
+ch.445	RNASeq_splice	intron	311	371	302550.0	+	.	
+ch.445	RNASeq_splice	intron	311	525	144.0	+	.	
+ch.445	RNASeq_reads	transcript_region	371	371	9.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	371	371	1.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	372	394	7.0	+	.	
+ch.445	WormBase	CDS	372	473	.	+	.	ID=CDS:Y54E10A.7;Parent=Transcript:Y54E10A.7.1
+ch.445	WormBase	exon	372	473	.	+	.	Parent=Transcript:Y54E10A.7.1
+ch.445	RNASeq_reads	transcript_region	372	473	57.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	395	434	11.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	435	439	17.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	440	473	33.0	+	.	
+ch.445	RNASeq_reads	transcript_region	474	477	8.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	474	477	4.0	+	.	
+ch.445	WormBase	intron	474	525	.	+	.	Parent=Transcript:Y54E10A.7.1
+ch.445	RNASeq_splice	intron	474	525	414589.0	+	.	
+ch.445	RNASeq_splice	intron	474	612	11.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	526	542	21.0	+	.	
+ch.445	RNASeq_splice	intron	526	612	8.0	+	.	
+ch.445	RNASeq_reads	transcript_region	526	774	74.0	.	.	
+ch.445	WormBase	CDS	526	801	.	+	.	ID=CDS:Y54E10A.7;Parent=Transcript:Y54E10A.7.1
+ch.445	WormBase	exon	526	873	.	+	.	Parent=Transcript:Y54E10A.7.1
+ch.445	RNASeq_stranded	transcript_region	543	545	9.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	546	582	15.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	583	633	27.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	590	638	1.0	-	.	
+ch.445	RNASeq_stranded	transcript_region	634	678	16.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	639	646	3.0	-	.	
+ch.445	RNASeq_stranded	transcript_region	647	647	5.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	648	696	11.0	-	.	
+ch.445	RNASeq_stranded	transcript_region	679	814	26.0	+	.	
+ch.445	RNASeq_stranded	transcript_region	697	698	7.0	-	.	
+ch.445	RNASeq_R_asymmetry	transcript_region	738	738	236802.0	.	.	
+ch.445	RNASeq_R_asymmetry	transcript_region	740	786	231712.0	.	.	
+ch.445	RNASeq_reads	transcript_region	775	789	48.0	.	.	
+ch.445	RNASeq_R_asymmetry	transcript_region	787	789	144203.0	.	.	
+ch.445	RNASeq_reads	transcript_region	790	822	26.0	.	.	
+ch.445	RNASeq	transcription_end_site	798	798	.	+	.	
+ch.445	RNASeq	transcription_end_site	799	799	.	+	.	
+ch.445	WormBase	three_prime_UTR	802	873	.	+	.	Parent=Transcript:Y54E10A.7.1
+ch.445	RNASeq_R_asymmetry	transcript_region	813	836	75907.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	815	822	16.0	+	.	
+ch.445	RNASeq	transcription_end_site	817	817	.	+	.	
+ch.445	RNASeq_reads	transcript_region	823	840	17.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	823	855	10.0	+	.	
+ch.445	RNASeq_R_asymmetry	transcript_region	837	843	49465.0	.	.	
+ch.445	RNASeq	transcription_end_site	838	838	.	+	.	
+ch.445	RNASeq_reads	transcript_region	841	857	11.0	.	.	
+ch.445	RNASeq_R_asymmetry	transcript_region	855	873	30738.0	.	.	
+ch.445	RNASeq_stranded	transcript_region	856	869	6.0	+	.	
+ch.445	RNASeq_reads	transcript_region	858	874	7.0	.	.	
+ch.445	RNASeq	transcription_end_site	863	863	.	+	.	
+ch.445	RNASeq_stranded	transcript_region	870	880	3.0	+	.	
+ch.445	RNASeq_R_asymmetry	transcript_region	874	878	19230.0	.	.	
+ch.445	RNASeq	transcription_end_site	875	875	.	+	.	
+ch.445	RNASeq_reads	transcript_region	875	880	4.0	.	.	
+ch.445	RNASeq_R_asymmetry	transcript_region	879	880	12364.0	.	.	
+ch.445	RNASeq	transcription_end_site	880	880	.	+	.	
+ch.445	RNASeq	transcription_end_site	881	881	.	+	.	
+ch.445	RNASeq_stranded	transcript_region	881	932	1.0	+	.	

@@ -1,0 +1,69 @@
+ch.20167	RNASeq_reads	transcript_region	61	103	1.0	.	.	
+ch.20167	WormBase	five_prime_UTR	101	190	.	+	.	Parent=Transcript:C06G1.2.1
+ch.20167	WormBase	exon	101	557	.	+	.	Parent=Transcript:C06G1.2.1
+ch.20167	WormBase	gene	101	1039	.	+	.	ID=Gene:WBGene00015546
+ch.20167	WormBase	mRNA	101	1039	.	+	.	ID=Transcript:C06G1.2.1;Parent=Gene:WBGene00015546
+ch.20167	RNASeq_reads	transcript_region	104	104	2.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	105	116	5.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	117	136	8.0	.	.	
+ch.20167	RNASeq_stranded	transcript_region	129	129	1.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	131	166	1.0	+	.	
+ch.20167	RNASeq_reads	transcript_region	137	159	13.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	160	185	20.0	.	.	
+ch.20167	RNASeq_stranded	transcript_region	167	168	2.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	169	184	5.0	+	.	
+ch.20167	RNASeq_splice	intron	182	398	48.0	-	.	
+ch.20167	RNASeq_stranded	transcript_region	185	218	8.0	+	.	
+ch.20167	RNASeq_reads	transcript_region	186	243	31.0	.	.	
+ch.20167	WormBase	CDS	191	557	.	+	.	ID=CDS:C06G1.2;Parent=Transcript:C06G1.2.1
+ch.20167	RNASeq_stranded	transcript_region	219	219	5.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	220	225	3.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	226	231	1.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	232	241	2.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	242	242	1.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	243	296	2.0	+	.	
+ch.20167	RNASeq_reads	transcript_region	244	557	47.0	.	.	
+ch.20167	RNASeq_stranded	transcript_region	297	331	1.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	332	400	2.0	+	.	
+ch.20167	RNASeq_splice	intron	344	613	10.0	+	.	
+ch.20167	RNASeq_splice	intron	399	506	9.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	401	445	4.0	+	.	
+ch.20167	RNASeq_splice	intron	420	607	3.0	-	.	
+ch.20167	RNASeq_stranded	transcript_region	446	508	7.0	+	.	
+ch.20167	RNASeq_splice	intron	507	539	4.0	-	.	
+ch.20167	RNASeq_stranded	transcript_region	509	520	13.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	521	557	20.0	+	.	
+ch.20167	RNASeq_splice	intron	528	652	29.0	-	.	
+ch.20167	WormBase	intron	558	613	.	+	.	Parent=Transcript:C06G1.2.1
+ch.20167	RNASeq_splice	intron	558	613	220325.0	+	.	
+ch.20167	RNASeq_reads	transcript_region	611	611	1.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	612	613	7.0	.	.	
+ch.20167	RNASeq_stranded	transcript_region	612	613	1.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	614	629	11.0	+	.	
+ch.20167	WormBase	CDS	614	795	.	+	.	ID=CDS:C06G1.2;Parent=Transcript:C06G1.2.1
+ch.20167	RNASeq_reads	transcript_region	614	870	48.0	.	.	
+ch.20167	WormBase	exon	614	1039	.	+	.	Parent=Transcript:C06G1.2.1
+ch.20167	RNASeq_stranded	transcript_region	630	649	7.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	650	671	11.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	672	693	7.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	694	697	4.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	698	699	2.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	700	704	1.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	705	715	4.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	716	754	7.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	755	766	4.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	767	778	2.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	779	828	4.0	+	.	
+ch.20167	WormBase	three_prime_UTR	796	1039	.	+	.	Parent=Transcript:C06G1.2.1
+ch.20167	RNASeq_stranded	transcript_region	829	844	2.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	845	863	1.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	864	866	2.0	+	.	
+ch.20167	RNASeq_stranded	transcript_region	867	916	1.0	+	.	
+ch.20167	RNASeq_reads	transcript_region	871	899	31.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	900	956	20.0	.	.	
+ch.20167	RNASeq_stranded	transcript_region	949	1002	1.0	+	.	
+ch.20167	RNASeq_reads	transcript_region	957	974	13.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	975	986	8.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	987	994	5.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	995	1003	3.0	.	.	
+ch.20167	RNASeq_reads	transcript_region	1004	1024	1.0	.	.	

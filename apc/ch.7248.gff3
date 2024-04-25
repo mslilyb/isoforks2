@@ -1,0 +1,66 @@
+ch.7248	RNASeq_F_asymmetry	transcript_region	24	27	51725.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	24	27	10.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	24	27	3.0	+	.	
+ch.7248	RNASeq_F_asymmetry	transcript_region	28	30	92653.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	28	30	19.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	28	30	13.0	+	.	
+ch.7248	RNASeq_F_asymmetry	transcript_region	31	36	185486.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	31	36	37.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	31	39	26.0	+	.	
+ch.7248	RNASeq_reads	transcript_region	37	96	56.0	.	.	
+ch.7248	RNASeq_F_asymmetry	transcript_region	37	101	281512.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	40	95	45.0	+	.	
+ch.7248	RNASeq_stranded	transcript_region	96	125	28.0	+	.	
+ch.7248	RNASeq_reads	transcript_region	97	147	85.0	.	.	
+ch.7248	WormBase	CDS	101	147	.	+	.	ID=CDS:VB0393L.2;Parent=Transcript:VB0393L.2.1
+ch.7248	WormBase	exon	101	147	.	+	.	Parent=Transcript:VB0393L.2.1
+ch.7248	WormBase	gene	101	593	.	+	.	ID=Gene:WBGene00012146
+ch.7248	WormBase	mRNA	101	593	.	+	.	ID=Transcript:VB0393L.2.1;Parent=Gene:WBGene00012146
+ch.7248	RNASeq_splice	intron	103	195	3.0	+	.	
+ch.7248	RNASeq_stranded	transcript_region	126	130	18.0	+	.	
+ch.7248	RNASeq_stranded	transcript_region	131	137	11.0	+	.	
+ch.7248	RNASeq_stranded	transcript_region	138	147	7.0	+	.	
+ch.7248	RNASeq_splice	intron	140	191	52.0	+	.	
+ch.7248	WormBase	intron	148	191	.	+	.	Parent=Transcript:VB0393L.2.1
+ch.7248	RNASeq_splice	intron	148	191	339574.0	+	.	
+ch.7248	RNASeq_splice	intron	148	195	902.0	+	.	
+ch.7248	RNASeq_stranded	transcript_region	192	220	6.0	+	.	
+ch.7248	WormBase	CDS	192	292	.	+	.	ID=CDS:VB0393L.2;Parent=Transcript:VB0393L.2.1
+ch.7248	WormBase	exon	192	292	.	+	.	Parent=Transcript:VB0393L.2.1
+ch.7248	RNASeq_reads	transcript_region	192	292	67.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	221	229	11.0	+	.	
+ch.7248	RNASeq_stranded	transcript_region	230	240	17.0	+	.	
+ch.7248	RNASeq_stranded	transcript_region	241	289	27.0	+	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	278	292	268461.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	290	292	17.0	+	.	
+ch.7248	RNASeq_reads	transcript_region	293	303	1.0	.	.	
+ch.7248	WormBase	intron	293	339	.	+	.	Parent=Transcript:VB0393L.2.1
+ch.7248	RNASeq_splice	intron	293	339	274935.0	+	.	
+ch.7248	RNASeq_splice	intron	293	353	131.0	+	.	
+ch.7248	RNASeq_splice	intron	293	364	3.0	+	.	
+ch.7248	RNASeq_reads	transcript_region	338	338	1.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	338	339	6389.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	339	339	2.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	340	367	15.0	+	.	
+ch.7248	RNASeq_reads	transcript_region	340	374	48.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	340	375	202909.0	.	.	
+ch.7248	WormBase	CDS	340	593	.	+	.	ID=CDS:VB0393L.2;Parent=Transcript:VB0393L.2.1
+ch.7248	WormBase	exon	340	593	.	+	.	Parent=Transcript:VB0393L.2.1
+ch.7248	RNASeq_stranded	transcript_region	368	383	9.0	+	.	
+ch.7248	RNASeq_reads	transcript_region	375	393	31.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	376	399	129438.0	.	.	
+ch.7248	RNASeq_stranded	transcript_region	384	387	5.0	+	.	
+ch.7248	RNASeq_reads	transcript_region	394	410	19.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	400	412	85304.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	411	425	12.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	413	431	50877.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	426	437	7.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	432	439	33525.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	438	439	4.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	440	441	2.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	440	448	8694.0	.	.	
+ch.7248	RNASeq_reads	transcript_region	442	460	1.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	449	458	5714.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	459	460	3458.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	461	462	678.0	.	.	
+ch.7248	RNASeq_R_asymmetry	transcript_region	463	478	338.0	.	.	

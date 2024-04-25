@@ -1,0 +1,73 @@
+ch.9894	RNASeq_reads	transcript_region	72	80	1.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	86	86	1.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	96	116	1.0	.	.	
+ch.9894	WormBase	five_prime_UTR	101	172	.	+	.	Parent=Transcript:R105.1.1
+ch.9894	WormBase	exon	101	377	.	+	.	Parent=Transcript:R105.1.1
+ch.9894	WormBase	gene	101	888	.	+	.	ID=Gene:WBGene00020084
+ch.9894	WormBase	mRNA	101	888	.	+	.	ID=Transcript:R105.1.1;Parent=Gene:WBGene00020084
+ch.9894	RNASeq_F_asymmetry	transcript_region	117	120	8818.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	117	120	2.0	.	.	
+ch.9894	RNASeq_F_asymmetry	transcript_region	121	121	17148.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	121	121	4.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	122	125	1.0	+	.	
+ch.9894	RNASeq_F_asymmetry	transcript_region	122	126	32108.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	122	126	7.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	126	143	2.0	+	.	
+ch.9894	RNASeq_F_asymmetry	transcript_region	127	141	58010.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	127	144	12.0	.	.	
+ch.9894	RNASeq_F_asymmetry	transcript_region	142	202	87259.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	144	152	4.0	+	.	
+ch.9894	RNASeq_reads	transcript_region	145	187	19.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	153	203	13.0	+	.	
+ch.9894	WormBase	CDS	173	377	.	+	.	ID=CDS:R105.1;Parent=Transcript:R105.1.1
+ch.9894	RNASeq_reads	transcript_region	188	309	29.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	204	214	8.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	215	227	5.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	228	234	3.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	235	238	5.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	239	316	8.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	262	275	1.0	-	.	
+ch.9894	RNASeq_reads	transcript_region	310	377	44.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	317	338	5.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	339	358	3.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	359	364	5.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	365	377	8.0	+	.	
+ch.9894	WormBase	intron	378	423	.	+	.	Parent=Transcript:R105.1.1
+ch.9894	RNASeq_splice	intron	378	423	188460.0	+	.	
+ch.9894	RNASeq_splice	intron	378	425	45.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	424	461	9.0	+	.	
+ch.9894	RNASeq_reads	transcript_region	424	637	35.0	.	.	
+ch.9894	WormBase	CDS	424	642	.	+	.	ID=CDS:R105.1;Parent=Transcript:R105.1.1
+ch.9894	WormBase	exon	424	642	.	+	.	Parent=Transcript:R105.1.1
+ch.9894	RNASeq_stranded	transcript_region	462	480	5.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	481	531	3.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	532	554	5.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	555	642	3.0	+	.	
+ch.9894	RNASeq_reads	transcript_region	638	642	23.0	.	.	
+ch.9894	WormBase	intron	643	685	.	+	.	Parent=Transcript:R105.1.1
+ch.9894	RNASeq_splice	intron	643	685	108295.0	+	.	
+ch.9894	RNASeq_splice	intron	643	687	4.0	+	.	
+ch.9894	RNASeq_reads	transcript_region	685	685	3.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	685	685	1.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	686	692	2.0	+	.	
+ch.9894	WormBase	CDS	686	819	.	+	.	ID=CDS:R105.1;Parent=Transcript:R105.1.1
+ch.9894	RNASeq_reads	transcript_region	686	823	21.0	.	.	
+ch.9894	WormBase	exon	686	888	.	+	.	Parent=Transcript:R105.1.1
+ch.9894	RNASeq_stranded	transcript_region	693	743	5.0	+	.	
+ch.9894	RNASeq_stranded	transcript_region	744	855	3.0	+	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	788	808	89506.0	.	.	
+ch.9894	WormBase	three_prime_UTR	820	888	.	+	.	Parent=Transcript:R105.1.1
+ch.9894	RNASeq_reads	transcript_region	824	871	13.0	.	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	833	878	52129.0	.	.	
+ch.9894	RNASeq_stranded	transcript_region	856	885	1.0	+	.	
+ch.9894	RNASeq_reads	transcript_region	872	883	8.0	.	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	879	883	33494.0	.	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	884	885	13906.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	884	888	3.0	.	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	886	889	8805.0	.	.	
+ch.9894	RNASeq_reads	transcript_region	889	912	1.0	.	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	890	896	5405.0	.	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	897	907	3491.0	.	.	
+ch.9894	RNASeq_R_asymmetry	transcript_region	908	916	2304.0	.	.	
+ch.9894	RNASeq	transcription_end_site	922	922	.	+	.	
+ch.9894	RNASeq	transcription_end_site	926	926	.	+	.	

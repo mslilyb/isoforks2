@@ -1,0 +1,130 @@
+ch.1594	RNASeq_reads	transcript_region	91	98	1.0	.	.	
+ch.1594	RNASeq_F_asymmetry	transcript_region	98	98	3851.0	.	.	
+ch.1594	RNASeq_F_asymmetry	transcript_region	99	100	148593.0	.	.	
+ch.1594	RNASeq_reads	transcript_region	99	100	29.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	99	103	16.0	+	.	
+ch.1594	WormBase	five_prime_UTR	101	102	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_F_asymmetry	transcript_region	101	103	225381.0	.	.	
+ch.1594	RNASeq_reads	transcript_region	101	103	44.0	.	.	
+ch.1594	WormBase	exon	101	199	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	WormBase	gene	101	864	.	+	.	ID=Gene:WBGene00004305
+ch.1594	WormBase	mRNA	101	864	.	+	.	ID=Transcript:R05D11.3.1;Parent=Gene:WBGene00004305
+ch.1594	WormBase	CDS	103	199	.	+	.	ID=CDS:R05D11.3;Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_F_asymmetry	transcript_region	104	107	369896.0	.	.	
+ch.1594	RNASeq_reads	transcript_region	104	107	73.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	104	120	25.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	108	148	128.0	.	.	
+ch.1594	RNASeq_F_asymmetry	transcript_region	108	165	656681.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	121	173	38.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	149	199	193.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	174	199	65.0	+	.	
+ch.1594	RNASeq_splice	intron	188	240	114.0	+	.	
+ch.1594	RNASeq_splice	intron	191	240	273.0	+	.	
+ch.1594	RNASeq_F_asymmetry	transcript_region	200	200	141382.0	.	.	
+ch.1594	RNASeq_reads	transcript_region	200	200	28.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	200	200	6.0	+	.	
+ch.1594	WormBase	intron	200	240	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_splice	intron	200	240	1023910.0	+	.	
+ch.1594	RNASeq_splice	intron	200	264	17.0	+	.	
+ch.1594	RNASeq_splice	intron	200	288	158.0	+	.	
+ch.1594	RNASeq_splice	intron	200	375	3.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	201	238	1.0	.	.	
+ch.1594	RNASeq_splice	intron	209	275	5.0	-	.	
+ch.1594	RNASeq_reads	transcript_region	239	240	26.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	239	240	9.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	241	266	59.0	+	.	
+ch.1594	WormBase	CDS	241	332	.	+	.	ID=CDS:R05D11.3;Parent=Transcript:R05D11.3.1
+ch.1594	WormBase	exon	241	332	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_reads	transcript_region	241	332	218.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	260	262	1.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	267	332	36.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	276	295	1.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	321	321	1.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	323	326	1.0	-	.	
+ch.1594	RNASeq_splice	intron	326	375	272.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	333	374	1.0	.	.	
+ch.1594	WormBase	intron	333	375	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_splice	intron	333	375	1121370.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	375	375	24.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	375	375	4.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	376	464	26.0	+	.	
+ch.1594	WormBase	CDS	376	474	.	+	.	ID=CDS:R05D11.3;Parent=Transcript:R05D11.3.1
+ch.1594	WormBase	exon	376	474	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_reads	transcript_region	376	474	207.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	377	474	1.0	-	.	
+ch.1594	RNASeq_splice	intron	457	519	5.0	+	.	
+ch.1594	RNASeq_splice	intron	464	519	95.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	465	474	41.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	475	517	1.0	.	.	
+ch.1594	WormBase	intron	475	519	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_splice	intron	475	519	1215740.0	+	.	
+ch.1594	RNASeq_splice	intron	475	529	177.0	+	.	
+ch.1594	RNASeq_splice	intron	475	553	5.0	+	.	
+ch.1594	RNASeq_splice	intron	475	944	29.0	+	.	
+ch.1594	RNASeq_splice	intron	479	519	3.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	518	519	30.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	518	519	11.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	520	550	36.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	520	620	1.0	-	.	
+ch.1594	WormBase	CDS	520	633	.	+	.	ID=CDS:R05D11.3;Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_reads	transcript_region	520	779	236.0	.	.	
+ch.1594	WormBase	exon	520	864	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_stranded	transcript_region	551	707	55.0	+	.	
+ch.1594	RNASeq_splice	intron	563	640	4.0	+	.	
+ch.1594	RNASeq_splice	intron	581	634	3.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	621	622	2.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	623	672	4.0	-	.	
+ch.1594	WormBase	three_prime_UTR	634	864	.	+	.	Parent=Transcript:R05D11.3.1
+ch.1594	RNASeq_stranded	transcript_region	673	673	2.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	674	683	1.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	684	685	2.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	686	686	7.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	687	722	12.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	708	720	84.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	721	744	128.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	723	736	19.0	-	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	726	735	944948.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	737	738	7.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	739	771	4.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	745	779	590.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	772	773	2.0	-	.	
+ch.1594	RNASeq_stranded	transcript_region	774	793	1.0	-	.	
+ch.1594	RNASeq_splice	intron	775	944	10.0	+	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	780	799	597185.0	.	.	
+ch.1594	RNASeq_reads	transcript_region	780	799	147.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	780	809	177.0	+	.	
+ch.1594	RNASeq_stranded	transcript_region	794	801	2.0	-	.	
+ch.1594	RNASeq_reads	transcript_region	800	828	92.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	802	867	1.0	-	.	
+ch.1594	RNASeq	transcription_end_site	808	808	.	+	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	810	811	296962.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	810	830	116.0	+	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	813	829	289272.0	.	.	
+ch.1594	RNASeq_reads	transcript_region	829	837	57.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	831	845	76.0	+	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	835	837	158914.0	.	.	
+ch.1594	RNASeq_reads	transcript_region	838	856	37.0	.	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	839	841	145248.0	.	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	843	862	135670.0	.	.	
+ch.1594	RNASeq	transcription_end_site	844	844	.	+	.	
+ch.1594	RNASeq_stranded	transcript_region	846	850	45.0	+	.	
+ch.1594	RNASeq	transcription_end_site	849	849	.	+	.	
+ch.1594	RNASeq_stranded	transcript_region	851	856	29.0	+	.	
+ch.1594	RNASeq	transcription_end_site	852	852	.	+	.	
+ch.1594	RNASeq	transcription_end_site	853	853	.	+	.	
+ch.1594	RNASeq_stranded	transcript_region	857	861	17.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	857	862	24.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	862	862	11.0	+	.	
+ch.1594	RNASeq	transcription_end_site	862	862	.	+	.	
+ch.1594	RNASeq	transcription_end_site	863	863	.	+	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	863	864	27942.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	863	865	4.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	863	866	6.0	.	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	865	869	16442.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	866	869	2.0	+	.	
+ch.1594	RNASeq_reads	transcript_region	867	870	3.0	.	.	
+ch.1594	RNASeq_R_asymmetry	transcript_region	870	870	9763.0	.	.	
+ch.1594	RNASeq_stranded	transcript_region	870	879	1.0	+	.	
+ch.1594	RNASeq	transcription_end_site	871	871	.	+	.	
+ch.1594	RNASeq_reads	transcript_region	871	876	1.0	.	.	
+ch.1594	RNASeq	transcription_end_site	875	875	.	+	.	

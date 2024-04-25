@@ -1,0 +1,72 @@
+ch.7459	RNASeq_reads	transcript_region	1057	1075	14.0	.	.	
+ch.7459	RNASeq_R_asymmetry	transcript_region	1064	1073	55432.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	1046	1056	9.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	1020	1045	5.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	1020	1029	11.0	-	.	
+ch.7459	RNASeq_stranded	transcript_region	1010	1019	6.0	-	.	
+ch.7459	RNASeq_reads	transcript_region	999	1019	3.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	1010	1011	1.0	+	.	
+ch.7459	RNASeq_stranded	transcript_region	1006	1009	2.0	-	.	
+ch.7459	RNASeq_stranded	transcript_region	1005	1009	2.0	+	.	
+ch.7459	RNASeq	transcription_end_site	1005	1005	.	-	.	
+ch.7459	RNASeq_stranded	transcript_region	991	1005	1.0	-	.	
+ch.7459	RNASeq_stranded	transcript_region	1000	1004	4.0	+	.	
+ch.7459	WormBase	three_prime_UTR	915	1004	.	+	.	Parent=Transcript:F09F7.6.1
+ch.7459	WormBase	exon	804	1004	.	+	.	Parent=Transcript:F09F7.6.1
+ch.7459	WormBase	gene	101	1004	.	+	.	ID=Gene:WBGene00017303
+ch.7459	WormBase	mRNA	101	1004	.	+	.	ID=Transcript:F09F7.6.1;Parent=Gene:WBGene00017303
+ch.7459	RNASeq_stranded	transcript_region	988	999	7.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	988	998	5.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	985	987	11.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	977	987	8.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	975	984	17.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	972	976	14.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	964	974	26.0	+	.	
+ch.7459	RNASeq_stranded	transcript_region	927	974	1.0	-	.	
+ch.7459	RNASeq_F_asymmetry	transcript_region	966	973	78201.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	955	971	23.0	.	.	
+ch.7459	RNASeq_F_asymmetry	transcript_region	955	965	124144.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	943	963	40.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	939	954	35.0	.	.	
+ch.7459	RNASeq_F_asymmetry	transcript_region	935	950	152917.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	840	942	61.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	905	938	54.0	.	.	
+ch.7459	RNASeq_F_asymmetry	transcript_region	920	934	233978.0	.	.	
+ch.7459	RNASeq	transcription_end_site	928	928	.	-	.	
+ch.7459	RNASeq_F_asymmetry	transcript_region	915	915	274751.0	.	.	
+ch.7459	RNASeq	transcription_end_site	914	914	.	-	.	
+ch.7459	RNASeq	transcription_end_site	914	914	.	-	.	
+ch.7459	WormBase	CDS	804	914	.	+	.	ID=CDS:F09F7.6;Parent=Transcript:F09F7.6.1
+ch.7459	RNASeq_F_asymmetry	transcript_region	900	908	309154.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	804	904	83.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	819	839	40.0	+	.	
+ch.7459	RNASeq_stranded	transcript_region	811	818	26.0	+	.	
+ch.7459	RNASeq_stranded	transcript_region	804	810	17.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	803	803	13.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	803	803	3.0	-	.	
+ch.7459	RNASeq_splice	intron	750	803	13.0	+	.	
+ch.7459	RNASeq_splice	intron	279	803	54.0	+	.	
+ch.7459	WormBase	intron	274	803	.	+	.	Parent=Transcript:F09F7.6.1
+ch.7459	RNASeq_splice	intron	274	803	647096.0	+	.	
+ch.7459	RNASeq_splice	intron	250	803	3.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	777	802	1.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	274	776	2.0	.	.	
+ch.7459	RNASeq_F_asymmetry	transcript_region	746	753	10311.0	.	.	
+ch.7459	RNASeq_splice	intron	274	695	17.0	+	.	
+ch.7459	RNASeq_stranded	transcript_region	602	653	1.0	+	.	
+ch.7459	RNASeq_stranded	transcript_region	260	273	12.0	+	.	
+ch.7459	RNASeq_reads	transcript_region	129	273	102.0	.	.	
+ch.7459	WormBase	CDS	121	273	.	+	.	ID=CDS:F09F7.6;Parent=Transcript:F09F7.6.1
+ch.7459	WormBase	exon	101	273	.	+	.	Parent=Transcript:F09F7.6.1
+ch.7459	RNASeq_stranded	transcript_region	107	259	19.0	+	.	
+ch.7459	RNASeq_R_asymmetry	transcript_region	118	192	394975.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	116	128	65.0	.	.	
+ch.7459	WormBase	five_prime_UTR	101	120	.	+	.	Parent=Transcript:F09F7.6.1
+ch.7459	RNASeq_R_asymmetry	transcript_region	110	117	257643.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	108	115	41.0	.	.	
+ch.7459	RNASeq_R_asymmetry	transcript_region	106	109	162403.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	105	107	26.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	105	106	12.0	+	.	
+ch.7459	RNASeq_R_asymmetry	transcript_region	101	105	97374.0	.	.	
+ch.7459	RNASeq_reads	transcript_region	101	104	15.0	.	.	
+ch.7459	RNASeq_stranded	transcript_region	101	104	2.0	+	.	

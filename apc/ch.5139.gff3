@@ -1,0 +1,70 @@
+ch.5139	RNASeq_reads	transcript_region	34	53	1.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	54	56	2.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	57	57	1.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	58	97	2.0	.	.	
+ch.5139	RNASeq_F_asymmetry	transcript_region	98	100	30323.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	98	100	6.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	101	105	1.0	+	.	
+ch.5139	RNASeq_F_asymmetry	transcript_region	101	107	74368.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	101	107	15.0	.	.	
+ch.5139	WormBase	five_prime_UTR	101	241	.	+	.	Parent=Transcript:F07H5.13.1
+ch.5139	WormBase	exon	101	268	.	+	.	Parent=Transcript:F07H5.13.1
+ch.5139	WormBase	gene	101	985	.	+	.	ID=Gene:WBGene00008563
+ch.5139	WormBase	mRNA	101	985	.	+	.	ID=Transcript:F07H5.13.1;Parent=Gene:WBGene00008563
+ch.5139	RNASeq_stranded	transcript_region	106	107	2.0	+	.	
+ch.5139	RNASeq_F_asymmetry	transcript_region	108	126	181613.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	108	127	36.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	108	157	7.0	+	.	
+ch.5139	RNASeq_F_asymmetry	transcript_region	127	199	272672.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	128	268	56.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	158	207	11.0	+	.	
+ch.5139	RNASeq_splice	intron	200	252	6.0	+	.	
+ch.5139	RNASeq_splice	intron	200	345	44.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	208	268	3.0	+	.	
+ch.5139	WormBase	CDS	242	268	.	+	.	ID=CDS:F07H5.13;Parent=Transcript:F07H5.13.1
+ch.5139	RNASeq_reads	transcript_region	269	339	1.0	.	.	
+ch.5139	WormBase	intron	269	345	.	+	.	Parent=Transcript:F07H5.13.1
+ch.5139	RNASeq_splice	intron	269	345	409403.0	+	.	
+ch.5139	RNASeq_splice	intron	269	361	7.0	+	.	
+ch.5139	RNASeq_reads	transcript_region	340	345	9.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	342	345	1.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	346	377	3.0	+	.	
+ch.5139	WormBase	CDS	346	456	.	+	.	ID=CDS:F07H5.13;Parent=Transcript:F07H5.13.1
+ch.5139	RNASeq_reads	transcript_region	346	809	67.0	.	.	
+ch.5139	WormBase	exon	346	985	.	+	.	Parent=Transcript:F07H5.13.1
+ch.5139	RNASeq_stranded	transcript_region	378	571	5.0	+	.	
+ch.5139	WormBase	three_prime_UTR	457	985	.	+	.	Parent=Transcript:F07H5.13.1
+ch.5139	RNASeq_stranded	transcript_region	572	592	8.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	593	619	13.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	609	729	1.0	-	.	
+ch.5139	RNASeq_stranded	transcript_region	620	654	27.0	+	.	
+ch.5139	RNASeq	transcription_end_site	651	651	.	+	.	
+ch.5139	RNASeq_stranded	transcript_region	655	705	15.0	+	.	
+ch.5139	RNASeq_splice	intron	700	851	11.0	-	.	
+ch.5139	RNASeq_stranded	transcript_region	706	779	9.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	774	824	1.0	-	.	
+ch.5139	RNASeq_stranded	transcript_region	780	798	14.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	799	839	22.0	+	.	
+ch.5139	RNASeq_reads	transcript_region	810	932	44.0	.	.	
+ch.5139	RNASeq	transcription_end_site	840	840	.	+	.	
+ch.5139	RNASeq_stranded	transcript_region	840	849	35.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	843	977	1.0	-	.	
+ch.5139	RNASeq_stranded	transcript_region	850	939	53.0	+	.	
+ch.5139	RNASeq	transcription_end_site	861	861	.	+	.	
+ch.5139	RNASeq	transcription_end_site	864	864	.	+	.	
+ch.5139	RNASeq	transcription_end_site	865	865	.	+	.	
+ch.5139	RNASeq	transcription_end_site	909	909	.	+	.	
+ch.5139	RNASeq_reads	transcript_region	933	964	29.0	.	.	
+ch.5139	RNASeq_R_asymmetry	transcript_region	937	967	112043.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	940	958	33.0	+	.	
+ch.5139	RNASeq_stranded	transcript_region	959	969	19.0	+	.	
+ch.5139	RNASeq_reads	transcript_region	965	976	19.0	.	.	
+ch.5139	RNASeq_R_asymmetry	transcript_region	968	976	72743.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	970	976	12.0	+	.	
+ch.5139	RNASeq_R_asymmetry	transcript_region	977	977	34061.0	.	.	
+ch.5139	RNASeq_reads	transcript_region	977	978	8.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	977	982	6.0	+	.	
+ch.5139	RNASeq_reads	transcript_region	979	983	4.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	983	988	2.0	+	.	
+ch.5139	RNASeq_reads	transcript_region	984	993	2.0	.	.	
+ch.5139	RNASeq_stranded	transcript_region	989	993	1.0	+	.	

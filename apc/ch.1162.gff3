@@ -1,0 +1,114 @@
+ch.1162	RNASeq_stranded	transcript_region	943	1019	36.0	-	.	
+ch.1162	WormBase	three_prime_UTR	892	1016	.	-	.	Parent=Transcript:F57B10.5.1
+ch.1162	RNASeq_stranded	transcript_region	992	1007	2.0	+	.	
+ch.1162	RNASeq_R_asymmetry	transcript_region	934	1002	493957.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	929	991	4.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	931	948	103.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	912	942	55.0	-	.	
+ch.1162	RNASeq_R_asymmetry	transcript_region	924	933	312308.0	.	.	
+ch.1162	RNASeq_reads	transcript_region	920	930	67.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	917	928	2.0	+	.	
+ch.1162	RNASeq_R_asymmetry	transcript_region	918	923	204020.0	.	.	
+ch.1162	WormBase	three_prime_UTR	842	923	.	+	.	Parent=Transcript:F57B10.11.1
+ch.1162	WormBase	exon	713	923	.	+	.	Parent=Transcript:F57B10.11.1
+ch.1162	WormBase	gene	101	923	.	+	.	ID=Gene:WBGene00000236
+ch.1162	WormBase	mRNA	101	923	.	+	.	ID=Transcript:F57B10.11.1;Parent=Gene:WBGene00000236
+ch.1162	RNASeq_reads	transcript_region	910	919	43.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	910	916	4.0	+	.	
+ch.1162	RNASeq	transcription_end_site	915	915	.	-	.	
+ch.1162	RNASeq_stranded	transcript_region	904	911	36.0	-	.	
+ch.1162	RNASeq	transcription_end_site	909	909	.	-	.	
+ch.1162	RNASeq_stranded	transcript_region	902	909	7.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	869	909	28.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	898	903	23.0	-	.	
+ch.1162	RNASeq	transcription_end_site	901	901	.	-	.	
+ch.1162	RNASeq_stranded	transcript_region	894	901	11.0	+	.	
+ch.1162	RNASeq	transcription_end_site	900	900	.	-	.	
+ch.1162	RNASeq	transcription_end_site	900	900	.	-	.	
+ch.1162	RNASeq	transcription_end_site	898	898	.	-	.	
+ch.1162	RNASeq	transcription_end_site	898	898	.	-	.	
+ch.1162	RNASeq_stranded	transcript_region	890	897	14.0	-	.	
+ch.1162	RNASeq	transcription_end_site	895	895	.	-	.	
+ch.1162	RNASeq_stranded	transcript_region	876	893	17.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	880	889	9.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	863	879	5.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	847	875	26.0	+	.	
+ch.1162	RNASeq	transcription_end_site	873	873	.	-	.	
+ch.1162	RNASeq	transcription_end_site	873	873	.	-	.	
+ch.1162	RNASeq_reads	transcript_region	822	868	48.0	.	.	
+ch.1162	RNASeq_F_asymmetry	transcript_region	836	867	201287.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	859	862	3.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	854	858	1.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	713	846	40.0	+	.	
+ch.1162	RNASeq	transcription_end_site	845	845	.	-	.	
+ch.1162	RNASeq	transcription_end_site	845	845	.	-	.	
+ch.1162	WormBase	CDS	713	841	.	+	.	ID=CDS:F57B10.11;Parent=Transcript:F57B10.11.1
+ch.1162	RNASeq_reads	transcript_region	778	821	73.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	766	783	1.0	-	.	
+ch.1162	RNASeq_reads	transcript_region	713	777	110.0	.	.	
+ch.1162	RNASeq_splice	intron	595	741	3.0	+	.	
+ch.1162	RNASeq_splice	intron	653	718	45.0	+	.	
+ch.1162	RNASeq_splice	intron	651	718	6386.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	711	712	14.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	709	712	24.0	.	.	
+ch.1162	RNASeq_splice	intron	653	712	37.0	+	.	
+ch.1162	WormBase	intron	651	712	.	+	.	Parent=Transcript:F57B10.11.1
+ch.1162	RNASeq_splice	intron	651	712	493837.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	710	710	9.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	709	709	5.0	-	.	
+ch.1162	RNASeq_reads	transcript_region	693	708	2.0	.	.	
+ch.1162	RNASeq_splice	intron	653	696	21.0	+	.	
+ch.1162	RNASeq_splice	intron	651	696	2366.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	652	692	1.0	.	.	
+ch.1162	RNASeq_reads	transcript_region	651	651	14.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	651	651	10.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	618	650	34.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	358	650	100.0	.	.	
+ch.1162	WormBase	CDS	307	650	.	+	.	ID=CDS:F57B10.11;Parent=Transcript:F57B10.11.1
+ch.1162	WormBase	exon	307	650	.	+	.	Parent=Transcript:F57B10.11.1
+ch.1162	RNASeq_stranded	transcript_region	599	617	52.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	521	598	32.0	+	.	
+ch.1162	RNASeq_splice	intron	470	552	3.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	429	520	21.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	379	428	33.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	377	378	20.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	348	376	11.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	307	357	65.0	.	.	
+ch.1162	RNASeq	transcription_end_site	354	354	.	-	.	
+ch.1162	RNASeq	transcription_end_site	354	354	.	-	.	
+ch.1162	RNASeq_stranded	transcript_region	307	347	17.0	+	.	
+ch.1162	RNASeq_splice	intron	263	321	879.0	+	.	
+ch.1162	RNASeq_splice	intron	266	311	8.0	+	.	
+ch.1162	RNASeq_splice	intron	263	311	16.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	305	306	8.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	305	306	4.0	+	.	
+ch.1162	WormBase	intron	263	306	.	+	.	Parent=Transcript:F57B10.11.1
+ch.1162	RNASeq_splice	intron	263	306	451574.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	264	304	1.0	.	.	
+ch.1162	RNASeq_reads	transcript_region	263	263	12.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	263	263	3.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	235	262	12.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	115	262	81.0	.	.	
+ch.1162	WormBase	CDS	103	262	.	+	.	ID=CDS:F57B10.11;Parent=Transcript:F57B10.11.1
+ch.1162	WormBase	exon	101	262	.	+	.	Parent=Transcript:F57B10.11.1
+ch.1162	RNASeq_stranded	transcript_region	232	253	1.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	199	234	21.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	146	228	1.0	-	.	
+ch.1162	RNASeq_stranded	transcript_region	181	198	32.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	103	180	21.0	+	.	
+ch.1162	RNASeq_R_asymmetry	transcript_region	108	161	323522.0	.	.	
+ch.1162	RNASeq_splice	intron	109	156	11.0	+	.	
+ch.1162	RNASeq_stranded	transcript_region	125	127	1.0	-	.	
+ch.1162	RNASeq_reads	transcript_region	104	114	53.0	.	.	
+ch.1162	RNASeq_R_asymmetry	transcript_region	99	107	183362.0	.	.	
+ch.1162	RNASeq_reads	transcript_region	99	103	33.0	.	.	
+ch.1162	WormBase	five_prime_UTR	101	102	.	+	.	Parent=Transcript:F57B10.11.1
+ch.1162	RNASeq_stranded	transcript_region	99	102	13.0	+	.	
+ch.1162	RNASeq_splice	intron	14	100	62.0	+	.	
+ch.1162	RNASeq_R_asymmetry	transcript_region	95	98	26503.0	.	.	
+ch.1162	RNASeq_reads	transcript_region	95	98	6.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	95	98	2.0	+	.	
+ch.1162	RNASeq_R_asymmetry	transcript_region	91	94	13846.0	.	.	
+ch.1162	RNASeq_stranded	transcript_region	85	94	1.0	+	.	
+ch.1162	RNASeq_reads	transcript_region	83	94	3.0	.	.	
+ch.1162	RNASeq_reads	transcript_region	24	82	1.0	.	.	

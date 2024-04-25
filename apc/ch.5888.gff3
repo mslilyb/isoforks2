@@ -1,0 +1,59 @@
+ch.5888	RNASeq_F_asymmetry	transcript_region	22	29	3721.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	30	31	6701.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	31	32	2.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	32	32	10945.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	33	35	21177.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	33	35	4.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	36	44	34880.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	36	44	7.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	45	48	52722.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	45	48	11.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	49	56	94313.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	49	56	19.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	57	75	147949.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	57	75	30.0	.	.	
+ch.5888	RNASeq_stranded	transcript_region	70	350	1.0	+	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	76	95	231398.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	76	95	47.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	96	142	354642.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	96	155	72.0	.	.	
+ch.5888	WormBase	exon	101	592	.	+	.	Parent=Transcript:Y43F11A.4.1
+ch.5888	WormBase	CDS	101	592	.	+	.	ID=CDS:Y43F11A.4;Parent=Transcript:Y43F11A.4.1
+ch.5888	WormBase	gene	101	725	.	+	.	ID=Gene:WBGene00012844
+ch.5888	WormBase	mRNA	101	725	.	+	.	ID=Transcript:Y43F11A.4.1;Parent=Gene:WBGene00012844
+ch.5888	RNASeq_F_asymmetry	transcript_region	143	155	225651.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	156	293	46.0	.	.	
+ch.5888	RNASeq_splice	intron	215	548	8.0	+	.	
+ch.5888	RNASeq_reads	transcript_region	294	592	72.0	.	.	
+ch.5888	RNASeq_stranded	transcript_region	351	488	2.0	+	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	358	373	291035.0	.	.	
+ch.5888	RNASeq_F_asymmetry	transcript_region	376	377	265379.0	.	.	
+ch.5888	RNASeq_stranded	transcript_region	489	559	4.0	+	.	
+ch.5888	RNASeq_stranded	transcript_region	560	569	7.0	+	.	
+ch.5888	RNASeq_stranded	transcript_region	570	592	11.0	+	.	
+ch.5888	RNASeq_splice	intron	572	647	6.0	+	.	
+ch.5888	RNASeq_R_asymmetry	transcript_region	593	615	13402.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	593	645	3.0	.	.	
+ch.5888	WormBase	intron	593	647	.	+	.	Parent=Transcript:Y43F11A.4.1
+ch.5888	RNASeq_splice	intron	593	647	200314.0	+	.	
+ch.5888	RNASeq_splice	intron	593	779	12.0	+	.	
+ch.5888	RNASeq_reads	transcript_region	646	647	10.0	.	.	
+ch.5888	RNASeq_stranded	transcript_region	646	647	2.0	+	.	
+ch.5888	RNASeq_stranded	transcript_region	648	662	6.0	+	.	
+ch.5888	RNASeq_reads	transcript_region	648	677	50.0	.	.	
+ch.5888	WormBase	CDS	648	725	.	+	.	ID=CDS:Y43F11A.4;Parent=Transcript:Y43F11A.4.1
+ch.5888	WormBase	exon	648	725	.	+	.	Parent=Transcript:Y43F11A.4.1
+ch.5888	RNASeq_stranded	transcript_region	663	667	10.0	+	.	
+ch.5888	RNASeq_stranded	transcript_region	668	678	16.0	+	.	
+ch.5888	RNASeq_R_asymmetry	transcript_region	678	727	330284.0	.	.	
+ch.5888	RNASeq_reads	transcript_region	678	727	83.0	.	.	
+ch.5888	RNASeq_stranded	transcript_region	679	716	28.0	+	.	
+ch.5888	RNASeq_stranded	transcript_region	717	751	47.0	+	.	
+ch.5888	RNASeq_reads	transcript_region	728	781	54.0	.	.	
+ch.5888	RNASeq_stranded	transcript_region	752	756	21.0	+	.	
+ch.5888	RNASeq_stranded	transcript_region	757	780	33.0	+	.	
+ch.5888	RNASeq_R_asymmetry	transcript_region	760	760	279875.0	.	.	
+ch.5888	RNASeq_R_asymmetry	transcript_region	762	762	268511.0	.	.	
+ch.5888	RNASeq_R_asymmetry	transcript_region	764	793	275342.0	.	.	
+ch.5888	RNASeq_stranded	transcript_region	781	796	54.0	+	.	
+ch.5888	RNASeq_stranded	transcript_region	797	815	35.0	+	.	

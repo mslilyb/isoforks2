@@ -1,0 +1,68 @@
+ch.13302	RNASeq_F_asymmetry	transcript_region	47	70	829.0	.	.	
+ch.13302	RNASeq_F_asymmetry	transcript_region	101	105	8879.0	.	.	
+ch.13302	RNASeq_reads	transcript_region	101	106	2.0	.	.	
+ch.13302	WormBase	exon	101	231	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	WormBase	five_prime_UTR	101	231	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	WormBase	gene	101	716	.	+	.	ID=Gene:WBGene00018229
+ch.13302	WormBase	mRNA	101	716	.	+	.	ID=Transcript:F40C5.2.1;Parent=Gene:WBGene00018229
+ch.13302	RNASeq_F_asymmetry	transcript_region	106	107	13819.0	.	.	
+ch.13302	RNASeq_reads	transcript_region	107	112	4.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	107	125	1.0	+	.	
+ch.13302	RNASeq_F_asymmetry	transcript_region	108	112	21548.0	.	.	
+ch.13302	RNASeq_reads	transcript_region	113	126	7.0	.	.	
+ch.13302	RNASeq_F_asymmetry	transcript_region	113	133	33464.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	126	170	2.0	+	.	
+ch.13302	RNASeq_reads	transcript_region	127	161	11.0	.	.	
+ch.13302	RNASeq_F_asymmetry	transcript_region	134	155	50934.0	.	.	
+ch.13302	RNASeq_reads	transcript_region	162	231	17.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	171	221	5.0	+	.	
+ch.13302	RNASeq_stranded	transcript_region	222	231	3.0	+	.	
+ch.13302	RNASeq_reads	transcript_region	232	233	3.0	.	.	
+ch.13302	WormBase	intron	232	278	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	RNASeq_splice	intron	232	278	72815.0	+	.	
+ch.13302	RNASeq_splice	intron	232	290	3.0	+	.	
+ch.13302	RNASeq_reads	transcript_region	278	278	1.0	.	.	
+ch.13302	WormBase	five_prime_UTR	278	301	.	+	.	Parent=Transcript:F40C5.2.2
+ch.13302	WormBase	exon	278	414	.	+	.	Parent=Transcript:F40C5.2.2
+ch.13302	WormBase	mRNA	278	716	.	+	.	ID=Transcript:F40C5.2.2;Parent=Gene:WBGene00018229
+ch.13302	RNASeq_stranded	transcript_region	279	294	2.0	+	.	
+ch.13302	WormBase	five_prime_UTR	279	301	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	RNASeq_reads	transcript_region	279	381	13.0	.	.	
+ch.13302	WormBase	exon	279	414	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	RNASeq_splice	intron	279	460	18.0	+	.	
+ch.13302	RNASeq_stranded	transcript_region	295	319	1.0	+	.	
+ch.13302	WormBase	CDS	302	414	.	+	.	ID=CDS:F40C5.2;Parent=Transcript:F40C5.2.1,Transcript:F40C5.2.2
+ch.13302	RNASeq_stranded	transcript_region	350	396	1.0	+	.	
+ch.13302	RNASeq_reads	transcript_region	382	414	20.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	397	414	2.0	+	.	
+ch.13302	RNASeq_splice	intron	398	460	848.0	+	.	
+ch.13302	RNASeq_splice	intron	409	460	22.0	+	.	
+ch.13302	WormBase	intron	415	460	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	WormBase	intron	415	460	.	+	.	Parent=Transcript:F40C5.2.2
+ch.13302	RNASeq_reads	transcript_region	415	460	1.0	.	.	
+ch.13302	RNASeq_splice	intron	415	460	134510.0	+	.	
+ch.13302	RNASeq_splice	intron	415	491	8.0	+	.	
+ch.13302	RNASeq_stranded	transcript_region	461	479	2.0	+	.	
+ch.13302	WormBase	CDS	461	497	.	+	.	ID=CDS:F40C5.2;Parent=Transcript:F40C5.2.1,Transcript:F40C5.2.2
+ch.13302	RNASeq_reads	transcript_region	461	513	24.0	.	.	
+ch.13302	WormBase	exon	461	716	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	WormBase	exon	461	716	.	+	.	Parent=Transcript:F40C5.2.2
+ch.13302	RNASeq_stranded	transcript_region	480	480	1.0	+	.	
+ch.13302	RNASeq_stranded	transcript_region	481	481	2.0	+	.	
+ch.13302	RNASeq_stranded	transcript_region	482	544	1.0	+	.	
+ch.13302	WormBase	three_prime_UTR	498	716	.	+	.	Parent=Transcript:F40C5.2.1
+ch.13302	WormBase	three_prime_UTR	498	716	.	+	.	Parent=Transcript:F40C5.2.2
+ch.13302	RNASeq_reads	transcript_region	514	602	15.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	545	606	2.0	+	.	
+ch.13302	RNASeq_reads	transcript_region	603	615	9.0	.	.	
+ch.13302	RNASeq_R_asymmetry	transcript_region	607	615	32190.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	607	637	1.0	+	.	
+ch.13302	RNASeq_R_asymmetry	transcript_region	616	619	20457.0	.	.	
+ch.13302	RNASeq_reads	transcript_region	616	619	5.0	.	.	
+ch.13302	RNASeq_R_asymmetry	transcript_region	620	673	12394.0	.	.	
+ch.13302	RNASeq_reads	transcript_region	620	683	3.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	638	684	2.0	+	.	
+ch.13302	RNASeq_R_asymmetry	transcript_region	674	690	7905.0	.	.	
+ch.13302	RNASeq_reads	transcript_region	684	702	1.0	.	.	
+ch.13302	RNASeq_stranded	transcript_region	685	716	1.0	+	.	
+ch.13302	RNASeq_R_asymmetry	transcript_region	691	696	5026.0	.	.	

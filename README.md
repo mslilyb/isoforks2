@@ -1,60 +1,39 @@
 Isoforms
 ========
 
-Consolidating the various splicing things in one place.
-
-+ Data
-	+ Genes
-		+ Exons
-		+ Introns
-		+ Splice site usage from RNA-seq
-		+ Exon coverage from RNA-seq
-		+ Whole isoforms?
-	+ Organisms
-		+ A.thaliana
-		+ C.elegans
-		+ D.melanogaster
-		+ Others?
-+ Models
-	+ PWM
-	+ Markov/k-mer
-	+ Length
-	+ Others? WAM, DT
-+ Algorithms
-	+ APC
-	+ BLI
-	+ FB
-	+ SV
-+ Implementations
-	+ Model files
-	+ C genomikon
-	+ Go Alan's
-	+ Python (Ian, Ismael)
-+ Results
-
 ## Data ##
+
+Data collection is described in `datacore2024/project_splicing`.
 
 ## Models ##
 
-The model file formats are specified as follows.
+See the `models` directory for standard models and `modelbuilder` for how to
+build the models.
 
-### PWM
+## Sources ##
 
-### MM
+### isoform.py
 
-### Length
+Python-based applications use `isoform.py` for common functions.
 
-## Algorithms ##
-
-## Implementations ##
++ `cmpiso` - compares collections of isoforms in GFF
++ `geniso` - generates isoforms and their probabilities
++ `modelbuilder` - creates the various model files
++ `optiso` - optimizes model parameters with a genetic algorithm
++ `optiso-mp` - multi-processing version (bugged currently)
 
 ### genomikon
 
-The genomikon library contains a couple of implementations in the `isoformer`
-directory.
+The genomikon library contains a couple of faster implementations in the
+`isoformer` directory.
 
 + `isoformer` - the standard algorithm for all reasonable isoforms
 + `isocounter` - as above, but only counting, not calculating
 + `isorandom` - counting isoforms in random sequences
 
-## Results ##
+
+## To Do ##
+
++ Length models need to be done better
++ Isoform comparison function shouldn't need `deepcopy`
++ `optiso-mp` is bugged for no unknown reasons

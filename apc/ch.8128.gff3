@@ -1,0 +1,85 @@
+ch.8128	RNASeq_reads	transcript_region	11	11	1.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	13	16	1.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	18	94	1.0	.	.	
+ch.8128	RNASeq_F_asymmetry	transcript_region	95	98	12190.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	95	98	3.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	97	98	1.0	+	.	
+ch.8128	RNASeq_F_asymmetry	transcript_region	99	103	104470.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	99	103	21.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	99	109	8.0	+	.	
+ch.8128	WormBase	five_prime_UTR	101	101	.	+	.	Parent=Transcript:C30C11.1.1
+ch.8128	WormBase	exon	101	330	.	+	.	Parent=Transcript:C30C11.1.1
+ch.8128	WormBase	gene	101	863	.	+	.	ID=Gene:WBGene00016249
+ch.8128	WormBase	mRNA	101	863	.	+	.	ID=Transcript:C30C11.1.1;Parent=Gene:WBGene00016249
+ch.8128	WormBase	CDS	102	330	.	+	.	ID=CDS:C30C11.1;Parent=Transcript:C30C11.1.1
+ch.8128	RNASeq_F_asymmetry	transcript_region	104	111	171461.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	104	111	34.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	110	299	13.0	+	.	
+ch.8128	RNASeq_reads	transcript_region	112	151	54.0	.	.	
+ch.8128	RNASeq_F_asymmetry	transcript_region	112	172	269660.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	152	330	84.0	.	.	
+ch.8128	RNASeq_splice	intron	197	259	7.0	+	.	
+ch.8128	RNASeq_stranded	transcript_region	208	250	1.0	-	.	
+ch.8128	RNASeq_splice	intron	239	549	10.0	+	.	
+ch.8128	RNASeq_stranded	transcript_region	298	330	1.0	-	.	
+ch.8128	RNASeq_stranded	transcript_region	300	330	8.0	+	.	
+ch.8128	WormBase	intron	331	381	.	+	.	Parent=Transcript:C30C11.1.1
+ch.8128	RNASeq_splice	intron	331	381	463451.0	+	.	
+ch.8128	RNASeq_splice	intron	331	453	55.0	+	.	
+ch.8128	RNASeq_splice	intron	335	386	138.0	+	.	
+ch.8128	RNASeq_stranded	transcript_region	382	449	16.0	+	.	
+ch.8128	WormBase	CDS	382	584	.	+	.	ID=CDS:C30C11.1;Parent=Transcript:C30C11.1.1
+ch.8128	WormBase	exon	382	584	.	+	.	Parent=Transcript:C30C11.1.1
+ch.8128	RNASeq_reads	transcript_region	382	584	87.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	382	584	1.0	-	.	
+ch.8128	RNASeq_stranded	transcript_region	450	540	26.0	+	.	
+ch.8128	RNASeq_splice	intron	481	855	3.0	-	.	
+ch.8128	RNASeq_splice	intron	494	855	300.0	-	.	
+ch.8128	RNASeq_splice	intron	497	855	252.0	-	.	
+ch.8128	RNASeq_splice	intron	520	855	8.0	-	.	
+ch.8128	RNASeq_splice	intron	528	855	29.0	+	.	
+ch.8128	RNASeq_stranded	transcript_region	541	584	16.0	+	.	
+ch.8128	RNASeq_reads	transcript_region	585	588	10.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	585	588	6.0	+	.	
+ch.8128	WormBase	intron	585	630	.	+	.	Parent=Transcript:C30C11.1.1
+ch.8128	RNASeq_splice	intron	585	630	456563.0	+	.	
+ch.8128	RNASeq_splice	intron	585	647	502.0	+	.	
+ch.8128	RNASeq_reads	transcript_region	589	590	1.0	.	.	
+ch.8128	RNASeq_splice	intron	589	630	35.0	+	.	
+ch.8128	RNASeq_reads	transcript_region	628	630	1.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	631	656	1.0	-	.	
+ch.8128	RNASeq_stranded	transcript_region	631	661	13.0	+	.	
+ch.8128	RNASeq_reads	transcript_region	631	719	80.0	.	.	
+ch.8128	WormBase	CDS	631	750	.	+	.	ID=CDS:C30C11.1;Parent=Transcript:C30C11.1.1
+ch.8128	WormBase	exon	631	863	.	+	.	Parent=Transcript:C30C11.1.1
+ch.8128	RNASeq_stranded	transcript_region	662	766	20.0	+	.	
+ch.8128	RNASeq_reads	transcript_region	720	739	52.0	.	.	
+ch.8128	RNASeq_splice	intron	739	855	426.0	-	.	
+ch.8128	RNASeq_reads	transcript_region	740	824	34.0	.	.	
+ch.8128	RNASeq	transcription_end_site	751	751	.	+	.	
+ch.8128	WormBase	three_prime_UTR	751	863	.	+	.	Parent=Transcript:C30C11.1.1
+ch.8128	RNASeq	transcription_end_site	759	759	.	+	.	
+ch.8128	RNASeq	transcription_end_site	762	762	.	+	.	
+ch.8128	RNASeq	transcription_end_site	764	764	.	+	.	
+ch.8128	RNASeq_stranded	transcript_region	767	813	13.0	+	.	
+ch.8128	RNASeq	transcription_end_site	772	772	.	+	.	
+ch.8128	RNASeq_R_asymmetry	transcript_region	776	832	106388.0	.	.	
+ch.8128	RNASeq_splice	intron	784	895	3.0	+	.	
+ch.8128	RNASeq	transcription_end_site	794	794	.	+	.	
+ch.8128	RNASeq_stranded	transcript_region	814	822	8.0	+	.	
+ch.8128	RNASeq_stranded	transcript_region	823	835	5.0	+	.	
+ch.8128	RNASeq_reads	transcript_region	825	832	22.0	.	.	
+ch.8128	RNASeq_R_asymmetry	transcript_region	833	848	63271.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	833	848	13.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	836	849	3.0	+	.	
+ch.8128	RNASeq_R_asymmetry	transcript_region	849	853	41279.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	849	853	8.0	.	.	
+ch.8128	RNASeq_stranded	transcript_region	850	854	1.0	+	.	
+ch.8128	RNASeq_R_asymmetry	transcript_region	854	854	27115.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	854	854	5.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	855	855	1.0	.	.	
+ch.8128	RNASeq_R_asymmetry	transcript_region	855	858	6936.0	.	.	
+ch.8128	RNASeq_reads	transcript_region	856	856	2.0	.	.	
+ch.8128	RNASeq	transcription_end_site	860	860	.	+	.	
+ch.8128	RNASeq	transcription_end_site	863	863	.	+	.	
+ch.8128	RNASeq	transcription_end_site	865	865	.	+	.	

@@ -1,0 +1,73 @@
+ch.4383	RNASeq_stranded	transcript_region	836	875	10.0	+	.	
+ch.4383	RNASeq_splice	intron	790	855	5.0	+	.	
+ch.4383	RNASeq_splice	intron	790	840	57.0	+	.	
+ch.4383	RNASeq_reads	transcript_region	835	835	13.0	.	.	
+ch.4383	RNASeq_stranded	transcript_region	835	835	1.0	-	.	
+ch.4383	WormBase	intron	790	835	.	+	.	Parent=Transcript:F59E12.11.1
+ch.4383	WormBase	intron	790	835	.	+	.	Parent=Transcript:F59E12.11.2
+ch.4383	RNASeq_splice	intron	790	835	330804.0	+	.	
+ch.4383	RNASeq_splice	intron	781	827	120.0	-	.	
+ch.4383	RNASeq_splice	intron	790	823	144.0	+	.	
+ch.4383	RNASeq	transcription_end_site	790	790	.	-	.	
+ch.4383	RNASeq	transcription_end_site	790	790	.	-	.	
+ch.4383	RNASeq_stranded	transcript_region	778	789	7.0	+	.	
+ch.4383	WormBase	CDS	497	789	.	+	.	ID=CDS:F59E12.11;Parent=Transcript:F59E12.11.1,Transcript:F59E12.11.2
+ch.4383	WormBase	exon	497	789	.	+	.	Parent=Transcript:F59E12.11.1
+ch.4383	RNASeq_reads	transcript_region	497	789	62.0	.	.	
+ch.4383	WormBase	exon	285	789	.	+	.	Parent=Transcript:F59E12.11.2
+ch.4383	RNASeq_stranded	transcript_region	714	777	11.0	+	.	
+ch.4383	WormBase	three_prime_UTR	497	776	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	WormBase	exon	497	776	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	WormBase	gene	101	776	.	+	.	ID=Gene:WBGene00302971
+ch.4383	WormBase	mRNA	101	776	.	+	.	ID=Transcript:F59E12.17.1;Parent=Gene:WBGene00302971
+ch.4383	RNASeq_stranded	transcript_region	631	713	7.0	+	.	
+ch.4383	RNASeq_splice	intron	588	675	8.0	-	.	
+ch.4383	RNASeq_stranded	transcript_region	574	630	11.0	+	.	
+ch.4383	RNASeq_stranded	transcript_region	497	573	7.0	+	.	
+ch.4383	RNASeq_reads	transcript_region	495	496	6.0	.	.	
+ch.4383	RNASeq_stranded	transcript_region	495	496	1.0	+	.	
+ch.4383	WormBase	intron	449	496	.	+	.	Parent=Transcript:F59E12.11.1
+ch.4383	WormBase	intron	449	496	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_splice	intron	449	496	296071.0	+	.	
+ch.4383	WormBase	five_prime_UTR	285	496	.	+	.	Parent=Transcript:F59E12.11.2
+ch.4383	RNASeq_splice	intron	214	496	3.0	+	.	
+ch.4383	RNASeq_splice	intron	177	496	8.0	+	.	
+ch.4383	WormBase	three_prime_UTR	443	448	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_stranded	transcript_region	427	448	6.0	+	.	
+ch.4383	WormBase	exon	287	448	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_reads	transcript_region	287	448	62.0	.	.	
+ch.4383	WormBase	exon	285	448	.	+	.	Parent=Transcript:F59E12.11.1
+ch.4383	WormBase	five_prime_UTR	285	448	.	+	.	Parent=Transcript:F59E12.11.1
+ch.4383	WormBase	CDS	287	442	.	+	.	ID=CDS:F59E12.17;Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_stranded	transcript_region	355	426	11.0	+	.	
+ch.4383	RNASeq_stranded	transcript_region	330	354	7.0	+	.	
+ch.4383	RNASeq_stranded	transcript_region	287	329	11.0	+	.	
+ch.4383	RNASeq_reads	transcript_region	285	286	11.0	.	.	
+ch.4383	RNASeq_stranded	transcript_region	285	286	5.0	+	.	
+ch.4383	RNASeq_splice	intron	245	286	11.0	+	.	
+ch.4383	RNASeq_splice	intron	243	286	18.0	+	.	
+ch.4383	WormBase	intron	214	286	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_splice	intron	214	286	361028.0	+	.	
+ch.4383	RNASeq_splice	intron	214	258	3.0	+	.	
+ch.4383	RNASeq_stranded	transcript_region	200	213	9.0	+	.	
+ch.4383	WormBase	CDS	130	213	.	+	.	ID=CDS:F59E12.17;Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_reads	transcript_region	115	213	69.0	.	.	
+ch.4383	WormBase	exon	101	213	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_stranded	transcript_region	120	199	14.0	+	.	
+ch.4383	RNASeq_R_asymmetry	transcript_region	107	180	289013.0	.	.	
+ch.4383	RNASeq_splice	intron	128	175	167.0	+	.	
+ch.4383	WormBase	five_prime_UTR	101	129	.	+	.	Parent=Transcript:F59E12.17.1
+ch.4383	RNASeq_stranded	transcript_region	101	119	9.0	+	.	
+ch.4383	RNASeq_reads	transcript_region	106	114	45.0	.	.	
+ch.4383	RNASeq_R_asymmetry	transcript_region	104	106	168510.0	.	.	
+ch.4383	RNASeq_reads	transcript_region	100	105	26.0	.	.	
+ch.4383	RNASeq_R_asymmetry	transcript_region	100	103	100988.0	.	.	
+ch.4383	RNASeq_stranded	transcript_region	100	100	5.0	-	.	
+ch.4383	RNASeq_splice	intron	10	100	2344.0	+	.	
+ch.4383	RNASeq_R_asymmetry	transcript_region	99	99	58324.0	.	.	
+ch.4383	RNASeq_reads	transcript_region	99	99	12.0	.	.	
+ch.4383	RNASeq_stranded	transcript_region	99	99	3.0	-	.	
+ch.4383	RNASeq_reads	transcript_region	98	98	1.0	.	.	
+ch.4383	RNASeq_R_asymmetry	transcript_region	25	68	1305.0	.	.	
+ch.4383	RNASeq_R_asymmetry	transcript_region	14	24	845.0	.	.	
+ch.4383	RNASeq_R_asymmetry	transcript_region	10	10	567.0	.	.	

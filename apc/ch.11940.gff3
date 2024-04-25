@@ -1,0 +1,83 @@
+ch.11940	RNASeq_F_asymmetry	transcript_region	944	956	108.0	.	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	932	943	168.0	.	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	927	930	219.0	.	.	
+ch.11940	WormBase	three_prime_UTR	866	893	.	+	.	Parent=Transcript:Y45F10C.4.1
+ch.11940	WormBase	exon	763	893	.	+	.	Parent=Transcript:Y45F10C.4.1
+ch.11940	WormBase	gene	101	893	.	+	.	ID=Gene:WBGene00012880
+ch.11940	WormBase	mRNA	101	893	.	+	.	ID=Transcript:Y45F10C.4.1;Parent=Gene:WBGene00012880
+ch.11940	RNASeq_stranded	transcript_region	885	892	4.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	883	892	2.0	.	.	
+ch.11940	RNASeq	transcription_end_site	884	884	.	-	.	
+ch.11940	RNASeq	transcription_end_site	884	884	.	-	.	
+ch.11940	RNASeq_stranded	transcript_region	883	884	8.0	+	.	
+ch.11940	RNASeq_stranded	transcript_region	875	882	14.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	872	882	4.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	863	874	24.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	858	871	7.0	.	.	
+ch.11940	WormBase	CDS	763	865	.	+	.	ID=CDS:Y45F10C.4;Parent=Transcript:Y45F10C.4.1
+ch.11940	RNASeq_stranded	transcript_region	840	862	38.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	844	857	11.0	.	.	
+ch.11940	RNASeq_reads	transcript_region	839	843	17.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	800	839	58.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	830	838	26.0	.	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	821	835	145548.0	.	.	
+ch.11940	RNASeq_reads	transcript_region	790	829	40.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	763	799	88.0	+	.	
+ch.11940	RNASeq	transcription_end_site	798	798	.	-	.	
+ch.11940	RNASeq	transcription_end_site	795	795	.	-	.	
+ch.11940	RNASeq_reads	transcript_region	763	789	61.0	.	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	763	778	343114.0	.	.	
+ch.11940	WormBase	intron	719	762	.	+	.	Parent=Transcript:Y45F10C.4.1
+ch.11940	RNASeq_splice	intron	719	762	504072.0	+	.	
+ch.11940	RNASeq_splice	intron	706	762	37.0	+	.	
+ch.11940	RNASeq_splice	intron	277	762	46.0	+	.	
+ch.11940	RNASeq_stranded	transcript_region	761	761	1.0	-	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	719	719	1368.0	.	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	698	718	359514.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	689	718	57.0	+	.	
+ch.11940	WormBase	CDS	597	718	.	+	.	ID=CDS:Y45F10C.4;Parent=Transcript:Y45F10C.4.1
+ch.11940	WormBase	exon	597	718	.	+	.	Parent=Transcript:Y45F10C.4.1
+ch.11940	RNASeq_reads	transcript_region	597	718	89.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	675	688	37.0	+	.	
+ch.11940	RNASeq_stranded	transcript_region	662	674	24.0	+	.	
+ch.11940	RNASeq_splice	intron	277	672	3.0	+	.	
+ch.11940	RNASeq_stranded	transcript_region	597	661	15.0	+	.	
+ch.11940	RNASeq_splice	intron	277	656	3.0	+	.	
+ch.11940	RNASeq_splice	intron	239	628	3.0	-	.	
+ch.11940	RNASeq_reads	transcript_region	595	596	15.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	595	596	3.0	+	.	
+ch.11940	WormBase	intron	277	596	.	+	.	Parent=Transcript:Y45F10C.4.1
+ch.11940	RNASeq_splice	intron	277	596	446256.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	590	594	1.0	.	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	479	482	1372.0	.	.	
+ch.11940	RNASeq_F_asymmetry	transcript_region	470	476	1420.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	228	276	9.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	151	276	86.0	.	.	
+ch.11940	WormBase	CDS	127	276	.	+	.	ID=CDS:Y45F10C.4;Parent=Transcript:Y45F10C.4.1
+ch.11940	WormBase	exon	101	276	.	+	.	Parent=Transcript:Y45F10C.4.1
+ch.11940	RNASeq_stranded	transcript_region	218	227	14.0	+	.	
+ch.11940	RNASeq_stranded	transcript_region	137	217	22.0	+	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	132	185	312510.0	.	.	
+ch.11940	RNASeq_reads	transcript_region	131	150	55.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	125	136	14.0	+	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	127	131	201824.0	.	.	
+ch.11940	RNASeq_reads	transcript_region	126	130	35.0	.	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	122	126	123903.0	.	.	
+ch.11940	WormBase	five_prime_UTR	101	126	.	+	.	Parent=Transcript:Y45F10C.4.1
+ch.11940	RNASeq_reads	transcript_region	119	125	18.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	118	124	9.0	+	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	119	121	78481.0	.	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	117	118	37614.0	.	.	
+ch.11940	RNASeq_reads	transcript_region	117	118	8.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	117	117	5.0	-	.	
+ch.11940	RNASeq_reads	transcript_region	113	116	5.0	.	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	112	116	23653.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	112	116	3.0	+	.	
+ch.11940	RNASeq_reads	transcript_region	104	112	3.0	.	.	
+ch.11940	RNASeq_stranded	transcript_region	107	111	1.0	+	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	104	111	12947.0	.	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	100	103	5356.0	.	.	
+ch.11940	RNASeq_reads	transcript_region	100	103	1.0	.	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	99	99	797.0	.	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	88	98	513.0	.	.	
+ch.11940	RNASeq_R_asymmetry	transcript_region	82	87	290.0	.	.	
