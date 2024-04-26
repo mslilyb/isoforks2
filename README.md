@@ -22,6 +22,7 @@ Python-based applications use `isoform.py` for common functions.
 + `modelbuilder` - creates the various model files
 + `optiso` - optimizes model parameters with a genetic algorithm
 + `optiso-mp` - multi-processing version (bugged currently)
++ `run_optiso` - creates a build directory and makefile for running many jobs
 
 ### genomikon
 
@@ -35,3 +36,8 @@ The genomikon library contains a couple of faster implementations in the
 ## To Do ##
 
 + `optiso-mp` is bugged for no unknown reasons
++ `optiso`
+	+ produces negative weights... do we want this?
+	+ is volatile, many good solutions
+	+ icost might need to be bounded
+	+ maybe any very good solutions should not attempt fine tuning

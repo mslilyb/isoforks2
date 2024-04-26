@@ -79,7 +79,7 @@ with open(f'{arg.build}/Makefile', 'w') as fp:
 		fp.write(f'\t{target}\\\n')
 	fp.write('\n\n')
 
-	for target, json, namein zip(targets, jsons, names):
+	for target, json, name in zip(targets, jsons, names):
 		fp.write(f'{target}:\n\t optiso {json} --name {name} > {target}\n')
 
 
