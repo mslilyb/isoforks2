@@ -15,31 +15,39 @@ parser.add_argument('build', help='build directory')
 arg = parser.parse_args()
 
 if not os.path.exists(arg.build): os.makedirs(arg.build)
-for sub in ('json', 'results'):
+for sub in ('json', 'optiso', 'geniso', 'isoformer'):
 	if not os.path.exists(f'{arg.build}/{sub}'):
 		os.makedirs(f'{arg.build}/{sub}')
 
+params = {
+	'--min_exon': 25,
+	'--min_intron': 35,
+	'--flank': 99,
+	'--limit': 100,
+	'--apwm': f'{os.path.abspath(arg.models)}/acc.pwm',
+	'--dpwm': f'{os.path.abspath(arg.models)}/don.pwm',
+	'--emm': f'{os.path.abspath(arg.models)}/exon.mm',
+	'--imm': f'{os.path.abspath(arg.models)}/intron.mm',
+	'--elen': f'{os.path.abspath(arg.models)}/exon.len',
+	'--ilen': f'{os.path.abspath(arg.models)}/intron.len',
+}
+
+opts = []
+for k, v in params.items():
+	opts.append(k)
+	opts.append(str(v))
+opts = ' '.join(opts)
+
 template = {
 	'gff_introns': True,
-	'cli': {
-		'--min_exon': 25,
-		'--min_intron': 35,
-		'--flank': 99,
-		'--limit': 100,
-		'--apwm': f'{os.path.abspath(arg.models)}/acc.pwm',
-		'--dpwm': f'{os.path.abspath(arg.models)}/don.pwm',
-		'--emm': f'{os.path.abspath(arg.models)}/exon.mm',
-		'--imm': f'{os.path.abspath(arg.models)}/intron.mm',
-		'--elen': f'{os.path.abspath(arg.models)}/exon.len',
-		'--ilen': f'{os.path.abspath(arg.models)}/intron.len',
-	},
+	'cli': params,
 	'data': []
 }
 
-## full set json
-## really needs the multi-processor version
-## therefore, not currently part of the makefile
+## full set json in case we want to find globally optimal params
+## really needs the multi-processor version if we do
 
+"""
 full = copy.deepcopy(template)
 for ff in glob.glob(f'{arg.genes}/*.fa'):
 	ff = os.path.abspath(ff)
@@ -53,8 +61,9 @@ for ff in glob.glob(f'{arg.genes}/*.fa'):
 
 with open(f'{arg.build}/json/all.json', 'w') as fp:
 	fp.write(json.dumps(full, indent=4))
+"""
 
-## individual jsons
+## gene-specific jsons for optiso
 
 for d in full['data']:
 	single = copy.deepcopy(template)
@@ -66,20 +75,44 @@ for d in full['data']:
 
 with open(f'{arg.build}/Makefile', 'w') as fp:
 	targets = []
+	ffs = []
+	gffs = []
+	gens = []
+	isos = []
 	jsons = []
 	names = []
 	for d in full['data']:
 		name = d['name']
 		names.append(name)
-		targets.append(os.path.abspath(f'{arg.build}/results/{name}.txt'))
+		ffs.append(os.path.abspath(d['fasta']))
+		gffs.append(os.path.abspath(d['gff']))
+		targets.append(os.path.abspath(f'{arg.build}/optiso/{name}.txt'))
 		jsons.append(os.path.abspath(f'{arg.build}/json/{name}.json'))
+		gens.append(os.path.abspath(f'{arg.build}/geniso/{name}.txt'))
+		isos.append(os.path.abspath(f'{arg.build}/isoformer/{name}.txt'))
 
-	fp.write(f'all:\\\n')
-	for target in targets:
-		fp.write(f'\t{target}\\\n')
+	# optiso
+	fp.write(f'optiso:\\\n')
+	for target in targets: fp.write(f'\t{target}\\\n')
 	fp.write('\n\n')
-
 	for target, json, name in zip(targets, jsons, names):
 		fp.write(f'{target}:\n\t optiso {json} --name {name} > {target}\n')
 
+	# geniso
+	fp.write(f'\ngeniso:\\\n')
+	for gen in gens: fp.write(f'\t{gen}\\\n')
+	fp.write('\n\n')
+	for gen, ff, gff, name in zip(gens, ffs, gffs, names):
+		fp.write(f'{gen}:\n')
+		fp.write(f'\t geniso {ff} {opts} > geniso/{name}.gff\n')
+		fp.write(f'\t cmpiso {gff} geniso/{name}.gff > {gen}\n')
 
+	# isoformer
+	fp.write(f'\nisoformer:\\\n')
+	for iso in isos: fp.write(f'\t{iso}\\\n')
+	fp.write('\n\n')
+	for iso, ff, gff, name in zip(isos, ffs, gffs, names):
+		fp.write(f'{iso}:\n')
+		fp.write(f'\t isoformer {ff} {opts} > isoformer/{name}.gff\n')
+		fp.write(f'\t cmpiso {gff} isoformer/{name}.gff > {iso}\n')
+	

@@ -131,7 +131,7 @@ def score_pwm(pwm, seq, pos):
 ####################
 
 """
-
+this is deprecated in favor of curve fitting in build_models program
 def create_len(seqs, floor, limit):
 	count = []
 	sum = 0
@@ -163,10 +163,10 @@ def create_len(seqs, floor, limit):
 	for v in smooth: model.append(v/total)
 
 	return model
+"""
 
 
-
-def find_tail(val, x):
+def find_tail(val, x): ## this shouldn't be needed anymore...
 	lo = 0
 	hi = 1000
 
@@ -179,7 +179,7 @@ def find_tail(val, x):
 
 	return m
 
-"""
+
 
 def write_len(file, hist):
 	with open(file, 'w') as fp:
