@@ -34,5 +34,4 @@ The genomikon library contains a couple of faster implementations in the
 
 ## To Do ##
 
-+ Length models need to be done better
 + `optiso-mp` is bugged for no unknown reasons
