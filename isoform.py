@@ -130,6 +130,8 @@ def score_pwm(pwm, seq, pos):
 ## LENGTH SECTION ##
 ####################
 
+"""
+
 def create_len(seqs, floor, limit):
 	count = []
 	sum = 0
@@ -162,11 +164,7 @@ def create_len(seqs, floor, limit):
 
 	return model
 
-def write_len(file, hist):
-	with open(file, 'w') as fp:
-		fp.write(f'% LEN {file} {len(hist)}\n')
-		for val in hist:
-			fp.write(f'{val:.6f}\n')
+
 
 def find_tail(val, x):
 	lo = 0
@@ -180,6 +178,14 @@ def find_tail(val, x):
 		else:       hi -= (hi - m) / 2
 
 	return m
+
+"""
+
+def write_len(file, hist):
+	with open(file, 'w') as fp:
+		fp.write(f'% LEN {file} {len(hist)}\n')
+		for val in hist:
+			fp.write(f'{val:.6f}\n')
 
 def read_len(file):
 	model = []
@@ -497,9 +503,3 @@ def expdiff(introns1, introns2):
 	
 	distance = manhattan(p1, p2)
 	return distance, details
-
-
-def expdiff2(introns1, introns2):
-	pass
-	
-	# this is the stub for a better version

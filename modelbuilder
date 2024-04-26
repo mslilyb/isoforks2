@@ -2,10 +2,39 @@
 
 import argparse
 import glob
+import math
 import os
+
+import openturns as ot  # conda install -y openturns
 
 from grimoire.genome import Reader
 import isoform
+
+def create_length_model(seqs, lmin, lmax):
+	# get the lengths
+	lens = [len(seq) for seq in seqs]
+	
+	# train Frechet
+	sample = ot.Sample([[x] for x in lens if x < lmax])
+	f = ot.FrechetFactory().buildAsFrechet(sample)
+	a = f.getAlpha()
+	b = f.getBeta()
+	g = f.getGamma()
+	
+	# create histogram from frechet
+	pdf = []
+	for x in range(lmax):
+		if x < g: pdf.append(0)
+		else:
+			z = (x-g)/b
+			pdf.append((a/b) * z**(-1-a) * math.exp(-z**-a))
+
+	# create leading zeros and rescale
+	for i in range(lmin): pdf[i] = 0
+	total = sum(pdf)
+	for i in range(len(pdf)): pdf[i] /= total	
+
+	return pdf
 
 #######
 # CLI #
@@ -45,6 +74,8 @@ acc = isoform.create_pwm(accs)
 don = isoform.create_pwm(dons)
 emm = isoform.create_markov(exons, arg.emm, 0, 0)
 imm = isoform.create_markov(introns, arg.imm, arg.don, arg.acc)
+elen = create_length_model(exons, arg.emin, arg.emax)
+ilen = create_length_model(introns, arg.imin, arg.imax)
 
 ## write models (hard-coded)
 if not os.path.exists(arg.out): os.makedirs(arg.out)
@@ -52,3 +83,5 @@ isoform.write_pwm(f'{arg.out}/acc.pwm', acc)
 isoform.write_pwm(f'{arg.out}/don.pwm', don)
 isoform.write_markov(f'{arg.out}/exon.mm', emm)
 isoform.write_markov(f'{arg.out}/intron.mm', imm)
+isoform.write_len(f'{arg.out}/exon.len', elen)
+isoform.write_len(f'{arg.out}/intron.len', ilen)
