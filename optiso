@@ -13,6 +13,7 @@ PROGRAM = None
 def get_fitness(guy):
 	base = [PROGRAM]
 	for opt, val in CFG['cli'].items():
+		if opt == '--icost': val = int(val * 100) # icost is 0-100
 		base.append(f'{opt} {val}')
 	for opt, val in guy['genotype'].items():
 		base.append(f'{opt} {val}')
@@ -42,7 +43,7 @@ def random_guy():
 			'--wimm':  random.random(),
 			'--welen': random.random(),
 			'--wilen': random.random(),
-			'--icost': random.randint(0, 100),
+			'--icost': random.random(),
 		},
 		'fitness': None
 	}
@@ -61,19 +62,12 @@ def mate(p1, p2, mut):
 		'fitness': None
 	}
 
-	weight = ('--wdpwm', '--wapwm', '--wemm', '--wimm', '--welen', '--wilen')
+	weight = ('--wdpwm', '--wapwm', '--wemm', '--wimm', '--welen', '--wilen',
+		'--icost')
 	for k in weight:
 		if random.random() < 0.5: child['genotype'][k] = p1['genotype'][k]
 		else:                     child['genotype'][k] = p2['genotype'][k]
-		if random.random() < mut:
-			child['genotype'][k] += (0.5 - random.random());
-
-	if random.random() < 0.5:
-		child['genotype']['--icost'] = p1['genotype']['--icost']
-	else:
-		child['genotype']['--icost'] = p2['genotype']['--icost']
-	if random.random() < mut:
-		child['genotype']['--icost'] = random.randint(0, 100)
+		if random.random() < mut: child['genotype'][k] = random.random();
 
 	return child
 
@@ -141,6 +135,5 @@ pop = sorted(pop, key=lambda item: item['fitness'])
 best = pop[0]
 print(f'{best["fitness"]:.4f}', end='\t')
 for prop, val in best['genotype'].items():
-	if type(val) == int: print(val, end='\t')
-	else: print(f'{val:.4f}', end='\t')
+	print(f'{val:.4f}', end='\t')
 print(arg.name)
