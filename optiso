@@ -76,14 +76,14 @@ def mate(p1, p2, mut):
 		child['genotype']['--icost'] = random.randint(0, 100)
 
 	return child
-	
+
 # CLI
 
 parser = argparse.ArgumentParser(
 	description='Parameter optimization program')
 parser.add_argument('config', type=str, metavar='<json>',
 	help='configuration file')
-parser.add_argument('--program', required=False, type=str, default='./geniso',
+parser.add_argument('--program', required=False, type=str, default='isoformer',
 	metavar='<exec>', help='path to program [%(default)s]')
 parser.add_argument('--pop', required=False, type=int, default=50,
 	metavar='<int>', help='population size [%(default)i]')
@@ -95,6 +95,8 @@ parser.add_argument('--mut', required=False, type=float, default=0.1,
 	metavar='<int>', help='mutation frequency [%(default).2f]')
 parser.add_argument('--seed', required=False, type=int,
 	metavar='<int>', help='random seed')
+parser.add_argument('--name', required=False, type=str, default='',
+	metavar='<int>', help='name the output')
 parser.add_argument('--verbose', action='store_true', help='show progress')
 arg = parser.parse_args()
 
@@ -136,4 +138,9 @@ for g in range(arg.gen):
 # Final report
 
 pop = sorted(pop, key=lambda item: item['fitness'])
-print(json.dumps(pop[0]))
+best = pop[0]
+print(f'{best["fitness"]:.4f}', end='\t')
+for prop, val in best['genotype'].items():
+	if type(val) == int: print(val, end='\t')
+	else: print(f'{val:.4f}', end='\t')
+print(arg.name)
