@@ -22,7 +22,7 @@ Python-based applications use `isoform.py` for common functions.
 + `modelbuilder` - creates the various model files
 + `optiso` - optimizes model parameters with a genetic algorithm
 + `optiso-mp` - multi-processing version (bugged currently)
-+ `run_optiso` - creates a build directory and makefile for running many jobs
++ `run_apc` - runs `isoformer` and `optiso` on the whole apc set
 
 ### genomikon
 

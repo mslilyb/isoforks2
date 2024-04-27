@@ -9,9 +9,9 @@ import os
 # CLI
 
 parser = argparse.ArgumentParser(description='optiso wrapper')
-parser.add_argument('genes', help='directory of genes')
-parser.add_argument('models', help='directory of models')
-parser.add_argument('build', help='build directory')
+parser.add_argument('genes', help='directory of genes (e.g apc)')
+parser.add_argument('models', help='directory of models (e.g. models)')
+parser.add_argument('build', help='build directory (e.g. build)')
 arg = parser.parse_args()
 
 if not os.path.exists(arg.build): os.makedirs(arg.build)
@@ -47,7 +47,6 @@ template = {
 ## full set json in case we want to find globally optimal params
 ## really needs the multi-processor version if we do
 
-"""
 full = copy.deepcopy(template)
 for ff in glob.glob(f'{arg.genes}/*.fa'):
 	ff = os.path.abspath(ff)
@@ -61,7 +60,6 @@ for ff in glob.glob(f'{arg.genes}/*.fa'):
 
 with open(f'{arg.build}/json/all.json', 'w') as fp:
 	fp.write(json.dumps(full, indent=4))
-"""
 
 ## gene-specific jsons for optiso
 
@@ -74,6 +72,8 @@ for d in full['data']:
 ## makefile
 
 with open(f'{arg.build}/Makefile', 'w') as fp:
+	fp.write('all:\n\t$(MAKE) isoformer\n\t$(MAKE) optiso\n\n')
+
 	targets = []
 	ffs = []
 	gffs = []
@@ -98,15 +98,6 @@ with open(f'{arg.build}/Makefile', 'w') as fp:
 	for target, json, name in zip(targets, jsons, names):
 		fp.write(f'{target}:\n\t optiso {json} --name {name} > {target}\n')
 
-	# geniso
-	fp.write(f'\ngeniso:\\\n')
-	for gen in gens: fp.write(f'\t{gen}\\\n')
-	fp.write('\n\n')
-	for gen, ff, gff, name in zip(gens, ffs, gffs, names):
-		fp.write(f'{gen}:\n')
-		fp.write(f'\t geniso {ff} {opts} > geniso/{name}.gff\n')
-		fp.write(f'\t cmpiso {gff} geniso/{name}.gff > {gen}\n')
-
 	# isoformer
 	fp.write(f'\nisoformer:\\\n')
 	for iso in isos: fp.write(f'\t{iso}\\\n')
@@ -115,4 +106,14 @@ with open(f'{arg.build}/Makefile', 'w') as fp:
 		fp.write(f'{iso}:\n')
 		fp.write(f'\t isoformer {ff} {opts} > isoformer/{name}.gff\n')
 		fp.write(f'\t cmpiso {gff} isoformer/{name}.gff > {iso}\n')
-	
+
+"""
+	# geniso
+	fp.write(f'\ngeniso:\\\n')
+	for gen in gens: fp.write(f'\t{gen}\\\n')
+	fp.write('\n\n')
+	for gen, ff, gff, name in zip(gens, ffs, gffs, names):
+		fp.write(f'{gen}:\n')
+		fp.write(f'\t geniso {ff} {opts} > geniso/{name}.gff\n')
+		fp.write(f'\t cmpiso {gff} geniso/{name}.gff > {gen}\n')
+"""
