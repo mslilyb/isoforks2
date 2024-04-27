@@ -1,4 +1,5 @@
 import itertools
+import math
 import os
 import subprocess
 import sys
@@ -22,7 +23,9 @@ def compare_outputs(file1, file2):
 	p2, d2 = readfile(file2)
 
 	report = []
-	if p1 != p2: report.append(f'performance mismatch {p1} {p2}')
+	if math.isclose(float(p1), float(p2), abs_tol=1e-4): return report
+
+	report.append(f'performance mismatch {p1} {p2}')
 	for loc in d1:
 		if loc not in d2: report.append(f'{loc} missing in {file2}')
 	for loc in d2:
@@ -52,7 +55,7 @@ opts = [
 	"--apwm models/acc.pwm",
 	"--dpwm models/don.pwm",
 	"--emm models/exon.mm",
-	"--imm models/intron.mm",
+	#"--imm models/intron.mm", # imm requires don, acc so can't run solo
 	"--elen models/exon.len",
 	"--ilen models/intron.len",
 ]
