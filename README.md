@@ -13,6 +13,12 @@ build the models.
 
 ## Sources ##
 
+`conformity.py` compares pairs of implementations against each other to see if
+they get the same results. There are minor math differences (1e-5) between
+`geniso` and `isoformer`.
+
+`speedo.py` compares the speeds of `geniso` and `isoformer`.
+
 ### isoform.py
 
 Python-based applications use `isoform.py` for common functions.
@@ -29,15 +35,11 @@ Python-based applications use `isoform.py` for common functions.
 The genomikon library contains a couple of faster implementations in the
 `isoformer` directory.
 
-+ `isoformer` - this is the same as `geniso`
++ `isoformer` - this is the same as `geniso` but 40-90x faster
 + `isocounter` - as above, but only counting, not calculating probabilities
 + `isorandom` - counting isoforms in random sequences
 
 ## To Do ##
 
-+ `optiso-mp` is bugged for no unknown reasons
-+ `optiso`
-	+ produces negative weights... do we want this?
-	+ is volatile, many good solutions
-	+ icost might need to be bounded
-	+ maybe any very good solutions should not attempt fine tuning
++ `optiso-mp` is bugged for unknown reasons
++ `optiso` may have many good solutions

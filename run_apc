@@ -15,7 +15,7 @@ parser.add_argument('build', help='build directory (e.g. build)')
 arg = parser.parse_args()
 
 if not os.path.exists(arg.build): os.makedirs(arg.build)
-for sub in ('json', 'optiso', 'geniso', 'isoformer'):
+for sub in ('json', 'optiso', 'isoformer'):
 	if not os.path.exists(f'{arg.build}/{sub}'):
 		os.makedirs(f'{arg.build}/{sub}')
 
@@ -106,14 +106,3 @@ with open(f'{arg.build}/Makefile', 'w') as fp:
 		fp.write(f'{iso}:\n')
 		fp.write(f'\t isoformer {ff} {opts} > isoformer/{name}.gff\n')
 		fp.write(f'\t cmpiso {gff} isoformer/{name}.gff > {iso}\n')
-
-"""
-	# geniso
-	fp.write(f'\ngeniso:\\\n')
-	for gen in gens: fp.write(f'\t{gen}\\\n')
-	fp.write('\n\n')
-	for gen, ff, gff, name in zip(gens, ffs, gffs, names):
-		fp.write(f'{gen}:\n')
-		fp.write(f'\t geniso {ff} {opts} > geniso/{name}.gff\n')
-		fp.write(f'\t cmpiso {gff} geniso/{name}.gff > {gen}\n')
-"""
