@@ -3,6 +3,9 @@ import os
 import statistics
 import sys
 
+print('\t'.join( ('name', 'gene', 'loc', 'str', 'base', 'opt', 'introns',
+	'don', 'acc', 'emm', 'imm', 'elen', 'ilen', 'icost') ))
+
 data = []
 for ff in (glob.glob(f'apc/*.fa')):
 
