@@ -79,9 +79,9 @@ parser.add_argument('config', type=str, metavar='<json>',
 	help='configuration file')
 parser.add_argument('--program', required=False, type=str, default='isoformer',
 	metavar='<exec>', help='path to program [%(default)s]')
-parser.add_argument('--pop', required=False, type=int, default=50,
+parser.add_argument('--pop', required=False, type=int, default=100,
 	metavar='<int>', help='population size [%(default)i]')
-parser.add_argument('--gen', required=False, type=int, default=50,
+parser.add_argument('--gen', required=False, type=int, default=100,
 	metavar='<int>', help='generations [%(default)i]')
 parser.add_argument('--die', required=False, type=float, default=0.5,
 	metavar='<int>', help='fraction that die each gen [%(default).2f]')

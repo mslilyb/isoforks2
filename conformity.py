@@ -40,7 +40,10 @@ def compare_outputs(file1, file2):
 
 # genes in the test set
 genes = [
-	'ch.13301', # this is the smallest one
+	'ch.13301',
+	'ch.19857',
+	'ch.2110',
+	'ch.9395',
 ]
 
 # programs to check (just pairs)
@@ -93,7 +96,7 @@ for pset in parameter_sets:
 		os.remove(cmp2)
 
 		if len(report) == 0:
-			print(f'no errors found with parameters: "{pset}"')
+			print(f'{gene} no errors found with parameters: "{pset}"')
 		else:
 			print('\nDifferences Found')
 			print(f'Parameters: "{pset}"')
