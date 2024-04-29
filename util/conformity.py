@@ -23,7 +23,8 @@ def compare_outputs(file1, file2):
 	p2, d2 = readfile(file2)
 
 	report = []
-	if math.isclose(float(p1), float(p2), abs_tol=1e-4): return report
+	if float(p1) == float(p2): return report
+#	if math.isclose(float(p1), float(p2), abs_tol=1e-6): return report
 
 	report.append(f'performance mismatch {p1} {p2}')
 	for loc in d1:
