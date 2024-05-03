@@ -1,83 +1,83 @@
-ch.6144	RNASeq_splice	intron	950	1004	5.0	-	.	
-ch.6144	RNASeq	transcription_end_site	958	958	.	-	.	
-ch.6144	RNASeq	transcription_end_site	958	958	.	-	.	
-ch.6144	RNASeq_F_asymmetry	transcript_region	957	958	690.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	945	956	1.0	.	.	
-ch.6144	WormBase	three_prime_UTR	886	955	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	WormBase	exon	739	955	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	WormBase	gene	101	955	.	+	.	ID=Gene:WBGene00009741
-ch.6144	WormBase	mRNA	101	955	.	+	.	ID=Transcript:F45H10.4.1;Parent=Gene:WBGene00009741
-ch.6144	RNASeq_stranded	transcript_region	942	949	1.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	940	944	2.0	.	.	
-ch.6144	RNASeq	transcription_end_site	943	943	.	-	.	
-ch.6144	RNASeq	transcription_end_site	943	943	.	-	.	
-ch.6144	RNASeq_stranded	transcript_region	926	941	2.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	932	939	4.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	911	931	7.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	914	925	4.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	904	913	7.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	888	910	11.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	891	903	11.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	804	890	17.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	878	887	17.0	.	.	
-ch.6144	WormBase	CDS	739	885	.	+	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_reads	transcript_region	854	877	27.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	739	853	41.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	764	803	11.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	739	763	6.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	738	738	4.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	738	738	1.0	-	.	
-ch.6144	RNASeq_splice	intron	697	738	44.0	+	.	
-ch.6144	WormBase	intron	693	738	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_splice	intron	693	738	250740.0	+	.	
-ch.6144	RNASeq_splice	intron	432	738	73.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	693	694	7.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	693	694	1.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	674	692	4.0	+	.	
-ch.6144	WormBase	CDS	486	692	.	+	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
-ch.6144	WormBase	exon	486	692	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_reads	transcript_region	486	692	54.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	599	673	7.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	486	598	4.0	+	.	
-ch.6144	WormBase	intron	432	485	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_splice	intron	432	485	232767.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	432	434	2.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	421	431	3.0	+	.	
-ch.6144	WormBase	CDS	342	431	.	+	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
-ch.6144	WormBase	exon	342	431	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_reads	transcript_region	342	431	46.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	410	420	5.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	342	409	8.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	341	341	7.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	341	341	1.0	-	.	
-ch.6144	WormBase	intron	290	341	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_splice	intron	290	341	263198.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	256	289	6.0	+	.	
-ch.6144	WormBase	CDS	209	289	.	+	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_reads	transcript_region	166	289	45.0	.	.	
-ch.6144	WormBase	exon	101	289	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_stranded	transcript_region	237	255	3.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	187	236	5.0	+	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	147	209	146827.0	.	.	
-ch.6144	WormBase	five_prime_UTR	101	208	.	+	.	Parent=Transcript:F45H10.4.1
-ch.6144	RNASeq_stranded	transcript_region	185	186	3.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	183	184	1.0	+	.	
-ch.6144	RNASeq_stranded	transcript_region	126	182	2.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	145	165	29.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	136	146	93615.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	136	144	19.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	127	135	58349.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	125	135	12.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	120	126	38031.0	.	.	
-ch.6144	RNASeq_stranded	transcript_region	107	125	1.0	+	.	
-ch.6144	RNASeq_reads	transcript_region	118	124	7.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	112	119	22187.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	110	117	4.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	109	111	13755.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	105	109	2.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	105	108	9069.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	96	104	5077.0	.	.	
-ch.6144	RNASeq_reads	transcript_region	86	104	1.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	88	95	3314.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	57	87	2139.0	.	.	
-ch.6144	RNASeq_R_asymmetry	transcript_region	54	56	1400.0	.	.	
+ch.6144	RNASeq_splice	intron	52	106	5.0	+	.	
+ch.6144	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.6144	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.6144	RNASeq_F_asymmetry	transcript_region	98	99	690.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	100	111	1.0	.	.	
+ch.6144	WormBase	three_prime_UTR	101	170	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	WormBase	exon	101	317	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	WormBase	gene	101	955	.	-	.	ID=Gene:WBGene00009741
+ch.6144	WormBase	mRNA	101	955	.	-	.	ID=Transcript:F45H10.4.1;Parent=Gene:WBGene00009741
+ch.6144	RNASeq_stranded	transcript_region	107	114	1.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	112	116	2.0	.	.	
+ch.6144	RNASeq	transcription_end_site	113	113	.	+	.	
+ch.6144	RNASeq	transcription_end_site	113	113	.	+	.	
+ch.6144	RNASeq_stranded	transcript_region	115	130	2.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	117	124	4.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	125	145	7.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	131	142	4.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	143	152	7.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	146	168	11.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	153	165	11.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	166	252	17.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	169	178	17.0	.	.	
+ch.6144	WormBase	CDS	171	317	.	-	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_reads	transcript_region	179	202	27.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	203	317	41.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	253	292	11.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	293	317	6.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	318	318	4.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	318	318	1.0	+	.	
+ch.6144	RNASeq_splice	intron	318	359	44.0	-	.	
+ch.6144	WormBase	intron	318	363	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_splice	intron	318	363	250740.0	-	.	
+ch.6144	RNASeq_splice	intron	318	624	73.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	362	363	7.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	362	363	1.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	364	382	4.0	-	.	
+ch.6144	WormBase	CDS	364	570	.	-	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
+ch.6144	WormBase	exon	364	570	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_reads	transcript_region	364	570	54.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	383	457	7.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	458	570	4.0	-	.	
+ch.6144	WormBase	intron	571	624	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_splice	intron	571	624	232767.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	622	624	2.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	625	635	3.0	-	.	
+ch.6144	WormBase	CDS	625	714	.	-	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
+ch.6144	WormBase	exon	625	714	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_reads	transcript_region	625	714	46.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	636	646	5.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	647	714	8.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	715	715	7.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	715	715	1.0	+	.	
+ch.6144	WormBase	intron	715	766	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_splice	intron	715	766	263198.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	767	800	6.0	-	.	
+ch.6144	WormBase	CDS	767	847	.	-	.	ID=CDS:F45H10.4;Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_reads	transcript_region	767	890	45.0	.	.	
+ch.6144	WormBase	exon	767	955	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_stranded	transcript_region	801	819	3.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	820	869	5.0	-	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	847	909	146827.0	.	.	
+ch.6144	WormBase	five_prime_UTR	848	955	.	-	.	Parent=Transcript:F45H10.4.1
+ch.6144	RNASeq_stranded	transcript_region	870	871	3.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	872	873	1.0	-	.	
+ch.6144	RNASeq_stranded	transcript_region	874	930	2.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	891	911	29.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	910	920	93615.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	912	920	19.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	921	929	58349.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	921	931	12.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	930	936	38031.0	.	.	
+ch.6144	RNASeq_stranded	transcript_region	931	949	1.0	-	.	
+ch.6144	RNASeq_reads	transcript_region	932	938	7.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	937	944	22187.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	939	946	4.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	945	947	13755.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	947	951	2.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	948	951	9069.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	952	960	5077.0	.	.	
+ch.6144	RNASeq_reads	transcript_region	952	970	1.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	961	968	3314.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	969	999	2139.0	.	.	
+ch.6144	RNASeq_R_asymmetry	transcript_region	1000	1002	1400.0	.	.	

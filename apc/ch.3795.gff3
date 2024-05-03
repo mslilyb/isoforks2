@@ -1,0 +1,77 @@
+ch.3795	RNASeq_F_asymmetry	transcript_region	95	95	376.0	.	.	
+ch.3795	RNASeq_F_asymmetry	transcript_region	96	96	791.0	.	.	
+ch.3795	RNASeq_F_asymmetry	transcript_region	97	98	1236.0	.	.	
+ch.3795	RNASeq_F_asymmetry	transcript_region	99	101	2165.0	.	.	
+ch.3795	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.3795	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.3795	RNASeq_reads	transcript_region	101	105	1.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	101	111	1.0	-	.	
+ch.3795	WormBase	three_prime_UTR	101	208	.	-	.	Parent=Transcript:Y49F6C.8.1
+ch.3795	WormBase	exon	101	490	.	-	.	Parent=Transcript:Y49F6C.8.1
+ch.3795	WormBase	gene	101	1038	.	-	.	ID=Gene:WBGene00021730
+ch.3795	WormBase	mRNA	101	1038	.	-	.	ID=Transcript:Y49F6C.8.1;Parent=Gene:WBGene00021730
+ch.3795	RNASeq_F_asymmetry	transcript_region	102	105	3826.0	.	.	
+ch.3795	RNASeq_F_asymmetry	transcript_region	106	114	6937.0	.	.	
+ch.3795	RNASeq_reads	transcript_region	106	125	2.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	112	124	2.0	-	.	
+ch.3795	RNASeq_F_asymmetry	transcript_region	115	130	10436.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	125	139	4.0	-	.	
+ch.3795	RNASeq_reads	transcript_region	126	156	4.0	.	.	
+ch.3795	RNASeq_F_asymmetry	transcript_region	133	135	16867.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	140	183	7.0	-	.	
+ch.3795	RNASeq	transcription_end_site	156	156	.	+	.	
+ch.3795	RNASeq	transcription_end_site	156	156	.	+	.	
+ch.3795	RNASeq_reads	transcript_region	157	196	7.0	.	.	
+ch.3795	RNASeq_F_asymmetry	transcript_region	159	195	29431.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	184	298	11.0	-	.	
+ch.3795	RNASeq	transcription_end_site	193	193	.	+	.	
+ch.3795	RNASeq_reads	transcript_region	197	252	11.0	.	.	
+ch.3795	RNASeq	transcription_end_site	201	201	.	+	.	
+ch.3795	RNASeq	transcription_end_site	201	201	.	+	.	
+ch.3795	WormBase	CDS	209	490	.	-	.	ID=CDS:Y49F6C.8;Parent=Transcript:Y49F6C.8.1
+ch.3795	RNASeq	transcription_end_site	211	211	.	+	.	
+ch.3795	RNASeq	transcription_end_site	215	215	.	+	.	
+ch.3795	RNASeq_reads	transcript_region	253	296	17.0	.	.	
+ch.3795	RNASeq_reads	transcript_region	297	490	26.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	299	374	17.0	-	.	
+ch.3795	RNASeq_splice	intron	335	378	6.0	-	.	
+ch.3795	RNASeq_stranded	transcript_region	375	487	11.0	-	.	
+ch.3795	RNASeq_splice	intron	452	760	3.0	-	.	
+ch.3795	RNASeq_splice	intron	479	760	27.0	-	.	
+ch.3795	RNASeq_stranded	transcript_region	488	490	7.0	-	.	
+ch.3795	RNASeq_reads	transcript_region	491	492	4.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	491	492	2.0	-	.	
+ch.3795	RNASeq_splice	intron	491	715	4.0	-	.	
+ch.3795	WormBase	intron	491	760	.	-	.	Parent=Transcript:Y49F6C.8.1
+ch.3795	RNASeq_splice	intron	491	760	125787.0	-	.	
+ch.3795	RNASeq_reads	transcript_region	760	760	4.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	760	760	1.0	+	.	
+ch.3795	RNASeq_stranded	transcript_region	761	840	6.0	-	.	
+ch.3795	WormBase	CDS	761	892	.	-	.	ID=CDS:Y49F6C.8;Parent=Transcript:Y49F6C.8.1
+ch.3795	WormBase	exon	761	892	.	-	.	Parent=Transcript:Y49F6C.8.1
+ch.3795	RNASeq_reads	transcript_region	761	892	25.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	841	892	3.0	-	.	
+ch.3795	RNASeq_splice	intron	884	941	4.0	-	.	
+ch.3795	RNASeq_reads	transcript_region	893	893	3.0	.	.	
+ch.3795	WormBase	intron	893	941	.	-	.	Parent=Transcript:Y49F6C.8.1
+ch.3795	RNASeq_splice	intron	893	941	129969.0	-	.	
+ch.3795	RNASeq_splice	intron	893	959	36.0	-	.	
+ch.3795	RNASeq_reads	transcript_region	942	1012	29.0	.	.	
+ch.3795	WormBase	CDS	942	1019	.	-	.	ID=CDS:Y49F6C.8;Parent=Transcript:Y49F6C.8.1
+ch.3795	RNASeq_stranded	transcript_region	942	1028	4.0	-	.	
+ch.3795	WormBase	exon	942	1038	.	-	.	Parent=Transcript:Y49F6C.8.1
+ch.3795	RNASeq_R_asymmetry	transcript_region	970	1024	112693.0	.	.	
+ch.3795	RNASeq_reads	transcript_region	1013	1029	19.0	.	.	
+ch.3795	WormBase	five_prime_UTR	1020	1038	.	-	.	Parent=Transcript:Y49F6C.8.1
+ch.3795	RNASeq_R_asymmetry	transcript_region	1025	1035	73232.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	1029	1035	2.0	-	.	
+ch.3795	RNASeq_reads	transcript_region	1030	1035	12.0	.	.	
+ch.3795	RNASeq_R_asymmetry	transcript_region	1036	1038	29557.0	.	.	
+ch.3795	RNASeq_reads	transcript_region	1036	1038	6.0	.	.	
+ch.3795	RNASeq_stranded	transcript_region	1036	1038	1.0	-	.	
+ch.3795	RNASeq_R_asymmetry	transcript_region	1039	1042	16097.0	.	.	
+ch.3795	RNASeq_reads	transcript_region	1039	1042	3.0	.	.	
+ch.3795	RNASeq_R_asymmetry	transcript_region	1043	1045	5523.0	.	.	
+ch.3795	RNASeq_reads	transcript_region	1043	1045	1.0	.	.	
+ch.3795	RNASeq_R_asymmetry	transcript_region	1046	1049	1439.0	.	.	
+ch.3795	RNASeq_R_asymmetry	transcript_region	1050	1053	887.0	.	.	

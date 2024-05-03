@@ -1,0 +1,109 @@
+ch.10494	RNASeq_R_asymmetry	transcript_region	32	80	715361.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	34	82	29.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	75	88	113.0	.	.	
+ch.10494	RNASeq_R_asymmetry	transcript_region	81	89	471693.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	83	86	18.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	87	102	11.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	89	96	71.0	.	.	
+ch.10494	RNASeq_R_asymmetry	transcript_region	90	97	283772.0	.	.	
+ch.10494	RNASeq_reads	transcript_region	97	100	45.0	.	.	
+ch.10494	RNASeq_R_asymmetry	transcript_region	98	98	150113.0	.	.	
+ch.10494	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.10494	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.10494	RNASeq_stranded	transcript_region	99	183	1.0	+	.	
+ch.10494	WormBase	five_prime_UTR	100	100	.	-	.	Parent=Transcript:F49E8.3a.1
+ch.10494	WormBase	five_prime_UTR	100	100	.	-	.	Parent=Transcript:F49E8.3a.2
+ch.10494	WormBase	five_prime_UTR	100	100	.	-	.	Parent=Transcript:F49E8.3a.3
+ch.10494	RNASeq_R_asymmetry	transcript_region	101	102	111763.0	.	.	
+ch.10494	RNASeq_reads	transcript_region	101	105	27.0	.	.	
+ch.10494	RNASeq_splice	intron	101	186	3565.0	-	.	
+ch.10494	WormBase	three_prime_UTR	101	234	.	-	.	Parent=Transcript:F49E8.4.1
+ch.10494	RNASeq_splice	intron	101	243	142.0	-	.	
+ch.10494	RNASeq_splice	intron	101	246	50.0	-	.	
+ch.10494	RNASeq_splice	intron	101	252	16.0	-	.	
+ch.10494	WormBase	exon	101	408	.	-	.	Parent=Transcript:F49E8.4.1
+ch.10494	RNASeq_splice	intron	101	453	4.0	-	.	
+ch.10494	RNASeq_splice	intron	101	464	7.0	-	.	
+ch.10494	RNASeq_splice	intron	101	731	15.0	-	.	
+ch.10494	WormBase	gene	101	876	.	-	.	ID=Gene:WBGene00000392
+ch.10494	WormBase	mRNA	101	876	.	-	.	ID=Transcript:F49E8.4.1;Parent=Gene:WBGene00000392
+ch.10494	RNASeq_stranded	transcript_region	103	111	4.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	106	106	17.0	.	.	
+ch.10494	RNASeq	transcription_end_site	107	107	.	+	.	
+ch.10494	RNASeq	transcription_end_site	107	107	.	+	.	
+ch.10494	RNASeq_F_asymmetry	transcript_region	107	117	34952.0	.	.	
+ch.10494	RNASeq_reads	transcript_region	107	130	8.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	112	117	7.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	118	128	11.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	129	150	17.0	-	.	
+ch.10494	RNASeq	transcription_end_site	130	130	.	+	.	
+ch.10494	RNASeq_reads	transcript_region	131	136	13.0	.	.	
+ch.10494	RNASeq_F_asymmetry	transcript_region	132	138	60198.0	.	.	
+ch.10494	RNASeq_reads	transcript_region	137	158	20.0	.	.	
+ch.10494	RNASeq_F_asymmetry	transcript_region	139	169	102019.0	.	.	
+ch.10494	RNASeq	transcription_end_site	148	148	.	+	.	
+ch.10494	RNASeq_stranded	transcript_region	151	164	26.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	159	187	31.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	165	174	40.0	-	.	
+ch.10494	RNASeq_splice	intron	173	280	3.0	+	.	
+ch.10494	RNASeq_stranded	transcript_region	175	187	63.0	-	.	
+ch.10494	RNASeq	transcription_end_site	184	184	.	+	.	
+ch.10494	RNASeq	transcription_end_site	184	184	.	+	.	
+ch.10494	RNASeq_stranded	transcript_region	185	185	1.0	+	.	
+ch.10494	RNASeq_stranded	transcript_region	188	222	133.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	188	408	53.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	193	194	1.0	+	.	
+ch.10494	RNASeq_stranded	transcript_region	195	242	2.0	+	.	
+ch.10494	RNASeq_stranded	transcript_region	223	262	32.0	-	.	
+ch.10494	WormBase	CDS	235	408	.	-	.	ID=CDS:F49E8.4;Parent=Transcript:F49E8.4.1
+ch.10494	RNASeq_stranded	transcript_region	243	269	1.0	+	.	
+ch.10494	RNASeq_stranded	transcript_region	263	273	21.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	274	319	13.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	320	396	20.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	397	408	13.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	409	451	1.0	.	.	
+ch.10494	WormBase	intron	409	453	.	-	.	Parent=Transcript:F49E8.4.1
+ch.10494	RNASeq_splice	intron	409	453	328420.0	-	.	
+ch.10494	RNASeq_splice	intron	409	464	87.0	-	.	
+ch.10494	RNASeq_splice	intron	409	731	19.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	452	453	10.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	452	453	4.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	454	588	14.0	-	.	
+ch.10494	WormBase	CDS	454	635	.	-	.	ID=CDS:F49E8.4;Parent=Transcript:F49E8.4.1
+ch.10494	WormBase	exon	454	635	.	-	.	Parent=Transcript:F49E8.4.1
+ch.10494	RNASeq_reads	transcript_region	454	635	64.0	.	.	
+ch.10494	RNASeq_splice	intron	504	565	3.0	+	.	
+ch.10494	RNASeq_splice	intron	558	731	3.0	-	.	
+ch.10494	RNASeq_splice	intron	568	604	3.0	+	.	
+ch.10494	RNASeq_stranded	transcript_region	589	635	9.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	636	636	13.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	636	636	2.0	+	.	
+ch.10494	RNASeq_splice	intron	636	724	3.0	-	.	
+ch.10494	WormBase	intron	636	731	.	-	.	Parent=Transcript:F49E8.4.1
+ch.10494	RNASeq_splice	intron	636	731	291378.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	637	646	1.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	637	647	6.0	.	.	
+ch.10494	RNASeq_reads	transcript_region	648	730	3.0	.	.	
+ch.10494	RNASeq_splice	intron	648	731	14300.0	-	.	
+ch.10494	RNASeq_splice	intron	655	731	28.0	-	.	
+ch.10494	RNASeq_splice	intron	678	731	28.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	731	731	12.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	731	731	1.0	+	.	
+ch.10494	RNASeq_stranded	transcript_region	732	787	5.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	732	867	64.0	.	.	
+ch.10494	WormBase	CDS	732	876	.	-	.	ID=CDS:F49E8.4;Parent=Transcript:F49E8.4.1
+ch.10494	WormBase	exon	732	876	.	-	.	Parent=Transcript:F49E8.4.1
+ch.10494	RNASeq_stranded	transcript_region	788	826	11.0	-	.	
+ch.10494	RNASeq_R_asymmetry	transcript_region	819	871	263083.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	827	855	17.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	856	874	11.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	868	872	42.0	.	.	
+ch.10494	RNASeq_R_asymmetry	transcript_region	872	873	138905.0	.	.	
+ch.10494	RNASeq_reads	transcript_region	873	877	24.0	.	.	
+ch.10494	RNASeq_R_asymmetry	transcript_region	874	878	91593.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	875	876	7.0	-	.	
+ch.10494	RNASeq_stranded	transcript_region	877	878	4.0	-	.	
+ch.10494	RNASeq_reads	transcript_region	878	878	15.0	.	.	
+ch.10494	RNASeq_R_asymmetry	transcript_region	879	882	23282.0	.	.	
+ch.10494	RNASeq_reads	transcript_region	879	887	6.0	.	.	
+ch.10494	RNASeq_stranded	transcript_region	879	887	1.0	-	.	

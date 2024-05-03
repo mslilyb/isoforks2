@@ -1,0 +1,87 @@
+ch.15469	RNASeq_reads	transcript_region	78	87	1.0	.	.	
+ch.15469	RNASeq_reads	transcript_region	88	107	2.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	93	112	1.0	-	.	
+ch.15469	WormBase	three_prime_UTR	101	291	.	-	.	Parent=Transcript:K01D12.9.1
+ch.15469	WormBase	exon	101	509	.	-	.	Parent=Transcript:K01D12.9.1
+ch.15469	WormBase	gene	101	789	.	-	.	ID=Gene:WBGene00010468
+ch.15469	WormBase	mRNA	101	789	.	-	.	ID=Transcript:K01D12.9.1;Parent=Gene:WBGene00010468
+ch.15469	RNASeq_reads	transcript_region	108	146	4.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	113	170	2.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	147	184	7.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	171	172	1.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	173	173	2.0	+	.	
+ch.15469	RNASeq_stranded	transcript_region	174	184	1.0	-	.	
+ch.15469	RNASeq	transcription_end_site	185	185	.	+	.	
+ch.15469	RNASeq	transcription_end_site	185	185	.	+	.	
+ch.15469	RNASeq_stranded	transcript_region	185	187	3.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	185	197	11.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	188	193	5.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	194	331	8.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	198	213	17.0	.	.	
+ch.15469	RNASeq_reads	transcript_region	214	242	27.0	.	.	
+ch.15469	RNASeq	transcription_end_site	238	238	.	+	.	
+ch.15469	RNASeq_reads	transcript_region	243	289	41.0	.	.	
+ch.15469	RNASeq	transcription_end_site	257	257	.	+	.	
+ch.15469	RNASeq	transcription_end_site	257	257	.	+	.	
+ch.15469	RNASeq	transcription_end_site	288	288	.	+	.	
+ch.15469	RNASeq	transcription_end_site	288	288	.	+	.	
+ch.15469	RNASeq_reads	transcript_region	290	304	65.0	.	.	
+ch.15469	WormBase	CDS	292	509	.	-	.	ID=CDS:K01D12.9;Parent=Transcript:K01D12.9.1
+ch.15469	RNASeq_reads	transcript_region	305	338	98.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	312	328	1.0	+	.	
+ch.15469	RNASeq_stranded	transcript_region	329	354	2.0	+	.	
+ch.15469	RNASeq_stranded	transcript_region	332	339	13.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	339	509	148.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	340	353	21.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	354	393	32.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	355	374	4.0	+	.	
+ch.15469	RNASeq_splice	intron	366	422	4.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	375	417	7.0	+	.	
+ch.15469	RNASeq	transcription_end_site	386	386	.	+	.	
+ch.15469	RNASeq_stranded	transcript_region	394	444	124.0	-	.	
+ch.15469	RNASeq_splice	intron	418	455	9.0	+	.	
+ch.15469	RNASeq_stranded	transcript_region	418	470	4.0	+	.	
+ch.15469	RNASeq_stranded	transcript_region	445	471	43.0	-	.	
+ch.15469	RNASeq_splice	intron	468	691	6.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	471	486	2.0	+	.	
+ch.15469	RNASeq_stranded	transcript_region	472	499	66.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	487	509	1.0	+	.	
+ch.15469	RNASeq_splice	intron	497	691	4.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	500	501	114.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	502	509	181.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	510	510	16.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	510	510	13.0	+	.	
+ch.15469	WormBase	intron	510	663	.	-	.	Parent=Transcript:K01D12.9.1
+ch.15469	RNASeq_splice	intron	510	663	897798.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	511	595	1.0	.	.	
+ch.15469	RNASeq_R_asymmetry	transcript_region	659	663	1574.0	.	.	
+ch.15469	RNASeq_reads	transcript_region	662	663	1.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	662	663	1.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	664	687	223.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	664	723	1.0	+	.	
+ch.15469	RNASeq_reads	transcript_region	664	736	194.0	.	.	
+ch.15469	WormBase	CDS	664	775	.	-	.	ID=CDS:K01D12.9;Parent=Transcript:K01D12.9.1
+ch.15469	WormBase	exon	664	789	.	-	.	Parent=Transcript:K01D12.9.1
+ch.15469	RNASeq_R_asymmetry	transcript_region	673	737	878120.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	688	706	350.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	707	715	215.0	-	.	
+ch.15469	RNASeq_stranded	transcript_region	716	737	131.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	737	755	127.0	.	.	
+ch.15469	RNASeq_R_asymmetry	transcript_region	738	764	489843.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	738	771	33.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	756	767	83.0	.	.	
+ch.15469	RNASeq_R_asymmetry	transcript_region	765	770	322308.0	.	.	
+ch.15469	RNASeq_reads	transcript_region	768	772	54.0	.	.	
+ch.15469	RNASeq_R_asymmetry	transcript_region	771	773	192480.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	772	785	21.0	-	.	
+ch.15469	RNASeq_reads	transcript_region	773	776	32.0	.	.	
+ch.15469	RNASeq_R_asymmetry	transcript_region	774	779	114398.0	.	.	
+ch.15469	WormBase	five_prime_UTR	776	789	.	-	.	Parent=Transcript:K01D12.9.1
+ch.15469	RNASeq_reads	transcript_region	777	785	20.0	.	.	
+ch.15469	RNASeq_R_asymmetry	transcript_region	780	788	68875.0	.	.	
+ch.15469	RNASeq_reads	transcript_region	786	789	13.0	.	.	
+ch.15469	RNASeq_stranded	transcript_region	786	789	12.0	-	.	
+ch.15469	RNASeq_R_asymmetry	transcript_region	789	789	44152.0	.	.	
+ch.15469	RNASeq_reads	transcript_region	790	805	1.0	.	.	
+ch.15469	RNASeq_splice	intron	806	854	843.0	-	.	
+ch.15469	RNASeq_splice	intron	806	865	15.0	-	.	

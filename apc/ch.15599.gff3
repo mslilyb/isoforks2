@@ -1,59 +1,59 @@
-ch.15599	RNASeq_splice	intron	805	853	36.0	+	.	
-ch.15599	WormBase	three_prime_UTR	751	805	.	+	.	Parent=Transcript:R90.4.1
-ch.15599	WormBase	exon	613	805	.	+	.	Parent=Transcript:R90.4.1
-ch.15599	WormBase	gene	101	805	.	+	.	ID=Gene:WBGene00011286
-ch.15599	WormBase	mRNA	101	805	.	+	.	ID=Transcript:R90.4.1;Parent=Gene:WBGene00011286
-ch.15599	RNASeq_reads	transcript_region	803	803	1.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	800	803	1.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	800	802	2.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	789	799	2.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	787	799	4.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	777	788	4.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	767	786	7.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	757	776	7.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	732	766	11.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	672	756	11.0	+	.	
-ch.15599	WormBase	CDS	613	750	.	+	.	ID=CDS:R90.4;Parent=Transcript:R90.4.1
-ch.15599	RNASeq_reads	transcript_region	613	731	17.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	620	671	7.0	+	.	
-ch.15599	RNASeq	transcription_end_site	644	644	.	-	.	
-ch.15599	RNASeq_stranded	transcript_region	613	619	4.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	612	612	3.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	612	612	2.0	-	.	
-ch.15599	WormBase	intron	564	612	.	+	.	Parent=Transcript:R90.4.1
-ch.15599	RNASeq_splice	intron	564	612	77062.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	564	564	1.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	509	563	3.0	+	.	
-ch.15599	WormBase	CDS	436	563	.	+	.	ID=CDS:R90.4;Parent=Transcript:R90.4.1
-ch.15599	WormBase	exon	436	563	.	+	.	Parent=Transcript:R90.4.1
-ch.15599	RNASeq_reads	transcript_region	436	563	20.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	449	508	5.0	+	.	
-ch.15599	RNASeq_splice	intron	389	487	38.0	+	.	
-ch.15599	RNASeq_splice	intron	389	468	5.0	+	.	
-ch.15599	RNASeq_stranded	transcript_region	436	448	3.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	418	435	1.0	.	.	
-ch.15599	WormBase	intron	389	435	.	+	.	Parent=Transcript:R90.4.1
-ch.15599	RNASeq_splice	intron	389	435	117002.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	389	408	1.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	330	388	3.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	212	388	24.0	.	.	
-ch.15599	WormBase	CDS	202	388	.	+	.	ID=CDS:R90.4;Parent=Transcript:R90.4.1
-ch.15599	WormBase	exon	101	388	.	+	.	Parent=Transcript:R90.4.1
-ch.15599	RNASeq_stranded	transcript_region	212	329	5.0	+	.	
-ch.15599	RNASeq_splice	intron	213	306	4.0	+	.	
-ch.15599	RNASeq_R_asymmetry	transcript_region	205	255	75389.0	.	.	
-ch.15599	RNASeq_stranded	transcript_region	199	211	3.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	195	211	15.0	.	.	
-ch.15599	RNASeq_R_asymmetry	transcript_region	190	204	49091.0	.	.	
-ch.15599	WormBase	five_prime_UTR	101	201	.	+	.	Parent=Transcript:R90.4.1
-ch.15599	RNASeq_stranded	transcript_region	193	198	1.0	+	.	
-ch.15599	RNASeq_reads	transcript_region	189	194	9.0	.	.	
-ch.15599	RNASeq_R_asymmetry	transcript_region	187	189	25080.0	.	.	
-ch.15599	RNASeq_reads	transcript_region	187	188	5.0	.	.	
-ch.15599	RNASeq_reads	transcript_region	184	186	1.0	.	.	
-ch.15599	RNASeq_splice	intron	31	101	43.0	+	.	
-ch.15599	RNASeq_F_asymmetry	transcript_region	99	99	610.0	.	.	
-ch.15599	RNASeq_F_asymmetry	transcript_region	50	97	612.0	.	.	
-ch.15599	RNASeq_F_asymmetry	transcript_region	29	49	921.0	.	.	
-ch.15599	RNASeq_F_asymmetry	transcript_region	24	24	749.0	.	.	
-ch.15599	RNASeq_F_asymmetry	transcript_region	8	11	696.0	.	.	
+ch.15599	RNASeq_splice	intron	53	101	36.0	-	.	
+ch.15599	WormBase	three_prime_UTR	101	155	.	-	.	Parent=Transcript:R90.4.1
+ch.15599	WormBase	exon	101	293	.	-	.	Parent=Transcript:R90.4.1
+ch.15599	WormBase	gene	101	805	.	-	.	ID=Gene:WBGene00011286
+ch.15599	WormBase	mRNA	101	805	.	-	.	ID=Transcript:R90.4.1;Parent=Gene:WBGene00011286
+ch.15599	RNASeq_reads	transcript_region	103	103	1.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	103	106	1.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	104	106	2.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	107	117	2.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	107	119	4.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	118	129	4.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	120	139	7.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	130	149	7.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	140	174	11.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	150	234	11.0	-	.	
+ch.15599	WormBase	CDS	156	293	.	-	.	ID=CDS:R90.4;Parent=Transcript:R90.4.1
+ch.15599	RNASeq_reads	transcript_region	175	293	17.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	235	286	7.0	-	.	
+ch.15599	RNASeq	transcription_end_site	262	262	.	+	.	
+ch.15599	RNASeq_stranded	transcript_region	287	293	4.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	294	294	3.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	294	294	2.0	+	.	
+ch.15599	WormBase	intron	294	342	.	-	.	Parent=Transcript:R90.4.1
+ch.15599	RNASeq_splice	intron	294	342	77062.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	342	342	1.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	343	397	3.0	-	.	
+ch.15599	WormBase	CDS	343	470	.	-	.	ID=CDS:R90.4;Parent=Transcript:R90.4.1
+ch.15599	WormBase	exon	343	470	.	-	.	Parent=Transcript:R90.4.1
+ch.15599	RNASeq_reads	transcript_region	343	470	20.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	398	457	5.0	-	.	
+ch.15599	RNASeq_splice	intron	419	517	38.0	-	.	
+ch.15599	RNASeq_splice	intron	438	517	5.0	-	.	
+ch.15599	RNASeq_stranded	transcript_region	458	470	3.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	471	488	1.0	.	.	
+ch.15599	WormBase	intron	471	517	.	-	.	Parent=Transcript:R90.4.1
+ch.15599	RNASeq_splice	intron	471	517	117002.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	498	517	1.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	518	576	3.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	518	694	24.0	.	.	
+ch.15599	WormBase	CDS	518	704	.	-	.	ID=CDS:R90.4;Parent=Transcript:R90.4.1
+ch.15599	WormBase	exon	518	805	.	-	.	Parent=Transcript:R90.4.1
+ch.15599	RNASeq_stranded	transcript_region	577	694	5.0	-	.	
+ch.15599	RNASeq_splice	intron	600	693	4.0	-	.	
+ch.15599	RNASeq_R_asymmetry	transcript_region	651	701	75389.0	.	.	
+ch.15599	RNASeq_stranded	transcript_region	695	707	3.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	695	711	15.0	.	.	
+ch.15599	RNASeq_R_asymmetry	transcript_region	702	716	49091.0	.	.	
+ch.15599	WormBase	five_prime_UTR	705	805	.	-	.	Parent=Transcript:R90.4.1
+ch.15599	RNASeq_stranded	transcript_region	708	713	1.0	-	.	
+ch.15599	RNASeq_reads	transcript_region	712	717	9.0	.	.	
+ch.15599	RNASeq_R_asymmetry	transcript_region	717	719	25080.0	.	.	
+ch.15599	RNASeq_reads	transcript_region	718	719	5.0	.	.	
+ch.15599	RNASeq_reads	transcript_region	720	722	1.0	.	.	
+ch.15599	RNASeq_splice	intron	805	875	43.0	-	.	
+ch.15599	RNASeq_F_asymmetry	transcript_region	807	807	610.0	.	.	
+ch.15599	RNASeq_F_asymmetry	transcript_region	809	856	612.0	.	.	
+ch.15599	RNASeq_F_asymmetry	transcript_region	857	877	921.0	.	.	
+ch.15599	RNASeq_F_asymmetry	transcript_region	882	882	749.0	.	.	
+ch.15599	RNASeq_F_asymmetry	transcript_region	895	898	696.0	.	.	

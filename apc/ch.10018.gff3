@@ -1,0 +1,84 @@
+ch.10018	RNASeq	transcription_end_site	92	92	.	+	.	
+ch.10018	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.10018	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.10018	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.10018	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.10018	RNASeq_F_asymmetry	transcript_region	100	101	16051.0	.	.	
+ch.10018	RNASeq_reads	transcript_region	100	102	4.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	100	102	2.0	-	.	
+ch.10018	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.10018	WormBase	three_prime_UTR	101	203	.	-	.	Parent=Transcript:C24D10.6.1
+ch.10018	WormBase	exon	101	392	.	-	.	Parent=Transcript:C24D10.6.1
+ch.10018	WormBase	gene	101	922	.	-	.	ID=Gene:WBGene00016057
+ch.10018	WormBase	mRNA	101	922	.	-	.	ID=Transcript:C24D10.6.1;Parent=Gene:WBGene00016057
+ch.10018	RNASeq_F_asymmetry	transcript_region	102	106	27488.0	.	.	
+ch.10018	RNASeq	transcription_end_site	103	103	.	+	.	
+ch.10018	RNASeq	transcription_end_site	103	103	.	+	.	
+ch.10018	RNASeq_reads	transcript_region	103	107	7.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	103	107	4.0	-	.	
+ch.10018	RNASeq_F_asymmetry	transcript_region	107	108	41587.0	.	.	
+ch.10018	RNASeq_reads	transcript_region	108	109	13.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	108	117	7.0	-	.	
+ch.10018	RNASeq_stranded	transcript_region	108	158	1.0	+	.	
+ch.10018	RNASeq_F_asymmetry	transcript_region	109	119	84232.0	.	.	
+ch.10018	RNASeq_reads	transcript_region	110	121	20.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	118	126	11.0	-	.	
+ch.10018	RNASeq_F_asymmetry	transcript_region	120	135	131728.0	.	.	
+ch.10018	RNASeq_reads	transcript_region	122	153	31.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	127	145	17.0	-	.	
+ch.10018	RNASeq_F_asymmetry	transcript_region	136	175	197692.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	146	197	26.0	-	.	
+ch.10018	RNASeq_reads	transcript_region	154	216	47.0	.	.	
+ch.10018	RNASeq	transcription_end_site	186	186	.	+	.	
+ch.10018	RNASeq_stranded	transcript_region	198	210	40.0	-	.	
+ch.10018	WormBase	CDS	204	392	.	-	.	ID=CDS:C24D10.6;Parent=Transcript:C24D10.6.1
+ch.10018	RNASeq_stranded	transcript_region	211	287	62.0	-	.	
+ch.10018	RNASeq_reads	transcript_region	217	245	78.0	.	.	
+ch.10018	RNASeq_reads	transcript_region	246	392	124.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	288	307	40.0	-	.	
+ch.10018	RNASeq_stranded	transcript_region	308	339	26.0	-	.	
+ch.10018	RNASeq_stranded	transcript_region	340	392	40.0	-	.	
+ch.10018	RNASeq_splice	intron	393	438	317.0	-	.	
+ch.10018	RNASeq_splice	intron	393	517	5.0	-	.	
+ch.10018	WormBase	intron	393	521	.	-	.	Parent=Transcript:C24D10.6.1
+ch.10018	RNASeq_splice	intron	393	521	629615.0	-	.	
+ch.10018	RNASeq_splice	intron	401	521	638.0	-	.	
+ch.10018	RNASeq_splice	intron	460	521	6.0	-	.	
+ch.10018	RNASeq_reads	transcript_region	521	521	21.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	521	521	8.0	+	.	
+ch.10018	RNASeq_stranded	transcript_region	522	549	44.0	-	.	
+ch.10018	WormBase	CDS	522	676	.	-	.	ID=CDS:C24D10.6;Parent=Transcript:C24D10.6.1
+ch.10018	WormBase	exon	522	676	.	-	.	Parent=Transcript:C24D10.6.1
+ch.10018	RNASeq_reads	transcript_region	522	676	122.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	550	676	29.0	-	.	
+ch.10018	RNASeq_splice	intron	659	779	8.0	-	.	
+ch.10018	WormBase	intron	677	779	.	-	.	Parent=Transcript:C24D10.6.1
+ch.10018	RNASeq_splice	intron	677	779	592449.0	-	.	
+ch.10018	RNASeq_reads	transcript_region	778	779	16.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	778	779	5.0	-	.	
+ch.10018	RNASeq_stranded	transcript_region	780	834	23.0	-	.	
+ch.10018	RNASeq_reads	transcript_region	780	894	116.0	.	.	
+ch.10018	WormBase	CDS	780	921	.	-	.	ID=CDS:C24D10.6;Parent=Transcript:C24D10.6.1
+ch.10018	WormBase	exon	780	922	.	-	.	Parent=Transcript:C24D10.6.1
+ch.10018	RNASeq_splice	intron	805	855	3.0	-	.	
+ch.10018	RNASeq_stranded	transcript_region	835	885	37.0	-	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	849	913	444366.0	.	.	
+ch.10018	RNASeq_splice	intron	849	961	12.0	-	.	
+ch.10018	RNASeq_stranded	transcript_region	886	901	23.0	-	.	
+ch.10018	RNASeq_reads	transcript_region	895	916	76.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	902	920	14.0	-	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	914	919	281755.0	.	.	
+ch.10018	RNASeq_reads	transcript_region	917	922	40.0	.	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	920	923	171556.0	.	.	
+ch.10018	RNASeq_stranded	transcript_region	921	924	9.0	-	.	
+ch.10018	WormBase	five_prime_UTR	922	922	.	-	.	Parent=Transcript:C24D10.6.1
+ch.10018	RNASeq_reads	transcript_region	923	923	26.0	.	.	
+ch.10018	RNASeq_splice	intron	923	961	101.0	-	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	924	924	72215.0	.	.	
+ch.10018	RNASeq_reads	transcript_region	924	924	14.0	.	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	925	932	1208.0	.	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	933	957	578.0	.	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	958	978	381.0	.	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	979	995	250.0	.	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	996	1013	164.0	.	.	
+ch.10018	RNASeq_R_asymmetry	transcript_region	1014	1017	107.0	.	.	

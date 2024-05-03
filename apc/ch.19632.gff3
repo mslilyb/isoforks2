@@ -1,72 +1,72 @@
-ch.19632	RNASeq	transcription_end_site	699	699	.	-	.	
-ch.19632	RNASeq	transcription_end_site	699	699	.	-	.	
-ch.19632	RNASeq	transcription_end_site	695	695	.	-	.	
-ch.19632	RNASeq	transcription_end_site	695	695	.	-	.	
-ch.19632	RNASeq_reads	transcript_region	694	695	1.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	694	694	1.0	-	.	
-ch.19632	RNASeq_reads	transcript_region	690	693	2.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	687	693	2.0	+	.	
-ch.19632	RNASeq	transcription_end_site	692	692	.	-	.	
-ch.19632	RNASeq	transcription_end_site	692	692	.	-	.	
-ch.19632	WormBase	three_prime_UTR	477	692	.	+	.	Parent=Transcript:F48C11.3.1
-ch.19632	WormBase	exon	279	692	.	+	.	Parent=Transcript:F48C11.3.1
-ch.19632	WormBase	gene	101	692	.	+	.	ID=Gene:WBGene00003741
-ch.19632	WormBase	mRNA	101	692	.	+	.	ID=Transcript:F48C11.3.1;Parent=Gene:WBGene00003741
-ch.19632	RNASeq_reads	transcript_region	681	689	4.0	.	.	
-ch.19632	RNASeq	transcription_end_site	688	688	.	-	.	
-ch.19632	RNASeq_stranded	transcript_region	675	686	4.0	+	.	
-ch.19632	RNASeq_reads	transcript_region	672	680	7.0	.	.	
-ch.19632	RNASeq	transcription_end_site	675	675	.	-	.	
-ch.19632	RNASeq_stranded	transcript_region	662	674	7.0	+	.	
-ch.19632	RNASeq_reads	transcript_region	665	671	11.0	.	.	
-ch.19632	RNASeq_F_asymmetry	transcript_region	663	668	56006.0	.	.	
-ch.19632	RNASeq_reads	transcript_region	645	664	18.0	.	.	
-ch.19632	RNASeq_F_asymmetry	transcript_region	641	662	84536.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	644	661	11.0	+	.	
-ch.19632	RNASeq_reads	transcript_region	595	644	28.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	573	643	17.0	+	.	
-ch.19632	RNASeq_reads	transcript_region	419	594	43.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	591	592	1.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	544	590	2.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	497	572	9.0	+	.	
-ch.19632	RNASeq_stranded	transcript_region	542	543	1.0	-	.	
-ch.19632	RNASeq_splice	intron	338	512	3.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	477	496	5.0	+	.	
-ch.19632	RNASeq_stranded	transcript_region	486	495	1.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	484	485	2.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	475	483	1.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	463	476	8.0	+	.	
-ch.19632	WormBase	CDS	279	476	.	+	.	ID=CDS:F48C11.3;Parent=Transcript:F48C11.3.1
-ch.19632	RNASeq_stranded	transcript_region	471	474	2.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	445	470	1.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	455	462	16.0	+	.	
-ch.19632	RNASeq_stranded	transcript_region	379	454	25.0	+	.	
-ch.19632	RNASeq_reads	transcript_region	279	418	65.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	340	387	1.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	353	378	16.0	+	.	
-ch.19632	RNASeq_stranded	transcript_region	291	352	9.0	+	.	
-ch.19632	RNASeq_stranded	transcript_region	323	333	1.0	-	.	
-ch.19632	RNASeq_stranded	transcript_region	279	290	17.0	+	.	
-ch.19632	RNASeq_splice	intron	210	282	11.0	+	.	
-ch.19632	RNASeq_splice	intron	206	280	39.0	+	.	
-ch.19632	WormBase	intron	206	278	.	+	.	Parent=Transcript:F48C11.3.1
-ch.19632	RNASeq_splice	intron	206	278	254861.0	+	.	
-ch.19632	RNASeq_stranded	transcript_region	167	205	19.0	+	.	
-ch.19632	WormBase	CDS	131	205	.	+	.	ID=CDS:F48C11.3;Parent=Transcript:F48C11.3.1
-ch.19632	RNASeq_reads	transcript_region	120	205	56.0	.	.	
-ch.19632	WormBase	exon	101	205	.	+	.	Parent=Transcript:F48C11.3.1
-ch.19632	RNASeq_R_asymmetry	transcript_region	109	177	220693.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	147	166	12.0	+	.	
-ch.19632	RNASeq_stranded	transcript_region	114	146	7.0	+	.	
-ch.19632	WormBase	five_prime_UTR	101	130	.	+	.	Parent=Transcript:F48C11.3.1
-ch.19632	RNASeq_reads	transcript_region	107	119	36.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	102	113	4.0	+	.	
-ch.19632	RNASeq_R_asymmetry	transcript_region	103	108	143940.0	.	.	
-ch.19632	RNASeq_reads	transcript_region	102	106	23.0	.	.	
-ch.19632	RNASeq_R_asymmetry	transcript_region	100	102	77843.0	.	.	
-ch.19632	RNASeq_stranded	transcript_region	99	101	2.0	+	.	
-ch.19632	RNASeq_reads	transcript_region	95	101	12.0	.	.	
-ch.19632	RNASeq_R_asymmetry	transcript_region	94	99	48691.0	.	.	
-ch.19632	RNASeq_reads	transcript_region	94	94	7.0	.	.	
-ch.19632	RNASeq_reads	transcript_region	93	93	1.0	.	.	
-ch.19632	RNASeq_R_asymmetry	transcript_region	17	91	1639.0	.	.	
+ch.19632	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.19632	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.19632	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.19632	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.19632	RNASeq_reads	transcript_region	98	99	1.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	99	99	1.0	+	.	
+ch.19632	RNASeq_reads	transcript_region	100	103	2.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	100	106	2.0	-	.	
+ch.19632	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.19632	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.19632	WormBase	three_prime_UTR	101	316	.	-	.	Parent=Transcript:F48C11.3.1
+ch.19632	WormBase	exon	101	514	.	-	.	Parent=Transcript:F48C11.3.1
+ch.19632	WormBase	gene	101	692	.	-	.	ID=Gene:WBGene00003741
+ch.19632	WormBase	mRNA	101	692	.	-	.	ID=Transcript:F48C11.3.1;Parent=Gene:WBGene00003741
+ch.19632	RNASeq_reads	transcript_region	104	112	4.0	.	.	
+ch.19632	RNASeq	transcription_end_site	105	105	.	+	.	
+ch.19632	RNASeq_stranded	transcript_region	107	118	4.0	-	.	
+ch.19632	RNASeq_reads	transcript_region	113	121	7.0	.	.	
+ch.19632	RNASeq	transcription_end_site	118	118	.	+	.	
+ch.19632	RNASeq_stranded	transcript_region	119	131	7.0	-	.	
+ch.19632	RNASeq_reads	transcript_region	122	128	11.0	.	.	
+ch.19632	RNASeq_F_asymmetry	transcript_region	125	130	56006.0	.	.	
+ch.19632	RNASeq_reads	transcript_region	129	148	18.0	.	.	
+ch.19632	RNASeq_F_asymmetry	transcript_region	131	152	84536.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	132	149	11.0	-	.	
+ch.19632	RNASeq_reads	transcript_region	149	198	28.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	150	220	17.0	-	.	
+ch.19632	RNASeq_reads	transcript_region	199	374	43.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	201	202	1.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	203	249	2.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	221	296	9.0	-	.	
+ch.19632	RNASeq_stranded	transcript_region	250	251	1.0	+	.	
+ch.19632	RNASeq_splice	intron	281	455	3.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	297	316	5.0	-	.	
+ch.19632	RNASeq_stranded	transcript_region	298	307	1.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	308	309	2.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	310	318	1.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	317	330	8.0	-	.	
+ch.19632	WormBase	CDS	317	514	.	-	.	ID=CDS:F48C11.3;Parent=Transcript:F48C11.3.1
+ch.19632	RNASeq_stranded	transcript_region	319	322	2.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	323	348	1.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	331	338	16.0	-	.	
+ch.19632	RNASeq_stranded	transcript_region	339	414	25.0	-	.	
+ch.19632	RNASeq_reads	transcript_region	375	514	65.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	406	453	1.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	415	440	16.0	-	.	
+ch.19632	RNASeq_stranded	transcript_region	441	502	9.0	-	.	
+ch.19632	RNASeq_stranded	transcript_region	460	470	1.0	+	.	
+ch.19632	RNASeq_stranded	transcript_region	503	514	17.0	-	.	
+ch.19632	RNASeq_splice	intron	511	583	11.0	-	.	
+ch.19632	RNASeq_splice	intron	513	587	39.0	-	.	
+ch.19632	WormBase	intron	515	587	.	-	.	Parent=Transcript:F48C11.3.1
+ch.19632	RNASeq_splice	intron	515	587	254861.0	-	.	
+ch.19632	RNASeq_stranded	transcript_region	588	626	19.0	-	.	
+ch.19632	WormBase	CDS	588	662	.	-	.	ID=CDS:F48C11.3;Parent=Transcript:F48C11.3.1
+ch.19632	RNASeq_reads	transcript_region	588	673	56.0	.	.	
+ch.19632	WormBase	exon	588	692	.	-	.	Parent=Transcript:F48C11.3.1
+ch.19632	RNASeq_R_asymmetry	transcript_region	616	684	220693.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	627	646	12.0	-	.	
+ch.19632	RNASeq_stranded	transcript_region	647	679	7.0	-	.	
+ch.19632	WormBase	five_prime_UTR	663	692	.	-	.	Parent=Transcript:F48C11.3.1
+ch.19632	RNASeq_reads	transcript_region	674	686	36.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	680	691	4.0	-	.	
+ch.19632	RNASeq_R_asymmetry	transcript_region	685	690	143940.0	.	.	
+ch.19632	RNASeq_reads	transcript_region	687	691	23.0	.	.	
+ch.19632	RNASeq_R_asymmetry	transcript_region	691	693	77843.0	.	.	
+ch.19632	RNASeq_stranded	transcript_region	692	694	2.0	-	.	
+ch.19632	RNASeq_reads	transcript_region	692	698	12.0	.	.	
+ch.19632	RNASeq_R_asymmetry	transcript_region	694	699	48691.0	.	.	
+ch.19632	RNASeq_reads	transcript_region	699	699	7.0	.	.	
+ch.19632	RNASeq_reads	transcript_region	700	700	1.0	.	.	
+ch.19632	RNASeq_R_asymmetry	transcript_region	702	776	1639.0	.	.	

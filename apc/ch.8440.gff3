@@ -1,94 +1,94 @@
-ch.8440	RNASeq_R_asymmetry	transcript_region	673	682	22616.0	.	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	636	671	18085.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	636	670	4.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	651	661	2.0	-	.	
-ch.8440	RNASeq_stranded	transcript_region	626	650	1.0	-	.	
-ch.8440	WormBase	three_prime_UTR	599	649	.	-	.	Parent=Transcript:K11H3.2.1
-ch.8440	RNASeq_R_asymmetry	transcript_region	634	635	10966.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	633	635	2.0	.	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	630	633	7204.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	606	632	1.0	.	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	611	629	4654.0	.	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	606	610	3021.0	.	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	603	605	1986.0	.	.	
-ch.8440	RNASeq	transcription_end_site	603	603	.	-	.	
-ch.8440	RNASeq	transcription_end_site	602	602	.	-	.	
-ch.8440	RNASeq	transcription_end_site	601	601	.	-	.	
-ch.8440	RNASeq	transcription_end_site	601	601	.	-	.	
-ch.8440	RNASeq	transcription_end_site	598	598	.	-	.	
-ch.8440	RNASeq	transcription_end_site	598	598	.	-	.	
-ch.8440	RNASeq	transcription_end_site	596	596	.	-	.	
-ch.8440	RNASeq	transcription_end_site	596	596	.	-	.	
-ch.8440	RNASeq_F_asymmetry	transcript_region	594	594	7951.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	594	594	2.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	594	594	1.0	-	.	
-ch.8440	RNASeq	transcription_end_site	594	594	.	-	.	
-ch.8440	RNASeq	transcription_end_site	594	594	.	-	.	
-ch.8440	RNASeq	transcription_end_site	593	593	.	-	.	
-ch.8440	RNASeq	transcription_end_site	593	593	.	-	.	
-ch.8440	RNASeq_F_asymmetry	transcript_region	592	593	23474.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	591	593	6.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	589	593	6.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	564	593	1.0	-	.	
-ch.8440	RNASeq_F_asymmetry	transcript_region	578	591	39589.0	.	.	
-ch.8440	WormBase	three_prime_UTR	523	591	.	+	.	Parent=Transcript:K11H3.6.1
-ch.8440	WormBase	exon	391	591	.	+	.	Parent=Transcript:K11H3.6.1
-ch.8440	WormBase	gene	101	591	.	+	.	ID=Gene:WBGene00010783
-ch.8440	WormBase	mRNA	101	591	.	+	.	ID=Transcript:K11H3.6.1;Parent=Gene:WBGene00010783
-ch.8440	RNASeq_reads	transcript_region	573	590	11.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	586	588	10.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	576	585	16.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	562	575	26.0	+	.	
-ch.8440	RNASeq_F_asymmetry	transcript_region	567	572	77997.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	565	572	20.0	.	.	
-ch.8440	RNASeq_F_asymmetry	transcript_region	560	566	117407.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	558	564	32.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	515	563	2.0	-	.	
-ch.8440	RNASeq_stranded	transcript_region	546	561	40.0	+	.	
-ch.8440	RNASeq_F_asymmetry	transcript_region	530	559	198359.0	.	.	
-ch.8440	RNASeq_splice	intron	519	559	20.0	+	.	
-ch.8440	RNASeq_reads	transcript_region	530	557	49.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	529	545	61.0	+	.	
-ch.8440	RNASeq_F_asymmetry	transcript_region	514	529	334646.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	482	529	81.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	489	528	92.0	+	.	
-ch.8440	WormBase	CDS	391	522	.	+	.	ID=CDS:K11H3.6;Parent=Transcript:K11H3.6.1
-ch.8440	RNASeq_stranded	transcript_region	504	514	1.0	-	.	
-ch.8440	RNASeq_stranded	transcript_region	463	488	139.0	+	.	
-ch.8440	RNASeq_reads	transcript_region	391	481	123.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	448	462	91.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	429	447	59.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	430	443	1.0	-	.	
-ch.8440	RNASeq_stranded	transcript_region	416	428	38.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	408	424	1.0	-	.	
-ch.8440	RNASeq_stranded	transcript_region	410	415	25.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	391	409	38.0	+	.	
-ch.8440	RNASeq_splice	intron	209	408	18.0	+	.	
-ch.8440	RNASeq_stranded	transcript_region	398	406	1.0	-	.	
-ch.8440	RNASeq_reads	transcript_region	386	390	2.0	.	.	
-ch.8440	WormBase	intron	209	390	.	+	.	Parent=Transcript:K11H3.6.1
-ch.8440	RNASeq_splice	intron	209	390	722031.0	+	.	
-ch.8440	RNASeq_splice	intron	186	390	5.0	+	.	
-ch.8440	RNASeq_reads	transcript_region	385	385	1.0	.	.	
-ch.8440	RNASeq_splice	intron	198	378	25.0	-	.	
-ch.8440	RNASeq_splice	intron	209	357	3.0	+	.	
-ch.8440	RNASeq_reads	transcript_region	209	210	16.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	209	210	10.0	+	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	209	209	71423.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	121	208	136.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	116	208	42.0	+	.	
-ch.8440	WormBase	CDS	107	208	.	+	.	ID=CDS:K11H3.6;Parent=Transcript:K11H3.6.1
-ch.8440	WormBase	exon	101	208	.	+	.	Parent=Transcript:K11H3.6.1
-ch.8440	RNASeq_R_asymmetry	transcript_region	111	171	536351.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	104	120	89.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	102	115	27.0	+	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	102	110	331222.0	.	.	
-ch.8440	WormBase	five_prime_UTR	101	106	.	+	.	Parent=Transcript:K11H3.6.1
-ch.8440	RNASeq_reads	transcript_region	102	103	54.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	101	101	15.0	-	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	97	101	141385.0	.	.	
-ch.8440	RNASeq_reads	transcript_region	97	101	29.0	.	.	
-ch.8440	RNASeq_stranded	transcript_region	97	100	2.0	+	.	
-ch.8440	RNASeq_reads	transcript_region	96	96	1.0	.	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	95	96	2365.0	.	.	
-ch.8440	RNASeq_R_asymmetry	transcript_region	21	65	753.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	10	19	22616.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	21	56	18085.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	22	56	4.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	31	41	2.0	+	.	
+ch.8440	RNASeq_stranded	transcript_region	42	66	1.0	+	.	
+ch.8440	WormBase	three_prime_UTR	43	93	.	+	.	Parent=Transcript:K11H3.2.1
+ch.8440	RNASeq_R_asymmetry	transcript_region	57	58	10966.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	57	59	2.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	59	62	7204.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	60	86	1.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	63	81	4654.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	82	86	3021.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	87	89	1986.0	.	.	
+ch.8440	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.8440	RNASeq	transcription_end_site	90	90	.	+	.	
+ch.8440	RNASeq	transcription_end_site	91	91	.	+	.	
+ch.8440	RNASeq	transcription_end_site	91	91	.	+	.	
+ch.8440	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.8440	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.8440	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.8440	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.8440	RNASeq_F_asymmetry	transcript_region	98	98	7951.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	98	98	2.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	98	98	1.0	+	.	
+ch.8440	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.8440	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.8440	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.8440	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.8440	RNASeq_F_asymmetry	transcript_region	99	100	23474.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	99	101	6.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	99	103	6.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	99	128	1.0	+	.	
+ch.8440	RNASeq_F_asymmetry	transcript_region	101	114	39589.0	.	.	
+ch.8440	WormBase	three_prime_UTR	101	169	.	-	.	Parent=Transcript:K11H3.6.1
+ch.8440	WormBase	exon	101	301	.	-	.	Parent=Transcript:K11H3.6.1
+ch.8440	WormBase	gene	101	591	.	-	.	ID=Gene:WBGene00010783
+ch.8440	WormBase	mRNA	101	591	.	-	.	ID=Transcript:K11H3.6.1;Parent=Gene:WBGene00010783
+ch.8440	RNASeq_reads	transcript_region	102	119	11.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	104	106	10.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	107	116	16.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	117	130	26.0	-	.	
+ch.8440	RNASeq_F_asymmetry	transcript_region	120	125	77997.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	120	127	20.0	.	.	
+ch.8440	RNASeq_F_asymmetry	transcript_region	126	132	117407.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	128	134	32.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	129	177	2.0	+	.	
+ch.8440	RNASeq_stranded	transcript_region	131	146	40.0	-	.	
+ch.8440	RNASeq_F_asymmetry	transcript_region	133	162	198359.0	.	.	
+ch.8440	RNASeq_splice	intron	133	173	20.0	-	.	
+ch.8440	RNASeq_reads	transcript_region	135	162	49.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	147	163	61.0	-	.	
+ch.8440	RNASeq_F_asymmetry	transcript_region	163	178	334646.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	163	210	81.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	164	203	92.0	-	.	
+ch.8440	WormBase	CDS	170	301	.	-	.	ID=CDS:K11H3.6;Parent=Transcript:K11H3.6.1
+ch.8440	RNASeq_stranded	transcript_region	178	188	1.0	+	.	
+ch.8440	RNASeq_stranded	transcript_region	204	229	139.0	-	.	
+ch.8440	RNASeq_reads	transcript_region	211	301	123.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	230	244	91.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	245	263	59.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	249	262	1.0	+	.	
+ch.8440	RNASeq_stranded	transcript_region	264	276	38.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	268	284	1.0	+	.	
+ch.8440	RNASeq_stranded	transcript_region	277	282	25.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	283	301	38.0	-	.	
+ch.8440	RNASeq_splice	intron	284	483	18.0	-	.	
+ch.8440	RNASeq_stranded	transcript_region	286	294	1.0	+	.	
+ch.8440	RNASeq_reads	transcript_region	302	306	2.0	.	.	
+ch.8440	WormBase	intron	302	483	.	-	.	Parent=Transcript:K11H3.6.1
+ch.8440	RNASeq_splice	intron	302	483	722031.0	-	.	
+ch.8440	RNASeq_splice	intron	302	506	5.0	-	.	
+ch.8440	RNASeq_reads	transcript_region	307	307	1.0	.	.	
+ch.8440	RNASeq_splice	intron	314	494	25.0	+	.	
+ch.8440	RNASeq_splice	intron	335	483	3.0	-	.	
+ch.8440	RNASeq_reads	transcript_region	482	483	16.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	482	483	10.0	-	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	483	483	71423.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	484	571	136.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	484	576	42.0	-	.	
+ch.8440	WormBase	CDS	484	585	.	-	.	ID=CDS:K11H3.6;Parent=Transcript:K11H3.6.1
+ch.8440	WormBase	exon	484	591	.	-	.	Parent=Transcript:K11H3.6.1
+ch.8440	RNASeq_R_asymmetry	transcript_region	521	581	536351.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	572	588	89.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	577	590	27.0	-	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	582	590	331222.0	.	.	
+ch.8440	WormBase	five_prime_UTR	586	591	.	-	.	Parent=Transcript:K11H3.6.1
+ch.8440	RNASeq_reads	transcript_region	589	590	54.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	591	591	15.0	+	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	591	595	141385.0	.	.	
+ch.8440	RNASeq_reads	transcript_region	591	595	29.0	.	.	
+ch.8440	RNASeq_stranded	transcript_region	592	595	2.0	-	.	
+ch.8440	RNASeq_reads	transcript_region	596	596	1.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	596	597	2365.0	.	.	
+ch.8440	RNASeq_R_asymmetry	transcript_region	627	671	753.0	.	.	

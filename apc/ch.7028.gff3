@@ -1,0 +1,82 @@
+ch.7028	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.7028	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.7028	RNASeq_reads	transcript_region	100	100	1.0	.	.	
+ch.7028	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.7028	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.7028	RNASeq_stranded	transcript_region	100	106	3.0	-	.	
+ch.7028	RNASeq_reads	transcript_region	101	107	2.0	.	.	
+ch.7028	WormBase	three_prime_UTR	101	155	.	-	.	Parent=Transcript:C14B1.12.1
+ch.7028	WormBase	exon	101	386	.	-	.	Parent=Transcript:C14B1.12.1
+ch.7028	WormBase	gene	101	859	.	-	.	ID=Gene:WBGene00184990
+ch.7028	WormBase	mRNA	101	859	.	-	.	ID=Transcript:C14B1.12.1;Parent=Gene:WBGene00184990
+ch.7028	RNASeq	transcription_end_site	103	103	.	+	.	
+ch.7028	RNASeq	transcription_end_site	105	105	.	+	.	
+ch.7028	RNASeq_stranded	transcript_region	107	113	5.0	-	.	
+ch.7028	RNASeq_F_asymmetry	transcript_region	108	112	19810.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	108	113	5.0	.	.	
+ch.7028	RNASeq_F_asymmetry	transcript_region	113	129	31766.0	.	.	
+ch.7028	RNASeq_stranded	transcript_region	114	122	8.0	-	.	
+ch.7028	RNASeq_reads	transcript_region	114	130	8.0	.	.	
+ch.7028	RNASeq_stranded	transcript_region	123	135	13.0	-	.	
+ch.7028	RNASeq_F_asymmetry	transcript_region	130	135	49225.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	131	142	13.0	.	.	
+ch.7028	RNASeq_F_asymmetry	transcript_region	136	150	77107.0	.	.	
+ch.7028	RNASeq_stranded	transcript_region	136	153	20.0	-	.	
+ch.7028	RNASeq_reads	transcript_region	143	178	20.0	.	.	
+ch.7028	RNASeq_splice	intron	147	190	5.0	+	.	
+ch.7028	RNASeq_stranded	transcript_region	154	258	31.0	-	.	
+ch.7028	WormBase	CDS	156	386	.	-	.	ID=CDS:C14B1.12;Parent=Transcript:C14B1.12.1
+ch.7028	RNASeq_reads	transcript_region	179	241	31.0	.	.	
+ch.7028	RNASeq	transcription_end_site	192	192	.	+	.	
+ch.7028	RNASeq	transcription_end_site	192	192	.	+	.	
+ch.7028	RNASeq_reads	transcript_region	242	386	47.0	.	.	
+ch.7028	RNASeq_stranded	transcript_region	259	359	20.0	-	.	
+ch.7028	RNASeq_splice	intron	261	598	12.0	-	.	
+ch.7028	RNASeq_stranded	transcript_region	360	386	13.0	-	.	
+ch.7028	RNASeq_splice	intron	367	598	8.0	-	.	
+ch.7028	RNASeq_splice	intron	376	598	19.0	-	.	
+ch.7028	RNASeq_splice	intron	383	598	300.0	-	.	
+ch.7028	RNASeq_reads	transcript_region	387	388	7.0	.	.	
+ch.7028	RNASeq_stranded	transcript_region	387	388	4.0	-	.	
+ch.7028	RNASeq_splice	intron	387	443	606.0	-	.	
+ch.7028	WormBase	intron	387	598	.	-	.	Parent=Transcript:C14B1.12.1
+ch.7028	RNASeq_splice	intron	387	598	263843.0	-	.	
+ch.7028	RNASeq_R_asymmetry	transcript_region	389	392	3017.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	389	392	1.0	.	.	
+ch.7028	RNASeq_R_asymmetry	transcript_region	393	393	1874.0	.	.	
+ch.7028	RNASeq_stranded	transcript_region	599	638	12.0	-	.	
+ch.7028	RNASeq_reads	transcript_region	599	820	50.0	.	.	
+ch.7028	WormBase	CDS	599	853	.	-	.	ID=CDS:C14B1.12;Parent=Transcript:C14B1.12.1
+ch.7028	WormBase	exon	599	859	.	-	.	Parent=Transcript:C14B1.12.1
+ch.7028	RNASeq_stranded	transcript_region	639	678	20.0	-	.	
+ch.7028	RNASeq_stranded	transcript_region	679	689	31.0	-	.	
+ch.7028	RNASeq_stranded	transcript_region	690	739	20.0	-	.	
+ch.7028	RNASeq_splice	intron	697	757	6.0	+	.	
+ch.7028	RNASeq_stranded	transcript_region	704	780	1.0	+	.	
+ch.7028	RNASeq_stranded	transcript_region	740	856	13.0	-	.	
+ch.7028	RNASeq_R_asymmetry	transcript_region	783	847	163582.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	821	847	32.0	.	.	
+ch.7028	RNASeq_R_asymmetry	transcript_region	848	851	106430.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	848	852	21.0	.	.	
+ch.7028	RNASeq_R_asymmetry	transcript_region	852	858	68093.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	853	858	13.0	.	.	
+ch.7028	WormBase	five_prime_UTR	854	859	.	-	.	Parent=Transcript:C14B1.12.1
+ch.7028	RNASeq_stranded	transcript_region	857	859	8.0	-	.	
+ch.7028	RNASeq_R_asymmetry	transcript_region	859	859	33536.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	859	859	7.0	.	.	
+ch.7028	RNASeq_R_asymmetry	transcript_region	860	862	2585.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	860	862	1.0	.	.	
+ch.7028	RNASeq	transcription_end_site	945	945	.	+	.	
+ch.7028	RNASeq	transcription_end_site	949	949	.	+	.	
+ch.7028	RNASeq	transcription_end_site	950	950	.	+	.	
+ch.7028	RNASeq	transcription_end_site	950	950	.	+	.	
+ch.7028	RNASeq_F_asymmetry	transcript_region	951	951	976.0	.	.	
+ch.7028	RNASeq	transcription_end_site	951	951	.	+	.	
+ch.7028	RNASeq	transcription_end_site	951	951	.	+	.	
+ch.7028	RNASeq_F_asymmetry	transcript_region	952	952	1909.0	.	.	
+ch.7028	RNASeq	transcription_end_site	952	952	.	+	.	
+ch.7028	RNASeq	transcription_end_site	952	952	.	+	.	
+ch.7028	RNASeq_reads	transcript_region	953	953	3.0	.	.	
+ch.7028	RNASeq_stranded	transcript_region	953	954	3.0	-	.	
+ch.7028	RNASeq_F_asymmetry	transcript_region	954	955	21771.0	.	.	
+ch.7028	RNASeq_reads	transcript_region	954	956	5.0	.	.	

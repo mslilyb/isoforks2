@@ -1,36 +1,36 @@
-ch.11169	RNASeq_reads	transcript_region	437	439	1.0	.	.	
-ch.11169	RNASeq_reads	transcript_region	430	436	2.0	.	.	
-ch.11169	RNASeq_stranded	transcript_region	424	436	1.0	+	.	
-ch.11169	WormBase	three_prime_UTR	335	434	.	+	.	Parent=Transcript:R09E10.13.1
-ch.11169	WormBase	exon	246	434	.	+	.	Parent=Transcript:R09E10.13.1
-ch.11169	WormBase	gene	101	434	.	+	.	ID=Gene:WBGene00194658
-ch.11169	WormBase	mRNA	101	434	.	+	.	ID=Transcript:R09E10.13.1;Parent=Gene:WBGene00194658
-ch.11169	RNASeq_reads	transcript_region	423	429	4.0	.	.	
-ch.11169	RNASeq_stranded	transcript_region	375	423	2.0	+	.	
-ch.11169	RNASeq_reads	transcript_region	415	422	7.0	.	.	
-ch.11169	RNASeq_reads	transcript_region	396	414	11.0	.	.	
-ch.11169	RNASeq_reads	transcript_region	381	395	18.0	.	.	
-ch.11169	RNASeq_reads	transcript_region	345	380	31.0	.	.	
-ch.11169	RNASeq_stranded	transcript_region	246	374	4.0	+	.	
-ch.11169	RNASeq_reads	transcript_region	328	344	47.0	.	.	
-ch.11169	WormBase	CDS	246	334	.	+	.	ID=CDS:R09E10.13;Parent=Transcript:R09E10.13.1
-ch.11169	RNASeq_stranded	transcript_region	283	327	1.0	-	.	
-ch.11169	RNASeq_reads	transcript_region	246	327	71.0	.	.	
-ch.11169	RNASeq_splice	intron	199	245	24.0	+	.	
-ch.11169	WormBase	intron	195	245	.	+	.	Parent=Transcript:R09E10.13.1
-ch.11169	RNASeq_reads	transcript_region	195	245	6.0	.	.	
-ch.11169	RNASeq_splice	intron	195	245	431647.0	+	.	
-ch.11169	RNASeq_stranded	transcript_region	171	194	3.0	+	.	
-ch.11169	RNASeq_reads	transcript_region	138	194	89.0	.	.	
-ch.11169	WormBase	CDS	119	194	.	+	.	ID=CDS:R09E10.13;Parent=Transcript:R09E10.13.1
-ch.11169	WormBase	exon	101	194	.	+	.	Parent=Transcript:R09E10.13.1
-ch.11169	RNASeq_stranded	transcript_region	119	170	5.0	+	.	
-ch.11169	RNASeq_reads	transcript_region	110	137	54.0	.	.	
-ch.11169	WormBase	five_prime_UTR	101	118	.	+	.	Parent=Transcript:R09E10.13.1
-ch.11169	RNASeq_stranded	transcript_region	97	118	3.0	+	.	
-ch.11169	RNASeq_reads	transcript_region	94	109	35.0	.	.	
-ch.11169	RNASeq_stranded	transcript_region	94	96	1.0	+	.	
-ch.11169	RNASeq_reads	transcript_region	84	93	22.0	.	.	
-ch.11169	RNASeq_reads	transcript_region	83	83	14.0	.	.	
-ch.11169	RNASeq_reads	transcript_region	80	82	3.0	.	.	
-ch.11169	RNASeq_reads	transcript_region	62	79	1.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	96	98	1.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	99	105	2.0	.	.	
+ch.11169	RNASeq_stranded	transcript_region	99	111	1.0	-	.	
+ch.11169	WormBase	three_prime_UTR	101	200	.	-	.	Parent=Transcript:R09E10.13.1
+ch.11169	WormBase	exon	101	289	.	-	.	Parent=Transcript:R09E10.13.1
+ch.11169	WormBase	gene	101	434	.	-	.	ID=Gene:WBGene00194658
+ch.11169	WormBase	mRNA	101	434	.	-	.	ID=Transcript:R09E10.13.1;Parent=Gene:WBGene00194658
+ch.11169	RNASeq_reads	transcript_region	106	112	4.0	.	.	
+ch.11169	RNASeq_stranded	transcript_region	112	160	2.0	-	.	
+ch.11169	RNASeq_reads	transcript_region	113	120	7.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	121	139	11.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	140	154	18.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	155	190	31.0	.	.	
+ch.11169	RNASeq_stranded	transcript_region	161	289	4.0	-	.	
+ch.11169	RNASeq_reads	transcript_region	191	207	47.0	.	.	
+ch.11169	WormBase	CDS	201	289	.	-	.	ID=CDS:R09E10.13;Parent=Transcript:R09E10.13.1
+ch.11169	RNASeq_stranded	transcript_region	208	252	1.0	+	.	
+ch.11169	RNASeq_reads	transcript_region	208	289	71.0	.	.	
+ch.11169	RNASeq_splice	intron	290	336	24.0	-	.	
+ch.11169	WormBase	intron	290	340	.	-	.	Parent=Transcript:R09E10.13.1
+ch.11169	RNASeq_reads	transcript_region	290	340	6.0	.	.	
+ch.11169	RNASeq_splice	intron	290	340	431647.0	-	.	
+ch.11169	RNASeq_stranded	transcript_region	341	364	3.0	-	.	
+ch.11169	RNASeq_reads	transcript_region	341	397	89.0	.	.	
+ch.11169	WormBase	CDS	341	416	.	-	.	ID=CDS:R09E10.13;Parent=Transcript:R09E10.13.1
+ch.11169	WormBase	exon	341	434	.	-	.	Parent=Transcript:R09E10.13.1
+ch.11169	RNASeq_stranded	transcript_region	365	416	5.0	-	.	
+ch.11169	RNASeq_reads	transcript_region	398	425	54.0	.	.	
+ch.11169	WormBase	five_prime_UTR	417	434	.	-	.	Parent=Transcript:R09E10.13.1
+ch.11169	RNASeq_stranded	transcript_region	417	438	3.0	-	.	
+ch.11169	RNASeq_reads	transcript_region	426	441	35.0	.	.	
+ch.11169	RNASeq_stranded	transcript_region	439	441	1.0	-	.	
+ch.11169	RNASeq_reads	transcript_region	442	451	22.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	452	452	14.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	453	455	3.0	.	.	
+ch.11169	RNASeq_reads	transcript_region	456	473	1.0	.	.	

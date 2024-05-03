@@ -1,67 +1,67 @@
-ch.11191	RNASeq_stranded	transcript_region	893	945	34.0	-	.	
-ch.11191	RNASeq_stranded	transcript_region	878	921	1.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	879	892	21.0	-	.	
-ch.11191	RNASeq_reads	transcript_region	817	888	6.0	.	.	
-ch.11191	RNASeq	transcription_end_site	878	878	.	-	.	
-ch.11191	RNASeq_stranded	transcript_region	869	878	13.0	-	.	
-ch.11191	RNASeq_stranded	transcript_region	867	877	2.0	+	.	
-ch.11191	WormBase	three_prime_UTR	737	875	.	+	.	Parent=Transcript:R10H10.6.1
-ch.11191	WormBase	exon	663	875	.	+	.	Parent=Transcript:R10H10.6.1
-ch.11191	WormBase	gene	101	875	.	+	.	ID=Gene:WBGene00011224
-ch.11191	WormBase	mRNA	101	875	.	+	.	ID=Transcript:R10H10.6.1;Parent=Gene:WBGene00011224
-ch.11191	RNASeq_stranded	transcript_region	855	868	8.0	-	.	
-ch.11191	RNASeq_stranded	transcript_region	849	866	4.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	848	854	5.0	-	.	
-ch.11191	RNASeq_stranded	transcript_region	825	848	7.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	837	847	3.0	-	.	
-ch.11191	RNASeq_stranded	transcript_region	833	836	1.0	-	.	
-ch.11191	RNASeq_stranded	transcript_region	787	824	11.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	789	816	10.0	.	.	
-ch.11191	RNASeq_F_asymmetry	transcript_region	787	815	43376.0	.	.	
-ch.11191	RNASeq	transcription_end_site	800	800	.	-	.	
-ch.11191	RNASeq	transcription_end_site	800	800	.	-	.	
-ch.11191	RNASeq_reads	transcript_region	686	788	16.0	.	.	
-ch.11191	RNASeq_stranded	transcript_region	687	786	17.0	+	.	
-ch.11191	RNASeq	transcription_end_site	762	762	.	-	.	
-ch.11191	RNASeq	transcription_end_site	744	744	.	-	.	
-ch.11191	RNASeq	transcription_end_site	738	738	.	-	.	
-ch.11191	RNASeq	transcription_end_site	738	738	.	-	.	
-ch.11191	RNASeq	transcription_end_site	736	736	.	-	.	
-ch.11191	RNASeq	transcription_end_site	736	736	.	-	.	
-ch.11191	WormBase	CDS	663	736	.	+	.	ID=CDS:R10H10.6;Parent=Transcript:R10H10.6.1
-ch.11191	RNASeq_stranded	transcript_region	668	686	11.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	663	685	26.0	.	.	
-ch.11191	RNASeq_stranded	transcript_region	663	667	7.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	660	662	2.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	659	662	3.0	.	.	
-ch.11191	WormBase	intron	435	662	.	+	.	Parent=Transcript:R10H10.6.1
-ch.11191	RNASeq_splice	intron	435	662	137223.0	+	.	
-ch.11191	RNASeq_splice	intron	357	662	772.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	659	659	1.0	-	.	
-ch.11191	RNASeq_reads	transcript_region	609	658	1.0	.	.	
-ch.11191	RNASeq_reads	transcript_region	606	606	1.0	.	.	
-ch.11191	RNASeq_stranded	transcript_region	422	434	5.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	283	434	25.0	.	.	
-ch.11191	WormBase	CDS	101	434	.	+	.	ID=CDS:R10H10.6;Parent=Transcript:R10H10.6.1
-ch.11191	WormBase	exon	101	434	.	+	.	Parent=Transcript:R10H10.6.1
-ch.11191	RNASeq_stranded	transcript_region	331	421	8.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	251	330	13.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	139	282	39.0	.	.	
-ch.11191	RNASeq_stranded	transcript_region	232	250	7.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	202	231	11.0	+	.	
-ch.11191	RNASeq_stranded	transcript_region	141	201	17.0	+	.	
-ch.11191	RNASeq_R_asymmetry	transcript_region	118	184	148269.0	.	.	
-ch.11191	RNASeq_stranded	transcript_region	118	140	11.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	108	138	25.0	.	.	
-ch.11191	RNASeq_R_asymmetry	transcript_region	104	117	97476.0	.	.	
-ch.11191	RNASeq_stranded	transcript_region	104	117	7.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	102	107	15.0	.	.	
-ch.11191	RNASeq_R_asymmetry	transcript_region	100	103	62293.0	.	.	
-ch.11191	RNASeq_stranded	transcript_region	99	103	4.0	+	.	
-ch.11191	RNASeq_reads	transcript_region	99	101	9.0	.	.	
-ch.11191	RNASeq_R_asymmetry	transcript_region	99	99	34539.0	.	.	
-ch.11191	RNASeq_reads	transcript_region	95	98	2.0	.	.	
-ch.11191	RNASeq_R_asymmetry	transcript_region	94	98	8108.0	.	.	
-ch.11191	RNASeq_reads	transcript_region	92	94	1.0	.	.	
-ch.11191	RNASeq_R_asymmetry	transcript_region	92	93	4075.0	.	.	
-ch.11191	RNASeq	base_call_error_correction	63	64	.	-	.	
+ch.11191	RNASeq_stranded	transcript_region	31	83	34.0	+	.	
+ch.11191	RNASeq_stranded	transcript_region	55	98	1.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	84	97	21.0	+	.	
+ch.11191	RNASeq_reads	transcript_region	88	159	6.0	.	.	
+ch.11191	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.11191	RNASeq_stranded	transcript_region	98	107	13.0	+	.	
+ch.11191	RNASeq_stranded	transcript_region	99	109	2.0	-	.	
+ch.11191	WormBase	three_prime_UTR	101	239	.	-	.	Parent=Transcript:R10H10.6.1
+ch.11191	WormBase	exon	101	313	.	-	.	Parent=Transcript:R10H10.6.1
+ch.11191	WormBase	gene	101	875	.	-	.	ID=Gene:WBGene00011224
+ch.11191	WormBase	mRNA	101	875	.	-	.	ID=Transcript:R10H10.6.1;Parent=Gene:WBGene00011224
+ch.11191	RNASeq_stranded	transcript_region	108	121	8.0	+	.	
+ch.11191	RNASeq_stranded	transcript_region	110	127	4.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	122	128	5.0	+	.	
+ch.11191	RNASeq_stranded	transcript_region	128	151	7.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	129	139	3.0	+	.	
+ch.11191	RNASeq_stranded	transcript_region	140	143	1.0	+	.	
+ch.11191	RNASeq_stranded	transcript_region	152	189	11.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	160	187	10.0	.	.	
+ch.11191	RNASeq_F_asymmetry	transcript_region	161	189	43376.0	.	.	
+ch.11191	RNASeq	transcription_end_site	176	176	.	+	.	
+ch.11191	RNASeq	transcription_end_site	176	176	.	+	.	
+ch.11191	RNASeq_reads	transcript_region	188	290	16.0	.	.	
+ch.11191	RNASeq_stranded	transcript_region	190	289	17.0	-	.	
+ch.11191	RNASeq	transcription_end_site	214	214	.	+	.	
+ch.11191	RNASeq	transcription_end_site	232	232	.	+	.	
+ch.11191	RNASeq	transcription_end_site	238	238	.	+	.	
+ch.11191	RNASeq	transcription_end_site	238	238	.	+	.	
+ch.11191	RNASeq	transcription_end_site	240	240	.	+	.	
+ch.11191	RNASeq	transcription_end_site	240	240	.	+	.	
+ch.11191	WormBase	CDS	240	313	.	-	.	ID=CDS:R10H10.6;Parent=Transcript:R10H10.6.1
+ch.11191	RNASeq_stranded	transcript_region	290	308	11.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	291	313	26.0	.	.	
+ch.11191	RNASeq_stranded	transcript_region	309	313	7.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	314	316	2.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	314	317	3.0	.	.	
+ch.11191	WormBase	intron	314	541	.	-	.	Parent=Transcript:R10H10.6.1
+ch.11191	RNASeq_splice	intron	314	541	137223.0	-	.	
+ch.11191	RNASeq_splice	intron	314	619	772.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	317	317	1.0	+	.	
+ch.11191	RNASeq_reads	transcript_region	318	367	1.0	.	.	
+ch.11191	RNASeq_reads	transcript_region	370	370	1.0	.	.	
+ch.11191	RNASeq_stranded	transcript_region	542	554	5.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	542	693	25.0	.	.	
+ch.11191	WormBase	CDS	542	875	.	-	.	ID=CDS:R10H10.6;Parent=Transcript:R10H10.6.1
+ch.11191	WormBase	exon	542	875	.	-	.	Parent=Transcript:R10H10.6.1
+ch.11191	RNASeq_stranded	transcript_region	555	645	8.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	646	725	13.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	694	837	39.0	.	.	
+ch.11191	RNASeq_stranded	transcript_region	726	744	7.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	745	774	11.0	-	.	
+ch.11191	RNASeq_stranded	transcript_region	775	835	17.0	-	.	
+ch.11191	RNASeq_R_asymmetry	transcript_region	792	858	148269.0	.	.	
+ch.11191	RNASeq_stranded	transcript_region	836	858	11.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	838	868	25.0	.	.	
+ch.11191	RNASeq_R_asymmetry	transcript_region	859	872	97476.0	.	.	
+ch.11191	RNASeq_stranded	transcript_region	859	872	7.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	869	874	15.0	.	.	
+ch.11191	RNASeq_R_asymmetry	transcript_region	873	876	62293.0	.	.	
+ch.11191	RNASeq_stranded	transcript_region	873	877	4.0	-	.	
+ch.11191	RNASeq_reads	transcript_region	875	877	9.0	.	.	
+ch.11191	RNASeq_R_asymmetry	transcript_region	877	877	34539.0	.	.	
+ch.11191	RNASeq_reads	transcript_region	878	881	2.0	.	.	
+ch.11191	RNASeq_R_asymmetry	transcript_region	878	882	8108.0	.	.	
+ch.11191	RNASeq_reads	transcript_region	882	884	1.0	.	.	
+ch.11191	RNASeq_R_asymmetry	transcript_region	883	884	4075.0	.	.	
+ch.11191	RNASeq	base_call_error_correction	912	913	.	+	.	

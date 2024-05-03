@@ -1,92 +1,92 @@
-ch.428	RNASeq_stranded	transcript_region	986	1019	11.0	-	.	
-ch.428	RNASeq_splice	intron	820	1005	3.0	+	.	
-ch.428	WormBase	three_prime_UTR	848	1000	.	-	.	Parent=Transcript:Y54E10BR.1b.1
-ch.428	WormBase	three_prime_UTR	841	1000	.	-	.	Parent=Transcript:Y54E10BR.1a.1
-ch.428	RNASeq	transcription_end_site	996	996	.	-	.	
-ch.428	RNASeq	transcription_end_site	996	996	.	-	.	
-ch.428	RNASeq_stranded	transcript_region	970	985	7.0	-	.	
-ch.428	RNASeq_R_asymmetry	transcript_region	930	975	57326.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	951	969	11.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	955	955	1.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	902	950	17.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	929	949	1.0	+	.	
-ch.428	RNASeq	transcription_end_site	929	929	.	-	.	
-ch.428	RNASeq	transcription_end_site	928	928	.	-	.	
-ch.428	RNASeq	transcription_end_site	928	928	.	-	.	
-ch.428	RNASeq_stranded	transcript_region	923	928	7.0	+	.	
-ch.428	WormBase	three_prime_UTR	756	926	.	+	.	Parent=Transcript:M01B12.3.1
-ch.428	WormBase	exon	504	926	.	+	.	Parent=Transcript:M01B12.3.1
-ch.428	WormBase	gene	101	926	.	+	.	ID=Gene:WBGene00000205
-ch.428	WormBase	mRNA	101	926	.	+	.	ID=Transcript:M01B12.3.1;Parent=Gene:WBGene00000205
-ch.428	RNASeq_stranded	transcript_region	919	922	11.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	912	918	20.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	903	911	34.0	+	.	
-ch.428	RNASeq_reads	transcript_region	849	907	28.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	878	902	56.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	877	901	11.0	-	.	
-ch.428	RNASeq	transcription_end_site	883	883	.	-	.	
-ch.428	RNASeq_stranded	transcript_region	844	877	85.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	857	876	7.0	-	.	
-ch.428	RNASeq	transcription_end_site	868	868	.	-	.	
-ch.428	RNASeq_stranded	transcript_region	837	856	4.0	-	.	
-ch.428	RNASeq_reads	transcript_region	799	848	43.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	744	843	133.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	834	836	2.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	832	833	1.0	-	.	
-ch.428	RNASeq	transcription_end_site	812	812	.	-	.	
-ch.428	RNASeq	transcription_end_site	812	812	.	-	.	
-ch.428	RNASeq_reads	transcript_region	504	798	72.0	.	.	
-ch.428	RNASeq_splice	intron	344	770	10.0	-	.	
-ch.428	WormBase	CDS	504	755	.	+	.	ID=CDS:M01B12.3;Parent=Transcript:M01B12.3.1
-ch.428	RNASeq_stranded	transcript_region	725	743	84.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	715	724	55.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	635	714	36.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	634	634	1.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	608	634	23.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	598	630	1.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	537	607	15.0	+	.	
-ch.428	RNASeq_splice	intron	402	584	11.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	504	536	9.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	502	503	2.0	+	.	
-ch.428	RNASeq_reads	transcript_region	500	503	9.0	.	.	
-ch.428	WormBase	intron	402	503	.	+	.	Parent=Transcript:M01B12.3.1
-ch.428	RNASeq_splice	intron	402	503	354820.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	500	501	1.0	+	.	
-ch.428	RNASeq_splice	intron	402	485	3.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	345	401	9.0	+	.	
-ch.428	WormBase	CDS	280	401	.	+	.	ID=CDS:M01B12.3;Parent=Transcript:M01B12.3.1
-ch.428	WormBase	exon	280	401	.	+	.	Parent=Transcript:M01B12.3.1
-ch.428	RNASeq_reads	transcript_region	280	401	66.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	395	396	1.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	344	394	3.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	321	344	15.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	281	323	1.0	-	.	
-ch.428	RNASeq_stranded	transcript_region	304	320	23.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	280	303	36.0	+	.	
-ch.428	RNASeq_splice	intron	196	282	3901.0	+	.	
-ch.428	RNASeq_reads	transcript_region	274	279	1.0	.	.	
-ch.428	WormBase	intron	196	279	.	+	.	Parent=Transcript:M01B12.3.1
-ch.428	RNASeq_splice	intron	196	279	434804.0	+	.	
-ch.428	RNASeq_R_asymmetry	transcript_region	196	198	2311.0	.	.	
-ch.428	RNASeq_reads	transcript_region	196	198	1.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	196	198	2.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	136	195	42.0	+	.	
-ch.428	RNASeq_reads	transcript_region	116	195	82.0	.	.	
-ch.428	WormBase	CDS	111	195	.	+	.	ID=CDS:M01B12.3;Parent=Transcript:M01B12.3.1
-ch.428	WormBase	exon	101	195	.	+	.	Parent=Transcript:M01B12.3.1
-ch.428	RNASeq_R_asymmetry	transcript_region	108	178	359090.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	123	135	27.0	+	.	
-ch.428	RNASeq_stranded	transcript_region	104	122	16.0	+	.	
-ch.428	RNASeq_reads	transcript_region	106	115	54.0	.	.	
-ch.428	WormBase	five_prime_UTR	101	110	.	+	.	Parent=Transcript:M01B12.3.1
-ch.428	RNASeq_R_asymmetry	transcript_region	105	107	217937.0	.	.	
-ch.428	RNASeq_reads	transcript_region	104	105	35.0	.	.	
-ch.428	RNASeq_R_asymmetry	transcript_region	100	104	128545.0	.	.	
-ch.428	RNASeq_reads	transcript_region	99	103	20.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	99	103	10.0	+	.	
-ch.428	RNASeq_R_asymmetry	transcript_region	94	99	84106.0	.	.	
-ch.428	RNASeq_reads	transcript_region	94	98	13.0	.	.	
-ch.428	RNASeq_stranded	transcript_region	94	98	2.0	+	.	
-ch.428	RNASeq_reads	transcript_region	76	93	1.0	.	.	
-ch.428	RNASeq_R_asymmetry	transcript_region	73	92	2677.0	.	.	
-ch.428	RNASeq_R_asymmetry	transcript_region	68	72	1700.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	8	41	11.0	+	.	
+ch.428	RNASeq_splice	intron	22	207	3.0	-	.	
+ch.428	WormBase	three_prime_UTR	27	179	.	+	.	Parent=Transcript:Y54E10BR.1b.1
+ch.428	WormBase	three_prime_UTR	27	186	.	+	.	Parent=Transcript:Y54E10BR.1a.1
+ch.428	RNASeq	transcription_end_site	31	31	.	+	.	
+ch.428	RNASeq	transcription_end_site	31	31	.	+	.	
+ch.428	RNASeq_stranded	transcript_region	42	57	7.0	+	.	
+ch.428	RNASeq_R_asymmetry	transcript_region	52	97	57326.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	58	76	11.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	72	72	1.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	77	125	17.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	78	98	1.0	-	.	
+ch.428	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.428	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.428	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.428	RNASeq_stranded	transcript_region	99	104	7.0	-	.	
+ch.428	WormBase	three_prime_UTR	101	271	.	-	.	Parent=Transcript:M01B12.3.1
+ch.428	WormBase	exon	101	523	.	-	.	Parent=Transcript:M01B12.3.1
+ch.428	WormBase	gene	101	926	.	-	.	ID=Gene:WBGene00000205
+ch.428	WormBase	mRNA	101	926	.	-	.	ID=Transcript:M01B12.3.1;Parent=Gene:WBGene00000205
+ch.428	RNASeq_stranded	transcript_region	105	108	11.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	109	115	20.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	116	124	34.0	-	.	
+ch.428	RNASeq_reads	transcript_region	120	178	28.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	125	149	56.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	126	150	11.0	+	.	
+ch.428	RNASeq	transcription_end_site	144	144	.	+	.	
+ch.428	RNASeq_stranded	transcript_region	150	183	85.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	151	170	7.0	+	.	
+ch.428	RNASeq	transcription_end_site	159	159	.	+	.	
+ch.428	RNASeq_stranded	transcript_region	171	190	4.0	+	.	
+ch.428	RNASeq_reads	transcript_region	179	228	43.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	184	283	133.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	191	193	2.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	194	195	1.0	+	.	
+ch.428	RNASeq	transcription_end_site	215	215	.	+	.	
+ch.428	RNASeq	transcription_end_site	215	215	.	+	.	
+ch.428	RNASeq_reads	transcript_region	229	523	72.0	.	.	
+ch.428	RNASeq_splice	intron	257	683	10.0	+	.	
+ch.428	WormBase	CDS	272	523	.	-	.	ID=CDS:M01B12.3;Parent=Transcript:M01B12.3.1
+ch.428	RNASeq_stranded	transcript_region	284	302	84.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	303	312	55.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	313	392	36.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	393	393	1.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	393	419	23.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	397	429	1.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	420	490	15.0	-	.	
+ch.428	RNASeq_splice	intron	443	625	11.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	491	523	9.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	524	525	2.0	-	.	
+ch.428	RNASeq_reads	transcript_region	524	527	9.0	.	.	
+ch.428	WormBase	intron	524	625	.	-	.	Parent=Transcript:M01B12.3.1
+ch.428	RNASeq_splice	intron	524	625	354820.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	526	527	1.0	-	.	
+ch.428	RNASeq_splice	intron	542	625	3.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	626	682	9.0	-	.	
+ch.428	WormBase	CDS	626	747	.	-	.	ID=CDS:M01B12.3;Parent=Transcript:M01B12.3.1
+ch.428	WormBase	exon	626	747	.	-	.	Parent=Transcript:M01B12.3.1
+ch.428	RNASeq_reads	transcript_region	626	747	66.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	631	632	1.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	633	683	3.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	683	706	15.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	704	746	1.0	+	.	
+ch.428	RNASeq_stranded	transcript_region	707	723	23.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	724	747	36.0	-	.	
+ch.428	RNASeq_splice	intron	745	831	3901.0	-	.	
+ch.428	RNASeq_reads	transcript_region	748	753	1.0	.	.	
+ch.428	WormBase	intron	748	831	.	-	.	Parent=Transcript:M01B12.3.1
+ch.428	RNASeq_splice	intron	748	831	434804.0	-	.	
+ch.428	RNASeq_R_asymmetry	transcript_region	829	831	2311.0	.	.	
+ch.428	RNASeq_reads	transcript_region	829	831	1.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	829	831	2.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	832	891	42.0	-	.	
+ch.428	RNASeq_reads	transcript_region	832	911	82.0	.	.	
+ch.428	WormBase	CDS	832	916	.	-	.	ID=CDS:M01B12.3;Parent=Transcript:M01B12.3.1
+ch.428	WormBase	exon	832	926	.	-	.	Parent=Transcript:M01B12.3.1
+ch.428	RNASeq_R_asymmetry	transcript_region	849	919	359090.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	892	904	27.0	-	.	
+ch.428	RNASeq_stranded	transcript_region	905	923	16.0	-	.	
+ch.428	RNASeq_reads	transcript_region	912	921	54.0	.	.	
+ch.428	WormBase	five_prime_UTR	917	926	.	-	.	Parent=Transcript:M01B12.3.1
+ch.428	RNASeq_R_asymmetry	transcript_region	920	922	217937.0	.	.	
+ch.428	RNASeq_reads	transcript_region	922	923	35.0	.	.	
+ch.428	RNASeq_R_asymmetry	transcript_region	923	927	128545.0	.	.	
+ch.428	RNASeq_reads	transcript_region	924	928	20.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	924	928	10.0	-	.	
+ch.428	RNASeq_R_asymmetry	transcript_region	928	933	84106.0	.	.	
+ch.428	RNASeq_reads	transcript_region	929	933	13.0	.	.	
+ch.428	RNASeq_stranded	transcript_region	929	933	2.0	-	.	
+ch.428	RNASeq_reads	transcript_region	934	951	1.0	.	.	
+ch.428	RNASeq_R_asymmetry	transcript_region	935	954	2677.0	.	.	
+ch.428	RNASeq_R_asymmetry	transcript_region	955	959	1700.0	.	.	

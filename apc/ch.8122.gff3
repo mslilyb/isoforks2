@@ -1,84 +1,84 @@
-ch.8122	RNASeq_reads	transcript_region	764	795	13.0	.	.	
-ch.8122	RNASeq	transcription_end_site	792	792	.	-	.	
-ch.8122	WormBase	three_prime_UTR	694	791	.	-	.	Parent=Transcript:ZK1236.1.1
-ch.8122	RNASeq	transcription_end_site	770	770	.	-	.	
-ch.8122	RNASeq	transcription_end_site	767	767	.	-	.	
-ch.8122	RNASeq_R_asymmetry	transcript_region	764	767	39928.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	752	763	1.0	+	.	
-ch.8122	RNASeq_reads	transcript_region	688	763	8.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	740	751	2.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	721	739	4.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	704	720	7.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	693	713	4.0	-	.	
-ch.8122	WormBase	three_prime_UTR	645	707	.	+	.	Parent=Transcript:ZK1236.5.1
-ch.8122	WormBase	exon	414	707	.	+	.	Parent=Transcript:ZK1236.5.1
-ch.8122	WormBase	gene	101	707	.	+	.	ID=Gene:WBGene00022864
-ch.8122	WormBase	mRNA	101	707	.	+	.	ID=Transcript:ZK1236.5.1;Parent=Gene:WBGene00022864
-ch.8122	RNASeq_stranded	transcript_region	687	703	11.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	660	692	2.0	-	.	
-ch.8122	RNASeq_reads	transcript_region	651	687	13.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	664	686	17.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	557	663	26.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	653	659	1.0	-	.	
-ch.8122	RNASeq_reads	transcript_region	646	650	21.0	.	.	
-ch.8122	RNASeq_reads	transcript_region	635	645	33.0	.	.	
-ch.8122	WormBase	CDS	414	644	.	+	.	ID=CDS:ZK1236.5;Parent=Transcript:ZK1236.5.1
-ch.8122	RNASeq_F_asymmetry	transcript_region	643	643	134833.0	.	.	
-ch.8122	RNASeq_F_asymmetry	transcript_region	633	641	154280.0	.	.	
-ch.8122	RNASeq_reads	transcript_region	602	634	50.0	.	.	
-ch.8122	RNASeq_F_asymmetry	transcript_region	586	632	231930.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	576	625	1.0	-	.	
-ch.8122	RNASeq_splice	intron	567	612	20.0	+	.	
-ch.8122	RNASeq_splice	intron	567	603	4.0	+	.	
-ch.8122	RNASeq_reads	transcript_region	414	601	76.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	489	556	40.0	+	.	
-ch.8122	RNASeq_splice	intron	480	520	3.0	-	.	
-ch.8122	RNASeq_stranded	transcript_region	474	512	1.0	-	.	
-ch.8122	RNASeq_stranded	transcript_region	414	488	26.0	+	.	
-ch.8122	RNASeq_splice	intron	372	420	6.0	+	.	
-ch.8122	RNASeq_splice	intron	368	420	1677.0	+	.	
-ch.8122	RNASeq_reads	transcript_region	413	413	9.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	413	413	3.0	-	.	
-ch.8122	WormBase	intron	368	413	.	+	.	Parent=Transcript:ZK1236.5.1
-ch.8122	RNASeq_splice	intron	368	413	425801.0	+	.	
-ch.8122	RNASeq_splice	intron	355	413	6.0	+	.	
-ch.8122	RNASeq_splice	intron	332	413	6.0	+	.	
-ch.8122	RNASeq_reads	transcript_region	368	412	1.0	.	.	
-ch.8122	RNASeq	transcription_end_site	372	372	.	-	.	
-ch.8122	RNASeq	transcription_end_site	372	372	.	-	.	
-ch.8122	RNASeq	transcription_end_site	371	371	.	-	.	
-ch.8122	RNASeq	transcription_end_site	371	371	.	-	.	
-ch.8122	RNASeq	transcription_end_site	370	370	.	-	.	
-ch.8122	RNASeq	transcription_end_site	370	370	.	-	.	
-ch.8122	RNASeq	transcription_end_site	369	369	.	-	.	
-ch.8122	RNASeq_stranded	transcript_region	346	367	19.0	+	.	
-ch.8122	WormBase	CDS	256	367	.	+	.	ID=CDS:ZK1236.5;Parent=Transcript:ZK1236.5.1
-ch.8122	WormBase	exon	256	367	.	+	.	Parent=Transcript:ZK1236.5.1
-ch.8122	RNASeq_reads	transcript_region	256	367	78.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	303	345	11.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	272	302	19.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	256	271	29.0	+	.	
-ch.8122	RNASeq_splice	intron	205	269	11.0	+	.	
-ch.8122	WormBase	intron	205	255	.	+	.	Parent=Transcript:ZK1236.5.1
-ch.8122	RNASeq_reads	transcript_region	205	255	1.0	.	.	
-ch.8122	RNASeq_splice	intron	205	255	408326.0	+	.	
-ch.8122	RNASeq_stranded	transcript_region	185	204	1.0	-	.	
-ch.8122	RNASeq_stranded	transcript_region	183	204	12.0	+	.	
-ch.8122	RNASeq_reads	transcript_region	115	204	87.0	.	.	
-ch.8122	WormBase	CDS	101	204	.	+	.	ID=CDS:ZK1236.5;Parent=Transcript:ZK1236.5.1
-ch.8122	WormBase	exon	101	204	.	+	.	Parent=Transcript:ZK1236.5.1
-ch.8122	RNASeq_stranded	transcript_region	108	182	20.0	+	.	
-ch.8122	RNASeq_R_asymmetry	transcript_region	108	160	329563.0	.	.	
-ch.8122	RNASeq_reads	transcript_region	105	114	57.0	.	.	
-ch.8122	RNASeq_R_asymmetry	transcript_region	104	107	216644.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	102	107	13.0	+	.	
-ch.8122	RNASeq_reads	transcript_region	102	104	37.0	.	.	
-ch.8122	RNASeq_R_asymmetry	transcript_region	101	103	136753.0	.	.	
-ch.8122	RNASeq_reads	transcript_region	99	101	20.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	99	101	8.0	+	.	
-ch.8122	RNASeq_R_asymmetry	transcript_region	96	100	82180.0	.	.	
-ch.8122	RNASeq_splice	intron	32	100	19.0	+	.	
-ch.8122	RNASeq_reads	transcript_region	94	98	13.0	.	.	
-ch.8122	RNASeq_stranded	transcript_region	94	98	1.0	+	.	
-ch.8122	RNASeq_R_asymmetry	transcript_region	94	95	48415.0	.	.	
-ch.8122	RNASeq_reads	transcript_region	77	93	1.0	.	.	
+ch.8122	RNASeq_reads	transcript_region	13	44	13.0	.	.	
+ch.8122	RNASeq	transcription_end_site	16	16	.	+	.	
+ch.8122	WormBase	three_prime_UTR	17	114	.	+	.	Parent=Transcript:ZK1236.1.1
+ch.8122	RNASeq	transcription_end_site	38	38	.	+	.	
+ch.8122	RNASeq	transcription_end_site	41	41	.	+	.	
+ch.8122	RNASeq_R_asymmetry	transcript_region	41	44	39928.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	45	56	1.0	-	.	
+ch.8122	RNASeq_reads	transcript_region	45	120	8.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	57	68	2.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	69	87	4.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	88	104	7.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	95	115	4.0	+	.	
+ch.8122	WormBase	three_prime_UTR	101	163	.	-	.	Parent=Transcript:ZK1236.5.1
+ch.8122	WormBase	exon	101	394	.	-	.	Parent=Transcript:ZK1236.5.1
+ch.8122	WormBase	gene	101	707	.	-	.	ID=Gene:WBGene00022864
+ch.8122	WormBase	mRNA	101	707	.	-	.	ID=Transcript:ZK1236.5.1;Parent=Gene:WBGene00022864
+ch.8122	RNASeq_stranded	transcript_region	105	121	11.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	116	148	2.0	+	.	
+ch.8122	RNASeq_reads	transcript_region	121	157	13.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	122	144	17.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	145	251	26.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	149	155	1.0	+	.	
+ch.8122	RNASeq_reads	transcript_region	158	162	21.0	.	.	
+ch.8122	RNASeq_reads	transcript_region	163	173	33.0	.	.	
+ch.8122	WormBase	CDS	164	394	.	-	.	ID=CDS:ZK1236.5;Parent=Transcript:ZK1236.5.1
+ch.8122	RNASeq_F_asymmetry	transcript_region	165	165	134833.0	.	.	
+ch.8122	RNASeq_F_asymmetry	transcript_region	167	175	154280.0	.	.	
+ch.8122	RNASeq_reads	transcript_region	174	206	50.0	.	.	
+ch.8122	RNASeq_F_asymmetry	transcript_region	176	222	231930.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	183	232	1.0	+	.	
+ch.8122	RNASeq_splice	intron	196	241	20.0	-	.	
+ch.8122	RNASeq_splice	intron	205	241	4.0	-	.	
+ch.8122	RNASeq_reads	transcript_region	207	394	76.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	252	319	40.0	-	.	
+ch.8122	RNASeq_splice	intron	288	328	3.0	+	.	
+ch.8122	RNASeq_stranded	transcript_region	296	334	1.0	+	.	
+ch.8122	RNASeq_stranded	transcript_region	320	394	26.0	-	.	
+ch.8122	RNASeq_splice	intron	388	436	6.0	-	.	
+ch.8122	RNASeq_splice	intron	388	440	1677.0	-	.	
+ch.8122	RNASeq_reads	transcript_region	395	395	9.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	395	395	3.0	+	.	
+ch.8122	WormBase	intron	395	440	.	-	.	Parent=Transcript:ZK1236.5.1
+ch.8122	RNASeq_splice	intron	395	440	425801.0	-	.	
+ch.8122	RNASeq_splice	intron	395	453	6.0	-	.	
+ch.8122	RNASeq_splice	intron	395	476	6.0	-	.	
+ch.8122	RNASeq_reads	transcript_region	396	440	1.0	.	.	
+ch.8122	RNASeq	transcription_end_site	436	436	.	+	.	
+ch.8122	RNASeq	transcription_end_site	436	436	.	+	.	
+ch.8122	RNASeq	transcription_end_site	437	437	.	+	.	
+ch.8122	RNASeq	transcription_end_site	437	437	.	+	.	
+ch.8122	RNASeq	transcription_end_site	438	438	.	+	.	
+ch.8122	RNASeq	transcription_end_site	438	438	.	+	.	
+ch.8122	RNASeq	transcription_end_site	439	439	.	+	.	
+ch.8122	RNASeq_stranded	transcript_region	441	462	19.0	-	.	
+ch.8122	WormBase	CDS	441	552	.	-	.	ID=CDS:ZK1236.5;Parent=Transcript:ZK1236.5.1
+ch.8122	WormBase	exon	441	552	.	-	.	Parent=Transcript:ZK1236.5.1
+ch.8122	RNASeq_reads	transcript_region	441	552	78.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	463	505	11.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	506	536	19.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	537	552	29.0	-	.	
+ch.8122	RNASeq_splice	intron	539	603	11.0	-	.	
+ch.8122	WormBase	intron	553	603	.	-	.	Parent=Transcript:ZK1236.5.1
+ch.8122	RNASeq_reads	transcript_region	553	603	1.0	.	.	
+ch.8122	RNASeq_splice	intron	553	603	408326.0	-	.	
+ch.8122	RNASeq_stranded	transcript_region	604	623	1.0	+	.	
+ch.8122	RNASeq_stranded	transcript_region	604	625	12.0	-	.	
+ch.8122	RNASeq_reads	transcript_region	604	693	87.0	.	.	
+ch.8122	WormBase	CDS	604	707	.	-	.	ID=CDS:ZK1236.5;Parent=Transcript:ZK1236.5.1
+ch.8122	WormBase	exon	604	707	.	-	.	Parent=Transcript:ZK1236.5.1
+ch.8122	RNASeq_stranded	transcript_region	626	700	20.0	-	.	
+ch.8122	RNASeq_R_asymmetry	transcript_region	648	700	329563.0	.	.	
+ch.8122	RNASeq_reads	transcript_region	694	703	57.0	.	.	
+ch.8122	RNASeq_R_asymmetry	transcript_region	701	704	216644.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	701	706	13.0	-	.	
+ch.8122	RNASeq_reads	transcript_region	704	706	37.0	.	.	
+ch.8122	RNASeq_R_asymmetry	transcript_region	705	707	136753.0	.	.	
+ch.8122	RNASeq_reads	transcript_region	707	709	20.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	707	709	8.0	-	.	
+ch.8122	RNASeq_R_asymmetry	transcript_region	708	712	82180.0	.	.	
+ch.8122	RNASeq_splice	intron	708	776	19.0	-	.	
+ch.8122	RNASeq_reads	transcript_region	710	714	13.0	.	.	
+ch.8122	RNASeq_stranded	transcript_region	710	714	1.0	-	.	
+ch.8122	RNASeq_R_asymmetry	transcript_region	713	714	48415.0	.	.	
+ch.8122	RNASeq_reads	transcript_region	715	731	1.0	.	.	

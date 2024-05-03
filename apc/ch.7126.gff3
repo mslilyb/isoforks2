@@ -1,69 +1,69 @@
-ch.7126	RNASeq_R_asymmetry	transcript_region	865	891	1633.0	.	.	
-ch.7126	RNASeq_R_asymmetry	transcript_region	862	863	1133.0	.	.	
-ch.7126	RNASeq	transcription_end_site	813	813	.	-	.	
-ch.7126	RNASeq	transcription_end_site	813	813	.	-	.	
-ch.7126	RNASeq_F_asymmetry	transcript_region	812	813	4494.0	.	.	
-ch.7126	RNASeq_reads	transcript_region	812	813	1.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	809	813	1.0	+	.	
-ch.7126	WormBase	three_prime_UTR	713	812	.	+	.	Parent=Transcript:F43C1.3.1
-ch.7126	WormBase	exon	405	812	.	+	.	Parent=Transcript:F43C1.3.1
-ch.7126	WormBase	gene	101	812	.	+	.	ID=Gene:WBGene00009648
-ch.7126	WormBase	mRNA	101	812	.	+	.	ID=Transcript:F43C1.3.1;Parent=Gene:WBGene00009648
-ch.7126	RNASeq_F_asymmetry	transcript_region	808	811	6795.0	.	.	
-ch.7126	RNASeq_reads	transcript_region	803	811	2.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	802	808	2.0	+	.	
-ch.7126	RNASeq_F_asymmetry	transcript_region	803	807	10635.0	.	.	
-ch.7126	RNASeq_F_asymmetry	transcript_region	791	802	17843.0	.	.	
-ch.7126	RNASeq_reads	transcript_region	781	802	4.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	793	801	4.0	+	.	
-ch.7126	RNASeq_stranded	transcript_region	787	792	7.0	+	.	
-ch.7126	RNASeq_stranded	transcript_region	760	786	11.0	+	.	
-ch.7126	RNASeq_reads	transcript_region	762	780	7.0	.	.	
-ch.7126	RNASeq	transcription_end_site	772	772	.	-	.	
-ch.7126	RNASeq_F_asymmetry	transcript_region	761	761	41698.0	.	.	
-ch.7126	RNASeq_reads	transcript_region	760	761	11.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	723	761	1.0	-	.	
-ch.7126	RNASeq_F_asymmetry	transcript_region	736	760	70375.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	719	759	17.0	+	.	
-ch.7126	RNASeq_reads	transcript_region	655	759	17.0	.	.	
-ch.7126	RNASeq	transcription_end_site	721	721	.	-	.	
-ch.7126	RNASeq	transcription_end_site	721	721	.	-	.	
-ch.7126	RNASeq_stranded	transcript_region	643	718	26.0	+	.	
-ch.7126	WormBase	CDS	405	712	.	+	.	ID=CDS:F43C1.3;Parent=Transcript:F43C1.3.1
-ch.7126	RNASeq_splice	intron	659	685	3.0	-	.	
-ch.7126	RNASeq_splice	intron	471	663	4.0	-	.	
-ch.7126	RNASeq_reads	transcript_region	499	654	26.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	502	642	17.0	+	.	
-ch.7126	RNASeq	transcription_end_site	564	564	.	-	.	
-ch.7126	RNASeq	transcription_end_site	564	564	.	-	.	
-ch.7126	RNASeq	transcription_end_site	556	556	.	-	.	
-ch.7126	RNASeq	transcription_end_site	556	556	.	-	.	
-ch.7126	RNASeq_stranded	transcript_region	433	501	26.0	+	.	
-ch.7126	RNASeq_reads	transcript_region	405	498	40.0	.	.	
-ch.7126	RNASeq	transcription_end_site	486	486	.	-	.	
-ch.7126	RNASeq	transcription_end_site	486	486	.	-	.	
-ch.7126	RNASeq	transcription_end_site	469	469	.	-	.	
-ch.7126	RNASeq_stranded	transcript_region	405	432	17.0	+	.	
-ch.7126	RNASeq_splice	intron	360	407	497.0	+	.	
-ch.7126	RNASeq_reads	transcript_region	403	404	6.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	403	404	3.0	+	.	
-ch.7126	WormBase	intron	360	404	.	+	.	Parent=Transcript:F43C1.3.1
-ch.7126	RNASeq_splice	intron	360	404	164536.0	+	.	
-ch.7126	RNASeq_stranded	transcript_region	215	359	10.0	+	.	
-ch.7126	RNASeq_reads	transcript_region	121	359	35.0	.	.	
-ch.7126	WormBase	CDS	101	359	.	+	.	ID=CDS:F43C1.3;Parent=Transcript:F43C1.3.1
-ch.7126	WormBase	exon	101	359	.	+	.	Parent=Transcript:F43C1.3.1
-ch.7126	RNASeq_splice	intron	254	295	4.0	+	.	
-ch.7126	RNASeq_stranded	transcript_region	158	214	17.0	+	.	
-ch.7126	RNASeq_R_asymmetry	transcript_region	105	171	138619.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	130	157	11.0	+	.	
-ch.7126	RNASeq_stranded	transcript_region	111	129	7.0	+	.	
-ch.7126	RNASeq_reads	transcript_region	103	120	23.0	.	.	
-ch.7126	RNASeq_stranded	transcript_region	99	110	4.0	+	.	
-ch.7126	RNASeq_R_asymmetry	transcript_region	102	104	88163.0	.	.	
-ch.7126	RNASeq_reads	transcript_region	99	102	13.0	.	.	
-ch.7126	RNASeq_R_asymmetry	transcript_region	99	101	57088.0	.	.	
-ch.7126	RNASeq_splice	intron	22	100	312.0	+	.	
-ch.7126	RNASeq_R_asymmetry	transcript_region	96	98	6286.0	.	.	
-ch.7126	RNASeq_reads	transcript_region	92	98	1.0	.	.	
-ch.7126	RNASeq_R_asymmetry	transcript_region	92	95	3846.0	.	.	
+ch.7126	RNASeq_R_asymmetry	transcript_region	22	48	1633.0	.	.	
+ch.7126	RNASeq_R_asymmetry	transcript_region	50	51	1133.0	.	.	
+ch.7126	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.7126	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.7126	RNASeq_F_asymmetry	transcript_region	100	101	4494.0	.	.	
+ch.7126	RNASeq_reads	transcript_region	100	101	1.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	100	104	1.0	-	.	
+ch.7126	WormBase	three_prime_UTR	101	200	.	-	.	Parent=Transcript:F43C1.3.1
+ch.7126	WormBase	exon	101	508	.	-	.	Parent=Transcript:F43C1.3.1
+ch.7126	WormBase	gene	101	812	.	-	.	ID=Gene:WBGene00009648
+ch.7126	WormBase	mRNA	101	812	.	-	.	ID=Transcript:F43C1.3.1;Parent=Gene:WBGene00009648
+ch.7126	RNASeq_F_asymmetry	transcript_region	102	105	6795.0	.	.	
+ch.7126	RNASeq_reads	transcript_region	102	110	2.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	105	111	2.0	-	.	
+ch.7126	RNASeq_F_asymmetry	transcript_region	106	110	10635.0	.	.	
+ch.7126	RNASeq_F_asymmetry	transcript_region	111	122	17843.0	.	.	
+ch.7126	RNASeq_reads	transcript_region	111	132	4.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	112	120	4.0	-	.	
+ch.7126	RNASeq_stranded	transcript_region	121	126	7.0	-	.	
+ch.7126	RNASeq_stranded	transcript_region	127	153	11.0	-	.	
+ch.7126	RNASeq_reads	transcript_region	133	151	7.0	.	.	
+ch.7126	RNASeq	transcription_end_site	141	141	.	+	.	
+ch.7126	RNASeq_F_asymmetry	transcript_region	152	152	41698.0	.	.	
+ch.7126	RNASeq_reads	transcript_region	152	153	11.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	152	190	1.0	+	.	
+ch.7126	RNASeq_F_asymmetry	transcript_region	153	177	70375.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	154	194	17.0	-	.	
+ch.7126	RNASeq_reads	transcript_region	154	258	17.0	.	.	
+ch.7126	RNASeq	transcription_end_site	192	192	.	+	.	
+ch.7126	RNASeq	transcription_end_site	192	192	.	+	.	
+ch.7126	RNASeq_stranded	transcript_region	195	270	26.0	-	.	
+ch.7126	WormBase	CDS	201	508	.	-	.	ID=CDS:F43C1.3;Parent=Transcript:F43C1.3.1
+ch.7126	RNASeq_splice	intron	228	254	3.0	+	.	
+ch.7126	RNASeq_splice	intron	250	442	4.0	+	.	
+ch.7126	RNASeq_reads	transcript_region	259	414	26.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	271	411	17.0	-	.	
+ch.7126	RNASeq	transcription_end_site	349	349	.	+	.	
+ch.7126	RNASeq	transcription_end_site	349	349	.	+	.	
+ch.7126	RNASeq	transcription_end_site	357	357	.	+	.	
+ch.7126	RNASeq	transcription_end_site	357	357	.	+	.	
+ch.7126	RNASeq_stranded	transcript_region	412	480	26.0	-	.	
+ch.7126	RNASeq_reads	transcript_region	415	508	40.0	.	.	
+ch.7126	RNASeq	transcription_end_site	427	427	.	+	.	
+ch.7126	RNASeq	transcription_end_site	427	427	.	+	.	
+ch.7126	RNASeq	transcription_end_site	444	444	.	+	.	
+ch.7126	RNASeq_stranded	transcript_region	481	508	17.0	-	.	
+ch.7126	RNASeq_splice	intron	506	553	497.0	-	.	
+ch.7126	RNASeq_reads	transcript_region	509	510	6.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	509	510	3.0	-	.	
+ch.7126	WormBase	intron	509	553	.	-	.	Parent=Transcript:F43C1.3.1
+ch.7126	RNASeq_splice	intron	509	553	164536.0	-	.	
+ch.7126	RNASeq_stranded	transcript_region	554	698	10.0	-	.	
+ch.7126	RNASeq_reads	transcript_region	554	792	35.0	.	.	
+ch.7126	WormBase	CDS	554	812	.	-	.	ID=CDS:F43C1.3;Parent=Transcript:F43C1.3.1
+ch.7126	WormBase	exon	554	812	.	-	.	Parent=Transcript:F43C1.3.1
+ch.7126	RNASeq_splice	intron	618	659	4.0	-	.	
+ch.7126	RNASeq_stranded	transcript_region	699	755	17.0	-	.	
+ch.7126	RNASeq_R_asymmetry	transcript_region	742	808	138619.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	756	783	11.0	-	.	
+ch.7126	RNASeq_stranded	transcript_region	784	802	7.0	-	.	
+ch.7126	RNASeq_reads	transcript_region	793	810	23.0	.	.	
+ch.7126	RNASeq_stranded	transcript_region	803	814	4.0	-	.	
+ch.7126	RNASeq_R_asymmetry	transcript_region	809	811	88163.0	.	.	
+ch.7126	RNASeq_reads	transcript_region	811	814	13.0	.	.	
+ch.7126	RNASeq_R_asymmetry	transcript_region	812	814	57088.0	.	.	
+ch.7126	RNASeq_splice	intron	813	891	312.0	-	.	
+ch.7126	RNASeq_R_asymmetry	transcript_region	815	817	6286.0	.	.	
+ch.7126	RNASeq_reads	transcript_region	815	821	1.0	.	.	
+ch.7126	RNASeq_R_asymmetry	transcript_region	818	821	3846.0	.	.	

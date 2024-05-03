@@ -1,72 +1,72 @@
-ch.8209	RNASeq_stranded	transcript_region	670	711	1.0	+	.	
-ch.8209	RNASeq	transcription_end_site	645	645	.	-	.	
-ch.8209	RNASeq	transcription_end_site	645	645	.	-	.	
-ch.8209	RNASeq_stranded	transcript_region	635	645	1.0	+	.	
-ch.8209	RNASeq	transcription_end_site	641	641	.	-	.	
-ch.8209	RNASeq	transcription_end_site	641	641	.	-	.	
-ch.8209	RNASeq	transcription_end_site	639	639	.	-	.	
-ch.8209	RNASeq	transcription_end_site	639	639	.	-	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	637	639	4607.0	.	.	
-ch.8209	RNASeq_reads	transcript_region	632	637	2.0	.	.	
-ch.8209	RNASeq	transcription_end_site	636	636	.	-	.	
-ch.8209	RNASeq	transcription_end_site	636	636	.	-	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	630	636	10209.0	.	.	
-ch.8209	RNASeq	transcription_end_site	634	634	.	-	.	
-ch.8209	RNASeq_stranded	transcript_region	618	634	2.0	+	.	
-ch.8209	WormBase	three_prime_UTR	526	632	.	+	.	Parent=Transcript:F44E2.9.1
-ch.8209	WormBase	exon	315	632	.	+	.	Parent=Transcript:F44E2.9.1
-ch.8209	WormBase	gene	101	632	.	+	.	ID=Gene:WBGene00018422
-ch.8209	WormBase	mRNA	101	632	.	+	.	ID=Transcript:F44E2.9.1;Parent=Gene:WBGene00018422
-ch.8209	RNASeq_reads	transcript_region	609	631	4.0	.	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	622	629	15635.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	602	617	4.0	+	.	
-ch.8209	RNASeq_reads	transcript_region	591	608	7.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	570	601	7.0	+	.	
-ch.8209	RNASeq	transcription_end_site	594	594	.	-	.	
-ch.8209	RNASeq	transcription_end_site	594	594	.	-	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	586	590	44273.0	.	.	
-ch.8209	RNASeq_reads	transcript_region	585	590	11.0	.	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	581	585	68560.0	.	.	
-ch.8209	RNASeq_reads	transcript_region	578	584	17.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	535	583	1.0	-	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	534	580	108503.0	.	.	
-ch.8209	RNASeq_reads	transcript_region	506	577	26.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	466	569	11.0	+	.	
-ch.8209	RNASeq	transcription_end_site	551	551	.	-	.	
-ch.8209	RNASeq	transcription_end_site	542	542	.	-	.	
-ch.8209	RNASeq	transcription_end_site	542	542	.	-	.	
-ch.8209	RNASeq	transcription_end_site	538	538	.	-	.	
-ch.8209	WormBase	CDS	315	525	.	+	.	ID=CDS:F44E2.9;Parent=Transcript:F44E2.9.1
-ch.8209	RNASeq_reads	transcript_region	489	505	40.0	.	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	482	497	210480.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	460	497	1.0	-	.	
-ch.8209	RNASeq_reads	transcript_region	315	488	61.0	.	.	
-ch.8209	RNASeq_F_asymmetry	transcript_region	471	471	265827.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	440	465	17.0	+	.	
-ch.8209	RNASeq_stranded	transcript_region	455	459	2.0	-	.	
-ch.8209	RNASeq_stranded	transcript_region	422	454	1.0	-	.	
-ch.8209	RNASeq_stranded	transcript_region	348	439	27.0	+	.	
-ch.8209	RNASeq_stranded	transcript_region	315	347	41.0	+	.	
-ch.8209	RNASeq_splice	intron	260	316	58.0	+	.	
-ch.8209	RNASeq_splice	intron	264	314	71.0	+	.	
-ch.8209	WormBase	intron	260	314	.	+	.	Parent=Transcript:F44E2.9.1
-ch.8209	RNASeq_splice	intron	260	314	398121.0	+	.	
-ch.8209	RNASeq_splice	intron	255	314	5.0	+	.	
-ch.8209	RNASeq_stranded	transcript_region	243	259	33.0	+	.	
-ch.8209	RNASeq_reads	transcript_region	109	259	63.0	.	.	
-ch.8209	WormBase	CDS	102	259	.	+	.	ID=CDS:F44E2.9;Parent=Transcript:F44E2.9.1
-ch.8209	WormBase	exon	101	259	.	+	.	Parent=Transcript:F44E2.9.1
-ch.8209	RNASeq_stranded	transcript_region	232	242	19.0	+	.	
-ch.8209	RNASeq_stranded	transcript_region	219	231	12.0	+	.	
-ch.8209	RNASeq_splice	intron	184	223	5.0	-	.	
-ch.8209	RNASeq_stranded	transcript_region	178	218	7.0	+	.	
-ch.8209	RNASeq_stranded	transcript_region	146	177	11.0	+	.	
-ch.8209	RNASeq_R_asymmetry	transcript_region	109	165	284829.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	109	145	7.0	+	.	
-ch.8209	RNASeq_R_asymmetry	transcript_region	104	108	186524.0	.	.	
-ch.8209	RNASeq_reads	transcript_region	104	108	39.0	.	.	
-ch.8209	RNASeq_stranded	transcript_region	99	108	4.0	+	.	
-ch.8209	RNASeq_R_asymmetry	transcript_region	99	103	102896.0	.	.	
-ch.8209	RNASeq_reads	transcript_region	99	103	23.0	.	.	
-ch.8209	WormBase	five_prime_UTR	101	101	.	+	.	Parent=Transcript:F44E2.9.1
-ch.8209	RNASeq_reads	transcript_region	67	98	1.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	22	63	1.0	-	.	
+ch.8209	RNASeq	transcription_end_site	88	88	.	+	.	
+ch.8209	RNASeq	transcription_end_site	88	88	.	+	.	
+ch.8209	RNASeq_stranded	transcript_region	88	98	1.0	-	.	
+ch.8209	RNASeq	transcription_end_site	92	92	.	+	.	
+ch.8209	RNASeq	transcription_end_site	92	92	.	+	.	
+ch.8209	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.8209	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	94	96	4607.0	.	.	
+ch.8209	RNASeq_reads	transcript_region	96	101	2.0	.	.	
+ch.8209	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.8209	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	97	103	10209.0	.	.	
+ch.8209	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.8209	RNASeq_stranded	transcript_region	99	115	2.0	-	.	
+ch.8209	WormBase	three_prime_UTR	101	207	.	-	.	Parent=Transcript:F44E2.9.1
+ch.8209	WormBase	exon	101	418	.	-	.	Parent=Transcript:F44E2.9.1
+ch.8209	WormBase	gene	101	632	.	-	.	ID=Gene:WBGene00018422
+ch.8209	WormBase	mRNA	101	632	.	-	.	ID=Transcript:F44E2.9.1;Parent=Gene:WBGene00018422
+ch.8209	RNASeq_reads	transcript_region	102	124	4.0	.	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	104	111	15635.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	116	131	4.0	-	.	
+ch.8209	RNASeq_reads	transcript_region	125	142	7.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	132	163	7.0	-	.	
+ch.8209	RNASeq	transcription_end_site	139	139	.	+	.	
+ch.8209	RNASeq	transcription_end_site	139	139	.	+	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	143	147	44273.0	.	.	
+ch.8209	RNASeq_reads	transcript_region	143	148	11.0	.	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	148	152	68560.0	.	.	
+ch.8209	RNASeq_reads	transcript_region	149	155	17.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	150	198	1.0	+	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	153	199	108503.0	.	.	
+ch.8209	RNASeq_reads	transcript_region	156	227	26.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	164	267	11.0	-	.	
+ch.8209	RNASeq	transcription_end_site	182	182	.	+	.	
+ch.8209	RNASeq	transcription_end_site	191	191	.	+	.	
+ch.8209	RNASeq	transcription_end_site	191	191	.	+	.	
+ch.8209	RNASeq	transcription_end_site	195	195	.	+	.	
+ch.8209	WormBase	CDS	208	418	.	-	.	ID=CDS:F44E2.9;Parent=Transcript:F44E2.9.1
+ch.8209	RNASeq_reads	transcript_region	228	244	40.0	.	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	236	251	210480.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	236	273	1.0	+	.	
+ch.8209	RNASeq_reads	transcript_region	245	418	61.0	.	.	
+ch.8209	RNASeq_F_asymmetry	transcript_region	262	262	265827.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	268	293	17.0	-	.	
+ch.8209	RNASeq_stranded	transcript_region	274	278	2.0	+	.	
+ch.8209	RNASeq_stranded	transcript_region	279	311	1.0	+	.	
+ch.8209	RNASeq_stranded	transcript_region	294	385	27.0	-	.	
+ch.8209	RNASeq_stranded	transcript_region	386	418	41.0	-	.	
+ch.8209	RNASeq_splice	intron	417	473	58.0	-	.	
+ch.8209	RNASeq_splice	intron	419	469	71.0	-	.	
+ch.8209	WormBase	intron	419	473	.	-	.	Parent=Transcript:F44E2.9.1
+ch.8209	RNASeq_splice	intron	419	473	398121.0	-	.	
+ch.8209	RNASeq_splice	intron	419	478	5.0	-	.	
+ch.8209	RNASeq_stranded	transcript_region	474	490	33.0	-	.	
+ch.8209	RNASeq_reads	transcript_region	474	624	63.0	.	.	
+ch.8209	WormBase	CDS	474	631	.	-	.	ID=CDS:F44E2.9;Parent=Transcript:F44E2.9.1
+ch.8209	WormBase	exon	474	632	.	-	.	Parent=Transcript:F44E2.9.1
+ch.8209	RNASeq_stranded	transcript_region	491	501	19.0	-	.	
+ch.8209	RNASeq_stranded	transcript_region	502	514	12.0	-	.	
+ch.8209	RNASeq_splice	intron	510	549	5.0	+	.	
+ch.8209	RNASeq_stranded	transcript_region	515	555	7.0	-	.	
+ch.8209	RNASeq_stranded	transcript_region	556	587	11.0	-	.	
+ch.8209	RNASeq_R_asymmetry	transcript_region	568	624	284829.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	588	624	7.0	-	.	
+ch.8209	RNASeq_R_asymmetry	transcript_region	625	629	186524.0	.	.	
+ch.8209	RNASeq_reads	transcript_region	625	629	39.0	.	.	
+ch.8209	RNASeq_stranded	transcript_region	625	634	4.0	-	.	
+ch.8209	RNASeq_R_asymmetry	transcript_region	630	634	102896.0	.	.	
+ch.8209	RNASeq_reads	transcript_region	630	634	23.0	.	.	
+ch.8209	WormBase	five_prime_UTR	632	632	.	-	.	Parent=Transcript:F44E2.9.1
+ch.8209	RNASeq_reads	transcript_region	635	666	1.0	.	.	

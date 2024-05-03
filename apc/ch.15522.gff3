@@ -1,82 +1,82 @@
-ch.15522	RNASeq_stranded	transcript_region	686	724	1.0	-	.	
-ch.15522	RNASeq_reads	transcript_region	683	685	1.0	.	.	
-ch.15522	RNASeq_F_asymmetry	transcript_region	641	643	1418.0	.	.	
-ch.15522	RNASeq_F_asymmetry	transcript_region	640	640	2182.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	639	640	1.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	638	638	2.0	.	.	
-ch.15522	RNASeq_F_asymmetry	transcript_region	619	637	17675.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	619	637	4.0	.	.	
-ch.15522	WormBase	three_prime_UTR	573	637	.	+	.	Parent=Transcript:ZC116.2.1
-ch.15522	WormBase	exon	483	637	.	+	.	Parent=Transcript:ZC116.2.1
-ch.15522	WormBase	gene	101	637	.	+	.	ID=Gene:WBGene00013854
-ch.15522	WormBase	mRNA	101	637	.	+	.	ID=Transcript:ZC116.2.1;Parent=Gene:WBGene00013854
-ch.15522	RNASeq_stranded	transcript_region	614	635	1.0	+	.	
-ch.15522	RNASeq_F_asymmetry	transcript_region	615	618	31322.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	615	618	7.0	.	.	
-ch.15522	RNASeq_F_asymmetry	transcript_region	610	614	54036.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	610	614	12.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	590	613	2.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	576	609	20.0	.	.	
-ch.15522	RNASeq_F_asymmetry	transcript_region	574	609	91473.0	.	.	
-ch.15522	RNASeq	transcription_end_site	590	590	.	-	.	
-ch.15522	RNASeq	transcription_end_site	590	590	.	-	.	
-ch.15522	RNASeq_stranded	transcript_region	528	589	4.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	502	575	31.0	.	.	
-ch.15522	RNASeq_F_asymmetry	transcript_region	537	573	138423.0	.	.	
-ch.15522	WormBase	CDS	483	572	.	+	.	ID=CDS:ZC116.2;Parent=Transcript:ZC116.2.1
-ch.15522	RNASeq	transcription_end_site	555	555	.	-	.	
-ch.15522	RNASeq	transcription_end_site	552	552	.	-	.	
-ch.15522	RNASeq_stranded	transcript_region	483	527	7.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	483	501	47.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	481	482	4.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	481	482	1.0	+	.	
-ch.15522	WormBase	intron	435	482	.	+	.	Parent=Transcript:ZC116.2.1
-ch.15522	RNASeq_splice	intron	435	482	252197.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	418	434	5.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	364	434	46.0	.	.	
-ch.15522	WormBase	CDS	225	434	.	+	.	ID=CDS:ZC116.2;Parent=Transcript:ZC116.2.1
-ch.15522	WormBase	exon	225	434	.	+	.	Parent=Transcript:ZC116.2.1
-ch.15522	RNASeq_stranded	transcript_region	399	417	3.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	385	398	5.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	319	384	8.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	225	363	71.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	275	318	13.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	267	274	8.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	242	266	5.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	225	241	8.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	223	224	7.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	223	224	1.0	+	.	
-ch.15522	WormBase	intron	174	224	.	+	.	Parent=Transcript:ZC116.2.1
-ch.15522	RNASeq_splice	intron	174	224	256042.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	170	173	10.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	119	173	48.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	116	173	197069.0	.	.	
-ch.15522	WormBase	CDS	102	173	.	+	.	ID=CDS:ZC116.2;Parent=Transcript:ZC116.2.1
-ch.15522	WormBase	exon	101	173	.	+	.	Parent=Transcript:ZC116.2.1
-ch.15522	RNASeq_stranded	transcript_region	153	169	18.0	+	.	
-ch.15522	RNASeq_stranded	transcript_region	118	152	28.0	+	.	
-ch.15522	RNASeq_reads	transcript_region	111	118	31.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	104	117	18.0	+	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	110	115	122606.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	108	110	20.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	106	109	73561.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	105	107	13.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	104	105	44237.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	104	104	8.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	101	103	10.0	+	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	100	103	25137.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	100	103	5.0	.	.	
-ch.15522	WormBase	five_prime_UTR	101	101	.	+	.	Parent=Transcript:ZC116.2.1
-ch.15522	RNASeq_stranded	transcript_region	97	100	6.0	+	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	94	99	15748.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	90	99	3.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	92	96	3.0	+	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	90	93	10174.0	.	.	
-ch.15522	RNASeq_stranded	transcript_region	71	91	1.0	+	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	81	89	5738.0	.	.	
-ch.15522	RNASeq_reads	transcript_region	54	89	1.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	58	80	3582.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	33	57	2347.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	21	32	1503.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	14	20	984.0	.	.	
-ch.15522	RNASeq_R_asymmetry	transcript_region	11	13	583.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	14	52	1.0	+	.	
+ch.15522	RNASeq_reads	transcript_region	53	55	1.0	.	.	
+ch.15522	RNASeq_F_asymmetry	transcript_region	95	97	1418.0	.	.	
+ch.15522	RNASeq_F_asymmetry	transcript_region	98	98	2182.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	98	99	1.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	100	100	2.0	.	.	
+ch.15522	RNASeq_F_asymmetry	transcript_region	101	119	17675.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	101	119	4.0	.	.	
+ch.15522	WormBase	three_prime_UTR	101	165	.	-	.	Parent=Transcript:ZC116.2.1
+ch.15522	WormBase	exon	101	255	.	-	.	Parent=Transcript:ZC116.2.1
+ch.15522	WormBase	gene	101	637	.	-	.	ID=Gene:WBGene00013854
+ch.15522	WormBase	mRNA	101	637	.	-	.	ID=Transcript:ZC116.2.1;Parent=Gene:WBGene00013854
+ch.15522	RNASeq_stranded	transcript_region	103	124	1.0	-	.	
+ch.15522	RNASeq_F_asymmetry	transcript_region	120	123	31322.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	120	123	7.0	.	.	
+ch.15522	RNASeq_F_asymmetry	transcript_region	124	128	54036.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	124	128	12.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	125	148	2.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	129	162	20.0	.	.	
+ch.15522	RNASeq_F_asymmetry	transcript_region	129	164	91473.0	.	.	
+ch.15522	RNASeq	transcription_end_site	148	148	.	+	.	
+ch.15522	RNASeq	transcription_end_site	148	148	.	+	.	
+ch.15522	RNASeq_stranded	transcript_region	149	210	4.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	163	236	31.0	.	.	
+ch.15522	RNASeq_F_asymmetry	transcript_region	165	201	138423.0	.	.	
+ch.15522	WormBase	CDS	166	255	.	-	.	ID=CDS:ZC116.2;Parent=Transcript:ZC116.2.1
+ch.15522	RNASeq	transcription_end_site	183	183	.	+	.	
+ch.15522	RNASeq	transcription_end_site	186	186	.	+	.	
+ch.15522	RNASeq_stranded	transcript_region	211	255	7.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	237	255	47.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	256	257	4.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	256	257	1.0	-	.	
+ch.15522	WormBase	intron	256	303	.	-	.	Parent=Transcript:ZC116.2.1
+ch.15522	RNASeq_splice	intron	256	303	252197.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	304	320	5.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	304	374	46.0	.	.	
+ch.15522	WormBase	CDS	304	513	.	-	.	ID=CDS:ZC116.2;Parent=Transcript:ZC116.2.1
+ch.15522	WormBase	exon	304	513	.	-	.	Parent=Transcript:ZC116.2.1
+ch.15522	RNASeq_stranded	transcript_region	321	339	3.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	340	353	5.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	354	419	8.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	375	513	71.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	420	463	13.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	464	471	8.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	472	496	5.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	497	513	8.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	514	515	7.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	514	515	1.0	-	.	
+ch.15522	WormBase	intron	514	564	.	-	.	Parent=Transcript:ZC116.2.1
+ch.15522	RNASeq_splice	intron	514	564	256042.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	565	568	10.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	565	619	48.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	565	622	197069.0	.	.	
+ch.15522	WormBase	CDS	565	636	.	-	.	ID=CDS:ZC116.2;Parent=Transcript:ZC116.2.1
+ch.15522	WormBase	exon	565	637	.	-	.	Parent=Transcript:ZC116.2.1
+ch.15522	RNASeq_stranded	transcript_region	569	585	18.0	-	.	
+ch.15522	RNASeq_stranded	transcript_region	586	620	28.0	-	.	
+ch.15522	RNASeq_reads	transcript_region	620	627	31.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	621	634	18.0	-	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	623	628	122606.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	628	630	20.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	629	632	73561.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	631	633	13.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	633	634	44237.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	634	634	8.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	635	637	10.0	-	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	635	638	25137.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	635	638	5.0	.	.	
+ch.15522	WormBase	five_prime_UTR	637	637	.	-	.	Parent=Transcript:ZC116.2.1
+ch.15522	RNASeq_stranded	transcript_region	638	641	6.0	-	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	639	644	15748.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	639	648	3.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	642	646	3.0	-	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	645	648	10174.0	.	.	
+ch.15522	RNASeq_stranded	transcript_region	647	667	1.0	-	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	649	657	5738.0	.	.	
+ch.15522	RNASeq_reads	transcript_region	649	684	1.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	658	680	3582.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	681	705	2347.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	706	717	1503.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	718	724	984.0	.	.	
+ch.15522	RNASeq_R_asymmetry	transcript_region	725	727	583.0	.	.	

@@ -1,0 +1,60 @@
+ch.4231	RNASeq_reads	transcript_region	101	122	1.0	.	.	
+ch.4231	WormBase	three_prime_UTR	101	186	.	-	.	Parent=Transcript:C04G6.7.1
+ch.4231	WormBase	exon	101	409	.	-	.	Parent=Transcript:C04G6.7.1
+ch.4231	WormBase	gene	101	858	.	-	.	ID=Gene:WBGene00015457
+ch.4231	WormBase	mRNA	101	858	.	-	.	ID=Transcript:C04G6.7.1;Parent=Gene:WBGene00015457
+ch.4231	RNASeq_reads	transcript_region	123	165	2.0	.	.	
+ch.4231	RNASeq_stranded	transcript_region	155	171	1.0	-	.	
+ch.4231	RNASeq_reads	transcript_region	166	172	4.0	.	.	
+ch.4231	RNASeq_stranded	transcript_region	172	244	2.0	-	.	
+ch.4231	RNASeq_reads	transcript_region	173	195	7.0	.	.	
+ch.4231	WormBase	CDS	187	409	.	-	.	ID=CDS:C04G6.7;Parent=Transcript:C04G6.7.1
+ch.4231	RNASeq_reads	transcript_region	196	211	11.0	.	.	
+ch.4231	RNASeq_reads	transcript_region	212	292	17.0	.	.	
+ch.4231	RNASeq_stranded	transcript_region	245	245	1.0	+	.	
+ch.4231	RNASeq_stranded	transcript_region	246	247	2.0	-	.	
+ch.4231	RNASeq_stranded	transcript_region	248	248	1.0	+	.	
+ch.4231	RNASeq_stranded	transcript_region	249	290	2.0	-	.	
+ch.4231	RNASeq_splice	intron	285	552	3.0	-	.	
+ch.4231	RNASeq_stranded	transcript_region	291	341	4.0	-	.	
+ch.4231	RNASeq_splice	intron	291	552	6.0	-	.	
+ch.4231	RNASeq_splice	intron	291	564	4.0	-	.	
+ch.4231	RNASeq_reads	transcript_region	293	409	26.0	.	.	
+ch.4231	RNASeq_stranded	transcript_region	342	361	2.0	-	.	
+ch.4231	RNASeq_stranded	transcript_region	362	409	4.0	-	.	
+ch.4231	RNASeq_reads	transcript_region	410	411	3.0	.	.	
+ch.4231	RNASeq_stranded	transcript_region	410	411	1.0	-	.	
+ch.4231	WormBase	intron	410	518	.	-	.	Parent=Transcript:C04G6.7.1
+ch.4231	RNASeq_splice	intron	410	518	115439.0	-	.	
+ch.4231	RNASeq_F_asymmetry	transcript_region	413	413	579.0	.	.	
+ch.4231	RNASeq_stranded	transcript_region	519	595	3.0	-	.	
+ch.4231	RNASeq_reads	transcript_region	519	724	25.0	.	.	
+ch.4231	WormBase	CDS	519	736	.	-	.	ID=CDS:C04G6.7;Parent=Transcript:C04G6.7.1
+ch.4231	WormBase	exon	519	736	.	-	.	Parent=Transcript:C04G6.7.1
+ch.4231	RNASeq_splice	intron	553	587	42.0	-	.	
+ch.4231	RNASeq_splice	intron	556	591	4.0	-	.	
+ch.4231	RNASeq_stranded	transcript_region	596	610	1.0	-	.	
+ch.4231	RNASeq_stranded	transcript_region	650	669	1.0	-	.	
+ch.4231	RNASeq	transcription_end_site	651	651	.	+	.	
+ch.4231	RNASeq	transcription_end_site	651	651	.	+	.	
+ch.4231	RNASeq_stranded	transcript_region	670	732	2.0	-	.	
+ch.4231	RNASeq_splice	intron	724	783	3.0	-	.	
+ch.4231	RNASeq_reads	transcript_region	725	736	15.0	.	.	
+ch.4231	RNASeq_stranded	transcript_region	733	738	1.0	-	.	
+ch.4231	RNASeq_reads	transcript_region	737	739	2.0	.	.	
+ch.4231	WormBase	intron	737	783	.	-	.	Parent=Transcript:C04G6.7.1
+ch.4231	RNASeq_splice	intron	737	783	57905.0	-	.	
+ch.4231	RNASeq_R_asymmetry	transcript_region	782	783	1921.0	.	.	
+ch.4231	RNASeq_reads	transcript_region	783	783	1.0	.	.	
+ch.4231	RNASeq_reads	transcript_region	784	835	12.0	.	.	
+ch.4231	WormBase	CDS	784	840	.	-	.	ID=CDS:C04G6.7;Parent=Transcript:C04G6.7.1
+ch.4231	RNASeq_stranded	transcript_region	784	849	1.0	-	.	
+ch.4231	WormBase	exon	784	858	.	-	.	Parent=Transcript:C04G6.7.1
+ch.4231	RNASeq_R_asymmetry	transcript_region	799	834	50695.0	.	.	
+ch.4231	RNASeq_R_asymmetry	transcript_region	835	838	33125.0	.	.	
+ch.4231	RNASeq_reads	transcript_region	836	841	7.0	.	.	
+ch.4231	RNASeq_R_asymmetry	transcript_region	840	843	18409.0	.	.	
+ch.4231	WormBase	five_prime_UTR	841	858	.	-	.	Parent=Transcript:C04G6.7.1
+ch.4231	RNASeq_reads	transcript_region	842	851	4.0	.	.	
+ch.4231	RNASeq_reads	transcript_region	852	856	2.0	.	.	
+ch.4231	RNASeq_reads	transcript_region	857	858	1.0	.	.	

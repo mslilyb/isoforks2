@@ -1,0 +1,117 @@
+ch.13030	RNASeq_reads	transcript_region	2	3	1.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	22	79	1.0	+	.	
+ch.13030	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.13030	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.13030	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.13030	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.13030	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.13030	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.13030	RNASeq_stranded	transcript_region	100	101	1.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	100	105	3.0	.	.	
+ch.13030	RNASeq_F_asymmetry	transcript_region	100	107	14364.0	.	.	
+ch.13030	WormBase	three_prime_UTR	101	190	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	WormBase	exon	101	449	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	WormBase	gene	101	1011	.	-	.	ID=Gene:WBGene00018762
+ch.13030	WormBase	mRNA	101	1011	.	-	.	ID=Transcript:F53E10.6.1;Parent=Gene:WBGene00018762
+ch.13030	RNASeq_stranded	transcript_region	102	106	2.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	106	110	5.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	107	125	4.0	-	.	
+ch.13030	RNASeq_F_asymmetry	transcript_region	108	110	23953.0	.	.	
+ch.13030	RNASeq_F_asymmetry	transcript_region	111	136	45684.0	.	.	
+ch.13030	RNASeq_reads	transcript_region	111	136	10.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	120	154	1.0	+	.	
+ch.13030	RNASeq_stranded	transcript_region	126	173	7.0	-	.	
+ch.13030	RNASeq_F_asymmetry	transcript_region	137	163	68756.0	.	.	
+ch.13030	RNASeq_reads	transcript_region	137	195	16.0	.	.	
+ch.13030	RNASeq	transcription_end_site	158	158	.	+	.	
+ch.13030	RNASeq	transcription_end_site	158	158	.	+	.	
+ch.13030	RNASeq	transcription_end_site	159	159	.	+	.	
+ch.13030	RNASeq	transcription_end_site	164	164	.	+	.	
+ch.13030	RNASeq	transcription_end_site	173	173	.	+	.	
+ch.13030	RNASeq	transcription_end_site	173	173	.	+	.	
+ch.13030	RNASeq_stranded	transcript_region	174	183	11.0	-	.	
+ch.13030	RNASeq	transcription_end_site	178	178	.	+	.	
+ch.13030	RNASeq	transcription_end_site	181	181	.	+	.	
+ch.13030	RNASeq_stranded	transcript_region	184	197	17.0	-	.	
+ch.13030	RNASeq	transcription_end_site	185	185	.	+	.	
+ch.13030	RNASeq	transcription_end_site	185	185	.	+	.	
+ch.13030	RNASeq	transcription_end_site	188	188	.	+	.	
+ch.13030	RNASeq	transcription_end_site	188	188	.	+	.	
+ch.13030	WormBase	CDS	191	449	.	-	.	ID=CDS:F53E10.6;Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_reads	transcript_region	196	200	28.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	198	228	26.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	201	212	43.0	.	.	
+ch.13030	RNASeq_F_asymmetry	transcript_region	202	209	177268.0	.	.	
+ch.13030	RNASeq_F_asymmetry	transcript_region	212	231	228640.0	.	.	
+ch.13030	RNASeq_reads	transcript_region	213	268	68.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	229	398	40.0	-	.	
+ch.13030	RNASeq_F_asymmetry	transcript_region	232	246	348199.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	251	261	1.0	+	.	
+ch.13030	RNASeq_stranded	transcript_region	264	282	1.0	+	.	
+ch.13030	RNASeq_reads	transcript_region	269	449	103.0	.	.	
+ch.13030	RNASeq_splice	intron	277	391	3.0	-	.	
+ch.13030	RNASeq_stranded	transcript_region	286	296	1.0	+	.	
+ch.13030	RNASeq_splice	intron	379	513	6.0	+	.	
+ch.13030	RNASeq_stranded	transcript_region	399	413	26.0	-	.	
+ch.13030	RNASeq_stranded	transcript_region	414	434	17.0	-	.	
+ch.13030	RNASeq_stranded	transcript_region	435	449	27.0	-	.	
+ch.13030	RNASeq_splice	intron	448	502	69.0	-	.	
+ch.13030	RNASeq	transcription_end_site	450	450	.	+	.	
+ch.13030	WormBase	intron	450	502	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_reads	transcript_region	450	502	1.0	.	.	
+ch.13030	RNASeq_splice	intron	450	502	475417.0	-	.	
+ch.13030	RNASeq_stranded	transcript_region	503	538	40.0	-	.	
+ch.13030	WormBase	CDS	503	651	.	-	.	ID=CDS:F53E10.6;Parent=Transcript:F53E10.6.1
+ch.13030	WormBase	exon	503	651	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_reads	transcript_region	503	651	94.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	539	549	25.0	-	.	
+ch.13030	RNASeq_stranded	transcript_region	550	613	16.0	-	.	
+ch.13030	RNASeq_stranded	transcript_region	614	651	25.0	-	.	
+ch.13030	RNASeq_splice	intron	631	715	4.0	-	.	
+ch.13030	RNASeq_splice	intron	640	715	4.0	-	.	
+ch.13030	RNASeq_splice	intron	640	783	3.0	-	.	
+ch.13030	RNASeq_splice	intron	646	715	8.0	-	.	
+ch.13030	RNASeq_splice	intron	650	715	18.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	652	652	9.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	652	652	4.0	+	.	
+ch.13030	WormBase	intron	652	715	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_splice	intron	652	715	431976.0	-	.	
+ch.13030	RNASeq_splice	intron	652	929	63.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	715	715	1.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	716	764	18.0	-	.	
+ch.13030	WormBase	CDS	716	804	.	-	.	ID=CDS:F53E10.6;Parent=Transcript:F53E10.6.1
+ch.13030	WormBase	exon	716	804	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_reads	transcript_region	716	804	80.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	716	804	1.0	+	.	
+ch.13030	RNASeq_stranded	transcript_region	765	784	28.0	-	.	
+ch.13030	RNASeq_stranded	transcript_region	785	804	44.0	-	.	
+ch.13030	RNASeq_splice	intron	799	929	6.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	805	807	13.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	805	807	14.0	-	.	
+ch.13030	WormBase	intron	805	929	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_splice	intron	805	929	410286.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	808	808	8.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	808	808	7.0	+	.	
+ch.13030	RNASeq_splice	intron	823	929	34.0	-	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	929	929	39822.0	.	.	
+ch.13030	RNASeq_reads	transcript_region	929	929	9.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	929	929	7.0	+	.	
+ch.13030	RNASeq_reads	transcript_region	930	1000	80.0	.	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	930	1001	325622.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	930	1007	48.0	-	.	
+ch.13030	WormBase	CDS	930	1008	.	-	.	ID=CDS:F53E10.6;Parent=Transcript:F53E10.6.1
+ch.13030	WormBase	exon	930	1011	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_reads	transcript_region	1001	1006	49.0	.	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	1002	1007	201749.0	.	.	
+ch.13030	RNASeq_reads	transcript_region	1007	1012	29.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	1008	1011	26.0	-	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	1008	1013	126249.0	.	.	
+ch.13030	WormBase	five_prime_UTR	1009	1011	.	-	.	Parent=Transcript:F53E10.6.1
+ch.13030	RNASeq_stranded	transcript_region	1012	1013	16.0	-	.	
+ch.13030	RNASeq_splice	intron	1012	1100	30.0	-	.	
+ch.13030	RNASeq_reads	transcript_region	1013	1017	18.0	.	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	1014	1017	63597.0	.	.	
+ch.13030	RNASeq_stranded	transcript_region	1014	1017	5.0	-	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	1019	1070	1225.0	.	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	1071	1087	776.0	.	.	
+ch.13030	RNASeq_R_asymmetry	transcript_region	1088	1098	507.0	.	.	

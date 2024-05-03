@@ -1,0 +1,65 @@
+ch.11403	RNASeq_splice	intron	8	47	13.0	+	.	
+ch.11403	RNASeq_splice	intron	8	127	30.0	+	.	
+ch.11403	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.11403	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.11403	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.11403	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.11403	RNASeq_F_asymmetry	transcript_region	101	102	3565.0	.	.	
+ch.11403	RNASeq_reads	transcript_region	101	103	1.0	.	.	
+ch.11403	WormBase	three_prime_UTR	101	146	.	-	.	Parent=Transcript:C05C12.5.1
+ch.11403	WormBase	exon	101	213	.	-	.	Parent=Transcript:C05C12.5.1
+ch.11403	WormBase	gene	101	874	.	-	.	ID=Gene:WBGene00007337
+ch.11403	WormBase	mRNA	101	874	.	-	.	ID=Transcript:C05C12.5.1;Parent=Gene:WBGene00007337
+ch.11403	RNASeq_F_asymmetry	transcript_region	103	103	6153.0	.	.	
+ch.11403	RNASeq_F_asymmetry	transcript_region	104	108	18747.0	.	.	
+ch.11403	RNASeq_reads	transcript_region	104	116	4.0	.	.	
+ch.11403	RNASeq_F_asymmetry	transcript_region	109	136	28561.0	.	.	
+ch.11403	RNASeq_reads	transcript_region	117	139	7.0	.	.	
+ch.11403	RNASeq_stranded	transcript_region	119	155	1.0	-	.	
+ch.11403	RNASeq_F_asymmetry	transcript_region	137	149	42882.0	.	.	
+ch.11403	RNASeq_reads	transcript_region	140	165	11.0	.	.	
+ch.11403	WormBase	CDS	147	213	.	-	.	ID=CDS:C05C12.5;Parent=Transcript:C05C12.5.1
+ch.11403	RNASeq_F_asymmetry	transcript_region	150	204	64739.0	.	.	
+ch.11403	RNASeq_stranded	transcript_region	156	213	2.0	-	.	
+ch.11403	RNASeq_reads	transcript_region	166	213	17.0	.	.	
+ch.11403	RNASeq_splice	intron	187	249	69.0	+	.	
+ch.11403	RNASeq_splice	intron	204	249	91.0	+	.	
+ch.11403	RNASeq_splice	intron	214	255	5.0	-	.	
+ch.11403	WormBase	intron	214	259	.	-	.	Parent=Transcript:C05C12.5.1
+ch.11403	RNASeq_splice	intron	214	259	87580.0	-	.	
+ch.11403	RNASeq_reads	transcript_region	259	259	2.0	.	.	
+ch.11403	RNASeq_stranded	transcript_region	260	261	1.0	-	.	
+ch.11403	RNASeq_reads	transcript_region	260	346	17.0	.	.	
+ch.11403	WormBase	CDS	260	481	.	-	.	ID=CDS:C05C12.5;Parent=Transcript:C05C12.5.1
+ch.11403	WormBase	exon	260	481	.	-	.	Parent=Transcript:C05C12.5.1
+ch.11403	RNASeq_stranded	transcript_region	262	341	2.0	-	.	
+ch.11403	RNASeq_stranded	transcript_region	342	477	4.0	-	.	
+ch.11403	RNASeq_reads	transcript_region	347	481	26.0	.	.	
+ch.11403	RNASeq_stranded	transcript_region	478	481	2.0	-	.	
+ch.11403	RNASeq_splice	intron	482	548	4.0	-	.	
+ch.11403	WormBase	intron	482	645	.	-	.	Parent=Transcript:C05C12.5.1
+ch.11403	RNASeq_splice	intron	482	645	118507.0	-	.	
+ch.11403	RNASeq_stranded	transcript_region	646	655	1.0	-	.	
+ch.11403	WormBase	CDS	646	806	.	-	.	ID=CDS:C05C12.5;Parent=Transcript:C05C12.5.1
+ch.11403	RNASeq_reads	transcript_region	646	822	23.0	.	.	
+ch.11403	WormBase	exon	646	874	.	-	.	Parent=Transcript:C05C12.5.1
+ch.11403	RNASeq_stranded	transcript_region	656	767	2.0	-	.	
+ch.11403	RNASeq_stranded	transcript_region	768	832	4.0	-	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	782	829	91919.0	.	.	
+ch.11403	WormBase	five_prime_UTR	807	874	.	-	.	Parent=Transcript:C05C12.5.1
+ch.11403	RNASeq_reads	transcript_region	823	838	15.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	830	839	57441.0	.	.	
+ch.11403	RNASeq_stranded	transcript_region	833	842	2.0	-	.	
+ch.11403	RNASeq_reads	transcript_region	839	841	9.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	840	841	32477.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	842	845	20236.0	.	.	
+ch.11403	RNASeq_reads	transcript_region	842	846	4.0	.	.	
+ch.11403	RNASeq_stranded	transcript_region	843	855	1.0	-	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	846	846	11540.0	.	.	
+ch.11403	RNASeq_reads	transcript_region	847	850	2.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	847	852	7584.0	.	.	
+ch.11403	RNASeq_reads	transcript_region	851	859	1.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	853	857	4596.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	858	859	2960.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	860	863	1676.0	.	.	
+ch.11403	RNASeq_R_asymmetry	transcript_region	864	865	1004.0	.	.	

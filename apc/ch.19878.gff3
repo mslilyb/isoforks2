@@ -1,67 +1,67 @@
-ch.19878	RNASeq_F_asymmetry	transcript_region	674	674	410.0	.	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	642	672	430.0	.	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	628	639	591.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	588	590	1.0	.	.	
-ch.19878	WormBase	three_prime_UTR	549	590	.	+	.	Parent=Transcript:D1025.7.1
-ch.19878	WormBase	exon	243	590	.	+	.	Parent=Transcript:D1025.7.1
-ch.19878	WormBase	gene	101	590	.	+	.	ID=Gene:WBGene00008358
-ch.19878	WormBase	mRNA	101	590	.	+	.	ID=Transcript:D1025.7.1;Parent=Gene:WBGene00008358
-ch.19878	RNASeq_stranded	transcript_region	587	587	1.0	-	.	
-ch.19878	RNASeq_reads	transcript_region	584	587	2.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	575	586	2.0	+	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	576	584	12917.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	566	583	4.0	.	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	563	575	21767.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	556	574	4.0	+	.	
-ch.19878	RNASeq_reads	transcript_region	548	565	7.0	.	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	546	562	36192.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	542	555	7.0	+	.	
-ch.19878	WormBase	CDS	243	548	.	+	.	ID=CDS:D1025.7;Parent=Transcript:D1025.7.1
-ch.19878	RNASeq_reads	transcript_region	545	547	11.0	.	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	545	545	54760.0	.	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	525	544	93084.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	525	544	21.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	519	541	11.0	+	.	
-ch.19878	RNASeq_F_asymmetry	transcript_region	474	524	143463.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	365	524	32.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	451	518	17.0	+	.	
-ch.19878	RNASeq_stranded	transcript_region	437	450	11.0	+	.	
-ch.19878	RNASeq_stranded	transcript_region	420	436	7.0	+	.	
-ch.19878	RNASeq_stranded	transcript_region	413	419	4.0	+	.	
-ch.19878	RNASeq_stranded	transcript_region	392	412	2.0	+	.	
-ch.19878	RNASeq_stranded	transcript_region	370	391	4.0	+	.	
-ch.19878	RNASeq_stranded	transcript_region	287	369	7.0	+	.	
-ch.19878	RNASeq_reads	transcript_region	253	364	49.0	.	.	
-ch.19878	RNASeq	transcription_end_site	294	294	.	-	.	
-ch.19878	RNASeq	transcription_end_site	291	291	.	-	.	
-ch.19878	RNASeq	transcription_end_site	286	286	.	-	.	
-ch.19878	RNASeq_stranded	transcript_region	263	286	4.0	+	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	243	286	149598.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	243	262	7.0	+	.	
-ch.19878	RNASeq_reads	transcript_region	243	252	32.0	.	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	242	242	19313.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	242	242	5.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	242	242	1.0	-	.	
-ch.19878	RNASeq_splice	intron	201	242	6.0	+	.	
-ch.19878	WormBase	intron	197	242	.	+	.	Parent=Transcript:D1025.7.1
-ch.19878	RNASeq_splice	intron	197	242	133181.0	+	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	197	197	15473.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	197	197	3.0	.	.	
-ch.19878	WormBase	CDS	191	196	.	+	.	ID=CDS:D1025.7;Parent=Transcript:D1025.7.1
-ch.19878	RNASeq_R_asymmetry	transcript_region	184	196	233781.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	184	196	46.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	181	196	8.0	+	.	
-ch.19878	WormBase	exon	101	196	.	+	.	Parent=Transcript:D1025.7.1
-ch.19878	WormBase	five_prime_UTR	101	190	.	+	.	Parent=Transcript:D1025.7.1
-ch.19878	RNASeq_R_asymmetry	transcript_region	180	183	146450.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	180	183	29.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	173	180	5.0	+	.	
-ch.19878	RNASeq_reads	transcript_region	176	179	17.0	.	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	175	179	82929.0	.	.	
-ch.19878	RNASeq_reads	transcript_region	169	175	11.0	.	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	167	174	51251.0	.	.	
-ch.19878	RNASeq_stranded	transcript_region	163	172	3.0	+	.	
-ch.19878	RNASeq_reads	transcript_region	163	168	7.0	.	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	163	166	24365.0	.	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	154	162	1181.0	.	.	
-ch.19878	RNASeq_R_asymmetry	transcript_region	151	152	751.0	.	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	17	17	410.0	.	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	19	49	430.0	.	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	52	63	591.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	101	103	1.0	.	.	
+ch.19878	WormBase	three_prime_UTR	101	142	.	-	.	Parent=Transcript:D1025.7.1
+ch.19878	WormBase	exon	101	448	.	-	.	Parent=Transcript:D1025.7.1
+ch.19878	WormBase	gene	101	590	.	-	.	ID=Gene:WBGene00008358
+ch.19878	WormBase	mRNA	101	590	.	-	.	ID=Transcript:D1025.7.1;Parent=Gene:WBGene00008358
+ch.19878	RNASeq_stranded	transcript_region	104	104	1.0	+	.	
+ch.19878	RNASeq_reads	transcript_region	104	107	2.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	105	116	2.0	-	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	107	115	12917.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	108	125	4.0	.	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	116	128	21767.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	117	135	4.0	-	.	
+ch.19878	RNASeq_reads	transcript_region	126	143	7.0	.	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	129	145	36192.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	136	149	7.0	-	.	
+ch.19878	WormBase	CDS	143	448	.	-	.	ID=CDS:D1025.7;Parent=Transcript:D1025.7.1
+ch.19878	RNASeq_reads	transcript_region	144	146	11.0	.	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	146	146	54760.0	.	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	147	166	93084.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	147	166	21.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	150	172	11.0	-	.	
+ch.19878	RNASeq_F_asymmetry	transcript_region	167	217	143463.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	167	326	32.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	173	240	17.0	-	.	
+ch.19878	RNASeq_stranded	transcript_region	241	254	11.0	-	.	
+ch.19878	RNASeq_stranded	transcript_region	255	271	7.0	-	.	
+ch.19878	RNASeq_stranded	transcript_region	272	278	4.0	-	.	
+ch.19878	RNASeq_stranded	transcript_region	279	299	2.0	-	.	
+ch.19878	RNASeq_stranded	transcript_region	300	321	4.0	-	.	
+ch.19878	RNASeq_stranded	transcript_region	322	404	7.0	-	.	
+ch.19878	RNASeq_reads	transcript_region	327	438	49.0	.	.	
+ch.19878	RNASeq	transcription_end_site	397	397	.	+	.	
+ch.19878	RNASeq	transcription_end_site	400	400	.	+	.	
+ch.19878	RNASeq	transcription_end_site	405	405	.	+	.	
+ch.19878	RNASeq_stranded	transcript_region	405	428	4.0	-	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	405	448	149598.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	429	448	7.0	-	.	
+ch.19878	RNASeq_reads	transcript_region	439	448	32.0	.	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	449	449	19313.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	449	449	5.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	449	449	1.0	+	.	
+ch.19878	RNASeq_splice	intron	449	490	6.0	-	.	
+ch.19878	WormBase	intron	449	494	.	-	.	Parent=Transcript:D1025.7.1
+ch.19878	RNASeq_splice	intron	449	494	133181.0	-	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	494	494	15473.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	494	494	3.0	.	.	
+ch.19878	WormBase	CDS	495	500	.	-	.	ID=CDS:D1025.7;Parent=Transcript:D1025.7.1
+ch.19878	RNASeq_R_asymmetry	transcript_region	495	507	233781.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	495	507	46.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	495	510	8.0	-	.	
+ch.19878	WormBase	exon	495	590	.	-	.	Parent=Transcript:D1025.7.1
+ch.19878	WormBase	five_prime_UTR	501	590	.	-	.	Parent=Transcript:D1025.7.1
+ch.19878	RNASeq_R_asymmetry	transcript_region	508	511	146450.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	508	511	29.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	511	518	5.0	-	.	
+ch.19878	RNASeq_reads	transcript_region	512	515	17.0	.	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	512	516	82929.0	.	.	
+ch.19878	RNASeq_reads	transcript_region	516	522	11.0	.	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	517	524	51251.0	.	.	
+ch.19878	RNASeq_stranded	transcript_region	519	528	3.0	-	.	
+ch.19878	RNASeq_reads	transcript_region	523	528	7.0	.	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	525	528	24365.0	.	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	529	537	1181.0	.	.	
+ch.19878	RNASeq_R_asymmetry	transcript_region	539	540	751.0	.	.	

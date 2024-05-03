@@ -1,0 +1,83 @@
+ch.2081	RNASeq_R_asymmetry	transcript_region	1	6	932.0	.	.	
+ch.2081	RNASeq_R_asymmetry	transcript_region	7	7	528.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	21	42	1.0	-	.	
+ch.2081	RNASeq_reads	transcript_region	41	60	1.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	43	88	2.0	-	.	
+ch.2081	RNASeq	transcription_end_site	55	55	.	+	.	
+ch.2081	RNASeq_F_asymmetry	transcript_region	57	76	5159.0	.	.	
+ch.2081	RNASeq_reads	transcript_region	61	101	2.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	89	105	4.0	-	.	
+ch.2081	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.2081	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.2081	WormBase	three_prime_UTR	101	340	.	-	.	Parent=Transcript:B0511.19.1
+ch.2081	WormBase	exon	101	447	.	-	.	Parent=Transcript:B0511.19.1
+ch.2081	WormBase	gene	101	900	.	-	.	ID=Gene:WBGene00255714
+ch.2081	WormBase	mRNA	101	900	.	-	.	ID=Transcript:B0511.19.1;Parent=Gene:WBGene00255714
+ch.2081	RNASeq_reads	transcript_region	102	110	4.0	.	.	
+ch.2081	RNASeq_F_asymmetry	transcript_region	103	106	19540.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	106	112	7.0	-	.	
+ch.2081	RNASeq_reads	transcript_region	111	124	7.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	113	131	11.0	-	.	
+ch.2081	RNASeq	transcription_end_site	116	116	.	+	.	
+ch.2081	RNASeq	transcription_end_site	116	116	.	+	.	
+ch.2081	RNASeq_reads	transcript_region	125	141	11.0	.	.	
+ch.2081	RNASeq	transcription_end_site	126	126	.	+	.	
+ch.2081	RNASeq	transcription_end_site	126	126	.	+	.	
+ch.2081	RNASeq_F_asymmetry	transcript_region	129	130	48292.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	132	145	17.0	-	.	
+ch.2081	RNASeq	transcription_end_site	140	140	.	+	.	
+ch.2081	RNASeq_F_asymmetry	transcript_region	142	151	74393.0	.	.	
+ch.2081	RNASeq_reads	transcript_region	142	155	18.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	144	190	1.0	+	.	
+ch.2081	RNASeq	transcription_end_site	145	145	.	+	.	
+ch.2081	RNASeq	transcription_end_site	145	145	.	+	.	
+ch.2081	RNASeq_stranded	transcript_region	146	161	26.0	-	.	
+ch.2081	RNASeq_F_asymmetry	transcript_region	152	168	111843.0	.	.	
+ch.2081	RNASeq_reads	transcript_region	156	200	29.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	162	283	40.0	-	.	
+ch.2081	RNASeq	transcription_end_site	165	165	.	+	.	
+ch.2081	RNASeq	transcription_end_site	165	165	.	+	.	
+ch.2081	RNASeq	transcription_end_site	177	177	.	+	.	
+ch.2081	RNASeq	transcription_end_site	177	177	.	+	.	
+ch.2081	RNASeq_reads	transcript_region	201	353	44.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	207	257	1.0	+	.	
+ch.2081	RNASeq_stranded	transcript_region	284	389	26.0	-	.	
+ch.2081	WormBase	CDS	341	447	.	-	.	ID=CDS:B0511.19;Parent=Transcript:B0511.19.1
+ch.2081	RNASeq_reads	transcript_region	354	447	67.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	390	406	17.0	-	.	
+ch.2081	RNASeq_stranded	transcript_region	407	445	11.0	-	.	
+ch.2081	RNASeq_splice	intron	440	581	101.0	-	.	
+ch.2081	RNASeq_stranded	transcript_region	446	447	7.0	-	.	
+ch.2081	WormBase	intron	448	581	.	-	.	Parent=Transcript:B0511.19.1
+ch.2081	RNASeq_splice	intron	448	581	340506.0	-	.	
+ch.2081	RNASeq_splice	intron	448	584	53.0	-	.	
+ch.2081	RNASeq_splice	intron	448	659	3.0	-	.	
+ch.2081	RNASeq_reads	transcript_region	578	581	3.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	582	664	7.0	-	.	
+ch.2081	RNASeq_reads	transcript_region	582	872	63.0	.	.	
+ch.2081	WormBase	CDS	582	891	.	-	.	ID=CDS:B0511.19;Parent=Transcript:B0511.19.1
+ch.2081	WormBase	exon	582	900	.	-	.	Parent=Transcript:B0511.19.1
+ch.2081	RNASeq_stranded	transcript_region	665	779	4.0	-	.	
+ch.2081	RNASeq_splice	intron	712	798	5.0	+	.	
+ch.2081	RNASeq_stranded	transcript_region	741	747	1.0	+	.	
+ch.2081	RNASeq_stranded	transcript_region	748	840	2.0	+	.	
+ch.2081	RNASeq_stranded	transcript_region	780	790	7.0	-	.	
+ch.2081	RNASeq_stranded	transcript_region	791	798	11.0	-	.	
+ch.2081	RNASeq_stranded	transcript_region	799	822	18.0	-	.	
+ch.2081	RNASeq_stranded	transcript_region	823	893	28.0	-	.	
+ch.2081	RNASeq_R_asymmetry	transcript_region	827	881	251704.0	.	.	
+ch.2081	RNASeq	transcription_end_site	842	842	.	+	.	
+ch.2081	RNASeq	transcription_end_site	842	842	.	+	.	
+ch.2081	RNASeq_reads	transcript_region	873	894	41.0	.	.	
+ch.2081	RNASeq_R_asymmetry	transcript_region	882	896	163120.0	.	.	
+ch.2081	WormBase	five_prime_UTR	892	900	.	-	.	Parent=Transcript:B0511.19.1
+ch.2081	RNASeq_stranded	transcript_region	894	898	18.0	-	.	
+ch.2081	RNASeq_reads	transcript_region	895	898	27.0	.	.	
+ch.2081	RNASeq_R_asymmetry	transcript_region	897	901	98525.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	899	901	10.0	-	.	
+ch.2081	RNASeq_reads	transcript_region	899	902	15.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	902	902	5.0	+	.	
+ch.2081	RNASeq_R_asymmetry	transcript_region	902	906	58961.0	.	.	
+ch.2081	RNASeq_reads	transcript_region	903	906	8.0	.	.	
+ch.2081	RNASeq_stranded	transcript_region	903	906	3.0	-	.	
+ch.2081	RNASeq_reads	transcript_region	907	909	1.0	.	.	

@@ -1,0 +1,114 @@
+ch.576	RNASeq_stranded	transcript_region	14	38	2.0	-	.	
+ch.576	RNASeq_splice	intron	17	175	17.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	23	35	136.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	36	63	206.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	39	39	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	40	61	2.0	-	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	45	76	983501.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	62	83	1.0	-	.	
+ch.576	RNASeq_reads	transcript_region	62	84	193.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	64	82	134.0	+	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	77	90	645444.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	83	94	83.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	84	95	2.0	-	.	
+ch.576	RNASeq_reads	transcript_region	85	98	126.0	.	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	91	107	424071.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	95	104	54.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	96	97	1.0	-	.	
+ch.576	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.576	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.576	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.576	RNASeq_stranded	transcript_region	98	102	2.0	-	.	
+ch.576	RNASeq_reads	transcript_region	99	107	83.0	.	.	
+ch.576	WormBase	three_prime_UTR	101	157	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	WormBase	exon	101	466	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	WormBase	gene	101	1016	.	-	.	ID=Gene:WBGene00020625
+ch.576	WormBase	mRNA	101	1016	.	-	.	ID=Transcript:T20F5.3.1;Parent=Gene:WBGene00020625
+ch.576	RNASeq_stranded	transcript_region	103	108	4.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	105	128	35.0	+	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	108	110	214574.0	.	.	
+ch.576	RNASeq_reads	transcript_region	108	116	52.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	109	122	7.0	-	.	
+ch.576	RNASeq	transcription_end_site	113	113	.	+	.	
+ch.576	RNASeq_reads	transcript_region	117	136	34.0	.	.	
+ch.576	RNASeq	transcription_end_site	118	118	.	+	.	
+ch.576	RNASeq	transcription_end_site	118	118	.	+	.	
+ch.576	RNASeq	transcription_end_site	118	118	.	+	.	
+ch.576	RNASeq_stranded	transcript_region	123	137	11.0	-	.	
+ch.576	RNASeq_splice	intron	125	166	23.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	129	140	23.0	+	.	
+ch.576	RNASeq_reads	transcript_region	137	206	21.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	138	152	17.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	141	143	15.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	144	151	9.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	152	168	5.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	153	185	26.0	-	.	
+ch.576	RNASeq	transcription_end_site	156	156	.	+	.	
+ch.576	RNASeq	transcription_end_site	158	158	.	+	.	
+ch.576	WormBase	CDS	158	466	.	-	.	ID=CDS:T20F5.3;Parent=Transcript:T20F5.3.1
+ch.576	RNASeq	transcription_end_site	162	162	.	+	.	
+ch.576	RNASeq	transcription_end_site	162	162	.	+	.	
+ch.576	RNASeq_stranded	transcript_region	169	174	3.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	175	179	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	186	266	40.0	-	.	
+ch.576	RNASeq_reads	transcript_region	207	466	32.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	267	280	26.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	268	343	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	281	320	17.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	321	377	26.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	351	353	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	358	370	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	372	384	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	378	411	17.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	405	454	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	412	466	11.0	-	.	
+ch.576	RNASeq_splice	intron	437	511	11.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	467	467	2.0	+	.	
+ch.576	RNASeq_reads	transcript_region	467	469	5.0	.	.	
+ch.576	WormBase	intron	467	511	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	RNASeq_splice	intron	467	511	126015.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	468	471	1.0	-	.	
+ch.576	RNASeq_reads	transcript_region	470	471	3.0	.	.	
+ch.576	RNASeq_reads	transcript_region	472	511	1.0	.	.	
+ch.576	RNASeq_splice	intron	500	543	14.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	512	635	8.0	-	.	
+ch.576	WormBase	CDS	512	673	.	-	.	ID=CDS:T20F5.3;Parent=Transcript:T20F5.3.1
+ch.576	WormBase	exon	512	673	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	RNASeq_reads	transcript_region	512	673	25.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	636	673	5.0	-	.	
+ch.576	RNASeq_splice	intron	670	715	61.0	-	.	
+ch.576	RNASeq_splice	intron	670	719	29.0	-	.	
+ch.576	WormBase	intron	674	719	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	RNASeq_splice	intron	674	719	124808.0	-	.	
+ch.576	RNASeq_reads	transcript_region	718	719	2.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	719	719	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	720	805	4.0	-	.	
+ch.576	WormBase	CDS	720	839	.	-	.	ID=CDS:T20F5.3;Parent=Transcript:T20F5.3.1
+ch.576	WormBase	exon	720	839	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	RNASeq_reads	transcript_region	720	839	23.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	806	830	7.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	830	839	1.0	+	.	
+ch.576	RNASeq_stranded	transcript_region	831	839	11.0	-	.	
+ch.576	RNASeq_reads	transcript_region	840	841	6.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	840	841	1.0	-	.	
+ch.576	WormBase	intron	840	883	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	RNASeq_splice	intron	840	883	128463.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	884	932	12.0	-	.	
+ch.576	RNASeq_reads	transcript_region	884	1001	25.0	.	.	
+ch.576	WormBase	CDS	884	1009	.	-	.	ID=CDS:T20F5.3;Parent=Transcript:T20F5.3.1
+ch.576	WormBase	exon	884	1016	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	RNASeq_stranded	transcript_region	884	1038	1.0	+	.	
+ch.576	RNASeq_splice	intron	922	975	18.0	-	.	
+ch.576	RNASeq_stranded	transcript_region	933	984	22.0	-	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	938	1000	123870.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	985	1010	14.0	-	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	1001	1011	81751.0	.	.	
+ch.576	RNASeq_reads	transcript_region	1002	1011	16.0	.	.	
+ch.576	WormBase	five_prime_UTR	1010	1016	.	-	.	Parent=Transcript:T20F5.3.1
+ch.576	RNASeq_stranded	transcript_region	1011	1014	9.0	-	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	1012	1014	47186.0	.	.	
+ch.576	RNASeq_reads	transcript_region	1012	1014	10.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	1015	1015	5.0	+	.	
+ch.576	RNASeq_R_asymmetry	transcript_region	1015	1016	29481.0	.	.	
+ch.576	RNASeq_reads	transcript_region	1015	1016	6.0	.	.	
+ch.576	RNASeq_stranded	transcript_region	1016	1016	3.0	+	.	

@@ -1,0 +1,76 @@
+ch.9983	WormBase	CDS	8	119	.	+	.	ID=CDS:E03H12.2;Parent=Transcript:E03H12.2.1
+ch.9983	WormBase	exon	8	119	.	+	.	Parent=Transcript:E03H12.2.1
+ch.9983	RNASeq_F_asymmetry	transcript_region	95	95	1500.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	96	97	1.0	-	.	
+ch.9983	RNASeq_F_asymmetry	transcript_region	96	114	9250.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	96	114	2.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	98	108	2.0	-	.	
+ch.9983	WormBase	three_prime_UTR	101	150	.	-	.	Parent=Transcript:E03H12.7.1
+ch.9983	WormBase	exon	101	501	.	-	.	Parent=Transcript:E03H12.7.1
+ch.9983	WormBase	gene	101	1025	.	-	.	ID=Gene:WBGene00017114
+ch.9983	WormBase	mRNA	101	1025	.	-	.	ID=Transcript:E03H12.7.1;Parent=Gene:WBGene00017114
+ch.9983	RNASeq_stranded	transcript_region	109	126	4.0	-	.	
+ch.9983	RNASeq_F_asymmetry	transcript_region	115	118	14474.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	115	121	4.0	.	.	
+ch.9983	RNASeq_F_asymmetry	transcript_region	120	121	17380.0	.	.	
+ch.9983	RNASeq_F_asymmetry	transcript_region	122	124	30246.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	122	124	7.0	.	.	
+ch.9983	RNASeq_F_asymmetry	transcript_region	125	139	50543.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	125	139	11.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	127	182	7.0	-	.	
+ch.9983	RNASeq_F_asymmetry	transcript_region	140	196	77342.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	140	212	17.0	.	.	
+ch.9983	WormBase	CDS	151	501	.	-	.	ID=CDS:E03H12.7;Parent=Transcript:E03H12.7.1
+ch.9983	RNASeq_stranded	transcript_region	183	201	4.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	202	232	9.0	-	.	
+ch.9983	RNASeq_reads	transcript_region	213	501	26.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	233	328	15.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	329	330	8.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	331	369	5.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	370	412	8.0	-	.	
+ch.9983	RNASeq_splice	intron	390	420	3.0	+	.	
+ch.9983	RNASeq_stranded	transcript_region	413	417	5.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	418	466	8.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	467	475	5.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	476	501	8.0	-	.	
+ch.9983	RNASeq_splice	intron	499	735	15.0	-	.	
+ch.9983	WormBase	intron	502	735	.	-	.	Parent=Transcript:E03H12.7.1
+ch.9983	RNASeq_splice	intron	502	735	105525.0	-	.	
+ch.9983	RNASeq_splice	intron	502	906	3.0	-	.	
+ch.9983	RNASeq_splice	intron	522	735	3.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	736	759	6.0	-	.	
+ch.9983	RNASeq_reads	transcript_region	736	819	22.0	.	.	
+ch.9983	WormBase	CDS	736	858	.	-	.	ID=CDS:E03H12.7;Parent=Transcript:E03H12.7.1
+ch.9983	WormBase	exon	736	858	.	-	.	Parent=Transcript:E03H12.7.1
+ch.9983	RNASeq_stranded	transcript_region	760	765	3.0	-	.	
+ch.9983	RNASeq_stranded	transcript_region	766	847	5.0	-	.	
+ch.9983	RNASeq_reads	transcript_region	820	858	14.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	848	858	2.0	-	.	
+ch.9983	RNASeq_reads	transcript_region	859	859	2.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	859	863	1.0	-	.	
+ch.9983	WormBase	intron	859	906	.	-	.	Parent=Transcript:E03H12.7.1
+ch.9983	RNASeq_splice	intron	859	906	68958.0	-	.	
+ch.9983	RNASeq_reads	transcript_region	860	863	1.0	.	.	
+ch.9983	WormBase	CDS	907	939	.	-	.	ID=CDS:E03H12.7;Parent=Transcript:E03H12.7.1
+ch.9983	RNASeq_stranded	transcript_region	907	939	3.0	-	.	
+ch.9983	RNASeq_reads	transcript_region	907	980	14.0	.	.	
+ch.9983	WormBase	exon	907	1025	.	-	.	Parent=Transcript:E03H12.7.1
+ch.9983	RNASeq_R_asymmetry	transcript_region	932	991	54885.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	940	954	5.0	-	.	
+ch.9983	WormBase	five_prime_UTR	940	1025	.	-	.	Parent=Transcript:E03H12.7.1
+ch.9983	RNASeq_stranded	transcript_region	955	989	3.0	-	.	
+ch.9983	RNASeq_reads	transcript_region	981	998	9.0	.	.	
+ch.9983	RNASeq_stranded	transcript_region	990	990	1.0	+	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	992	999	34946.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	999	999	5.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1000	1003	17296.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	1000	1004	3.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1004	1010	7647.0	.	.	
+ch.9983	RNASeq_reads	transcript_region	1005	1015	1.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1011	1014	4418.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1015	1017	2572.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1018	1020	1669.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1021	1022	1085.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1023	1027	625.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1028	1031	359.0	.	.	
+ch.9983	RNASeq_R_asymmetry	transcript_region	1032	1036	223.0	.	.	

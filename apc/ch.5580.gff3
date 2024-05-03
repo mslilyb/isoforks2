@@ -1,66 +1,66 @@
-ch.5580	RNASeq_F_asymmetry	transcript_region	712	714	1427.0	.	.	
-ch.5580	RNASeq	transcription_end_site	710	710	.	-	.	
-ch.5580	RNASeq_splice	intron	611	699	3.0	+	.	
-ch.5580	RNASeq_stranded	transcript_region	684	695	1.0	+	.	
-ch.5580	RNASeq	transcription_end_site	687	687	.	-	.	
-ch.5580	RNASeq	transcription_end_site	687	687	.	-	.	
-ch.5580	RNASeq_reads	transcript_region	684	687	1.0	.	.	
-ch.5580	RNASeq	transcription_end_site	686	686	.	-	.	
-ch.5580	RNASeq	transcription_end_site	685	685	.	-	.	
-ch.5580	RNASeq	transcription_end_site	683	683	.	-	.	
-ch.5580	RNASeq	transcription_end_site	683	683	.	-	.	
-ch.5580	RNASeq_F_asymmetry	transcript_region	681	683	18400.0	.	.	
-ch.5580	RNASeq_reads	transcript_region	680	683	5.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	679	683	6.0	+	.	
-ch.5580	WormBase	three_prime_UTR	615	683	.	+	.	Parent=Transcript:C14A4.10.1
-ch.5580	WormBase	exon	381	683	.	+	.	Parent=Transcript:C14A4.10.1
-ch.5580	WormBase	gene	101	683	.	+	.	ID=Gene:WBGene00006397
-ch.5580	WormBase	mRNA	101	683	.	+	.	ID=Transcript:C14A4.10.1;Parent=Gene:WBGene00006397
-ch.5580	RNASeq	transcription_end_site	682	682	.	-	.	
-ch.5580	RNASeq_F_asymmetry	transcript_region	675	680	29345.0	.	.	
-ch.5580	RNASeq_reads	transcript_region	666	679	8.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	671	678	10.0	+	.	
-ch.5580	RNASeq_stranded	transcript_region	661	670	16.0	+	.	
-ch.5580	RNASeq	transcription_end_site	666	666	.	-	.	
-ch.5580	RNASeq	transcription_end_site	666	666	.	-	.	
-ch.5580	RNASeq_reads	transcript_region	662	665	14.0	.	.	
-ch.5580	RNASeq	transcription_end_site	663	663	.	-	.	
-ch.5580	RNASeq	transcription_end_site	663	663	.	-	.	
-ch.5580	RNASeq_F_asymmetry	transcript_region	659	661	161333.0	.	.	
-ch.5580	RNASeq_reads	transcript_region	659	661	35.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	611	661	1.0	-	.	
-ch.5580	RNASeq_stranded	transcript_region	648	660	25.0	+	.	
-ch.5580	RNASeq_reads	transcript_region	641	658	53.0	.	.	
-ch.5580	RNASeq_F_asymmetry	transcript_region	632	658	242946.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	632	647	40.0	+	.	
-ch.5580	RNASeq_reads	transcript_region	600	640	80.0	.	.	
-ch.5580	RNASeq_F_asymmetry	transcript_region	613	631	397942.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	443	631	62.0	+	.	
-ch.5580	WormBase	CDS	381	614	.	+	.	ID=CDS:C14A4.10;Parent=Transcript:C14A4.10.1
-ch.5580	RNASeq_reads	transcript_region	381	599	121.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	533	578	1.0	-	.	
-ch.5580	RNASeq_splice	intron	428	471	4.0	-	.	
-ch.5580	RNASeq_stranded	transcript_region	381	442	37.0	+	.	
-ch.5580	RNASeq_splice	intron	247	383	140.0	+	.	
-ch.5580	RNASeq_splice	intron	243	383	25.0	+	.	
-ch.5580	RNASeq_reads	transcript_region	379	380	21.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	379	380	4.0	+	.	
-ch.5580	WormBase	intron	243	380	.	+	.	Parent=Transcript:C14A4.10.1
-ch.5580	RNASeq_splice	intron	243	380	798073.0	+	.	
-ch.5580	RNASeq_reads	transcript_region	243	243	21.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	243	243	8.0	-	.	
-ch.5580	RNASeq_reads	transcript_region	117	242	151.0	.	.	
-ch.5580	WormBase	CDS	111	242	.	+	.	ID=CDS:C14A4.10;Parent=Transcript:C14A4.10.1
-ch.5580	RNASeq_stranded	transcript_region	106	242	31.0	+	.	
-ch.5580	WormBase	exon	101	242	.	+	.	Parent=Transcript:C14A4.10.1
-ch.5580	RNASeq_R_asymmetry	transcript_region	106	163	603658.0	.	.	
-ch.5580	RNASeq_reads	transcript_region	99	116	98.0	.	.	
-ch.5580	WormBase	five_prime_UTR	101	110	.	+	.	Parent=Transcript:C14A4.10.1
-ch.5580	RNASeq_R_asymmetry	transcript_region	99	105	382679.0	.	.	
-ch.5580	RNASeq_stranded	transcript_region	99	105	20.0	+	.	
-ch.5580	RNASeq_reads	transcript_region	96	98	2.0	.	.	
-ch.5580	RNASeq_R_asymmetry	transcript_region	95	98	7628.0	.	.	
-ch.5580	RNASeq_reads	transcript_region	94	95	1.0	.	.	
-ch.5580	RNASeq_R_asymmetry	transcript_region	54	93	1950.0	.	.	
-ch.5580	RNASeq_R_asymmetry	transcript_region	48	53	1283.0	.	.	
-ch.5580	RNASeq_R_asymmetry	transcript_region	35	47	819.0	.	.	
+ch.5580	RNASeq_F_asymmetry	transcript_region	70	72	1427.0	.	.	
+ch.5580	RNASeq	transcription_end_site	74	74	.	+	.	
+ch.5580	RNASeq_splice	intron	85	173	3.0	-	.	
+ch.5580	RNASeq_stranded	transcript_region	89	100	1.0	-	.	
+ch.5580	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.5580	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.5580	RNASeq_reads	transcript_region	97	100	1.0	.	.	
+ch.5580	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.5580	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.5580	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.5580	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.5580	RNASeq_F_asymmetry	transcript_region	101	103	18400.0	.	.	
+ch.5580	RNASeq_reads	transcript_region	101	104	5.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	101	105	6.0	-	.	
+ch.5580	WormBase	three_prime_UTR	101	169	.	-	.	Parent=Transcript:C14A4.10.1
+ch.5580	WormBase	exon	101	403	.	-	.	Parent=Transcript:C14A4.10.1
+ch.5580	WormBase	gene	101	683	.	-	.	ID=Gene:WBGene00006397
+ch.5580	WormBase	mRNA	101	683	.	-	.	ID=Transcript:C14A4.10.1;Parent=Gene:WBGene00006397
+ch.5580	RNASeq	transcription_end_site	102	102	.	+	.	
+ch.5580	RNASeq_F_asymmetry	transcript_region	104	109	29345.0	.	.	
+ch.5580	RNASeq_reads	transcript_region	105	118	8.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	106	113	10.0	-	.	
+ch.5580	RNASeq_stranded	transcript_region	114	123	16.0	-	.	
+ch.5580	RNASeq	transcription_end_site	118	118	.	+	.	
+ch.5580	RNASeq	transcription_end_site	118	118	.	+	.	
+ch.5580	RNASeq_reads	transcript_region	119	122	14.0	.	.	
+ch.5580	RNASeq	transcription_end_site	121	121	.	+	.	
+ch.5580	RNASeq	transcription_end_site	121	121	.	+	.	
+ch.5580	RNASeq_F_asymmetry	transcript_region	123	125	161333.0	.	.	
+ch.5580	RNASeq_reads	transcript_region	123	125	35.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	123	173	1.0	+	.	
+ch.5580	RNASeq_stranded	transcript_region	124	136	25.0	-	.	
+ch.5580	RNASeq_reads	transcript_region	126	143	53.0	.	.	
+ch.5580	RNASeq_F_asymmetry	transcript_region	126	152	242946.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	137	152	40.0	-	.	
+ch.5580	RNASeq_reads	transcript_region	144	184	80.0	.	.	
+ch.5580	RNASeq_F_asymmetry	transcript_region	153	171	397942.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	153	341	62.0	-	.	
+ch.5580	WormBase	CDS	170	403	.	-	.	ID=CDS:C14A4.10;Parent=Transcript:C14A4.10.1
+ch.5580	RNASeq_reads	transcript_region	185	403	121.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	206	251	1.0	+	.	
+ch.5580	RNASeq_splice	intron	313	356	4.0	+	.	
+ch.5580	RNASeq_stranded	transcript_region	342	403	37.0	-	.	
+ch.5580	RNASeq_splice	intron	401	537	140.0	-	.	
+ch.5580	RNASeq_splice	intron	401	541	25.0	-	.	
+ch.5580	RNASeq_reads	transcript_region	404	405	21.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	404	405	4.0	-	.	
+ch.5580	WormBase	intron	404	541	.	-	.	Parent=Transcript:C14A4.10.1
+ch.5580	RNASeq_splice	intron	404	541	798073.0	-	.	
+ch.5580	RNASeq_reads	transcript_region	541	541	21.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	541	541	8.0	+	.	
+ch.5580	RNASeq_reads	transcript_region	542	667	151.0	.	.	
+ch.5580	WormBase	CDS	542	673	.	-	.	ID=CDS:C14A4.10;Parent=Transcript:C14A4.10.1
+ch.5580	RNASeq_stranded	transcript_region	542	678	31.0	-	.	
+ch.5580	WormBase	exon	542	683	.	-	.	Parent=Transcript:C14A4.10.1
+ch.5580	RNASeq_R_asymmetry	transcript_region	621	678	603658.0	.	.	
+ch.5580	RNASeq_reads	transcript_region	668	685	98.0	.	.	
+ch.5580	WormBase	five_prime_UTR	674	683	.	-	.	Parent=Transcript:C14A4.10.1
+ch.5580	RNASeq_R_asymmetry	transcript_region	679	685	382679.0	.	.	
+ch.5580	RNASeq_stranded	transcript_region	679	685	20.0	-	.	
+ch.5580	RNASeq_reads	transcript_region	686	688	2.0	.	.	
+ch.5580	RNASeq_R_asymmetry	transcript_region	686	689	7628.0	.	.	
+ch.5580	RNASeq_reads	transcript_region	689	690	1.0	.	.	
+ch.5580	RNASeq_R_asymmetry	transcript_region	691	730	1950.0	.	.	
+ch.5580	RNASeq_R_asymmetry	transcript_region	731	736	1283.0	.	.	
+ch.5580	RNASeq_R_asymmetry	transcript_region	737	749	819.0	.	.	

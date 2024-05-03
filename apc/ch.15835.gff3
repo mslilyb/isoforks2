@@ -1,110 +1,110 @@
-ch.15835	RNASeq_R_asymmetry	transcript_region	1033	1037	27204.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	976	1034	4.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	1031	1033	4.0	-	.	
-ch.15835	RNASeq	transcription_end_site	1031	1031	.	-	.	
-ch.15835	RNASeq_R_asymmetry	transcript_region	994	1030	19463.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	994	1030	2.0	-	.	
-ch.15835	RNASeq_reads	transcript_region	973	1019	4.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	993	993	1.0	-	.	
-ch.15835	RNASeq_stranded	transcript_region	992	992	2.0	-	.	
-ch.15835	RNASeq_stranded	transcript_region	990	991	1.0	-	.	
-ch.15835	RNASeq_stranded	transcript_region	958	989	2.0	-	.	
-ch.15835	RNASeq	transcription_end_site	975	975	.	-	.	
-ch.15835	RNASeq_stranded	transcript_region	941	975	2.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	941	972	2.0	.	.	
-ch.15835	RNASeq	transcription_end_site	961	961	.	-	.	
-ch.15835	RNASeq_stranded	transcript_region	915	957	1.0	-	.	
-ch.15835	RNASeq	transcription_end_site	950	950	.	-	.	
-ch.15835	RNASeq	transcription_end_site	950	950	.	-	.	
-ch.15835	RNASeq	transcription_end_site	945	945	.	-	.	
-ch.15835	RNASeq	transcription_end_site	943	943	.	-	.	
-ch.15835	RNASeq	transcription_end_site	943	943	.	-	.	
-ch.15835	RNASeq	transcription_end_site	942	942	.	-	.	
-ch.15835	RNASeq	transcription_end_site	940	940	.	-	.	
-ch.15835	RNASeq	transcription_end_site	940	940	.	-	.	
-ch.15835	RNASeq_stranded	transcript_region	937	940	5.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	934	940	4.0	.	.	
-ch.15835	WormBase	three_prime_UTR	871	938	.	+	.	Parent=Transcript:C06B3.6.1
-ch.15835	WormBase	exon	656	938	.	+	.	Parent=Transcript:C06B3.6.1
-ch.15835	WormBase	gene	101	938	.	+	.	ID=Gene:WBGene00007365
-ch.15835	WormBase	mRNA	101	938	.	+	.	ID=Transcript:C06B3.6.1;Parent=Gene:WBGene00007365
-ch.15835	RNASeq_stranded	transcript_region	927	936	8.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	924	933	7.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	918	926	13.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	916	923	11.0	.	.	
-ch.15835	RNASeq	transcription_end_site	919	919	.	-	.	
-ch.15835	RNASeq	transcription_end_site	919	919	.	-	.	
-ch.15835	RNASeq	transcription_end_site	918	918	.	-	.	
-ch.15835	RNASeq	transcription_end_site	918	918	.	-	.	
-ch.15835	RNASeq_stranded	transcript_region	910	917	20.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	913	915	17.0	.	.	
-ch.15835	RNASeq_reads	transcript_region	904	912	26.0	.	.	
-ch.15835	RNASeq_F_asymmetry	transcript_region	906	909	130816.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	898	909	31.0	+	.	
-ch.15835	RNASeq_F_asymmetry	transcript_region	900	904	157250.0	.	.	
-ch.15835	RNASeq_reads	transcript_region	871	903	40.0	.	.	
-ch.15835	RNASeq_F_asymmetry	transcript_region	897	897	174912.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	885	897	48.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	853	895	1.0	-	.	
-ch.15835	RNASeq_stranded	transcript_region	863	884	75.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	835	870	61.0	.	.	
-ch.15835	WormBase	CDS	656	870	.	+	.	ID=CDS:C06B3.6;Parent=Transcript:C06B3.6.1
-ch.15835	RNASeq_stranded	transcript_region	805	862	113.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	847	851	1.0	-	.	
-ch.15835	RNASeq_reads	transcript_region	791	834	95.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	750	804	74.0	+	.	
-ch.15835	RNASeq_splice	intron	718	792	5.0	-	.	
-ch.15835	RNASeq_reads	transcript_region	656	790	145.0	.	.	
-ch.15835	RNASeq_splice	intron	712	754	3.0	-	.	
-ch.15835	RNASeq_stranded	transcript_region	706	749	113.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	701	705	70.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	656	700	42.0	+	.	
-ch.15835	RNASeq_splice	intron	608	685	15.0	+	.	
-ch.15835	RNASeq_splice	intron	612	655	181.0	+	.	
-ch.15835	WormBase	intron	608	655	.	+	.	Parent=Transcript:C06B3.6.1
-ch.15835	RNASeq_reads	transcript_region	608	655	5.0	.	.	
-ch.15835	RNASeq_splice	intron	608	655	613078.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	608	655	1.0	+	.	
-ch.15835	RNASeq_splice	intron	584	655	4.0	+	.	
-ch.15835	RNASeq_splice	intron	568	655	6.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	562	607	27.0	+	.	
-ch.15835	WormBase	CDS	431	607	.	+	.	ID=CDS:C06B3.6;Parent=Transcript:C06B3.6.1
-ch.15835	WormBase	exon	431	607	.	+	.	Parent=Transcript:C06B3.6.1
-ch.15835	RNASeq_reads	transcript_region	431	607	109.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	508	561	16.0	+	.	
-ch.15835	RNASeq_splice	intron	379	516	4.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	431	507	26.0	+	.	
-ch.15835	RNASeq_splice	intron	385	434	349.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	382	430	4.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	382	430	1.0	+	.	
-ch.15835	WormBase	intron	381	430	.	+	.	Parent=Transcript:C06B3.6.1
-ch.15835	RNASeq_splice	intron	381	430	585629.0	+	.	
-ch.15835	RNASeq_splice	intron	379	430	1382.0	+	.	
-ch.15835	RNASeq_splice	intron	321	430	3.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	381	381	13.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	381	381	2.0	-	.	
-ch.15835	RNASeq_stranded	transcript_region	358	380	17.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	294	380	107.0	.	.	
-ch.15835	WormBase	CDS	110	380	.	+	.	ID=CDS:C06B3.6;Parent=Transcript:C06B3.6.1
-ch.15835	WormBase	exon	101	380	.	+	.	Parent=Transcript:C06B3.6.1
-ch.15835	RNASeq_stranded	transcript_region	342	357	11.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	236	341	7.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	200	293	70.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	231	235	11.0	+	.	
-ch.15835	RNASeq_stranded	transcript_region	234	234	1.0	-	.	
-ch.15835	RNASeq_stranded	transcript_region	128	230	18.0	+	.	
-ch.15835	RNASeq_splice	intron	134	229	3.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	125	199	106.0	.	.	
-ch.15835	RNASeq_R_asymmetry	transcript_region	111	153	353433.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	111	127	11.0	+	.	
-ch.15835	RNASeq_reads	transcript_region	107	124	69.0	.	.	
-ch.15835	RNASeq_R_asymmetry	transcript_region	104	110	217733.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	100	110	7.0	+	.	
-ch.15835	WormBase	five_prime_UTR	101	109	.	+	.	Parent=Transcript:C06B3.6.1
-ch.15835	RNASeq_reads	transcript_region	103	106	44.0	.	.	
-ch.15835	RNASeq_R_asymmetry	transcript_region	99	103	136213.0	.	.	
-ch.15835	RNASeq_reads	transcript_region	99	102	29.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	99	99	4.0	-	.	
-ch.15835	RNASeq_R_asymmetry	transcript_region	96	98	68655.0	.	.	
-ch.15835	RNASeq_reads	transcript_region	95	98	17.0	.	.	
-ch.15835	RNASeq_stranded	transcript_region	95	98	2.0	+	.	
+ch.15835	RNASeq_R_asymmetry	transcript_region	2	6	27204.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	5	63	4.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	6	8	4.0	+	.	
+ch.15835	RNASeq	transcription_end_site	8	8	.	+	.	
+ch.15835	RNASeq_R_asymmetry	transcript_region	9	45	19463.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	9	45	2.0	+	.	
+ch.15835	RNASeq_reads	transcript_region	20	66	4.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	46	46	1.0	+	.	
+ch.15835	RNASeq_stranded	transcript_region	47	47	2.0	+	.	
+ch.15835	RNASeq_stranded	transcript_region	48	49	1.0	+	.	
+ch.15835	RNASeq_stranded	transcript_region	50	81	2.0	+	.	
+ch.15835	RNASeq	transcription_end_site	64	64	.	+	.	
+ch.15835	RNASeq_stranded	transcript_region	64	98	2.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	67	98	2.0	.	.	
+ch.15835	RNASeq	transcription_end_site	78	78	.	+	.	
+ch.15835	RNASeq_stranded	transcript_region	82	124	1.0	+	.	
+ch.15835	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.15835	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.15835	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.15835	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.15835	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.15835	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.15835	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.15835	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.15835	RNASeq_stranded	transcript_region	99	102	5.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	99	105	4.0	.	.	
+ch.15835	WormBase	three_prime_UTR	101	168	.	-	.	Parent=Transcript:C06B3.6.1
+ch.15835	WormBase	exon	101	383	.	-	.	Parent=Transcript:C06B3.6.1
+ch.15835	WormBase	gene	101	938	.	-	.	ID=Gene:WBGene00007365
+ch.15835	WormBase	mRNA	101	938	.	-	.	ID=Transcript:C06B3.6.1;Parent=Gene:WBGene00007365
+ch.15835	RNASeq_stranded	transcript_region	103	112	8.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	106	115	7.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	113	121	13.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	116	123	11.0	.	.	
+ch.15835	RNASeq	transcription_end_site	120	120	.	+	.	
+ch.15835	RNASeq	transcription_end_site	120	120	.	+	.	
+ch.15835	RNASeq	transcription_end_site	121	121	.	+	.	
+ch.15835	RNASeq	transcription_end_site	121	121	.	+	.	
+ch.15835	RNASeq_stranded	transcript_region	122	129	20.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	124	126	17.0	.	.	
+ch.15835	RNASeq_reads	transcript_region	127	135	26.0	.	.	
+ch.15835	RNASeq_F_asymmetry	transcript_region	130	133	130816.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	130	141	31.0	-	.	
+ch.15835	RNASeq_F_asymmetry	transcript_region	135	139	157250.0	.	.	
+ch.15835	RNASeq_reads	transcript_region	136	168	40.0	.	.	
+ch.15835	RNASeq_F_asymmetry	transcript_region	142	142	174912.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	142	154	48.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	144	186	1.0	+	.	
+ch.15835	RNASeq_stranded	transcript_region	155	176	75.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	169	204	61.0	.	.	
+ch.15835	WormBase	CDS	169	383	.	-	.	ID=CDS:C06B3.6;Parent=Transcript:C06B3.6.1
+ch.15835	RNASeq_stranded	transcript_region	177	234	113.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	188	192	1.0	+	.	
+ch.15835	RNASeq_reads	transcript_region	205	248	95.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	235	289	74.0	-	.	
+ch.15835	RNASeq_splice	intron	247	321	5.0	+	.	
+ch.15835	RNASeq_reads	transcript_region	249	383	145.0	.	.	
+ch.15835	RNASeq_splice	intron	285	327	3.0	+	.	
+ch.15835	RNASeq_stranded	transcript_region	290	333	113.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	334	338	70.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	339	383	42.0	-	.	
+ch.15835	RNASeq_splice	intron	354	431	15.0	-	.	
+ch.15835	RNASeq_splice	intron	384	427	181.0	-	.	
+ch.15835	WormBase	intron	384	431	.	-	.	Parent=Transcript:C06B3.6.1
+ch.15835	RNASeq_reads	transcript_region	384	431	5.0	.	.	
+ch.15835	RNASeq_splice	intron	384	431	613078.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	384	431	1.0	-	.	
+ch.15835	RNASeq_splice	intron	384	455	4.0	-	.	
+ch.15835	RNASeq_splice	intron	384	471	6.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	432	477	27.0	-	.	
+ch.15835	WormBase	CDS	432	608	.	-	.	ID=CDS:C06B3.6;Parent=Transcript:C06B3.6.1
+ch.15835	WormBase	exon	432	608	.	-	.	Parent=Transcript:C06B3.6.1
+ch.15835	RNASeq_reads	transcript_region	432	608	109.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	478	531	16.0	-	.	
+ch.15835	RNASeq_splice	intron	523	660	4.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	532	608	26.0	-	.	
+ch.15835	RNASeq_splice	intron	605	654	349.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	609	657	4.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	609	657	1.0	-	.	
+ch.15835	WormBase	intron	609	658	.	-	.	Parent=Transcript:C06B3.6.1
+ch.15835	RNASeq_splice	intron	609	658	585629.0	-	.	
+ch.15835	RNASeq_splice	intron	609	660	1382.0	-	.	
+ch.15835	RNASeq_splice	intron	609	718	3.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	658	658	13.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	658	658	2.0	+	.	
+ch.15835	RNASeq_stranded	transcript_region	659	681	17.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	659	745	107.0	.	.	
+ch.15835	WormBase	CDS	659	929	.	-	.	ID=CDS:C06B3.6;Parent=Transcript:C06B3.6.1
+ch.15835	WormBase	exon	659	938	.	-	.	Parent=Transcript:C06B3.6.1
+ch.15835	RNASeq_stranded	transcript_region	682	697	11.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	698	803	7.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	746	839	70.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	804	808	11.0	-	.	
+ch.15835	RNASeq_stranded	transcript_region	805	805	1.0	+	.	
+ch.15835	RNASeq_stranded	transcript_region	809	911	18.0	-	.	
+ch.15835	RNASeq_splice	intron	810	905	3.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	840	914	106.0	.	.	
+ch.15835	RNASeq_R_asymmetry	transcript_region	886	928	353433.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	912	928	11.0	-	.	
+ch.15835	RNASeq_reads	transcript_region	915	932	69.0	.	.	
+ch.15835	RNASeq_R_asymmetry	transcript_region	929	935	217733.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	929	939	7.0	-	.	
+ch.15835	WormBase	five_prime_UTR	930	938	.	-	.	Parent=Transcript:C06B3.6.1
+ch.15835	RNASeq_reads	transcript_region	933	936	44.0	.	.	
+ch.15835	RNASeq_R_asymmetry	transcript_region	936	940	136213.0	.	.	
+ch.15835	RNASeq_reads	transcript_region	937	940	29.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	940	940	4.0	+	.	
+ch.15835	RNASeq_R_asymmetry	transcript_region	941	943	68655.0	.	.	
+ch.15835	RNASeq_reads	transcript_region	941	944	17.0	.	.	
+ch.15835	RNASeq_stranded	transcript_region	941	944	2.0	-	.	

@@ -1,76 +1,76 @@
-ch.11381	RNASeq_stranded	transcript_region	645	695	8.0	-	.	
-ch.11381	RNASeq_splice	intron	550	676	3.0	-	.	
-ch.11381	RNASeq_reads	transcript_region	622	666	5.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	601	644	5.0	-	.	
-ch.11381	RNASeq	transcription_end_site	629	629	.	-	.	
-ch.11381	RNASeq	transcription_end_site	621	621	.	-	.	
-ch.11381	RNASeq	transcription_end_site	621	621	.	-	.	
-ch.11381	RNASeq_reads	transcript_region	616	621	9.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	616	621	6.0	+	.	
-ch.11381	RNASeq	transcription_end_site	620	620	.	-	.	
-ch.11381	WormBase	three_prime_UTR	540	619	.	+	.	Parent=Transcript:C08F8.9.1
-ch.11381	WormBase	exon	455	619	.	+	.	Parent=Transcript:C08F8.9.1
-ch.11381	WormBase	gene	101	619	.	+	.	ID=Gene:WBGene00007449
-ch.11381	WormBase	mRNA	101	619	.	+	.	ID=Transcript:C08F8.9.1;Parent=Gene:WBGene00007449
-ch.11381	WormBase	three_prime_UTR	455	617	.	-	.	Parent=Transcript:C08F8.7.1
-ch.11381	RNASeq_stranded	transcript_region	610	615	10.0	+	.	
-ch.11381	RNASeq_reads	transcript_region	587	615	15.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	599	609	18.0	+	.	
-ch.11381	RNASeq_stranded	transcript_region	560	600	3.0	-	.	
-ch.11381	RNASeq_stranded	transcript_region	586	598	28.0	+	.	
-ch.11381	RNASeq	transcription_end_site	597	597	.	-	.	
-ch.11381	RNASeq	transcription_end_site	596	596	.	-	.	
-ch.11381	RNASeq	transcription_end_site	596	596	.	-	.	
-ch.11381	RNASeq_reads	transcript_region	574	586	24.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	565	585	45.0	+	.	
-ch.11381	RNASeq_reads	transcript_region	561	573	37.0	.	.	
-ch.11381	RNASeq	transcription_end_site	569	569	.	-	.	
-ch.11381	RNASeq	transcription_end_site	569	569	.	-	.	
-ch.11381	RNASeq_stranded	transcript_region	535	564	69.0	+	.	
-ch.11381	RNASeq_F_asymmetry	transcript_region	527	560	303456.0	.	.	
-ch.11381	RNASeq_reads	transcript_region	527	560	72.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	493	559	1.0	-	.	
-ch.11381	WormBase	CDS	455	539	.	+	.	ID=CDS:C08F8.9;Parent=Transcript:C08F8.9.1
-ch.11381	RNASeq_stranded	transcript_region	463	534	104.0	+	.	
-ch.11381	RNASeq_reads	transcript_region	493	526	119.0	.	.	
-ch.11381	RNASeq_F_asymmetry	transcript_region	485	526	494702.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	463	492	2.0	-	.	
-ch.11381	RNASeq_reads	transcript_region	455	492	179.0	.	.	
-ch.11381	RNASeq_splice	intron	199	468	54.0	+	.	
-ch.11381	RNASeq_stranded	transcript_region	455	462	68.0	+	.	
-ch.11381	RNASeq_stranded	transcript_region	399	462	1.0	-	.	
-ch.11381	RNASeq_splice	intron	203	457	6.0	+	.	
-ch.11381	RNASeq_splice	intron	199	457	3.0	+	.	
-ch.11381	RNASeq_F_asymmetry	transcript_region	454	454	138833.0	.	.	
-ch.11381	RNASeq_reads	transcript_region	454	454	32.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	454	454	21.0	-	.	
-ch.11381	RNASeq_splice	intron	203	454	3.0	+	.	
-ch.11381	WormBase	intron	199	454	.	+	.	Parent=Transcript:C08F8.9.1
-ch.11381	RNASeq_splice	intron	199	454	679009.0	+	.	
-ch.11381	RNASeq	transcription_end_site	453	453	.	-	.	
-ch.11381	RNASeq_F_asymmetry	transcript_region	450	453	88182.0	.	.	
-ch.11381	RNASeq_reads	transcript_region	450	453	20.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	450	453	9.0	+	.	
-ch.11381	RNASeq_reads	transcript_region	301	449	1.0	.	.	
-ch.11381	RNASeq_splice	intron	190	446	48.0	-	.	
-ch.11381	RNASeq	transcription_end_site	412	412	.	-	.	
-ch.11381	RNASeq_stranded	transcript_region	397	397	1.0	-	.	
-ch.11381	RNASeq_stranded	transcript_region	311	390	1.0	-	.	
-ch.11381	RNASeq	transcription_end_site	366	366	.	-	.	
-ch.11381	RNASeq_reads	transcript_region	199	199	40.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	199	199	7.0	-	.	
-ch.11381	WormBase	CDS	116	198	.	+	.	ID=CDS:C08F8.9;Parent=Transcript:C08F8.9.1
-ch.11381	RNASeq_reads	transcript_region	112	198	175.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	102	198	43.0	+	.	
-ch.11381	WormBase	exon	101	198	.	+	.	Parent=Transcript:C08F8.9.1
-ch.11381	RNASeq_R_asymmetry	transcript_region	104	151	707814.0	.	.	
-ch.11381	WormBase	five_prime_UTR	101	115	.	+	.	Parent=Transcript:C08F8.9.1
-ch.11381	RNASeq_reads	transcript_region	102	111	115.0	.	.	
-ch.11381	RNASeq_R_asymmetry	transcript_region	102	103	442049.0	.	.	
-ch.11381	RNASeq_R_asymmetry	transcript_region	99	101	172773.0	.	.	
-ch.11381	RNASeq_reads	transcript_region	99	101	35.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	99	101	25.0	+	.	
-ch.11381	RNASeq_R_asymmetry	transcript_region	95	98	98209.0	.	.	
-ch.11381	RNASeq_reads	transcript_region	95	98	20.0	.	.	
-ch.11381	RNASeq_stranded	transcript_region	95	98	2.0	+	.	
-ch.11381	RNASeq_R_asymmetry	transcript_region	3	20	1416.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	25	75	8.0	+	.	
+ch.11381	RNASeq_splice	intron	44	170	3.0	+	.	
+ch.11381	RNASeq_reads	transcript_region	54	98	5.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	76	119	5.0	+	.	
+ch.11381	RNASeq	transcription_end_site	91	91	.	+	.	
+ch.11381	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.11381	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.11381	RNASeq_reads	transcript_region	99	104	9.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	99	104	6.0	-	.	
+ch.11381	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.11381	WormBase	three_prime_UTR	101	180	.	-	.	Parent=Transcript:C08F8.9.1
+ch.11381	WormBase	exon	101	265	.	-	.	Parent=Transcript:C08F8.9.1
+ch.11381	WormBase	gene	101	619	.	-	.	ID=Gene:WBGene00007449
+ch.11381	WormBase	mRNA	101	619	.	-	.	ID=Transcript:C08F8.9.1;Parent=Gene:WBGene00007449
+ch.11381	WormBase	three_prime_UTR	103	265	.	+	.	Parent=Transcript:C08F8.7.1
+ch.11381	RNASeq_stranded	transcript_region	105	110	10.0	-	.	
+ch.11381	RNASeq_reads	transcript_region	105	133	15.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	111	121	18.0	-	.	
+ch.11381	RNASeq_stranded	transcript_region	120	160	3.0	+	.	
+ch.11381	RNASeq_stranded	transcript_region	122	134	28.0	-	.	
+ch.11381	RNASeq	transcription_end_site	123	123	.	+	.	
+ch.11381	RNASeq	transcription_end_site	124	124	.	+	.	
+ch.11381	RNASeq	transcription_end_site	124	124	.	+	.	
+ch.11381	RNASeq_reads	transcript_region	134	146	24.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	135	155	45.0	-	.	
+ch.11381	RNASeq_reads	transcript_region	147	159	37.0	.	.	
+ch.11381	RNASeq	transcription_end_site	151	151	.	+	.	
+ch.11381	RNASeq	transcription_end_site	151	151	.	+	.	
+ch.11381	RNASeq_stranded	transcript_region	156	185	69.0	-	.	
+ch.11381	RNASeq_F_asymmetry	transcript_region	160	193	303456.0	.	.	
+ch.11381	RNASeq_reads	transcript_region	160	193	72.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	161	227	1.0	+	.	
+ch.11381	WormBase	CDS	181	265	.	-	.	ID=CDS:C08F8.9;Parent=Transcript:C08F8.9.1
+ch.11381	RNASeq_stranded	transcript_region	186	257	104.0	-	.	
+ch.11381	RNASeq_reads	transcript_region	194	227	119.0	.	.	
+ch.11381	RNASeq_F_asymmetry	transcript_region	194	235	494702.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	228	257	2.0	+	.	
+ch.11381	RNASeq_reads	transcript_region	228	265	179.0	.	.	
+ch.11381	RNASeq_splice	intron	252	521	54.0	-	.	
+ch.11381	RNASeq_stranded	transcript_region	258	265	68.0	-	.	
+ch.11381	RNASeq_stranded	transcript_region	258	321	1.0	+	.	
+ch.11381	RNASeq_splice	intron	263	517	6.0	-	.	
+ch.11381	RNASeq_splice	intron	263	521	3.0	-	.	
+ch.11381	RNASeq_F_asymmetry	transcript_region	266	266	138833.0	.	.	
+ch.11381	RNASeq_reads	transcript_region	266	266	32.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	266	266	21.0	+	.	
+ch.11381	RNASeq_splice	intron	266	517	3.0	-	.	
+ch.11381	WormBase	intron	266	521	.	-	.	Parent=Transcript:C08F8.9.1
+ch.11381	RNASeq_splice	intron	266	521	679009.0	-	.	
+ch.11381	RNASeq	transcription_end_site	267	267	.	+	.	
+ch.11381	RNASeq_F_asymmetry	transcript_region	267	270	88182.0	.	.	
+ch.11381	RNASeq_reads	transcript_region	267	270	20.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	267	270	9.0	-	.	
+ch.11381	RNASeq_reads	transcript_region	271	419	1.0	.	.	
+ch.11381	RNASeq_splice	intron	274	530	48.0	+	.	
+ch.11381	RNASeq	transcription_end_site	308	308	.	+	.	
+ch.11381	RNASeq_stranded	transcript_region	323	323	1.0	+	.	
+ch.11381	RNASeq_stranded	transcript_region	330	409	1.0	+	.	
+ch.11381	RNASeq	transcription_end_site	354	354	.	+	.	
+ch.11381	RNASeq_reads	transcript_region	521	521	40.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	521	521	7.0	+	.	
+ch.11381	WormBase	CDS	522	604	.	-	.	ID=CDS:C08F8.9;Parent=Transcript:C08F8.9.1
+ch.11381	RNASeq_reads	transcript_region	522	608	175.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	522	618	43.0	-	.	
+ch.11381	WormBase	exon	522	619	.	-	.	Parent=Transcript:C08F8.9.1
+ch.11381	RNASeq_R_asymmetry	transcript_region	569	616	707814.0	.	.	
+ch.11381	WormBase	five_prime_UTR	605	619	.	-	.	Parent=Transcript:C08F8.9.1
+ch.11381	RNASeq_reads	transcript_region	609	618	115.0	.	.	
+ch.11381	RNASeq_R_asymmetry	transcript_region	617	618	442049.0	.	.	
+ch.11381	RNASeq_R_asymmetry	transcript_region	619	621	172773.0	.	.	
+ch.11381	RNASeq_reads	transcript_region	619	621	35.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	619	621	25.0	-	.	
+ch.11381	RNASeq_R_asymmetry	transcript_region	622	625	98209.0	.	.	
+ch.11381	RNASeq_reads	transcript_region	622	625	20.0	.	.	
+ch.11381	RNASeq_stranded	transcript_region	622	625	2.0	-	.	
+ch.11381	RNASeq_R_asymmetry	transcript_region	700	717	1416.0	.	.	

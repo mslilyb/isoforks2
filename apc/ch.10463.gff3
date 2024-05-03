@@ -1,91 +1,91 @@
-ch.10463	RNASeq_stranded	transcript_region	875	894	1.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	829	882	13.0	-	.	
-ch.10463	RNASeq_reads	transcript_region	839	858	11.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	809	851	1.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	785	838	7.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	815	828	8.0	-	.	
-ch.10463	RNASeq_stranded	transcript_region	789	814	5.0	-	.	
-ch.10463	RNASeq_stranded	transcript_region	803	808	2.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	797	802	10.0	+	.	
-ch.10463	WormBase	three_prime_UTR	676	798	.	+	.	Parent=Transcript:B0496.7.1
-ch.10463	WormBase	exon	562	798	.	+	.	Parent=Transcript:B0496.7.1
-ch.10463	WormBase	gene	101	798	.	+	.	ID=Gene:WBGene00015216
-ch.10463	WormBase	mRNA	101	798	.	+	.	ID=Transcript:B0496.7.1;Parent=Gene:WBGene00015216
-ch.10463	RNASeq_stranded	transcript_region	794	796	16.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	782	793	25.0	+	.	
-ch.10463	RNASeq	transcription_end_site	789	789	.	-	.	
-ch.10463	RNASeq_stranded	transcript_region	720	788	3.0	-	.	
-ch.10463	RNASeq_reads	transcript_region	766	784	11.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	767	781	38.0	+	.	
-ch.10463	RNASeq	transcription_end_site	778	778	.	-	.	
-ch.10463	RNASeq	transcription_end_site	778	778	.	-	.	
-ch.10463	RNASeq_stranded	transcript_region	765	766	62.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	761	765	19.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	741	764	104.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	734	760	29.0	.	.	
-ch.10463	RNASeq	transcription_end_site	757	757	.	-	.	
-ch.10463	RNASeq	transcription_end_site	757	757	.	-	.	
-ch.10463	RNASeq_stranded	transcript_region	663	740	157.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	562	733	44.0	.	.	
-ch.10463	RNASeq	transcription_end_site	724	724	.	-	.	
-ch.10463	RNASeq	transcription_end_site	724	724	.	-	.	
-ch.10463	RNASeq_stranded	transcript_region	709	719	1.0	-	.	
-ch.10463	WormBase	CDS	562	675	.	+	.	ID=CDS:B0496.7;Parent=Transcript:B0496.7.1
-ch.10463	RNASeq	transcription_end_site	668	668	.	-	.	
-ch.10463	RNASeq	transcription_end_site	668	668	.	-	.	
-ch.10463	RNASeq_stranded	transcript_region	654	662	103.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	628	653	67.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	621	627	43.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	593	620	27.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	562	592	16.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	560	561	6.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	560	561	2.0	+	.	
-ch.10463	WormBase	intron	322	561	.	+	.	Parent=Transcript:B0496.7.1
-ch.10463	RNASeq_splice	intron	322	561	247863.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	291	321	12.0	+	.	
-ch.10463	WormBase	CDS	221	321	.	+	.	ID=CDS:B0496.7;Parent=Transcript:B0496.7.1
-ch.10463	WormBase	exon	221	321	.	+	.	Parent=Transcript:B0496.7.1
-ch.10463	RNASeq_reads	transcript_region	221	321	47.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	282	305	1.0	-	.	
-ch.10463	RNASeq_stranded	transcript_region	282	290	19.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	242	281	31.0	+	.	
-ch.10463	RNASeq_stranded	transcript_region	280	280	1.0	-	.	
-ch.10463	RNASeq_stranded	transcript_region	259	264	1.0	-	.	
-ch.10463	RNASeq_stranded	transcript_region	236	255	1.0	-	.	
-ch.10463	RNASeq_stranded	transcript_region	221	241	47.0	+	.	
-ch.10463	RNASeq_splice	intron	170	241	20.0	+	.	
-ch.10463	RNASeq	transcription_end_site	238	238	.	-	.	
-ch.10463	RNASeq	transcription_end_site	238	238	.	-	.	
-ch.10463	RNASeq_R_asymmetry	transcript_region	221	224	208920.0	.	.	
-ch.10463	RNASeq	transcription_end_site	222	222	.	-	.	
-ch.10463	RNASeq	transcription_end_site	222	222	.	-	.	
-ch.10463	RNASeq_reads	transcript_region	220	220	6.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	220	220	9.0	-	.	
-ch.10463	RNASeq_splice	intron	174	220	38.0	+	.	
-ch.10463	WormBase	intron	170	220	.	+	.	Parent=Transcript:B0496.7.1
-ch.10463	RNASeq_splice	intron	170	220	257520.0	+	.	
-ch.10463	WormBase	CDS	130	169	.	+	.	ID=CDS:B0496.7;Parent=Transcript:B0496.7.1
-ch.10463	RNASeq_stranded	transcript_region	127	169	40.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	121	169	48.0	.	.	
-ch.10463	RNASeq_R_asymmetry	transcript_region	113	169	197209.0	.	.	
-ch.10463	WormBase	exon	101	169	.	+	.	Parent=Transcript:B0496.7.1
-ch.10463	RNASeq_stranded	transcript_region	122	135	1.0	-	.	
-ch.10463	WormBase	five_prime_UTR	101	129	.	+	.	Parent=Transcript:B0496.7.1
-ch.10463	RNASeq_stranded	transcript_region	110	126	26.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	105	120	31.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	102	115	1.0	-	.	
-ch.10463	RNASeq_R_asymmetry	transcript_region	103	112	130019.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	96	109	16.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	97	104	19.0	.	.	
-ch.10463	RNASeq_R_asymmetry	transcript_region	97	102	85034.0	.	.	
-ch.10463	RNASeq_R_asymmetry	transcript_region	92	96	44993.0	.	.	
-ch.10463	RNASeq_reads	transcript_region	92	96	10.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	91	95	10.0	+	.	
-ch.10463	RNASeq_R_asymmetry	transcript_region	87	91	26214.0	.	.	
-ch.10463	RNASeq_reads	transcript_region	86	91	6.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	86	90	6.0	+	.	
-ch.10463	RNASeq_R_asymmetry	transcript_region	86	86	15551.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	82	85	2.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	66	85	3.0	.	.	
-ch.10463	RNASeq_stranded	transcript_region	54	81	1.0	+	.	
-ch.10463	RNASeq_reads	transcript_region	5	65	1.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	5	24	1.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	17	70	13.0	+	.	
+ch.10463	RNASeq_reads	transcript_region	41	60	11.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	48	90	1.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	61	114	7.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	71	84	8.0	+	.	
+ch.10463	RNASeq_stranded	transcript_region	85	110	5.0	+	.	
+ch.10463	RNASeq_stranded	transcript_region	91	96	2.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	97	102	10.0	-	.	
+ch.10463	WormBase	three_prime_UTR	101	223	.	-	.	Parent=Transcript:B0496.7.1
+ch.10463	WormBase	exon	101	337	.	-	.	Parent=Transcript:B0496.7.1
+ch.10463	WormBase	gene	101	798	.	-	.	ID=Gene:WBGene00015216
+ch.10463	WormBase	mRNA	101	798	.	-	.	ID=Transcript:B0496.7.1;Parent=Gene:WBGene00015216
+ch.10463	RNASeq_stranded	transcript_region	103	105	16.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	106	117	25.0	-	.	
+ch.10463	RNASeq	transcription_end_site	110	110	.	+	.	
+ch.10463	RNASeq_stranded	transcript_region	111	179	3.0	+	.	
+ch.10463	RNASeq_reads	transcript_region	115	133	11.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	118	132	38.0	-	.	
+ch.10463	RNASeq	transcription_end_site	121	121	.	+	.	
+ch.10463	RNASeq	transcription_end_site	121	121	.	+	.	
+ch.10463	RNASeq_stranded	transcript_region	133	134	62.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	134	138	19.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	135	158	104.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	139	165	29.0	.	.	
+ch.10463	RNASeq	transcription_end_site	142	142	.	+	.	
+ch.10463	RNASeq	transcription_end_site	142	142	.	+	.	
+ch.10463	RNASeq_stranded	transcript_region	159	236	157.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	166	337	44.0	.	.	
+ch.10463	RNASeq	transcription_end_site	175	175	.	+	.	
+ch.10463	RNASeq	transcription_end_site	175	175	.	+	.	
+ch.10463	RNASeq_stranded	transcript_region	180	190	1.0	+	.	
+ch.10463	WormBase	CDS	224	337	.	-	.	ID=CDS:B0496.7;Parent=Transcript:B0496.7.1
+ch.10463	RNASeq	transcription_end_site	231	231	.	+	.	
+ch.10463	RNASeq	transcription_end_site	231	231	.	+	.	
+ch.10463	RNASeq_stranded	transcript_region	237	245	103.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	246	271	67.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	272	278	43.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	279	306	27.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	307	337	16.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	338	339	6.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	338	339	2.0	-	.	
+ch.10463	WormBase	intron	338	577	.	-	.	Parent=Transcript:B0496.7.1
+ch.10463	RNASeq_splice	intron	338	577	247863.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	578	608	12.0	-	.	
+ch.10463	WormBase	CDS	578	678	.	-	.	ID=CDS:B0496.7;Parent=Transcript:B0496.7.1
+ch.10463	WormBase	exon	578	678	.	-	.	Parent=Transcript:B0496.7.1
+ch.10463	RNASeq_reads	transcript_region	578	678	47.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	594	617	1.0	+	.	
+ch.10463	RNASeq_stranded	transcript_region	609	617	19.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	618	657	31.0	-	.	
+ch.10463	RNASeq_stranded	transcript_region	619	619	1.0	+	.	
+ch.10463	RNASeq_stranded	transcript_region	635	640	1.0	+	.	
+ch.10463	RNASeq_stranded	transcript_region	644	663	1.0	+	.	
+ch.10463	RNASeq_stranded	transcript_region	658	678	47.0	-	.	
+ch.10463	RNASeq_splice	intron	658	729	20.0	-	.	
+ch.10463	RNASeq	transcription_end_site	661	661	.	+	.	
+ch.10463	RNASeq	transcription_end_site	661	661	.	+	.	
+ch.10463	RNASeq_R_asymmetry	transcript_region	675	678	208920.0	.	.	
+ch.10463	RNASeq	transcription_end_site	677	677	.	+	.	
+ch.10463	RNASeq	transcription_end_site	677	677	.	+	.	
+ch.10463	RNASeq_reads	transcript_region	679	679	6.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	679	679	9.0	+	.	
+ch.10463	RNASeq_splice	intron	679	725	38.0	-	.	
+ch.10463	WormBase	intron	679	729	.	-	.	Parent=Transcript:B0496.7.1
+ch.10463	RNASeq_splice	intron	679	729	257520.0	-	.	
+ch.10463	WormBase	CDS	730	769	.	-	.	ID=CDS:B0496.7;Parent=Transcript:B0496.7.1
+ch.10463	RNASeq_stranded	transcript_region	730	772	40.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	730	778	48.0	.	.	
+ch.10463	RNASeq_R_asymmetry	transcript_region	730	786	197209.0	.	.	
+ch.10463	WormBase	exon	730	798	.	-	.	Parent=Transcript:B0496.7.1
+ch.10463	RNASeq_stranded	transcript_region	764	777	1.0	+	.	
+ch.10463	WormBase	five_prime_UTR	770	798	.	-	.	Parent=Transcript:B0496.7.1
+ch.10463	RNASeq_stranded	transcript_region	773	789	26.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	779	794	31.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	784	797	1.0	+	.	
+ch.10463	RNASeq_R_asymmetry	transcript_region	787	796	130019.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	790	803	16.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	795	802	19.0	.	.	
+ch.10463	RNASeq_R_asymmetry	transcript_region	797	802	85034.0	.	.	
+ch.10463	RNASeq_R_asymmetry	transcript_region	803	807	44993.0	.	.	
+ch.10463	RNASeq_reads	transcript_region	803	807	10.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	804	808	10.0	-	.	
+ch.10463	RNASeq_R_asymmetry	transcript_region	808	812	26214.0	.	.	
+ch.10463	RNASeq_reads	transcript_region	808	813	6.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	809	813	6.0	-	.	
+ch.10463	RNASeq_R_asymmetry	transcript_region	813	813	15551.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	814	817	2.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	814	833	3.0	.	.	
+ch.10463	RNASeq_stranded	transcript_region	818	845	1.0	-	.	
+ch.10463	RNASeq_reads	transcript_region	834	894	1.0	.	.	

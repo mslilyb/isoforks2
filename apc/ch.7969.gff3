@@ -1,0 +1,70 @@
+ch.7969	RNASeq_stranded	transcript_region	29	100	1.0	+	.	
+ch.7969	WormBase	three_prime_UTR	62	150	.	+	.	Parent=Transcript:ZK688.1.1
+ch.7969	RNASeq_stranded	transcript_region	69	87	1.0	-	.	
+ch.7969	RNASeq_reads	transcript_region	85	145	2.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	88	139	2.0	-	.	
+ch.7969	RNASeq_stranded	transcript_region	101	101	2.0	+	.	
+ch.7969	WormBase	three_prime_UTR	101	154	.	-	.	Parent=Transcript:ZK688.7.1
+ch.7969	WormBase	exon	101	387	.	-	.	Parent=Transcript:ZK688.7.1
+ch.7969	WormBase	gene	101	937	.	-	.	ID=Gene:WBGene00022802
+ch.7969	WormBase	mRNA	101	937	.	-	.	ID=Transcript:ZK688.7.1;Parent=Gene:WBGene00022802
+ch.7969	RNASeq_stranded	transcript_region	102	166	1.0	+	.	
+ch.7969	RNASeq	transcription_end_site	119	119	.	+	.	
+ch.7969	RNASeq	transcription_end_site	136	136	.	+	.	
+ch.7969	RNASeq_stranded	transcript_region	140	151	4.0	-	.	
+ch.7969	RNASeq	transcription_end_site	146	146	.	+	.	
+ch.7969	RNASeq_reads	transcript_region	146	163	4.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	152	173	7.0	-	.	
+ch.7969	WormBase	CDS	155	387	.	-	.	ID=CDS:ZK688.7;Parent=Transcript:ZK688.7.1
+ch.7969	RNASeq_reads	transcript_region	164	173	7.0	.	.	
+ch.7969	RNASeq_F_asymmetry	transcript_region	165	166	34417.0	.	.	
+ch.7969	RNASeq_reads	transcript_region	174	185	11.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	174	194	11.0	-	.	
+ch.7969	RNASeq_F_asymmetry	transcript_region	181	192	54919.0	.	.	
+ch.7969	RNASeq_reads	transcript_region	186	219	17.0	.	.	
+ch.7969	RNASeq_F_asymmetry	transcript_region	193	212	82642.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	195	298	17.0	-	.	
+ch.7969	RNASeq_reads	transcript_region	220	387	26.0	.	.	
+ch.7969	RNASeq_splice	intron	234	283	4.0	-	.	
+ch.7969	RNASeq_stranded	transcript_region	299	384	11.0	-	.	
+ch.7969	RNASeq_splice	intron	384	491	226.0	-	.	
+ch.7969	RNASeq_stranded	transcript_region	385	387	7.0	-	.	
+ch.7969	RNASeq_reads	transcript_region	388	388	3.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	388	388	3.0	+	.	
+ch.7969	RNASeq_splice	intron	388	458	23.0	-	.	
+ch.7969	WormBase	intron	388	491	.	-	.	Parent=Transcript:ZK688.7.1
+ch.7969	RNASeq_splice	intron	388	491	127414.0	-	.	
+ch.7969	RNASeq_splice	intron	409	491	9.0	-	.	
+ch.7969	RNASeq_splice	intron	415	491	9.0	-	.	
+ch.7969	RNASeq_reads	transcript_region	491	491	5.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	491	491	2.0	+	.	
+ch.7969	RNASeq_stranded	transcript_region	492	511	6.0	-	.	
+ch.7969	WormBase	CDS	492	663	.	-	.	ID=CDS:ZK688.7;Parent=Transcript:ZK688.7.1
+ch.7969	WormBase	exon	492	663	.	-	.	Parent=Transcript:ZK688.7.1
+ch.7969	RNASeq_reads	transcript_region	492	663	25.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	512	584	10.0	-	.	
+ch.7969	RNASeq_stranded	transcript_region	585	635	17.0	-	.	
+ch.7969	RNASeq_R_asymmetry	transcript_region	625	663	136243.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	636	663	9.0	-	.	
+ch.7969	RNASeq_reads	transcript_region	664	664	2.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	664	664	1.0	+	.	
+ch.7969	WormBase	intron	664	884	.	-	.	Parent=Transcript:ZK688.7.1
+ch.7969	RNASeq_splice	intron	664	884	130320.0	-	.	
+ch.7969	RNASeq_stranded	transcript_region	885	904	6.0	-	.	
+ch.7969	WormBase	CDS	885	923	.	-	.	ID=CDS:ZK688.7;Parent=Transcript:ZK688.7.1
+ch.7969	RNASeq_reads	transcript_region	885	924	23.0	.	.	
+ch.7969	RNASeq_R_asymmetry	transcript_region	885	925	104590.0	.	.	
+ch.7969	WormBase	exon	885	937	.	-	.	Parent=Transcript:ZK688.7.1
+ch.7969	RNASeq_splice	intron	899	946	14.0	-	.	
+ch.7969	RNASeq_stranded	transcript_region	905	929	10.0	-	.	
+ch.7969	WormBase	five_prime_UTR	924	937	.	-	.	Parent=Transcript:ZK688.7.1
+ch.7969	RNASeq_reads	transcript_region	925	929	15.0	.	.	
+ch.7969	RNASeq_R_asymmetry	transcript_region	926	929	67690.0	.	.	
+ch.7969	RNASeq_R_asymmetry	transcript_region	930	933	38673.0	.	.	
+ch.7969	RNASeq_reads	transcript_region	930	933	8.0	.	.	
+ch.7969	RNASeq_stranded	transcript_region	930	933	6.0	-	.	
+ch.7969	RNASeq_splice	intron	932	997	115.0	-	.	
+ch.7969	RNASeq_R_asymmetry	transcript_region	934	937	21385.0	.	.	
+ch.7969	RNASeq_reads	transcript_region	934	937	4.0	.	.	
+ch.7969	RNASeq_R_asymmetry	transcript_region	992	1010	1384.0	.	.	
+ch.7969	RNASeq_R_asymmetry	transcript_region	1012	1021	1343.0	.	.	

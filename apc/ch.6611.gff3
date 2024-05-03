@@ -1,76 +1,76 @@
-ch.6611	RNASeq	transcription_end_site	475	475	.	-	.	
-ch.6611	RNASeq	transcription_end_site	475	475	.	-	.	
-ch.6611	RNASeq	transcription_end_site	468	468	.	-	.	
-ch.6611	RNASeq	transcription_end_site	466	466	.	-	.	
-ch.6611	RNASeq	transcription_end_site	466	466	.	-	.	
-ch.6611	RNASeq_reads	transcript_region	464	466	2.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	464	466	3.0	+	.	
-ch.6611	RNASeq_stranded	transcript_region	462	466	2.0	-	.	
-ch.6611	RNASeq_F_asymmetry	transcript_region	464	464	10181.0	.	.	
-ch.6611	RNASeq_F_asymmetry	transcript_region	462	463	18660.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	462	463	4.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	462	463	5.0	+	.	
-ch.6611	WormBase	three_prime_UTR	426	463	.	+	.	Parent=Transcript:T12B5.15.1
-ch.6611	WormBase	exon	207	463	.	+	.	Parent=Transcript:T12B5.15.1
-ch.6611	WormBase	gene	101	463	.	+	.	ID=Gene:WBGene00050914
-ch.6611	WormBase	mRNA	101	463	.	+	.	ID=Transcript:T12B5.15.1;Parent=Gene:WBGene00050914
-ch.6611	RNASeq	transcription_end_site	461	461	.	-	.	
-ch.6611	RNASeq	transcription_end_site	461	461	.	-	.	
-ch.6611	RNASeq_F_asymmetry	transcript_region	460	461	36754.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	460	461	8.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	460	461	8.0	+	.	
-ch.6611	RNASeq_stranded	transcript_region	373	461	4.0	-	.	
-ch.6611	RNASeq_stranded	transcript_region	452	459	20.0	+	.	
-ch.6611	RNASeq_reads	transcript_region	446	459	13.0	.	.	
-ch.6611	RNASeq_F_asymmetry	transcript_region	443	459	55782.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	440	451	32.0	+	.	
-ch.6611	RNASeq_reads	transcript_region	418	445	20.0	.	.	
-ch.6611	RNASeq_F_asymmetry	transcript_region	442	442	83683.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	425	439	50.0	+	.	
-ch.6611	WormBase	CDS	207	425	.	+	.	ID=CDS:T12B5.15;Parent=Transcript:T12B5.15.1
-ch.6611	RNASeq_stranded	transcript_region	415	424	76.0	+	.	
-ch.6611	RNASeq_reads	transcript_region	404	417	32.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	313	414	118.0	+	.	
-ch.6611	RNASeq_reads	transcript_region	377	403	49.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	207	376	74.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	372	372	2.0	-	.	
-ch.6611	RNASeq_stranded	transcript_region	369	371	1.0	-	.	
-ch.6611	RNASeq_splice	intron	313	360	47.0	+	.	
-ch.6611	RNASeq_stranded	transcript_region	299	312	77.0	+	.	
-ch.6611	RNASeq_splice	intron	265	310	343.0	+	.	
-ch.6611	RNASeq_stranded	transcript_region	266	304	1.0	-	.	
-ch.6611	RNASeq_stranded	transcript_region	226	298	48.0	+	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	207	235	240881.0	.	.	
-ch.6611	RNASeq_splice	intron	151	234	20.0	+	.	
-ch.6611	RNASeq_stranded	transcript_region	207	225	31.0	+	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	206	206	39355.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	206	206	9.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	206	206	5.0	-	.	
-ch.6611	WormBase	intron	151	206	.	+	.	Parent=Transcript:T12B5.15.1
-ch.6611	RNASeq_splice	intron	151	206	259185.0	+	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	202	205	1276.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	152	154	447.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	151	151	4124.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	151	151	1.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	151	151	1.0	-	.	
-ch.6611	WormBase	CDS	133	150	.	+	.	ID=CDS:T12B5.15;Parent=Transcript:T12B5.15.1
-ch.6611	RNASeq_R_asymmetry	transcript_region	128	150	199467.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	128	150	41.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	119	150	22.0	+	.	
-ch.6611	WormBase	exon	101	150	.	+	.	Parent=Transcript:T12B5.15.1
-ch.6611	WormBase	five_prime_UTR	101	132	.	+	.	Parent=Transcript:T12B5.15.1
-ch.6611	RNASeq_R_asymmetry	transcript_region	120	127	119279.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	120	127	24.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	117	119	70660.0	.	.	
-ch.6611	RNASeq_reads	transcript_region	117	119	14.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	117	118	14.0	+	.	
-ch.6611	RNASeq_reads	transcript_region	115	116	4.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	114	116	16247.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	114	116	7.0	+	.	
-ch.6611	RNASeq_reads	transcript_region	113	114	2.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	110	113	7217.0	.	.	
-ch.6611	RNASeq_stranded	transcript_region	109	113	1.0	+	.	
-ch.6611	RNASeq_reads	transcript_region	102	112	1.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	104	109	4362.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	102	103	2805.0	.	.	
-ch.6611	RNASeq_R_asymmetry	transcript_region	101	101	360.0	.	.	
+ch.6611	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.6611	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.6611	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.6611	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.6611	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.6611	RNASeq_reads	transcript_region	98	100	2.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	98	100	3.0	-	.	
+ch.6611	RNASeq_stranded	transcript_region	98	102	2.0	+	.	
+ch.6611	RNASeq_F_asymmetry	transcript_region	100	100	10181.0	.	.	
+ch.6611	RNASeq_F_asymmetry	transcript_region	101	102	18660.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	101	102	4.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	101	102	5.0	-	.	
+ch.6611	WormBase	three_prime_UTR	101	138	.	-	.	Parent=Transcript:T12B5.15.1
+ch.6611	WormBase	exon	101	357	.	-	.	Parent=Transcript:T12B5.15.1
+ch.6611	WormBase	gene	101	463	.	-	.	ID=Gene:WBGene00050914
+ch.6611	WormBase	mRNA	101	463	.	-	.	ID=Transcript:T12B5.15.1;Parent=Gene:WBGene00050914
+ch.6611	RNASeq	transcription_end_site	103	103	.	+	.	
+ch.6611	RNASeq	transcription_end_site	103	103	.	+	.	
+ch.6611	RNASeq_F_asymmetry	transcript_region	103	104	36754.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	103	104	8.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	103	104	8.0	-	.	
+ch.6611	RNASeq_stranded	transcript_region	103	191	4.0	+	.	
+ch.6611	RNASeq_stranded	transcript_region	105	112	20.0	-	.	
+ch.6611	RNASeq_reads	transcript_region	105	118	13.0	.	.	
+ch.6611	RNASeq_F_asymmetry	transcript_region	105	121	55782.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	113	124	32.0	-	.	
+ch.6611	RNASeq_reads	transcript_region	119	146	20.0	.	.	
+ch.6611	RNASeq_F_asymmetry	transcript_region	122	122	83683.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	125	139	50.0	-	.	
+ch.6611	WormBase	CDS	139	357	.	-	.	ID=CDS:T12B5.15;Parent=Transcript:T12B5.15.1
+ch.6611	RNASeq_stranded	transcript_region	140	149	76.0	-	.	
+ch.6611	RNASeq_reads	transcript_region	147	160	32.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	150	251	118.0	-	.	
+ch.6611	RNASeq_reads	transcript_region	161	187	49.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	188	357	74.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	192	192	2.0	+	.	
+ch.6611	RNASeq_stranded	transcript_region	193	195	1.0	+	.	
+ch.6611	RNASeq_splice	intron	204	251	47.0	-	.	
+ch.6611	RNASeq_stranded	transcript_region	252	265	77.0	-	.	
+ch.6611	RNASeq_splice	intron	254	299	343.0	-	.	
+ch.6611	RNASeq_stranded	transcript_region	260	298	1.0	+	.	
+ch.6611	RNASeq_stranded	transcript_region	266	338	48.0	-	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	329	357	240881.0	.	.	
+ch.6611	RNASeq_splice	intron	330	413	20.0	-	.	
+ch.6611	RNASeq_stranded	transcript_region	339	357	31.0	-	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	358	358	39355.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	358	358	9.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	358	358	5.0	+	.	
+ch.6611	WormBase	intron	358	413	.	-	.	Parent=Transcript:T12B5.15.1
+ch.6611	RNASeq_splice	intron	358	413	259185.0	-	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	359	362	1276.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	410	412	447.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	413	413	4124.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	413	413	1.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	413	413	1.0	+	.	
+ch.6611	WormBase	CDS	414	431	.	-	.	ID=CDS:T12B5.15;Parent=Transcript:T12B5.15.1
+ch.6611	RNASeq_R_asymmetry	transcript_region	414	436	199467.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	414	436	41.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	414	445	22.0	-	.	
+ch.6611	WormBase	exon	414	463	.	-	.	Parent=Transcript:T12B5.15.1
+ch.6611	WormBase	five_prime_UTR	432	463	.	-	.	Parent=Transcript:T12B5.15.1
+ch.6611	RNASeq_R_asymmetry	transcript_region	437	444	119279.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	437	444	24.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	445	447	70660.0	.	.	
+ch.6611	RNASeq_reads	transcript_region	445	447	14.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	446	447	14.0	-	.	
+ch.6611	RNASeq_reads	transcript_region	448	449	4.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	448	450	16247.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	448	450	7.0	-	.	
+ch.6611	RNASeq_reads	transcript_region	450	451	2.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	451	454	7217.0	.	.	
+ch.6611	RNASeq_stranded	transcript_region	451	455	1.0	-	.	
+ch.6611	RNASeq_reads	transcript_region	452	462	1.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	455	460	4362.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	461	462	2805.0	.	.	
+ch.6611	RNASeq_R_asymmetry	transcript_region	463	463	360.0	.	.	

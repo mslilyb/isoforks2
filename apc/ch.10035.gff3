@@ -1,0 +1,81 @@
+ch.10035	WormBase	three_prime_UTR	101	165	.	-	.	Parent=Transcript:Y59E9AL.6.1
+ch.10035	WormBase	exon	101	195	.	-	.	Parent=Transcript:Y59E9AL.6.1
+ch.10035	WormBase	gene	101	979	.	-	.	ID=Gene:WBGene00021996
+ch.10035	WormBase	mRNA	101	979	.	-	.	ID=Transcript:Y59E9AL.6.1;Parent=Gene:WBGene00021996
+ch.10035	RNASeq_reads	transcript_region	103	105	1.0	.	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	106	120	13156.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	106	120	3.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	110	120	1.0	-	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	121	136	19773.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	121	138	5.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	121	156	2.0	-	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	137	152	31858.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	139	154	8.0	.	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	153	163	48718.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	155	170	13.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	157	167	4.0	-	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	164	185	77581.0	.	.	
+ch.10035	WormBase	CDS	166	195	.	-	.	ID=CDS:Y59E9AL.6;Parent=Transcript:Y59E9AL.6.1
+ch.10035	RNASeq_stranded	transcript_region	168	195	8.0	-	.	
+ch.10035	RNASeq_reads	transcript_region	171	195	20.0	.	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	186	195	119344.0	.	.	
+ch.10035	RNASeq_splice	intron	193	251	6.0	-	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	196	232	1074.0	.	.	
+ch.10035	WormBase	intron	196	251	.	-	.	Parent=Transcript:Y59E9AL.6.1
+ch.10035	RNASeq_splice	intron	196	251	148999.0	-	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	235	235	1176.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	248	250	4.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	248	250	1.0	-	.	
+ch.10035	RNASeq_reads	transcript_region	251	251	7.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	251	251	2.0	+	.	
+ch.10035	RNASeq_F_asymmetry	transcript_region	252	262	132434.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	252	263	9.0	-	.	
+ch.10035	RNASeq_reads	transcript_region	252	314	31.0	.	.	
+ch.10035	WormBase	CDS	252	774	.	-	.	ID=CDS:Y59E9AL.6;Parent=Transcript:Y59E9AL.6.1
+ch.10035	WormBase	exon	252	774	.	-	.	Parent=Transcript:Y59E9AL.6.1
+ch.10035	RNASeq_stranded	transcript_region	264	417	14.0	-	.	
+ch.10035	RNASeq_reads	transcript_region	315	774	47.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	418	569	23.0	-	.	
+ch.10035	RNASeq_splice	intron	532	615	4.0	+	.	
+ch.10035	RNASeq_splice	intron	545	646	6.0	-	.	
+ch.10035	RNASeq_stranded	transcript_region	570	624	15.0	-	.	
+ch.10035	RNASeq_stranded	transcript_region	594	638	1.0	+	.	
+ch.10035	RNASeq_splice	intron	617	646	6.0	-	.	
+ch.10035	RNASeq_splice	intron	620	646	3.0	-	.	
+ch.10035	RNASeq_stranded	transcript_region	625	665	23.0	-	.	
+ch.10035	RNASeq_stranded	transcript_region	666	674	15.0	-	.	
+ch.10035	RNASeq_stranded	transcript_region	675	732	8.0	-	.	
+ch.10035	RNASeq_stranded	transcript_region	733	774	13.0	-	.	
+ch.10035	WormBase	intron	775	823	.	-	.	Parent=Transcript:Y59E9AL.6.1
+ch.10035	RNASeq_splice	intron	775	823	209894.0	-	.	
+ch.10035	RNASeq_splice	intron	788	823	16.0	-	.	
+ch.10035	RNASeq_stranded	transcript_region	824	874	12.0	-	.	
+ch.10035	WormBase	CDS	824	915	.	-	.	ID=CDS:Y59E9AL.6;Parent=Transcript:Y59E9AL.6.1
+ch.10035	RNASeq_reads	transcript_region	824	932	38.0	.	.	
+ch.10035	WormBase	exon	824	979	.	-	.	Parent=Transcript:Y59E9AL.6.1
+ch.10035	RNASeq_stranded	transcript_region	875	902	7.0	-	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	892	942	149547.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	903	928	11.0	-	.	
+ch.10035	WormBase	five_prime_UTR	916	979	.	-	.	Parent=Transcript:Y59E9AL.6.1
+ch.10035	RNASeq_stranded	transcript_region	929	950	7.0	-	.	
+ch.10035	RNASeq_reads	transcript_region	933	950	25.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	943	952	96707.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	951	951	4.0	+	.	
+ch.10035	RNASeq_reads	transcript_region	951	959	14.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	952	953	2.0	-	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	953	959	63602.0	.	.	
+ch.10035	RNASeq_stranded	transcript_region	954	964	1.0	-	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	960	964	41655.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	960	964	8.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	965	966	17404.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	965	966	4.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	967	975	10861.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	967	975	2.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	976	976	4982.0	.	.	
+ch.10035	RNASeq_reads	transcript_region	976	979	1.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	977	980	2733.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	981	1018	1370.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	1019	1056	864.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	1057	1062	517.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	1063	1063	341.0	.	.	
+ch.10035	RNASeq_R_asymmetry	transcript_region	1065	1066	324.0	.	.	

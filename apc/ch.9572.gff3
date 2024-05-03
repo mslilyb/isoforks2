@@ -1,0 +1,130 @@
+ch.9572	RNASeq_stranded	transcript_region	4	34	1.0	-	.	
+ch.9572	RNASeq_reads	transcript_region	25	99	2.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	35	98	2.0	-	.	
+ch.9572	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.9572	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.9572	RNASeq_stranded	transcript_region	99	100	4.0	-	.	
+ch.9572	RNASeq_reads	transcript_region	100	100	5.0	.	.	
+ch.9572	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.9572	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.9572	RNASeq_F_asymmetry	transcript_region	101	102	38689.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	101	103	10.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	101	103	10.0	-	.	
+ch.9572	WormBase	three_prime_UTR	101	294	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	WormBase	exon	101	461	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	WormBase	gene	101	1005	.	-	.	ID=Gene:WBGene00021888
+ch.9572	WormBase	mRNA	101	1005	.	-	.	ID=Transcript:Y54G2A.23.1;Parent=Gene:WBGene00021888
+ch.9572	RNASeq_F_asymmetry	transcript_region	103	105	64571.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	103	122	1.0	+	.	
+ch.9572	RNASeq_reads	transcript_region	104	107	18.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	104	109	16.0	-	.	
+ch.9572	RNASeq_F_asymmetry	transcript_region	106	113	101641.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	108	118	29.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	110	121	25.0	-	.	
+ch.9572	RNASeq_F_asymmetry	transcript_region	114	127	176035.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	119	133	44.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	122	170	38.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	123	130	2.0	+	.	
+ch.9572	RNASeq_F_asymmetry	transcript_region	128	171	264387.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	131	173	4.0	+	.	
+ch.9572	RNASeq_reads	transcript_region	134	174	69.0	.	.	
+ch.9572	RNASeq_splice	intron	157	372	3.0	+	.	
+ch.9572	RNASeq	transcription_end_site	168	168	.	+	.	
+ch.9572	RNASeq	transcription_end_site	168	168	.	+	.	
+ch.9572	RNASeq	transcription_end_site	169	169	.	+	.	
+ch.9572	RNASeq_stranded	transcript_region	171	223	60.0	-	.	
+ch.9572	RNASeq_F_asymmetry	transcript_region	172	177	396700.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	174	219	7.0	+	.	
+ch.9572	RNASeq_reads	transcript_region	175	224	104.0	.	.	
+ch.9572	RNASeq_F_asymmetry	transcript_region	178	204	627566.0	.	.	
+ch.9572	RNASeq	transcription_end_site	204	204	.	+	.	
+ch.9572	RNASeq	transcription_end_site	204	204	.	+	.	
+ch.9572	RNASeq	transcription_end_site	211	211	.	+	.	
+ch.9572	RNASeq	transcription_end_site	211	211	.	+	.	
+ch.9572	RNASeq_stranded	transcript_region	220	223	4.0	+	.	
+ch.9572	RNASeq_stranded	transcript_region	224	224	2.0	+	.	
+ch.9572	RNASeq_stranded	transcript_region	224	235	100.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	225	278	1.0	+	.	
+ch.9572	RNASeq_reads	transcript_region	225	327	168.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	236	274	151.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	275	461	48.0	-	.	
+ch.9572	WormBase	CDS	295	461	.	-	.	ID=CDS:Y54G2A.23;Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_stranded	transcript_region	310	382	1.0	+	.	
+ch.9572	RNASeq_reads	transcript_region	328	461	255.0	.	.	
+ch.9572	RNASeq_splice	intron	331	622	5.0	-	.	
+ch.9572	RNASeq_splice	intron	349	622	5.0	-	.	
+ch.9572	RNASeq_splice	intron	349	793	4.0	-	.	
+ch.9572	RNASeq_splice	intron	354	756	7.0	+	.	
+ch.9572	RNASeq_splice	intron	356	403	6.0	+	.	
+ch.9572	RNASeq_splice	intron	358	417	24.0	-	.	
+ch.9572	RNASeq_splice	intron	379	417	6.0	-	.	
+ch.9572	RNASeq_splice	intron	379	622	4.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	383	433	2.0	+	.	
+ch.9572	RNASeq_splice	intron	394	764	6.0	+	.	
+ch.9572	RNASeq_stranded	transcript_region	434	462	1.0	+	.	
+ch.9572	RNASeq_splice	intron	457	524	7.0	-	.	
+ch.9572	RNASeq_splice	intron	457	528	147.0	-	.	
+ch.9572	RNASeq_reads	transcript_region	462	462	46.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	462	462	10.0	+	.	
+ch.9572	RNASeq_splice	intron	462	524	6.0	-	.	
+ch.9572	WormBase	intron	462	528	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_splice	intron	462	528	1494570.0	-	.	
+ch.9572	RNASeq_splice	intron	462	543	76.0	-	.	
+ch.9572	RNASeq_splice	intron	462	583	4.0	-	.	
+ch.9572	RNASeq_splice	intron	462	932	4.0	-	.	
+ch.9572	RNASeq_reads	transcript_region	463	474	3.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	463	474	1.0	-	.	
+ch.9572	RNASeq_reads	transcript_region	475	494	1.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	494	528	1.0	-	.	
+ch.9572	RNASeq_reads	transcript_region	495	497	2.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	498	499	1.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	500	528	2.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	529	546	42.0	-	.	
+ch.9572	WormBase	CDS	529	673	.	-	.	ID=CDS:Y54G2A.23;Parent=Transcript:Y54G2A.23.1
+ch.9572	WormBase	exon	529	673	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_reads	transcript_region	529	673	299.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	541	546	1.0	+	.	
+ch.9572	RNASeq_stranded	transcript_region	547	565	64.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	550	607	1.0	+	.	
+ch.9572	RNASeq_stranded	transcript_region	566	600	99.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	601	673	65.0	-	.	
+ch.9572	WormBase	intron	674	745	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_reads	transcript_region	674	745	1.0	.	.	
+ch.9572	RNASeq_splice	intron	674	745	1555610.0	-	.	
+ch.9572	RNASeq_splice	intron	674	777	198.0	-	.	
+ch.9572	RNASeq_splice	intron	674	793	3.0	-	.	
+ch.9572	RNASeq_splice	intron	674	932	31.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	746	841	51.0	-	.	
+ch.9572	WormBase	CDS	746	870	.	-	.	ID=CDS:Y54G2A.23;Parent=Transcript:Y54G2A.23.1
+ch.9572	WormBase	exon	746	870	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_reads	transcript_region	746	870	260.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	754	853	2.0	+	.	
+ch.9572	RNASeq_splice	intron	789	842	8.0	+	.	
+ch.9572	RNASeq_splice	intron	812	932	35.0	-	.	
+ch.9572	RNASeq_splice	intron	815	975	8.0	+	.	
+ch.9572	RNASeq_stranded	transcript_region	842	870	78.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	854	860	1.0	+	.	
+ch.9572	RNASeq_reads	transcript_region	871	872	24.0	.	.	
+ch.9572	RNASeq_stranded	transcript_region	871	872	8.0	-	.	
+ch.9572	WormBase	intron	871	932	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_splice	intron	871	932	1228130.0	-	.	
+ch.9572	RNASeq_splice	intron	871	938	91.0	-	.	
+ch.9572	RNASeq_reads	transcript_region	873	879	1.0	.	.	
+ch.9572	RNASeq_R_asymmetry	transcript_region	932	932	4549.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	932	932	1.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	933	997	227.0	.	.	
+ch.9572	RNASeq_R_asymmetry	transcript_region	933	998	913277.0	.	.	
+ch.9572	WormBase	CDS	933	1002	.	-	.	ID=CDS:Y54G2A.23;Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_stranded	transcript_region	933	1004	56.0	-	.	
+ch.9572	WormBase	exon	933	1005	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_reads	transcript_region	998	1001	138.0	.	.	
+ch.9572	RNASeq_R_asymmetry	transcript_region	999	1005	561853.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	1002	1007	91.0	.	.	
+ch.9572	WormBase	five_prime_UTR	1003	1005	.	-	.	Parent=Transcript:Y54G2A.23.1
+ch.9572	RNASeq_splice	intron	1003	1085	15.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	1005	1007	34.0	-	.	
+ch.9572	RNASeq_R_asymmetry	transcript_region	1006	1007	347748.0	.	.	
+ch.9572	RNASeq_splice	intron	1006	1085	1048.0	-	.	
+ch.9572	RNASeq_stranded	transcript_region	1008	1008	1.0	+	.	
+ch.9572	RNASeq_reads	transcript_region	1008	1053	1.0	.	.	
+ch.9572	RNASeq_reads	transcript_region	1086	1100	1.0	.	.	

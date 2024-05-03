@@ -1,50 +1,50 @@
-ch.9726	RNASeq_stranded	transcript_region	475	476	1.0	+	.	
-ch.9726	RNASeq_stranded	transcript_region	470	474	2.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	459	473	1.0	.	.	
-ch.9726	WormBase	three_prime_UTR	403	473	.	+	.	Parent=Transcript:F56D6.8.1
-ch.9726	WormBase	exon	314	473	.	+	.	Parent=Transcript:F56D6.8.1
-ch.9726	WormBase	gene	101	473	.	+	.	ID=Gene:WBGene00044292
-ch.9726	WormBase	mRNA	101	473	.	+	.	ID=Transcript:F56D6.8.1;Parent=Gene:WBGene00044292
-ch.9726	RNASeq_stranded	transcript_region	452	469	4.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	447	458	2.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	440	451	7.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	438	446	4.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	421	439	11.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	409	437	7.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	314	420	17.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	396	408	11.0	.	.	
-ch.9726	WormBase	CDS	314	402	.	+	.	ID=CDS:F56D6.8;Parent=Transcript:F56D6.8.1
-ch.9726	RNASeq_reads	transcript_region	381	395	17.0	.	.	
-ch.9726	RNASeq_reads	transcript_region	314	380	28.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	314	354	1.0	-	.	
-ch.9726	RNASeq_reads	transcript_region	295	313	1.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	278	313	1.0	+	.	
-ch.9726	WormBase	intron	270	313	.	+	.	Parent=Transcript:F56D6.8.1
-ch.9726	RNASeq_splice	intron	270	313	203802.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	273	292	1.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	270	277	2.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	270	272	15.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	265	269	12.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	166	269	47.0	.	.	
-ch.9726	WormBase	CDS	158	269	.	+	.	ID=CDS:F56D6.8;Parent=Transcript:F56D6.8.1
-ch.9726	WormBase	exon	101	269	.	+	.	Parent=Transcript:F56D6.8.1
-ch.9726	RNASeq_stranded	transcript_region	186	264	19.0	+	.	
-ch.9726	RNASeq_R_asymmetry	transcript_region	170	205	207336.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	172	185	12.0	+	.	
-ch.9726	RNASeq_stranded	transcript_region	159	171	7.0	+	.	
-ch.9726	RNASeq_R_asymmetry	transcript_region	161	169	134918.0	.	.	
-ch.9726	RNASeq_reads	transcript_region	160	165	31.0	.	.	
-ch.9726	RNASeq_reads	transcript_region	157	159	18.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	156	158	4.0	+	.	
-ch.9726	WormBase	five_prime_UTR	101	157	.	+	.	Parent=Transcript:F56D6.8.1
-ch.9726	RNASeq_R_asymmetry	transcript_region	156	156	38401.0	.	.	
-ch.9726	RNASeq_reads	transcript_region	156	156	10.0	.	.	
-ch.9726	RNASeq_R_asymmetry	transcript_region	155	155	11370.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	155	155	2.0	-	.	
-ch.9726	RNASeq_reads	transcript_region	154	155	3.0	.	.	
-ch.9726	RNASeq_R_asymmetry	transcript_region	152	154	6297.0	.	.	
-ch.9726	RNASeq_stranded	transcript_region	152	154	1.0	+	.	
-ch.9726	RNASeq_reads	transcript_region	145	153	1.0	.	.	
-ch.9726	RNASeq_R_asymmetry	transcript_region	151	151	3707.0	.	.	
-ch.9726	RNASeq_R_asymmetry	transcript_region	145	148	3239.0	.	.	
-ch.9726	RNASeq_R_asymmetry	transcript_region	131	142	1874.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	98	99	1.0	-	.	
+ch.9726	RNASeq_stranded	transcript_region	100	104	2.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	101	115	1.0	.	.	
+ch.9726	WormBase	three_prime_UTR	101	171	.	-	.	Parent=Transcript:F56D6.8.1
+ch.9726	WormBase	exon	101	260	.	-	.	Parent=Transcript:F56D6.8.1
+ch.9726	WormBase	gene	101	473	.	-	.	ID=Gene:WBGene00044292
+ch.9726	WormBase	mRNA	101	473	.	-	.	ID=Transcript:F56D6.8.1;Parent=Gene:WBGene00044292
+ch.9726	RNASeq_stranded	transcript_region	105	122	4.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	116	127	2.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	123	134	7.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	128	136	4.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	135	153	11.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	137	165	7.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	154	260	17.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	166	178	11.0	.	.	
+ch.9726	WormBase	CDS	172	260	.	-	.	ID=CDS:F56D6.8;Parent=Transcript:F56D6.8.1
+ch.9726	RNASeq_reads	transcript_region	179	193	17.0	.	.	
+ch.9726	RNASeq_reads	transcript_region	194	260	28.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	220	260	1.0	+	.	
+ch.9726	RNASeq_reads	transcript_region	261	279	1.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	261	296	1.0	-	.	
+ch.9726	WormBase	intron	261	304	.	-	.	Parent=Transcript:F56D6.8.1
+ch.9726	RNASeq_splice	intron	261	304	203802.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	282	301	1.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	297	304	2.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	302	304	15.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	305	309	12.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	305	408	47.0	.	.	
+ch.9726	WormBase	CDS	305	416	.	-	.	ID=CDS:F56D6.8;Parent=Transcript:F56D6.8.1
+ch.9726	WormBase	exon	305	473	.	-	.	Parent=Transcript:F56D6.8.1
+ch.9726	RNASeq_stranded	transcript_region	310	388	19.0	-	.	
+ch.9726	RNASeq_R_asymmetry	transcript_region	369	404	207336.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	389	402	12.0	-	.	
+ch.9726	RNASeq_stranded	transcript_region	403	415	7.0	-	.	
+ch.9726	RNASeq_R_asymmetry	transcript_region	405	413	134918.0	.	.	
+ch.9726	RNASeq_reads	transcript_region	409	414	31.0	.	.	
+ch.9726	RNASeq_reads	transcript_region	415	417	18.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	416	418	4.0	-	.	
+ch.9726	WormBase	five_prime_UTR	417	473	.	-	.	Parent=Transcript:F56D6.8.1
+ch.9726	RNASeq_R_asymmetry	transcript_region	418	418	38401.0	.	.	
+ch.9726	RNASeq_reads	transcript_region	418	418	10.0	.	.	
+ch.9726	RNASeq_R_asymmetry	transcript_region	419	419	11370.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	419	419	2.0	+	.	
+ch.9726	RNASeq_reads	transcript_region	419	420	3.0	.	.	
+ch.9726	RNASeq_R_asymmetry	transcript_region	420	422	6297.0	.	.	
+ch.9726	RNASeq_stranded	transcript_region	420	422	1.0	-	.	
+ch.9726	RNASeq_reads	transcript_region	421	429	1.0	.	.	
+ch.9726	RNASeq_R_asymmetry	transcript_region	423	423	3707.0	.	.	
+ch.9726	RNASeq_R_asymmetry	transcript_region	426	429	3239.0	.	.	
+ch.9726	RNASeq_R_asymmetry	transcript_region	432	443	1874.0	.	.	

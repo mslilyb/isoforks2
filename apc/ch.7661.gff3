@@ -1,0 +1,101 @@
+ch.7661	RNASeq_R_asymmetry	transcript_region	11	58	842.0	.	.	
+ch.7661	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.7661	RNASeq	transcription_end_site	89	89	.	+	.	
+ch.7661	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.7661	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.7661	RNASeq_reads	transcript_region	96	99	2.0	.	.	
+ch.7661	RNASeq_F_asymmetry	transcript_region	96	100	10701.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	96	101	1.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	100	119	4.0	.	.	
+ch.7661	RNASeq_F_asymmetry	transcript_region	101	116	16291.0	.	.	
+ch.7661	WormBase	three_prime_UTR	101	211	.	-	.	Parent=Transcript:C05D11.10.1
+ch.7661	WormBase	exon	101	509	.	-	.	Parent=Transcript:C05D11.10.1
+ch.7661	WormBase	gene	101	857	.	-	.	ID=Gene:WBGene00015487
+ch.7661	WormBase	mRNA	101	857	.	-	.	ID=Transcript:C05D11.10.1;Parent=Gene:WBGene00015487
+ch.7661	RNASeq_stranded	transcript_region	102	113	2.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	114	124	4.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	120	129	7.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	125	147	7.0	-	.	
+ch.7661	RNASeq_F_asymmetry	transcript_region	129	132	36972.0	.	.	
+ch.7661	RNASeq_reads	transcript_region	130	146	12.0	.	.	
+ch.7661	RNASeq_F_asymmetry	transcript_region	133	147	55924.0	.	.	
+ch.7661	RNASeq	transcription_end_site	147	147	.	+	.	
+ch.7661	RNASeq	transcription_end_site	147	147	.	+	.	
+ch.7661	RNASeq_reads	transcript_region	147	163	19.0	.	.	
+ch.7661	RNASeq_F_asymmetry	transcript_region	148	163	86000.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	148	190	11.0	-	.	
+ch.7661	RNASeq	transcription_end_site	160	160	.	+	.	
+ch.7661	RNASeq_F_asymmetry	transcript_region	164	199	142012.0	.	.	
+ch.7661	RNASeq_reads	transcript_region	164	221	32.0	.	.	
+ch.7661	RNASeq	transcription_end_site	171	171	.	+	.	
+ch.7661	RNASeq	transcription_end_site	171	171	.	+	.	
+ch.7661	RNASeq	transcription_end_site	176	176	.	+	.	
+ch.7661	RNASeq	transcription_end_site	183	183	.	+	.	
+ch.7661	RNASeq_stranded	transcript_region	191	232	17.0	-	.	
+ch.7661	WormBase	CDS	212	509	.	-	.	ID=CDS:C05D11.10;Parent=Transcript:C05D11.10.1
+ch.7661	RNASeq_reads	transcript_region	222	244	52.0	.	.	
+ch.7661	RNASeq	transcription_end_site	223	223	.	+	.	
+ch.7661	RNASeq	transcription_end_site	223	223	.	+	.	
+ch.7661	RNASeq_stranded	transcript_region	233	281	26.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	245	333	79.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	256	393	1.0	+	.	
+ch.7661	RNASeq_splice	intron	260	287	7.0	+	.	
+ch.7661	RNASeq_F_asymmetry	transcript_region	261	264	404065.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	282	329	17.0	-	.	
+ch.7661	RNASeq_splice	intron	286	325	8.0	-	.	
+ch.7661	RNASeq_splice	intron	289	325	11.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	330	332	29.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	333	370	45.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	334	509	119.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	371	422	72.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	423	453	42.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	454	509	26.0	-	.	
+ch.7661	RNASeq_splice	intron	467	618	9.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	510	512	1.0	.	.	
+ch.7661	WormBase	intron	510	618	.	-	.	Parent=Transcript:C05D11.10.1
+ch.7661	RNASeq_splice	intron	510	618	513674.0	-	.	
+ch.7661	RNASeq_splice	intron	510	698	397.0	-	.	
+ch.7661	RNASeq_splice	intron	510	746	4.0	-	.	
+ch.7661	RNASeq_splice	intron	517	626	12.0	+	.	
+ch.7661	RNASeq_stranded	transcript_region	619	667	26.0	-	.	
+ch.7661	WormBase	CDS	619	698	.	-	.	ID=CDS:C05D11.10;Parent=Transcript:C05D11.10.1
+ch.7661	WormBase	exon	619	698	.	-	.	Parent=Transcript:C05D11.10.1
+ch.7661	RNASeq_reads	transcript_region	619	698	91.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	668	698	17.0	-	.	
+ch.7661	RNASeq_splice	intron	687	746	95.0	-	.	
+ch.7661	RNASeq_splice	intron	694	742	62.0	-	.	
+ch.7661	RNASeq_splice	intron	694	746	51.0	-	.	
+ch.7661	RNASeq_splice	intron	699	742	118.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	699	744	1.0	.	.	
+ch.7661	WormBase	intron	699	746	.	-	.	Parent=Transcript:C05D11.10.1
+ch.7661	RNASeq_splice	intron	699	746	415418.0	-	.	
+ch.7661	RNASeq_R_asymmetry	transcript_region	745	746	34485.0	.	.	
+ch.7661	RNASeq_reads	transcript_region	745	746	8.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	745	746	2.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	747	787	15.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	747	841	86.0	.	.	
+ch.7661	WormBase	CDS	747	851	.	-	.	ID=CDS:C05D11.10;Parent=Transcript:C05D11.10.1
+ch.7661	WormBase	exon	747	857	.	-	.	Parent=Transcript:C05D11.10.1
+ch.7661	RNASeq_R_asymmetry	transcript_region	764	845	394928.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	788	797	45.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	798	838	68.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	839	844	31.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	842	847	56.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	845	849	19.0	-	.	
+ch.7661	RNASeq_R_asymmetry	transcript_region	846	848	256109.0	.	.	
+ch.7661	RNASeq_reads	transcript_region	848	850	34.0	.	.	
+ch.7661	RNASeq_R_asymmetry	transcript_region	849	851	148970.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	850	851	10.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	851	856	21.0	.	.	
+ch.7661	RNASeq_stranded	transcript_region	852	853	4.0	-	.	
+ch.7661	WormBase	five_prime_UTR	852	857	.	-	.	Parent=Transcript:C05D11.10.1
+ch.7661	RNASeq_R_asymmetry	transcript_region	852	858	96948.0	.	.	
+ch.7661	RNASeq_splice	intron	852	905	12.0	-	.	
+ch.7661	RNASeq_splice	intron	852	909	6.0	-	.	
+ch.7661	RNASeq_splice	intron	852	914	11.0	-	.	
+ch.7661	RNASeq_stranded	transcript_region	854	858	1.0	-	.	
+ch.7661	RNASeq_reads	transcript_region	857	858	13.0	.	.	
+ch.7661	RNASeq_reads	transcript_region	859	859	1.0	.	.	
+ch.7661	RNASeq_R_asymmetry	transcript_region	860	907	1536.0	.	.	
+ch.7661	RNASeq_R_asymmetry	transcript_region	908	923	999.0	.	.	
+ch.7661	RNASeq_R_asymmetry	transcript_region	924	953	607.0	.	.	

@@ -1,57 +1,57 @@
-ch.5886	RNASeq_reads	transcript_region	745	825	87.0	.	.	
-ch.5886	RNASeq_stranded	transcript_region	806	816	21.0	+	.	
-ch.5886	RNASeq_stranded	transcript_region	792	805	32.0	+	.	
-ch.5886	RNASeq_stranded	transcript_region	761	791	52.0	+	.	
-ch.5886	RNASeq_splice	intron	593	779	12.0	+	.	
-ch.5886	RNASeq_F_asymmetry	transcript_region	760	762	269868.0	.	.	
-ch.5886	RNASeq_stranded	transcript_region	756	760	34.0	+	.	
-ch.5886	RNASeq_stranded	transcript_region	752	755	22.0	+	.	
-ch.5886	RNASeq_stranded	transcript_region	678	751	36.0	+	.	
-ch.5886	RNASeq_reads	transcript_region	728	744	53.0	.	.	
-ch.5886	RNASeq_F_asymmetry	transcript_region	678	727	378247.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	678	727	94.0	.	.	
-ch.5886	WormBase	exon	648	725	.	+	.	Parent=Transcript:Y43F11A.1.1
-ch.5886	WormBase	CDS	648	725	.	+	.	ID=CDS:Y43F11A.1;Parent=Transcript:Y43F11A.1.1
-ch.5886	WormBase	gene	101	725	.	+	.	ID=Gene:WBGene00012841
-ch.5886	WormBase	mRNA	101	725	.	+	.	ID=Transcript:Y43F11A.1.1;Parent=Gene:WBGene00012841
-ch.5886	RNASeq_stranded	transcript_region	668	677	23.0	+	.	
-ch.5886	RNASeq_reads	transcript_region	648	677	48.0	.	.	
-ch.5886	RNASeq_stranded	transcript_region	663	667	14.0	+	.	
-ch.5886	RNASeq_stranded	transcript_region	648	662	8.0	+	.	
-ch.5886	RNASeq_reads	transcript_region	646	647	11.0	.	.	
-ch.5886	RNASeq_stranded	transcript_region	646	647	2.0	+	.	
-ch.5886	WormBase	intron	593	647	.	+	.	Parent=Transcript:Y43F11A.1.1
-ch.5886	RNASeq_splice	intron	593	647	201855.0	+	.	
-ch.5886	RNASeq_splice	intron	572	647	6.0	+	.	
-ch.5886	RNASeq_reads	transcript_region	593	645	2.0	.	.	
-ch.5886	RNASeq_F_asymmetry	transcript_region	593	615	11225.0	.	.	
-ch.5886	RNASeq_stranded	transcript_region	556	592	8.0	+	.	
-ch.5886	RNASeq_reads	transcript_region	476	592	52.0	.	.	
-ch.5886	WormBase	CDS	101	592	.	+	.	ID=CDS:Y43F11A.1;Parent=Transcript:Y43F11A.1.1
-ch.5886	WormBase	exon	101	592	.	+	.	Parent=Transcript:Y43F11A.1.1
-ch.5886	RNASeq_stranded	transcript_region	536	555	5.0	+	.	
-ch.5886	RNASeq_splice	intron	220	553	6.0	-	.	
-ch.5886	RNASeq_stranded	transcript_region	351	535	3.0	+	.	
-ch.5886	RNASeq_reads	transcript_region	410	475	79.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	119	409	52.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	376	377	266430.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	358	373	274701.0	.	.	
-ch.5886	RNASeq_stranded	transcript_region	70	350	1.0	+	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	133	155	197912.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	76	132	317221.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	81	118	79.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	62	80	50.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	57	75	208645.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	52	61	32.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	49	56	131054.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	49	51	21.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	40	48	59522.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	38	48	12.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	34	39	38605.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	34	37	7.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	33	33	21176.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	33	33	4.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	32	32	10941.0	.	.	
-ch.5886	RNASeq_reads	transcript_region	32	32	2.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	30	31	6744.0	.	.	
-ch.5886	RNASeq_R_asymmetry	transcript_region	22	29	4105.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	1	81	87.0	.	.	
+ch.5886	RNASeq_stranded	transcript_region	10	20	21.0	-	.	
+ch.5886	RNASeq_stranded	transcript_region	21	34	32.0	-	.	
+ch.5886	RNASeq_stranded	transcript_region	35	65	52.0	-	.	
+ch.5886	RNASeq_splice	intron	47	233	12.0	-	.	
+ch.5886	RNASeq_F_asymmetry	transcript_region	64	66	269868.0	.	.	
+ch.5886	RNASeq_stranded	transcript_region	66	70	34.0	-	.	
+ch.5886	RNASeq_stranded	transcript_region	71	74	22.0	-	.	
+ch.5886	RNASeq_stranded	transcript_region	75	148	36.0	-	.	
+ch.5886	RNASeq_reads	transcript_region	82	98	53.0	.	.	
+ch.5886	RNASeq_F_asymmetry	transcript_region	99	148	378247.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	99	148	94.0	.	.	
+ch.5886	WormBase	exon	101	178	.	-	.	Parent=Transcript:Y43F11A.1.1
+ch.5886	WormBase	CDS	101	178	.	-	.	ID=CDS:Y43F11A.1;Parent=Transcript:Y43F11A.1.1
+ch.5886	WormBase	gene	101	725	.	-	.	ID=Gene:WBGene00012841
+ch.5886	WormBase	mRNA	101	725	.	-	.	ID=Transcript:Y43F11A.1.1;Parent=Gene:WBGene00012841
+ch.5886	RNASeq_stranded	transcript_region	149	158	23.0	-	.	
+ch.5886	RNASeq_reads	transcript_region	149	178	48.0	.	.	
+ch.5886	RNASeq_stranded	transcript_region	159	163	14.0	-	.	
+ch.5886	RNASeq_stranded	transcript_region	164	178	8.0	-	.	
+ch.5886	RNASeq_reads	transcript_region	179	180	11.0	.	.	
+ch.5886	RNASeq_stranded	transcript_region	179	180	2.0	-	.	
+ch.5886	WormBase	intron	179	233	.	-	.	Parent=Transcript:Y43F11A.1.1
+ch.5886	RNASeq_splice	intron	179	233	201855.0	-	.	
+ch.5886	RNASeq_splice	intron	179	254	6.0	-	.	
+ch.5886	RNASeq_reads	transcript_region	181	233	2.0	.	.	
+ch.5886	RNASeq_F_asymmetry	transcript_region	211	233	11225.0	.	.	
+ch.5886	RNASeq_stranded	transcript_region	234	270	8.0	-	.	
+ch.5886	RNASeq_reads	transcript_region	234	350	52.0	.	.	
+ch.5886	WormBase	CDS	234	725	.	-	.	ID=CDS:Y43F11A.1;Parent=Transcript:Y43F11A.1.1
+ch.5886	WormBase	exon	234	725	.	-	.	Parent=Transcript:Y43F11A.1.1
+ch.5886	RNASeq_stranded	transcript_region	271	290	5.0	-	.	
+ch.5886	RNASeq_splice	intron	273	606	6.0	+	.	
+ch.5886	RNASeq_stranded	transcript_region	291	475	3.0	-	.	
+ch.5886	RNASeq_reads	transcript_region	351	416	79.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	417	707	52.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	449	450	266430.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	453	468	274701.0	.	.	
+ch.5886	RNASeq_stranded	transcript_region	476	756	1.0	-	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	671	693	197912.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	694	750	317221.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	708	745	79.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	746	764	50.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	751	769	208645.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	765	774	32.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	770	777	131054.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	775	777	21.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	778	786	59522.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	778	788	12.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	787	792	38605.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	789	792	7.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	793	793	21176.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	793	793	4.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	794	794	10941.0	.	.	
+ch.5886	RNASeq_reads	transcript_region	794	794	2.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	795	796	6744.0	.	.	
+ch.5886	RNASeq_R_asymmetry	transcript_region	797	804	4105.0	.	.	

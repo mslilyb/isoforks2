@@ -1,81 +1,81 @@
-ch.1685	RNASeq	transcription_end_site	830	830	.	-	.	
-ch.1685	RNASeq	transcription_end_site	830	830	.	-	.	
-ch.1685	RNASeq_reads	transcript_region	814	819	1.0	.	.	
-ch.1685	RNASeq	transcription_end_site	814	814	.	-	.	
-ch.1685	RNASeq	transcription_end_site	814	814	.	-	.	
-ch.1685	RNASeq_F_asymmetry	transcript_region	813	813	9015.0	.	.	
-ch.1685	RNASeq_reads	transcript_region	811	813	2.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	808	813	1.0	+	.	
-ch.1685	WormBase	three_prime_UTR	681	812	.	+	.	Parent=Transcript:F53B6.9.1
-ch.1685	WormBase	exon	508	812	.	+	.	Parent=Transcript:F53B6.9.1
-ch.1685	WormBase	gene	101	812	.	+	.	ID=Gene:WBGene00009964
-ch.1685	WormBase	mRNA	101	812	.	+	.	ID=Transcript:F53B6.9.1;Parent=Gene:WBGene00009964
-ch.1685	RNASeq_reads	transcript_region	803	810	5.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	793	807	2.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	788	802	8.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	767	792	4.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	774	787	13.0	.	.	
-ch.1685	RNASeq	transcription_end_site	781	781	.	-	.	
-ch.1685	RNASeq_reads	transcript_region	769	773	22.0	.	.	
-ch.1685	RNASeq_reads	transcript_region	761	768	37.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	751	766	7.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	743	760	58.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	720	750	11.0	+	.	
-ch.1685	RNASeq	transcription_end_site	742	742	.	-	.	
-ch.1685	RNASeq_reads	transcript_region	726	742	93.0	.	.	
-ch.1685	RNASeq	transcription_end_site	740	740	.	-	.	
-ch.1685	RNASeq	transcription_end_site	740	740	.	-	.	
-ch.1685	RNASeq	transcription_end_site	732	732	.	-	.	
-ch.1685	RNASeq	transcription_end_site	732	732	.	-	.	
-ch.1685	RNASeq_reads	transcript_region	679	725	144.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	664	719	17.0	+	.	
-ch.1685	RNASeq	transcription_end_site	717	717	.	-	.	
-ch.1685	RNASeq	transcription_end_site	717	717	.	-	.	
-ch.1685	RNASeq	transcription_end_site	713	713	.	-	.	
-ch.1685	WormBase	CDS	508	680	.	+	.	ID=CDS:F53B6.9;Parent=Transcript:F53B6.9.1
-ch.1685	RNASeq_reads	transcript_region	515	678	219.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	579	663	27.0	+	.	
-ch.1685	RNASeq_splice	intron	595	652	225.0	+	.	
-ch.1685	RNASeq_splice	intron	589	652	604.0	+	.	
-ch.1685	RNASeq_splice	intron	221	652	3.0	+	.	
-ch.1685	RNASeq_splice	intron	589	624	48.0	+	.	
-ch.1685	RNASeq_splice	intron	587	619	5.0	-	.	
-ch.1685	RNASeq	transcription_end_site	612	612	.	-	.	
-ch.1685	RNASeq_splice	intron	555	600	9.0	-	.	
-ch.1685	RNASeq_stranded	transcript_region	513	578	16.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	508	514	143.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	508	512	9.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	507	507	27.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	507	507	5.0	-	.	
-ch.1685	RNASeq_splice	intron	281	507	3.0	+	.	
-ch.1685	WormBase	intron	221	507	.	+	.	Parent=Transcript:F53B6.9.1
-ch.1685	RNASeq_splice	intron	221	507	521362.0	+	.	
-ch.1685	RNASeq_splice	intron	186	507	3.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	505	506	2.0	.	.	
-ch.1685	RNASeq_reads	transcript_region	381	504	1.0	.	.	
-ch.1685	RNASeq_splice	intron	221	499	167.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	251	380	2.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	241	295	1.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	221	250	1.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	193	220	6.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	177	220	101.0	.	.	
-ch.1685	RNASeq_R_asymmetry	transcript_region	176	220	417495.0	.	.	
-ch.1685	WormBase	CDS	166	220	.	+	.	ID=CDS:F53B6.9;Parent=Transcript:F53B6.9.1
-ch.1685	WormBase	exon	101	220	.	+	.	Parent=Transcript:F53B6.9.1
-ch.1685	RNASeq_stranded	transcript_region	174	192	10.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	167	176	65.0	.	.	
-ch.1685	RNASeq_R_asymmetry	transcript_region	166	175	274131.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	166	173	6.0	+	.	
-ch.1685	RNASeq_reads	transcript_region	159	166	41.0	.	.	
-ch.1685	RNASeq_R_asymmetry	transcript_region	159	165	177793.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	149	165	3.0	+	.	
-ch.1685	WormBase	five_prime_UTR	101	165	.	+	.	Parent=Transcript:F53B6.9.1
-ch.1685	RNASeq_reads	transcript_region	150	158	23.0	.	.	
-ch.1685	RNASeq_R_asymmetry	transcript_region	149	158	101537.0	.	.	
-ch.1685	RNASeq_reads	transcript_region	146	149	15.0	.	.	
-ch.1685	RNASeq_R_asymmetry	transcript_region	146	148	66970.0	.	.	
-ch.1685	RNASeq_stranded	transcript_region	145	148	1.0	+	.	
-ch.1685	RNASeq_R_asymmetry	transcript_region	145	145	39907.0	.	.	
-ch.1685	RNASeq_reads	transcript_region	145	145	9.0	.	.	
-ch.1685	RNASeq_R_asymmetry	transcript_region	142	144	5262.0	.	.	
-ch.1685	RNASeq_reads	transcript_region	136	144	1.0	.	.	
+ch.1685	RNASeq	transcription_end_site	83	83	.	+	.	
+ch.1685	RNASeq	transcription_end_site	83	83	.	+	.	
+ch.1685	RNASeq_reads	transcript_region	94	99	1.0	.	.	
+ch.1685	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.1685	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.1685	RNASeq_F_asymmetry	transcript_region	100	100	9015.0	.	.	
+ch.1685	RNASeq_reads	transcript_region	100	102	2.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	100	105	1.0	-	.	
+ch.1685	WormBase	three_prime_UTR	101	232	.	-	.	Parent=Transcript:F53B6.9.1
+ch.1685	WormBase	exon	101	405	.	-	.	Parent=Transcript:F53B6.9.1
+ch.1685	WormBase	gene	101	812	.	-	.	ID=Gene:WBGene00009964
+ch.1685	WormBase	mRNA	101	812	.	-	.	ID=Transcript:F53B6.9.1;Parent=Gene:WBGene00009964
+ch.1685	RNASeq_reads	transcript_region	103	110	5.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	106	120	2.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	111	125	8.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	121	146	4.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	126	139	13.0	.	.	
+ch.1685	RNASeq	transcription_end_site	132	132	.	+	.	
+ch.1685	RNASeq_reads	transcript_region	140	144	22.0	.	.	
+ch.1685	RNASeq_reads	transcript_region	145	152	37.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	147	162	7.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	153	170	58.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	163	193	11.0	-	.	
+ch.1685	RNASeq	transcription_end_site	171	171	.	+	.	
+ch.1685	RNASeq_reads	transcript_region	171	187	93.0	.	.	
+ch.1685	RNASeq	transcription_end_site	173	173	.	+	.	
+ch.1685	RNASeq	transcription_end_site	173	173	.	+	.	
+ch.1685	RNASeq	transcription_end_site	181	181	.	+	.	
+ch.1685	RNASeq	transcription_end_site	181	181	.	+	.	
+ch.1685	RNASeq_reads	transcript_region	188	234	144.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	194	249	17.0	-	.	
+ch.1685	RNASeq	transcription_end_site	196	196	.	+	.	
+ch.1685	RNASeq	transcription_end_site	196	196	.	+	.	
+ch.1685	RNASeq	transcription_end_site	200	200	.	+	.	
+ch.1685	WormBase	CDS	233	405	.	-	.	ID=CDS:F53B6.9;Parent=Transcript:F53B6.9.1
+ch.1685	RNASeq_reads	transcript_region	235	398	219.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	250	334	27.0	-	.	
+ch.1685	RNASeq_splice	intron	261	318	225.0	-	.	
+ch.1685	RNASeq_splice	intron	261	324	604.0	-	.	
+ch.1685	RNASeq_splice	intron	261	692	3.0	-	.	
+ch.1685	RNASeq_splice	intron	289	324	48.0	-	.	
+ch.1685	RNASeq_splice	intron	294	326	5.0	+	.	
+ch.1685	RNASeq	transcription_end_site	301	301	.	+	.	
+ch.1685	RNASeq_splice	intron	313	358	9.0	+	.	
+ch.1685	RNASeq_stranded	transcript_region	335	400	16.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	399	405	143.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	401	405	9.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	406	406	27.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	406	406	5.0	+	.	
+ch.1685	RNASeq_splice	intron	406	632	3.0	-	.	
+ch.1685	WormBase	intron	406	692	.	-	.	Parent=Transcript:F53B6.9.1
+ch.1685	RNASeq_splice	intron	406	692	521362.0	-	.	
+ch.1685	RNASeq_splice	intron	406	727	3.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	407	408	2.0	.	.	
+ch.1685	RNASeq_reads	transcript_region	409	532	1.0	.	.	
+ch.1685	RNASeq_splice	intron	414	692	167.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	533	662	2.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	618	672	1.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	663	692	1.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	693	720	6.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	693	736	101.0	.	.	
+ch.1685	RNASeq_R_asymmetry	transcript_region	693	737	417495.0	.	.	
+ch.1685	WormBase	CDS	693	747	.	-	.	ID=CDS:F53B6.9;Parent=Transcript:F53B6.9.1
+ch.1685	WormBase	exon	693	812	.	-	.	Parent=Transcript:F53B6.9.1
+ch.1685	RNASeq_stranded	transcript_region	721	739	10.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	737	746	65.0	.	.	
+ch.1685	RNASeq_R_asymmetry	transcript_region	738	747	274131.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	740	747	6.0	-	.	
+ch.1685	RNASeq_reads	transcript_region	747	754	41.0	.	.	
+ch.1685	RNASeq_R_asymmetry	transcript_region	748	754	177793.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	748	764	3.0	-	.	
+ch.1685	WormBase	five_prime_UTR	748	812	.	-	.	Parent=Transcript:F53B6.9.1
+ch.1685	RNASeq_reads	transcript_region	755	763	23.0	.	.	
+ch.1685	RNASeq_R_asymmetry	transcript_region	755	764	101537.0	.	.	
+ch.1685	RNASeq_reads	transcript_region	764	767	15.0	.	.	
+ch.1685	RNASeq_R_asymmetry	transcript_region	765	767	66970.0	.	.	
+ch.1685	RNASeq_stranded	transcript_region	765	768	1.0	-	.	
+ch.1685	RNASeq_R_asymmetry	transcript_region	768	768	39907.0	.	.	
+ch.1685	RNASeq_reads	transcript_region	768	768	9.0	.	.	
+ch.1685	RNASeq_R_asymmetry	transcript_region	769	771	5262.0	.	.	
+ch.1685	RNASeq_reads	transcript_region	769	777	1.0	.	.	

@@ -1,56 +1,56 @@
-ch.5964	RNASeq_F_asymmetry	transcript_region	727	727	261.0	.	.	
-ch.5964	RNASeq_F_asymmetry	transcript_region	722	722	368.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	718	718	1.0	-	.	
-ch.5964	RNASeq_reads	transcript_region	717	717	1.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	714	717	2.0	+	.	
-ch.5964	WormBase	three_prime_UTR	611	717	.	+	.	Parent=Transcript:F15A4.10.1
-ch.5964	WormBase	exon	561	717	.	+	.	Parent=Transcript:F15A4.10.1
-ch.5964	WormBase	gene	101	717	.	+	.	ID=Gene:WBGene00008844
-ch.5964	WormBase	mRNA	101	717	.	+	.	ID=Transcript:F15A4.10.1;Parent=Gene:WBGene00008844
-ch.5964	RNASeq	transcription_end_site	716	716	.	-	.	
-ch.5964	RNASeq	transcription_end_site	716	716	.	-	.	
-ch.5964	RNASeq_reads	transcript_region	708	716	2.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	701	713	4.0	+	.	
-ch.5964	RNASeq_F_asymmetry	transcript_region	712	712	11027.0	.	.	
-ch.5964	RNASeq_F_asymmetry	transcript_region	701	710	13144.0	.	.	
-ch.5964	RNASeq_reads	transcript_region	692	707	4.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	678	700	8.0	+	.	
-ch.5964	RNASeq_reads	transcript_region	667	691	7.0	.	.	
-ch.5964	RNASeq_F_asymmetry	transcript_region	672	688	28035.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	667	677	13.0	+	.	
-ch.5964	RNASeq_reads	transcript_region	654	666	11.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	652	666	20.0	+	.	
-ch.5964	RNASeq	transcription_end_site	662	662	.	-	.	
-ch.5964	RNASeq_reads	transcript_region	625	653	17.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	568	651	32.0	+	.	
-ch.5964	RNASeq_reads	transcript_region	561	624	27.0	.	.	
-ch.5964	WormBase	CDS	561	610	.	+	.	ID=CDS:F15A4.10;Parent=Transcript:F15A4.10.1
-ch.5964	RNASeq_stranded	transcript_region	561	567	21.0	+	.	
-ch.5964	RNASeq_F_asymmetry	transcript_region	559	560	28563.0	.	.	
-ch.5964	RNASeq_reads	transcript_region	559	560	7.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	559	560	6.0	+	.	
-ch.5964	RNASeq_splice	intron	377	560	164.0	+	.	
-ch.5964	WormBase	intron	324	560	.	+	.	Parent=Transcript:F15A4.10.1
-ch.5964	RNASeq_splice	intron	324	560	153070.0	+	.	
-ch.5964	RNASeq_splice	intron	324	536	3.0	+	.	
-ch.5964	RNASeq_stranded	transcript_region	293	323	11.0	+	.	
-ch.5964	WormBase	CDS	134	323	.	+	.	ID=CDS:F15A4.10;Parent=Transcript:F15A4.10.1
-ch.5964	RNASeq_reads	transcript_region	117	323	30.0	.	.	
-ch.5964	WormBase	exon	101	323	.	+	.	Parent=Transcript:F15A4.10.1
-ch.5964	RNASeq_stranded	transcript_region	203	292	7.0	+	.	
-ch.5964	RNASeq_stranded	transcript_region	171	202	4.0	+	.	
-ch.5964	RNASeq_R_asymmetry	transcript_region	120	188	154231.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	110	170	7.0	+	.	
-ch.5964	WormBase	five_prime_UTR	101	133	.	+	.	Parent=Transcript:F15A4.10.1
-ch.5964	RNASeq_R_asymmetry	transcript_region	102	119	100478.0	.	.	
-ch.5964	RNASeq_reads	transcript_region	102	116	19.0	.	.	
-ch.5964	RNASeq_stranded	transcript_region	100	109	4.0	+	.	
-ch.5964	RNASeq_R_asymmetry	transcript_region	100	101	59581.0	.	.	
-ch.5964	RNASeq_reads	transcript_region	100	101	12.0	.	.	
-ch.5964	RNASeq_splice	intron	51	100	1155.0	+	.	
-ch.5964	RNASeq_stranded	transcript_region	99	99	2.0	-	.	
-ch.5964	RNASeq_R_asymmetry	transcript_region	95	99	38130.0	.	.	
-ch.5964	RNASeq_reads	transcript_region	95	99	7.0	.	.	
-ch.5964	RNASeq_R_asymmetry	transcript_region	91	94	9460.0	.	.	
-ch.5964	RNASeq_reads	transcript_region	91	94	2.0	.	.	
-ch.5964	RNASeq_R_asymmetry	transcript_region	29	29	1413.0	.	.	
+ch.5964	RNASeq_F_asymmetry	transcript_region	91	91	261.0	.	.	
+ch.5964	RNASeq_F_asymmetry	transcript_region	96	96	368.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	100	100	1.0	+	.	
+ch.5964	RNASeq_reads	transcript_region	101	101	1.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	101	104	2.0	-	.	
+ch.5964	WormBase	three_prime_UTR	101	207	.	-	.	Parent=Transcript:F15A4.10.1
+ch.5964	WormBase	exon	101	257	.	-	.	Parent=Transcript:F15A4.10.1
+ch.5964	WormBase	gene	101	717	.	-	.	ID=Gene:WBGene00008844
+ch.5964	WormBase	mRNA	101	717	.	-	.	ID=Transcript:F15A4.10.1;Parent=Gene:WBGene00008844
+ch.5964	RNASeq	transcription_end_site	102	102	.	+	.	
+ch.5964	RNASeq	transcription_end_site	102	102	.	+	.	
+ch.5964	RNASeq_reads	transcript_region	102	110	2.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	105	117	4.0	-	.	
+ch.5964	RNASeq_F_asymmetry	transcript_region	106	106	11027.0	.	.	
+ch.5964	RNASeq_F_asymmetry	transcript_region	108	117	13144.0	.	.	
+ch.5964	RNASeq_reads	transcript_region	111	126	4.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	118	140	8.0	-	.	
+ch.5964	RNASeq_reads	transcript_region	127	151	7.0	.	.	
+ch.5964	RNASeq_F_asymmetry	transcript_region	130	146	28035.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	141	151	13.0	-	.	
+ch.5964	RNASeq_reads	transcript_region	152	164	11.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	152	166	20.0	-	.	
+ch.5964	RNASeq	transcription_end_site	156	156	.	+	.	
+ch.5964	RNASeq_reads	transcript_region	165	193	17.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	167	250	32.0	-	.	
+ch.5964	RNASeq_reads	transcript_region	194	257	27.0	.	.	
+ch.5964	WormBase	CDS	208	257	.	-	.	ID=CDS:F15A4.10;Parent=Transcript:F15A4.10.1
+ch.5964	RNASeq_stranded	transcript_region	251	257	21.0	-	.	
+ch.5964	RNASeq_F_asymmetry	transcript_region	258	259	28563.0	.	.	
+ch.5964	RNASeq_reads	transcript_region	258	259	7.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	258	259	6.0	-	.	
+ch.5964	RNASeq_splice	intron	258	441	164.0	-	.	
+ch.5964	WormBase	intron	258	494	.	-	.	Parent=Transcript:F15A4.10.1
+ch.5964	RNASeq_splice	intron	258	494	153070.0	-	.	
+ch.5964	RNASeq_splice	intron	282	494	3.0	-	.	
+ch.5964	RNASeq_stranded	transcript_region	495	525	11.0	-	.	
+ch.5964	WormBase	CDS	495	684	.	-	.	ID=CDS:F15A4.10;Parent=Transcript:F15A4.10.1
+ch.5964	RNASeq_reads	transcript_region	495	701	30.0	.	.	
+ch.5964	WormBase	exon	495	717	.	-	.	Parent=Transcript:F15A4.10.1
+ch.5964	RNASeq_stranded	transcript_region	526	615	7.0	-	.	
+ch.5964	RNASeq_stranded	transcript_region	616	647	4.0	-	.	
+ch.5964	RNASeq_R_asymmetry	transcript_region	630	698	154231.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	648	708	7.0	-	.	
+ch.5964	WormBase	five_prime_UTR	685	717	.	-	.	Parent=Transcript:F15A4.10.1
+ch.5964	RNASeq_R_asymmetry	transcript_region	699	716	100478.0	.	.	
+ch.5964	RNASeq_reads	transcript_region	702	716	19.0	.	.	
+ch.5964	RNASeq_stranded	transcript_region	709	718	4.0	-	.	
+ch.5964	RNASeq_R_asymmetry	transcript_region	717	718	59581.0	.	.	
+ch.5964	RNASeq_reads	transcript_region	717	718	12.0	.	.	
+ch.5964	RNASeq_splice	intron	718	767	1155.0	-	.	
+ch.5964	RNASeq_stranded	transcript_region	719	719	2.0	+	.	
+ch.5964	RNASeq_R_asymmetry	transcript_region	719	723	38130.0	.	.	
+ch.5964	RNASeq_reads	transcript_region	719	723	7.0	.	.	
+ch.5964	RNASeq_R_asymmetry	transcript_region	724	727	9460.0	.	.	
+ch.5964	RNASeq_reads	transcript_region	724	727	2.0	.	.	
+ch.5964	RNASeq_R_asymmetry	transcript_region	789	789	1413.0	.	.	

@@ -1,0 +1,101 @@
+ch.7125	RNASeq_splice	intron	2	42	6.0	-	.	
+ch.7125	RNASeq_splice	intron	2	148	62.0	-	.	
+ch.7125	RNASeq_R_asymmetry	transcript_region	3	11	4742.0	.	.	
+ch.7125	RNASeq_reads	transcript_region	3	22	1.0	.	.	
+ch.7125	RNASeq	transcription_end_site	92	92	.	+	.	
+ch.7125	RNASeq	transcription_end_site	92	92	.	+	.	
+ch.7125	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.7125	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.7125	RNASeq_reads	transcript_region	96	96	1.0	.	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	96	97	6392.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	96	98	1.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	96	188	1.0	+	.	
+ch.7125	RNASeq_reads	transcript_region	97	99	2.0	.	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	98	100	10847.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	99	109	2.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	100	109	4.0	.	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	101	106	17378.0	.	.	
+ch.7125	WormBase	three_prime_UTR	101	218	.	-	.	Parent=Transcript:F43C1.6.1
+ch.7125	WormBase	exon	101	283	.	-	.	Parent=Transcript:F43C1.6.1
+ch.7125	WormBase	gene	101	990	.	-	.	ID=Gene:WBGene00023422
+ch.7125	WormBase	mRNA	101	990	.	-	.	ID=Transcript:F43C1.6.1;Parent=Gene:WBGene00023422
+ch.7125	RNASeq	transcription_end_site	105	105	.	+	.	
+ch.7125	RNASeq	transcription_end_site	105	105	.	+	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	107	119	26695.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	110	115	4.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	110	126	7.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	116	122	7.0	-	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	120	136	40563.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	123	140	12.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	127	136	11.0	.	.	
+ch.7125	RNASeq	transcription_end_site	133	133	.	+	.	
+ch.7125	RNASeq_reads	transcript_region	137	156	17.0	.	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	137	170	73174.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	141	169	20.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	157	223	26.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	170	274	31.0	-	.	
+ch.7125	RNASeq	transcription_end_site	178	178	.	+	.	
+ch.7125	RNASeq	transcription_end_site	187	187	.	+	.	
+ch.7125	RNASeq	transcription_end_site	200	200	.	+	.	
+ch.7125	RNASeq	transcription_end_site	209	209	.	+	.	
+ch.7125	RNASeq	transcription_end_site	209	209	.	+	.	
+ch.7125	WormBase	CDS	219	283	.	-	.	ID=CDS:F43C1.6;Parent=Transcript:F43C1.6.1
+ch.7125	RNASeq	transcription_end_site	222	222	.	+	.	
+ch.7125	RNASeq	transcription_end_site	222	222	.	+	.	
+ch.7125	RNASeq_reads	transcript_region	224	264	44.0	.	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	244	250	246450.0	.	.	
+ch.7125	RNASeq_reads	transcript_region	265	283	67.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	266	282	1.0	+	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	270	273	286474.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	275	283	20.0	-	.	
+ch.7125	RNASeq_F_asymmetry	transcript_region	276	283	284919.0	.	.	
+ch.7125	WormBase	intron	284	334	.	-	.	Parent=Transcript:F43C1.6.1
+ch.7125	RNASeq_splice	intron	284	334	381486.0	-	.	
+ch.7125	RNASeq_splice	intron	284	771	17.0	-	.	
+ch.7125	RNASeq_splice	intron	298	341	8.0	+	.	
+ch.7125	RNASeq_reads	transcript_region	331	333	4.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	331	333	1.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	334	334	7.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	334	334	3.0	+	.	
+ch.7125	RNASeq_stranded	transcript_region	335	380	14.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	335	381	1.0	+	.	
+ch.7125	WormBase	CDS	335	566	.	-	.	ID=CDS:F43C1.6;Parent=Transcript:F43C1.6.1
+ch.7125	WormBase	exon	335	566	.	-	.	Parent=Transcript:F43C1.6.1
+ch.7125	RNASeq_reads	transcript_region	335	566	68.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	381	427	23.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	428	486	35.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	487	528	23.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	529	566	14.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	567	568	9.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	567	568	5.0	-	.	
+ch.7125	WormBase	intron	567	771	.	-	.	Parent=Transcript:F43C1.6.1
+ch.7125	RNASeq_splice	intron	567	771	318881.0	-	.	
+ch.7125	RNASeq_splice	intron	567	888	692.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	770	771	8.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	770	771	2.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	772	791	14.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	772	983	65.0	.	.	
+ch.7125	WormBase	CDS	772	990	.	-	.	ID=CDS:F43C1.6;Parent=Transcript:F43C1.6.1
+ch.7125	WormBase	exon	772	990	.	-	.	Parent=Transcript:F43C1.6.1
+ch.7125	RNASeq_stranded	transcript_region	774	934	1.0	+	.	
+ch.7125	RNASeq_stranded	transcript_region	792	859	23.0	-	.	
+ch.7125	RNASeq_splice	intron	801	888	5.0	-	.	
+ch.7125	RNASeq_splice	intron	850	888	12.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	860	867	35.0	-	.	
+ch.7125	RNASeq_splice	intron	865	912	20.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	868	910	53.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	911	918	34.0	-	.	
+ch.7125	RNASeq_stranded	transcript_region	919	933	14.0	-	.	
+ch.7125	RNASeq_R_asymmetry	transcript_region	927	985	274751.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	934	985	22.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	984	990	40.0	.	.	
+ch.7125	RNASeq_R_asymmetry	transcript_region	986	992	172349.0	.	.	
+ch.7125	RNASeq_stranded	transcript_region	986	992	12.0	-	.	
+ch.7125	RNASeq_reads	transcript_region	991	992	25.0	.	.	
+ch.7125	RNASeq_R_asymmetry	transcript_region	993	995	11328.0	.	.	
+ch.7125	RNASeq_reads	transcript_region	993	995	3.0	.	.	
+ch.7125	RNASeq_reads	transcript_region	996	1018	1.0	.	.	
+ch.7125	RNASeq_R_asymmetry	transcript_region	999	1023	2520.0	.	.	
+ch.7125	RNASeq_splice	intron	1000	1057	88.0	+	.	
+ch.7125	RNASeq_R_asymmetry	transcript_region	1024	1050	1633.0	.	.	
+ch.7125	RNASeq_R_asymmetry	transcript_region	1052	1053	1133.0	.	.	

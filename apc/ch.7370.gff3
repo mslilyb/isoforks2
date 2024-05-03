@@ -1,98 +1,98 @@
-ch.7370	RNASeq_splice	intron	887	931	11.0	+	.	
-ch.7370	RNASeq_splice	intron	812	931	3.0	+	.	
-ch.7370	RNASeq_splice	intron	698	931	5.0	+	.	
-ch.7370	RNASeq_R_asymmetry	transcript_region	927	929	3075.0	.	.	
-ch.7370	RNASeq_reads	transcript_region	927	929	1.0	.	.	
-ch.7370	RNASeq_R_asymmetry	transcript_region	891	926	1407.0	.	.	
-ch.7370	RNASeq	transcription_end_site	838	838	.	-	.	
-ch.7370	RNASeq	transcription_end_site	838	838	.	-	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	835	835	1218.0	.	.	
-ch.7370	RNASeq	transcription_end_site	835	835	.	-	.	
-ch.7370	RNASeq	transcription_end_site	835	835	.	-	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	834	834	4624.0	.	.	
-ch.7370	RNASeq_reads	transcript_region	834	834	1.0	.	.	
-ch.7370	RNASeq	transcription_end_site	834	834	.	-	.	
-ch.7370	RNASeq	transcription_end_site	834	834	.	-	.	
-ch.7370	RNASeq_stranded	transcript_region	831	834	1.0	+	.	
-ch.7370	RNASeq	transcription_end_site	833	833	.	-	.	
-ch.7370	RNASeq	transcription_end_site	833	833	.	-	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	822	833	7248.0	.	.	
-ch.7370	RNASeq_reads	transcript_region	814	833	2.0	.	.	
-ch.7370	WormBase	three_prime_UTR	796	831	.	+	.	Parent=Transcript:T10F2.5.1
-ch.7370	WormBase	exon	577	831	.	+	.	Parent=Transcript:T10F2.5.1
-ch.7370	WormBase	gene	101	831	.	+	.	ID=Gene:WBGene00044604
-ch.7370	WormBase	mRNA	101	831	.	+	.	ID=Transcript:T10F2.5.1;Parent=Gene:WBGene00044604
-ch.7370	RNASeq	transcription_end_site	830	830	.	-	.	
-ch.7370	RNASeq	transcription_end_site	830	830	.	-	.	
-ch.7370	RNASeq_stranded	transcript_region	817	830	2.0	+	.	
-ch.7370	RNASeq_stranded	transcript_region	810	816	4.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	808	813	4.0	.	.	
-ch.7370	RNASeq	transcription_end_site	810	810	.	-	.	
-ch.7370	RNASeq	transcription_end_site	810	810	.	-	.	
-ch.7370	RNASeq_stranded	transcript_region	798	809	7.0	+	.	
-ch.7370	RNASeq	transcription_end_site	808	808	.	-	.	
-ch.7370	RNASeq	transcription_end_site	808	808	.	-	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	806	807	28731.0	.	.	
-ch.7370	RNASeq_reads	transcript_region	805	807	7.0	.	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	801	805	44067.0	.	.	
-ch.7370	RNASeq_reads	transcript_region	794	804	12.0	.	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	776	800	67290.0	.	.	
-ch.7370	RNASeq_stranded	transcript_region	757	797	11.0	+	.	
-ch.7370	WormBase	CDS	577	795	.	+	.	ID=CDS:T10F2.5;Parent=Transcript:T10F2.5.1
-ch.7370	RNASeq_reads	transcript_region	765	793	19.0	.	.	
-ch.7370	RNASeq	transcription_end_site	788	788	.	-	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	761	775	101442.0	.	.	
-ch.7370	RNASeq	transcription_end_site	768	768	.	-	.	
-ch.7370	RNASeq	transcription_end_site	768	768	.	-	.	
-ch.7370	RNASeq	transcription_end_site	767	767	.	-	.	
-ch.7370	RNASeq	transcription_end_site	766	766	.	-	.	
-ch.7370	RNASeq	transcription_end_site	766	766	.	-	.	
-ch.7370	RNASeq	transcription_end_site	765	765	.	-	.	
-ch.7370	RNASeq_reads	transcript_region	738	764	29.0	.	.	
-ch.7370	RNASeq_F_asymmetry	transcript_region	713	760	158604.0	.	.	
-ch.7370	RNASeq_stranded	transcript_region	687	756	17.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	577	737	45.0	.	.	
-ch.7370	RNASeq_splice	intron	503	709	4.0	-	.	
-ch.7370	RNASeq_stranded	transcript_region	647	686	9.0	+	.	
-ch.7370	RNASeq_stranded	transcript_region	616	646	14.0	+	.	
-ch.7370	RNASeq_stranded	transcript_region	591	615	22.0	+	.	
-ch.7370	RNASeq_stranded	transcript_region	577	590	14.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	576	576	5.0	.	.	
-ch.7370	RNASeq_stranded	transcript_region	576	576	2.0	-	.	
-ch.7370	WormBase	intron	531	576	.	+	.	Parent=Transcript:T10F2.5.1
-ch.7370	RNASeq_splice	intron	531	576	313630.0	+	.	
-ch.7370	RNASeq_splice	intron	524	576	75.0	+	.	
-ch.7370	RNASeq_splice	intron	141	576	26.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	531	575	1.0	.	.	
-ch.7370	RNASeq_stranded	transcript_region	402	530	10.0	+	.	
-ch.7370	WormBase	CDS	375	530	.	+	.	ID=CDS:T10F2.5;Parent=Transcript:T10F2.5.1
-ch.7370	WormBase	exon	375	530	.	+	.	Parent=Transcript:T10F2.5.1
-ch.7370	RNASeq_reads	transcript_region	375	530	55.0	.	.	
-ch.7370	RNASeq_splice	intron	141	465	16.0	+	.	
-ch.7370	RNASeq_splice	intron	141	416	10.0	+	.	
-ch.7370	RNASeq_R_asymmetry	transcript_region	375	401	187297.0	.	.	
-ch.7370	RNASeq_stranded	transcript_region	375	401	6.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	373	374	4.0	.	.	
-ch.7370	RNASeq_stranded	transcript_region	373	374	1.0	+	.	
-ch.7370	RNASeq_splice	intron	194	374	103.0	+	.	
-ch.7370	WormBase	intron	141	374	.	+	.	Parent=Transcript:T10F2.5.1
-ch.7370	RNASeq_splice	intron	141	374	206379.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	154	372	1.0	.	.	
-ch.7370	RNASeq_splice	intron	141	176	8.0	+	.	
-ch.7370	RNASeq_stranded	transcript_region	136	140	4.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	106	140	36.0	.	.	
-ch.7370	RNASeq_R_asymmetry	transcript_region	105	140	169428.0	.	.	
-ch.7370	WormBase	CDS	102	140	.	+	.	ID=CDS:T10F2.5;Parent=Transcript:T10F2.5.1
-ch.7370	WormBase	exon	101	140	.	+	.	Parent=Transcript:T10F2.5.1
-ch.7370	RNASeq_stranded	transcript_region	99	135	7.0	+	.	
-ch.7370	RNASeq_reads	transcript_region	100	105	23.0	.	.	
-ch.7370	RNASeq_R_asymmetry	transcript_region	99	104	96889.0	.	.	
-ch.7370	WormBase	five_prime_UTR	101	101	.	+	.	Parent=Transcript:T10F2.5.1
-ch.7370	RNASeq_reads	transcript_region	99	99	13.0	.	.	
-ch.7370	RNASeq_R_asymmetry	transcript_region	96	98	5388.0	.	.	
-ch.7370	RNASeq_reads	transcript_region	15	98	1.0	.	.	
-ch.7370	RNASeq_splice	intron	24	77	3.0	-	.	
-ch.7370	RNASeq_R_asymmetry	transcript_region	25	69	2080.0	.	.	
-ch.7370	RNASeq_stranded	transcript_region	23	30	1.0	+	.	
-ch.7370	RNASeq_stranded	transcript_region	20	20	1.0	-	.	
-ch.7370	RNASeq_stranded	transcript_region	13	14	1.0	+	.	
+ch.7370	RNASeq_splice	intron	1	45	11.0	-	.	
+ch.7370	RNASeq_splice	intron	1	120	3.0	-	.	
+ch.7370	RNASeq_splice	intron	1	234	5.0	-	.	
+ch.7370	RNASeq_R_asymmetry	transcript_region	3	5	3075.0	.	.	
+ch.7370	RNASeq_reads	transcript_region	3	5	1.0	.	.	
+ch.7370	RNASeq_R_asymmetry	transcript_region	6	41	1407.0	.	.	
+ch.7370	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.7370	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	97	97	1218.0	.	.	
+ch.7370	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.7370	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	98	98	4624.0	.	.	
+ch.7370	RNASeq_reads	transcript_region	98	98	1.0	.	.	
+ch.7370	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.7370	RNASeq	transcription_end_site	98	98	.	+	.	
+ch.7370	RNASeq_stranded	transcript_region	98	101	1.0	-	.	
+ch.7370	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.7370	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	99	110	7248.0	.	.	
+ch.7370	RNASeq_reads	transcript_region	99	118	2.0	.	.	
+ch.7370	WormBase	three_prime_UTR	101	136	.	-	.	Parent=Transcript:T10F2.5.1
+ch.7370	WormBase	exon	101	355	.	-	.	Parent=Transcript:T10F2.5.1
+ch.7370	WormBase	gene	101	831	.	-	.	ID=Gene:WBGene00044604
+ch.7370	WormBase	mRNA	101	831	.	-	.	ID=Transcript:T10F2.5.1;Parent=Gene:WBGene00044604
+ch.7370	RNASeq	transcription_end_site	102	102	.	+	.	
+ch.7370	RNASeq	transcription_end_site	102	102	.	+	.	
+ch.7370	RNASeq_stranded	transcript_region	102	115	2.0	-	.	
+ch.7370	RNASeq_stranded	transcript_region	116	122	4.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	119	124	4.0	.	.	
+ch.7370	RNASeq	transcription_end_site	122	122	.	+	.	
+ch.7370	RNASeq	transcription_end_site	122	122	.	+	.	
+ch.7370	RNASeq_stranded	transcript_region	123	134	7.0	-	.	
+ch.7370	RNASeq	transcription_end_site	124	124	.	+	.	
+ch.7370	RNASeq	transcription_end_site	124	124	.	+	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	125	126	28731.0	.	.	
+ch.7370	RNASeq_reads	transcript_region	125	127	7.0	.	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	127	131	44067.0	.	.	
+ch.7370	RNASeq_reads	transcript_region	128	138	12.0	.	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	132	156	67290.0	.	.	
+ch.7370	RNASeq_stranded	transcript_region	135	175	11.0	-	.	
+ch.7370	WormBase	CDS	137	355	.	-	.	ID=CDS:T10F2.5;Parent=Transcript:T10F2.5.1
+ch.7370	RNASeq_reads	transcript_region	139	167	19.0	.	.	
+ch.7370	RNASeq	transcription_end_site	144	144	.	+	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	157	171	101442.0	.	.	
+ch.7370	RNASeq	transcription_end_site	164	164	.	+	.	
+ch.7370	RNASeq	transcription_end_site	164	164	.	+	.	
+ch.7370	RNASeq	transcription_end_site	165	165	.	+	.	
+ch.7370	RNASeq	transcription_end_site	166	166	.	+	.	
+ch.7370	RNASeq	transcription_end_site	166	166	.	+	.	
+ch.7370	RNASeq	transcription_end_site	167	167	.	+	.	
+ch.7370	RNASeq_reads	transcript_region	168	194	29.0	.	.	
+ch.7370	RNASeq_F_asymmetry	transcript_region	172	219	158604.0	.	.	
+ch.7370	RNASeq_stranded	transcript_region	176	245	17.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	195	355	45.0	.	.	
+ch.7370	RNASeq_splice	intron	223	429	4.0	+	.	
+ch.7370	RNASeq_stranded	transcript_region	246	285	9.0	-	.	
+ch.7370	RNASeq_stranded	transcript_region	286	316	14.0	-	.	
+ch.7370	RNASeq_stranded	transcript_region	317	341	22.0	-	.	
+ch.7370	RNASeq_stranded	transcript_region	342	355	14.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	356	356	5.0	.	.	
+ch.7370	RNASeq_stranded	transcript_region	356	356	2.0	+	.	
+ch.7370	WormBase	intron	356	401	.	-	.	Parent=Transcript:T10F2.5.1
+ch.7370	RNASeq_splice	intron	356	401	313630.0	-	.	
+ch.7370	RNASeq_splice	intron	356	408	75.0	-	.	
+ch.7370	RNASeq_splice	intron	356	791	26.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	357	401	1.0	.	.	
+ch.7370	RNASeq_stranded	transcript_region	402	530	10.0	-	.	
+ch.7370	WormBase	CDS	402	557	.	-	.	ID=CDS:T10F2.5;Parent=Transcript:T10F2.5.1
+ch.7370	WormBase	exon	402	557	.	-	.	Parent=Transcript:T10F2.5.1
+ch.7370	RNASeq_reads	transcript_region	402	557	55.0	.	.	
+ch.7370	RNASeq_splice	intron	467	791	16.0	-	.	
+ch.7370	RNASeq_splice	intron	516	791	10.0	-	.	
+ch.7370	RNASeq_R_asymmetry	transcript_region	531	557	187297.0	.	.	
+ch.7370	RNASeq_stranded	transcript_region	531	557	6.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	558	559	4.0	.	.	
+ch.7370	RNASeq_stranded	transcript_region	558	559	1.0	-	.	
+ch.7370	RNASeq_splice	intron	558	738	103.0	-	.	
+ch.7370	WormBase	intron	558	791	.	-	.	Parent=Transcript:T10F2.5.1
+ch.7370	RNASeq_splice	intron	558	791	206379.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	560	778	1.0	.	.	
+ch.7370	RNASeq_splice	intron	756	791	8.0	-	.	
+ch.7370	RNASeq_stranded	transcript_region	792	796	4.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	792	826	36.0	.	.	
+ch.7370	RNASeq_R_asymmetry	transcript_region	792	827	169428.0	.	.	
+ch.7370	WormBase	CDS	792	830	.	-	.	ID=CDS:T10F2.5;Parent=Transcript:T10F2.5.1
+ch.7370	WormBase	exon	792	831	.	-	.	Parent=Transcript:T10F2.5.1
+ch.7370	RNASeq_stranded	transcript_region	797	833	7.0	-	.	
+ch.7370	RNASeq_reads	transcript_region	827	832	23.0	.	.	
+ch.7370	RNASeq_R_asymmetry	transcript_region	828	833	96889.0	.	.	
+ch.7370	WormBase	five_prime_UTR	831	831	.	-	.	Parent=Transcript:T10F2.5.1
+ch.7370	RNASeq_reads	transcript_region	833	833	13.0	.	.	
+ch.7370	RNASeq_R_asymmetry	transcript_region	834	836	5388.0	.	.	
+ch.7370	RNASeq_reads	transcript_region	834	917	1.0	.	.	
+ch.7370	RNASeq_splice	intron	855	908	3.0	+	.	
+ch.7370	RNASeq_R_asymmetry	transcript_region	863	907	2080.0	.	.	
+ch.7370	RNASeq_stranded	transcript_region	902	909	1.0	-	.	
+ch.7370	RNASeq_stranded	transcript_region	912	912	1.0	+	.	
+ch.7370	RNASeq_stranded	transcript_region	918	919	1.0	-	.	

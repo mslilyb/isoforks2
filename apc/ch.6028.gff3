@@ -1,0 +1,121 @@
+ch.6028	RNASeq_stranded	transcript_region	6	77	4.0	+	.	
+ch.6028	RNASeq_reads	transcript_region	19	74	11.0	.	.	
+ch.6028	WormBase	three_prime_UTR	29	108	.	+	.	Parent=Transcript:Y46G5A.10.1
+ch.6028	RNASeq_R_asymmetry	transcript_region	55	81	30074.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	75	92	7.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	78	97	2.0	+	.	
+ch.6028	RNASeq_stranded	transcript_region	92	98	1.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	93	98	4.0	.	.	
+ch.6028	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.6028	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.6028	RNASeq_stranded	transcript_region	98	98	1.0	+	.	
+ch.6028	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.6028	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.6028	RNASeq_reads	transcript_region	99	100	7.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	99	100	7.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	99	190	3.0	+	.	
+ch.6028	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.6028	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.6028	RNASeq_stranded	transcript_region	101	102	11.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	101	104	12.0	.	.	
+ch.6028	WormBase	three_prime_UTR	101	201	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	WormBase	exon	101	417	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	WormBase	gene	101	1097	.	-	.	ID=Gene:WBGene00012903
+ch.6028	WormBase	mRNA	101	1097	.	-	.	ID=Transcript:Y46G5A.12.1;Parent=Gene:WBGene00012903
+ch.6028	RNASeq_stranded	transcript_region	103	107	17.0	-	.	
+ch.6028	RNASeq_F_asymmetry	transcript_region	105	116	81827.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	105	120	20.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	108	114	30.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	115	123	46.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	121	138	33.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	124	147	73.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	139	209	50.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	148	165	110.0	-	.	
+ch.6028	RNASeq	transcription_end_site	165	165	.	+	.	
+ch.6028	RNASeq	transcription_end_site	165	165	.	+	.	
+ch.6028	RNASeq_stranded	transcript_region	166	254	168.0	-	.	
+ch.6028	RNASeq_splice	intron	166	895	9.0	+	.	
+ch.6028	RNASeq	transcription_end_site	177	177	.	+	.	
+ch.6028	RNASeq	transcription_end_site	177	177	.	+	.	
+ch.6028	RNASeq_stranded	transcript_region	191	215	1.0	+	.	
+ch.6028	WormBase	CDS	202	417	.	-	.	ID=CDS:Y46G5A.12;Parent=Transcript:Y46G5A.12.1
+ch.6028	RNASeq_reads	transcript_region	210	300	76.0	.	.	
+ch.6028	RNASeq_splice	intron	252	378	32.0	+	.	
+ch.6028	RNASeq_stranded	transcript_region	255	268	104.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	269	319	68.0	-	.	
+ch.6028	RNASeq_splice	intron	300	485	17.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	301	417	115.0	.	.	
+ch.6028	RNASeq_splice	intron	306	341	14.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	320	403	44.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	338	387	1.0	+	.	
+ch.6028	RNASeq_splice	intron	349	542	3.0	+	.	
+ch.6028	RNASeq_splice	intron	370	532	5.0	+	.	
+ch.6028	RNASeq_stranded	transcript_region	404	417	27.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	418	420	5.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	418	421	13.0	.	.	
+ch.6028	WormBase	intron	418	485	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	RNASeq_splice	intron	418	485	704389.0	-	.	
+ch.6028	RNASeq_splice	intron	418	785	8.0	-	.	
+ch.6028	RNASeq_splice	intron	418	1025	4.0	-	.	
+ch.6028	RNASeq_F_asymmetry	transcript_region	421	421	40101.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	421	421	3.0	+	.	
+ch.6028	RNASeq_reads	transcript_region	422	422	1.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	484	485	10.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	484	485	4.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	486	522	19.0	-	.	
+ch.6028	WormBase	CDS	486	731	.	-	.	ID=CDS:Y46G5A.12;Parent=Transcript:Y46G5A.12.1
+ch.6028	WormBase	exon	486	731	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	RNASeq_reads	transcript_region	486	731	128.0	.	.	
+ch.6028	RNASeq_splice	intron	507	560	11.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	507	606	1.0	+	.	
+ch.6028	RNASeq_splice	intron	510	560	7.0	-	.	
+ch.6028	RNASeq_splice	intron	522	587	9.0	+	.	
+ch.6028	RNASeq_stranded	transcript_region	523	632	29.0	-	.	
+ch.6028	RNASeq_splice	intron	561	857	3.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	633	669	44.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	670	724	29.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	725	731	16.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	732	736	21.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	732	736	3.0	-	.	
+ch.6028	WormBase	intron	732	785	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	RNASeq_splice	intron	732	785	441469.0	-	.	
+ch.6028	RNASeq_splice	intron	732	839	20.0	-	.	
+ch.6028	RNASeq_splice	intron	732	1025	12.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	737	737	1.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	785	785	11.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	785	785	2.0	+	.	
+ch.6028	RNASeq_stranded	transcript_region	786	801	13.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	786	828	89.0	.	.	
+ch.6028	WormBase	CDS	786	965	.	-	.	ID=CDS:Y46G5A.12;Parent=Transcript:Y46G5A.12.1
+ch.6028	WormBase	exon	786	965	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	RNASeq_stranded	transcript_region	802	823	21.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	824	891	34.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	829	965	134.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	892	943	22.0	-	.	
+ch.6028	RNASeq_stranded	transcript_region	944	965	34.0	-	.	
+ch.6028	RNASeq_reads	transcript_region	966	967	13.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	966	967	3.0	-	.	
+ch.6028	WormBase	intron	966	1025	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	RNASeq_splice	intron	966	1025	542150.0	-	.	
+ch.6028	RNASeq_splice	intron	972	1034	444.0	+	.	
+ch.6028	RNASeq_R_asymmetry	transcript_region	1025	1025	32967.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	1025	1025	7.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	1025	1025	2.0	+	.	
+ch.6028	RNASeq_reads	transcript_region	1026	1081	106.0	.	.	
+ch.6028	RNASeq_R_asymmetry	transcript_region	1026	1090	432332.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	1026	1093	34.0	-	.	
+ch.6028	WormBase	CDS	1026	1097	.	-	.	ID=CDS:Y46G5A.12;Parent=Transcript:Y46G5A.12.1
+ch.6028	WormBase	exon	1026	1097	.	-	.	Parent=Transcript:Y46G5A.12.1
+ch.6028	RNASeq_reads	transcript_region	1082	1093	69.0	.	.	
+ch.6028	RNASeq_R_asymmetry	transcript_region	1091	1096	282877.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	1094	1096	44.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	1094	1097	22.0	-	.	
+ch.6028	RNASeq_R_asymmetry	transcript_region	1097	1099	126355.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	1097	1099	25.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	1098	1099	14.0	-	.	
+ch.6028	RNASeq_R_asymmetry	transcript_region	1100	1103	68242.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	1100	1103	14.0	.	.	
+ch.6028	RNASeq_stranded	transcript_region	1100	1103	3.0	-	.	
+ch.6028	RNASeq_R_asymmetry	transcript_region	1104	1108	9340.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	1104	1108	2.0	.	.	
+ch.6028	RNASeq_reads	transcript_region	1109	1145	1.0	.	.	

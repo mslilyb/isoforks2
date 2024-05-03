@@ -1,0 +1,70 @@
+ch.11115	RNASeq_F_asymmetry	transcript_region	97	97	4401.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	97	97	1.0	.	.	
+ch.11115	RNASeq_F_asymmetry	transcript_region	98	98	10981.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	98	98	2.0	.	.	
+ch.11115	RNASeq_F_asymmetry	transcript_region	99	100	61894.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	99	100	13.0	.	.	
+ch.11115	RNASeq_stranded	transcript_region	100	103	1.0	-	.	
+ch.11115	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.11115	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.11115	RNASeq_reads	transcript_region	101	115	26.0	.	.	
+ch.11115	RNASeq_F_asymmetry	transcript_region	101	121	130032.0	.	.	
+ch.11115	WormBase	three_prime_UTR	101	150	.	-	.	Parent=Transcript:C04G2.8.1
+ch.11115	WormBase	exon	101	535	.	-	.	Parent=Transcript:C04G2.8.1
+ch.11115	WormBase	gene	101	824	.	-	.	ID=Gene:WBGene00007307
+ch.11115	WormBase	mRNA	101	824	.	-	.	ID=Transcript:C04G2.8.1;Parent=Gene:WBGene00007307
+ch.11115	RNASeq_stranded	transcript_region	104	116	2.0	-	.	
+ch.11115	RNASeq	transcription_end_site	114	114	.	+	.	
+ch.11115	RNASeq_reads	transcript_region	116	134	40.0	.	.	
+ch.11115	RNASeq_stranded	transcript_region	117	128	4.0	-	.	
+ch.11115	RNASeq_F_asymmetry	transcript_region	122	134	195257.0	.	.	
+ch.11115	RNASeq_stranded	transcript_region	129	140	7.0	-	.	
+ch.11115	RNASeq_reads	transcript_region	135	168	64.0	.	.	
+ch.11115	RNASeq_F_asymmetry	transcript_region	135	180	294954.0	.	.	
+ch.11115	RNASeq_stranded	transcript_region	141	213	11.0	-	.	
+ch.11115	WormBase	CDS	151	535	.	-	.	ID=CDS:C04G2.8;Parent=Transcript:C04G2.8.1
+ch.11115	RNASeq_reads	transcript_region	169	535	97.0	.	.	
+ch.11115	RNASeq_F_asymmetry	transcript_region	181	183	457520.0	.	.	
+ch.11115	RNASeq_splice	intron	203	304	3.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	214	261	17.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	262	290	11.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	291	320	7.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	321	415	4.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	340	347	1.0	+	.	
+ch.11115	RNASeq_stranded	transcript_region	416	535	7.0	-	.	
+ch.11115	RNASeq	transcription_end_site	419	419	.	+	.	
+ch.11115	RNASeq_splice	intron	421	474	3.0	+	.	
+ch.11115	RNASeq_splice	intron	507	669	3.0	+	.	
+ch.11115	RNASeq_reads	transcript_region	536	537	13.0	.	.	
+ch.11115	RNASeq_stranded	transcript_region	536	537	1.0	-	.	
+ch.11115	WormBase	intron	536	584	.	-	.	Parent=Transcript:C04G2.8.1
+ch.11115	RNASeq_splice	intron	536	584	591265.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	585	609	7.0	-	.	
+ch.11115	RNASeq_reads	transcript_region	585	790	106.0	.	.	
+ch.11115	WormBase	CDS	585	793	.	-	.	ID=CDS:C04G2.8;Parent=Transcript:C04G2.8.1
+ch.11115	WormBase	exon	585	824	.	-	.	Parent=Transcript:C04G2.8.1
+ch.11115	RNASeq_stranded	transcript_region	610	667	4.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	668	725	7.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	726	749	4.0	-	.	
+ch.11115	RNASeq_stranded	transcript_region	750	806	7.0	-	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	753	809	366569.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	791	809	67.0	.	.	
+ch.11115	WormBase	five_prime_UTR	794	824	.	-	.	Parent=Transcript:C04G2.8.1
+ch.11115	RNASeq_stranded	transcript_region	807	823	4.0	-	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	810	817	200193.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	810	817	40.0	.	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	818	821	130668.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	818	821	26.0	.	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	822	823	84107.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	822	823	17.0	.	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	824	828	54938.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	824	828	11.0	.	.	
+ch.11115	RNASeq_stranded	transcript_region	824	839	2.0	-	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	829	835	26685.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	829	835	5.0	.	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	836	841	15341.0	.	.	
+ch.11115	RNASeq_reads	transcript_region	836	844	3.0	.	.	
+ch.11115	RNASeq_stranded	transcript_region	840	841	1.0	-	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	842	844	9922.0	.	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	845	848	1231.0	.	.	
+ch.11115	RNASeq_R_asymmetry	transcript_region	849	860	780.0	.	.	

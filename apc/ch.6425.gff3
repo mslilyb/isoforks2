@@ -1,0 +1,96 @@
+ch.6425	RNASeq	transcription_end_site	94	94	.	+	.	
+ch.6425	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.6425	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.6425	RNASeq_reads	transcript_region	99	100	1.0	.	.	
+ch.6425	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.6425	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.6425	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	101	102	8588.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	101	102	2.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	101	102	1.0	-	.	
+ch.6425	WormBase	three_prime_UTR	101	150	.	-	.	Parent=Transcript:Y53F4B.30.1
+ch.6425	WormBase	exon	101	641	.	-	.	Parent=Transcript:Y53F4B.30.1
+ch.6425	WormBase	gene	101	942	.	-	.	ID=Gene:WBGene00001775
+ch.6425	WormBase	mRNA	101	942	.	-	.	ID=Transcript:Y53F4B.30.1;Parent=Gene:WBGene00001775
+ch.6425	RNASeq	transcription_end_site	102	102	.	+	.	
+ch.6425	RNASeq	transcription_end_site	102	102	.	+	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	103	108	15191.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	103	110	4.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	103	111	2.0	-	.	
+ch.6425	RNASeq	transcription_end_site	104	104	.	+	.	
+ch.6425	RNASeq	transcription_end_site	104	104	.	+	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	109	115	23585.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	111	120	7.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	112	123	4.0	-	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	116	127	35719.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	121	131	11.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	124	141	7.0	-	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	128	132	53720.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	132	133	19.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	133	133	1.0	+	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	133	134	98087.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	134	148	30.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	134	184	2.0	+	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	135	152	155334.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	142	160	11.0	-	.	
+ch.6425	RNASeq	transcription_end_site	147	147	.	+	.	
+ch.6425	RNASeq_reads	transcript_region	149	169	46.0	.	.	
+ch.6425	WormBase	CDS	151	641	.	-	.	ID=CDS:Y53F4B.30;Parent=Transcript:Y53F4B.30.1
+ch.6425	RNASeq_F_asymmetry	transcript_region	153	194	234938.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	161	313	17.0	-	.	
+ch.6425	RNASeq_reads	transcript_region	170	242	70.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	185	227	1.0	+	.	
+ch.6425	RNASeq	transcription_end_site	191	191	.	+	.	
+ch.6425	RNASeq_F_asymmetry	transcript_region	195	221	360017.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	243	641	106.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	314	374	11.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	375	382	7.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	383	415	11.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	416	494	17.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	495	641	26.0	-	.	
+ch.6425	RNASeq_splice	intron	518	542	3.0	+	.	
+ch.6425	RNASeq_stranded	transcript_region	528	580	1.0	+	.	
+ch.6425	RNASeq_splice	intron	609	741	3.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	620	628	1.0	+	.	
+ch.6425	RNASeq_splice	intron	642	737	5.0	-	.	
+ch.6425	WormBase	intron	642	741	.	-	.	Parent=Transcript:Y53F4B.30.1
+ch.6425	RNASeq_splice	intron	642	741	802683.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	742	760	1.0	+	.	
+ch.6425	RNASeq_stranded	transcript_region	742	779	19.0	-	.	
+ch.6425	RNASeq_reads	transcript_region	742	873	120.0	.	.	
+ch.6425	WormBase	CDS	742	880	.	-	.	ID=CDS:Y53F4B.30;Parent=Transcript:Y53F4B.30.1
+ch.6425	WormBase	exon	742	942	.	-	.	Parent=Transcript:Y53F4B.30.1
+ch.6425	RNASeq_stranded	transcript_region	780	785	12.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	786	812	19.0	-	.	
+ch.6425	RNASeq_splice	intron	790	850	3.0	-	.	
+ch.6425	RNASeq_splice	intron	793	837	4.0	+	.	
+ch.6425	RNASeq_stranded	transcript_region	813	863	43.0	-	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	818	896	507559.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	864	869	24.0	-	.	
+ch.6425	RNASeq_stranded	transcript_region	870	904	15.0	-	.	
+ch.6425	RNASeq_reads	transcript_region	874	908	79.0	.	.	
+ch.6425	WormBase	five_prime_UTR	881	942	.	-	.	Parent=Transcript:Y53F4B.30.1
+ch.6425	RNASeq_R_asymmetry	transcript_region	897	915	323063.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	905	925	9.0	-	.	
+ch.6425	RNASeq_reads	transcript_region	909	916	51.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	916	918	169430.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	917	920	28.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	919	924	95297.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	921	924	17.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	925	927	54751.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	925	927	11.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	926	929	5.0	-	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	928	933	28727.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	928	933	6.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	930	933	3.0	-	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	934	938	16212.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	934	942	3.0	.	.	
+ch.6425	RNASeq_stranded	transcript_region	934	942	1.0	-	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	939	942	8723.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	943	951	4941.0	.	.	
+ch.6425	RNASeq_reads	transcript_region	943	958	1.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	952	961	3215.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	962	973	2094.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	974	975	1380.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	976	986	873.0	.	.	
+ch.6425	RNASeq_R_asymmetry	transcript_region	987	990	570.0	.	.	

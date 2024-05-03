@@ -1,84 +1,84 @@
-ch.6451	RNASeq	transcription_end_site	797	797	.	-	.	
-ch.6451	RNASeq	transcription_end_site	797	797	.	-	.	
-ch.6451	RNASeq_stranded	transcript_region	782	791	1.0	+	.	
-ch.6451	RNASeq	transcription_end_site	789	789	.	-	.	
-ch.6451	RNASeq	transcription_end_site	789	789	.	-	.	
-ch.6451	RNASeq	transcription_end_site	785	785	.	-	.	
-ch.6451	RNASeq_reads	transcript_region	782	785	1.0	.	.	
-ch.6451	RNASeq	transcription_end_site	784	784	.	-	.	
-ch.6451	RNASeq	transcription_end_site	784	784	.	-	.	
-ch.6451	RNASeq	transcription_end_site	781	781	.	-	.	
-ch.6451	RNASeq	transcription_end_site	781	781	.	-	.	
-ch.6451	RNASeq_reads	transcript_region	780	781	4.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	775	781	8.0	+	.	
-ch.6451	RNASeq_stranded	transcript_region	701	781	2.0	-	.	
-ch.6451	RNASeq_F_asymmetry	transcript_region	779	780	24957.0	.	.	
-ch.6451	WormBase	three_prime_UTR	628	780	.	+	.	Parent=Transcript:F54C4.2.1
-ch.6451	WormBase	exon	423	780	.	+	.	Parent=Transcript:F54C4.2.1
-ch.6451	WormBase	gene	101	780	.	+	.	ID=Gene:WBGene00005014
-ch.6451	WormBase	mRNA	101	780	.	+	.	ID=Transcript:F54C4.2.1;Parent=Gene:WBGene00005014
-ch.6451	RNASeq_reads	transcript_region	774	779	8.0	.	.	
-ch.6451	RNASeq_F_asymmetry	transcript_region	772	778	39927.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	768	774	13.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	769	773	13.0	.	.	
-ch.6451	RNASeq_F_asymmetry	transcript_region	763	771	69519.0	.	.	
-ch.6451	RNASeq_reads	transcript_region	753	768	21.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	761	767	21.0	+	.	
-ch.6451	RNASeq_F_asymmetry	transcript_region	730	762	106039.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	751	760	32.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	703	752	32.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	716	750	49.0	+	.	
-ch.6451	RNASeq	transcription_end_site	728	728	.	-	.	
-ch.6451	RNASeq_stranded	transcript_region	688	715	76.0	+	.	
-ch.6451	RNASeq	transcription_end_site	710	710	.	-	.	
-ch.6451	RNASeq	transcription_end_site	710	710	.	-	.	
-ch.6451	RNASeq_reads	transcript_region	688	702	49.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	691	700	1.0	-	.	
-ch.6451	RNASeq	transcription_end_site	698	698	.	-	.	
-ch.6451	RNASeq	transcription_end_site	698	698	.	-	.	
-ch.6451	RNASeq_stranded	transcript_region	653	687	222.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	517	687	79.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	593	652	51.0	+	.	
-ch.6451	RNASeq	transcription_end_site	643	643	.	-	.	
-ch.6451	RNASeq	transcription_end_site	643	643	.	-	.	
-ch.6451	RNASeq	transcription_end_site	627	627	.	-	.	
-ch.6451	RNASeq	transcription_end_site	627	627	.	-	.	
-ch.6451	WormBase	CDS	423	627	.	+	.	ID=CDS:F54C4.2;Parent=Transcript:F54C4.2.1
-ch.6451	RNASeq_stranded	transcript_region	550	592	27.0	+	.	
-ch.6451	RNASeq_stranded	transcript_region	423	549	17.0	+	.	
-ch.6451	RNASeq_splice	intron	273	535	16.0	+	.	
-ch.6451	RNASeq_splice	intron	273	524	48.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	423	516	119.0	.	.	
-ch.6451	RNASeq_splice	intron	468	502	3.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	420	422	18.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	420	422	6.0	+	.	
-ch.6451	RNASeq_splice	intron	276	422	21.0	+	.	
-ch.6451	WormBase	intron	273	422	.	+	.	Parent=Transcript:F54C4.2.1
-ch.6451	RNASeq_splice	intron	273	422	650078.0	+	.	
-ch.6451	RNASeq_splice	intron	256	422	357.0	+	.	
-ch.6451	RNASeq_splice	intron	175	422	8.0	+	.	
-ch.6451	RNASeq_stranded	transcript_region	257	272	17.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	125	272	117.0	.	.	
-ch.6451	WormBase	CDS	115	272	.	+	.	ID=CDS:F54C4.2;Parent=Transcript:F54C4.2.1
-ch.6451	WormBase	exon	101	272	.	+	.	Parent=Transcript:F54C4.2.1
-ch.6451	RNASeq_stranded	transcript_region	221	256	26.0	+	.	
-ch.6451	RNASeq_stranded	transcript_region	239	250	1.0	-	.	
-ch.6451	RNASeq_splice	intron	172	234	5.0	-	.	
-ch.6451	RNASeq_stranded	transcript_region	141	220	40.0	+	.	
-ch.6451	RNASeq_splice	intron	171	205	3.0	-	.	
-ch.6451	RNASeq_splice	intron	152	198	4.0	+	.	
-ch.6451	RNASeq_R_asymmetry	transcript_region	111	175	475565.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	156	157	1.0	-	.	
-ch.6451	RNASeq_stranded	transcript_region	114	140	26.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	105	124	77.0	.	.	
-ch.6451	WormBase	five_prime_UTR	101	114	.	+	.	Parent=Transcript:F54C4.2.1
-ch.6451	RNASeq_stranded	transcript_region	106	113	17.0	+	.	
-ch.6451	RNASeq_R_asymmetry	transcript_region	102	110	311069.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	101	105	11.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	101	104	45.0	.	.	
-ch.6451	RNASeq_R_asymmetry	transcript_region	101	101	202865.0	.	.	
-ch.6451	RNASeq_reads	transcript_region	98	100	3.0	.	.	
-ch.6451	RNASeq_stranded	transcript_region	98	100	1.0	+	.	
-ch.6451	RNASeq_reads	transcript_region	56	97	1.0	.	.	
-ch.6451	RNASeq_R_asymmetry	transcript_region	75	94	5229.0	.	.	
-ch.6451	RNASeq_R_asymmetry	transcript_region	74	74	3285.0	.	.	
+ch.6451	RNASeq	transcription_end_site	84	84	.	+	.	
+ch.6451	RNASeq	transcription_end_site	84	84	.	+	.	
+ch.6451	RNASeq_stranded	transcript_region	90	99	1.0	-	.	
+ch.6451	RNASeq	transcription_end_site	92	92	.	+	.	
+ch.6451	RNASeq	transcription_end_site	92	92	.	+	.	
+ch.6451	RNASeq	transcription_end_site	96	96	.	+	.	
+ch.6451	RNASeq_reads	transcript_region	96	99	1.0	.	.	
+ch.6451	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.6451	RNASeq	transcription_end_site	97	97	.	+	.	
+ch.6451	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.6451	RNASeq	transcription_end_site	100	100	.	+	.	
+ch.6451	RNASeq_reads	transcript_region	100	101	4.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	100	106	8.0	-	.	
+ch.6451	RNASeq_stranded	transcript_region	100	180	2.0	+	.	
+ch.6451	RNASeq_F_asymmetry	transcript_region	101	102	24957.0	.	.	
+ch.6451	WormBase	three_prime_UTR	101	253	.	-	.	Parent=Transcript:F54C4.2.1
+ch.6451	WormBase	exon	101	458	.	-	.	Parent=Transcript:F54C4.2.1
+ch.6451	WormBase	gene	101	780	.	-	.	ID=Gene:WBGene00005014
+ch.6451	WormBase	mRNA	101	780	.	-	.	ID=Transcript:F54C4.2.1;Parent=Gene:WBGene00005014
+ch.6451	RNASeq_reads	transcript_region	102	107	8.0	.	.	
+ch.6451	RNASeq_F_asymmetry	transcript_region	103	109	39927.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	107	113	13.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	108	112	13.0	.	.	
+ch.6451	RNASeq_F_asymmetry	transcript_region	110	118	69519.0	.	.	
+ch.6451	RNASeq_reads	transcript_region	113	128	21.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	114	120	21.0	-	.	
+ch.6451	RNASeq_F_asymmetry	transcript_region	119	151	106039.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	121	130	32.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	129	178	32.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	131	165	49.0	-	.	
+ch.6451	RNASeq	transcription_end_site	153	153	.	+	.	
+ch.6451	RNASeq_stranded	transcript_region	166	193	76.0	-	.	
+ch.6451	RNASeq	transcription_end_site	171	171	.	+	.	
+ch.6451	RNASeq	transcription_end_site	171	171	.	+	.	
+ch.6451	RNASeq_reads	transcript_region	179	193	49.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	181	190	1.0	+	.	
+ch.6451	RNASeq	transcription_end_site	183	183	.	+	.	
+ch.6451	RNASeq	transcription_end_site	183	183	.	+	.	
+ch.6451	RNASeq_stranded	transcript_region	194	228	222.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	194	364	79.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	229	288	51.0	-	.	
+ch.6451	RNASeq	transcription_end_site	238	238	.	+	.	
+ch.6451	RNASeq	transcription_end_site	238	238	.	+	.	
+ch.6451	RNASeq	transcription_end_site	254	254	.	+	.	
+ch.6451	RNASeq	transcription_end_site	254	254	.	+	.	
+ch.6451	WormBase	CDS	254	458	.	-	.	ID=CDS:F54C4.2;Parent=Transcript:F54C4.2.1
+ch.6451	RNASeq_stranded	transcript_region	289	331	27.0	-	.	
+ch.6451	RNASeq_stranded	transcript_region	332	458	17.0	-	.	
+ch.6451	RNASeq_splice	intron	346	608	16.0	-	.	
+ch.6451	RNASeq_splice	intron	357	608	48.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	365	458	119.0	.	.	
+ch.6451	RNASeq_splice	intron	379	413	3.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	459	461	18.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	459	461	6.0	-	.	
+ch.6451	RNASeq_splice	intron	459	605	21.0	-	.	
+ch.6451	WormBase	intron	459	608	.	-	.	Parent=Transcript:F54C4.2.1
+ch.6451	RNASeq_splice	intron	459	608	650078.0	-	.	
+ch.6451	RNASeq_splice	intron	459	625	357.0	-	.	
+ch.6451	RNASeq_splice	intron	459	706	8.0	-	.	
+ch.6451	RNASeq_stranded	transcript_region	609	624	17.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	609	756	117.0	.	.	
+ch.6451	WormBase	CDS	609	766	.	-	.	ID=CDS:F54C4.2;Parent=Transcript:F54C4.2.1
+ch.6451	WormBase	exon	609	780	.	-	.	Parent=Transcript:F54C4.2.1
+ch.6451	RNASeq_stranded	transcript_region	625	660	26.0	-	.	
+ch.6451	RNASeq_stranded	transcript_region	631	642	1.0	+	.	
+ch.6451	RNASeq_splice	intron	647	709	5.0	+	.	
+ch.6451	RNASeq_stranded	transcript_region	661	740	40.0	-	.	
+ch.6451	RNASeq_splice	intron	676	710	3.0	+	.	
+ch.6451	RNASeq_splice	intron	683	729	4.0	-	.	
+ch.6451	RNASeq_R_asymmetry	transcript_region	706	770	475565.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	724	725	1.0	+	.	
+ch.6451	RNASeq_stranded	transcript_region	741	767	26.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	757	776	77.0	.	.	
+ch.6451	WormBase	five_prime_UTR	767	780	.	-	.	Parent=Transcript:F54C4.2.1
+ch.6451	RNASeq_stranded	transcript_region	768	775	17.0	-	.	
+ch.6451	RNASeq_R_asymmetry	transcript_region	771	779	311069.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	776	780	11.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	777	780	45.0	.	.	
+ch.6451	RNASeq_R_asymmetry	transcript_region	780	780	202865.0	.	.	
+ch.6451	RNASeq_reads	transcript_region	781	783	3.0	.	.	
+ch.6451	RNASeq_stranded	transcript_region	781	783	1.0	-	.	
+ch.6451	RNASeq_reads	transcript_region	784	825	1.0	.	.	
+ch.6451	RNASeq_R_asymmetry	transcript_region	787	806	5229.0	.	.	
+ch.6451	RNASeq_R_asymmetry	transcript_region	807	807	3285.0	.	.	

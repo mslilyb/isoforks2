@@ -1,95 +1,95 @@
-ch.18780	RNASeq_stranded	transcript_region	821	822	1.0	+	.	
-ch.18780	RNASeq_F_asymmetry	transcript_region	790	810	2098.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	790	810	1.0	.	.	
-ch.18780	RNASeq	transcription_end_site	791	791	.	-	.	
-ch.18780	RNASeq_stranded	transcript_region	790	791	1.0	+	.	
-ch.18780	RNASeq	transcription_end_site	789	789	.	-	.	
-ch.18780	RNASeq	transcription_end_site	789	789	.	-	.	
-ch.18780	RNASeq_reads	transcript_region	788	789	3.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	788	789	4.0	+	.	
-ch.18780	WormBase	three_prime_UTR	626	789	.	+	.	Parent=Transcript:F45E1.6.1
-ch.18780	WormBase	exon	441	789	.	+	.	Parent=Transcript:F45E1.6.1
-ch.18780	WormBase	gene	101	789	.	+	.	ID=Gene:WBGene00001945
-ch.18780	WormBase	mRNA	101	789	.	+	.	ID=Transcript:F45E1.6.1;Parent=Gene:WBGene00001945
-ch.18780	RNASeq_reads	transcript_region	784	787	5.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	782	787	7.0	+	.	
-ch.18780	RNASeq_F_asymmetry	transcript_region	782	786	27320.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	776	783	8.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	773	781	13.0	+	.	
-ch.18780	RNASeq	transcription_end_site	778	778	.	-	.	
-ch.18780	RNASeq_F_asymmetry	transcript_region	771	777	42400.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	760	775	14.0	.	.	
-ch.18780	RNASeq	transcription_end_site	774	774	.	-	.	
-ch.18780	RNASeq	transcription_end_site	774	774	.	-	.	
-ch.18780	RNASeq_stranded	transcript_region	761	774	1.0	-	.	
-ch.18780	RNASeq_stranded	transcript_region	764	772	20.0	+	.	
-ch.18780	RNASeq_F_asymmetry	transcript_region	765	767	74590.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	759	763	31.0	+	.	
-ch.18780	RNASeq_reads	transcript_region	742	759	22.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	747	758	49.0	+	.	
-ch.18780	RNASeq	transcription_end_site	751	751	.	-	.	
-ch.18780	RNASeq	transcription_end_site	751	751	.	-	.	
-ch.18780	RNASeq	transcription_end_site	748	748	.	-	.	
-ch.18780	RNASeq	transcription_end_site	748	748	.	-	.	
-ch.18780	RNASeq	transcription_end_site	746	746	.	-	.	
-ch.18780	RNASeq_stranded	transcript_region	730	746	74.0	+	.	
-ch.18780	RNASeq	transcription_end_site	742	742	.	-	.	
-ch.18780	RNASeq_reads	transcript_region	730	741	34.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	704	729	67.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	653	729	120.0	+	.	
-ch.18780	RNASeq_stranded	transcript_region	678	728	1.0	-	.	
-ch.18780	RNASeq_reads	transcript_region	641	703	101.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	633	652	79.0	+	.	
-ch.18780	RNASeq_reads	transcript_region	441	640	152.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	550	632	50.0	+	.	
-ch.18780	WormBase	CDS	441	625	.	+	.	ID=CDS:F45E1.6;Parent=Transcript:F45E1.6.1
-ch.18780	RNASeq_stranded	transcript_region	531	581	1.0	-	.	
-ch.18780	RNASeq_stranded	transcript_region	453	549	32.0	+	.	
-ch.18780	RNASeq_stranded	transcript_region	441	481	1.0	-	.	
-ch.18780	RNASeq_splice	intron	389	454	284.0	+	.	
-ch.18780	RNASeq_stranded	transcript_region	452	452	19.0	-	.	
-ch.18780	RNASeq_stranded	transcript_region	441	451	12.0	+	.	
-ch.18780	RNASeq_splice	intron	401	446	3.0	+	.	
-ch.18780	RNASeq_splice	intron	389	446	755.0	+	.	
-ch.18780	RNASeq_reads	transcript_region	440	440	20.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	440	440	3.0	-	.	
-ch.18780	RNASeq_splice	intron	401	440	11.0	+	.	
-ch.18780	WormBase	intron	389	440	.	+	.	Parent=Transcript:F45E1.6.1
-ch.18780	RNASeq_splice	intron	389	440	1089230.0	+	.	
-ch.18780	RNASeq_splice	intron	376	440	22.0	+	.	
-ch.18780	RNASeq_reads	transcript_region	438	439	1.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	380	388	1.0	-	.	
-ch.18780	RNASeq_stranded	transcript_region	374	388	8.0	+	.	
-ch.18780	WormBase	CDS	235	388	.	+	.	ID=CDS:F45E1.6;Parent=Transcript:F45E1.6.1
-ch.18780	WormBase	exon	235	388	.	+	.	Parent=Transcript:F45E1.6.1
-ch.18780	RNASeq_reads	transcript_region	235	388	181.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	324	373	13.0	+	.	
-ch.18780	RNASeq_stranded	transcript_region	274	323	20.0	+	.	
-ch.18780	RNASeq_splice	intron	189	295	19.0	+	.	
-ch.18780	RNASeq_stranded	transcript_region	235	273	13.0	+	.	
-ch.18780	RNASeq_reads	transcript_region	233	234	15.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	233	234	2.0	+	.	
-ch.18780	WormBase	intron	189	234	.	+	.	Parent=Transcript:F45E1.6.1
-ch.18780	RNASeq_splice	intron	189	234	826010.0	+	.	
-ch.18780	RNASeq_splice	intron	189	222	5.0	+	.	
-ch.18780	RNASeq_R_asymmetry	transcript_region	189	189	115392.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	189	189	24.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	189	189	2.0	-	.	
-ch.18780	RNASeq_stranded	transcript_region	183	188	10.0	+	.	
-ch.18780	WormBase	CDS	117	188	.	+	.	ID=CDS:F45E1.6;Parent=Transcript:F45E1.6.1
-ch.18780	RNASeq_reads	transcript_region	113	188	172.0	.	.	
-ch.18780	RNASeq_R_asymmetry	transcript_region	106	188	686581.0	.	.	
-ch.18780	WormBase	exon	101	188	.	+	.	Parent=Transcript:F45E1.6.1
-ch.18780	RNASeq_stranded	transcript_region	104	182	16.0	+	.	
-ch.18780	WormBase	five_prime_UTR	101	116	.	+	.	Parent=Transcript:F45E1.6.1
-ch.18780	RNASeq_reads	transcript_region	106	112	113.0	.	.	
-ch.18780	RNASeq_R_asymmetry	transcript_region	100	105	256776.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	100	105	51.0	.	.	
-ch.18780	RNASeq_stranded	transcript_region	102	103	10.0	+	.	
-ch.18780	RNASeq_stranded	transcript_region	99	101	6.0	+	.	
-ch.18780	RNASeq_R_asymmetry	transcript_region	95	99	152996.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	95	99	30.0	.	.	
-ch.18780	RNASeq_R_asymmetry	transcript_region	92	94	37727.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	92	94	8.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	76	91	1.0	.	.	
-ch.18780	RNASeq_reads	transcript_region	67	67	1.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	68	69	1.0	-	.	
+ch.18780	RNASeq_F_asymmetry	transcript_region	80	100	2098.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	80	100	1.0	.	.	
+ch.18780	RNASeq	transcription_end_site	99	99	.	+	.	
+ch.18780	RNASeq_stranded	transcript_region	99	100	1.0	-	.	
+ch.18780	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.18780	RNASeq	transcription_end_site	101	101	.	+	.	
+ch.18780	RNASeq_reads	transcript_region	101	102	3.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	101	102	4.0	-	.	
+ch.18780	WormBase	three_prime_UTR	101	264	.	-	.	Parent=Transcript:F45E1.6.1
+ch.18780	WormBase	exon	101	449	.	-	.	Parent=Transcript:F45E1.6.1
+ch.18780	WormBase	gene	101	789	.	-	.	ID=Gene:WBGene00001945
+ch.18780	WormBase	mRNA	101	789	.	-	.	ID=Transcript:F45E1.6.1;Parent=Gene:WBGene00001945
+ch.18780	RNASeq_reads	transcript_region	103	106	5.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	103	108	7.0	-	.	
+ch.18780	RNASeq_F_asymmetry	transcript_region	104	108	27320.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	107	114	8.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	109	117	13.0	-	.	
+ch.18780	RNASeq	transcription_end_site	112	112	.	+	.	
+ch.18780	RNASeq_F_asymmetry	transcript_region	113	119	42400.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	115	130	14.0	.	.	
+ch.18780	RNASeq	transcription_end_site	116	116	.	+	.	
+ch.18780	RNASeq	transcription_end_site	116	116	.	+	.	
+ch.18780	RNASeq_stranded	transcript_region	116	129	1.0	+	.	
+ch.18780	RNASeq_stranded	transcript_region	118	126	20.0	-	.	
+ch.18780	RNASeq_F_asymmetry	transcript_region	123	125	74590.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	127	131	31.0	-	.	
+ch.18780	RNASeq_reads	transcript_region	131	148	22.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	132	143	49.0	-	.	
+ch.18780	RNASeq	transcription_end_site	139	139	.	+	.	
+ch.18780	RNASeq	transcription_end_site	139	139	.	+	.	
+ch.18780	RNASeq	transcription_end_site	142	142	.	+	.	
+ch.18780	RNASeq	transcription_end_site	142	142	.	+	.	
+ch.18780	RNASeq	transcription_end_site	144	144	.	+	.	
+ch.18780	RNASeq_stranded	transcript_region	144	160	74.0	-	.	
+ch.18780	RNASeq	transcription_end_site	148	148	.	+	.	
+ch.18780	RNASeq_reads	transcript_region	149	160	34.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	161	186	67.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	161	237	120.0	-	.	
+ch.18780	RNASeq_stranded	transcript_region	162	212	1.0	+	.	
+ch.18780	RNASeq_reads	transcript_region	187	249	101.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	238	257	79.0	-	.	
+ch.18780	RNASeq_reads	transcript_region	250	449	152.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	258	340	50.0	-	.	
+ch.18780	WormBase	CDS	265	449	.	-	.	ID=CDS:F45E1.6;Parent=Transcript:F45E1.6.1
+ch.18780	RNASeq_stranded	transcript_region	309	359	1.0	+	.	
+ch.18780	RNASeq_stranded	transcript_region	341	437	32.0	-	.	
+ch.18780	RNASeq_stranded	transcript_region	409	449	1.0	+	.	
+ch.18780	RNASeq_splice	intron	436	501	284.0	-	.	
+ch.18780	RNASeq_stranded	transcript_region	438	438	19.0	+	.	
+ch.18780	RNASeq_stranded	transcript_region	439	449	12.0	-	.	
+ch.18780	RNASeq_splice	intron	444	489	3.0	-	.	
+ch.18780	RNASeq_splice	intron	444	501	755.0	-	.	
+ch.18780	RNASeq_reads	transcript_region	450	450	20.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	450	450	3.0	+	.	
+ch.18780	RNASeq_splice	intron	450	489	11.0	-	.	
+ch.18780	WormBase	intron	450	501	.	-	.	Parent=Transcript:F45E1.6.1
+ch.18780	RNASeq_splice	intron	450	501	1089230.0	-	.	
+ch.18780	RNASeq_splice	intron	450	514	22.0	-	.	
+ch.18780	RNASeq_reads	transcript_region	451	452	1.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	502	510	1.0	+	.	
+ch.18780	RNASeq_stranded	transcript_region	502	516	8.0	-	.	
+ch.18780	WormBase	CDS	502	655	.	-	.	ID=CDS:F45E1.6;Parent=Transcript:F45E1.6.1
+ch.18780	WormBase	exon	502	655	.	-	.	Parent=Transcript:F45E1.6.1
+ch.18780	RNASeq_reads	transcript_region	502	655	181.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	517	566	13.0	-	.	
+ch.18780	RNASeq_stranded	transcript_region	567	616	20.0	-	.	
+ch.18780	RNASeq_splice	intron	595	701	19.0	-	.	
+ch.18780	RNASeq_stranded	transcript_region	617	655	13.0	-	.	
+ch.18780	RNASeq_reads	transcript_region	656	657	15.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	656	657	2.0	-	.	
+ch.18780	WormBase	intron	656	701	.	-	.	Parent=Transcript:F45E1.6.1
+ch.18780	RNASeq_splice	intron	656	701	826010.0	-	.	
+ch.18780	RNASeq_splice	intron	668	701	5.0	-	.	
+ch.18780	RNASeq_R_asymmetry	transcript_region	701	701	115392.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	701	701	24.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	701	701	2.0	+	.	
+ch.18780	RNASeq_stranded	transcript_region	702	707	10.0	-	.	
+ch.18780	WormBase	CDS	702	773	.	-	.	ID=CDS:F45E1.6;Parent=Transcript:F45E1.6.1
+ch.18780	RNASeq_reads	transcript_region	702	777	172.0	.	.	
+ch.18780	RNASeq_R_asymmetry	transcript_region	702	784	686581.0	.	.	
+ch.18780	WormBase	exon	702	789	.	-	.	Parent=Transcript:F45E1.6.1
+ch.18780	RNASeq_stranded	transcript_region	708	786	16.0	-	.	
+ch.18780	WormBase	five_prime_UTR	774	789	.	-	.	Parent=Transcript:F45E1.6.1
+ch.18780	RNASeq_reads	transcript_region	778	784	113.0	.	.	
+ch.18780	RNASeq_R_asymmetry	transcript_region	785	790	256776.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	785	790	51.0	.	.	
+ch.18780	RNASeq_stranded	transcript_region	787	788	10.0	-	.	
+ch.18780	RNASeq_stranded	transcript_region	789	791	6.0	-	.	
+ch.18780	RNASeq_R_asymmetry	transcript_region	791	795	152996.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	791	795	30.0	.	.	
+ch.18780	RNASeq_R_asymmetry	transcript_region	796	798	37727.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	796	798	8.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	799	814	1.0	.	.	
+ch.18780	RNASeq_reads	transcript_region	823	823	1.0	.	.	

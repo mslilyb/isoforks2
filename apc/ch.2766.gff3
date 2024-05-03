@@ -1,48 +1,48 @@
-ch.2766	RNASeq	transcription_end_site	757	757	.	-	.	
-ch.2766	RNASeq	transcription_end_site	757	757	.	-	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	728	731	2759.0	.	.	
-ch.2766	RNASeq_reads	transcript_region	724	731	1.0	.	.	
-ch.2766	WormBase	three_prime_UTR	614	727	.	+	.	Parent=Transcript:ZC334.1.1
-ch.2766	WormBase	exon	525	727	.	+	.	Parent=Transcript:ZC334.1.1
-ch.2766	WormBase	gene	101	727	.	+	.	ID=Gene:WBGene00002109
-ch.2766	WormBase	mRNA	101	727	.	+	.	ID=Transcript:ZC334.1.1;Parent=Gene:WBGene00002109
-ch.2766	RNASeq_reads	transcript_region	701	723	2.0	.	.	
-ch.2766	RNASeq_stranded	transcript_region	704	722	1.0	+	.	
-ch.2766	RNASeq_stranded	transcript_region	694	703	2.0	+	.	
-ch.2766	RNASeq_reads	transcript_region	683	700	4.0	.	.	
-ch.2766	RNASeq_stranded	transcript_region	543	693	4.0	+	.	
-ch.2766	RNASeq_reads	transcript_region	654	682	8.0	.	.	
-ch.2766	RNASeq_reads	transcript_region	613	653	13.0	.	.	
-ch.2766	WormBase	CDS	525	613	.	+	.	ID=CDS:ZC334.1;Parent=Transcript:ZC334.1.1
-ch.2766	RNASeq_reads	transcript_region	525	612	20.0	.	.	
-ch.2766	RNASeq_stranded	transcript_region	525	542	2.0	+	.	
-ch.2766	RNASeq_reads	transcript_region	524	524	2.0	.	.	
-ch.2766	WormBase	intron	357	524	.	+	.	Parent=Transcript:ZC334.1.1
-ch.2766	RNASeq_splice	intron	357	524	101581.0	+	.	
-ch.2766	RNASeq_splice	intron	357	505	14.0	+	.	
-ch.2766	RNASeq_splice	intron	357	484	13.0	+	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	448	448	533.0	.	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	429	434	524.0	.	.	
-ch.2766	RNASeq_stranded	transcript_region	331	356	2.0	+	.	
-ch.2766	RNASeq_reads	transcript_region	157	356	21.0	.	.	
-ch.2766	WormBase	CDS	113	356	.	+	.	ID=CDS:ZC334.1;Parent=Transcript:ZC334.1.1
-ch.2766	WormBase	exon	101	356	.	+	.	Parent=Transcript:ZC334.1.1
-ch.2766	RNASeq_stranded	transcript_region	299	330	4.0	+	.	
-ch.2766	RNASeq_stranded	transcript_region	280	298	2.0	+	.	
-ch.2766	RNASeq_stranded	transcript_region	232	279	1.0	+	.	
-ch.2766	RNASeq_stranded	transcript_region	182	231	2.0	+	.	
-ch.2766	RNASeq_stranded	transcript_region	153	181	1.0	+	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	109	180	58595.0	.	.	
-ch.2766	RNASeq_reads	transcript_region	109	156	13.0	.	.	
-ch.2766	RNASeq_stranded	transcript_region	102	152	2.0	+	.	
-ch.2766	WormBase	five_prime_UTR	101	112	.	+	.	Parent=Transcript:ZC334.1.1
-ch.2766	RNASeq_reads	transcript_region	99	108	8.0	.	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	98	108	38428.0	.	.	
-ch.2766	RNASeq_stranded	transcript_region	99	101	1.0	+	.	
-ch.2766	RNASeq_reads	transcript_region	87	98	5.0	.	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	87	97	25144.0	.	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	81	86	16561.0	.	.	
-ch.2766	RNASeq_reads	transcript_region	75	86	3.0	.	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	75	80	10120.0	.	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	74	74	655.0	.	.	
-ch.2766	RNASeq_R_asymmetry	transcript_region	73	73	362.0	.	.	
+ch.2766	RNASeq	transcription_end_site	71	71	.	+	.	
+ch.2766	RNASeq	transcription_end_site	71	71	.	+	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	97	100	2759.0	.	.	
+ch.2766	RNASeq_reads	transcript_region	97	104	1.0	.	.	
+ch.2766	WormBase	three_prime_UTR	101	214	.	-	.	Parent=Transcript:ZC334.1.1
+ch.2766	WormBase	exon	101	303	.	-	.	Parent=Transcript:ZC334.1.1
+ch.2766	WormBase	gene	101	727	.	-	.	ID=Gene:WBGene00002109
+ch.2766	WormBase	mRNA	101	727	.	-	.	ID=Transcript:ZC334.1.1;Parent=Gene:WBGene00002109
+ch.2766	RNASeq_reads	transcript_region	105	127	2.0	.	.	
+ch.2766	RNASeq_stranded	transcript_region	106	124	1.0	-	.	
+ch.2766	RNASeq_stranded	transcript_region	125	134	2.0	-	.	
+ch.2766	RNASeq_reads	transcript_region	128	145	4.0	.	.	
+ch.2766	RNASeq_stranded	transcript_region	135	285	4.0	-	.	
+ch.2766	RNASeq_reads	transcript_region	146	174	8.0	.	.	
+ch.2766	RNASeq_reads	transcript_region	175	215	13.0	.	.	
+ch.2766	WormBase	CDS	215	303	.	-	.	ID=CDS:ZC334.1;Parent=Transcript:ZC334.1.1
+ch.2766	RNASeq_reads	transcript_region	216	303	20.0	.	.	
+ch.2766	RNASeq_stranded	transcript_region	286	303	2.0	-	.	
+ch.2766	RNASeq_reads	transcript_region	304	304	2.0	.	.	
+ch.2766	WormBase	intron	304	471	.	-	.	Parent=Transcript:ZC334.1.1
+ch.2766	RNASeq_splice	intron	304	471	101581.0	-	.	
+ch.2766	RNASeq_splice	intron	323	471	14.0	-	.	
+ch.2766	RNASeq_splice	intron	344	471	13.0	-	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	380	380	533.0	.	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	394	399	524.0	.	.	
+ch.2766	RNASeq_stranded	transcript_region	472	497	2.0	-	.	
+ch.2766	RNASeq_reads	transcript_region	472	671	21.0	.	.	
+ch.2766	WormBase	CDS	472	715	.	-	.	ID=CDS:ZC334.1;Parent=Transcript:ZC334.1.1
+ch.2766	WormBase	exon	472	727	.	-	.	Parent=Transcript:ZC334.1.1
+ch.2766	RNASeq_stranded	transcript_region	498	529	4.0	-	.	
+ch.2766	RNASeq_stranded	transcript_region	530	548	2.0	-	.	
+ch.2766	RNASeq_stranded	transcript_region	549	596	1.0	-	.	
+ch.2766	RNASeq_stranded	transcript_region	597	646	2.0	-	.	
+ch.2766	RNASeq_stranded	transcript_region	647	675	1.0	-	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	648	719	58595.0	.	.	
+ch.2766	RNASeq_reads	transcript_region	672	719	13.0	.	.	
+ch.2766	RNASeq_stranded	transcript_region	676	726	2.0	-	.	
+ch.2766	WormBase	five_prime_UTR	716	727	.	-	.	Parent=Transcript:ZC334.1.1
+ch.2766	RNASeq_reads	transcript_region	720	729	8.0	.	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	720	730	38428.0	.	.	
+ch.2766	RNASeq_stranded	transcript_region	727	729	1.0	-	.	
+ch.2766	RNASeq_reads	transcript_region	730	741	5.0	.	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	731	741	25144.0	.	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	742	747	16561.0	.	.	
+ch.2766	RNASeq_reads	transcript_region	742	753	3.0	.	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	748	753	10120.0	.	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	754	754	655.0	.	.	
+ch.2766	RNASeq_R_asymmetry	transcript_region	755	755	362.0	.	.	
