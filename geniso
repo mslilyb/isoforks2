@@ -99,7 +99,8 @@ txs = sorted(txs, key=lambda item: item['score'], reverse=True)
 
 weight = []
 total = 0
-for tx in txs:
+for i in range(limit):
+	tx = txs[i]
 	w = 2 ** tx['score']
 	weight.append(w)
 	total += w
