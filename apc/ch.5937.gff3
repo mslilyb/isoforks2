@@ -1,0 +1,50 @@
+ch.5937	RNASeq_reads	transcript_region	991	1006	1.0	.	.	
+ch.5937	WormBase	three_prime_UTR	943	1002	.	+	.	Parent=Transcript:Y57A10C.1.1
+ch.5937	WormBase	exon	529	1002	.	+	.	Parent=Transcript:Y57A10C.1.1
+ch.5937	WormBase	gene	101	1002	.	+	.	ID=Gene:WBGene00013280
+ch.5937	WormBase	mRNA	101	1002	.	+	.	ID=Transcript:Y57A10C.1.1;Parent=Gene:WBGene00013280
+ch.5937	RNASeq_stranded	transcript_region	990	998	1.0	+	.	
+ch.5937	RNASeq_F_asymmetry	transcript_region	991	996	5154.0	.	.	
+ch.5937	RNASeq_reads	transcript_region	938	990	2.0	.	.	
+ch.5937	RNASeq_stranded	transcript_region	950	989	2.0	+	.	
+ch.5937	RNASeq_F_asymmetry	transcript_region	948	972	12070.0	.	.	
+ch.5937	RNASeq_stranded	transcript_region	948	949	1.0	+	.	
+ch.5937	RNASeq_stranded	transcript_region	935	947	2.0	+	.	
+ch.5937	WormBase	CDS	529	942	.	+	.	ID=CDS:Y57A10C.1;Parent=Transcript:Y57A10C.1.1
+ch.5937	RNASeq_reads	transcript_region	901	937	4.0	.	.	
+ch.5937	RNASeq_stranded	transcript_region	896	934	4.0	+	.	
+ch.5937	RNASeq_F_asymmetry	transcript_region	886	918	24035.0	.	.	
+ch.5937	RNASeq_reads	transcript_region	529	900	7.0	.	.	
+ch.5937	RNASeq_stranded	transcript_region	870	895	2.0	+	.	
+ch.5937	RNASeq_stranded	transcript_region	833	869	4.0	+	.	
+ch.5937	RNASeq_stranded	transcript_region	735	832	2.0	+	.	
+ch.5937	RNASeq_stranded	transcript_region	720	734	1.0	+	.	
+ch.5937	RNASeq_splice	intron	592	719	9.0	+	.	
+ch.5937	RNASeq_splice	intron	592	657	3.0	+	.	
+ch.5937	RNASeq_splice	intron	592	641	7.0	+	.	
+ch.5937	RNASeq_stranded	transcript_region	547	569	1.0	+	.	
+ch.5937	RNASeq_stranded	transcript_region	541	542	1.0	+	.	
+ch.5937	WormBase	intron	478	528	.	+	.	Parent=Transcript:Y57A10C.1.1
+ch.5937	RNASeq_splice	intron	478	528	39683.0	+	.	
+ch.5937	RNASeq_reads	transcript_region	225	477	8.0	.	.	
+ch.5937	WormBase	CDS	172	477	.	+	.	ID=CDS:Y57A10C.1;Parent=Transcript:Y57A10C.1.1
+ch.5937	WormBase	exon	101	477	.	+	.	Parent=Transcript:Y57A10C.1.1
+ch.5937	RNASeq_splice	intron	378	425	3.0	+	.	
+ch.5937	RNASeq_splice	intron	221	425	36.0	+	.	
+ch.5937	RNASeq_splice	intron	286	328	7.0	+	.	
+ch.5937	RNASeq_splice	intron	221	328	69.0	+	.	
+ch.5937	RNASeq_splice	intron	221	322	28.0	+	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	199	317	26205.0	.	.	
+ch.5937	RNASeq_reads	transcript_region	199	224	5.0	.	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	172	198	15731.0	.	.	
+ch.5937	RNASeq_reads	transcript_region	164	198	3.0	.	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	162	171	10263.0	.	.	
+ch.5937	WormBase	five_prime_UTR	101	171	.	+	.	Parent=Transcript:Y57A10C.1.1
+ch.5937	RNASeq_reads	transcript_region	163	163	1.0	.	.	
+ch.5937	RNASeq_reads	transcript_region	162	162	2.0	.	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	145	161	6683.0	.	.	
+ch.5937	RNASeq_reads	transcript_region	126	161	1.0	.	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	134	144	4285.0	.	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	123	133	2814.0	.	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	117	122	1533.0	.	.	
+ch.5937	RNASeq_R_asymmetry	transcript_region	116	116	950.0	.	.	

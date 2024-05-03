@@ -1,0 +1,61 @@
+ch.11656	RNASeq_splice	intron	47	111	11.0	+	.	
+ch.11656	WormBase	five_prime_UTR	101	120	.	+	.	Parent=Transcript:F28D1.3.1
+ch.11656	WormBase	exon	101	378	.	+	.	Parent=Transcript:F28D1.3.1
+ch.11656	WormBase	gene	101	917	.	+	.	ID=Gene:WBGene00009213
+ch.11656	WormBase	mRNA	101	917	.	+	.	ID=Transcript:F28D1.3.1;Parent=Gene:WBGene00009213
+ch.11656	RNASeq_F_asymmetry	transcript_region	106	109	3938.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	106	110	1.0	.	.	
+ch.11656	RNASeq_F_asymmetry	transcript_region	110	113	6311.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	111	121	2.0	.	.	
+ch.11656	RNASeq_F_asymmetry	transcript_region	114	121	11080.0	.	.	
+ch.11656	WormBase	CDS	121	378	.	+	.	ID=CDS:F28D1.3;Parent=Transcript:F28D1.3.1
+ch.11656	RNASeq_F_asymmetry	transcript_region	122	171	16646.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	122	199	4.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	132	292	1.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	200	295	7.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	293	296	2.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	296	304	11.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	297	304	4.0	+	.	
+ch.11656	RNASeq_stranded	transcript_region	305	309	7.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	305	313	17.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	310	328	11.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	314	326	26.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	326	331	1.0	-	.	
+ch.11656	RNASeq_reads	transcript_region	327	345	40.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	329	378	17.0	+	.	
+ch.11656	RNASeq_stranded	transcript_region	336	341	1.0	-	.	
+ch.11656	RNASeq_reads	transcript_region	346	378	61.0	.	.	
+ch.11656	RNASeq_splice	intron	379	417	26.0	+	.	
+ch.11656	WormBase	intron	379	430	.	+	.	Parent=Transcript:F28D1.3.1
+ch.11656	RNASeq_splice	intron	379	430	34442.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	431	447	7.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	431	450	1.0	+	.	
+ch.11656	WormBase	CDS	431	874	.	+	.	ID=CDS:F28D1.3;Parent=Transcript:F28D1.3.1
+ch.11656	WormBase	exon	431	917	.	+	.	Parent=Transcript:F28D1.3.1
+ch.11656	RNASeq_reads	transcript_region	448	453	11.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	451	534	2.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	454	461	18.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	462	507	28.0	.	.	
+ch.11656	RNASeq	transcription_end_site	466	466	.	+	.	
+ch.11656	RNASeq	transcription_end_site	479	479	.	+	.	
+ch.11656	RNASeq_reads	transcript_region	508	525	16.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	526	586	10.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	535	580	1.0	+	.	
+ch.11656	RNASeq_stranded	transcript_region	581	630	4.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	587	635	16.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	631	760	2.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	636	690	10.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	691	717	16.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	718	840	9.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	761	790	4.0	+	.	
+ch.11656	RNASeq_stranded	transcript_region	791	817	7.0	+	.	
+ch.11656	RNASeq_R_asymmetry	transcript_region	803	838	34150.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	818	880	11.0	+	.	
+ch.11656	RNASeq_reads	transcript_region	841	853	5.0	.	.	
+ch.11656	RNASeq_reads	transcript_region	854	877	3.0	.	.	
+ch.11656	WormBase	three_prime_UTR	875	917	.	+	.	Parent=Transcript:F28D1.3.1
+ch.11656	RNASeq_reads	transcript_region	878	915	1.0	.	.	
+ch.11656	RNASeq_stranded	transcript_region	881	898	7.0	+	.	
+ch.11656	RNASeq_stranded	transcript_region	899	914	4.0	+	.	
+ch.11656	RNASeq_stranded	transcript_region	915	917	2.0	+	.	
+ch.11656	RNASeq_stranded	transcript_region	918	922	1.0	+	.	

@@ -1,0 +1,67 @@
+ch.16727	RNASeq_stranded	transcript_region	1005	1042	2.0	-	.	
+ch.16727	RNASeq_reads	transcript_region	978	1018	3.0	.	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	1014	1014	13680.0	.	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	1012	1012	13015.0	.	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	982	1010	12313.0	.	.	
+ch.16727	RNASeq_stranded	transcript_region	979	1004	1.0	-	.	
+ch.16727	WormBase	three_prime_UTR	930	1003	.	-	.	Parent=Transcript:F09C6.9.1
+ch.16727	RNASeq_R_asymmetry	transcript_region	976	981	8035.0	.	.	
+ch.16727	RNASeq_reads	transcript_region	956	977	1.0	.	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	975	975	5094.0	.	.	
+ch.16727	RNASeq_stranded	transcript_region	959	971	1.0	-	.	
+ch.16727	WormBase	three_prime_UTR	780	947	.	+	.	Parent=Transcript:F09C6.10.1
+ch.16727	WormBase	exon	684	947	.	+	.	Parent=Transcript:F09C6.10.1
+ch.16727	WormBase	gene	101	947	.	+	.	ID=Gene:WBGene00008620
+ch.16727	WormBase	mRNA	101	947	.	+	.	ID=Transcript:F09C6.10.1;Parent=Gene:WBGene00008620
+ch.16727	RNASeq	transcription_end_site	946	946	.	-	.	
+ch.16727	RNASeq_reads	transcript_region	842	945	1.0	.	.	
+ch.16727	RNASeq_F_asymmetry	transcript_region	902	909	2561.0	.	.	
+ch.16727	RNASeq_F_asymmetry	transcript_region	860	901	4843.0	.	.	
+ch.16727	RNASeq_reads	transcript_region	830	841	2.0	.	.	
+ch.16727	RNASeq_F_asymmetry	transcript_region	834	840	8948.0	.	.	
+ch.16727	RNASeq_F_asymmetry	transcript_region	789	833	13809.0	.	.	
+ch.16727	RNASeq_reads	transcript_region	684	829	4.0	.	.	
+ch.16727	RNASeq_stranded	transcript_region	748	819	1.0	+	.	
+ch.16727	WormBase	CDS	684	779	.	+	.	ID=CDS:F09C6.10;Parent=Transcript:F09C6.10.1
+ch.16727	RNASeq_stranded	transcript_region	739	747	2.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	712	738	4.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	705	711	2.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	684	704	1.0	+	.	
+ch.16727	RNASeq	transcription_end_site	685	685	.	-	.	
+ch.16727	WormBase	intron	539	683	.	+	.	Parent=Transcript:F09C6.10.1
+ch.16727	RNASeq_splice	intron	539	683	12445.0	+	.	
+ch.16727	RNASeq_splice	intron	296	683	59.0	+	.	
+ch.16727	RNASeq_reads	transcript_region	527	538	2.0	.	.	
+ch.16727	WormBase	CDS	350	538	.	+	.	ID=CDS:F09C6.10;Parent=Transcript:F09C6.10.1
+ch.16727	WormBase	exon	350	538	.	+	.	Parent=Transcript:F09C6.10.1
+ch.16727	RNASeq_stranded	transcript_region	508	532	1.0	+	.	
+ch.16727	RNASeq_reads	transcript_region	372	526	4.0	.	.	
+ch.16727	RNASeq_stranded	transcript_region	474	507	2.0	+	.	
+ch.16727	RNASeq	transcription_end_site	476	476	.	-	.	
+ch.16727	RNASeq_stranded	transcript_region	437	473	1.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	388	389	1.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	374	385	1.0	+	.	
+ch.16727	RNASeq_F_asymmetry	transcript_region	350	381	22297.0	.	.	
+ch.16727	RNASeq_stranded	transcript_region	352	373	2.0	+	.	
+ch.16727	RNASeq_reads	transcript_region	350	371	7.0	.	.	
+ch.16727	RNASeq_stranded	transcript_region	350	351	1.0	+	.	
+ch.16727	WormBase	intron	296	349	.	+	.	Parent=Transcript:F09C6.10.1
+ch.16727	RNASeq_splice	intron	296	349	30575.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	289	295	1.0	+	.	
+ch.16727	RNASeq_F_asymmetry	transcript_region	240	295	26158.0	.	.	
+ch.16727	RNASeq_reads	transcript_region	128	295	6.0	.	.	
+ch.16727	WormBase	CDS	119	295	.	+	.	ID=CDS:F09C6.10;Parent=Transcript:F09C6.10.1
+ch.16727	WormBase	exon	101	295	.	+	.	Parent=Transcript:F09C6.10.1
+ch.16727	RNASeq_stranded	transcript_region	272	288	2.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	235	271	1.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	216	234	2.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	174	215	1.0	+	.	
+ch.16727	RNASeq_stranded	transcript_region	172	172	1.0	-	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	123	162	16618.0	.	.	
+ch.16727	RNASeq_reads	transcript_region	118	127	3.0	.	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	118	122	10911.0	.	.	
+ch.16727	WormBase	five_prime_UTR	101	118	.	+	.	Parent=Transcript:F09C6.10.1
+ch.16727	RNASeq_R_asymmetry	transcript_region	113	117	6598.0	.	.	
+ch.16727	RNASeq_reads	transcript_region	112	117	1.0	.	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	112	112	2622.0	.	.	
+ch.16727	RNASeq_R_asymmetry	transcript_region	108	111	1390.0	.	.	

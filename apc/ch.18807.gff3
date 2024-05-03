@@ -1,0 +1,50 @@
+ch.18807	RNASeq_splice	intron	50	147	18.0	+	.	
+ch.18807	RNASeq_F_asymmetry	transcript_region	95	100	927.0	.	.	
+ch.18807	RNASeq_F_asymmetry	transcript_region	101	105	2141.0	.	.	
+ch.18807	WormBase	five_prime_UTR	101	236	.	+	.	Parent=Transcript:C02B8.3.1
+ch.18807	WormBase	exon	101	497	.	+	.	Parent=Transcript:C02B8.3.1
+ch.18807	WormBase	gene	101	898	.	+	.	ID=Gene:WBGene00015322
+ch.18807	WormBase	mRNA	101	898	.	+	.	ID=Transcript:C02B8.3.1;Parent=Gene:WBGene00015322
+ch.18807	RNASeq_reads	transcript_region	102	102	1.0	.	.	
+ch.18807	RNASeq_reads	transcript_region	104	115	1.0	.	.	
+ch.18807	RNASeq_F_asymmetry	transcript_region	106	112	3520.0	.	.	
+ch.18807	RNASeq_F_asymmetry	transcript_region	113	119	5546.0	.	.	
+ch.18807	RNASeq_reads	transcript_region	116	130	2.0	.	.	
+ch.18807	RNASeq_F_asymmetry	transcript_region	120	132	10973.0	.	.	
+ch.18807	RNASeq_reads	transcript_region	131	153	4.0	.	.	
+ch.18807	RNASeq_F_asymmetry	transcript_region	133	142	16497.0	.	.	
+ch.18807	RNASeq_F_asymmetry	transcript_region	143	182	24817.0	.	.	
+ch.18807	RNASeq_reads	transcript_region	154	245	7.0	.	.	
+ch.18807	RNASeq_stranded	transcript_region	180	200	1.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	208	258	1.0	+	.	
+ch.18807	WormBase	CDS	237	497	.	+	.	ID=CDS:C02B8.3;Parent=Transcript:C02B8.3.1
+ch.18807	RNASeq_reads	transcript_region	246	497	11.0	.	.	
+ch.18807	RNASeq_stranded	transcript_region	259	308	3.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	309	429	1.0	+	.	
+ch.18807	RNASeq_splice	intron	359	424	4.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	430	436	2.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	437	440	1.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	441	443	2.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	444	452	1.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	453	453	2.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	454	454	1.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	455	459	2.0	+	.	
+ch.18807	RNASeq_stranded	transcript_region	460	497	1.0	+	.	
+ch.18807	RNASeq_splice	intron	483	556	51.0	+	.	
+ch.18807	RNASeq_reads	transcript_region	498	498	1.0	.	.	
+ch.18807	WormBase	intron	498	556	.	+	.	Parent=Transcript:C02B8.3.1
+ch.18807	RNASeq_splice	intron	498	556	57063.0	+	.	
+ch.18807	RNASeq_splice	intron	498	565	20.0	+	.	
+ch.18807	RNASeq_reads	transcript_region	555	556	1.0	.	.	
+ch.18807	WormBase	CDS	557	697	.	+	.	ID=CDS:C02B8.3;Parent=Transcript:C02B8.3.1
+ch.18807	RNASeq_reads	transcript_region	557	815	12.0	.	.	
+ch.18807	WormBase	exon	557	898	.	+	.	Parent=Transcript:C02B8.3.1
+ch.18807	RNASeq_stranded	transcript_region	558	707	1.0	+	.	
+ch.18807	WormBase	three_prime_UTR	698	898	.	+	.	Parent=Transcript:C02B8.3.1
+ch.18807	RNASeq_stranded	transcript_region	708	840	2.0	+	.	
+ch.18807	RNASeq_reads	transcript_region	816	865	7.0	.	.	
+ch.18807	RNASeq_stranded	transcript_region	841	907	1.0	+	.	
+ch.18807	RNASeq_R_asymmetry	transcript_region	842	865	23906.0	.	.	
+ch.18807	RNASeq_reads	transcript_region	866	887	4.0	.	.	
+ch.18807	RNASeq_reads	transcript_region	888	894	2.0	.	.	
+ch.18807	RNASeq_reads	transcript_region	895	927	1.0	.	.	

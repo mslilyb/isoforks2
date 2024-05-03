@@ -1,0 +1,32 @@
+ch.16157	RNASeq_F_asymmetry	transcript_region	85	86	384.0	.	.	
+ch.16157	RNASeq_F_asymmetry	transcript_region	87	98	1700.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	98	381	1.0	.	.	
+ch.16157	RNASeq_F_asymmetry	transcript_region	99	106	2620.0	.	.	
+ch.16157	WormBase	five_prime_UTR	101	117	.	+	.	Parent=Transcript:Y75B12A.2.1
+ch.16157	WormBase	exon	101	608	.	+	.	Parent=Transcript:Y75B12A.2.1
+ch.16157	WormBase	gene	101	984	.	+	.	ID=Gene:WBGene00013566
+ch.16157	WormBase	mRNA	101	984	.	+	.	ID=Transcript:Y75B12A.2.1;Parent=Gene:WBGene00013566
+ch.16157	RNASeq_F_asymmetry	transcript_region	107	211	3975.0	.	.	
+ch.16157	WormBase	CDS	118	608	.	+	.	ID=CDS:Y75B12A.2;Parent=Transcript:Y75B12A.2.1
+ch.16157	RNASeq_reads	transcript_region	382	439	2.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	440	442	1.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	443	446	2.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	447	449	1.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	450	452	2.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	453	454	1.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	455	608	2.0	.	.	
+ch.16157	WormBase	intron	609	660	.	+	.	Parent=Transcript:Y75B12A.2.1
+ch.16157	RNASeq_splice	intron	609	660	11497.0	+	.	
+ch.16157	RNASeq_splice	intron	613	660	3.0	+	.	
+ch.16157	RNASeq_reads	transcript_region	661	724	2.0	.	.	
+ch.16157	WormBase	CDS	661	886	.	+	.	ID=CDS:Y75B12A.2;Parent=Transcript:Y75B12A.2.1
+ch.16157	WormBase	exon	661	984	.	+	.	Parent=Transcript:Y75B12A.2.1
+ch.16157	RNASeq_reads	transcript_region	725	819	1.0	.	.	
+ch.16157	RNASeq_stranded	transcript_region	756	784	1.0	+	.	
+ch.16157	RNASeq_R_asymmetry	transcript_region	819	857	5890.0	.	.	
+ch.16157	RNASeq_reads	transcript_region	820	861	2.0	.	.	
+ch.16157	RNASeq_stranded	transcript_region	831	888	1.0	+	.	
+ch.16157	RNASeq_reads	transcript_region	862	937	1.0	.	.	
+ch.16157	WormBase	three_prime_UTR	887	984	.	+	.	Parent=Transcript:Y75B12A.2.1
+ch.16157	RNASeq_R_asymmetry	transcript_region	908	938	3009.0	.	.	
+ch.16157	RNASeq_R_asymmetry	transcript_region	939	956	1936.0	.	.	

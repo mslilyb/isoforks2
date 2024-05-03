@@ -1,0 +1,49 @@
+ch.9613	RNASeq_reads	transcript_region	91	96	1.0	.	.	
+ch.9613	RNASeq_reads	transcript_region	97	104	2.0	.	.	
+ch.9613	RNASeq_stranded	transcript_region	97	118	1.0	+	.	
+ch.9613	WormBase	five_prime_UTR	101	123	.	+	.	Parent=Transcript:W08E12.2.1
+ch.9613	WormBase	exon	101	409	.	+	.	Parent=Transcript:W08E12.2.1
+ch.9613	WormBase	gene	101	865	.	+	.	ID=Gene:WBGene00021083
+ch.9613	WormBase	mRNA	101	865	.	+	.	ID=Transcript:W08E12.2.1;Parent=Gene:WBGene00021083
+ch.9613	RNASeq_F_asymmetry	transcript_region	104	105	14432.0	.	.	
+ch.9613	RNASeq_reads	transcript_region	105	108	4.0	.	.	
+ch.9613	RNASeq_F_asymmetry	transcript_region	106	114	22907.0	.	.	
+ch.9613	RNASeq_reads	transcript_region	109	128	7.0	.	.	
+ch.9613	RNASeq_F_asymmetry	transcript_region	115	137	34862.0	.	.	
+ch.9613	RNASeq_stranded	transcript_region	119	121	2.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	122	123	1.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	124	164	2.0	+	.	
+ch.9613	WormBase	CDS	124	409	.	+	.	ID=CDS:W08E12.2;Parent=Transcript:W08E12.2.1
+ch.9613	RNASeq_reads	transcript_region	129	175	11.0	.	.	
+ch.9613	RNASeq_F_asymmetry	transcript_region	138	154	53069.0	.	.	
+ch.9613	RNASeq_stranded	transcript_region	165	174	1.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	175	223	2.0	+	.	
+ch.9613	RNASeq_reads	transcript_region	176	246	17.0	.	.	
+ch.9613	RNASeq_stranded	transcript_region	224	230	4.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	231	253	2.0	+	.	
+ch.9613	RNASeq_reads	transcript_region	247	347	26.0	.	.	
+ch.9613	RNASeq_stranded	transcript_region	254	300	4.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	301	322	2.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	323	328	1.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	329	382	2.0	+	.	
+ch.9613	RNASeq_reads	transcript_region	348	409	17.0	.	.	
+ch.9613	RNASeq_stranded	transcript_region	383	409	1.0	+	.	
+ch.9613	WormBase	intron	410	690	.	+	.	Parent=Transcript:W08E12.2.1
+ch.9613	RNASeq_splice	intron	410	690	83609.0	+	.	
+ch.9613	RNASeq_splice	intron	414	690	6.0	+	.	
+ch.9613	RNASeq_stranded	transcript_region	691	733	1.0	+	.	
+ch.9613	RNASeq_reads	transcript_region	691	756	18.0	.	.	
+ch.9613	WormBase	CDS	691	767	.	+	.	ID=CDS:W08E12.2;Parent=Transcript:W08E12.2.1
+ch.9613	WormBase	exon	691	865	.	+	.	Parent=Transcript:W08E12.2.1
+ch.9613	RNASeq_stranded	transcript_region	734	780	2.0	+	.	
+ch.9613	RNASeq_reads	transcript_region	757	797	11.0	.	.	
+ch.9613	WormBase	three_prime_UTR	768	865	.	+	.	Parent=Transcript:W08E12.2.1
+ch.9613	RNASeq_stranded	transcript_region	781	832	1.0	+	.	
+ch.9613	RNASeq_reads	transcript_region	798	821	7.0	.	.	
+ch.9613	RNASeq_reads	transcript_region	822	834	4.0	.	.	
+ch.9613	RNASeq_reads	transcript_region	835	839	2.0	.	.	
+ch.9613	RNASeq_reads	transcript_region	840	862	1.0	.	.	
+ch.9613	RNASeq	transcription_end_site	886	886	.	+	.	
+ch.9613	WormBase	CDS	890	930	.	-	.	ID=CDS:W08E12.9;Parent=Transcript:W08E12.9.1
+ch.9613	WormBase	exon	890	930	.	-	.	Parent=Transcript:W08E12.9.1
+ch.9613	RNASeq_stranded	transcript_region	898	930	1.0	-	.	

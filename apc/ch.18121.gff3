@@ -1,0 +1,57 @@
+ch.18121	RNASeq_R_asymmetry	transcript_region	5	16	978.0	.	.	
+ch.18121	RNASeq_R_asymmetry	transcript_region	36	42	490.0	.	.	
+ch.18121	RNASeq_R_asymmetry	transcript_region	51	53	326.0	.	.	
+ch.18121	RNASeq_R_asymmetry	transcript_region	55	58	342.0	.	.	
+ch.18121	WormBase	five_prime_UTR	101	251	.	+	.	Parent=Transcript:T19D2.3.1
+ch.18121	WormBase	exon	101	285	.	+	.	Parent=Transcript:T19D2.3.1
+ch.18121	WormBase	gene	101	990	.	+	.	ID=Gene:WBGene00020568
+ch.18121	WormBase	mRNA	101	990	.	+	.	ID=Transcript:T19D2.3.1;Parent=Gene:WBGene00020568
+ch.18121	RNASeq_reads	transcript_region	132	137	1.0	.	.	
+ch.18121	RNASeq_F_asymmetry	transcript_region	132	138	5836.0	.	.	
+ch.18121	RNASeq_reads	transcript_region	138	192	2.0	.	.	
+ch.18121	RNASeq_F_asymmetry	transcript_region	139	165	8962.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	141	202	1.0	+	.	
+ch.18121	RNASeq_F_asymmetry	transcript_region	166	178	13629.0	.	.	
+ch.18121	RNASeq_reads	transcript_region	193	225	4.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	203	244	2.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	226	264	7.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	245	285	4.0	+	.	
+ch.18121	WormBase	CDS	252	285	.	+	.	ID=CDS:T19D2.3;Parent=Transcript:T19D2.3.1
+ch.18121	RNASeq_reads	transcript_region	265	285	11.0	.	.	
+ch.18121	RNASeq_splice	intron	286	570	74.0	+	.	
+ch.18121	RNASeq_splice	intron	286	591	63.0	+	.	
+ch.18121	WormBase	intron	286	596	.	+	.	Parent=Transcript:T19D2.3.1
+ch.18121	RNASeq_splice	intron	286	596	52404.0	+	.	
+ch.18121	RNASeq_splice	intron	286	608	4.0	+	.	
+ch.18121	RNASeq_splice	intron	286	807	292.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	596	596	1.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	597	612	5.0	+	.	
+ch.18121	WormBase	CDS	597	753	.	+	.	ID=CDS:T19D2.3;Parent=Transcript:T19D2.3.1
+ch.18121	WormBase	exon	597	753	.	+	.	Parent=Transcript:T19D2.3.1
+ch.18121	RNASeq_reads	transcript_region	597	753	11.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	613	674	3.0	+	.	
+ch.18121	RNASeq_stranded	transcript_region	675	726	5.0	+	.	
+ch.18121	RNASeq_splice	intron	681	728	19.0	-	.	
+ch.18121	RNASeq_stranded	transcript_region	727	739	3.0	+	.	
+ch.18121	RNASeq_stranded	transcript_region	740	753	5.0	+	.	
+ch.18121	WormBase	intron	754	807	.	+	.	Parent=Transcript:T19D2.3.1
+ch.18121	RNASeq_splice	intron	754	807	67439.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	807	807	1.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	807	807	1.0	+	.	
+ch.18121	RNASeq_stranded	transcript_region	808	834	5.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	808	921	13.0	.	.	
+ch.18121	WormBase	CDS	808	943	.	+	.	ID=CDS:T19D2.3;Parent=Transcript:T19D2.3.1
+ch.18121	WormBase	exon	808	990	.	+	.	Parent=Transcript:T19D2.3.1
+ch.18121	RNASeq_stranded	transcript_region	835	950	8.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	922	954	8.0	.	.	
+ch.18121	WormBase	three_prime_UTR	944	990	.	+	.	Parent=Transcript:T19D2.3.1
+ch.18121	RNASeq_stranded	transcript_region	951	956	5.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	955	959	5.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	957	982	3.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	960	984	3.0	.	.	
+ch.18121	RNASeq_stranded	transcript_region	983	992	1.0	+	.	
+ch.18121	RNASeq_reads	transcript_region	985	987	1.0	.	.	
+ch.18121	RNASeq_reads	transcript_region	988	989	2.0	.	.	
+ch.18121	RNASeq_reads	transcript_region	990	992	1.0	.	.	
+ch.18121	RNASeq	transcription_end_site	1066	1066	.	+	.	
+ch.18121	RNASeq	transcription_end_site	1066	1066	.	+	.	

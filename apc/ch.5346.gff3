@@ -1,0 +1,67 @@
+ch.5346	RNASeq	transcription_end_site	944	944	.	-	.	
+ch.5346	RNASeq	transcription_end_site	944	944	.	-	.	
+ch.5346	WormBase	three_prime_UTR	889	944	.	+	.	Parent=Transcript:ZK1307.2.1
+ch.5346	WormBase	exon	824	944	.	+	.	Parent=Transcript:ZK1307.2.1
+ch.5346	WormBase	gene	101	944	.	+	.	ID=Gene:WBGene00014245
+ch.5346	WormBase	mRNA	101	944	.	+	.	ID=Transcript:ZK1307.2.1;Parent=Gene:WBGene00014245
+ch.5346	RNASeq_reads	transcript_region	913	942	1.0	.	.	
+ch.5346	RNASeq	transcription_end_site	934	934	.	-	.	
+ch.5346	RNASeq	transcription_end_site	934	934	.	-	.	
+ch.5346	RNASeq_reads	transcript_region	860	912	2.0	.	.	
+ch.5346	RNASeq_stranded	transcript_region	824	900	1.0	+	.	
+ch.5346	WormBase	CDS	824	888	.	+	.	ID=CDS:ZK1307.2;Parent=Transcript:ZK1307.2.1
+ch.5346	RNASeq_reads	transcript_region	850	859	4.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	824	849	7.0	.	.	
+ch.5346	RNASeq_F_asymmetry	transcript_region	824	845	31461.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	823	823	1.0	.	.	
+ch.5346	RNASeq_splice	intron	741	823	24.0	+	.	
+ch.5346	WormBase	intron	548	823	.	+	.	Parent=Transcript:ZK1307.2.1
+ch.5346	RNASeq_splice	intron	548	823	52592.0	+	.	
+ch.5346	RNASeq_splice	intron	458	823	839.0	+	.	
+ch.5346	RNASeq_splice	intron	389	823	152.0	+	.	
+ch.5346	RNASeq_F_asymmetry	transcript_region	819	820	1275.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	754	762	1.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	659	710	1.0	.	.	
+ch.5346	RNASeq_splice	intron	548	660	6.0	+	.	
+ch.5346	RNASeq_reads	transcript_region	548	548	2.0	.	.	
+ch.5346	RNASeq_stranded	transcript_region	543	548	1.0	+	.	
+ch.5346	RNASeq_F_asymmetry	transcript_region	521	547	46143.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	495	547	11.0	.	.	
+ch.5346	WormBase	CDS	300	547	.	+	.	ID=CDS:ZK1307.2;Parent=Transcript:ZK1307.2.1
+ch.5346	WormBase	exon	300	547	.	+	.	Parent=Transcript:ZK1307.2.1
+ch.5346	RNASeq_stranded	transcript_region	501	542	2.0	+	.	
+ch.5346	RNASeq_F_asymmetry	transcript_region	506	507	61012.0	.	.	
+ch.5346	RNASeq_F_asymmetry	transcript_region	499	502	62323.0	.	.	
+ch.5346	RNASeq_stranded	transcript_region	436	500	1.0	+	.	
+ch.5346	RNASeq_reads	transcript_region	300	494	17.0	.	.	
+ch.5346	RNASeq_stranded	transcript_region	433	435	2.0	+	.	
+ch.5346	RNASeq_stranded	transcript_region	413	432	1.0	+	.	
+ch.5346	RNASeq_stranded	transcript_region	394	412	2.0	+	.	
+ch.5346	RNASeq_stranded	transcript_region	335	393	4.0	+	.	
+ch.5346	RNASeq_stranded	transcript_region	300	334	2.0	+	.	
+ch.5346	RNASeq_reads	transcript_region	298	299	2.0	.	.	
+ch.5346	WormBase	intron	253	299	.	+	.	Parent=Transcript:ZK1307.2.1
+ch.5346	RNASeq_splice	intron	253	299	68863.0	+	.	
+ch.5346	RNASeq_stranded	transcript_region	233	252	2.0	+	.	
+ch.5346	RNASeq_reads	transcript_region	192	252	14.0	.	.	
+ch.5346	WormBase	CDS	182	252	.	+	.	ID=CDS:ZK1307.2;Parent=Transcript:ZK1307.2.1
+ch.5346	WormBase	exon	101	252	.	+	.	Parent=Transcript:ZK1307.2.1
+ch.5346	RNASeq_stranded	transcript_region	168	232	1.0	+	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	176	207	46296.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	165	191	9.0	.	.	
+ch.5346	WormBase	five_prime_UTR	101	181	.	+	.	Parent=Transcript:ZK1307.2.1
+ch.5346	RNASeq_R_asymmetry	transcript_region	158	175	29916.0	.	.	
+ch.5346	RNASeq_stranded	transcript_region	121	167	2.0	+	.	
+ch.5346	RNASeq_reads	transcript_region	153	164	5.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	144	157	18867.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	128	152	3.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	133	143	12123.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	121	132	7699.0	.	.	
+ch.5346	RNASeq_reads	transcript_region	110	127	1.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	117	120	4977.0	.	.	
+ch.5346	RNASeq_stranded	transcript_region	117	120	1.0	+	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	104	116	2709.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	101	103	1777.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	91	100	823.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	88	89	449.0	.	.	
+ch.5346	RNASeq_R_asymmetry	transcript_region	83	83	215.0	.	.	

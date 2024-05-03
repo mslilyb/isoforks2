@@ -1,0 +1,40 @@
+ch.16647	WormBase	three_prime_UTR	554	833	.	+	.	Parent=Transcript:W06G6.17.1
+ch.16647	WormBase	exon	409	833	.	+	.	Parent=Transcript:W06G6.17.1
+ch.16647	WormBase	gene	101	833	.	+	.	ID=Gene:WBGene00086565
+ch.16647	WormBase	mRNA	101	833	.	+	.	ID=Transcript:W06G6.17.1;Parent=Gene:WBGene00086565
+ch.16647	RNASeq_stranded	transcript_region	781	814	1.0	+	.	
+ch.16647	RNASeq_stranded	transcript_region	675	780	2.0	+	.	
+ch.16647	RNASeq_reads	transcript_region	706	777	1.0	.	.	
+ch.16647	RNASeq_reads	transcript_region	648	705	2.0	.	.	
+ch.16647	RNASeq_stranded	transcript_region	648	674	1.0	+	.	
+ch.16647	RNASeq_reads	transcript_region	587	647	1.0	.	.	
+ch.16647	RNASeq_splice	intron	576	619	12.0	+	.	
+ch.16647	RNASeq_reads	transcript_region	409	586	2.0	.	.	
+ch.16647	RNASeq_F_asymmetry	transcript_region	560	567	9101.0	.	.	
+ch.16647	RNASeq_F_asymmetry	transcript_region	526	559	14029.0	.	.	
+ch.16647	WormBase	CDS	409	553	.	+	.	ID=CDS:W06G6.17;Parent=Transcript:W06G6.17.1
+ch.16647	WormBase	intron	364	408	.	+	.	Parent=Transcript:W06G6.17.1
+ch.16647	RNASeq_splice	intron	364	408	13827.0	+	.	
+ch.16647	WormBase	CDS	262	363	.	+	.	ID=CDS:W06G6.17;Parent=Transcript:W06G6.17.1
+ch.16647	WormBase	exon	262	363	.	+	.	Parent=Transcript:W06G6.17.1
+ch.16647	RNASeq_reads	transcript_region	262	363	3.0	.	.	
+ch.16647	RNASeq_stranded	transcript_region	262	324	1.0	+	.	
+ch.16647	WormBase	intron	219	261	.	+	.	Parent=Transcript:W06G6.17.1
+ch.16647	RNASeq_splice	intron	219	261	12040.0	+	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	219	219	2563.0	.	.	
+ch.16647	RNASeq_reads	transcript_region	219	219	1.0	.	.	
+ch.16647	RNASeq_stranded	transcript_region	204	218	1.0	+	.	
+ch.16647	RNASeq_reads	transcript_region	123	218	3.0	.	.	
+ch.16647	WormBase	CDS	115	218	.	+	.	ID=CDS:W06G6.17;Parent=Transcript:W06G6.17.1
+ch.16647	WormBase	exon	101	218	.	+	.	Parent=Transcript:W06G6.17.1
+ch.16647	RNASeq_stranded	transcript_region	123	201	1.0	+	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	123	174	10280.0	.	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	112	122	5723.0	.	.	
+ch.16647	RNASeq_reads	transcript_region	89	122	1.0	.	.	
+ch.16647	WormBase	five_prime_UTR	101	114	.	+	.	Parent=Transcript:W06G6.17.1
+ch.16647	RNASeq_R_asymmetry	transcript_region	91	111	3769.0	.	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	81	90	2449.0	.	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	78	80	1436.0	.	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	74	77	897.0	.	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	71	73	491.0	.	.	
+ch.16647	RNASeq_R_asymmetry	transcript_region	69	70	270.0	.	.	

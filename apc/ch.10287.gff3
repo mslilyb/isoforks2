@@ -1,0 +1,44 @@
+ch.10287	WormBase	three_prime_UTR	416	477	.	+	.	Parent=Transcript:F38A5.14.1
+ch.10287	WormBase	exon	362	477	.	+	.	Parent=Transcript:F38A5.14.1
+ch.10287	WormBase	gene	101	477	.	+	.	ID=Gene:WBGene00018170
+ch.10287	WormBase	mRNA	101	477	.	+	.	ID=Transcript:F38A5.14.1;Parent=Gene:WBGene00018170
+ch.10287	RNASeq_reads	transcript_region	461	476	1.0	.	.	
+ch.10287	RNASeq_reads	transcript_region	455	460	2.0	.	.	
+ch.10287	RNASeq_stranded	transcript_region	458	458	1.0	-	.	
+ch.10287	RNASeq_F_asymmetry	transcript_region	455	457	11201.0	.	.	
+ch.10287	RNASeq_stranded	transcript_region	408	457	2.0	-	.	
+ch.10287	RNASeq_stranded	transcript_region	454	456	1.0	+	.	
+ch.10287	RNASeq_F_asymmetry	transcript_region	434	454	17706.0	.	.	
+ch.10287	RNASeq_reads	transcript_region	427	454	4.0	.	.	
+ch.10287	RNASeq_stranded	transcript_region	407	436	1.0	+	.	
+ch.10287	RNASeq_F_asymmetry	transcript_region	408	433	26930.0	.	.	
+ch.10287	RNASeq_reads	transcript_region	385	426	7.0	.	.	
+ch.10287	WormBase	CDS	362	415	.	+	.	ID=CDS:F38A5.14;Parent=Transcript:F38A5.14.1
+ch.10287	RNASeq_stranded	transcript_region	406	407	1.0	-	.	
+ch.10287	RNASeq_stranded	transcript_region	379	406	5.0	+	.	
+ch.10287	RNASeq_stranded	transcript_region	367	387	1.0	-	.	
+ch.10287	RNASeq_reads	transcript_region	362	384	11.0	.	.	
+ch.10287	RNASeq_stranded	transcript_region	361	378	8.0	+	.	
+ch.10287	RNASeq_reads	transcript_region	360	361	2.0	.	.	
+ch.10287	WormBase	intron	313	361	.	+	.	Parent=Transcript:F38A5.14.1
+ch.10287	RNASeq_splice	intron	313	361	56429.0	+	.	
+ch.10287	RNASeq_stranded	transcript_region	360	360	5.0	-	.	
+ch.10287	RNASeq_reads	transcript_region	313	313	1.0	.	.	
+ch.10287	RNASeq_stranded	transcript_region	282	312	2.0	+	.	
+ch.10287	RNASeq_reads	transcript_region	145	312	11.0	.	.	
+ch.10287	WormBase	CDS	118	312	.	+	.	ID=CDS:F38A5.14;Parent=Transcript:F38A5.14.1
+ch.10287	WormBase	exon	101	312	.	+	.	Parent=Transcript:F38A5.14.1
+ch.10287	RNASeq_stranded	transcript_region	293	301	1.0	-	.	
+ch.10287	RNASeq_stranded	transcript_region	267	281	1.0	+	.	
+ch.10287	RNASeq_stranded	transcript_region	167	204	1.0	+	.	
+ch.10287	RNASeq_stranded	transcript_region	180	200	1.0	-	.	
+ch.10287	RNASeq_R_asymmetry	transcript_region	107	154	32575.0	.	.	
+ch.10287	RNASeq_reads	transcript_region	106	144	7.0	.	.	
+ch.10287	WormBase	five_prime_UTR	101	117	.	+	.	Parent=Transcript:F38A5.14.1
+ch.10287	RNASeq_R_asymmetry	transcript_region	105	106	21162.0	.	.	
+ch.10287	RNASeq_reads	transcript_region	105	105	4.0	.	.	
+ch.10287	RNASeq_reads	transcript_region	102	104	2.0	.	.	
+ch.10287	RNASeq_R_asymmetry	transcript_region	100	104	9163.0	.	.	
+ch.10287	RNASeq_reads	transcript_region	97	101	1.0	.	.	
+ch.10287	RNASeq_R_asymmetry	transcript_region	98	99	4993.0	.	.	
+ch.10287	RNASeq_R_asymmetry	transcript_region	94	96	1608.0	.	.	

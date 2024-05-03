@@ -1,0 +1,81 @@
+ch.4567	RNASeq_F_asymmetry	transcript_region	98	101	3063.0	.	.	
+ch.4567	RNASeq_reads	transcript_region	98	107	1.0	.	.	
+ch.4567	WormBase	five_prime_UTR	101	126	.	+	.	Parent=Transcript:F58F12.4.1
+ch.4567	WormBase	exon	101	385	.	+	.	Parent=Transcript:F58F12.4.1
+ch.4567	WormBase	gene	101	969	.	+	.	ID=Gene:WBGene00044756
+ch.4567	WormBase	mRNA	101	969	.	+	.	ID=Transcript:F58F12.4.1;Parent=Gene:WBGene00044756
+ch.4567	RNASeq_F_asymmetry	transcript_region	102	107	4641.0	.	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	108	121	8077.0	.	.	
+ch.4567	RNASeq_reads	transcript_region	108	121	2.0	.	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	122	128	21097.0	.	.	
+ch.4567	RNASeq_reads	transcript_region	122	128	4.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	126	151	1.0	+	.	
+ch.4567	WormBase	CDS	127	385	.	+	.	ID=CDS:F58F12.4;Parent=Transcript:F58F12.4.1
+ch.4567	RNASeq_reads	transcript_region	129	163	7.0	.	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	129	164	34120.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	152	165	2.0	+	.	
+ch.4567	RNASeq_reads	transcript_region	164	385	11.0	.	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	165	204	52173.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	166	169	1.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	170	187	2.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	188	195	1.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	196	200	2.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	201	323	1.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	324	373	2.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	374	385	1.0	+	.	
+ch.4567	WormBase	intron	386	514	.	+	.	Parent=Transcript:F58F12.4.1
+ch.4567	RNASeq_splice	intron	386	514	73176.0	+	.	
+ch.4567	RNASeq_splice	intron	482	534	3.0	-	.	
+ch.4567	RNASeq_reads	transcript_region	513	513	1.0	.	.	
+ch.4567	RNASeq_reads	transcript_region	514	514	2.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	515	517	1.0	+	.	
+ch.4567	WormBase	CDS	515	667	.	+	.	ID=CDS:F58F12.4;Parent=Transcript:F58F12.4.1
+ch.4567	WormBase	exon	515	667	.	+	.	Parent=Transcript:F58F12.4.1
+ch.4567	RNASeq_reads	transcript_region	515	667	13.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	518	658	2.0	+	.	
+ch.4567	RNASeq_splice	intron	566	722	5.0	+	.	
+ch.4567	RNASeq	transcription_end_site	585	585	.	+	.	
+ch.4567	RNASeq	transcription_end_site	592	592	.	+	.	
+ch.4567	RNASeq_stranded	transcript_region	659	667	4.0	+	.	
+ch.4567	RNASeq_splice	intron	662	722	38.0	+	.	
+ch.4567	WormBase	intron	668	722	.	+	.	Parent=Transcript:F58F12.4.1
+ch.4567	RNASeq_reads	transcript_region	668	722	1.0	.	.	
+ch.4567	RNASeq_splice	intron	668	722	47508.0	+	.	
+ch.4567	RNASeq_splice	intron	672	725	36.0	-	.	
+ch.4567	RNASeq_splice	intron	683	722	1978.0	+	.	
+ch.4567	RNASeq_splice	intron	698	747	10.0	+	.	
+ch.4567	RNASeq	transcription_end_site	723	723	.	+	.	
+ch.4567	RNASeq_stranded	transcript_region	723	739	5.0	+	.	
+ch.4567	WormBase	CDS	723	763	.	+	.	ID=CDS:F58F12.4;Parent=Transcript:F58F12.4.1
+ch.4567	RNASeq_reads	transcript_region	723	922	9.0	.	.	
+ch.4567	WormBase	exon	723	969	.	+	.	Parent=Transcript:F58F12.4.1
+ch.4567	RNASeq_stranded	transcript_region	740	853	8.0	+	.	
+ch.4567	RNASeq	transcription_end_site	763	763	.	+	.	
+ch.4567	WormBase	three_prime_UTR	764	969	.	+	.	Parent=Transcript:F58F12.4.1
+ch.4567	RNASeq_stranded	transcript_region	786	873	1.0	-	.	
+ch.4567	WormBase	three_prime_UTR	793	858	.	-	.	Parent=Transcript:F58F12.2.1
+ch.4567	WormBase	exon	793	922	.	-	.	Parent=Transcript:F58F12.2.1
+ch.4567	RNASeq_stranded	transcript_region	854	858	5.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	859	900	3.0	+	.	
+ch.4567	WormBase	CDS	859	922	.	-	.	ID=CDS:F58F12.2;Parent=Transcript:F58F12.2.1
+ch.4567	RNASeq_stranded	transcript_region	874	877	2.0	-	.	
+ch.4567	RNASeq_stranded	transcript_region	878	913	1.0	-	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	881	884	39581.0	.	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	893	893	37804.0	.	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	895	903	38277.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	901	905	1.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	914	914	2.0	+	.	
+ch.4567	RNASeq_stranded	transcript_region	915	922	1.0	-	.	
+ch.4567	WormBase	intron	923	970	.	-	.	Parent=Transcript:F58F12.2.1
+ch.4567	RNASeq_splice	intron	923	970	47098.0	-	.	
+ch.4567	RNASeq_splice	intron	923	1054	94.0	-	.	
+ch.4567	RNASeq_F_asymmetry	transcript_region	970	970	6548.0	.	.	
+ch.4567	RNASeq_reads	transcript_region	970	970	2.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	971	975	1.0	-	.	
+ch.4567	WormBase	CDS	971	1008	.	-	.	ID=CDS:F58F12.2;Parent=Transcript:F58F12.2.1
+ch.4567	WormBase	exon	971	1008	.	-	.	Parent=Transcript:F58F12.2.1
+ch.4567	RNASeq_reads	transcript_region	971	1008	10.0	.	.	
+ch.4567	RNASeq_stranded	transcript_region	976	1008	2.0	-	.	
+ch.4567	WormBase	intron	1009	1054	.	-	.	Parent=Transcript:F58F12.2.1
+ch.4567	RNASeq_splice	intron	1009	1054	47328.0	-	.	
+ch.4567	RNASeq_reads	transcript_region	1051	1054	1.0	.	.	

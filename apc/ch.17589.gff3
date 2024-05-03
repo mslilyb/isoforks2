@@ -1,0 +1,55 @@
+ch.17589	RNASeq_splice	intron	690	943	41.0	-	.	
+ch.17589	RNASeq_splice	intron	499	943	24.0	-	.	
+ch.17589	RNASeq_splice	intron	207	943	6.0	-	.	
+ch.17589	RNASeq_stranded	transcript_region	849	928	1.0	+	.	
+ch.17589	WormBase	three_prime_UTR	737	905	.	+	.	Parent=Transcript:F57C12.6.1
+ch.17589	WormBase	exon	628	905	.	+	.	Parent=Transcript:F57C12.6.1
+ch.17589	WormBase	gene	101	905	.	+	.	ID=Gene:WBGene00194687
+ch.17589	WormBase	mRNA	101	905	.	+	.	ID=Transcript:F57C12.6.1;Parent=Gene:WBGene00194687
+ch.17589	RNASeq_reads	transcript_region	854	894	1.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	763	810	1.0	.	.	
+ch.17589	RNASeq_F_asymmetry	transcript_region	774	785	3835.0	.	.	
+ch.17589	RNASeq_F_asymmetry	transcript_region	756	773	5795.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	762	762	2.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	761	761	1.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	715	760	2.0	.	.	
+ch.17589	RNASeq_stranded	transcript_region	742	758	1.0	+	.	
+ch.17589	RNASeq_F_asymmetry	transcript_region	740	755	8868.0	.	.	
+ch.17589	RNASeq_stranded	transcript_region	733	741	2.0	+	.	
+ch.17589	WormBase	CDS	628	736	.	+	.	ID=CDS:F57C12.6;Parent=Transcript:F57C12.6.1
+ch.17589	RNASeq_stranded	transcript_region	714	732	4.0	+	.	
+ch.17589	RNASeq_reads	transcript_region	676	714	4.0	.	.	
+ch.17589	RNASeq_stranded	transcript_region	702	713	7.0	+	.	
+ch.17589	RNASeq_stranded	transcript_region	628	701	11.0	+	.	
+ch.17589	RNASeq_reads	transcript_region	628	675	7.0	.	.	
+ch.17589	WormBase	intron	582	627	.	+	.	Parent=Transcript:F57C12.6.1
+ch.17589	RNASeq_splice	intron	582	627	26558.0	+	.	
+ch.17589	RNASeq_splice	intron	580	627	103.0	+	.	
+ch.17589	RNASeq_stranded	transcript_region	558	581	10.0	+	.	
+ch.17589	RNASeq_reads	transcript_region	532	581	5.0	.	.	
+ch.17589	WormBase	CDS	282	581	.	+	.	ID=CDS:F57C12.6;Parent=Transcript:F57C12.6.1
+ch.17589	WormBase	exon	282	581	.	+	.	Parent=Transcript:F57C12.6.1
+ch.17589	RNASeq_stranded	transcript_region	537	557	6.0	+	.	
+ch.17589	RNASeq_stranded	transcript_region	528	536	3.0	+	.	
+ch.17589	RNASeq_reads	transcript_region	463	531	3.0	.	.	
+ch.17589	RNASeq_stranded	transcript_region	487	527	1.0	+	.	
+ch.17589	RNASeq_reads	transcript_region	459	462	1.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	458	458	2.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	457	457	1.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	455	456	2.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	392	454	1.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	385	391	2.0	.	.	
+ch.17589	RNASeq_stranded	transcript_region	335	386	1.0	+	.	
+ch.17589	RNASeq_reads	transcript_region	384	384	1.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	374	383	2.0	.	.	
+ch.17589	RNASeq_reads	transcript_region	282	373	1.0	.	.	
+ch.17589	RNASeq_splice	intron	238	287	802.0	+	.	
+ch.17589	RNASeq_splice	intron	233	287	7.0	+	.	
+ch.17589	WormBase	intron	238	281	.	+	.	Parent=Transcript:F57C12.6.1
+ch.17589	RNASeq_splice	intron	238	281	2776.0	+	.	
+ch.17589	RNASeq_splice	intron	233	281	62.0	+	.	
+ch.17589	WormBase	CDS	101	237	.	+	.	ID=CDS:F57C12.6;Parent=Transcript:F57C12.6.1
+ch.17589	WormBase	exon	101	237	.	+	.	Parent=Transcript:F57C12.6.1
+ch.17589	RNASeq_reads	transcript_region	25	237	1.0	.	.	
+ch.17589	RNASeq_splice	intron	107	152	4.0	-	.	
+ch.17589	RNASeq	transcription_end_site	68	68	.	-	.	

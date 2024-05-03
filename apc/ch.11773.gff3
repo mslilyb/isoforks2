@@ -1,0 +1,58 @@
+ch.11773	RNASeq_F_asymmetry	transcript_region	81	96	404.0	.	.	
+ch.11773	RNASeq_F_asymmetry	transcript_region	100	100	749.0	.	.	
+ch.11773	RNASeq_reads	transcript_region	101	110	1.0	.	.	
+ch.11773	WormBase	five_prime_UTR	101	115	.	+	.	Parent=Transcript:C32H11.11.1
+ch.11773	WormBase	exon	101	337	.	+	.	Parent=Transcript:C32H11.11.1
+ch.11773	WormBase	gene	101	959	.	+	.	ID=Gene:WBGene00007874
+ch.11773	WormBase	mRNA	101	959	.	+	.	ID=Transcript:C32H11.11.1;Parent=Gene:WBGene00007874
+ch.11773	RNASeq_stranded	transcript_region	106	129	1.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	111	120	2.0	.	.	
+ch.11773	RNASeq_F_asymmetry	transcript_region	114	118	8332.0	.	.	
+ch.11773	WormBase	CDS	116	337	.	+	.	ID=CDS:C32H11.11;Parent=Transcript:C32H11.11.1
+ch.11773	RNASeq_F_asymmetry	transcript_region	119	120	13734.0	.	.	
+ch.11773	RNASeq_reads	transcript_region	121	142	5.0	.	.	
+ch.11773	RNASeq_F_asymmetry	transcript_region	121	143	23620.0	.	.	
+ch.11773	RNASeq_stranded	transcript_region	130	146	3.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	143	191	8.0	.	.	
+ch.11773	RNASeq_F_asymmetry	transcript_region	144	201	35561.0	.	.	
+ch.11773	RNASeq_stranded	transcript_region	147	178	5.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	179	189	8.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	190	240	16.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	192	332	13.0	.	.	
+ch.11773	RNASeq_F_asymmetry	transcript_region	202	208	53933.0	.	.	
+ch.11773	RNASeq_stranded	transcript_region	241	247	7.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	248	250	4.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	251	252	2.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	253	255	1.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	256	273	2.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	274	309	1.0	-	.	
+ch.11773	RNASeq_stranded	transcript_region	274	324	4.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	325	334	1.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	333	337	8.0	.	.	
+ch.11773	RNASeq_reads	transcript_region	338	338	2.0	.	.	
+ch.11773	WormBase	intron	338	593	.	+	.	Parent=Transcript:C32H11.11.1
+ch.11773	RNASeq_splice	intron	338	593	29833.0	+	.	
+ch.11773	RNASeq_splice	intron	546	593	7.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	594	625	6.0	.	.	
+ch.11773	WormBase	CDS	594	959	.	+	.	ID=CDS:C32H11.11;Parent=Transcript:C32H11.11.1
+ch.11773	WormBase	exon	594	959	.	+	.	Parent=Transcript:C32H11.11.1
+ch.11773	RNASeq_stranded	transcript_region	623	624	1.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	625	630	3.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	626	662	10.0	.	.	
+ch.11773	RNASeq_stranded	transcript_region	631	675	5.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	663	781	16.0	.	.	
+ch.11773	RNASeq_stranded	transcript_region	676	678	2.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	679	706	1.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	710	739	1.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	740	758	2.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	759	785	1.0	+	.	
+ch.11773	RNASeq_reads	transcript_region	782	945	10.0	.	.	
+ch.11773	RNASeq_stranded	transcript_region	838	845	1.0	+	.	
+ch.11773	RNASeq_stranded	transcript_region	846	896	2.0	+	.	
+ch.11773	RNASeq_R_asymmetry	transcript_region	895	944	46228.0	.	.	
+ch.11773	RNASeq_stranded	transcript_region	897	985	1.0	+	.	
+ch.11773	RNASeq_R_asymmetry	transcript_region	945	946	30263.0	.	.	
+ch.11773	RNASeq_reads	transcript_region	946	956	5.0	.	.	
+ch.11773	RNASeq_reads	transcript_region	957	1000	3.0	.	.	
+ch.11773	RNASeq_reads	transcript_region	1001	1032	1.0	.	.	
+ch.11773	RNASeq_R_asymmetry	transcript_region	1033	1037	1089.0	.	.	
