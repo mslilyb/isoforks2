@@ -1,103 +1,103 @@
-ch.8085	RNASeq_R_asymmetry	transcript_region	4	11	48677.0	.	.	
-ch.8085	WormBase	five_prime_UTR	5	11	.	-	.	Parent=Transcript:F10E9.8.1
-ch.8085	RNASeq_reads	transcript_region	11	13	7.0	.	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	12	13	32081.0	.	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	14	17	2134.0	.	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	18	59	894.0	.	.	
-ch.8085	RNASeq	transcription_end_site	98	98	.	+	.	
-ch.8085	RNASeq	transcription_end_site	98	98	.	+	.	
-ch.8085	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.8085	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.8085	RNASeq	transcription_end_site	101	101	.	+	.	
-ch.8085	RNASeq	transcription_end_site	101	101	.	+	.	
-ch.8085	RNASeq_F_asymmetry	transcript_region	101	105	9464.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	101	105	2.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	101	105	1.0	-	.	
-ch.8085	WormBase	three_prime_UTR	101	168	.	-	.	Parent=Transcript:F10E9.11.1
-ch.8085	WormBase	exon	101	436	.	-	.	Parent=Transcript:F10E9.11.1
-ch.8085	WormBase	gene	101	683	.	-	.	ID=Gene:WBGene00017360
-ch.8085	WormBase	mRNA	101	683	.	-	.	ID=Transcript:F10E9.11.1;Parent=Gene:WBGene00017360
-ch.8085	RNASeq	transcription_end_site	105	105	.	+	.	
-ch.8085	RNASeq_F_asymmetry	transcript_region	106	112	15994.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	106	113	4.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	106	117	2.0	-	.	
-ch.8085	RNASeq_F_asymmetry	transcript_region	113	129	27187.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	114	133	7.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	118	126	4.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	127	142	7.0	-	.	
-ch.8085	RNASeq_reads	transcript_region	134	159	11.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	143	152	11.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	153	165	17.0	-	.	
-ch.8085	RNASeq	transcription_end_site	155	155	.	+	.	
-ch.8085	RNASeq	transcription_end_site	157	157	.	+	.	
-ch.8085	RNASeq	transcription_end_site	157	157	.	+	.	
-ch.8085	RNASeq_reads	transcript_region	160	174	17.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	166	184	27.0	-	.	
-ch.8085	WormBase	CDS	169	436	.	-	.	ID=CDS:F10E9.11;Parent=Transcript:F10E9.11.1
-ch.8085	RNASeq	transcription_end_site	170	170	.	+	.	
-ch.8085	RNASeq_reads	transcript_region	175	179	27.0	.	.	
-ch.8085	RNASeq_F_asymmetry	transcript_region	178	186	160857.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	180	192	44.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	180	238	1.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	185	195	41.0	-	.	
-ch.8085	RNASeq_F_asymmetry	transcript_region	187	209	251840.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	193	254	68.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	196	208	62.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	209	261	94.0	-	.	
-ch.8085	RNASeq_reads	transcript_region	255	436	104.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	262	345	60.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	284	311	1.0	+	.	
-ch.8085	RNASeq_splice	intron	312	493	7.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	335	340	1.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	346	377	39.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	355	359	1.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	360	360	2.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	361	436	5.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	378	402	25.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	403	411	46.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	412	436	70.0	-	.	
-ch.8085	RNASeq_splice	intron	430	493	11.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	432	436	503020.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	437	448	1.0	.	.	
-ch.8085	WormBase	intron	437	493	.	-	.	Parent=Transcript:F10E9.11.1
-ch.8085	RNASeq_splice	intron	437	493	658908.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	490	492	17393.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	490	492	4.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	490	492	1.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	493	493	35538.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	493	493	8.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	493	493	4.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	494	517	5.0	+	.	
-ch.8085	RNASeq_reads	transcript_region	494	555	115.0	.	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	494	559	492891.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	494	559	80.0	-	.	
-ch.8085	WormBase	CDS	494	561	.	-	.	ID=CDS:F10E9.11;Parent=Transcript:F10E9.11.1
-ch.8085	WormBase	exon	494	683	.	-	.	Parent=Transcript:F10E9.11.1
-ch.8085	RNASeq_stranded	transcript_region	518	522	1.0	+	.	
-ch.8085	RNASeq_reads	transcript_region	556	559	72.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	560	563	33.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	560	566	175473.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	560	566	36.0	.	.	
-ch.8085	RNASeq_splice	intron	562	650	7.0	-	.	
-ch.8085	WormBase	five_prime_UTR	562	683	.	-	.	Parent=Transcript:F10E9.11.1
-ch.8085	RNASeq_stranded	transcript_region	564	566	11.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	567	585	41965.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	567	590	9.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	567	592	3.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	586	603	27127.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	591	607	5.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	593	593	1.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	594	594	2.0	+	.	
-ch.8085	RNASeq_stranded	transcript_region	595	599	1.0	-	.	
-ch.8085	RNASeq_stranded	transcript_region	600	604	2.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	604	624	17835.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	605	610	1.0	-	.	
-ch.8085	RNASeq_reads	transcript_region	608	640	3.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	611	633	2.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	625	635	11653.0	.	.	
-ch.8085	RNASeq_stranded	transcript_region	634	663	1.0	-	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	636	651	7614.0	.	.	
-ch.8085	RNASeq_reads	transcript_region	641	669	1.0	.	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	652	663	4353.0	.	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	664	671	2825.0	.	.	
-ch.8085	RNASeq_R_asymmetry	transcript_region	672	673	1663.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	773	780	48677.0	.	.	
+ch.8085	WormBase	five_prime_UTR	773	779	.	+	.	Parent=Transcript:F10E9.8.1
+ch.8085	RNASeq_reads	transcript_region	771	773	7.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	771	772	32081.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	767	770	2134.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	725	766	894.0	.	.	
+ch.8085	RNASeq	transcription_end_site	686	686	.	-	.	
+ch.8085	RNASeq	transcription_end_site	686	686	.	-	.	
+ch.8085	RNASeq	transcription_end_site	685	685	.	-	.	
+ch.8085	RNASeq	transcription_end_site	685	685	.	-	.	
+ch.8085	RNASeq	transcription_end_site	683	683	.	-	.	
+ch.8085	RNASeq	transcription_end_site	683	683	.	-	.	
+ch.8085	RNASeq_F_asymmetry	transcript_region	679	683	9464.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	679	683	2.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	679	683	1.0	+	.	
+ch.8085	WormBase	three_prime_UTR	616	683	.	+	.	Parent=Transcript:F10E9.11.1
+ch.8085	WormBase	exon	348	683	.	+	.	Parent=Transcript:F10E9.11.1
+ch.8085	WormBase	gene	101	683	.	+	.	ID=Gene:WBGene00017360
+ch.8085	WormBase	mRNA	101	683	.	+	.	ID=Transcript:F10E9.11.1;Parent=Gene:WBGene00017360
+ch.8085	RNASeq	transcription_end_site	679	679	.	-	.	
+ch.8085	RNASeq_F_asymmetry	transcript_region	672	678	15994.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	671	678	4.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	667	678	2.0	+	.	
+ch.8085	RNASeq_F_asymmetry	transcript_region	655	671	27187.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	651	670	7.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	658	666	4.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	642	657	7.0	+	.	
+ch.8085	RNASeq_reads	transcript_region	625	650	11.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	632	641	11.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	619	631	17.0	+	.	
+ch.8085	RNASeq	transcription_end_site	629	629	.	-	.	
+ch.8085	RNASeq	transcription_end_site	627	627	.	-	.	
+ch.8085	RNASeq	transcription_end_site	627	627	.	-	.	
+ch.8085	RNASeq_reads	transcript_region	610	624	17.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	600	618	27.0	+	.	
+ch.8085	WormBase	CDS	348	615	.	+	.	ID=CDS:F10E9.11;Parent=Transcript:F10E9.11.1
+ch.8085	RNASeq	transcription_end_site	614	614	.	-	.	
+ch.8085	RNASeq_reads	transcript_region	605	609	27.0	.	.	
+ch.8085	RNASeq_F_asymmetry	transcript_region	598	606	160857.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	592	604	44.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	546	604	1.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	589	599	41.0	+	.	
+ch.8085	RNASeq_F_asymmetry	transcript_region	575	597	251840.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	530	591	68.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	576	588	62.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	523	575	94.0	+	.	
+ch.8085	RNASeq_reads	transcript_region	348	529	104.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	439	522	60.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	473	500	1.0	-	.	
+ch.8085	RNASeq_splice	intron	291	472	7.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	444	449	1.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	407	438	39.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	425	429	1.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	424	424	2.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	348	423	5.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	382	406	25.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	373	381	46.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	348	372	70.0	+	.	
+ch.8085	RNASeq_splice	intron	291	354	11.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	348	352	503020.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	336	347	1.0	.	.	
+ch.8085	WormBase	intron	291	347	.	+	.	Parent=Transcript:F10E9.11.1
+ch.8085	RNASeq_splice	intron	291	347	658908.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	292	294	17393.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	292	294	4.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	292	294	1.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	291	291	35538.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	291	291	8.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	291	291	4.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	267	290	5.0	-	.	
+ch.8085	RNASeq_reads	transcript_region	229	290	115.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	225	290	492891.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	225	290	80.0	+	.	
+ch.8085	WormBase	CDS	223	290	.	+	.	ID=CDS:F10E9.11;Parent=Transcript:F10E9.11.1
+ch.8085	WormBase	exon	101	290	.	+	.	Parent=Transcript:F10E9.11.1
+ch.8085	RNASeq_stranded	transcript_region	262	266	1.0	-	.	
+ch.8085	RNASeq_reads	transcript_region	225	228	72.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	221	224	33.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	218	224	175473.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	218	224	36.0	.	.	
+ch.8085	RNASeq_splice	intron	134	222	7.0	+	.	
+ch.8085	WormBase	five_prime_UTR	101	222	.	+	.	Parent=Transcript:F10E9.11.1
+ch.8085	RNASeq_stranded	transcript_region	218	220	11.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	199	217	41965.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	194	217	9.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	192	217	3.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	181	198	27127.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	177	193	5.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	191	191	1.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	190	190	2.0	-	.	
+ch.8085	RNASeq_stranded	transcript_region	185	189	1.0	+	.	
+ch.8085	RNASeq_stranded	transcript_region	180	184	2.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	160	180	17835.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	174	179	1.0	+	.	
+ch.8085	RNASeq_reads	transcript_region	144	176	3.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	151	173	2.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	149	159	11653.0	.	.	
+ch.8085	RNASeq_stranded	transcript_region	121	150	1.0	+	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	133	148	7614.0	.	.	
+ch.8085	RNASeq_reads	transcript_region	115	143	1.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	121	132	4353.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	113	120	2825.0	.	.	
+ch.8085	RNASeq_R_asymmetry	transcript_region	111	112	1663.0	.	.	

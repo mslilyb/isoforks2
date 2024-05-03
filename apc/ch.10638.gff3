@@ -1,92 +1,92 @@
-ch.10638	RNASeq_R_asymmetry	transcript_region	18	55	2538.0	.	.	
-ch.10638	RNASeq_reads	transcript_region	84	95	1.0	.	.	
-ch.10638	RNASeq	transcription_end_site	94	94	.	+	.	
-ch.10638	RNASeq	transcription_end_site	94	94	.	+	.	
-ch.10638	RNASeq_stranded	transcript_region	95	95	1.0	+	.	
-ch.10638	RNASeq	transcription_end_site	95	95	.	+	.	
-ch.10638	RNASeq	transcription_end_site	95	95	.	+	.	
-ch.10638	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.10638	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.10638	RNASeq_stranded	transcript_region	96	98	1.0	+	.	
-ch.10638	RNASeq_stranded	transcript_region	96	98	2.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	96	100	2.0	.	.	
-ch.10638	RNASeq	transcription_end_site	97	97	.	+	.	
-ch.10638	RNASeq_stranded	transcript_region	99	101	5.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	99	187	2.0	+	.	
-ch.10638	RNASeq_reads	transcript_region	101	106	5.0	.	.	
-ch.10638	WormBase	three_prime_UTR	101	186	.	-	.	Parent=Transcript:C07G1.8.1
-ch.10638	WormBase	exon	101	411	.	-	.	Parent=Transcript:C07G1.8.1
-ch.10638	WormBase	gene	101	730	.	-	.	ID=Gene:WBGene00044608
-ch.10638	WormBase	mRNA	101	730	.	-	.	ID=Transcript:C07G1.8.1;Parent=Gene:WBGene00044608
-ch.10638	RNASeq_stranded	transcript_region	102	103	8.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	104	107	13.0	-	.	
-ch.10638	RNASeq	transcription_end_site	106	106	.	+	.	
-ch.10638	RNASeq	transcription_end_site	106	106	.	+	.	
-ch.10638	RNASeq_reads	transcript_region	107	118	8.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	108	115	20.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	116	119	31.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	119	128	13.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	120	126	48.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	127	147	77.0	-	.	
-ch.10638	RNASeq	transcription_end_site	128	128	.	+	.	
-ch.10638	RNASeq_reads	transcript_region	129	134	20.0	.	.	
-ch.10638	RNASeq_reads	transcript_region	135	150	32.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	148	249	116.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	151	208	50.0	.	.	
-ch.10638	WormBase	CDS	187	411	.	-	.	ID=CDS:C07G1.8;Parent=Transcript:C07G1.8.1
-ch.10638	RNASeq_stranded	transcript_region	188	198	1.0	+	.	
-ch.10638	RNASeq	transcription_end_site	194	194	.	+	.	
-ch.10638	RNASeq	transcription_end_site	194	194	.	+	.	
-ch.10638	RNASeq	transcription_end_site	197	197	.	+	.	
-ch.10638	RNASeq	transcription_end_site	197	197	.	+	.	
-ch.10638	RNASeq_reads	transcript_region	209	411	78.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	229	258	1.0	+	.	
-ch.10638	RNASeq_stranded	transcript_region	250	269	73.0	-	.	
-ch.10638	RNASeq_splice	intron	269	311	418.0	-	.	
-ch.10638	RNASeq_splice	intron	269	341	8.0	-	.	
-ch.10638	RNASeq_splice	intron	269	462	51.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	270	346	48.0	-	.	
-ch.10638	RNASeq_splice	intron	322	462	33.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	347	375	31.0	-	.	
-ch.10638	RNASeq_splice	intron	360	462	29.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	376	411	20.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	412	413	10.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	412	413	3.0	-	.	
-ch.10638	WormBase	intron	412	462	.	-	.	Parent=Transcript:C07G1.8.1
-ch.10638	RNASeq_splice	intron	412	462	458925.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	414	462	1.0	.	.	
-ch.10638	RNASeq_splice	intron	429	462	188.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	463	486	22.0	-	.	
-ch.10638	WormBase	CDS	463	564	.	-	.	ID=CDS:C07G1.8;Parent=Transcript:C07G1.8.1
-ch.10638	WormBase	exon	463	564	.	-	.	Parent=Transcript:C07G1.8.1
-ch.10638	RNASeq_reads	transcript_region	463	564	89.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	487	539	34.0	-	.	
-ch.10638	RNASeq_stranded	transcript_region	540	564	20.0	-	.	
-ch.10638	RNASeq_splice	intron	559	656	67.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	565	651	1.0	.	.	
-ch.10638	WormBase	intron	565	656	.	-	.	Parent=Transcript:C07G1.8.1
-ch.10638	RNASeq_splice	intron	565	656	431369.0	-	.	
-ch.10638	RNASeq_splice	intron	565	665	107.0	-	.	
-ch.10638	RNASeq_splice	intron	576	656	592.0	-	.	
-ch.10638	RNASeq_splice	intron	579	656	775.0	-	.	
-ch.10638	RNASeq_R_asymmetry	transcript_region	652	654	13659.0	.	.	
-ch.10638	RNASeq_reads	transcript_region	652	654	3.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	652	654	1.0	-	.	
-ch.10638	RNASeq_R_asymmetry	transcript_region	655	656	30143.0	.	.	
-ch.10638	RNASeq_reads	transcript_region	655	656	7.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	655	656	7.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	657	716	90.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	657	719	26.0	-	.	
-ch.10638	RNASeq_R_asymmetry	transcript_region	657	722	360925.0	.	.	
-ch.10638	WormBase	CDS	657	725	.	-	.	ID=CDS:C07G1.8;Parent=Transcript:C07G1.8.1
-ch.10638	WormBase	exon	657	730	.	-	.	Parent=Transcript:C07G1.8.1
-ch.10638	RNASeq_reads	transcript_region	717	725	58.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	720	732	17.0	-	.	
-ch.10638	RNASeq_R_asymmetry	transcript_region	723	730	216115.0	.	.	
-ch.10638	WormBase	five_prime_UTR	726	730	.	-	.	Parent=Transcript:C07G1.8.1
-ch.10638	RNASeq_reads	transcript_region	726	730	38.0	.	.	
-ch.10638	RNASeq_R_asymmetry	transcript_region	731	732	124871.0	.	.	
-ch.10638	RNASeq_reads	transcript_region	731	732	25.0	.	.	
-ch.10638	RNASeq_splice	intron	731	787	8.0	-	.	
-ch.10638	RNASeq_reads	transcript_region	733	821	1.0	.	.	
-ch.10638	RNASeq_stranded	transcript_region	757	779	1.0	-	.	
+ch.10638	RNASeq_R_asymmetry	transcript_region	776	813	2538.0	.	.	
+ch.10638	RNASeq_reads	transcript_region	736	747	1.0	.	.	
+ch.10638	RNASeq	transcription_end_site	737	737	.	-	.	
+ch.10638	RNASeq	transcription_end_site	737	737	.	-	.	
+ch.10638	RNASeq_stranded	transcript_region	736	736	1.0	-	.	
+ch.10638	RNASeq	transcription_end_site	736	736	.	-	.	
+ch.10638	RNASeq	transcription_end_site	736	736	.	-	.	
+ch.10638	RNASeq	transcription_end_site	735	735	.	-	.	
+ch.10638	RNASeq	transcription_end_site	735	735	.	-	.	
+ch.10638	RNASeq_stranded	transcript_region	733	735	1.0	-	.	
+ch.10638	RNASeq_stranded	transcript_region	733	735	2.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	731	735	2.0	.	.	
+ch.10638	RNASeq	transcription_end_site	734	734	.	-	.	
+ch.10638	RNASeq_stranded	transcript_region	730	732	5.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	644	732	2.0	-	.	
+ch.10638	RNASeq_reads	transcript_region	725	730	5.0	.	.	
+ch.10638	WormBase	three_prime_UTR	645	730	.	+	.	Parent=Transcript:C07G1.8.1
+ch.10638	WormBase	exon	420	730	.	+	.	Parent=Transcript:C07G1.8.1
+ch.10638	WormBase	gene	101	730	.	+	.	ID=Gene:WBGene00044608
+ch.10638	WormBase	mRNA	101	730	.	+	.	ID=Transcript:C07G1.8.1;Parent=Gene:WBGene00044608
+ch.10638	RNASeq_stranded	transcript_region	728	729	8.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	724	727	13.0	+	.	
+ch.10638	RNASeq	transcription_end_site	725	725	.	-	.	
+ch.10638	RNASeq	transcription_end_site	725	725	.	-	.	
+ch.10638	RNASeq_reads	transcript_region	713	724	8.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	716	723	20.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	712	715	31.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	703	712	13.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	705	711	48.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	684	704	77.0	+	.	
+ch.10638	RNASeq	transcription_end_site	703	703	.	-	.	
+ch.10638	RNASeq_reads	transcript_region	697	702	20.0	.	.	
+ch.10638	RNASeq_reads	transcript_region	681	696	32.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	582	683	116.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	623	680	50.0	.	.	
+ch.10638	WormBase	CDS	420	644	.	+	.	ID=CDS:C07G1.8;Parent=Transcript:C07G1.8.1
+ch.10638	RNASeq_stranded	transcript_region	633	643	1.0	-	.	
+ch.10638	RNASeq	transcription_end_site	637	637	.	-	.	
+ch.10638	RNASeq	transcription_end_site	637	637	.	-	.	
+ch.10638	RNASeq	transcription_end_site	634	634	.	-	.	
+ch.10638	RNASeq	transcription_end_site	634	634	.	-	.	
+ch.10638	RNASeq_reads	transcript_region	420	622	78.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	573	602	1.0	-	.	
+ch.10638	RNASeq_stranded	transcript_region	562	581	73.0	+	.	
+ch.10638	RNASeq_splice	intron	520	562	418.0	+	.	
+ch.10638	RNASeq_splice	intron	490	562	8.0	+	.	
+ch.10638	RNASeq_splice	intron	369	562	51.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	485	561	48.0	+	.	
+ch.10638	RNASeq_splice	intron	369	509	33.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	456	484	31.0	+	.	
+ch.10638	RNASeq_splice	intron	369	471	29.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	420	455	20.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	418	419	10.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	418	419	3.0	+	.	
+ch.10638	WormBase	intron	369	419	.	+	.	Parent=Transcript:C07G1.8.1
+ch.10638	RNASeq_splice	intron	369	419	458925.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	369	417	1.0	.	.	
+ch.10638	RNASeq_splice	intron	369	402	188.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	345	368	22.0	+	.	
+ch.10638	WormBase	CDS	267	368	.	+	.	ID=CDS:C07G1.8;Parent=Transcript:C07G1.8.1
+ch.10638	WormBase	exon	267	368	.	+	.	Parent=Transcript:C07G1.8.1
+ch.10638	RNASeq_reads	transcript_region	267	368	89.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	292	344	34.0	+	.	
+ch.10638	RNASeq_stranded	transcript_region	267	291	20.0	+	.	
+ch.10638	RNASeq_splice	intron	175	272	67.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	180	266	1.0	.	.	
+ch.10638	WormBase	intron	175	266	.	+	.	Parent=Transcript:C07G1.8.1
+ch.10638	RNASeq_splice	intron	175	266	431369.0	+	.	
+ch.10638	RNASeq_splice	intron	166	266	107.0	+	.	
+ch.10638	RNASeq_splice	intron	175	255	592.0	+	.	
+ch.10638	RNASeq_splice	intron	175	252	775.0	+	.	
+ch.10638	RNASeq_R_asymmetry	transcript_region	177	179	13659.0	.	.	
+ch.10638	RNASeq_reads	transcript_region	177	179	3.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	177	179	1.0	+	.	
+ch.10638	RNASeq_R_asymmetry	transcript_region	175	176	30143.0	.	.	
+ch.10638	RNASeq_reads	transcript_region	175	176	7.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	175	176	7.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	115	174	90.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	112	174	26.0	+	.	
+ch.10638	RNASeq_R_asymmetry	transcript_region	109	174	360925.0	.	.	
+ch.10638	WormBase	CDS	106	174	.	+	.	ID=CDS:C07G1.8;Parent=Transcript:C07G1.8.1
+ch.10638	WormBase	exon	101	174	.	+	.	Parent=Transcript:C07G1.8.1
+ch.10638	RNASeq_reads	transcript_region	106	114	58.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	99	111	17.0	+	.	
+ch.10638	RNASeq_R_asymmetry	transcript_region	101	108	216115.0	.	.	
+ch.10638	WormBase	five_prime_UTR	101	105	.	+	.	Parent=Transcript:C07G1.8.1
+ch.10638	RNASeq_reads	transcript_region	101	105	38.0	.	.	
+ch.10638	RNASeq_R_asymmetry	transcript_region	99	100	124871.0	.	.	
+ch.10638	RNASeq_reads	transcript_region	99	100	25.0	.	.	
+ch.10638	RNASeq_splice	intron	44	100	8.0	+	.	
+ch.10638	RNASeq_reads	transcript_region	10	98	1.0	.	.	
+ch.10638	RNASeq_stranded	transcript_region	52	74	1.0	+	.	

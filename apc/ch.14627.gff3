@@ -1,73 +1,73 @@
-ch.14627	RNASeq_stranded	transcript_region	46	47	1.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	46	48	10.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	48	48	2.0	+	.	
-ch.14627	RNASeq_reads	transcript_region	49	49	21.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	49	49	4.0	+	.	
-ch.14627	RNASeq_reads	transcript_region	50	53	56.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	50	57	15.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	54	59	122.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	58	79	23.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	60	74	190.0	.	.	
-ch.14627	RNASeq_reads	transcript_region	75	85	287.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	80	227	35.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	86	94	433.0	.	.	
-ch.14627	RNASeq_reads	transcript_region	95	122	652.0	.	.	
-ch.14627	WormBase	exon	101	394	.	-	.	Parent=Transcript:T27E4.9.1
-ch.14627	WormBase	CDS	101	394	.	-	.	ID=CDS:T27E4.9;Parent=Transcript:T27E4.9.1
-ch.14627	WormBase	gene	101	587	.	-	.	ID=Gene:WBGene00002020
-ch.14627	WormBase	mRNA	101	587	.	-	.	ID=Transcript:T27E4.9.1;Parent=Gene:WBGene00002020
-ch.14627	RNASeq_reads	transcript_region	123	138	998.0	.	.	
-ch.14627	RNASeq_reads	transcript_region	139	394	1504.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	158	201	1.0	+	.	
-ch.14627	RNASeq_splice	intron	161	579	38.0	-	.	
-ch.14627	RNASeq_splice	intron	165	551	10.0	+	.	
-ch.14627	RNASeq_splice	intron	178	449	14.0	-	.	
-ch.14627	RNASeq_splice	intron	218	331	10.0	+	.	
-ch.14627	RNASeq_splice	intron	223	449	11.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	228	261	22.0	-	.	
-ch.14627	RNASeq_splice	intron	233	345	7.0	+	.	
-ch.14627	RNASeq_splice	intron	256	356	6.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	262	294	35.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	267	313	1.0	+	.	
-ch.14627	RNASeq_splice	intron	292	449	7.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	295	332	53.0	-	.	
-ch.14627	RNASeq_splice	intron	307	449	9.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	319	319	1.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	321	335	1.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	333	394	34.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	336	386	4.0	+	.	
-ch.14627	RNASeq_splice	intron	337	449	22.0	-	.	
-ch.14627	RNASeq_splice	intron	383	436	13.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	387	389	1.0	+	.	
-ch.14627	RNASeq_reads	transcript_region	395	396	348.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	395	396	7.0	-	.	
-ch.14627	WormBase	intron	395	449	.	-	.	Parent=Transcript:T27E4.9.1
-ch.14627	RNASeq_splice	intron	395	449	9869380.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	397	449	148.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	397	449	1.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	450	531	37.0	-	.	
-ch.14627	WormBase	CDS	450	587	.	-	.	ID=CDS:T27E4.9;Parent=Transcript:T27E4.9.1
-ch.14627	WormBase	exon	450	587	.	-	.	Parent=Transcript:T27E4.9.1
-ch.14627	RNASeq_reads	transcript_region	450	610	2124.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	452	469	1.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	474	475	1.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	483	483	1.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	485	485	1.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	487	502	1.0	+	.	
-ch.14627	RNASeq_splice	intron	489	576	6.0	+	.	
-ch.14627	RNASeq_splice	intron	490	585	5.0	+	.	
-ch.14627	RNASeq_splice	intron	512	547	3.0	+	.	
-ch.14627	RNASeq_stranded	transcript_region	532	588	56.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	589	600	35.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	601	619	20.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	611	624	1389.0	.	.	
-ch.14627	RNASeq_splice	intron	618	665	20.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	620	626	13.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	625	634	898.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	627	633	20.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	634	676	31.0	-	.	
-ch.14627	RNASeq_reads	transcript_region	635	663	60.0	.	.	
-ch.14627	RNASeq_R_asymmetry	transcript_region	645	668	181213.0	.	.	
-ch.14627	RNASeq_reads	transcript_region	664	676	38.0	.	.	
-ch.14627	RNASeq_stranded	transcript_region	677	681	16.0	-	.	
-ch.14627	RNASeq_stranded	transcript_region	682	684	10.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	641	642	1.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	640	642	10.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	640	640	2.0	-	.	
+ch.14627	RNASeq_reads	transcript_region	639	639	21.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	639	639	4.0	-	.	
+ch.14627	RNASeq_reads	transcript_region	635	638	56.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	631	638	15.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	629	634	122.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	609	630	23.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	614	628	190.0	.	.	
+ch.14627	RNASeq_reads	transcript_region	603	613	287.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	461	608	35.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	594	602	433.0	.	.	
+ch.14627	RNASeq_reads	transcript_region	566	593	652.0	.	.	
+ch.14627	WormBase	exon	294	587	.	+	.	Parent=Transcript:T27E4.9.1
+ch.14627	WormBase	CDS	294	587	.	+	.	ID=CDS:T27E4.9;Parent=Transcript:T27E4.9.1
+ch.14627	WormBase	gene	101	587	.	+	.	ID=Gene:WBGene00002020
+ch.14627	WormBase	mRNA	101	587	.	+	.	ID=Transcript:T27E4.9.1;Parent=Gene:WBGene00002020
+ch.14627	RNASeq_reads	transcript_region	550	565	998.0	.	.	
+ch.14627	RNASeq_reads	transcript_region	294	549	1504.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	487	530	1.0	-	.	
+ch.14627	RNASeq_splice	intron	109	527	38.0	+	.	
+ch.14627	RNASeq_splice	intron	137	523	10.0	-	.	
+ch.14627	RNASeq_splice	intron	239	510	14.0	+	.	
+ch.14627	RNASeq_splice	intron	357	470	10.0	-	.	
+ch.14627	RNASeq_splice	intron	239	465	11.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	427	460	22.0	+	.	
+ch.14627	RNASeq_splice	intron	343	455	7.0	-	.	
+ch.14627	RNASeq_splice	intron	332	432	6.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	394	426	35.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	375	421	1.0	-	.	
+ch.14627	RNASeq_splice	intron	239	396	7.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	356	393	53.0	+	.	
+ch.14627	RNASeq_splice	intron	239	381	9.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	369	369	1.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	353	367	1.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	294	355	34.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	302	352	4.0	-	.	
+ch.14627	RNASeq_splice	intron	239	351	22.0	+	.	
+ch.14627	RNASeq_splice	intron	252	305	13.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	299	301	1.0	-	.	
+ch.14627	RNASeq_reads	transcript_region	292	293	348.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	292	293	7.0	+	.	
+ch.14627	WormBase	intron	239	293	.	+	.	Parent=Transcript:T27E4.9.1
+ch.14627	RNASeq_splice	intron	239	293	9869380.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	239	291	148.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	239	291	1.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	157	238	37.0	+	.	
+ch.14627	WormBase	CDS	101	238	.	+	.	ID=CDS:T27E4.9;Parent=Transcript:T27E4.9.1
+ch.14627	WormBase	exon	101	238	.	+	.	Parent=Transcript:T27E4.9.1
+ch.14627	RNASeq_reads	transcript_region	78	238	2124.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	219	236	1.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	213	214	1.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	205	205	1.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	203	203	1.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	186	201	1.0	-	.	
+ch.14627	RNASeq_splice	intron	112	199	6.0	-	.	
+ch.14627	RNASeq_splice	intron	103	198	5.0	-	.	
+ch.14627	RNASeq_splice	intron	141	176	3.0	-	.	
+ch.14627	RNASeq_stranded	transcript_region	100	156	56.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	88	99	35.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	69	87	20.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	64	77	1389.0	.	.	
+ch.14627	RNASeq_splice	intron	23	70	20.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	62	68	13.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	54	63	898.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	55	61	20.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	12	54	31.0	+	.	
+ch.14627	RNASeq_reads	transcript_region	25	53	60.0	.	.	
+ch.14627	RNASeq_R_asymmetry	transcript_region	20	43	181213.0	.	.	
+ch.14627	RNASeq_reads	transcript_region	12	24	38.0	.	.	
+ch.14627	RNASeq_stranded	transcript_region	7	11	16.0	+	.	
+ch.14627	RNASeq_stranded	transcript_region	4	6	10.0	+	.	

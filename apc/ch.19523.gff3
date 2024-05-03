@@ -1,84 +1,84 @@
-ch.19523	RNASeq_reads	transcript_region	11	62	1.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	25	65	1.0	-	.	
-ch.19523	RNASeq_F_asymmetry	transcript_region	48	53	4865.0	.	.	
-ch.19523	RNASeq_F_asymmetry	transcript_region	55	55	5283.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	63	99	2.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	66	94	2.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	95	99	4.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	100	102	11.0	-	.	
-ch.19523	RNASeq_reads	transcript_region	100	105	7.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	100	107	1.0	+	.	
-ch.19523	WormBase	three_prime_UTR	101	164	.	-	.	Parent=Transcript:F42F12.10.1
-ch.19523	WormBase	exon	101	467	.	-	.	Parent=Transcript:F42F12.10.1
-ch.19523	WormBase	gene	101	588	.	-	.	ID=Gene:WBGene00023493
-ch.19523	WormBase	mRNA	101	588	.	-	.	ID=Transcript:F42F12.10.1;Parent=Gene:WBGene00023493
-ch.19523	RNASeq_stranded	transcript_region	103	107	17.0	-	.	
-ch.19523	RNASeq_reads	transcript_region	106	107	11.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	108	108	17.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	108	109	2.0	+	.	
-ch.19523	RNASeq_stranded	transcript_region	108	112	26.0	-	.	
-ch.19523	RNASeq_F_asymmetry	transcript_region	109	112	137980.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	109	112	31.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	110	159	4.0	+	.	
-ch.19523	RNASeq_stranded	transcript_region	113	125	45.0	-	.	
-ch.19523	RNASeq_reads	transcript_region	113	135	53.0	.	.	
-ch.19523	RNASeq_F_asymmetry	transcript_region	113	137	237113.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	126	147	68.0	-	.	
-ch.19523	RNASeq_reads	transcript_region	136	174	81.0	.	.	
-ch.19523	RNASeq_F_asymmetry	transcript_region	138	160	360588.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	148	174	103.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	160	176	2.0	+	.	
-ch.19523	WormBase	CDS	165	467	.	-	.	ID=CDS:F42F12.10;Parent=Transcript:F42F12.10.1
-ch.19523	RNASeq_reads	transcript_region	175	219	123.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	175	248	158.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	177	197	1.0	+	.	
-ch.19523	RNASeq_stranded	transcript_region	203	204	1.0	+	.	
-ch.19523	RNASeq_stranded	transcript_region	211	267	1.0	+	.	
-ch.19523	RNASeq_reads	transcript_region	220	350	192.0	.	.	
-ch.19523	RNASeq_splice	intron	244	289	14.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	249	265	102.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	266	275	61.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	276	291	35.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	292	340	23.0	-	.	
-ch.19523	RNASeq_splice	intron	325	373	4.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	341	350	15.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	351	355	7.0	-	.	
-ch.19523	RNASeq_reads	transcript_region	351	401	121.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	356	383	4.0	-	.	
-ch.19523	RNASeq_stranded	transcript_region	384	453	8.0	-	.	
-ch.19523	RNASeq_reads	transcript_region	402	446	79.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	414	414	279273.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	416	467	271910.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	447	467	52.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	454	467	13.0	-	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	468	468	30033.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	468	468	7.0	.	.	
-ch.19523	WormBase	intron	468	514	.	-	.	Parent=Transcript:F42F12.10.1
-ch.19523	RNASeq_splice	intron	468	514	218483.0	-	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	469	506	1727.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	507	512	1129.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	513	514	696.0	.	.	
-ch.19523	WormBase	CDS	515	517	.	-	.	ID=CDS:F42F12.10;Parent=Transcript:F42F12.10.1
-ch.19523	RNASeq_R_asymmetry	transcript_region	515	528	179376.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	515	528	36.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	515	529	11.0	-	.	
-ch.19523	WormBase	exon	515	588	.	-	.	Parent=Transcript:F42F12.10.1
-ch.19523	WormBase	five_prime_UTR	518	588	.	-	.	Parent=Transcript:F42F12.10.1
-ch.19523	RNASeq_R_asymmetry	transcript_region	529	530	107343.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	529	530	22.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	530	530	6.0	+	.	
-ch.19523	RNASeq_reads	transcript_region	531	532	5.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	531	532	2.0	-	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	532	537	16973.0	.	.	
-ch.19523	RNASeq_stranded	transcript_region	533	539	1.0	-	.	
-ch.19523	RNASeq_reads	transcript_region	533	548	3.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	538	546	10931.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	547	567	7172.0	.	.	
-ch.19523	RNASeq_reads	transcript_region	549	578	1.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	568	573	4691.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	574	582	3002.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	583	584	1960.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	585	589	1244.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	590	594	746.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	595	598	481.0	.	.	
-ch.19523	RNASeq_R_asymmetry	transcript_region	599	601	314.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	627	678	1.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	624	664	1.0	+	.	
+ch.19523	RNASeq_F_asymmetry	transcript_region	636	641	4865.0	.	.	
+ch.19523	RNASeq_F_asymmetry	transcript_region	634	634	5283.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	590	626	2.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	595	623	2.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	590	594	4.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	587	589	11.0	+	.	
+ch.19523	RNASeq_reads	transcript_region	584	589	7.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	582	589	1.0	-	.	
+ch.19523	WormBase	three_prime_UTR	525	588	.	+	.	Parent=Transcript:F42F12.10.1
+ch.19523	WormBase	exon	222	588	.	+	.	Parent=Transcript:F42F12.10.1
+ch.19523	WormBase	gene	101	588	.	+	.	ID=Gene:WBGene00023493
+ch.19523	WormBase	mRNA	101	588	.	+	.	ID=Transcript:F42F12.10.1;Parent=Gene:WBGene00023493
+ch.19523	RNASeq_stranded	transcript_region	582	586	17.0	+	.	
+ch.19523	RNASeq_reads	transcript_region	582	583	11.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	581	581	17.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	580	581	2.0	-	.	
+ch.19523	RNASeq_stranded	transcript_region	577	581	26.0	+	.	
+ch.19523	RNASeq_F_asymmetry	transcript_region	577	580	137980.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	577	580	31.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	530	579	4.0	-	.	
+ch.19523	RNASeq_stranded	transcript_region	564	576	45.0	+	.	
+ch.19523	RNASeq_reads	transcript_region	554	576	53.0	.	.	
+ch.19523	RNASeq_F_asymmetry	transcript_region	552	576	237113.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	542	563	68.0	+	.	
+ch.19523	RNASeq_reads	transcript_region	515	553	81.0	.	.	
+ch.19523	RNASeq_F_asymmetry	transcript_region	529	551	360588.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	515	541	103.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	513	529	2.0	-	.	
+ch.19523	WormBase	CDS	222	524	.	+	.	ID=CDS:F42F12.10;Parent=Transcript:F42F12.10.1
+ch.19523	RNASeq_reads	transcript_region	470	514	123.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	441	514	158.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	492	512	1.0	-	.	
+ch.19523	RNASeq_stranded	transcript_region	485	486	1.0	-	.	
+ch.19523	RNASeq_stranded	transcript_region	422	478	1.0	-	.	
+ch.19523	RNASeq_reads	transcript_region	339	469	192.0	.	.	
+ch.19523	RNASeq_splice	intron	400	445	14.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	424	440	102.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	414	423	61.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	398	413	35.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	349	397	23.0	+	.	
+ch.19523	RNASeq_splice	intron	316	364	4.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	339	348	15.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	334	338	7.0	+	.	
+ch.19523	RNASeq_reads	transcript_region	288	338	121.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	306	333	4.0	+	.	
+ch.19523	RNASeq_stranded	transcript_region	236	305	8.0	+	.	
+ch.19523	RNASeq_reads	transcript_region	243	287	79.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	275	275	279273.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	222	273	271910.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	222	242	52.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	222	235	13.0	+	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	221	221	30033.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	221	221	7.0	.	.	
+ch.19523	WormBase	intron	175	221	.	+	.	Parent=Transcript:F42F12.10.1
+ch.19523	RNASeq_splice	intron	175	221	218483.0	+	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	183	220	1727.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	177	182	1129.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	175	176	696.0	.	.	
+ch.19523	WormBase	CDS	172	174	.	+	.	ID=CDS:F42F12.10;Parent=Transcript:F42F12.10.1
+ch.19523	RNASeq_R_asymmetry	transcript_region	161	174	179376.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	161	174	36.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	160	174	11.0	+	.	
+ch.19523	WormBase	exon	101	174	.	+	.	Parent=Transcript:F42F12.10.1
+ch.19523	WormBase	five_prime_UTR	101	171	.	+	.	Parent=Transcript:F42F12.10.1
+ch.19523	RNASeq_R_asymmetry	transcript_region	159	160	107343.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	159	160	22.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	159	159	6.0	-	.	
+ch.19523	RNASeq_reads	transcript_region	157	158	5.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	157	158	2.0	+	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	152	157	16973.0	.	.	
+ch.19523	RNASeq_stranded	transcript_region	150	156	1.0	+	.	
+ch.19523	RNASeq_reads	transcript_region	141	156	3.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	143	151	10931.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	122	142	7172.0	.	.	
+ch.19523	RNASeq_reads	transcript_region	111	140	1.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	116	121	4691.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	107	115	3002.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	105	106	1960.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	100	104	1244.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	95	99	746.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	91	94	481.0	.	.	
+ch.19523	RNASeq_R_asymmetry	transcript_region	88	90	314.0	.	.	

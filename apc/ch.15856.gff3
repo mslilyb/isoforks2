@@ -1,79 +1,79 @@
-ch.15856	RNASeq_stranded	transcript_region	96	105	1.0	-	.	
-ch.15856	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.15856	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.15856	RNASeq_reads	transcript_region	99	103	1.0	.	.	
-ch.15856	WormBase	three_prime_UTR	101	179	.	-	.	Parent=Transcript:R10D12.12.1
-ch.15856	WormBase	exon	101	455	.	-	.	Parent=Transcript:R10D12.12.1
-ch.15856	WormBase	gene	101	833	.	-	.	ID=Gene:WBGene00011193
-ch.15856	WormBase	mRNA	101	833	.	-	.	ID=Transcript:R10D12.12.1;Parent=Gene:WBGene00011193
-ch.15856	RNASeq_F_asymmetry	transcript_region	104	104	7926.0	.	.	
-ch.15856	RNASeq	transcription_end_site	104	104	.	+	.	
-ch.15856	RNASeq	transcription_end_site	104	104	.	+	.	
-ch.15856	RNASeq_reads	transcript_region	104	111	2.0	.	.	
-ch.15856	RNASeq_F_asymmetry	transcript_region	106	114	11811.0	.	.	
-ch.15856	RNASeq_stranded	transcript_region	106	121	2.0	-	.	
-ch.15856	RNASeq_reads	transcript_region	112	132	4.0	.	.	
-ch.15856	RNASeq_F_asymmetry	transcript_region	115	132	17878.0	.	.	
-ch.15856	RNASeq	transcription_end_site	119	119	.	+	.	
-ch.15856	RNASeq	transcription_end_site	120	120	.	+	.	
-ch.15856	RNASeq	transcription_end_site	120	120	.	+	.	
-ch.15856	RNASeq_stranded	transcript_region	122	140	4.0	-	.	
-ch.15856	RNASeq_F_asymmetry	transcript_region	133	144	27110.0	.	.	
-ch.15856	RNASeq_reads	transcript_region	133	146	7.0	.	.	
-ch.15856	RNASeq	transcription_end_site	134	134	.	+	.	
-ch.15856	RNASeq	transcription_end_site	134	134	.	+	.	
-ch.15856	RNASeq	transcription_end_site	139	139	.	+	.	
-ch.15856	RNASeq_stranded	transcript_region	141	167	7.0	-	.	
-ch.15856	RNASeq_F_asymmetry	transcript_region	145	157	42694.0	.	.	
-ch.15856	RNASeq_reads	transcript_region	147	169	11.0	.	.	
-ch.15856	RNASeq_F_asymmetry	transcript_region	158	196	64581.0	.	.	
-ch.15856	RNASeq_stranded	transcript_region	168	252	11.0	-	.	
-ch.15856	RNASeq_reads	transcript_region	170	205	17.0	.	.	
-ch.15856	WormBase	CDS	180	455	.	-	.	ID=CDS:R10D12.12;Parent=Transcript:R10D12.12.1
-ch.15856	RNASeq	transcription_end_site	182	182	.	+	.	
-ch.15856	RNASeq_splice	intron	194	640	3.0	+	.	
-ch.15856	RNASeq_F_asymmetry	transcript_region	197	232	97489.0	.	.	
-ch.15856	RNASeq_reads	transcript_region	206	252	27.0	.	.	
-ch.15856	RNASeq	transcription_end_site	239	239	.	+	.	
-ch.15856	RNASeq	transcription_end_site	239	239	.	+	.	
-ch.15856	RNASeq_F_asymmetry	transcript_region	243	245	145182.0	.	.	
-ch.15856	RNASeq_stranded	transcript_region	253	287	30.0	-	.	
-ch.15856	RNASeq_reads	transcript_region	253	455	41.0	.	.	
-ch.15856	RNASeq_splice	intron	283	594	3.0	-	.	
-ch.15856	RNASeq_stranded	transcript_region	288	301	13.0	-	.	
-ch.15856	RNASeq_stranded	transcript_region	302	365	20.0	-	.	
-ch.15856	RNASeq_splice	intron	329	386	14.0	-	.	
-ch.15856	RNASeq_stranded	transcript_region	366	452	13.0	-	.	
-ch.15856	RNASeq_stranded	transcript_region	453	455	8.0	-	.	
-ch.15856	RNASeq_reads	transcript_region	456	456	5.0	.	.	
-ch.15856	RNASeq_stranded	transcript_region	456	456	1.0	+	.	
-ch.15856	WormBase	intron	456	500	.	-	.	Parent=Transcript:R10D12.12.1
-ch.15856	RNASeq_splice	intron	456	500	258999.0	-	.	
-ch.15856	RNASeq_stranded	transcript_region	501	678	8.0	-	.	
-ch.15856	WormBase	CDS	501	710	.	-	.	ID=CDS:R10D12.12;Parent=Transcript:R10D12.12.1
-ch.15856	WormBase	exon	501	710	.	-	.	Parent=Transcript:R10D12.12.1
-ch.15856	RNASeq_reads	transcript_region	501	710	44.0	.	.	
-ch.15856	RNASeq_stranded	transcript_region	679	710	5.0	-	.	
-ch.15856	RNASeq_splice	intron	698	757	149.0	-	.	
-ch.15856	RNASeq_reads	transcript_region	711	714	3.0	.	.	
-ch.15856	WormBase	intron	711	757	.	-	.	Parent=Transcript:R10D12.12.1
-ch.15856	RNASeq_splice	intron	711	757	221183.0	-	.	
-ch.15856	RNASeq_splice	intron	711	793	3.0	-	.	
-ch.15856	RNASeq_splice	intron	726	757	43.0	-	.	
-ch.15856	RNASeq_R_asymmetry	transcript_region	756	757	11902.0	.	.	
-ch.15856	RNASeq_reads	transcript_region	756	757	2.0	.	.	
-ch.15856	RNASeq_stranded	transcript_region	756	757	2.0	-	.	
-ch.15856	WormBase	CDS	758	811	.	-	.	ID=CDS:R10D12.12;Parent=Transcript:R10D12.12.1
-ch.15856	RNASeq_reads	transcript_region	758	822	45.0	.	.	
-ch.15856	WormBase	exon	758	833	.	-	.	Parent=Transcript:R10D12.12.1
-ch.15856	RNASeq_stranded	transcript_region	758	833	6.0	-	.	
-ch.15856	RNASeq_R_asymmetry	transcript_region	770	827	179670.0	.	.	
-ch.15856	WormBase	five_prime_UTR	812	833	.	-	.	Parent=Transcript:R10D12.12.1
-ch.15856	RNASeq_reads	transcript_region	823	829	29.0	.	.	
-ch.15856	RNASeq_R_asymmetry	transcript_region	828	833	116097.0	.	.	
-ch.15856	RNASeq_reads	transcript_region	830	833	18.0	.	.	
-ch.15856	RNASeq_R_asymmetry	transcript_region	834	835	56780.0	.	.	
-ch.15856	RNASeq_reads	transcript_region	834	835	11.0	.	.	
-ch.15856	RNASeq_stranded	transcript_region	834	835	3.0	-	.	
-ch.15856	RNASeq_R_asymmetry	transcript_region	836	839	27753.0	.	.	
-ch.15856	RNASeq_reads	transcript_region	836	839	6.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	829	838	1.0	+	.	
+ch.15856	RNASeq	transcription_end_site	835	835	.	-	.	
+ch.15856	RNASeq	transcription_end_site	835	835	.	-	.	
+ch.15856	RNASeq_reads	transcript_region	831	835	1.0	.	.	
+ch.15856	WormBase	three_prime_UTR	755	833	.	+	.	Parent=Transcript:R10D12.12.1
+ch.15856	WormBase	exon	479	833	.	+	.	Parent=Transcript:R10D12.12.1
+ch.15856	WormBase	gene	101	833	.	+	.	ID=Gene:WBGene00011193
+ch.15856	WormBase	mRNA	101	833	.	+	.	ID=Transcript:R10D12.12.1;Parent=Gene:WBGene00011193
+ch.15856	RNASeq_F_asymmetry	transcript_region	830	830	7926.0	.	.	
+ch.15856	RNASeq	transcription_end_site	830	830	.	-	.	
+ch.15856	RNASeq	transcription_end_site	830	830	.	-	.	
+ch.15856	RNASeq_reads	transcript_region	823	830	2.0	.	.	
+ch.15856	RNASeq_F_asymmetry	transcript_region	820	828	11811.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	813	828	2.0	+	.	
+ch.15856	RNASeq_reads	transcript_region	802	822	4.0	.	.	
+ch.15856	RNASeq_F_asymmetry	transcript_region	802	819	17878.0	.	.	
+ch.15856	RNASeq	transcription_end_site	815	815	.	-	.	
+ch.15856	RNASeq	transcription_end_site	814	814	.	-	.	
+ch.15856	RNASeq	transcription_end_site	814	814	.	-	.	
+ch.15856	RNASeq_stranded	transcript_region	794	812	4.0	+	.	
+ch.15856	RNASeq_F_asymmetry	transcript_region	790	801	27110.0	.	.	
+ch.15856	RNASeq_reads	transcript_region	788	801	7.0	.	.	
+ch.15856	RNASeq	transcription_end_site	800	800	.	-	.	
+ch.15856	RNASeq	transcription_end_site	800	800	.	-	.	
+ch.15856	RNASeq	transcription_end_site	795	795	.	-	.	
+ch.15856	RNASeq_stranded	transcript_region	767	793	7.0	+	.	
+ch.15856	RNASeq_F_asymmetry	transcript_region	777	789	42694.0	.	.	
+ch.15856	RNASeq_reads	transcript_region	765	787	11.0	.	.	
+ch.15856	RNASeq_F_asymmetry	transcript_region	738	776	64581.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	682	766	11.0	+	.	
+ch.15856	RNASeq_reads	transcript_region	729	764	17.0	.	.	
+ch.15856	WormBase	CDS	479	754	.	+	.	ID=CDS:R10D12.12;Parent=Transcript:R10D12.12.1
+ch.15856	RNASeq	transcription_end_site	752	752	.	-	.	
+ch.15856	RNASeq_splice	intron	294	740	3.0	-	.	
+ch.15856	RNASeq_F_asymmetry	transcript_region	702	737	97489.0	.	.	
+ch.15856	RNASeq_reads	transcript_region	682	728	27.0	.	.	
+ch.15856	RNASeq	transcription_end_site	695	695	.	-	.	
+ch.15856	RNASeq	transcription_end_site	695	695	.	-	.	
+ch.15856	RNASeq_F_asymmetry	transcript_region	689	691	145182.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	647	681	30.0	+	.	
+ch.15856	RNASeq_reads	transcript_region	479	681	41.0	.	.	
+ch.15856	RNASeq_splice	intron	340	651	3.0	+	.	
+ch.15856	RNASeq_stranded	transcript_region	633	646	13.0	+	.	
+ch.15856	RNASeq_stranded	transcript_region	569	632	20.0	+	.	
+ch.15856	RNASeq_splice	intron	548	605	14.0	+	.	
+ch.15856	RNASeq_stranded	transcript_region	482	568	13.0	+	.	
+ch.15856	RNASeq_stranded	transcript_region	479	481	8.0	+	.	
+ch.15856	RNASeq_reads	transcript_region	478	478	5.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	478	478	1.0	-	.	
+ch.15856	WormBase	intron	434	478	.	+	.	Parent=Transcript:R10D12.12.1
+ch.15856	RNASeq_splice	intron	434	478	258999.0	+	.	
+ch.15856	RNASeq_stranded	transcript_region	256	433	8.0	+	.	
+ch.15856	WormBase	CDS	224	433	.	+	.	ID=CDS:R10D12.12;Parent=Transcript:R10D12.12.1
+ch.15856	WormBase	exon	224	433	.	+	.	Parent=Transcript:R10D12.12.1
+ch.15856	RNASeq_reads	transcript_region	224	433	44.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	224	255	5.0	+	.	
+ch.15856	RNASeq_splice	intron	177	236	149.0	+	.	
+ch.15856	RNASeq_reads	transcript_region	220	223	3.0	.	.	
+ch.15856	WormBase	intron	177	223	.	+	.	Parent=Transcript:R10D12.12.1
+ch.15856	RNASeq_splice	intron	177	223	221183.0	+	.	
+ch.15856	RNASeq_splice	intron	141	223	3.0	+	.	
+ch.15856	RNASeq_splice	intron	177	208	43.0	+	.	
+ch.15856	RNASeq_R_asymmetry	transcript_region	177	178	11902.0	.	.	
+ch.15856	RNASeq_reads	transcript_region	177	178	2.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	177	178	2.0	+	.	
+ch.15856	WormBase	CDS	123	176	.	+	.	ID=CDS:R10D12.12;Parent=Transcript:R10D12.12.1
+ch.15856	RNASeq_reads	transcript_region	112	176	45.0	.	.	
+ch.15856	WormBase	exon	101	176	.	+	.	Parent=Transcript:R10D12.12.1
+ch.15856	RNASeq_stranded	transcript_region	101	176	6.0	+	.	
+ch.15856	RNASeq_R_asymmetry	transcript_region	107	164	179670.0	.	.	
+ch.15856	WormBase	five_prime_UTR	101	122	.	+	.	Parent=Transcript:R10D12.12.1
+ch.15856	RNASeq_reads	transcript_region	105	111	29.0	.	.	
+ch.15856	RNASeq_R_asymmetry	transcript_region	101	106	116097.0	.	.	
+ch.15856	RNASeq_reads	transcript_region	101	104	18.0	.	.	
+ch.15856	RNASeq_R_asymmetry	transcript_region	99	100	56780.0	.	.	
+ch.15856	RNASeq_reads	transcript_region	99	100	11.0	.	.	
+ch.15856	RNASeq_stranded	transcript_region	99	100	3.0	+	.	
+ch.15856	RNASeq_R_asymmetry	transcript_region	95	98	27753.0	.	.	
+ch.15856	RNASeq_reads	transcript_region	95	98	6.0	.	.	

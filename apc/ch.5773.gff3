@@ -1,74 +1,74 @@
-ch.5773	RNASeq_R_asymmetry	transcript_region	47	53	487.0	.	.	
-ch.5773	RNASeq	transcription_end_site	91	91	.	+	.	
-ch.5773	RNASeq	transcription_end_site	91	91	.	+	.	
-ch.5773	RNASeq_stranded	transcript_region	93	94	1.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	93	97	1.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	95	102	2.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	98	103	2.0	.	.	
-ch.5773	WormBase	three_prime_UTR	101	205	.	-	.	Parent=Transcript:Y62F5A.12.1
-ch.5773	WormBase	exon	101	405	.	-	.	Parent=Transcript:Y62F5A.12.1
-ch.5773	WormBase	gene	101	654	.	-	.	ID=Gene:WBGene00077453
-ch.5773	WormBase	mRNA	101	654	.	-	.	ID=Transcript:Y62F5A.12.1;Parent=Gene:WBGene00077453
-ch.5773	RNASeq	transcription_end_site	103	103	.	+	.	
-ch.5773	RNASeq	transcription_end_site	103	103	.	+	.	
-ch.5773	RNASeq_stranded	transcript_region	103	107	4.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	104	114	4.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	108	113	7.0	-	.	
-ch.5773	RNASeq_stranded	transcript_region	114	124	11.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	115	125	7.0	.	.	
-ch.5773	RNASeq	transcription_end_site	124	124	.	+	.	
-ch.5773	RNASeq_stranded	transcript_region	125	170	18.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	126	133	13.0	.	.	
-ch.5773	RNASeq_F_asymmetry	transcript_region	127	147	60105.0	.	.	
-ch.5773	RNASeq_reads	transcript_region	134	170	20.0	.	.	
-ch.5773	RNASeq_F_asymmetry	transcript_region	148	174	93071.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	171	199	28.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	171	207	31.0	.	.	
-ch.5773	RNASeq	transcription_end_site	182	182	.	+	.	
-ch.5773	RNASeq	transcription_end_site	195	195	.	+	.	
-ch.5773	RNASeq	transcription_end_site	195	195	.	+	.	
-ch.5773	RNASeq_stranded	transcript_region	200	209	46.0	-	.	
-ch.5773	WormBase	CDS	206	405	.	-	.	ID=CDS:Y62F5A.12;Parent=Transcript:Y62F5A.12.1
-ch.5773	RNASeq_reads	transcript_region	208	405	48.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	210	260	70.0	-	.	
-ch.5773	RNASeq_stranded	transcript_region	261	277	46.0	-	.	
-ch.5773	RNASeq_stranded	transcript_region	278	312	24.0	-	.	
-ch.5773	RNASeq	transcription_end_site	284	284	.	+	.	
-ch.5773	RNASeq	transcription_end_site	284	284	.	+	.	
-ch.5773	RNASeq	transcription_end_site	285	285	.	+	.	
-ch.5773	RNASeq_stranded	transcript_region	313	341	15.0	-	.	
-ch.5773	RNASeq_stranded	transcript_region	342	378	9.0	-	.	
-ch.5773	RNASeq_stranded	transcript_region	379	405	14.0	-	.	
-ch.5773	RNASeq_splice	intron	396	465	6.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	406	415	5.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	406	415	1.0	-	.	
-ch.5773	RNASeq_splice	intron	406	461	34.0	-	.	
-ch.5773	WormBase	intron	406	465	.	-	.	Parent=Transcript:Y62F5A.12.1
-ch.5773	RNASeq_splice	intron	406	465	273817.0	-	.	
-ch.5773	RNASeq_splice	intron	406	471	6.0	-	.	
-ch.5773	RNASeq_splice	intron	416	461	84.0	-	.	
-ch.5773	RNASeq_splice	intron	416	465	19420.0	-	.	
-ch.5773	RNASeq_splice	intron	416	471	5.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	465	465	4.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	465	465	1.0	+	.	
-ch.5773	RNASeq_stranded	transcript_region	466	529	13.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	466	643	54.0	.	.	
-ch.5773	WormBase	CDS	466	652	.	-	.	ID=CDS:Y62F5A.12;Parent=Transcript:Y62F5A.12.1
-ch.5773	WormBase	exon	466	654	.	-	.	Parent=Transcript:Y62F5A.12.1
-ch.5773	RNASeq_stranded	transcript_region	530	594	8.0	-	.	
-ch.5773	RNASeq_R_asymmetry	transcript_region	592	644	234104.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	595	644	16.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	644	652	33.0	.	.	
-ch.5773	RNASeq_R_asymmetry	transcript_region	645	652	150456.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	645	656	7.0	-	.	
-ch.5773	RNASeq_R_asymmetry	transcript_region	653	653	95317.0	.	.	
-ch.5773	RNASeq_reads	transcript_region	653	653	19.0	.	.	
-ch.5773	WormBase	five_prime_UTR	653	654	.	-	.	Parent=Transcript:Y62F5A.12.1
-ch.5773	RNASeq_R_asymmetry	transcript_region	654	656	61619.0	.	.	
-ch.5773	RNASeq_reads	transcript_region	654	659	12.0	.	.	
-ch.5773	RNASeq_R_asymmetry	transcript_region	657	660	38762.0	.	.	
-ch.5773	RNASeq_stranded	transcript_region	657	660	1.0	-	.	
-ch.5773	RNASeq_reads	transcript_region	660	660	7.0	.	.	
-ch.5773	RNASeq_R_asymmetry	transcript_region	711	711	1123.0	.	.	
-ch.5773	RNASeq_R_asymmetry	transcript_region	731	731	1047.0	.	.	
-ch.5773	RNASeq_R_asymmetry	transcript_region	733	747	1033.0	.	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	702	708	487.0	.	.	
+ch.5773	RNASeq	transcription_end_site	664	664	.	-	.	
+ch.5773	RNASeq	transcription_end_site	664	664	.	-	.	
+ch.5773	RNASeq_stranded	transcript_region	661	662	1.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	658	662	1.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	653	660	2.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	652	657	2.0	.	.	
+ch.5773	WormBase	three_prime_UTR	550	654	.	+	.	Parent=Transcript:Y62F5A.12.1
+ch.5773	WormBase	exon	350	654	.	+	.	Parent=Transcript:Y62F5A.12.1
+ch.5773	WormBase	gene	101	654	.	+	.	ID=Gene:WBGene00077453
+ch.5773	WormBase	mRNA	101	654	.	+	.	ID=Transcript:Y62F5A.12.1;Parent=Gene:WBGene00077453
+ch.5773	RNASeq	transcription_end_site	652	652	.	-	.	
+ch.5773	RNASeq	transcription_end_site	652	652	.	-	.	
+ch.5773	RNASeq_stranded	transcript_region	648	652	4.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	641	651	4.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	642	647	7.0	+	.	
+ch.5773	RNASeq_stranded	transcript_region	631	641	11.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	630	640	7.0	.	.	
+ch.5773	RNASeq	transcription_end_site	631	631	.	-	.	
+ch.5773	RNASeq_stranded	transcript_region	585	630	18.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	622	629	13.0	.	.	
+ch.5773	RNASeq_F_asymmetry	transcript_region	608	628	60105.0	.	.	
+ch.5773	RNASeq_reads	transcript_region	585	621	20.0	.	.	
+ch.5773	RNASeq_F_asymmetry	transcript_region	581	607	93071.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	556	584	28.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	548	584	31.0	.	.	
+ch.5773	RNASeq	transcription_end_site	573	573	.	-	.	
+ch.5773	RNASeq	transcription_end_site	560	560	.	-	.	
+ch.5773	RNASeq	transcription_end_site	560	560	.	-	.	
+ch.5773	RNASeq_stranded	transcript_region	546	555	46.0	+	.	
+ch.5773	WormBase	CDS	350	549	.	+	.	ID=CDS:Y62F5A.12;Parent=Transcript:Y62F5A.12.1
+ch.5773	RNASeq_reads	transcript_region	350	547	48.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	495	545	70.0	+	.	
+ch.5773	RNASeq_stranded	transcript_region	478	494	46.0	+	.	
+ch.5773	RNASeq_stranded	transcript_region	443	477	24.0	+	.	
+ch.5773	RNASeq	transcription_end_site	471	471	.	-	.	
+ch.5773	RNASeq	transcription_end_site	471	471	.	-	.	
+ch.5773	RNASeq	transcription_end_site	470	470	.	-	.	
+ch.5773	RNASeq_stranded	transcript_region	414	442	15.0	+	.	
+ch.5773	RNASeq_stranded	transcript_region	377	413	9.0	+	.	
+ch.5773	RNASeq_stranded	transcript_region	350	376	14.0	+	.	
+ch.5773	RNASeq_splice	intron	290	359	6.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	340	349	5.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	340	349	1.0	+	.	
+ch.5773	RNASeq_splice	intron	294	349	34.0	+	.	
+ch.5773	WormBase	intron	290	349	.	+	.	Parent=Transcript:Y62F5A.12.1
+ch.5773	RNASeq_splice	intron	290	349	273817.0	+	.	
+ch.5773	RNASeq_splice	intron	284	349	6.0	+	.	
+ch.5773	RNASeq_splice	intron	294	339	84.0	+	.	
+ch.5773	RNASeq_splice	intron	290	339	19420.0	+	.	
+ch.5773	RNASeq_splice	intron	284	339	5.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	290	290	4.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	290	290	1.0	-	.	
+ch.5773	RNASeq_stranded	transcript_region	226	289	13.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	112	289	54.0	.	.	
+ch.5773	WormBase	CDS	103	289	.	+	.	ID=CDS:Y62F5A.12;Parent=Transcript:Y62F5A.12.1
+ch.5773	WormBase	exon	101	289	.	+	.	Parent=Transcript:Y62F5A.12.1
+ch.5773	RNASeq_stranded	transcript_region	161	225	8.0	+	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	111	163	234104.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	111	160	16.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	103	111	33.0	.	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	103	110	150456.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	99	110	7.0	+	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	102	102	95317.0	.	.	
+ch.5773	RNASeq_reads	transcript_region	102	102	19.0	.	.	
+ch.5773	WormBase	five_prime_UTR	101	102	.	+	.	Parent=Transcript:Y62F5A.12.1
+ch.5773	RNASeq_R_asymmetry	transcript_region	99	101	61619.0	.	.	
+ch.5773	RNASeq_reads	transcript_region	96	101	12.0	.	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	95	98	38762.0	.	.	
+ch.5773	RNASeq_stranded	transcript_region	95	98	1.0	+	.	
+ch.5773	RNASeq_reads	transcript_region	95	95	7.0	.	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	44	44	1123.0	.	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	24	24	1047.0	.	.	
+ch.5773	RNASeq_R_asymmetry	transcript_region	8	22	1033.0	.	.	

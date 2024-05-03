@@ -1,74 +1,74 @@
-ch.8275	RNASeq_stranded	transcript_region	9	43	1.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	46	48	1.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	76	120	1.0	+	.	
-ch.8275	WormBase	three_prime_UTR	101	177	.	-	.	Parent=Transcript:ZK512.7.1
-ch.8275	WormBase	exon	101	483	.	-	.	Parent=Transcript:ZK512.7.1
-ch.8275	WormBase	gene	101	750	.	-	.	ID=Gene:WBGene00013986
-ch.8275	WormBase	mRNA	101	750	.	-	.	ID=Transcript:ZK512.7.1;Parent=Gene:WBGene00013986
-ch.8275	RNASeq	transcription_end_site	113	113	.	+	.	
-ch.8275	RNASeq_stranded	transcript_region	113	120	1.0	-	.	
-ch.8275	RNASeq_reads	transcript_region	118	122	12.0	.	.	
-ch.8275	RNASeq	transcription_end_site	121	121	.	+	.	
-ch.8275	RNASeq	transcription_end_site	121	121	.	+	.	
-ch.8275	RNASeq_stranded	transcript_region	121	126	4.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	121	212	3.0	+	.	
-ch.8275	RNASeq_reads	transcript_region	123	138	23.0	.	.	
-ch.8275	RNASeq_F_asymmetry	transcript_region	123	139	95739.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	127	132	7.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	133	137	11.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	138	153	17.0	-	.	
-ch.8275	RNASeq_reads	transcript_region	139	188	35.0	.	.	
-ch.8275	RNASeq_F_asymmetry	transcript_region	140	171	145511.0	.	.	
-ch.8275	RNASeq_splice	intron	141	188	12.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	154	166	26.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	167	185	40.0	-	.	
-ch.8275	WormBase	CDS	178	483	.	-	.	ID=CDS:ZK512.7;Parent=Transcript:ZK512.7.1
-ch.8275	RNASeq_stranded	transcript_region	186	239	61.0	-	.	
-ch.8275	RNASeq_reads	transcript_region	189	207	54.0	.	.	
-ch.8275	RNASeq_reads	transcript_region	208	240	84.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	213	274	1.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	240	241	113.0	-	.	
-ch.8275	RNASeq_reads	transcript_region	241	483	135.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	242	292	171.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	280	280	1.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	287	313	1.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	293	320	89.0	-	.	
-ch.8275	RNASeq_splice	intron	297	420	23.0	-	.	
-ch.8275	RNASeq_splice	intron	297	429	8.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	314	337	2.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	321	340	58.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	338	364	1.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	341	364	36.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	365	405	23.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	406	464	15.0	-	.	
-ch.8275	RNASeq_stranded	transcript_region	465	483	23.0	-	.	
-ch.8275	RNASeq_splice	intron	480	596	12.0	-	.	
-ch.8275	RNASeq_reads	transcript_region	484	484	10.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	484	484	3.0	+	.	
-ch.8275	WormBase	intron	484	600	.	-	.	Parent=Transcript:ZK512.7.1
-ch.8275	RNASeq_splice	intron	484	600	511706.0	-	.	
-ch.8275	RNASeq_reads	transcript_region	601	693	100.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	601	699	29.0	-	.	
-ch.8275	WormBase	CDS	601	720	.	-	.	ID=CDS:ZK512.7;Parent=Transcript:ZK512.7.1
-ch.8275	WormBase	exon	601	750	.	-	.	Parent=Transcript:ZK512.7.1
-ch.8275	RNASeq_R_asymmetry	transcript_region	669	722	293310.0	.	.	
-ch.8275	RNASeq_reads	transcript_region	694	718	63.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	700	719	12.0	-	.	
-ch.8275	RNASeq_reads	transcript_region	719	726	40.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	720	727	7.0	-	.	
-ch.8275	WormBase	five_prime_UTR	721	750	.	-	.	Parent=Transcript:ZK512.7.1
-ch.8275	RNASeq_R_asymmetry	transcript_region	723	726	192875.0	.	.	
-ch.8275	RNASeq_R_asymmetry	transcript_region	727	727	109022.0	.	.	
-ch.8275	RNASeq_reads	transcript_region	727	727	22.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	728	733	4.0	-	.	
-ch.8275	RNASeq_R_asymmetry	transcript_region	728	734	68220.0	.	.	
-ch.8275	RNASeq_reads	transcript_region	728	734	14.0	.	.	
-ch.8275	RNASeq_stranded	transcript_region	734	734	2.0	+	.	
-ch.8275	RNASeq_stranded	transcript_region	735	738	1.0	-	.	
-ch.8275	RNASeq_R_asymmetry	transcript_region	735	740	25627.0	.	.	
-ch.8275	RNASeq_reads	transcript_region	735	740	5.0	.	.	
-ch.8275	RNASeq_R_asymmetry	transcript_region	741	744	10785.0	.	.	
-ch.8275	RNASeq_reads	transcript_region	741	744	2.0	.	.	
-ch.8275	RNASeq_R_asymmetry	transcript_region	745	750	6654.0	.	.	
-ch.8275	RNASeq_reads	transcript_region	745	750	1.0	.	.	
-ch.8275	RNASeq_R_asymmetry	transcript_region	751	752	1792.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	808	842	1.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	803	805	1.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	731	775	1.0	-	.	
+ch.8275	WormBase	three_prime_UTR	674	750	.	+	.	Parent=Transcript:ZK512.7.1
+ch.8275	WormBase	exon	368	750	.	+	.	Parent=Transcript:ZK512.7.1
+ch.8275	WormBase	gene	101	750	.	+	.	ID=Gene:WBGene00013986
+ch.8275	WormBase	mRNA	101	750	.	+	.	ID=Transcript:ZK512.7.1;Parent=Gene:WBGene00013986
+ch.8275	RNASeq	transcription_end_site	738	738	.	-	.	
+ch.8275	RNASeq_stranded	transcript_region	731	738	1.0	+	.	
+ch.8275	RNASeq_reads	transcript_region	729	733	12.0	.	.	
+ch.8275	RNASeq	transcription_end_site	730	730	.	-	.	
+ch.8275	RNASeq	transcription_end_site	730	730	.	-	.	
+ch.8275	RNASeq_stranded	transcript_region	725	730	4.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	639	730	3.0	-	.	
+ch.8275	RNASeq_reads	transcript_region	713	728	23.0	.	.	
+ch.8275	RNASeq_F_asymmetry	transcript_region	712	728	95739.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	719	724	7.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	714	718	11.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	698	713	17.0	+	.	
+ch.8275	RNASeq_reads	transcript_region	663	712	35.0	.	.	
+ch.8275	RNASeq_F_asymmetry	transcript_region	680	711	145511.0	.	.	
+ch.8275	RNASeq_splice	intron	663	710	12.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	685	697	26.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	666	684	40.0	+	.	
+ch.8275	WormBase	CDS	368	673	.	+	.	ID=CDS:ZK512.7;Parent=Transcript:ZK512.7.1
+ch.8275	RNASeq_stranded	transcript_region	612	665	61.0	+	.	
+ch.8275	RNASeq_reads	transcript_region	644	662	54.0	.	.	
+ch.8275	RNASeq_reads	transcript_region	611	643	84.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	577	638	1.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	610	611	113.0	+	.	
+ch.8275	RNASeq_reads	transcript_region	368	610	135.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	559	609	171.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	571	571	1.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	538	564	1.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	531	558	89.0	+	.	
+ch.8275	RNASeq_splice	intron	431	554	23.0	+	.	
+ch.8275	RNASeq_splice	intron	422	554	8.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	514	537	2.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	511	530	58.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	487	513	1.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	487	510	36.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	446	486	23.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	387	445	15.0	+	.	
+ch.8275	RNASeq_stranded	transcript_region	368	386	23.0	+	.	
+ch.8275	RNASeq_splice	intron	255	371	12.0	+	.	
+ch.8275	RNASeq_reads	transcript_region	367	367	10.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	367	367	3.0	-	.	
+ch.8275	WormBase	intron	251	367	.	+	.	Parent=Transcript:ZK512.7.1
+ch.8275	RNASeq_splice	intron	251	367	511706.0	+	.	
+ch.8275	RNASeq_reads	transcript_region	158	250	100.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	152	250	29.0	+	.	
+ch.8275	WormBase	CDS	131	250	.	+	.	ID=CDS:ZK512.7;Parent=Transcript:ZK512.7.1
+ch.8275	WormBase	exon	101	250	.	+	.	Parent=Transcript:ZK512.7.1
+ch.8275	RNASeq_R_asymmetry	transcript_region	129	182	293310.0	.	.	
+ch.8275	RNASeq_reads	transcript_region	133	157	63.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	132	151	12.0	+	.	
+ch.8275	RNASeq_reads	transcript_region	125	132	40.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	124	131	7.0	+	.	
+ch.8275	WormBase	five_prime_UTR	101	130	.	+	.	Parent=Transcript:ZK512.7.1
+ch.8275	RNASeq_R_asymmetry	transcript_region	125	128	192875.0	.	.	
+ch.8275	RNASeq_R_asymmetry	transcript_region	124	124	109022.0	.	.	
+ch.8275	RNASeq_reads	transcript_region	124	124	22.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	118	123	4.0	+	.	
+ch.8275	RNASeq_R_asymmetry	transcript_region	117	123	68220.0	.	.	
+ch.8275	RNASeq_reads	transcript_region	117	123	14.0	.	.	
+ch.8275	RNASeq_stranded	transcript_region	117	117	2.0	-	.	
+ch.8275	RNASeq_stranded	transcript_region	113	116	1.0	+	.	
+ch.8275	RNASeq_R_asymmetry	transcript_region	111	116	25627.0	.	.	
+ch.8275	RNASeq_reads	transcript_region	111	116	5.0	.	.	
+ch.8275	RNASeq_R_asymmetry	transcript_region	107	110	10785.0	.	.	
+ch.8275	RNASeq_reads	transcript_region	107	110	2.0	.	.	
+ch.8275	RNASeq_R_asymmetry	transcript_region	101	106	6654.0	.	.	
+ch.8275	RNASeq_reads	transcript_region	101	106	1.0	.	.	
+ch.8275	RNASeq_R_asymmetry	transcript_region	99	100	1792.0	.	.	

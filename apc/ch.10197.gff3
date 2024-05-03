@@ -1,74 +1,74 @@
-ch.10197	WormBase	three_prime_UTR	21	208	.	+	.	Parent=Transcript:C49A9.7.1
-ch.10197	RNASeq_splice	intron	46	198	24.0	-	.	
-ch.10197	RNASeq	transcription_end_site	86	86	.	+	.	
-ch.10197	RNASeq	transcription_end_site	86	86	.	+	.	
-ch.10197	WormBase	three_prime_UTR	101	201	.	-	.	Parent=Transcript:C49A9.10.1
-ch.10197	WormBase	exon	101	371	.	-	.	Parent=Transcript:C49A9.10.1
-ch.10197	WormBase	gene	101	661	.	-	.	ID=Gene:WBGene00016764
-ch.10197	WormBase	mRNA	101	661	.	-	.	ID=Transcript:C49A9.10.1;Parent=Gene:WBGene00016764
-ch.10197	RNASeq	transcription_end_site	103	103	.	+	.	
-ch.10197	RNASeq	transcription_end_site	103	103	.	+	.	
-ch.10197	RNASeq_stranded	transcript_region	107	109	1.0	-	.	
-ch.10197	RNASeq_reads	transcript_region	109	133	2.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	110	120	2.0	-	.	
-ch.10197	RNASeq	transcription_end_site	116	116	.	+	.	
-ch.10197	RNASeq	transcription_end_site	116	116	.	+	.	
-ch.10197	RNASeq_stranded	transcript_region	121	146	4.0	-	.	
-ch.10197	RNASeq	transcription_end_site	133	133	.	+	.	
-ch.10197	RNASeq	transcription_end_site	133	133	.	+	.	
-ch.10197	RNASeq_reads	transcript_region	134	136	4.0	.	.	
-ch.10197	RNASeq_F_asymmetry	transcript_region	136	136	22232.0	.	.	
-ch.10197	RNASeq_F_asymmetry	transcript_region	137	138	33966.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	137	139	8.0	.	.	
-ch.10197	RNASeq_F_asymmetry	transcript_region	139	146	53022.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	140	158	13.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	147	181	7.0	-	.	
-ch.10197	RNASeq_F_asymmetry	transcript_region	147	193	80371.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	159	215	20.0	.	.	
-ch.10197	RNASeq	transcription_end_site	172	172	.	+	.	
-ch.10197	RNASeq	transcription_end_site	173	173	.	+	.	
-ch.10197	RNASeq	transcription_end_site	179	179	.	+	.	
-ch.10197	RNASeq_stranded	transcript_region	182	193	11.0	-	.	
-ch.10197	RNASeq_stranded	transcript_region	194	208	17.0	-	.	
-ch.10197	WormBase	CDS	202	371	.	-	.	ID=CDS:C49A9.10;Parent=Transcript:C49A9.10.1
-ch.10197	RNASeq_stranded	transcript_region	209	252	26.0	-	.	
-ch.10197	RNASeq_reads	transcript_region	216	371	33.0	.	.	
-ch.10197	RNASeq_F_asymmetry	transcript_region	220	231	157052.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	253	302	17.0	-	.	
-ch.10197	RNASeq_stranded	transcript_region	303	371	11.0	-	.	
-ch.10197	RNASeq_splice	intron	372	414	40.0	-	.	
-ch.10197	RNASeq_splice	intron	372	425	14.0	-	.	
-ch.10197	WormBase	intron	372	429	.	-	.	Parent=Transcript:C49A9.10.1
-ch.10197	RNASeq_splice	intron	372	429	246499.0	-	.	
-ch.10197	RNASeq_F_asymmetry	transcript_region	429	429	49235.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	429	429	12.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	429	429	2.0	+	.	
-ch.10197	RNASeq_stranded	transcript_region	430	444	11.0	-	.	
-ch.10197	WormBase	CDS	430	526	.	-	.	ID=CDS:C49A9.10;Parent=Transcript:C49A9.10.1
-ch.10197	WormBase	exon	430	526	.	-	.	Parent=Transcript:C49A9.10.1
-ch.10197	RNASeq_reads	transcript_region	430	526	50.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	445	470	17.0	-	.	
-ch.10197	RNASeq_stranded	transcript_region	471	526	27.0	-	.	
-ch.10197	RNASeq_splice	intron	525	571	90.0	-	.	
-ch.10197	RNASeq_F_asymmetry	transcript_region	527	527	20957.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	527	527	5.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	527	527	2.0	+	.	
-ch.10197	RNASeq_splice	intron	527	565	3.0	-	.	
-ch.10197	WormBase	intron	527	571	.	-	.	Parent=Transcript:C49A9.10.1
-ch.10197	RNASeq_splice	intron	527	571	305289.0	-	.	
-ch.10197	RNASeq_stranded	transcript_region	572	617	17.0	-	.	
-ch.10197	RNASeq_reads	transcript_region	572	634	58.0	.	.	
-ch.10197	WormBase	CDS	572	646	.	-	.	ID=CDS:C49A9.10;Parent=Transcript:C49A9.10.1
-ch.10197	WormBase	exon	572	661	.	-	.	Parent=Transcript:C49A9.10.1
-ch.10197	RNASeq_R_asymmetry	transcript_region	605	653	200321.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	618	648	11.0	-	.	
-ch.10197	RNASeq_reads	transcript_region	635	654	38.0	.	.	
-ch.10197	WormBase	five_prime_UTR	647	661	.	-	.	Parent=Transcript:C49A9.10.1
-ch.10197	RNASeq_stranded	transcript_region	649	659	7.0	-	.	
-ch.10197	RNASeq_R_asymmetry	transcript_region	654	659	131424.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	655	659	24.0	.	.	
-ch.10197	RNASeq_R_asymmetry	transcript_region	660	661	53709.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	660	661	11.0	.	.	
-ch.10197	RNASeq_stranded	transcript_region	660	661	4.0	-	.	
-ch.10197	RNASeq_R_asymmetry	transcript_region	662	668	7729.0	.	.	
-ch.10197	RNASeq_reads	transcript_region	662	668	2.0	.	.	
+ch.10197	WormBase	three_prime_UTR	554	741	.	-	.	Parent=Transcript:C49A9.7.1
+ch.10197	RNASeq_splice	intron	564	716	24.0	+	.	
+ch.10197	RNASeq	transcription_end_site	676	676	.	-	.	
+ch.10197	RNASeq	transcription_end_site	676	676	.	-	.	
+ch.10197	WormBase	three_prime_UTR	561	661	.	+	.	Parent=Transcript:C49A9.10.1
+ch.10197	WormBase	exon	391	661	.	+	.	Parent=Transcript:C49A9.10.1
+ch.10197	WormBase	gene	101	661	.	+	.	ID=Gene:WBGene00016764
+ch.10197	WormBase	mRNA	101	661	.	+	.	ID=Transcript:C49A9.10.1;Parent=Gene:WBGene00016764
+ch.10197	RNASeq	transcription_end_site	659	659	.	-	.	
+ch.10197	RNASeq	transcription_end_site	659	659	.	-	.	
+ch.10197	RNASeq_stranded	transcript_region	653	655	1.0	+	.	
+ch.10197	RNASeq_reads	transcript_region	629	653	2.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	642	652	2.0	+	.	
+ch.10197	RNASeq	transcription_end_site	646	646	.	-	.	
+ch.10197	RNASeq	transcription_end_site	646	646	.	-	.	
+ch.10197	RNASeq_stranded	transcript_region	616	641	4.0	+	.	
+ch.10197	RNASeq	transcription_end_site	629	629	.	-	.	
+ch.10197	RNASeq	transcription_end_site	629	629	.	-	.	
+ch.10197	RNASeq_reads	transcript_region	626	628	4.0	.	.	
+ch.10197	RNASeq_F_asymmetry	transcript_region	626	626	22232.0	.	.	
+ch.10197	RNASeq_F_asymmetry	transcript_region	624	625	33966.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	623	625	8.0	.	.	
+ch.10197	RNASeq_F_asymmetry	transcript_region	616	623	53022.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	604	622	13.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	581	615	7.0	+	.	
+ch.10197	RNASeq_F_asymmetry	transcript_region	569	615	80371.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	547	603	20.0	.	.	
+ch.10197	RNASeq	transcription_end_site	590	590	.	-	.	
+ch.10197	RNASeq	transcription_end_site	589	589	.	-	.	
+ch.10197	RNASeq	transcription_end_site	583	583	.	-	.	
+ch.10197	RNASeq_stranded	transcript_region	569	580	11.0	+	.	
+ch.10197	RNASeq_stranded	transcript_region	554	568	17.0	+	.	
+ch.10197	WormBase	CDS	391	560	.	+	.	ID=CDS:C49A9.10;Parent=Transcript:C49A9.10.1
+ch.10197	RNASeq_stranded	transcript_region	510	553	26.0	+	.	
+ch.10197	RNASeq_reads	transcript_region	391	546	33.0	.	.	
+ch.10197	RNASeq_F_asymmetry	transcript_region	531	542	157052.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	460	509	17.0	+	.	
+ch.10197	RNASeq_stranded	transcript_region	391	459	11.0	+	.	
+ch.10197	RNASeq_splice	intron	348	390	40.0	+	.	
+ch.10197	RNASeq_splice	intron	337	390	14.0	+	.	
+ch.10197	WormBase	intron	333	390	.	+	.	Parent=Transcript:C49A9.10.1
+ch.10197	RNASeq_splice	intron	333	390	246499.0	+	.	
+ch.10197	RNASeq_F_asymmetry	transcript_region	333	333	49235.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	333	333	12.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	333	333	2.0	-	.	
+ch.10197	RNASeq_stranded	transcript_region	318	332	11.0	+	.	
+ch.10197	WormBase	CDS	236	332	.	+	.	ID=CDS:C49A9.10;Parent=Transcript:C49A9.10.1
+ch.10197	WormBase	exon	236	332	.	+	.	Parent=Transcript:C49A9.10.1
+ch.10197	RNASeq_reads	transcript_region	236	332	50.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	292	317	17.0	+	.	
+ch.10197	RNASeq_stranded	transcript_region	236	291	27.0	+	.	
+ch.10197	RNASeq_splice	intron	191	237	90.0	+	.	
+ch.10197	RNASeq_F_asymmetry	transcript_region	235	235	20957.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	235	235	5.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	235	235	2.0	-	.	
+ch.10197	RNASeq_splice	intron	197	235	3.0	+	.	
+ch.10197	WormBase	intron	191	235	.	+	.	Parent=Transcript:C49A9.10.1
+ch.10197	RNASeq_splice	intron	191	235	305289.0	+	.	
+ch.10197	RNASeq_stranded	transcript_region	145	190	17.0	+	.	
+ch.10197	RNASeq_reads	transcript_region	128	190	58.0	.	.	
+ch.10197	WormBase	CDS	116	190	.	+	.	ID=CDS:C49A9.10;Parent=Transcript:C49A9.10.1
+ch.10197	WormBase	exon	101	190	.	+	.	Parent=Transcript:C49A9.10.1
+ch.10197	RNASeq_R_asymmetry	transcript_region	109	157	200321.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	114	144	11.0	+	.	
+ch.10197	RNASeq_reads	transcript_region	108	127	38.0	.	.	
+ch.10197	WormBase	five_prime_UTR	101	115	.	+	.	Parent=Transcript:C49A9.10.1
+ch.10197	RNASeq_stranded	transcript_region	103	113	7.0	+	.	
+ch.10197	RNASeq_R_asymmetry	transcript_region	103	108	131424.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	103	107	24.0	.	.	
+ch.10197	RNASeq_R_asymmetry	transcript_region	101	102	53709.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	101	102	11.0	.	.	
+ch.10197	RNASeq_stranded	transcript_region	101	102	4.0	+	.	
+ch.10197	RNASeq_R_asymmetry	transcript_region	94	100	7729.0	.	.	
+ch.10197	RNASeq_reads	transcript_region	94	100	2.0	.	.	

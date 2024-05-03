@@ -1,92 +1,92 @@
-ch.9940	RNASeq_reads	transcript_region	11	63	1.0	.	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	40	56	4964.0	.	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	57	63	3272.0	.	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	64	66	2013.0	.	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	67	69	1253.0	.	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	94	94	296.0	.	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	97	97	394.0	.	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	98	98	809.0	.	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	99	99	1437.0	.	.	
-ch.9940	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.9940	RNASeq_reads	transcript_region	100	100	1.0	.	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	100	104	6316.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	100	104	1.0	-	.	
-ch.9940	RNASeq_reads	transcript_region	101	105	2.0	.	.	
-ch.9940	WormBase	three_prime_UTR	101	211	.	-	.	Parent=Transcript:H06H21.11.1
-ch.9940	WormBase	exon	101	560	.	-	.	Parent=Transcript:H06H21.11.1
-ch.9940	WormBase	gene	101	723	.	-	.	ID=Gene:WBGene00044483
-ch.9940	WormBase	mRNA	101	723	.	-	.	ID=Transcript:H06H21.11.1;Parent=Gene:WBGene00044483
-ch.9940	RNASeq_F_asymmetry	transcript_region	105	106	11402.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	105	106	2.0	-	.	
-ch.9940	RNASeq_reads	transcript_region	106	116	4.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	107	113	4.0	-	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	107	114	18052.0	.	.	
-ch.9940	RNASeq	transcription_end_site	112	112	.	+	.	
-ch.9940	RNASeq_stranded	transcript_region	114	118	7.0	-	.	
-ch.9940	RNASeq_reads	transcript_region	117	126	7.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	119	124	14.0	-	.	
-ch.9940	RNASeq	transcription_end_site	120	120	.	+	.	
-ch.9940	RNASeq	transcription_end_site	123	123	.	+	.	
-ch.9940	RNASeq	transcription_end_site	123	123	.	+	.	
-ch.9940	RNASeq_stranded	transcript_region	125	143	22.0	-	.	
-ch.9940	RNASeq_reads	transcript_region	127	136	11.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	137	150	18.0	.	.	
-ch.9940	RNASeq	transcription_end_site	140	140	.	+	.	
-ch.9940	RNASeq	transcription_end_site	140	140	.	+	.	
-ch.9940	RNASeq_stranded	transcript_region	144	206	34.0	-	.	
-ch.9940	RNASeq	transcription_end_site	145	145	.	+	.	
-ch.9940	RNASeq	transcription_end_site	146	146	.	+	.	
-ch.9940	RNASeq	transcription_end_site	146	146	.	+	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	147	151	88725.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	151	226	31.0	.	.	
-ch.9940	RNASeq_F_asymmetry	transcript_region	152	193	147345.0	.	.	
-ch.9940	RNASeq	transcription_end_site	193	193	.	+	.	
-ch.9940	RNASeq	transcription_end_site	193	193	.	+	.	
-ch.9940	RNASeq	transcription_end_site	196	196	.	+	.	
-ch.9940	RNASeq	transcription_end_site	196	196	.	+	.	
-ch.9940	RNASeq_stranded	transcript_region	207	258	53.0	-	.	
-ch.9940	WormBase	CDS	212	560	.	-	.	ID=CDS:H06H21.11;Parent=Transcript:H06H21.11.1
-ch.9940	RNASeq	transcription_end_site	222	222	.	+	.	
-ch.9940	RNASeq	transcription_end_site	222	222	.	+	.	
-ch.9940	RNASeq_reads	transcript_region	227	319	47.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	259	394	33.0	-	.	
-ch.9940	RNASeq_reads	transcript_region	320	560	71.0	.	.	
-ch.9940	RNASeq_splice	intron	344	418	176.0	-	.	
-ch.9940	RNASeq_splice	intron	353	414	4.0	+	.	
-ch.9940	RNASeq_splice	intron	355	393	6.0	-	.	
-ch.9940	RNASeq_splice	intron	355	418	377.0	-	.	
-ch.9940	RNASeq_stranded	transcript_region	372	481	1.0	+	.	
-ch.9940	RNASeq_splice	intron	374	418	59.0	-	.	
-ch.9940	RNASeq_stranded	transcript_region	395	547	21.0	-	.	
-ch.9940	RNASeq_stranded	transcript_region	544	550	1.0	+	.	
-ch.9940	RNASeq_stranded	transcript_region	548	560	13.0	-	.	
-ch.9940	RNASeq_splice	intron	556	609	25.0	+	.	
-ch.9940	RNASeq_reads	transcript_region	561	562	9.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	561	562	1.0	-	.	
-ch.9940	WormBase	intron	561	613	.	-	.	Parent=Transcript:H06H21.11.1
-ch.9940	RNASeq_splice	intron	561	613	345995.0	-	.	
-ch.9940	RNASeq_reads	transcript_region	563	593	1.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	597	608	1.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	609	613	3.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	609	613	1.0	-	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	611	613	14447.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	614	624	13.0	-	.	
-ch.9940	RNASeq_reads	transcript_region	614	690	68.0	.	.	
-ch.9940	WormBase	CDS	614	696	.	-	.	ID=CDS:H06H21.11;Parent=Transcript:H06H21.11.1
-ch.9940	WormBase	exon	614	723	.	-	.	Parent=Transcript:H06H21.11.1
-ch.9940	RNASeq_stranded	transcript_region	625	682	20.0	-	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	645	690	281762.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	683	698	11.0	-	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	691	698	185793.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	691	698	39.0	.	.	
-ch.9940	WormBase	five_prime_UTR	697	723	.	-	.	Parent=Transcript:H06H21.11.1
-ch.9940	RNASeq_R_asymmetry	transcript_region	699	718	69999.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	699	719	15.0	.	.	
-ch.9940	RNASeq_stranded	transcript_region	699	725	5.0	-	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	719	725	45670.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	720	725	9.0	.	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	726	755	10365.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	726	763	3.0	.	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	756	790	6779.0	.	.	
-ch.9940	RNASeq_reads	transcript_region	764	798	1.0	.	.	
-ch.9940	RNASeq_R_asymmetry	transcript_region	791	794	4323.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	761	813	1.0	.	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	768	784	4964.0	.	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	761	767	3272.0	.	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	758	760	2013.0	.	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	755	757	1253.0	.	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	730	730	296.0	.	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	727	727	394.0	.	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	726	726	809.0	.	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	725	725	1437.0	.	.	
+ch.9940	RNASeq	transcription_end_site	725	725	.	-	.	
+ch.9940	RNASeq_reads	transcript_region	724	724	1.0	.	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	720	724	6316.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	720	724	1.0	+	.	
+ch.9940	RNASeq_reads	transcript_region	719	723	2.0	.	.	
+ch.9940	WormBase	three_prime_UTR	613	723	.	+	.	Parent=Transcript:H06H21.11.1
+ch.9940	WormBase	exon	264	723	.	+	.	Parent=Transcript:H06H21.11.1
+ch.9940	WormBase	gene	101	723	.	+	.	ID=Gene:WBGene00044483
+ch.9940	WormBase	mRNA	101	723	.	+	.	ID=Transcript:H06H21.11.1;Parent=Gene:WBGene00044483
+ch.9940	RNASeq_F_asymmetry	transcript_region	718	719	11402.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	718	719	2.0	+	.	
+ch.9940	RNASeq_reads	transcript_region	708	718	4.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	711	717	4.0	+	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	710	717	18052.0	.	.	
+ch.9940	RNASeq	transcription_end_site	712	712	.	-	.	
+ch.9940	RNASeq_stranded	transcript_region	706	710	7.0	+	.	
+ch.9940	RNASeq_reads	transcript_region	698	707	7.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	700	705	14.0	+	.	
+ch.9940	RNASeq	transcription_end_site	704	704	.	-	.	
+ch.9940	RNASeq	transcription_end_site	701	701	.	-	.	
+ch.9940	RNASeq	transcription_end_site	701	701	.	-	.	
+ch.9940	RNASeq_stranded	transcript_region	681	699	22.0	+	.	
+ch.9940	RNASeq_reads	transcript_region	688	697	11.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	674	687	18.0	.	.	
+ch.9940	RNASeq	transcription_end_site	684	684	.	-	.	
+ch.9940	RNASeq	transcription_end_site	684	684	.	-	.	
+ch.9940	RNASeq_stranded	transcript_region	618	680	34.0	+	.	
+ch.9940	RNASeq	transcription_end_site	679	679	.	-	.	
+ch.9940	RNASeq	transcription_end_site	678	678	.	-	.	
+ch.9940	RNASeq	transcription_end_site	678	678	.	-	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	673	677	88725.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	598	673	31.0	.	.	
+ch.9940	RNASeq_F_asymmetry	transcript_region	631	672	147345.0	.	.	
+ch.9940	RNASeq	transcription_end_site	631	631	.	-	.	
+ch.9940	RNASeq	transcription_end_site	631	631	.	-	.	
+ch.9940	RNASeq	transcription_end_site	628	628	.	-	.	
+ch.9940	RNASeq	transcription_end_site	628	628	.	-	.	
+ch.9940	RNASeq_stranded	transcript_region	566	617	53.0	+	.	
+ch.9940	WormBase	CDS	264	612	.	+	.	ID=CDS:H06H21.11;Parent=Transcript:H06H21.11.1
+ch.9940	RNASeq	transcription_end_site	602	602	.	-	.	
+ch.9940	RNASeq	transcription_end_site	602	602	.	-	.	
+ch.9940	RNASeq_reads	transcript_region	505	597	47.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	430	565	33.0	+	.	
+ch.9940	RNASeq_reads	transcript_region	264	504	71.0	.	.	
+ch.9940	RNASeq_splice	intron	406	480	176.0	+	.	
+ch.9940	RNASeq_splice	intron	410	471	4.0	-	.	
+ch.9940	RNASeq_splice	intron	431	469	6.0	+	.	
+ch.9940	RNASeq_splice	intron	406	469	377.0	+	.	
+ch.9940	RNASeq_stranded	transcript_region	343	452	1.0	-	.	
+ch.9940	RNASeq_splice	intron	406	450	59.0	+	.	
+ch.9940	RNASeq_stranded	transcript_region	277	429	21.0	+	.	
+ch.9940	RNASeq_stranded	transcript_region	274	280	1.0	-	.	
+ch.9940	RNASeq_stranded	transcript_region	264	276	13.0	+	.	
+ch.9940	RNASeq_splice	intron	215	268	25.0	-	.	
+ch.9940	RNASeq_reads	transcript_region	262	263	9.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	262	263	1.0	+	.	
+ch.9940	WormBase	intron	211	263	.	+	.	Parent=Transcript:H06H21.11.1
+ch.9940	RNASeq_splice	intron	211	263	345995.0	+	.	
+ch.9940	RNASeq_reads	transcript_region	231	261	1.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	216	227	1.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	211	215	3.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	211	215	1.0	+	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	211	213	14447.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	200	210	13.0	+	.	
+ch.9940	RNASeq_reads	transcript_region	134	210	68.0	.	.	
+ch.9940	WormBase	CDS	128	210	.	+	.	ID=CDS:H06H21.11;Parent=Transcript:H06H21.11.1
+ch.9940	WormBase	exon	101	210	.	+	.	Parent=Transcript:H06H21.11.1
+ch.9940	RNASeq_stranded	transcript_region	142	199	20.0	+	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	134	179	281762.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	126	141	11.0	+	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	126	133	185793.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	126	133	39.0	.	.	
+ch.9940	WormBase	five_prime_UTR	101	127	.	+	.	Parent=Transcript:H06H21.11.1
+ch.9940	RNASeq_R_asymmetry	transcript_region	106	125	69999.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	105	125	15.0	.	.	
+ch.9940	RNASeq_stranded	transcript_region	99	125	5.0	+	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	99	105	45670.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	99	104	9.0	.	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	69	98	10365.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	61	98	3.0	.	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	34	68	6779.0	.	.	
+ch.9940	RNASeq_reads	transcript_region	26	60	1.0	.	.	
+ch.9940	RNASeq_R_asymmetry	transcript_region	30	33	4323.0	.	.	

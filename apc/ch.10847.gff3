@@ -1,0 +1,75 @@
+ch.10847	WormBase	three_prime_UTR	774	1061	.	+	.	Parent=Transcript:Y73F4A.2.1
+ch.10847	WormBase	exon	681	1061	.	+	.	Parent=Transcript:Y73F4A.2.1
+ch.10847	WormBase	gene	101	1061	.	+	.	ID=Gene:WBGene00013515
+ch.10847	WormBase	mRNA	101	1061	.	+	.	ID=Transcript:Y73F4A.2.1;Parent=Gene:WBGene00013515
+ch.10847	RNASeq_reads	transcript_region	937	1007	1.0	.	.	
+ch.10847	RNASeq	transcription_end_site	941	941	.	-	.	
+ch.10847	RNASeq	transcription_end_site	941	941	.	-	.	
+ch.10847	RNASeq	transcription_end_site	938	938	.	-	.	
+ch.10847	RNASeq	transcription_end_site	938	938	.	-	.	
+ch.10847	RNASeq	transcription_end_site	936	936	.	-	.	
+ch.10847	RNASeq	transcription_end_site	936	936	.	-	.	
+ch.10847	RNASeq_stranded	transcript_region	935	936	1.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	931	936	3.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	925	934	2.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	922	930	5.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	913	924	4.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	907	921	8.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	886	912	7.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	879	906	13.0	.	.	
+ch.10847	RNASeq_F_asymmetry	transcript_region	902	902	60124.0	.	.	
+ch.10847	RNASeq_F_asymmetry	transcript_region	897	899	66957.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	865	885	11.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	860	878	20.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	701	864	17.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	829	859	31.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	782	828	47.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	734	781	73.0	.	.	
+ch.10847	WormBase	CDS	681	773	.	+	.	ID=CDS:Y73F4A.2;Parent=Transcript:Y73F4A.2.1
+ch.10847	RNASeq_reads	transcript_region	681	733	111.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	681	700	11.0	+	.	
+ch.10847	RNASeq_splice	intron	626	689	8.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	680	680	10.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	680	680	4.0	-	.	
+ch.10847	RNASeq_splice	intron	631	680	3.0	+	.	
+ch.10847	WormBase	intron	626	680	.	+	.	Parent=Transcript:Y73F4A.2.1
+ch.10847	RNASeq_splice	intron	626	680	505788.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	677	679	1.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	626	630	1.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	618	625	6.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	534	625	103.0	.	.	
+ch.10847	WormBase	CDS	398	625	.	+	.	ID=CDS:Y73F4A.2;Parent=Transcript:Y73F4A.2.1
+ch.10847	WormBase	exon	398	625	.	+	.	Parent=Transcript:Y73F4A.2.1
+ch.10847	RNASeq_stranded	transcript_region	552	617	10.0	+	.	
+ch.10847	RNASeq_splice	intron	268	590	3.0	-	.	
+ch.10847	RNASeq_stranded	transcript_region	413	551	18.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	398	533	155.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	398	412	28.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	396	397	19.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	396	397	2.0	+	.	
+ch.10847	WormBase	intron	324	397	.	+	.	Parent=Transcript:Y73F4A.2.1
+ch.10847	RNASeq_splice	intron	324	397	463327.0	+	.	
+ch.10847	RNASeq_splice	intron	324	361	3.0	+	.	
+ch.10847	RNASeq_stranded	transcript_region	294	323	23.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	142	323	95.0	.	.	
+ch.10847	WormBase	CDS	138	323	.	+	.	ID=CDS:Y73F4A.2;Parent=Transcript:Y73F4A.2.1
+ch.10847	WormBase	exon	101	323	.	+	.	Parent=Transcript:Y73F4A.2.1
+ch.10847	RNASeq_stranded	transcript_region	263	313	1.0	-	.	
+ch.10847	RNASeq_stranded	transcript_region	288	293	15.0	+	.	
+ch.10847	RNASeq_stranded	transcript_region	233	287	9.0	+	.	
+ch.10847	RNASeq_stranded	transcript_region	196	232	14.0	+	.	
+ch.10847	RNASeq_stranded	transcript_region	124	195	22.0	+	.	
+ch.10847	RNASeq_R_asymmetry	transcript_region	125	174	330594.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	120	141	62.0	.	.	
+ch.10847	WormBase	five_prime_UTR	101	137	.	+	.	Parent=Transcript:Y73F4A.2.1
+ch.10847	RNASeq_R_asymmetry	transcript_region	115	124	209670.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	105	123	13.0	+	.	
+ch.10847	RNASeq_reads	transcript_region	114	119	40.0	.	.	
+ch.10847	RNASeq_R_asymmetry	transcript_region	106	114	133572.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	105	113	26.0	.	.	
+ch.10847	RNASeq_R_asymmetry	transcript_region	104	105	81343.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	102	104	13.0	.	.	
+ch.10847	RNASeq_stranded	transcript_region	101	104	8.0	+	.	
+ch.10847	RNASeq_R_asymmetry	transcript_region	101	103	48099.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	101	101	7.0	.	.	
+ch.10847	RNASeq_reads	transcript_region	96	100	1.0	.	.	

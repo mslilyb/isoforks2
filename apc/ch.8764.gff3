@@ -1,62 +1,62 @@
-ch.8764	RNASeq_reads	transcript_region	12	13	1.0	.	.	
-ch.8764	RNASeq_reads	transcript_region	22	100	1.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	72	100	1.0	-	.	
-ch.8764	RNASeq	transcription_end_site	97	97	.	+	.	
-ch.8764	RNASeq_stranded	transcript_region	101	101	2.0	+	.	
-ch.8764	RNASeq_reads	transcript_region	101	102	2.0	.	.	
-ch.8764	WormBase	three_prime_UTR	101	278	.	-	.	Parent=Transcript:Y66D12A.6.1
-ch.8764	WormBase	exon	101	446	.	-	.	Parent=Transcript:Y66D12A.6.1
-ch.8764	WormBase	gene	101	809	.	-	.	ID=Gene:WBGene00013432
-ch.8764	WormBase	mRNA	101	809	.	-	.	ID=Transcript:Y66D12A.6.1;Parent=Gene:WBGene00013432
-ch.8764	RNASeq_stranded	transcript_region	102	107	4.0	-	.	
-ch.8764	RNASeq_reads	transcript_region	103	114	4.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	103	188	1.0	+	.	
-ch.8764	RNASeq_F_asymmetry	transcript_region	104	109	19015.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	108	122	7.0	-	.	
-ch.8764	RNASeq_F_asymmetry	transcript_region	115	120	26136.0	.	.	
-ch.8764	RNASeq_reads	transcript_region	115	172	7.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	123	147	11.0	-	.	
-ch.8764	RNASeq_stranded	transcript_region	148	262	18.0	-	.	
-ch.8764	RNASeq	transcription_end_site	156	156	.	+	.	
-ch.8764	RNASeq	transcription_end_site	156	156	.	+	.	
-ch.8764	RNASeq_reads	transcript_region	173	294	11.0	.	.	
-ch.8764	RNASeq_splice	intron	202	254	7.0	+	.	
-ch.8764	RNASeq	transcription_end_site	248	248	.	+	.	
-ch.8764	RNASeq_stranded	transcript_region	263	301	11.0	-	.	
-ch.8764	WormBase	CDS	279	446	.	-	.	ID=CDS:Y66D12A.6;Parent=Transcript:Y66D12A.6.1
-ch.8764	RNASeq	transcription_end_site	280	280	.	+	.	
-ch.8764	RNASeq	transcription_end_site	293	293	.	+	.	
-ch.8764	RNASeq	transcription_end_site	293	293	.	+	.	
-ch.8764	RNASeq_reads	transcript_region	295	446	17.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	302	443	6.0	-	.	
-ch.8764	RNASeq	transcription_end_site	399	399	.	+	.	
-ch.8764	RNASeq	transcription_end_site	399	399	.	+	.	
-ch.8764	RNASeq_splice	intron	429	487	3.0	+	.	
-ch.8764	RNASeq_stranded	transcript_region	444	446	3.0	-	.	
-ch.8764	WormBase	intron	447	515	.	-	.	Parent=Transcript:Y66D12A.6.1
-ch.8764	RNASeq_splice	intron	447	515	109145.0	-	.	
-ch.8764	WormBase	CDS	516	632	.	-	.	ID=CDS:Y66D12A.6;Parent=Transcript:Y66D12A.6.1
-ch.8764	WormBase	exon	516	632	.	-	.	Parent=Transcript:Y66D12A.6.1
-ch.8764	RNASeq_reads	transcript_region	516	632	21.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	516	632	4.0	-	.	
-ch.8764	RNASeq_splice	intron	621	770	5.0	+	.	
-ch.8764	WormBase	intron	633	683	.	-	.	Parent=Transcript:Y66D12A.6.1
-ch.8764	RNASeq_splice	intron	633	683	95090.0	-	.	
-ch.8764	RNASeq_stranded	transcript_region	684	706	3.0	-	.	
-ch.8764	RNASeq_reads	transcript_region	684	797	20.0	.	.	
-ch.8764	WormBase	CDS	684	809	.	-	.	ID=CDS:Y66D12A.6;Parent=Transcript:Y66D12A.6.1
-ch.8764	WormBase	exon	684	809	.	-	.	Parent=Transcript:Y66D12A.6.1
-ch.8764	RNASeq_stranded	transcript_region	707	730	5.0	-	.	
-ch.8764	RNASeq_stranded	transcript_region	731	766	8.0	-	.	
-ch.8764	RNASeq_R_asymmetry	transcript_region	739	803	83242.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	767	797	5.0	-	.	
-ch.8764	RNASeq_reads	transcript_region	798	804	13.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	798	810	3.0	-	.	
-ch.8764	RNASeq_R_asymmetry	transcript_region	804	805	53260.0	.	.	
-ch.8764	RNASeq_reads	transcript_region	805	807	8.0	.	.	
-ch.8764	RNASeq_R_asymmetry	transcript_region	806	807	33912.0	.	.	
-ch.8764	RNASeq_R_asymmetry	transcript_region	808	811	22285.0	.	.	
-ch.8764	RNASeq_reads	transcript_region	808	811	5.0	.	.	
-ch.8764	RNASeq_stranded	transcript_region	811	815	1.0	-	.	
-ch.8764	RNASeq_R_asymmetry	transcript_region	812	815	12654.0	.	.	
-ch.8764	RNASeq_reads	transcript_region	812	815	3.0	.	.	
+ch.8764	RNASeq_reads	transcript_region	897	898	1.0	.	.	
+ch.8764	RNASeq_reads	transcript_region	810	888	1.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	810	838	1.0	+	.	
+ch.8764	RNASeq	transcription_end_site	813	813	.	-	.	
+ch.8764	RNASeq_stranded	transcript_region	809	809	2.0	-	.	
+ch.8764	RNASeq_reads	transcript_region	808	809	2.0	.	.	
+ch.8764	WormBase	three_prime_UTR	632	809	.	+	.	Parent=Transcript:Y66D12A.6.1
+ch.8764	WormBase	exon	464	809	.	+	.	Parent=Transcript:Y66D12A.6.1
+ch.8764	WormBase	gene	101	809	.	+	.	ID=Gene:WBGene00013432
+ch.8764	WormBase	mRNA	101	809	.	+	.	ID=Transcript:Y66D12A.6.1;Parent=Gene:WBGene00013432
+ch.8764	RNASeq_stranded	transcript_region	803	808	4.0	+	.	
+ch.8764	RNASeq_reads	transcript_region	796	807	4.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	722	807	1.0	-	.	
+ch.8764	RNASeq_F_asymmetry	transcript_region	801	806	19015.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	788	802	7.0	+	.	
+ch.8764	RNASeq_F_asymmetry	transcript_region	790	795	26136.0	.	.	
+ch.8764	RNASeq_reads	transcript_region	738	795	7.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	763	787	11.0	+	.	
+ch.8764	RNASeq_stranded	transcript_region	648	762	18.0	+	.	
+ch.8764	RNASeq	transcription_end_site	754	754	.	-	.	
+ch.8764	RNASeq	transcription_end_site	754	754	.	-	.	
+ch.8764	RNASeq_reads	transcript_region	616	737	11.0	.	.	
+ch.8764	RNASeq_splice	intron	656	708	7.0	-	.	
+ch.8764	RNASeq	transcription_end_site	662	662	.	-	.	
+ch.8764	RNASeq_stranded	transcript_region	609	647	11.0	+	.	
+ch.8764	WormBase	CDS	464	631	.	+	.	ID=CDS:Y66D12A.6;Parent=Transcript:Y66D12A.6.1
+ch.8764	RNASeq	transcription_end_site	630	630	.	-	.	
+ch.8764	RNASeq	transcription_end_site	617	617	.	-	.	
+ch.8764	RNASeq	transcription_end_site	617	617	.	-	.	
+ch.8764	RNASeq_reads	transcript_region	464	615	17.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	467	608	6.0	+	.	
+ch.8764	RNASeq	transcription_end_site	511	511	.	-	.	
+ch.8764	RNASeq	transcription_end_site	511	511	.	-	.	
+ch.8764	RNASeq_splice	intron	423	481	3.0	-	.	
+ch.8764	RNASeq_stranded	transcript_region	464	466	3.0	+	.	
+ch.8764	WormBase	intron	395	463	.	+	.	Parent=Transcript:Y66D12A.6.1
+ch.8764	RNASeq_splice	intron	395	463	109145.0	+	.	
+ch.8764	WormBase	CDS	278	394	.	+	.	ID=CDS:Y66D12A.6;Parent=Transcript:Y66D12A.6.1
+ch.8764	WormBase	exon	278	394	.	+	.	Parent=Transcript:Y66D12A.6.1
+ch.8764	RNASeq_reads	transcript_region	278	394	21.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	278	394	4.0	+	.	
+ch.8764	RNASeq_splice	intron	140	289	5.0	-	.	
+ch.8764	WormBase	intron	227	277	.	+	.	Parent=Transcript:Y66D12A.6.1
+ch.8764	RNASeq_splice	intron	227	277	95090.0	+	.	
+ch.8764	RNASeq_stranded	transcript_region	204	226	3.0	+	.	
+ch.8764	RNASeq_reads	transcript_region	113	226	20.0	.	.	
+ch.8764	WormBase	CDS	101	226	.	+	.	ID=CDS:Y66D12A.6;Parent=Transcript:Y66D12A.6.1
+ch.8764	WormBase	exon	101	226	.	+	.	Parent=Transcript:Y66D12A.6.1
+ch.8764	RNASeq_stranded	transcript_region	180	203	5.0	+	.	
+ch.8764	RNASeq_stranded	transcript_region	144	179	8.0	+	.	
+ch.8764	RNASeq_R_asymmetry	transcript_region	107	171	83242.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	113	143	5.0	+	.	
+ch.8764	RNASeq_reads	transcript_region	106	112	13.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	100	112	3.0	+	.	
+ch.8764	RNASeq_R_asymmetry	transcript_region	105	106	53260.0	.	.	
+ch.8764	RNASeq_reads	transcript_region	103	105	8.0	.	.	
+ch.8764	RNASeq_R_asymmetry	transcript_region	103	104	33912.0	.	.	
+ch.8764	RNASeq_R_asymmetry	transcript_region	99	102	22285.0	.	.	
+ch.8764	RNASeq_reads	transcript_region	99	102	5.0	.	.	
+ch.8764	RNASeq_stranded	transcript_region	95	99	1.0	+	.	
+ch.8764	RNASeq_R_asymmetry	transcript_region	95	98	12654.0	.	.	
+ch.8764	RNASeq_reads	transcript_region	95	98	3.0	.	.	

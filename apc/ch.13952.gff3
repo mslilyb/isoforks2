@@ -1,64 +1,64 @@
-ch.13952	RNASeq_stranded	transcript_region	101	103	2.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	101	105	1.0	.	.	
-ch.13952	WormBase	three_prime_UTR	101	152	.	-	.	Parent=Transcript:K04A8.21.1
-ch.13952	WormBase	exon	101	302	.	-	.	Parent=Transcript:K04A8.21.1
-ch.13952	WormBase	gene	101	583	.	-	.	ID=Gene:WBGene00271815
-ch.13952	WormBase	mRNA	101	583	.	-	.	ID=Transcript:K04A8.21.1;Parent=Gene:WBGene00271815
-ch.13952	RNASeq_stranded	transcript_region	104	109	4.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	106	109	2.0	.	.	
-ch.13952	RNASeq_reads	transcript_region	110	125	4.0	.	.	
-ch.13952	RNASeq_stranded	transcript_region	110	131	12.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	126	149	7.0	.	.	
-ch.13952	RNASeq_stranded	transcript_region	132	166	19.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	150	190	11.0	.	.	
-ch.13952	WormBase	CDS	153	302	.	-	.	ID=CDS:K04A8.21;Parent=Transcript:K04A8.21.1
-ch.13952	RNASeq_stranded	transcript_region	167	214	29.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	191	237	17.0	.	.	
-ch.13952	RNASeq_stranded	transcript_region	215	247	19.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	238	302	26.0	.	.	
-ch.13952	RNASeq_stranded	transcript_region	248	266	12.0	-	.	
-ch.13952	RNASeq	transcription_end_site	249	249	.	+	.	
-ch.13952	RNASeq	transcription_end_site	249	249	.	+	.	
-ch.13952	RNASeq_stranded	transcript_region	267	281	7.0	-	.	
-ch.13952	RNASeq	transcription_end_site	281	281	.	+	.	
-ch.13952	RNASeq_stranded	transcript_region	282	302	4.0	-	.	
-ch.13952	RNASeq_splice	intron	290	337	6.0	+	.	
-ch.13952	RNASeq_splice	intron	297	343	4.0	-	.	
-ch.13952	RNASeq_splice	intron	297	347	4.0	-	.	
-ch.13952	RNASeq_splice	intron	301	343	10.0	-	.	
-ch.13952	RNASeq_splice	intron	301	347	27.0	-	.	
-ch.13952	WormBase	intron	303	347	.	-	.	Parent=Transcript:K04A8.21.1
-ch.13952	RNASeq_splice	intron	303	347	147818.0	-	.	
-ch.13952	RNASeq_splice	intron	311	347	9.0	-	.	
-ch.13952	RNASeq_stranded	transcript_region	348	386	2.0	-	.	
-ch.13952	WormBase	CDS	348	464	.	-	.	ID=CDS:K04A8.21;Parent=Transcript:K04A8.21.1
-ch.13952	WormBase	exon	348	464	.	-	.	Parent=Transcript:K04A8.21.1
-ch.13952	RNASeq_reads	transcript_region	348	464	26.0	.	.	
-ch.13952	RNASeq_stranded	transcript_region	387	431	4.0	-	.	
-ch.13952	RNASeq	transcription_end_site	417	417	.	+	.	
-ch.13952	RNASeq	transcription_end_site	418	418	.	+	.	
-ch.13952	RNASeq	transcription_end_site	418	418	.	+	.	
-ch.13952	RNASeq_stranded	transcript_region	432	440	8.0	-	.	
-ch.13952	RNASeq_stranded	transcript_region	441	464	13.0	-	.	
-ch.13952	RNASeq_splice	intron	463	508	76.0	-	.	
-ch.13952	RNASeq_stranded	transcript_region	465	465	1.0	+	.	
-ch.13952	RNASeq_reads	transcript_region	465	466	3.0	.	.	
-ch.13952	WormBase	intron	465	508	.	-	.	Parent=Transcript:K04A8.21.1
-ch.13952	RNASeq_splice	intron	465	508	91123.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	509	565	17.0	.	.	
-ch.13952	WormBase	CDS	509	574	.	-	.	ID=CDS:K04A8.21;Parent=Transcript:K04A8.21.1
-ch.13952	RNASeq_stranded	transcript_region	509	575	12.0	-	.	
-ch.13952	WormBase	exon	509	583	.	-	.	Parent=Transcript:K04A8.21.1
-ch.13952	RNASeq_R_asymmetry	transcript_region	522	568	71430.0	.	.	
-ch.13952	RNASeq_reads	transcript_region	566	572	11.0	.	.	
-ch.13952	RNASeq_R_asymmetry	transcript_region	569	572	44796.0	.	.	
-ch.13952	RNASeq_R_asymmetry	transcript_region	573	577	28483.0	.	.	
-ch.13952	RNASeq_reads	transcript_region	573	577	7.0	.	.	
-ch.13952	WormBase	five_prime_UTR	575	583	.	-	.	Parent=Transcript:K04A8.21.1
-ch.13952	RNASeq_stranded	transcript_region	576	581	6.0	-	.	
-ch.13952	RNASeq_R_asymmetry	transcript_region	578	579	17629.0	.	.	
-ch.13952	RNASeq_reads	transcript_region	578	582	4.0	.	.	
-ch.13952	RNASeq_stranded	transcript_region	582	583	3.0	-	.	
-ch.13952	RNASeq_reads	transcript_region	583	586	2.0	.	.	
-ch.13952	RNASeq_stranded	transcript_region	584	584	1.0	+	.	
-ch.13952	RNASeq_reads	transcript_region	587	593	1.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	581	583	2.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	579	583	1.0	.	.	
+ch.13952	WormBase	three_prime_UTR	532	583	.	+	.	Parent=Transcript:K04A8.21.1
+ch.13952	WormBase	exon	382	583	.	+	.	Parent=Transcript:K04A8.21.1
+ch.13952	WormBase	gene	101	583	.	+	.	ID=Gene:WBGene00271815
+ch.13952	WormBase	mRNA	101	583	.	+	.	ID=Transcript:K04A8.21.1;Parent=Gene:WBGene00271815
+ch.13952	RNASeq_stranded	transcript_region	575	580	4.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	575	578	2.0	.	.	
+ch.13952	RNASeq_reads	transcript_region	559	574	4.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	553	574	12.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	535	558	7.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	518	552	19.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	494	534	11.0	.	.	
+ch.13952	WormBase	CDS	382	531	.	+	.	ID=CDS:K04A8.21;Parent=Transcript:K04A8.21.1
+ch.13952	RNASeq_stranded	transcript_region	470	517	29.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	447	493	17.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	437	469	19.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	382	446	26.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	418	436	12.0	+	.	
+ch.13952	RNASeq	transcription_end_site	435	435	.	-	.	
+ch.13952	RNASeq	transcription_end_site	435	435	.	-	.	
+ch.13952	RNASeq_stranded	transcript_region	403	417	7.0	+	.	
+ch.13952	RNASeq	transcription_end_site	403	403	.	-	.	
+ch.13952	RNASeq_stranded	transcript_region	382	402	4.0	+	.	
+ch.13952	RNASeq_splice	intron	347	394	6.0	-	.	
+ch.13952	RNASeq_splice	intron	341	387	4.0	+	.	
+ch.13952	RNASeq_splice	intron	337	387	4.0	+	.	
+ch.13952	RNASeq_splice	intron	341	383	10.0	+	.	
+ch.13952	RNASeq_splice	intron	337	383	27.0	+	.	
+ch.13952	WormBase	intron	337	381	.	+	.	Parent=Transcript:K04A8.21.1
+ch.13952	RNASeq_splice	intron	337	381	147818.0	+	.	
+ch.13952	RNASeq_splice	intron	337	373	9.0	+	.	
+ch.13952	RNASeq_stranded	transcript_region	298	336	2.0	+	.	
+ch.13952	WormBase	CDS	220	336	.	+	.	ID=CDS:K04A8.21;Parent=Transcript:K04A8.21.1
+ch.13952	WormBase	exon	220	336	.	+	.	Parent=Transcript:K04A8.21.1
+ch.13952	RNASeq_reads	transcript_region	220	336	26.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	253	297	4.0	+	.	
+ch.13952	RNASeq	transcription_end_site	267	267	.	-	.	
+ch.13952	RNASeq	transcription_end_site	266	266	.	-	.	
+ch.13952	RNASeq	transcription_end_site	266	266	.	-	.	
+ch.13952	RNASeq_stranded	transcript_region	244	252	8.0	+	.	
+ch.13952	RNASeq_stranded	transcript_region	220	243	13.0	+	.	
+ch.13952	RNASeq_splice	intron	176	221	76.0	+	.	
+ch.13952	RNASeq_stranded	transcript_region	219	219	1.0	-	.	
+ch.13952	RNASeq_reads	transcript_region	218	219	3.0	.	.	
+ch.13952	WormBase	intron	176	219	.	+	.	Parent=Transcript:K04A8.21.1
+ch.13952	RNASeq_splice	intron	176	219	91123.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	119	175	17.0	.	.	
+ch.13952	WormBase	CDS	110	175	.	+	.	ID=CDS:K04A8.21;Parent=Transcript:K04A8.21.1
+ch.13952	RNASeq_stranded	transcript_region	109	175	12.0	+	.	
+ch.13952	WormBase	exon	101	175	.	+	.	Parent=Transcript:K04A8.21.1
+ch.13952	RNASeq_R_asymmetry	transcript_region	116	162	71430.0	.	.	
+ch.13952	RNASeq_reads	transcript_region	112	118	11.0	.	.	
+ch.13952	RNASeq_R_asymmetry	transcript_region	112	115	44796.0	.	.	
+ch.13952	RNASeq_R_asymmetry	transcript_region	107	111	28483.0	.	.	
+ch.13952	RNASeq_reads	transcript_region	107	111	7.0	.	.	
+ch.13952	WormBase	five_prime_UTR	101	109	.	+	.	Parent=Transcript:K04A8.21.1
+ch.13952	RNASeq_stranded	transcript_region	103	108	6.0	+	.	
+ch.13952	RNASeq_R_asymmetry	transcript_region	105	106	17629.0	.	.	
+ch.13952	RNASeq_reads	transcript_region	102	106	4.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	101	102	3.0	+	.	
+ch.13952	RNASeq_reads	transcript_region	98	101	2.0	.	.	
+ch.13952	RNASeq_stranded	transcript_region	100	100	1.0	-	.	
+ch.13952	RNASeq_reads	transcript_region	91	97	1.0	.	.	

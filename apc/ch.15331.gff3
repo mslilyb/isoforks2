@@ -1,99 +1,99 @@
-ch.15331	RNASeq_splice	intron	68	128	8.0	+	.	
-ch.15331	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.15331	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.15331	RNASeq	transcription_end_site	98	98	.	+	.	
-ch.15331	RNASeq	transcription_end_site	98	98	.	+	.	
-ch.15331	RNASeq_reads	transcript_region	98	99	1.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	98	99	1.0	-	.	
-ch.15331	RNASeq	transcription_end_site	100	100	.	+	.	
-ch.15331	RNASeq	transcription_end_site	100	100	.	+	.	
-ch.15331	RNASeq_reads	transcript_region	100	103	2.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	100	107	2.0	-	.	
-ch.15331	RNASeq_F_asymmetry	transcript_region	101	103	10966.0	.	.	
-ch.15331	WormBase	three_prime_UTR	101	166	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	WormBase	exon	101	418	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	WormBase	gene	101	830	.	-	.	ID=Gene:WBGene00008408
-ch.15331	WormBase	mRNA	101	830	.	-	.	ID=Transcript:D2023.4.1;Parent=Gene:WBGene00008408
-ch.15331	RNASeq_reads	transcript_region	104	122	4.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	108	119	4.0	-	.	
-ch.15331	RNASeq_stranded	transcript_region	120	127	7.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	123	140	7.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	128	156	11.0	-	.	
-ch.15331	RNASeq	transcription_end_site	131	131	.	+	.	
-ch.15331	RNASeq_reads	transcript_region	141	164	11.0	.	.	
-ch.15331	RNASeq	transcription_end_site	142	142	.	+	.	
-ch.15331	RNASeq	transcription_end_site	142	142	.	+	.	
-ch.15331	RNASeq_stranded	transcript_region	157	173	17.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	165	175	17.0	.	.	
-ch.15331	WormBase	CDS	167	418	.	-	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_stranded	transcript_region	174	263	26.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	176	190	27.0	.	.	
-ch.15331	RNASeq_F_asymmetry	transcript_region	191	199	164967.0	.	.	
-ch.15331	RNASeq_reads	transcript_region	191	206	41.0	.	.	
-ch.15331	RNASeq_F_asymmetry	transcript_region	200	242	255987.0	.	.	
-ch.15331	RNASeq_reads	transcript_region	207	337	63.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	225	244	1.0	+	.	
-ch.15331	RNASeq_stranded	transcript_region	264	290	17.0	-	.	
-ch.15331	RNASeq_stranded	transcript_region	291	302	27.0	-	.	
-ch.15331	RNASeq_splice	intron	295	466	6.0	-	.	
-ch.15331	RNASeq_stranded	transcript_region	303	325	41.0	-	.	
-ch.15331	RNASeq_stranded	transcript_region	326	379	62.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	338	418	95.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	380	398	40.0	-	.	
-ch.15331	RNASeq_stranded	transcript_region	399	418	23.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	419	421	13.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	419	421	4.0	-	.	
-ch.15331	WormBase	intron	419	466	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_splice	intron	419	466	350774.0	-	.	
-ch.15331	RNASeq_splice	intron	419	475	60.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	422	466	1.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	467	483	16.0	-	.	
-ch.15331	WormBase	CDS	467	543	.	-	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
-ch.15331	WormBase	exon	467	543	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_reads	transcript_region	467	543	66.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	484	543	10.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	544	544	11.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	544	544	2.0	+	.	
-ch.15331	WormBase	intron	544	584	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_splice	intron	544	584	461349.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	545	553	2.0	.	.	
-ch.15331	RNASeq_reads	transcript_region	554	583	1.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	582	583	1.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	584	584	10.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	584	584	3.0	+	.	
-ch.15331	RNASeq_stranded	transcript_region	585	618	10.0	-	.	
-ch.15331	WormBase	CDS	585	672	.	-	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
-ch.15331	WormBase	exon	585	672	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_reads	transcript_region	585	672	86.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	619	672	16.0	-	.	
-ch.15331	RNASeq_splice	intron	670	717	44.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	673	675	4.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	673	675	1.0	-	.	
-ch.15331	RNASeq_splice	intron	673	717	606.0	-	.	
-ch.15331	WormBase	intron	673	721	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_splice	intron	673	721	408005.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	721	721	5.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	721	721	2.0	+	.	
-ch.15331	RNASeq_stranded	transcript_region	722	761	13.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	722	779	78.0	.	.	
-ch.15331	WormBase	CDS	722	787	.	-	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
-ch.15331	WormBase	exon	722	830	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_R_asymmetry	transcript_region	737	783	331279.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	762	786	8.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	780	795	50.0	.	.	
-ch.15331	RNASeq_R_asymmetry	transcript_region	784	807	199627.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	787	831	5.0	-	.	
-ch.15331	WormBase	five_prime_UTR	788	830	.	-	.	Parent=Transcript:D2023.4.1
-ch.15331	RNASeq_reads	transcript_region	796	821	32.0	.	.	
-ch.15331	RNASeq_R_asymmetry	transcript_region	808	826	128885.0	.	.	
-ch.15331	RNASeq_reads	transcript_region	822	832	21.0	.	.	
-ch.15331	RNASeq_R_asymmetry	transcript_region	827	832	84040.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	832	832	3.0	+	.	
-ch.15331	RNASeq_reads	transcript_region	833	839	5.0	.	.	
-ch.15331	RNASeq_R_asymmetry	transcript_region	833	841	21308.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	833	841	1.0	-	.	
-ch.15331	RNASeq_reads	transcript_region	840	913	3.0	.	.	
-ch.15331	RNASeq_R_asymmetry	transcript_region	842	915	10640.0	.	.	
-ch.15331	RNASeq_stranded	transcript_region	846	848	1.0	-	.	
-ch.15331	RNASeq_R_asymmetry	transcript_region	916	925	6877.0	.	.	
-ch.15331	RNASeq_R_asymmetry	transcript_region	926	927	4180.0	.	.	
+ch.15331	RNASeq_splice	intron	803	863	8.0	-	.	
+ch.15331	RNASeq	transcription_end_site	835	835	.	-	.	
+ch.15331	RNASeq	transcription_end_site	835	835	.	-	.	
+ch.15331	RNASeq	transcription_end_site	833	833	.	-	.	
+ch.15331	RNASeq	transcription_end_site	833	833	.	-	.	
+ch.15331	RNASeq_reads	transcript_region	832	833	1.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	832	833	1.0	+	.	
+ch.15331	RNASeq	transcription_end_site	831	831	.	-	.	
+ch.15331	RNASeq	transcription_end_site	831	831	.	-	.	
+ch.15331	RNASeq_reads	transcript_region	828	831	2.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	824	831	2.0	+	.	
+ch.15331	RNASeq_F_asymmetry	transcript_region	828	830	10966.0	.	.	
+ch.15331	WormBase	three_prime_UTR	765	830	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	WormBase	exon	513	830	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	WormBase	gene	101	830	.	+	.	ID=Gene:WBGene00008408
+ch.15331	WormBase	mRNA	101	830	.	+	.	ID=Transcript:D2023.4.1;Parent=Gene:WBGene00008408
+ch.15331	RNASeq_reads	transcript_region	809	827	4.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	812	823	4.0	+	.	
+ch.15331	RNASeq_stranded	transcript_region	804	811	7.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	791	808	7.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	775	803	11.0	+	.	
+ch.15331	RNASeq	transcription_end_site	800	800	.	-	.	
+ch.15331	RNASeq_reads	transcript_region	767	790	11.0	.	.	
+ch.15331	RNASeq	transcription_end_site	789	789	.	-	.	
+ch.15331	RNASeq	transcription_end_site	789	789	.	-	.	
+ch.15331	RNASeq_stranded	transcript_region	758	774	17.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	756	766	17.0	.	.	
+ch.15331	WormBase	CDS	513	764	.	+	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_stranded	transcript_region	668	757	26.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	741	755	27.0	.	.	
+ch.15331	RNASeq_F_asymmetry	transcript_region	732	740	164967.0	.	.	
+ch.15331	RNASeq_reads	transcript_region	725	740	41.0	.	.	
+ch.15331	RNASeq_F_asymmetry	transcript_region	689	731	255987.0	.	.	
+ch.15331	RNASeq_reads	transcript_region	594	724	63.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	687	706	1.0	-	.	
+ch.15331	RNASeq_stranded	transcript_region	641	667	17.0	+	.	
+ch.15331	RNASeq_stranded	transcript_region	629	640	27.0	+	.	
+ch.15331	RNASeq_splice	intron	465	636	6.0	+	.	
+ch.15331	RNASeq_stranded	transcript_region	606	628	41.0	+	.	
+ch.15331	RNASeq_stranded	transcript_region	552	605	62.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	513	593	95.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	533	551	40.0	+	.	
+ch.15331	RNASeq_stranded	transcript_region	513	532	23.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	510	512	13.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	510	512	4.0	+	.	
+ch.15331	WormBase	intron	465	512	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_splice	intron	465	512	350774.0	+	.	
+ch.15331	RNASeq_splice	intron	456	512	60.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	465	509	1.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	448	464	16.0	+	.	
+ch.15331	WormBase	CDS	388	464	.	+	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
+ch.15331	WormBase	exon	388	464	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_reads	transcript_region	388	464	66.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	388	447	10.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	387	387	11.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	387	387	2.0	-	.	
+ch.15331	WormBase	intron	347	387	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_splice	intron	347	387	461349.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	378	386	2.0	.	.	
+ch.15331	RNASeq_reads	transcript_region	348	377	1.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	348	349	1.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	347	347	10.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	347	347	3.0	-	.	
+ch.15331	RNASeq_stranded	transcript_region	313	346	10.0	+	.	
+ch.15331	WormBase	CDS	259	346	.	+	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
+ch.15331	WormBase	exon	259	346	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_reads	transcript_region	259	346	86.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	259	312	16.0	+	.	
+ch.15331	RNASeq_splice	intron	214	261	44.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	256	258	4.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	256	258	1.0	+	.	
+ch.15331	RNASeq_splice	intron	214	258	606.0	+	.	
+ch.15331	WormBase	intron	210	258	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_splice	intron	210	258	408005.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	210	210	5.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	210	210	2.0	-	.	
+ch.15331	RNASeq_stranded	transcript_region	170	209	13.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	152	209	78.0	.	.	
+ch.15331	WormBase	CDS	144	209	.	+	.	ID=CDS:D2023.4;Parent=Transcript:D2023.4.1
+ch.15331	WormBase	exon	101	209	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_R_asymmetry	transcript_region	148	194	331279.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	145	169	8.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	136	151	50.0	.	.	
+ch.15331	RNASeq_R_asymmetry	transcript_region	124	147	199627.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	100	144	5.0	+	.	
+ch.15331	WormBase	five_prime_UTR	101	143	.	+	.	Parent=Transcript:D2023.4.1
+ch.15331	RNASeq_reads	transcript_region	110	135	32.0	.	.	
+ch.15331	RNASeq_R_asymmetry	transcript_region	105	123	128885.0	.	.	
+ch.15331	RNASeq_reads	transcript_region	99	109	21.0	.	.	
+ch.15331	RNASeq_R_asymmetry	transcript_region	99	104	84040.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	99	99	3.0	-	.	
+ch.15331	RNASeq_reads	transcript_region	92	98	5.0	.	.	
+ch.15331	RNASeq_R_asymmetry	transcript_region	90	98	21308.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	90	98	1.0	+	.	
+ch.15331	RNASeq_reads	transcript_region	18	91	3.0	.	.	
+ch.15331	RNASeq_R_asymmetry	transcript_region	16	89	10640.0	.	.	
+ch.15331	RNASeq_stranded	transcript_region	83	85	1.0	+	.	
+ch.15331	RNASeq_R_asymmetry	transcript_region	6	15	6877.0	.	.	
+ch.15331	RNASeq_R_asymmetry	transcript_region	4	5	4180.0	.	.	

@@ -1,73 +1,73 @@
-ch.4393	RNASeq_R_asymmetry	transcript_region	1	4	6590.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	1	4	1.0	.	.	
-ch.4393	RNASeq	transcription_end_site	91	91	.	+	.	
-ch.4393	RNASeq	transcription_end_site	91	91	.	+	.	
-ch.4393	RNASeq	transcription_end_site	92	92	.	+	.	
-ch.4393	RNASeq	transcription_end_site	92	92	.	+	.	
-ch.4393	RNASeq_F_asymmetry	transcript_region	94	95	2600.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	94	95	1.0	.	.	
-ch.4393	RNASeq_stranded	transcript_region	94	95	1.0	-	.	
-ch.4393	RNASeq	transcription_end_site	95	95	.	+	.	
-ch.4393	RNASeq	transcription_end_site	95	95	.	+	.	
-ch.4393	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.4393	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.4393	RNASeq_F_asymmetry	transcript_region	96	97	6586.0	.	.	
-ch.4393	RNASeq_stranded	transcript_region	96	105	2.0	-	.	
-ch.4393	RNASeq_reads	transcript_region	96	115	2.0	.	.	
-ch.4393	WormBase	three_prime_UTR	101	187	.	-	.	Parent=Transcript:C25H3.17.1
-ch.4393	WormBase	exon	101	336	.	-	.	Parent=Transcript:C25H3.17.1
-ch.4393	WormBase	gene	101	748	.	-	.	ID=Gene:WBGene00194642
-ch.4393	WormBase	mRNA	101	748	.	-	.	ID=Transcript:C25H3.17.1;Parent=Gene:WBGene00194642
-ch.4393	RNASeq_stranded	transcript_region	106	115	4.0	-	.	
-ch.4393	RNASeq_stranded	transcript_region	116	131	7.0	-	.	
-ch.4393	RNASeq_reads	transcript_region	116	132	4.0	.	.	
-ch.4393	RNASeq	transcription_end_site	131	131	.	+	.	
-ch.4393	RNASeq	transcription_end_site	131	131	.	+	.	
-ch.4393	RNASeq_stranded	transcript_region	132	154	11.0	-	.	
-ch.4393	RNASeq_F_asymmetry	transcript_region	133	133	33047.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	133	134	8.0	.	.	
-ch.4393	RNASeq_F_asymmetry	transcript_region	134	165	52179.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	135	169	13.0	.	.	
-ch.4393	RNASeq_stranded	transcript_region	155	259	17.0	-	.	
-ch.4393	RNASeq_F_asymmetry	transcript_region	166	183	79388.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	170	210	20.0	.	.	
-ch.4393	RNASeq	transcription_end_site	187	187	.	+	.	
-ch.4393	WormBase	CDS	188	336	.	-	.	ID=CDS:C25H3.17;Parent=Transcript:C25H3.17.1
-ch.4393	RNASeq	transcription_end_site	194	194	.	+	.	
-ch.4393	RNASeq	transcription_end_site	196	196	.	+	.	
-ch.4393	RNASeq	transcription_end_site	196	196	.	+	.	
-ch.4393	RNASeq	transcription_end_site	197	197	.	+	.	
-ch.4393	RNASeq_F_asymmetry	transcript_region	201	201	108798.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	211	243	31.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	244	336	47.0	.	.	
-ch.4393	RNASeq_stranded	transcript_region	260	281	11.0	-	.	
-ch.4393	RNASeq_stranded	transcript_region	282	336	17.0	-	.	
-ch.4393	RNASeq_reads	transcript_region	337	345	2.0	.	.	
-ch.4393	RNASeq_splice	intron	337	395	27.0	-	.	
-ch.4393	WormBase	intron	337	666	.	-	.	Parent=Transcript:C25H3.17.1
-ch.4393	RNASeq_splice	intron	337	666	289274.0	-	.	
-ch.4393	RNASeq_splice	intron	337	676	119.0	-	.	
-ch.4393	RNASeq_splice	intron	337	690	3.0	-	.	
-ch.4393	RNASeq_splice	intron	337	714	11.0	-	.	
-ch.4393	RNASeq_splice	intron	346	395	4.0	-	.	
-ch.4393	RNASeq_reads	transcript_region	346	479	1.0	.	.	
-ch.4393	RNASeq_splice	intron	346	666	3492.0	-	.	
-ch.4393	WormBase_transposon	transposable_element	371	643	.	+	.	ID=Transposon:Predicted_CELE2_8893
-ch.4393	RNASeq_splice	intron	425	666	3.0	-	.	
-ch.4393	RNASeq_reads	transcript_region	588	666	1.0	.	.	
-ch.4393	RNASeq_stranded	transcript_region	667	690	10.0	-	.	
-ch.4393	RNASeq_reads	transcript_region	667	740	57.0	.	.	
-ch.4393	WormBase	CDS	667	748	.	-	.	ID=CDS:C25H3.17;Parent=Transcript:C25H3.17.1
-ch.4393	WormBase	exon	667	748	.	-	.	Parent=Transcript:C25H3.17.1
-ch.4393	RNASeq_stranded	transcript_region	691	712	16.0	-	.	
-ch.4393	RNASeq_R_asymmetry	transcript_region	697	744	225066.0	.	.	
-ch.4393	RNASeq_stranded	transcript_region	713	741	25.0	-	.	
-ch.4393	RNASeq_reads	transcript_region	741	748	37.0	.	.	
-ch.4393	RNASeq_stranded	transcript_region	742	750	14.0	-	.	
-ch.4393	RNASeq_R_asymmetry	transcript_region	745	750	146998.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	749	750	24.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	751	751	2.0	.	.	
-ch.4393	RNASeq_R_asymmetry	transcript_region	751	754	6354.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	752	792	1.0	.	.	
-ch.4393	RNASeq_R_asymmetry	transcript_region	755	757	3356.0	.	.	
-ch.4393	RNASeq_reads	transcript_region	839	844	1.0	.	.	
+ch.4393	RNASeq_R_asymmetry	transcript_region	845	848	6590.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	845	848	1.0	.	.	
+ch.4393	RNASeq	transcription_end_site	758	758	.	-	.	
+ch.4393	RNASeq	transcription_end_site	758	758	.	-	.	
+ch.4393	RNASeq	transcription_end_site	757	757	.	-	.	
+ch.4393	RNASeq	transcription_end_site	757	757	.	-	.	
+ch.4393	RNASeq_F_asymmetry	transcript_region	754	755	2600.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	754	755	1.0	.	.	
+ch.4393	RNASeq_stranded	transcript_region	754	755	1.0	+	.	
+ch.4393	RNASeq	transcription_end_site	754	754	.	-	.	
+ch.4393	RNASeq	transcription_end_site	754	754	.	-	.	
+ch.4393	RNASeq	transcription_end_site	753	753	.	-	.	
+ch.4393	RNASeq	transcription_end_site	753	753	.	-	.	
+ch.4393	RNASeq_F_asymmetry	transcript_region	752	753	6586.0	.	.	
+ch.4393	RNASeq_stranded	transcript_region	744	753	2.0	+	.	
+ch.4393	RNASeq_reads	transcript_region	734	753	2.0	.	.	
+ch.4393	WormBase	three_prime_UTR	662	748	.	+	.	Parent=Transcript:C25H3.17.1
+ch.4393	WormBase	exon	513	748	.	+	.	Parent=Transcript:C25H3.17.1
+ch.4393	WormBase	gene	101	748	.	+	.	ID=Gene:WBGene00194642
+ch.4393	WormBase	mRNA	101	748	.	+	.	ID=Transcript:C25H3.17.1;Parent=Gene:WBGene00194642
+ch.4393	RNASeq_stranded	transcript_region	734	743	4.0	+	.	
+ch.4393	RNASeq_stranded	transcript_region	718	733	7.0	+	.	
+ch.4393	RNASeq_reads	transcript_region	717	733	4.0	.	.	
+ch.4393	RNASeq	transcription_end_site	718	718	.	-	.	
+ch.4393	RNASeq	transcription_end_site	718	718	.	-	.	
+ch.4393	RNASeq_stranded	transcript_region	695	717	11.0	+	.	
+ch.4393	RNASeq_F_asymmetry	transcript_region	716	716	33047.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	715	716	8.0	.	.	
+ch.4393	RNASeq_F_asymmetry	transcript_region	684	715	52179.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	680	714	13.0	.	.	
+ch.4393	RNASeq_stranded	transcript_region	590	694	17.0	+	.	
+ch.4393	RNASeq_F_asymmetry	transcript_region	666	683	79388.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	639	679	20.0	.	.	
+ch.4393	RNASeq	transcription_end_site	662	662	.	-	.	
+ch.4393	WormBase	CDS	513	661	.	+	.	ID=CDS:C25H3.17;Parent=Transcript:C25H3.17.1
+ch.4393	RNASeq	transcription_end_site	655	655	.	-	.	
+ch.4393	RNASeq	transcription_end_site	653	653	.	-	.	
+ch.4393	RNASeq	transcription_end_site	653	653	.	-	.	
+ch.4393	RNASeq	transcription_end_site	652	652	.	-	.	
+ch.4393	RNASeq_F_asymmetry	transcript_region	648	648	108798.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	606	638	31.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	513	605	47.0	.	.	
+ch.4393	RNASeq_stranded	transcript_region	568	589	11.0	+	.	
+ch.4393	RNASeq_stranded	transcript_region	513	567	17.0	+	.	
+ch.4393	RNASeq_reads	transcript_region	504	512	2.0	.	.	
+ch.4393	RNASeq_splice	intron	454	512	27.0	+	.	
+ch.4393	WormBase	intron	183	512	.	+	.	Parent=Transcript:C25H3.17.1
+ch.4393	RNASeq_splice	intron	183	512	289274.0	+	.	
+ch.4393	RNASeq_splice	intron	173	512	119.0	+	.	
+ch.4393	RNASeq_splice	intron	159	512	3.0	+	.	
+ch.4393	RNASeq_splice	intron	135	512	11.0	+	.	
+ch.4393	RNASeq_splice	intron	454	503	4.0	+	.	
+ch.4393	RNASeq_reads	transcript_region	370	503	1.0	.	.	
+ch.4393	RNASeq_splice	intron	183	503	3492.0	+	.	
+ch.4393	WormBase_transposon	transposable_element	206	478	.	-	.	ID=Transposon:Predicted_CELE2_8893
+ch.4393	RNASeq_splice	intron	183	424	3.0	+	.	
+ch.4393	RNASeq_reads	transcript_region	183	261	1.0	.	.	
+ch.4393	RNASeq_stranded	transcript_region	159	182	10.0	+	.	
+ch.4393	RNASeq_reads	transcript_region	109	182	57.0	.	.	
+ch.4393	WormBase	CDS	101	182	.	+	.	ID=CDS:C25H3.17;Parent=Transcript:C25H3.17.1
+ch.4393	WormBase	exon	101	182	.	+	.	Parent=Transcript:C25H3.17.1
+ch.4393	RNASeq_stranded	transcript_region	137	158	16.0	+	.	
+ch.4393	RNASeq_R_asymmetry	transcript_region	105	152	225066.0	.	.	
+ch.4393	RNASeq_stranded	transcript_region	108	136	25.0	+	.	
+ch.4393	RNASeq_reads	transcript_region	101	108	37.0	.	.	
+ch.4393	RNASeq_stranded	transcript_region	99	107	14.0	+	.	
+ch.4393	RNASeq_R_asymmetry	transcript_region	99	104	146998.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	99	100	24.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	98	98	2.0	.	.	
+ch.4393	RNASeq_R_asymmetry	transcript_region	95	98	6354.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	57	97	1.0	.	.	
+ch.4393	RNASeq_R_asymmetry	transcript_region	92	94	3356.0	.	.	
+ch.4393	RNASeq_reads	transcript_region	5	10	1.0	.	.	

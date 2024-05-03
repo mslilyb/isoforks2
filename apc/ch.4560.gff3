@@ -1,109 +1,109 @@
-ch.4560	RNASeq_F_asymmetry	transcript_region	15	16	755.0	.	.	
-ch.4560	RNASeq_F_asymmetry	transcript_region	22	24	759.0	.	.	
-ch.4560	WormBase	three_prime_UTR	101	147	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	WormBase	exon	101	232	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	WormBase	gene	101	734	.	-	.	ID=Gene:WBGene00019607
-ch.4560	WormBase	mRNA	101	734	.	-	.	ID=Transcript:K10B2.4.1;Parent=Gene:WBGene00019607
-ch.4560	RNASeq	transcription_end_site	103	103	.	+	.	
-ch.4560	RNASeq	transcription_end_site	103	103	.	+	.	
-ch.4560	RNASeq_reads	transcript_region	103	105	1.0	.	.	
-ch.4560	RNASeq	transcription_end_site	104	104	.	+	.	
-ch.4560	RNASeq_F_asymmetry	transcript_region	105	105	3195.0	.	.	
-ch.4560	RNASeq_splice	intron	105	152	147.0	+	.	
-ch.4560	RNASeq_stranded	transcript_region	106	106	6.0	+	.	
-ch.4560	RNASeq	transcription_end_site	106	106	.	+	.	
-ch.4560	RNASeq	transcription_end_site	106	106	.	+	.	
-ch.4560	RNASeq_reads	transcript_region	106	108	6.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	106	169	1.0	+	.	
-ch.4560	RNASeq	transcription_end_site	107	107	.	+	.	
-ch.4560	RNASeq	transcription_end_site	107	107	.	+	.	
-ch.4560	RNASeq_stranded	transcript_region	107	110	10.0	-	.	
-ch.4560	RNASeq	transcription_end_site	109	109	.	+	.	
-ch.4560	RNASeq	transcription_end_site	109	109	.	+	.	
-ch.4560	RNASeq_reads	transcript_region	109	117	11.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	111	118	17.0	-	.	
-ch.4560	RNASeq	transcription_end_site	113	113	.	+	.	
-ch.4560	RNASeq_reads	transcript_region	118	128	17.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	119	125	26.0	-	.	
-ch.4560	RNASeq_stranded	transcript_region	126	137	41.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	129	137	31.0	.	.	
-ch.4560	RNASeq	transcription_end_site	135	135	.	+	.	
-ch.4560	RNASeq	transcription_end_site	135	135	.	+	.	
-ch.4560	RNASeq_stranded	transcript_region	138	139	62.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	138	141	47.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	140	172	171.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	142	165	71.0	.	.	
-ch.4560	WormBase	CDS	148	232	.	-	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_reads	transcript_region	166	215	110.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	170	177	2.0	+	.	
-ch.4560	RNASeq_stranded	transcript_region	173	174	258.0	-	.	
-ch.4560	RNASeq_stranded	transcript_region	175	232	153.0	-	.	
-ch.4560	RNASeq_stranded	transcript_region	178	232	1.0	+	.	
-ch.4560	RNASeq_reads	transcript_region	216	232	167.0	.	.	
-ch.4560	RNASeq_splice	intron	217	320	3.0	+	.	
-ch.4560	RNASeq_stranded	transcript_region	233	236	8.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	233	237	6.0	.	.	
-ch.4560	RNASeq_splice	intron	233	300	4863.0	-	.	
-ch.4560	WormBase	intron	233	305	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_splice	intron	233	305	887487.0	-	.	
-ch.4560	RNASeq_splice	intron	233	447	13.0	-	.	
-ch.4560	RNASeq_stranded	transcript_region	237	237	5.0	+	.	
-ch.4560	RNASeq_splice	intron	261	311	13.0	+	.	
-ch.4560	RNASeq_reads	transcript_region	300	303	1.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	301	304	1.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	304	304	2.0	.	.	
-ch.4560	RNASeq_reads	transcript_region	305	305	29.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	305	305	19.0	+	.	
-ch.4560	RNASeq_stranded	transcript_region	306	337	1.0	+	.	
-ch.4560	RNASeq_stranded	transcript_region	306	349	113.0	-	.	
-ch.4560	WormBase	CDS	306	403	.	-	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
-ch.4560	WormBase	exon	306	403	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_reads	transcript_region	306	403	175.0	.	.	
-ch.4560	RNASeq_splice	intron	345	482	10.0	+	.	
-ch.4560	RNASeq_stranded	transcript_region	350	371	72.0	-	.	
-ch.4560	RNASeq_stranded	transcript_region	372	403	47.0	-	.	
-ch.4560	WormBase	intron	404	447	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_reads	transcript_region	404	447	1.0	.	.	
-ch.4560	RNASeq_splice	intron	404	447	785223.0	-	.	
-ch.4560	RNASeq_stranded	transcript_region	448	534	33.0	-	.	
-ch.4560	WormBase	CDS	448	562	.	-	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
-ch.4560	WormBase	exon	448	562	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_reads	transcript_region	448	562	153.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	535	554	19.0	-	.	
-ch.4560	RNASeq_stranded	transcript_region	555	562	29.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	563	563	19.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	563	563	2.0	+	.	
-ch.4560	WormBase	intron	563	610	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_splice	intron	563	610	716134.0	-	.	
-ch.4560	RNASeq_splice	intron	563	615	92.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	564	566	3.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	608	610	45496.0	.	.	
-ch.4560	RNASeq_reads	transcript_region	608	610	11.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	608	610	2.0	-	.	
-ch.4560	WormBase	CDS	611	654	.	-	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_reads	transcript_region	611	681	148.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	611	683	29.0	-	.	
-ch.4560	WormBase	exon	611	734	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_R_asymmetry	transcript_region	647	683	547538.0	.	.	
-ch.4560	WormBase	five_prime_UTR	655	734	.	-	.	Parent=Transcript:K10B2.4.1
-ch.4560	RNASeq_reads	transcript_region	682	692	90.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	684	699	322028.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	684	706	16.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	693	701	57.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	700	706	189993.0	.	.	
-ch.4560	RNASeq_reads	transcript_region	702	707	37.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	707	711	116408.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	707	712	10.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	708	715	20.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	712	719	75358.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	713	719	6.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	716	719	13.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	720	724	33846.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	720	724	3.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	720	725	7.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	725	730	20254.0	.	.	
-ch.4560	RNASeq_stranded	transcript_region	725	734	1.0	-	.	
-ch.4560	RNASeq_reads	transcript_region	726	734	4.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	731	734	12094.0	.	.	
-ch.4560	RNASeq_R_asymmetry	transcript_region	735	740	3454.0	.	.	
-ch.4560	RNASeq_reads	transcript_region	735	746	1.0	.	.	
+ch.4560	RNASeq_F_asymmetry	transcript_region	819	820	755.0	.	.	
+ch.4560	RNASeq_F_asymmetry	transcript_region	811	813	759.0	.	.	
+ch.4560	WormBase	three_prime_UTR	688	734	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	WormBase	exon	603	734	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	WormBase	gene	101	734	.	+	.	ID=Gene:WBGene00019607
+ch.4560	WormBase	mRNA	101	734	.	+	.	ID=Transcript:K10B2.4.1;Parent=Gene:WBGene00019607
+ch.4560	RNASeq	transcription_end_site	732	732	.	-	.	
+ch.4560	RNASeq	transcription_end_site	732	732	.	-	.	
+ch.4560	RNASeq_reads	transcript_region	730	732	1.0	.	.	
+ch.4560	RNASeq	transcription_end_site	731	731	.	-	.	
+ch.4560	RNASeq_F_asymmetry	transcript_region	730	730	3195.0	.	.	
+ch.4560	RNASeq_splice	intron	683	730	147.0	-	.	
+ch.4560	RNASeq_stranded	transcript_region	729	729	6.0	-	.	
+ch.4560	RNASeq	transcription_end_site	729	729	.	-	.	
+ch.4560	RNASeq	transcription_end_site	729	729	.	-	.	
+ch.4560	RNASeq_reads	transcript_region	727	729	6.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	666	729	1.0	-	.	
+ch.4560	RNASeq	transcription_end_site	728	728	.	-	.	
+ch.4560	RNASeq	transcription_end_site	728	728	.	-	.	
+ch.4560	RNASeq_stranded	transcript_region	725	728	10.0	+	.	
+ch.4560	RNASeq	transcription_end_site	726	726	.	-	.	
+ch.4560	RNASeq	transcription_end_site	726	726	.	-	.	
+ch.4560	RNASeq_reads	transcript_region	718	726	11.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	717	724	17.0	+	.	
+ch.4560	RNASeq	transcription_end_site	722	722	.	-	.	
+ch.4560	RNASeq_reads	transcript_region	707	717	17.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	710	716	26.0	+	.	
+ch.4560	RNASeq_stranded	transcript_region	698	709	41.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	698	706	31.0	.	.	
+ch.4560	RNASeq	transcription_end_site	700	700	.	-	.	
+ch.4560	RNASeq	transcription_end_site	700	700	.	-	.	
+ch.4560	RNASeq_stranded	transcript_region	696	697	62.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	694	697	47.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	663	695	171.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	670	693	71.0	.	.	
+ch.4560	WormBase	CDS	603	687	.	+	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_reads	transcript_region	620	669	110.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	658	665	2.0	-	.	
+ch.4560	RNASeq_stranded	transcript_region	661	662	258.0	+	.	
+ch.4560	RNASeq_stranded	transcript_region	603	660	153.0	+	.	
+ch.4560	RNASeq_stranded	transcript_region	603	657	1.0	-	.	
+ch.4560	RNASeq_reads	transcript_region	603	619	167.0	.	.	
+ch.4560	RNASeq_splice	intron	515	618	3.0	-	.	
+ch.4560	RNASeq_stranded	transcript_region	599	602	8.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	598	602	6.0	.	.	
+ch.4560	RNASeq_splice	intron	535	602	4863.0	+	.	
+ch.4560	WormBase	intron	530	602	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_splice	intron	530	602	887487.0	+	.	
+ch.4560	RNASeq_splice	intron	388	602	13.0	+	.	
+ch.4560	RNASeq_stranded	transcript_region	598	598	5.0	-	.	
+ch.4560	RNASeq_splice	intron	524	574	13.0	-	.	
+ch.4560	RNASeq_reads	transcript_region	532	535	1.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	531	534	1.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	531	531	2.0	.	.	
+ch.4560	RNASeq_reads	transcript_region	530	530	29.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	530	530	19.0	-	.	
+ch.4560	RNASeq_stranded	transcript_region	498	529	1.0	-	.	
+ch.4560	RNASeq_stranded	transcript_region	486	529	113.0	+	.	
+ch.4560	WormBase	CDS	432	529	.	+	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
+ch.4560	WormBase	exon	432	529	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_reads	transcript_region	432	529	175.0	.	.	
+ch.4560	RNASeq_splice	intron	353	490	10.0	-	.	
+ch.4560	RNASeq_stranded	transcript_region	464	485	72.0	+	.	
+ch.4560	RNASeq_stranded	transcript_region	432	463	47.0	+	.	
+ch.4560	WormBase	intron	388	431	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_reads	transcript_region	388	431	1.0	.	.	
+ch.4560	RNASeq_splice	intron	388	431	785223.0	+	.	
+ch.4560	RNASeq_stranded	transcript_region	301	387	33.0	+	.	
+ch.4560	WormBase	CDS	273	387	.	+	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
+ch.4560	WormBase	exon	273	387	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_reads	transcript_region	273	387	153.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	281	300	19.0	+	.	
+ch.4560	RNASeq_stranded	transcript_region	273	280	29.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	272	272	19.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	272	272	2.0	-	.	
+ch.4560	WormBase	intron	225	272	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_splice	intron	225	272	716134.0	+	.	
+ch.4560	RNASeq_splice	intron	220	272	92.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	269	271	3.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	225	227	45496.0	.	.	
+ch.4560	RNASeq_reads	transcript_region	225	227	11.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	225	227	2.0	+	.	
+ch.4560	WormBase	CDS	181	224	.	+	.	ID=CDS:K10B2.4;Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_reads	transcript_region	154	224	148.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	152	224	29.0	+	.	
+ch.4560	WormBase	exon	101	224	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_R_asymmetry	transcript_region	152	188	547538.0	.	.	
+ch.4560	WormBase	five_prime_UTR	101	180	.	+	.	Parent=Transcript:K10B2.4.1
+ch.4560	RNASeq_reads	transcript_region	143	153	90.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	136	151	322028.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	129	151	16.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	134	142	57.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	129	135	189993.0	.	.	
+ch.4560	RNASeq_reads	transcript_region	128	133	37.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	124	128	116408.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	123	128	10.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	120	127	20.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	116	123	75358.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	116	122	6.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	116	119	13.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	111	115	33846.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	111	115	3.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	110	115	7.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	105	110	20254.0	.	.	
+ch.4560	RNASeq_stranded	transcript_region	101	110	1.0	+	.	
+ch.4560	RNASeq_reads	transcript_region	101	109	4.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	101	104	12094.0	.	.	
+ch.4560	RNASeq_R_asymmetry	transcript_region	95	100	3454.0	.	.	
+ch.4560	RNASeq_reads	transcript_region	89	100	1.0	.	.	

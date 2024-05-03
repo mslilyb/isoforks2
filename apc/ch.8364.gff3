@@ -1,103 +1,103 @@
-ch.8364	RNASeq_R_asymmetry	transcript_region	3	3	1083.0	.	.	
-ch.8364	RNASeq_R_asymmetry	transcript_region	4	4	417.0	.	.	
-ch.8364	RNASeq_R_asymmetry	transcript_region	5	26	273.0	.	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	88	89	513.0	.	.	
-ch.8364	RNASeq	transcription_end_site	89	89	.	+	.	
-ch.8364	RNASeq	transcription_end_site	89	89	.	+	.	
-ch.8364	RNASeq	transcription_end_site	90	90	.	+	.	
-ch.8364	RNASeq	transcription_end_site	90	90	.	+	.	
-ch.8364	RNASeq_stranded	transcript_region	90	94	1.0	-	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	91	92	2556.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	91	98	1.0	.	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	93	98	4349.0	.	.	
-ch.8364	RNASeq	transcription_end_site	95	95	.	+	.	
-ch.8364	RNASeq	transcription_end_site	95	95	.	+	.	
-ch.8364	RNASeq_stranded	transcript_region	95	99	2.0	-	.	
-ch.8364	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.8364	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	99	100	10153.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	99	104	3.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	100	107	4.0	-	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	101	107	15396.0	.	.	
-ch.8364	WormBase	three_prime_UTR	101	236	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	WormBase	exon	101	328	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	WormBase	gene	101	863	.	-	.	ID=Gene:WBGene00008170
-ch.8364	WormBase	mRNA	101	863	.	-	.	ID=Transcript:C48B4.7.1;Parent=Gene:WBGene00008170
-ch.8364	RNASeq_reads	transcript_region	105	109	5.0	.	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	108	109	26957.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	108	119	7.0	-	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	110	118	44060.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	110	124	10.0	.	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	119	139	66609.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	120	136	11.0	-	.	
-ch.8364	RNASeq_reads	transcript_region	125	140	16.0	.	.	
-ch.8364	RNASeq	transcription_end_site	137	137	.	+	.	
-ch.8364	RNASeq_stranded	transcript_region	137	165	18.0	-	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	140	172	107536.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	141	172	25.0	.	.	
-ch.8364	RNASeq	transcription_end_site	149	149	.	+	.	
-ch.8364	RNASeq	transcription_end_site	149	149	.	+	.	
-ch.8364	RNASeq	transcription_end_site	163	163	.	+	.	
-ch.8364	RNASeq	transcription_end_site	163	163	.	+	.	
-ch.8364	RNASeq_stranded	transcript_region	166	290	28.0	-	.	
-ch.8364	RNASeq_F_asymmetry	transcript_region	173	201	165523.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	173	229	39.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	179	180	1.0	+	.	
-ch.8364	RNASeq	transcription_end_site	209	209	.	+	.	
-ch.8364	RNASeq	transcription_end_site	209	209	.	+	.	
-ch.8364	RNASeq_reads	transcript_region	230	328	60.0	.	.	
-ch.8364	WormBase	CDS	237	328	.	-	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_stranded	transcript_region	251	298	1.0	+	.	
-ch.8364	RNASeq_stranded	transcript_region	291	320	18.0	-	.	
-ch.8364	RNASeq_splice	intron	303	623	13.0	+	.	
-ch.8364	RNASeq_stranded	transcript_region	321	328	11.0	-	.	
-ch.8364	RNASeq_reads	transcript_region	329	329	8.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	329	329	2.0	+	.	
-ch.8364	WormBase	intron	329	379	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_splice	intron	329	379	312836.0	-	.	
-ch.8364	RNASeq_splice	intron	329	384	34.0	-	.	
-ch.8364	RNASeq_splice	intron	329	503	8.0	-	.	
-ch.8364	RNASeq_stranded	transcript_region	380	425	7.0	-	.	
-ch.8364	WormBase	CDS	380	454	.	-	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
-ch.8364	WormBase	exon	380	454	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_reads	transcript_region	380	454	59.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	426	446	11.0	-	.	
-ch.8364	RNASeq_splice	intron	437	503	4.0	-	.	
-ch.8364	RNASeq_stranded	transcript_region	447	454	18.0	-	.	
-ch.8364	RNASeq_splice	intron	455	499	36.0	-	.	
-ch.8364	WormBase	intron	455	503	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_splice	intron	455	503	350050.0	-	.	
-ch.8364	RNASeq_splice	intron	455	506	260.0	-	.	
-ch.8364	RNASeq_splice	intron	455	512	7.0	-	.	
-ch.8364	RNASeq_stranded	transcript_region	504	565	25.0	-	.	
-ch.8364	WormBase	CDS	504	639	.	-	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
-ch.8364	WormBase	exon	504	639	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_reads	transcript_region	504	639	64.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	543	575	1.0	+	.	
-ch.8364	RNASeq_stranded	transcript_region	566	618	16.0	-	.	
-ch.8364	RNASeq_stranded	transcript_region	619	639	10.0	-	.	
-ch.8364	RNASeq_reads	transcript_region	640	640	12.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	640	640	2.0	+	.	
-ch.8364	WormBase	intron	640	682	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_splice	intron	640	682	269634.0	-	.	
-ch.8364	RNASeq_splice	intron	640	691	296.0	-	.	
-ch.8364	RNASeq_stranded	transcript_region	683	767	6.0	-	.	
-ch.8364	RNASeq_reads	transcript_region	683	848	49.0	.	.	
-ch.8364	WormBase	CDS	683	859	.	-	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
-ch.8364	WormBase	exon	683	863	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_stranded	transcript_region	768	808	11.0	-	.	
-ch.8364	RNASeq_R_asymmetry	transcript_region	796	855	196868.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	809	829	17.0	-	.	
-ch.8364	RNASeq_stranded	transcript_region	830	840	11.0	-	.	
-ch.8364	RNASeq_stranded	transcript_region	841	859	7.0	-	.	
-ch.8364	RNASeq_reads	transcript_region	849	855	32.0	.	.	
-ch.8364	RNASeq_R_asymmetry	transcript_region	856	861	101280.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	856	861	20.0	.	.	
-ch.8364	WormBase	five_prime_UTR	860	863	.	-	.	Parent=Transcript:C48B4.7.1
-ch.8364	RNASeq_stranded	transcript_region	860	863	4.0	-	.	
-ch.8364	RNASeq_R_asymmetry	transcript_region	862	863	61893.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	862	863	12.0	.	.	
-ch.8364	RNASeq_splice	intron	862	954	10.0	-	.	
-ch.8364	RNASeq_R_asymmetry	transcript_region	864	867	25234.0	.	.	
-ch.8364	RNASeq_reads	transcript_region	864	867	5.0	.	.	
-ch.8364	RNASeq_stranded	transcript_region	864	867	1.0	-	.	
+ch.8364	RNASeq_R_asymmetry	transcript_region	961	961	1083.0	.	.	
+ch.8364	RNASeq_R_asymmetry	transcript_region	960	960	417.0	.	.	
+ch.8364	RNASeq_R_asymmetry	transcript_region	938	959	273.0	.	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	875	876	513.0	.	.	
+ch.8364	RNASeq	transcription_end_site	875	875	.	-	.	
+ch.8364	RNASeq	transcription_end_site	875	875	.	-	.	
+ch.8364	RNASeq	transcription_end_site	874	874	.	-	.	
+ch.8364	RNASeq	transcription_end_site	874	874	.	-	.	
+ch.8364	RNASeq_stranded	transcript_region	870	874	1.0	+	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	872	873	2556.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	866	873	1.0	.	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	866	871	4349.0	.	.	
+ch.8364	RNASeq	transcription_end_site	869	869	.	-	.	
+ch.8364	RNASeq	transcription_end_site	869	869	.	-	.	
+ch.8364	RNASeq_stranded	transcript_region	865	869	2.0	+	.	
+ch.8364	RNASeq	transcription_end_site	865	865	.	-	.	
+ch.8364	RNASeq	transcription_end_site	865	865	.	-	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	864	865	10153.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	860	865	3.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	857	864	4.0	+	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	857	863	15396.0	.	.	
+ch.8364	WormBase	three_prime_UTR	728	863	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	WormBase	exon	636	863	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	WormBase	gene	101	863	.	+	.	ID=Gene:WBGene00008170
+ch.8364	WormBase	mRNA	101	863	.	+	.	ID=Transcript:C48B4.7.1;Parent=Gene:WBGene00008170
+ch.8364	RNASeq_reads	transcript_region	855	859	5.0	.	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	855	856	26957.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	845	856	7.0	+	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	846	854	44060.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	840	854	10.0	.	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	825	845	66609.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	828	844	11.0	+	.	
+ch.8364	RNASeq_reads	transcript_region	824	839	16.0	.	.	
+ch.8364	RNASeq	transcription_end_site	827	827	.	-	.	
+ch.8364	RNASeq_stranded	transcript_region	799	827	18.0	+	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	792	824	107536.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	792	823	25.0	.	.	
+ch.8364	RNASeq	transcription_end_site	815	815	.	-	.	
+ch.8364	RNASeq	transcription_end_site	815	815	.	-	.	
+ch.8364	RNASeq	transcription_end_site	801	801	.	-	.	
+ch.8364	RNASeq	transcription_end_site	801	801	.	-	.	
+ch.8364	RNASeq_stranded	transcript_region	674	798	28.0	+	.	
+ch.8364	RNASeq_F_asymmetry	transcript_region	763	791	165523.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	735	791	39.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	784	785	1.0	-	.	
+ch.8364	RNASeq	transcription_end_site	755	755	.	-	.	
+ch.8364	RNASeq	transcription_end_site	755	755	.	-	.	
+ch.8364	RNASeq_reads	transcript_region	636	734	60.0	.	.	
+ch.8364	WormBase	CDS	636	727	.	+	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_stranded	transcript_region	666	713	1.0	-	.	
+ch.8364	RNASeq_stranded	transcript_region	644	673	18.0	+	.	
+ch.8364	RNASeq_splice	intron	341	661	13.0	-	.	
+ch.8364	RNASeq_stranded	transcript_region	636	643	11.0	+	.	
+ch.8364	RNASeq_reads	transcript_region	635	635	8.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	635	635	2.0	-	.	
+ch.8364	WormBase	intron	585	635	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_splice	intron	585	635	312836.0	+	.	
+ch.8364	RNASeq_splice	intron	580	635	34.0	+	.	
+ch.8364	RNASeq_splice	intron	461	635	8.0	+	.	
+ch.8364	RNASeq_stranded	transcript_region	539	584	7.0	+	.	
+ch.8364	WormBase	CDS	510	584	.	+	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
+ch.8364	WormBase	exon	510	584	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_reads	transcript_region	510	584	59.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	518	538	11.0	+	.	
+ch.8364	RNASeq_splice	intron	461	527	4.0	+	.	
+ch.8364	RNASeq_stranded	transcript_region	510	517	18.0	+	.	
+ch.8364	RNASeq_splice	intron	465	509	36.0	+	.	
+ch.8364	WormBase	intron	461	509	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_splice	intron	461	509	350050.0	+	.	
+ch.8364	RNASeq_splice	intron	458	509	260.0	+	.	
+ch.8364	RNASeq_splice	intron	452	509	7.0	+	.	
+ch.8364	RNASeq_stranded	transcript_region	399	460	25.0	+	.	
+ch.8364	WormBase	CDS	325	460	.	+	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
+ch.8364	WormBase	exon	325	460	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_reads	transcript_region	325	460	64.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	389	421	1.0	-	.	
+ch.8364	RNASeq_stranded	transcript_region	346	398	16.0	+	.	
+ch.8364	RNASeq_stranded	transcript_region	325	345	10.0	+	.	
+ch.8364	RNASeq_reads	transcript_region	324	324	12.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	324	324	2.0	-	.	
+ch.8364	WormBase	intron	282	324	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_splice	intron	282	324	269634.0	+	.	
+ch.8364	RNASeq_splice	intron	273	324	296.0	+	.	
+ch.8364	RNASeq_stranded	transcript_region	197	281	6.0	+	.	
+ch.8364	RNASeq_reads	transcript_region	116	281	49.0	.	.	
+ch.8364	WormBase	CDS	105	281	.	+	.	ID=CDS:C48B4.7;Parent=Transcript:C48B4.7.1
+ch.8364	WormBase	exon	101	281	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_stranded	transcript_region	156	196	11.0	+	.	
+ch.8364	RNASeq_R_asymmetry	transcript_region	109	168	196868.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	135	155	17.0	+	.	
+ch.8364	RNASeq_stranded	transcript_region	124	134	11.0	+	.	
+ch.8364	RNASeq_stranded	transcript_region	105	123	7.0	+	.	
+ch.8364	RNASeq_reads	transcript_region	109	115	32.0	.	.	
+ch.8364	RNASeq_R_asymmetry	transcript_region	103	108	101280.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	103	108	20.0	.	.	
+ch.8364	WormBase	five_prime_UTR	101	104	.	+	.	Parent=Transcript:C48B4.7.1
+ch.8364	RNASeq_stranded	transcript_region	101	104	4.0	+	.	
+ch.8364	RNASeq_R_asymmetry	transcript_region	101	102	61893.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	101	102	12.0	.	.	
+ch.8364	RNASeq_splice	intron	10	102	10.0	+	.	
+ch.8364	RNASeq_R_asymmetry	transcript_region	97	100	25234.0	.	.	
+ch.8364	RNASeq_reads	transcript_region	97	100	5.0	.	.	
+ch.8364	RNASeq_stranded	transcript_region	97	100	1.0	+	.	

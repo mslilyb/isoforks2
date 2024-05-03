@@ -1,86 +1,86 @@
-ch.14350	RNASeq_stranded	transcript_region	19	33	1.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	21	46	1.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	34	45	2.0	-	.	
-ch.14350	RNASeq_stranded	transcript_region	46	52	4.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	47	82	2.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	53	86	7.0	-	.	
-ch.14350	RNASeq	transcription_end_site	76	76	.	+	.	
-ch.14350	RNASeq	transcription_end_site	76	76	.	+	.	
-ch.14350	RNASeq	transcription_end_site	81	81	.	+	.	
-ch.14350	RNASeq	transcription_end_site	81	81	.	+	.	
-ch.14350	RNASeq_reads	transcript_region	83	95	4.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	87	117	11.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	96	122	7.0	.	.	
-ch.14350	WormBase	three_prime_UTR	101	233	.	-	.	Parent=Transcript:Y97E10AR.7.1
-ch.14350	WormBase	exon	101	424	.	-	.	Parent=Transcript:Y97E10AR.7.1
-ch.14350	WormBase	gene	101	716	.	-	.	ID=Gene:WBGene00022402
-ch.14350	WormBase	mRNA	101	716	.	-	.	ID=Transcript:Y97E10AR.7.1;Parent=Gene:WBGene00022402
-ch.14350	RNASeq	transcription_end_site	106	106	.	+	.	
-ch.14350	RNASeq	transcription_end_site	106	106	.	+	.	
-ch.14350	RNASeq	transcription_end_site	111	111	.	+	.	
-ch.14350	RNASeq	transcription_end_site	111	111	.	+	.	
-ch.14350	RNASeq	transcription_end_site	117	117	.	+	.	
-ch.14350	RNASeq_stranded	transcript_region	118	130	17.0	-	.	
-ch.14350	RNASeq	transcription_end_site	122	122	.	+	.	
-ch.14350	RNASeq_reads	transcript_region	123	133	11.0	.	.	
-ch.14350	RNASeq	transcription_end_site	124	124	.	+	.	
-ch.14350	RNASeq	transcription_end_site	128	128	.	+	.	
-ch.14350	RNASeq	transcription_end_site	128	128	.	+	.	
-ch.14350	RNASeq	transcription_end_site	130	130	.	+	.	
-ch.14350	RNASeq	transcription_end_site	130	130	.	+	.	
-ch.14350	RNASeq	transcription_end_site	131	131	.	+	.	
-ch.14350	RNASeq_stranded	transcript_region	131	143	26.0	-	.	
-ch.14350	RNASeq_stranded	transcript_region	132	135	1.0	+	.	
-ch.14350	RNASeq_reads	transcript_region	134	135	19.0	.	.	
-ch.14350	RNASeq_F_asymmetry	transcript_region	135	137	92774.0	.	.	
-ch.14350	RNASeq_reads	transcript_region	136	144	31.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	136	215	2.0	+	.	
-ch.14350	RNASeq	transcription_end_site	137	137	.	+	.	
-ch.14350	RNASeq	transcription_end_site	137	137	.	+	.	
-ch.14350	RNASeq_F_asymmetry	transcript_region	138	144	150260.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	144	144	40.0	+	.	
-ch.14350	RNASeq_reads	transcript_region	145	204	56.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	145	207	106.0	-	.	
-ch.14350	RNASeq	transcription_end_site	188	188	.	+	.	
-ch.14350	RNASeq	transcription_end_site	188	188	.	+	.	
-ch.14350	RNASeq_F_asymmetry	transcript_region	205	214	345731.0	.	.	
-ch.14350	RNASeq_reads	transcript_region	205	295	87.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	208	323	69.0	-	.	
-ch.14350	RNASeq_stranded	transcript_region	216	224	1.0	+	.	
-ch.14350	WormBase	CDS	234	424	.	-	.	ID=CDS:Y97E10AR.7;Parent=Transcript:Y97E10AR.7.1
-ch.14350	RNASeq_splice	intron	280	618	3.0	+	.	
-ch.14350	RNASeq_reads	transcript_region	296	424	131.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	324	345	44.0	-	.	
-ch.14350	RNASeq_stranded	transcript_region	346	424	29.0	-	.	
-ch.14350	RNASeq_splice	intron	390	532	16.0	-	.	
-ch.14350	RNASeq_splice	intron	410	532	13.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	425	426	27.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	425	426	10.0	-	.	
-ch.14350	WormBase	intron	425	532	.	-	.	Parent=Transcript:Y97E10AR.7.1
-ch.14350	RNASeq_splice	intron	425	532	489775.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	427	436	16.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	427	436	6.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	437	438	2.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	437	438	1.0	-	.	
-ch.14350	RNASeq_splice	intron	437	532	74221.0	-	.	
-ch.14350	RNASeq_splice	intron	462	532	4.0	-	.	
-ch.14350	RNASeq_splice	intron	478	532	18.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	531	532	1.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	533	577	33.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	533	709	114.0	.	.	
-ch.14350	WormBase	CDS	533	716	.	-	.	ID=CDS:Y97E10AR.7;Parent=Transcript:Y97E10AR.7.1
-ch.14350	WormBase	exon	533	716	.	-	.	Parent=Transcript:Y97E10AR.7.1
-ch.14350	RNASeq_stranded	transcript_region	578	633	21.0	-	.	
-ch.14350	RNASeq_stranded	transcript_region	634	711	32.0	-	.	
-ch.14350	RNASeq_R_asymmetry	transcript_region	652	711	557842.0	.	.	
-ch.14350	RNASeq_reads	transcript_region	710	713	75.0	.	.	
-ch.14350	RNASeq_R_asymmetry	transcript_region	712	714	338883.0	.	.	
-ch.14350	RNASeq_stranded	transcript_region	712	718	21.0	-	.	
-ch.14350	RNASeq_reads	transcript_region	714	718	45.0	.	.	
-ch.14350	RNASeq_R_asymmetry	transcript_region	715	718	195882.0	.	.	
-ch.14350	RNASeq_R_asymmetry	transcript_region	719	725	13215.0	.	.	
-ch.14350	RNASeq_reads	transcript_region	719	725	3.0	.	.	
-ch.14350	RNASeq_R_asymmetry	transcript_region	726	726	5103.0	.	.	
-ch.14350	RNASeq_reads	transcript_region	726	748	1.0	.	.	
-ch.14350	RNASeq_R_asymmetry	transcript_region	727	766	2766.0	.	.	
-ch.14350	RNASeq_R_asymmetry	transcript_region	767	774	1798.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	784	798	1.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	771	796	1.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	772	783	2.0	+	.	
+ch.14350	RNASeq_stranded	transcript_region	765	771	4.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	735	770	2.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	731	764	7.0	+	.	
+ch.14350	RNASeq	transcription_end_site	741	741	.	-	.	
+ch.14350	RNASeq	transcription_end_site	741	741	.	-	.	
+ch.14350	RNASeq	transcription_end_site	736	736	.	-	.	
+ch.14350	RNASeq	transcription_end_site	736	736	.	-	.	
+ch.14350	RNASeq_reads	transcript_region	722	734	4.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	700	730	11.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	695	721	7.0	.	.	
+ch.14350	WormBase	three_prime_UTR	584	716	.	+	.	Parent=Transcript:Y97E10AR.7.1
+ch.14350	WormBase	exon	393	716	.	+	.	Parent=Transcript:Y97E10AR.7.1
+ch.14350	WormBase	gene	101	716	.	+	.	ID=Gene:WBGene00022402
+ch.14350	WormBase	mRNA	101	716	.	+	.	ID=Transcript:Y97E10AR.7.1;Parent=Gene:WBGene00022402
+ch.14350	RNASeq	transcription_end_site	711	711	.	-	.	
+ch.14350	RNASeq	transcription_end_site	711	711	.	-	.	
+ch.14350	RNASeq	transcription_end_site	706	706	.	-	.	
+ch.14350	RNASeq	transcription_end_site	706	706	.	-	.	
+ch.14350	RNASeq	transcription_end_site	700	700	.	-	.	
+ch.14350	RNASeq_stranded	transcript_region	687	699	17.0	+	.	
+ch.14350	RNASeq	transcription_end_site	695	695	.	-	.	
+ch.14350	RNASeq_reads	transcript_region	684	694	11.0	.	.	
+ch.14350	RNASeq	transcription_end_site	693	693	.	-	.	
+ch.14350	RNASeq	transcription_end_site	689	689	.	-	.	
+ch.14350	RNASeq	transcription_end_site	689	689	.	-	.	
+ch.14350	RNASeq	transcription_end_site	687	687	.	-	.	
+ch.14350	RNASeq	transcription_end_site	687	687	.	-	.	
+ch.14350	RNASeq	transcription_end_site	686	686	.	-	.	
+ch.14350	RNASeq_stranded	transcript_region	674	686	26.0	+	.	
+ch.14350	RNASeq_stranded	transcript_region	682	685	1.0	-	.	
+ch.14350	RNASeq_reads	transcript_region	682	683	19.0	.	.	
+ch.14350	RNASeq_F_asymmetry	transcript_region	680	682	92774.0	.	.	
+ch.14350	RNASeq_reads	transcript_region	673	681	31.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	602	681	2.0	-	.	
+ch.14350	RNASeq	transcription_end_site	680	680	.	-	.	
+ch.14350	RNASeq	transcription_end_site	680	680	.	-	.	
+ch.14350	RNASeq_F_asymmetry	transcript_region	673	679	150260.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	673	673	40.0	-	.	
+ch.14350	RNASeq_reads	transcript_region	613	672	56.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	610	672	106.0	+	.	
+ch.14350	RNASeq	transcription_end_site	629	629	.	-	.	
+ch.14350	RNASeq	transcription_end_site	629	629	.	-	.	
+ch.14350	RNASeq_F_asymmetry	transcript_region	603	612	345731.0	.	.	
+ch.14350	RNASeq_reads	transcript_region	522	612	87.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	494	609	69.0	+	.	
+ch.14350	RNASeq_stranded	transcript_region	593	601	1.0	-	.	
+ch.14350	WormBase	CDS	393	583	.	+	.	ID=CDS:Y97E10AR.7;Parent=Transcript:Y97E10AR.7.1
+ch.14350	RNASeq_splice	intron	199	537	3.0	-	.	
+ch.14350	RNASeq_reads	transcript_region	393	521	131.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	472	493	44.0	+	.	
+ch.14350	RNASeq_stranded	transcript_region	393	471	29.0	+	.	
+ch.14350	RNASeq_splice	intron	285	427	16.0	+	.	
+ch.14350	RNASeq_splice	intron	285	407	13.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	391	392	27.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	391	392	10.0	+	.	
+ch.14350	WormBase	intron	285	392	.	+	.	Parent=Transcript:Y97E10AR.7.1
+ch.14350	RNASeq_splice	intron	285	392	489775.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	381	390	16.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	381	390	6.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	379	380	2.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	379	380	1.0	+	.	
+ch.14350	RNASeq_splice	intron	285	380	74221.0	+	.	
+ch.14350	RNASeq_splice	intron	285	355	4.0	+	.	
+ch.14350	RNASeq_splice	intron	285	339	18.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	285	286	1.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	240	284	33.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	108	284	114.0	.	.	
+ch.14350	WormBase	CDS	101	284	.	+	.	ID=CDS:Y97E10AR.7;Parent=Transcript:Y97E10AR.7.1
+ch.14350	WormBase	exon	101	284	.	+	.	Parent=Transcript:Y97E10AR.7.1
+ch.14350	RNASeq_stranded	transcript_region	184	239	21.0	+	.	
+ch.14350	RNASeq_stranded	transcript_region	106	183	32.0	+	.	
+ch.14350	RNASeq_R_asymmetry	transcript_region	106	165	557842.0	.	.	
+ch.14350	RNASeq_reads	transcript_region	104	107	75.0	.	.	
+ch.14350	RNASeq_R_asymmetry	transcript_region	103	105	338883.0	.	.	
+ch.14350	RNASeq_stranded	transcript_region	99	105	21.0	+	.	
+ch.14350	RNASeq_reads	transcript_region	99	103	45.0	.	.	
+ch.14350	RNASeq_R_asymmetry	transcript_region	99	102	195882.0	.	.	
+ch.14350	RNASeq_R_asymmetry	transcript_region	92	98	13215.0	.	.	
+ch.14350	RNASeq_reads	transcript_region	92	98	3.0	.	.	
+ch.14350	RNASeq_R_asymmetry	transcript_region	91	91	5103.0	.	.	
+ch.14350	RNASeq_reads	transcript_region	69	91	1.0	.	.	
+ch.14350	RNASeq_R_asymmetry	transcript_region	51	90	2766.0	.	.	
+ch.14350	RNASeq_R_asymmetry	transcript_region	43	50	1798.0	.	.	

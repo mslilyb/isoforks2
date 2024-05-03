@@ -1,76 +1,76 @@
-ch.15300	RNASeq	transcription_end_site	4	4	.	+	.	
-ch.15300	RNASeq	transcription_end_site	4	4	.	+	.	
-ch.15300	RNASeq	transcription_end_site	5	5	.	+	.	
-ch.15300	RNASeq	transcription_end_site	7	7	.	+	.	
-ch.15300	RNASeq_stranded	transcript_region	7	42	1.0	-	.	
-ch.15300	RNASeq	transcription_end_site	12	12	.	+	.	
-ch.15300	RNASeq	transcription_end_site	25	25	.	+	.	
-ch.15300	RNASeq_stranded	transcript_region	43	70	2.0	-	.	
-ch.15300	RNASeq	transcription_end_site	47	47	.	+	.	
-ch.15300	RNASeq_reads	transcript_region	69	87	38.0	.	.	
-ch.15300	RNASeq_stranded	transcript_region	71	72	1.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	71	84	77.0	+	.	
-ch.15300	RNASeq_stranded	transcript_region	73	77	2.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	78	99	1.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	85	95	44.0	+	.	
-ch.15300	RNASeq_reads	transcript_region	88	112	25.0	.	.	
-ch.15300	RNASeq_R_asymmetry	transcript_region	94	99	87685.0	.	.	
-ch.15300	RNASeq_stranded	transcript_region	96	103	29.0	+	.	
-ch.15300	RNASeq_stranded	transcript_region	100	102	3.0	-	.	
-ch.15300	WormBase	three_prime_UTR	101	224	.	-	.	Parent=Transcript:T27F2.4.1
-ch.15300	WormBase	exon	101	533	.	-	.	Parent=Transcript:T27F2.4.1
-ch.15300	WormBase	gene	101	784	.	-	.	ID=Gene:WBGene00012101
-ch.15300	WormBase	mRNA	101	784	.	-	.	ID=Transcript:T27F2.4.1;Parent=Gene:WBGene00012101
-ch.15300	RNASeq_stranded	transcript_region	103	110	5.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	104	109	19.0	+	.	
-ch.15300	RNASeq_stranded	transcript_region	110	114	12.0	+	.	
-ch.15300	RNASeq_stranded	transcript_region	111	118	8.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	113	144	16.0	.	.	
-ch.15300	RNASeq_stranded	transcript_region	115	126	2.0	+	.	
-ch.15300	RNASeq_stranded	transcript_region	119	132	15.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	127	147	1.0	+	.	
-ch.15300	RNASeq_stranded	transcript_region	133	164	24.0	-	.	
-ch.15300	RNASeq	transcription_end_site	143	143	.	+	.	
-ch.15300	RNASeq_reads	transcript_region	145	185	25.0	.	.	
-ch.15300	RNASeq_stranded	transcript_region	165	232	37.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	186	220	38.0	.	.	
-ch.15300	RNASeq_reads	transcript_region	221	533	59.0	.	.	
-ch.15300	WormBase	CDS	225	533	.	-	.	ID=CDS:T27F2.4;Parent=Transcript:T27F2.4.1
-ch.15300	RNASeq_stranded	transcript_region	233	246	23.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	247	285	15.0	-	.	
-ch.15300	RNASeq_splice	intron	262	308	10.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	286	393	9.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	394	497	5.0	-	.	
-ch.15300	RNASeq_splice	intron	452	499	4.0	-	.	
-ch.15300	RNASeq_splice	intron	461	499	66.0	-	.	
-ch.15300	RNASeq_splice	intron	461	514	5.0	-	.	
-ch.15300	RNASeq_splice	intron	461	584	15.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	498	531	8.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	532	533	5.0	-	.	
-ch.15300	RNASeq_splice	intron	532	584	33.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	534	534	7.0	.	.	
-ch.15300	RNASeq_stranded	transcript_region	534	534	1.0	+	.	
-ch.15300	RNASeq	transcription_end_site	534	534	.	+	.	
-ch.15300	RNASeq_splice	intron	534	580	5.0	-	.	
-ch.15300	WormBase	intron	534	584	.	-	.	Parent=Transcript:T27F2.4.1
-ch.15300	RNASeq_splice	intron	534	584	303944.0	-	.	
-ch.15300	RNASeq	transcription_end_site	535	535	.	+	.	
-ch.15300	RNASeq_reads	transcript_region	535	584	2.0	.	.	
-ch.15300	RNASeq_stranded	transcript_region	585	645	4.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	585	719	63.0	.	.	
-ch.15300	WormBase	CDS	585	773	.	-	.	ID=CDS:T27F2.4;Parent=Transcript:T27F2.4.1
-ch.15300	WormBase	exon	585	784	.	-	.	Parent=Transcript:T27F2.4.1
-ch.15300	RNASeq_stranded	transcript_region	646	668	2.0	-	.	
-ch.15300	RNASeq_stranded	transcript_region	669	767	4.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	720	754	40.0	.	.	
-ch.15300	RNASeq_splice	intron	737	849	7.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	755	769	26.0	.	.	
-ch.15300	RNASeq_stranded	transcript_region	768	779	2.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	770	780	17.0	.	.	
-ch.15300	WormBase	five_prime_UTR	774	784	.	-	.	Parent=Transcript:T27F2.4.1
-ch.15300	RNASeq_stranded	transcript_region	780	795	1.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	781	793	11.0	.	.	
-ch.15300	RNASeq_reads	transcript_region	794	796	7.0	.	.	
-ch.15300	RNASeq_splice	intron	795	849	9.0	-	.	
-ch.15300	RNASeq_reads	transcript_region	797	824	1.0	.	.	
-ch.15300	RNASeq_R_asymmetry	transcript_region	836	839	1182.0	.	.	
+ch.15300	RNASeq	transcription_end_site	881	881	.	-	.	
+ch.15300	RNASeq	transcription_end_site	881	881	.	-	.	
+ch.15300	RNASeq	transcription_end_site	880	880	.	-	.	
+ch.15300	RNASeq	transcription_end_site	878	878	.	-	.	
+ch.15300	RNASeq_stranded	transcript_region	843	878	1.0	+	.	
+ch.15300	RNASeq	transcription_end_site	873	873	.	-	.	
+ch.15300	RNASeq	transcription_end_site	860	860	.	-	.	
+ch.15300	RNASeq_stranded	transcript_region	815	842	2.0	+	.	
+ch.15300	RNASeq	transcription_end_site	838	838	.	-	.	
+ch.15300	RNASeq_reads	transcript_region	798	816	38.0	.	.	
+ch.15300	RNASeq_stranded	transcript_region	813	814	1.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	801	814	77.0	-	.	
+ch.15300	RNASeq_stranded	transcript_region	808	812	2.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	786	807	1.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	790	800	44.0	-	.	
+ch.15300	RNASeq_reads	transcript_region	773	797	25.0	.	.	
+ch.15300	RNASeq_R_asymmetry	transcript_region	786	791	87685.0	.	.	
+ch.15300	RNASeq_stranded	transcript_region	782	789	29.0	-	.	
+ch.15300	RNASeq_stranded	transcript_region	783	785	3.0	+	.	
+ch.15300	WormBase	three_prime_UTR	661	784	.	+	.	Parent=Transcript:T27F2.4.1
+ch.15300	WormBase	exon	352	784	.	+	.	Parent=Transcript:T27F2.4.1
+ch.15300	WormBase	gene	101	784	.	+	.	ID=Gene:WBGene00012101
+ch.15300	WormBase	mRNA	101	784	.	+	.	ID=Transcript:T27F2.4.1;Parent=Gene:WBGene00012101
+ch.15300	RNASeq_stranded	transcript_region	775	782	5.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	776	781	19.0	-	.	
+ch.15300	RNASeq_stranded	transcript_region	771	775	12.0	-	.	
+ch.15300	RNASeq_stranded	transcript_region	767	774	8.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	741	772	16.0	.	.	
+ch.15300	RNASeq_stranded	transcript_region	759	770	2.0	-	.	
+ch.15300	RNASeq_stranded	transcript_region	753	766	15.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	738	758	1.0	-	.	
+ch.15300	RNASeq_stranded	transcript_region	721	752	24.0	+	.	
+ch.15300	RNASeq	transcription_end_site	742	742	.	-	.	
+ch.15300	RNASeq_reads	transcript_region	700	740	25.0	.	.	
+ch.15300	RNASeq_stranded	transcript_region	653	720	37.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	665	699	38.0	.	.	
+ch.15300	RNASeq_reads	transcript_region	352	664	59.0	.	.	
+ch.15300	WormBase	CDS	352	660	.	+	.	ID=CDS:T27F2.4;Parent=Transcript:T27F2.4.1
+ch.15300	RNASeq_stranded	transcript_region	639	652	23.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	600	638	15.0	+	.	
+ch.15300	RNASeq_splice	intron	577	623	10.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	492	599	9.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	388	491	5.0	+	.	
+ch.15300	RNASeq_splice	intron	386	433	4.0	+	.	
+ch.15300	RNASeq_splice	intron	386	424	66.0	+	.	
+ch.15300	RNASeq_splice	intron	371	424	5.0	+	.	
+ch.15300	RNASeq_splice	intron	301	424	15.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	354	387	8.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	352	353	5.0	+	.	
+ch.15300	RNASeq_splice	intron	301	353	33.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	351	351	7.0	.	.	
+ch.15300	RNASeq_stranded	transcript_region	351	351	1.0	-	.	
+ch.15300	RNASeq	transcription_end_site	351	351	.	-	.	
+ch.15300	RNASeq_splice	intron	305	351	5.0	+	.	
+ch.15300	WormBase	intron	301	351	.	+	.	Parent=Transcript:T27F2.4.1
+ch.15300	RNASeq_splice	intron	301	351	303944.0	+	.	
+ch.15300	RNASeq	transcription_end_site	350	350	.	-	.	
+ch.15300	RNASeq_reads	transcript_region	301	350	2.0	.	.	
+ch.15300	RNASeq_stranded	transcript_region	240	300	4.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	166	300	63.0	.	.	
+ch.15300	WormBase	CDS	112	300	.	+	.	ID=CDS:T27F2.4;Parent=Transcript:T27F2.4.1
+ch.15300	WormBase	exon	101	300	.	+	.	Parent=Transcript:T27F2.4.1
+ch.15300	RNASeq_stranded	transcript_region	217	239	2.0	+	.	
+ch.15300	RNASeq_stranded	transcript_region	118	216	4.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	131	165	40.0	.	.	
+ch.15300	RNASeq_splice	intron	36	148	7.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	116	130	26.0	.	.	
+ch.15300	RNASeq_stranded	transcript_region	106	117	2.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	105	115	17.0	.	.	
+ch.15300	WormBase	five_prime_UTR	101	111	.	+	.	Parent=Transcript:T27F2.4.1
+ch.15300	RNASeq_stranded	transcript_region	90	105	1.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	92	104	11.0	.	.	
+ch.15300	RNASeq_reads	transcript_region	89	91	7.0	.	.	
+ch.15300	RNASeq_splice	intron	36	90	9.0	+	.	
+ch.15300	RNASeq_reads	transcript_region	61	88	1.0	.	.	
+ch.15300	RNASeq_R_asymmetry	transcript_region	46	49	1182.0	.	.	

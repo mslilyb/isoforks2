@@ -1,47 +1,47 @@
-ch.14927	RNASeq_reads	transcript_region	14	98	1.0	.	.	
-ch.14927	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.14927	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.14927	RNASeq_reads	transcript_region	99	107	2.0	.	.	
-ch.14927	WormBase	three_prime_UTR	101	156	.	-	.	Parent=Transcript:C12D8.6.1
-ch.14927	WormBase	exon	101	364	.	-	.	Parent=Transcript:C12D8.6.1
-ch.14927	WormBase	gene	101	472	.	-	.	ID=Gene:WBGene00007537
-ch.14927	WormBase	mRNA	101	472	.	-	.	ID=Transcript:C12D8.6.1;Parent=Gene:WBGene00007537
-ch.14927	RNASeq_stranded	transcript_region	102	116	1.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	108	114	4.0	.	.	
-ch.14927	RNASeq_reads	transcript_region	115	120	7.0	.	.	
-ch.14927	RNASeq_stranded	transcript_region	117	125	2.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	121	128	11.0	.	.	
-ch.14927	RNASeq_stranded	transcript_region	126	180	4.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	129	137	19.0	.	.	
-ch.14927	RNASeq_reads	transcript_region	138	188	30.0	.	.	
-ch.14927	WormBase	CDS	157	364	.	-	.	ID=CDS:C12D8.6;Parent=Transcript:C12D8.6.1
-ch.14927	RNASeq_splice	intron	167	215	3.0	+	.	
-ch.14927	RNASeq_stranded	transcript_region	181	187	2.0	-	.	
-ch.14927	RNASeq_stranded	transcript_region	188	207	1.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	189	350	46.0	.	.	
-ch.14927	RNASeq_stranded	transcript_region	208	217	2.0	-	.	
-ch.14927	RNASeq_stranded	transcript_region	208	252	1.0	+	.	
-ch.14927	RNASeq_stranded	transcript_region	218	220	4.0	-	.	
-ch.14927	RNASeq_stranded	transcript_region	221	260	7.0	-	.	
-ch.14927	RNASeq_stranded	transcript_region	261	269	4.0	-	.	
-ch.14927	RNASeq_stranded	transcript_region	270	285	1.0	-	.	
-ch.14927	RNASeq	transcription_end_site	306	306	.	+	.	
-ch.14927	RNASeq	transcription_end_site	306	306	.	+	.	
-ch.14927	RNASeq	transcription_end_site	319	319	.	+	.	
-ch.14927	RNASeq_stranded	transcript_region	344	364	1.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	351	364	30.0	.	.	
-ch.14927	WormBase	intron	365	411	.	-	.	Parent=Transcript:C12D8.6.1
-ch.14927	RNASeq_splice	intron	365	411	111841.0	-	.	
-ch.14927	WormBase	CDS	412	425	.	-	.	ID=CDS:C12D8.6;Parent=Transcript:C12D8.6.1
-ch.14927	RNASeq_stranded	transcript_region	412	426	3.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	412	443	31.0	.	.	
-ch.14927	WormBase	exon	412	472	.	-	.	Parent=Transcript:C12D8.6.1
-ch.14927	WormBase	five_prime_UTR	426	472	.	-	.	Parent=Transcript:C12D8.6.1
-ch.14927	RNASeq_stranded	transcript_region	427	443	5.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	444	449	20.0	.	.	
-ch.14927	RNASeq_stranded	transcript_region	444	460	3.0	-	.	
-ch.14927	RNASeq_reads	transcript_region	450	460	13.0	.	.	
-ch.14927	RNASeq_stranded	transcript_region	461	461	1.0	+	.	
-ch.14927	RNASeq_reads	transcript_region	461	462	4.0	.	.	
-ch.14927	RNASeq_reads	transcript_region	463	463	2.0	.	.	
-ch.14927	RNASeq_reads	transcript_region	464	482	1.0	.	.	
+ch.14927	RNASeq_reads	transcript_region	475	559	1.0	.	.	
+ch.14927	RNASeq	transcription_end_site	474	474	.	-	.	
+ch.14927	RNASeq	transcription_end_site	474	474	.	-	.	
+ch.14927	RNASeq_reads	transcript_region	466	474	2.0	.	.	
+ch.14927	WormBase	three_prime_UTR	417	472	.	+	.	Parent=Transcript:C12D8.6.1
+ch.14927	WormBase	exon	209	472	.	+	.	Parent=Transcript:C12D8.6.1
+ch.14927	WormBase	gene	101	472	.	+	.	ID=Gene:WBGene00007537
+ch.14927	WormBase	mRNA	101	472	.	+	.	ID=Transcript:C12D8.6.1;Parent=Gene:WBGene00007537
+ch.14927	RNASeq_stranded	transcript_region	457	471	1.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	459	465	4.0	.	.	
+ch.14927	RNASeq_reads	transcript_region	453	458	7.0	.	.	
+ch.14927	RNASeq_stranded	transcript_region	448	456	2.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	445	452	11.0	.	.	
+ch.14927	RNASeq_stranded	transcript_region	393	447	4.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	436	444	19.0	.	.	
+ch.14927	RNASeq_reads	transcript_region	385	435	30.0	.	.	
+ch.14927	WormBase	CDS	209	416	.	+	.	ID=CDS:C12D8.6;Parent=Transcript:C12D8.6.1
+ch.14927	RNASeq_splice	intron	358	406	3.0	-	.	
+ch.14927	RNASeq_stranded	transcript_region	386	392	2.0	+	.	
+ch.14927	RNASeq_stranded	transcript_region	366	385	1.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	223	384	46.0	.	.	
+ch.14927	RNASeq_stranded	transcript_region	356	365	2.0	+	.	
+ch.14927	RNASeq_stranded	transcript_region	321	365	1.0	-	.	
+ch.14927	RNASeq_stranded	transcript_region	353	355	4.0	+	.	
+ch.14927	RNASeq_stranded	transcript_region	313	352	7.0	+	.	
+ch.14927	RNASeq_stranded	transcript_region	304	312	4.0	+	.	
+ch.14927	RNASeq_stranded	transcript_region	288	303	1.0	+	.	
+ch.14927	RNASeq	transcription_end_site	267	267	.	-	.	
+ch.14927	RNASeq	transcription_end_site	267	267	.	-	.	
+ch.14927	RNASeq	transcription_end_site	254	254	.	-	.	
+ch.14927	RNASeq_stranded	transcript_region	209	229	1.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	209	222	30.0	.	.	
+ch.14927	WormBase	intron	162	208	.	+	.	Parent=Transcript:C12D8.6.1
+ch.14927	RNASeq_splice	intron	162	208	111841.0	+	.	
+ch.14927	WormBase	CDS	148	161	.	+	.	ID=CDS:C12D8.6;Parent=Transcript:C12D8.6.1
+ch.14927	RNASeq_stranded	transcript_region	147	161	3.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	130	161	31.0	.	.	
+ch.14927	WormBase	exon	101	161	.	+	.	Parent=Transcript:C12D8.6.1
+ch.14927	WormBase	five_prime_UTR	101	147	.	+	.	Parent=Transcript:C12D8.6.1
+ch.14927	RNASeq_stranded	transcript_region	130	146	5.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	124	129	20.0	.	.	
+ch.14927	RNASeq_stranded	transcript_region	113	129	3.0	+	.	
+ch.14927	RNASeq_reads	transcript_region	113	123	13.0	.	.	
+ch.14927	RNASeq_stranded	transcript_region	112	112	1.0	-	.	
+ch.14927	RNASeq_reads	transcript_region	111	112	4.0	.	.	
+ch.14927	RNASeq_reads	transcript_region	110	110	2.0	.	.	
+ch.14927	RNASeq_reads	transcript_region	91	109	1.0	.	.	

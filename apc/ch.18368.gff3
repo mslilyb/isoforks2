@@ -1,71 +1,71 @@
-ch.18368	RNASeq	transcription_end_site	76	76	.	+	.	
-ch.18368	RNASeq	transcription_end_site	76	76	.	+	.	
-ch.18368	RNASeq	transcription_end_site	95	95	.	+	.	
-ch.18368	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.18368	RNASeq	transcription_end_site	96	96	.	+	.	
-ch.18368	RNASeq	transcription_end_site	97	97	.	+	.	
-ch.18368	RNASeq	transcription_end_site	97	97	.	+	.	
-ch.18368	RNASeq	transcription_end_site	98	98	.	+	.	
-ch.18368	RNASeq	transcription_end_site	98	98	.	+	.	
-ch.18368	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.18368	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.18368	RNASeq_stranded	transcript_region	99	101	9.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	99	102	4.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	101	132	1.0	+	.	
-ch.18368	WormBase	three_prime_UTR	101	188	.	-	.	Parent=Transcript:T23F2.3.1
-ch.18368	WormBase	exon	101	308	.	-	.	Parent=Transcript:T23F2.3.1
-ch.18368	WormBase	gene	101	431	.	-	.	ID=Gene:WBGene00020736
-ch.18368	WormBase	mRNA	101	431	.	-	.	ID=Transcript:T23F2.3.1;Parent=Gene:WBGene00020736
-ch.18368	RNASeq_stranded	transcript_region	102	106	15.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	103	107	10.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	107	116	24.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	108	120	16.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	117	130	37.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	121	133	25.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	131	162	57.0	-	.	
-ch.18368	RNASeq_stranded	transcript_region	133	151	2.0	+	.	
-ch.18368	RNASeq_reads	transcript_region	134	147	38.0	.	.	
-ch.18368	RNASeq_F_asymmetry	transcript_region	136	157	173220.0	.	.	
-ch.18368	RNASeq_reads	transcript_region	148	181	58.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	152	174	1.0	+	.	
-ch.18368	RNASeq_F_asymmetry	transcript_region	158	182	308919.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	163	230	86.0	-	.	
-ch.18368	RNASeq_stranded	transcript_region	175	177	2.0	+	.	
-ch.18368	RNASeq_stranded	transcript_region	178	245	1.0	+	.	
-ch.18368	RNASeq_reads	transcript_region	182	300	88.0	.	.	
-ch.18368	WormBase	CDS	189	308	.	-	.	ID=CDS:T23F2.3;Parent=Transcript:T23F2.3.1
-ch.18368	RNASeq_F_asymmetry	transcript_region	197	198	407216.0	.	.	
-ch.18368	RNASeq_F_asymmetry	transcript_region	200	202	419037.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	231	267	56.0	-	.	
-ch.18368	RNASeq_stranded	transcript_region	262	305	1.0	+	.	
-ch.18368	RNASeq_stranded	transcript_region	268	300	36.0	-	.	
-ch.18368	RNASeq_splice	intron	288	354	40.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	301	308	143.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	301	308	248.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	309	313	2.0	.	.	
-ch.18368	RNASeq_splice	intron	309	350	528.0	-	.	
-ch.18368	WormBase	intron	309	354	.	-	.	Parent=Transcript:T23F2.3.1
-ch.18368	RNASeq_splice	intron	309	354	560239.0	-	.	
-ch.18368	RNASeq_splice	intron	309	366	18.0	-	.	
-ch.18368	RNASeq_stranded	transcript_region	355	395	51.0	-	.	
-ch.18368	WormBase	CDS	355	408	.	-	.	ID=CDS:T23F2.3;Parent=Transcript:T23F2.3.1
-ch.18368	RNASeq_reads	transcript_region	355	418	103.0	.	.	
-ch.18368	WormBase	exon	355	431	.	-	.	Parent=Transcript:T23F2.3.1
-ch.18368	RNASeq_R_asymmetry	transcript_region	367	420	429503.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	396	421	33.0	-	.	
-ch.18368	WormBase	five_prime_UTR	409	431	.	-	.	Parent=Transcript:T23F2.3.1
-ch.18368	RNASeq_reads	transcript_region	419	426	67.0	.	.	
-ch.18368	RNASeq_R_asymmetry	transcript_region	421	430	268566.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	422	431	21.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	427	432	43.0	.	.	
-ch.18368	RNASeq_R_asymmetry	transcript_region	431	432	175101.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	432	432	13.0	+	.	
-ch.18368	RNASeq_R_asymmetry	transcript_region	433	433	110764.0	.	.	
-ch.18368	RNASeq_reads	transcript_region	433	433	23.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	433	433	8.0	+	.	
-ch.18368	RNASeq_reads	transcript_region	434	435	8.0	.	.	
-ch.18368	RNASeq_R_asymmetry	transcript_region	434	439	34951.0	.	.	
-ch.18368	RNASeq_stranded	transcript_region	434	440	2.0	-	.	
-ch.18368	RNASeq_reads	transcript_region	436	440	5.0	.	.	
-ch.18368	RNASeq_R_asymmetry	transcript_region	440	440	19585.0	.	.	
-ch.18368	RNASeq_R_asymmetry	transcript_region	441	442	5691.0	.	.	
+ch.18368	RNASeq	transcription_end_site	456	456	.	-	.	
+ch.18368	RNASeq	transcription_end_site	456	456	.	-	.	
+ch.18368	RNASeq	transcription_end_site	437	437	.	-	.	
+ch.18368	RNASeq	transcription_end_site	436	436	.	-	.	
+ch.18368	RNASeq	transcription_end_site	436	436	.	-	.	
+ch.18368	RNASeq	transcription_end_site	435	435	.	-	.	
+ch.18368	RNASeq	transcription_end_site	435	435	.	-	.	
+ch.18368	RNASeq	transcription_end_site	434	434	.	-	.	
+ch.18368	RNASeq	transcription_end_site	434	434	.	-	.	
+ch.18368	RNASeq	transcription_end_site	433	433	.	-	.	
+ch.18368	RNASeq	transcription_end_site	433	433	.	-	.	
+ch.18368	RNASeq_stranded	transcript_region	431	433	9.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	430	433	4.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	400	431	1.0	-	.	
+ch.18368	WormBase	three_prime_UTR	344	431	.	+	.	Parent=Transcript:T23F2.3.1
+ch.18368	WormBase	exon	224	431	.	+	.	Parent=Transcript:T23F2.3.1
+ch.18368	WormBase	gene	101	431	.	+	.	ID=Gene:WBGene00020736
+ch.18368	WormBase	mRNA	101	431	.	+	.	ID=Transcript:T23F2.3.1;Parent=Gene:WBGene00020736
+ch.18368	RNASeq_stranded	transcript_region	426	430	15.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	425	429	10.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	416	425	24.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	412	424	16.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	402	415	37.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	399	411	25.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	370	401	57.0	+	.	
+ch.18368	RNASeq_stranded	transcript_region	381	399	2.0	-	.	
+ch.18368	RNASeq_reads	transcript_region	385	398	38.0	.	.	
+ch.18368	RNASeq_F_asymmetry	transcript_region	375	396	173220.0	.	.	
+ch.18368	RNASeq_reads	transcript_region	351	384	58.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	358	380	1.0	-	.	
+ch.18368	RNASeq_F_asymmetry	transcript_region	350	374	308919.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	302	369	86.0	+	.	
+ch.18368	RNASeq_stranded	transcript_region	355	357	2.0	-	.	
+ch.18368	RNASeq_stranded	transcript_region	287	354	1.0	-	.	
+ch.18368	RNASeq_reads	transcript_region	232	350	88.0	.	.	
+ch.18368	WormBase	CDS	224	343	.	+	.	ID=CDS:T23F2.3;Parent=Transcript:T23F2.3.1
+ch.18368	RNASeq_F_asymmetry	transcript_region	334	335	407216.0	.	.	
+ch.18368	RNASeq_F_asymmetry	transcript_region	330	332	419037.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	265	301	56.0	+	.	
+ch.18368	RNASeq_stranded	transcript_region	227	270	1.0	-	.	
+ch.18368	RNASeq_stranded	transcript_region	232	264	36.0	+	.	
+ch.18368	RNASeq_splice	intron	178	244	40.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	224	231	143.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	224	231	248.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	219	223	2.0	.	.	
+ch.18368	RNASeq_splice	intron	182	223	528.0	+	.	
+ch.18368	WormBase	intron	178	223	.	+	.	Parent=Transcript:T23F2.3.1
+ch.18368	RNASeq_splice	intron	178	223	560239.0	+	.	
+ch.18368	RNASeq_splice	intron	166	223	18.0	+	.	
+ch.18368	RNASeq_stranded	transcript_region	137	177	51.0	+	.	
+ch.18368	WormBase	CDS	124	177	.	+	.	ID=CDS:T23F2.3;Parent=Transcript:T23F2.3.1
+ch.18368	RNASeq_reads	transcript_region	114	177	103.0	.	.	
+ch.18368	WormBase	exon	101	177	.	+	.	Parent=Transcript:T23F2.3.1
+ch.18368	RNASeq_R_asymmetry	transcript_region	112	165	429503.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	111	136	33.0	+	.	
+ch.18368	WormBase	five_prime_UTR	101	123	.	+	.	Parent=Transcript:T23F2.3.1
+ch.18368	RNASeq_reads	transcript_region	106	113	67.0	.	.	
+ch.18368	RNASeq_R_asymmetry	transcript_region	102	111	268566.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	101	110	21.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	100	105	43.0	.	.	
+ch.18368	RNASeq_R_asymmetry	transcript_region	100	101	175101.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	100	100	13.0	-	.	
+ch.18368	RNASeq_R_asymmetry	transcript_region	99	99	110764.0	.	.	
+ch.18368	RNASeq_reads	transcript_region	99	99	23.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	99	99	8.0	-	.	
+ch.18368	RNASeq_reads	transcript_region	97	98	8.0	.	.	
+ch.18368	RNASeq_R_asymmetry	transcript_region	93	98	34951.0	.	.	
+ch.18368	RNASeq_stranded	transcript_region	92	98	2.0	+	.	
+ch.18368	RNASeq_reads	transcript_region	92	96	5.0	.	.	
+ch.18368	RNASeq_R_asymmetry	transcript_region	92	92	19585.0	.	.	
+ch.18368	RNASeq_R_asymmetry	transcript_region	90	91	5691.0	.	.	

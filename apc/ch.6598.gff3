@@ -1,135 +1,135 @@
-ch.6598	WormBase	five_prime_UTR	12	46	.	-	.	Parent=Transcript:F23H11.9a.1
-ch.6598	RNASeq_stranded	transcript_region	32	48	8.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	36	46	56.0	.	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	39	48	250236.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	47	48	36.0	.	.	
-ch.6598	RNASeq_splice	intron	47	94	12.0	-	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	49	51	13307.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	49	125	3.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	65	112	1.0	-	.	
-ch.6598	WormBase	three_prime_UTR	101	261	.	-	.	Parent=Transcript:F23H11.5.1
-ch.6598	WormBase	exon	101	342	.	-	.	Parent=Transcript:F23H11.5.1
-ch.6598	WormBase	gene	101	734	.	-	.	ID=Gene:WBGene00000263
-ch.6598	WormBase	mRNA	101	734	.	-	.	ID=Transcript:F23H11.5.1;Parent=Gene:WBGene00000263
-ch.6598	RNASeq_stranded	transcript_region	113	125	2.0	-	.	
-ch.6598	RNASeq	transcription_end_site	119	119	.	+	.	
-ch.6598	RNASeq	transcription_end_site	119	119	.	+	.	
-ch.6598	RNASeq	transcription_end_site	121	121	.	+	.	
-ch.6598	RNASeq	transcription_end_site	121	121	.	+	.	
-ch.6598	RNASeq	transcription_end_site	126	126	.	+	.	
-ch.6598	RNASeq	transcription_end_site	126	126	.	+	.	
-ch.6598	RNASeq_reads	transcript_region	126	131	5.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	126	132	4.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	132	134	8.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	133	134	7.0	-	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	134	134	42773.0	.	.	
-ch.6598	RNASeq	transcription_end_site	135	135	.	+	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	135	136	90355.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	135	136	21.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	135	137	12.0	-	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	137	137	139389.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	137	137	32.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	137	138	1.0	+	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	138	138	226024.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	138	138	52.0	.	.	
-ch.6598	RNASeq	transcription_end_site	138	138	.	+	.	
-ch.6598	RNASeq	transcription_end_site	138	138	.	+	.	
-ch.6598	RNASeq_stranded	transcript_region	138	139	31.0	-	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	139	148	362918.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	139	148	81.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	139	195	2.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	140	147	47.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	148	157	80.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	149	165	128.0	.	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	149	169	560053.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	158	166	124.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	166	183	199.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	167	176	197.0	-	.	
-ch.6598	RNASeq_splice	intron	167	249	3.0	+	.	
-ch.6598	RNASeq_splice	intron	167	310	8.0	+	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	176	179	1076910.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	177	241	305.0	-	.	
-ch.6598	RNASeq_splice	intron	182	249	3.0	+	.	
-ch.6598	RNASeq_reads	transcript_region	184	198	302.0	.	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	185	198	1302080.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	196	202	4.0	+	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	199	229	2034120.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	199	279	487.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	203	245	7.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	242	287	460.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	246	282	15.0	+	.	
-ch.6598	WormBase	CDS	262	342	.	-	.	ID=CDS:F23H11.5;Parent=Transcript:F23H11.5.1
-ch.6598	RNASeq_reads	transcript_region	280	342	732.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	283	284	23.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	285	294	35.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	288	326	299.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	295	335	56.0	+	.	
-ch.6598	RNASeq_splice	intron	300	540	5.0	-	.	
-ch.6598	RNASeq_splice	intron	325	508	3.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	327	342	191.0	-	.	
-ch.6598	RNASeq_splice	intron	330	492	4.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	336	342	32.0	+	.	
-ch.6598	RNASeq_F_asymmetry	transcript_region	343	343	484168.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	343	343	106.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	343	343	19.0	+	.	
-ch.6598	RNASeq_splice	intron	343	382	12.0	-	.	
-ch.6598	RNASeq_splice	intron	343	467	1271.0	-	.	
-ch.6598	WormBase	intron	343	471	.	-	.	Parent=Transcript:F23H11.5.1
-ch.6598	RNASeq_splice	intron	343	471	5278400.0	-	.	
-ch.6598	RNASeq_splice	intron	343	475	365.0	-	.	
-ch.6598	RNASeq_splice	intron	343	496	256.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	344	469	1.0	.	.	
-ch.6598	RNASeq_splice	intron	345	538	3.0	+	.	
-ch.6598	RNASeq_splice	intron	352	479	14.0	+	.	
-ch.6598	RNASeq_splice	intron	383	471	4.0	-	.	
-ch.6598	RNASeq_splice	intron	423	471	3.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	467	471	1.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	470	471	2.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	472	476	135.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	472	513	5.0	+	.	
-ch.6598	WormBase	CDS	472	606	.	-	.	ID=CDS:F23H11.5;Parent=Transcript:F23H11.5.1
-ch.6598	WormBase	exon	472	606	.	-	.	Parent=Transcript:F23H11.5.1
-ch.6598	RNASeq_reads	transcript_region	472	606	930.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	477	499	220.0	-	.	
-ch.6598	RNASeq_splice	intron	498	540	31.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	500	571	409.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	514	570	3.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	571	606	1.0	+	.	
-ch.6598	RNASeq_stranded	transcript_region	572	592	266.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	593	603	170.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	604	606	112.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	607	610	56.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	607	610	3.0	-	.	
-ch.6598	WormBase	intron	607	650	.	-	.	Parent=Transcript:F23H11.5.1
-ch.6598	RNASeq_splice	intron	607	650	4647270.0	-	.	
-ch.6598	RNASeq_splice	intron	607	670	9.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	611	648	5.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	611	648	1.0	-	.	
-ch.6598	RNASeq_splice	intron	620	650	20.0	-	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	649	650	177993.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	649	650	39.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	649	650	7.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	651	658	84.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	651	669	1.0	+	.	
-ch.6598	RNASeq_reads	transcript_region	651	714	818.0	.	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	651	716	3372700.0	.	.	
-ch.6598	WormBase	CDS	651	725	.	-	.	ID=CDS:F23H11.5;Parent=Transcript:F23H11.5.1
-ch.6598	WormBase	exon	651	734	.	-	.	Parent=Transcript:F23H11.5.1
-ch.6598	RNASeq_stranded	transcript_region	659	715	127.0	-	.	
-ch.6598	RNASeq_reads	transcript_region	715	723	517.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	716	724	82.0	-	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	717	724	2164590.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	724	726	286.0	.	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	725	727	1337620.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	725	727	53.0	-	.	
-ch.6598	WormBase	five_prime_UTR	726	734	.	-	.	Parent=Transcript:F23H11.5.1
-ch.6598	RNASeq_reads	transcript_region	727	728	182.0	.	.	
-ch.6598	RNASeq_splice	intron	727	804	1317.0	-	.	
-ch.6598	RNASeq_stranded	transcript_region	728	728	31.0	+	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	728	731	736718.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	729	732	102.0	.	.	
-ch.6598	RNASeq_stranded	transcript_region	729	732	6.0	-	.	
-ch.6598	RNASeq_R_asymmetry	transcript_region	732	732	463565.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	733	733	2.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	734	804	1.0	.	.	
-ch.6598	RNASeq_reads	transcript_region	805	824	2.0	.	.	
+ch.6598	WormBase	five_prime_UTR	789	823	.	+	.	Parent=Transcript:F23H11.9a.1
+ch.6598	RNASeq_stranded	transcript_region	787	803	8.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	789	799	56.0	.	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	787	796	250236.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	787	788	36.0	.	.	
+ch.6598	RNASeq_splice	intron	741	788	12.0	+	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	784	786	13307.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	710	786	3.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	723	770	1.0	+	.	
+ch.6598	WormBase	three_prime_UTR	574	734	.	+	.	Parent=Transcript:F23H11.5.1
+ch.6598	WormBase	exon	493	734	.	+	.	Parent=Transcript:F23H11.5.1
+ch.6598	WormBase	gene	101	734	.	+	.	ID=Gene:WBGene00000263
+ch.6598	WormBase	mRNA	101	734	.	+	.	ID=Transcript:F23H11.5.1;Parent=Gene:WBGene00000263
+ch.6598	RNASeq_stranded	transcript_region	710	722	2.0	+	.	
+ch.6598	RNASeq	transcription_end_site	716	716	.	-	.	
+ch.6598	RNASeq	transcription_end_site	716	716	.	-	.	
+ch.6598	RNASeq	transcription_end_site	714	714	.	-	.	
+ch.6598	RNASeq	transcription_end_site	714	714	.	-	.	
+ch.6598	RNASeq	transcription_end_site	709	709	.	-	.	
+ch.6598	RNASeq	transcription_end_site	709	709	.	-	.	
+ch.6598	RNASeq_reads	transcript_region	704	709	5.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	703	709	4.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	701	703	8.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	701	702	7.0	+	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	701	701	42773.0	.	.	
+ch.6598	RNASeq	transcription_end_site	700	700	.	-	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	699	700	90355.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	699	700	21.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	698	700	12.0	+	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	698	698	139389.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	698	698	32.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	697	698	1.0	-	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	697	697	226024.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	697	697	52.0	.	.	
+ch.6598	RNASeq	transcription_end_site	697	697	.	-	.	
+ch.6598	RNASeq	transcription_end_site	697	697	.	-	.	
+ch.6598	RNASeq_stranded	transcript_region	696	697	31.0	+	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	687	696	362918.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	687	696	81.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	640	696	2.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	688	695	47.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	678	687	80.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	670	686	128.0	.	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	666	686	560053.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	669	677	124.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	652	669	199.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	659	668	197.0	+	.	
+ch.6598	RNASeq_splice	intron	586	668	3.0	-	.	
+ch.6598	RNASeq_splice	intron	525	668	8.0	-	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	656	659	1076910.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	594	658	305.0	+	.	
+ch.6598	RNASeq_splice	intron	586	653	3.0	-	.	
+ch.6598	RNASeq_reads	transcript_region	637	651	302.0	.	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	637	650	1302080.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	633	639	4.0	-	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	606	636	2034120.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	556	636	487.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	590	632	7.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	548	593	460.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	553	589	15.0	-	.	
+ch.6598	WormBase	CDS	493	573	.	+	.	ID=CDS:F23H11.5;Parent=Transcript:F23H11.5.1
+ch.6598	RNASeq_reads	transcript_region	493	555	732.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	551	552	23.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	541	550	35.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	509	547	299.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	500	540	56.0	-	.	
+ch.6598	RNASeq_splice	intron	295	535	5.0	+	.	
+ch.6598	RNASeq_splice	intron	327	510	3.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	493	508	191.0	+	.	
+ch.6598	RNASeq_splice	intron	343	505	4.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	493	499	32.0	-	.	
+ch.6598	RNASeq_F_asymmetry	transcript_region	492	492	484168.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	492	492	106.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	492	492	19.0	-	.	
+ch.6598	RNASeq_splice	intron	453	492	12.0	+	.	
+ch.6598	RNASeq_splice	intron	368	492	1271.0	+	.	
+ch.6598	WormBase	intron	364	492	.	+	.	Parent=Transcript:F23H11.5.1
+ch.6598	RNASeq_splice	intron	364	492	5278400.0	+	.	
+ch.6598	RNASeq_splice	intron	360	492	365.0	+	.	
+ch.6598	RNASeq_splice	intron	339	492	256.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	366	491	1.0	.	.	
+ch.6598	RNASeq_splice	intron	297	490	3.0	-	.	
+ch.6598	RNASeq_splice	intron	356	483	14.0	-	.	
+ch.6598	RNASeq_splice	intron	364	452	4.0	+	.	
+ch.6598	RNASeq_splice	intron	364	412	3.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	364	368	1.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	364	365	2.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	359	363	135.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	322	363	5.0	-	.	
+ch.6598	WormBase	CDS	229	363	.	+	.	ID=CDS:F23H11.5;Parent=Transcript:F23H11.5.1
+ch.6598	WormBase	exon	229	363	.	+	.	Parent=Transcript:F23H11.5.1
+ch.6598	RNASeq_reads	transcript_region	229	363	930.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	336	358	220.0	+	.	
+ch.6598	RNASeq_splice	intron	295	337	31.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	264	335	409.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	265	321	3.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	229	264	1.0	-	.	
+ch.6598	RNASeq_stranded	transcript_region	243	263	266.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	232	242	170.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	229	231	112.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	225	228	56.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	225	228	3.0	+	.	
+ch.6598	WormBase	intron	185	228	.	+	.	Parent=Transcript:F23H11.5.1
+ch.6598	RNASeq_splice	intron	185	228	4647270.0	+	.	
+ch.6598	RNASeq_splice	intron	165	228	9.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	187	224	5.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	187	224	1.0	+	.	
+ch.6598	RNASeq_splice	intron	185	215	20.0	+	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	185	186	177993.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	185	186	39.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	185	186	7.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	177	184	84.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	166	184	1.0	-	.	
+ch.6598	RNASeq_reads	transcript_region	121	184	818.0	.	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	119	184	3372700.0	.	.	
+ch.6598	WormBase	CDS	110	184	.	+	.	ID=CDS:F23H11.5;Parent=Transcript:F23H11.5.1
+ch.6598	WormBase	exon	101	184	.	+	.	Parent=Transcript:F23H11.5.1
+ch.6598	RNASeq_stranded	transcript_region	120	176	127.0	+	.	
+ch.6598	RNASeq_reads	transcript_region	112	120	517.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	111	119	82.0	+	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	111	118	2164590.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	109	111	286.0	.	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	108	110	1337620.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	108	110	53.0	+	.	
+ch.6598	WormBase	five_prime_UTR	101	109	.	+	.	Parent=Transcript:F23H11.5.1
+ch.6598	RNASeq_reads	transcript_region	107	108	182.0	.	.	
+ch.6598	RNASeq_splice	intron	31	108	1317.0	+	.	
+ch.6598	RNASeq_stranded	transcript_region	107	107	31.0	-	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	104	107	736718.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	103	106	102.0	.	.	
+ch.6598	RNASeq_stranded	transcript_region	103	106	6.0	+	.	
+ch.6598	RNASeq_R_asymmetry	transcript_region	103	103	463565.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	102	102	2.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	31	101	1.0	.	.	
+ch.6598	RNASeq_reads	transcript_region	11	30	2.0	.	.	

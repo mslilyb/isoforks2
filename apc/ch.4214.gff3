@@ -1,86 +1,86 @@
-ch.4214	RNASeq_R_asymmetry	transcript_region	1	13	16503.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	1	16	3.0	.	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	14	20	8441.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	17	32	1.0	.	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	21	25	5373.0	.	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	26	31	3398.0	.	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	32	37	2134.0	.	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	99	100	3067.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	99	100	1.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	101	101	1.0	+	.	
-ch.4214	RNASeq	transcription_end_site	101	101	.	+	.	
-ch.4214	RNASeq	transcription_end_site	101	101	.	+	.	
-ch.4214	RNASeq_reads	transcript_region	101	108	2.0	.	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	101	111	10574.0	.	.	
-ch.4214	WormBase	three_prime_UTR	101	173	.	-	.	Parent=Transcript:F33G12.7.1
-ch.4214	WormBase	exon	101	271	.	-	.	Parent=Transcript:F33G12.7.1
-ch.4214	WormBase	gene	101	574	.	-	.	ID=Gene:WBGene00044666
-ch.4214	WormBase	mRNA	101	574	.	-	.	ID=Transcript:F33G12.7.1;Parent=Gene:WBGene00044666
-ch.4214	RNASeq	transcription_end_site	102	102	.	+	.	
-ch.4214	RNASeq	transcription_end_site	102	102	.	+	.	
-ch.4214	RNASeq_stranded	transcript_region	102	109	2.0	-	.	
-ch.4214	RNASeq	transcription_end_site	104	104	.	+	.	
-ch.4214	RNASeq	transcription_end_site	104	104	.	+	.	
-ch.4214	RNASeq	transcription_end_site	107	107	.	+	.	
-ch.4214	RNASeq_reads	transcript_region	109	116	4.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	110	120	4.0	-	.	
-ch.4214	RNASeq	transcription_end_site	111	111	.	+	.	
-ch.4214	RNASeq	transcription_end_site	111	111	.	+	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	113	119	21105.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	117	123	7.0	.	.	
-ch.4214	RNASeq	transcription_end_site	120	120	.	+	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	120	129	33514.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	121	135	7.0	-	.	
-ch.4214	RNASeq_reads	transcript_region	124	143	11.0	.	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	130	151	50332.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	136	149	12.0	-	.	
-ch.4214	RNASeq_reads	transcript_region	144	167	17.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	150	163	19.0	-	.	
-ch.4214	RNASeq_stranded	transcript_region	164	248	29.0	-	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	168	174	106801.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	168	188	27.0	.	.	
-ch.4214	WormBase	CDS	174	271	.	-	.	ID=CDS:F33G12.7;Parent=Transcript:F33G12.7.1
-ch.4214	RNASeq_F_asymmetry	transcript_region	183	212	133159.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	189	271	42.0	.	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	213	218	200296.0	.	.	
-ch.4214	RNASeq_F_asymmetry	transcript_region	221	225	194014.0	.	.	
-ch.4214	RNASeq_splice	intron	248	455	10.0	-	.	
-ch.4214	RNASeq_stranded	transcript_region	249	263	19.0	-	.	
-ch.4214	RNASeq_stranded	transcript_region	264	271	12.0	-	.	
-ch.4214	RNASeq_splice	intron	269	317	9.0	-	.	
-ch.4214	RNASeq_splice	intron	269	321	190.0	-	.	
-ch.4214	RNASeq_reads	transcript_region	272	282	1.0	.	.	
-ch.4214	RNASeq_splice	intron	272	317	2756.0	-	.	
-ch.4214	WormBase	intron	272	321	.	-	.	Parent=Transcript:F33G12.7.1
-ch.4214	RNASeq_splice	intron	272	321	299659.0	-	.	
-ch.4214	RNASeq_splice	intron	272	329	67.0	-	.	
-ch.4214	RNASeq_splice	intron	272	455	80.0	-	.	
-ch.4214	RNASeq_reads	transcript_region	318	321	1.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	322	405	7.0	-	.	
-ch.4214	WormBase	CDS	322	409	.	-	.	ID=CDS:F33G12.7;Parent=Transcript:F33G12.7.1
-ch.4214	WormBase	exon	322	409	.	-	.	Parent=Transcript:F33G12.7.1
-ch.4214	RNASeq_reads	transcript_region	322	409	53.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	406	409	4.0	-	.	
-ch.4214	RNASeq_splice	intron	407	453	6.0	+	.	
-ch.4214	RNASeq_reads	transcript_region	410	411	4.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	410	411	1.0	-	.	
-ch.4214	WormBase	intron	410	455	.	-	.	Parent=Transcript:F33G12.7.1
-ch.4214	RNASeq_splice	intron	410	455	210285.0	-	.	
-ch.4214	RNASeq_splice	intron	420	455	9.0	-	.	
-ch.4214	RNASeq_stranded	transcript_region	456	472	4.0	-	.	
-ch.4214	RNASeq_reads	transcript_region	456	562	40.0	.	.	
-ch.4214	WormBase	CDS	456	572	.	-	.	ID=CDS:F33G12.7;Parent=Transcript:F33G12.7.1
-ch.4214	WormBase	exon	456	574	.	-	.	Parent=Transcript:F33G12.7.1
-ch.4214	RNASeq_stranded	transcript_region	473	479	7.0	-	.	
-ch.4214	RNASeq_stranded	transcript_region	480	571	11.0	-	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	483	562	196506.0	.	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	563	570	118839.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	563	570	24.0	.	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	571	573	74216.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	571	573	15.0	.	.	
-ch.4214	RNASeq_stranded	transcript_region	572	574	7.0	-	.	
-ch.4214	WormBase	five_prime_UTR	573	574	.	-	.	Parent=Transcript:F33G12.7.1
-ch.4214	RNASeq_R_asymmetry	transcript_region	574	574	46814.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	574	574	9.0	.	.	
-ch.4214	RNASeq_R_asymmetry	transcript_region	575	579	26014.0	.	.	
-ch.4214	RNASeq_reads	transcript_region	575	579	5.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	662	674	16503.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	659	674	3.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	655	661	8441.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	643	658	1.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	650	654	5373.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	644	649	3398.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	638	643	2134.0	.	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	575	576	3067.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	575	576	1.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	574	574	1.0	-	.	
+ch.4214	RNASeq	transcription_end_site	574	574	.	-	.	
+ch.4214	RNASeq	transcription_end_site	574	574	.	-	.	
+ch.4214	RNASeq_reads	transcript_region	567	574	2.0	.	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	564	574	10574.0	.	.	
+ch.4214	WormBase	three_prime_UTR	502	574	.	+	.	Parent=Transcript:F33G12.7.1
+ch.4214	WormBase	exon	404	574	.	+	.	Parent=Transcript:F33G12.7.1
+ch.4214	WormBase	gene	101	574	.	+	.	ID=Gene:WBGene00044666
+ch.4214	WormBase	mRNA	101	574	.	+	.	ID=Transcript:F33G12.7.1;Parent=Gene:WBGene00044666
+ch.4214	RNASeq	transcription_end_site	573	573	.	-	.	
+ch.4214	RNASeq	transcription_end_site	573	573	.	-	.	
+ch.4214	RNASeq_stranded	transcript_region	566	573	2.0	+	.	
+ch.4214	RNASeq	transcription_end_site	571	571	.	-	.	
+ch.4214	RNASeq	transcription_end_site	571	571	.	-	.	
+ch.4214	RNASeq	transcription_end_site	568	568	.	-	.	
+ch.4214	RNASeq_reads	transcript_region	559	566	4.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	555	565	4.0	+	.	
+ch.4214	RNASeq	transcription_end_site	564	564	.	-	.	
+ch.4214	RNASeq	transcription_end_site	564	564	.	-	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	556	562	21105.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	552	558	7.0	.	.	
+ch.4214	RNASeq	transcription_end_site	555	555	.	-	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	546	555	33514.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	540	554	7.0	+	.	
+ch.4214	RNASeq_reads	transcript_region	532	551	11.0	.	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	524	545	50332.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	526	539	12.0	+	.	
+ch.4214	RNASeq_reads	transcript_region	508	531	17.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	512	525	19.0	+	.	
+ch.4214	RNASeq_stranded	transcript_region	427	511	29.0	+	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	501	507	106801.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	487	507	27.0	.	.	
+ch.4214	WormBase	CDS	404	501	.	+	.	ID=CDS:F33G12.7;Parent=Transcript:F33G12.7.1
+ch.4214	RNASeq_F_asymmetry	transcript_region	463	492	133159.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	404	486	42.0	.	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	457	462	200296.0	.	.	
+ch.4214	RNASeq_F_asymmetry	transcript_region	450	454	194014.0	.	.	
+ch.4214	RNASeq_splice	intron	220	427	10.0	+	.	
+ch.4214	RNASeq_stranded	transcript_region	412	426	19.0	+	.	
+ch.4214	RNASeq_stranded	transcript_region	404	411	12.0	+	.	
+ch.4214	RNASeq_splice	intron	358	406	9.0	+	.	
+ch.4214	RNASeq_splice	intron	354	406	190.0	+	.	
+ch.4214	RNASeq_reads	transcript_region	393	403	1.0	.	.	
+ch.4214	RNASeq_splice	intron	358	403	2756.0	+	.	
+ch.4214	WormBase	intron	354	403	.	+	.	Parent=Transcript:F33G12.7.1
+ch.4214	RNASeq_splice	intron	354	403	299659.0	+	.	
+ch.4214	RNASeq_splice	intron	346	403	67.0	+	.	
+ch.4214	RNASeq_splice	intron	220	403	80.0	+	.	
+ch.4214	RNASeq_reads	transcript_region	354	357	1.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	270	353	7.0	+	.	
+ch.4214	WormBase	CDS	266	353	.	+	.	ID=CDS:F33G12.7;Parent=Transcript:F33G12.7.1
+ch.4214	WormBase	exon	266	353	.	+	.	Parent=Transcript:F33G12.7.1
+ch.4214	RNASeq_reads	transcript_region	266	353	53.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	266	269	4.0	+	.	
+ch.4214	RNASeq_splice	intron	222	268	6.0	-	.	
+ch.4214	RNASeq_reads	transcript_region	264	265	4.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	264	265	1.0	+	.	
+ch.4214	WormBase	intron	220	265	.	+	.	Parent=Transcript:F33G12.7.1
+ch.4214	RNASeq_splice	intron	220	265	210285.0	+	.	
+ch.4214	RNASeq_splice	intron	220	255	9.0	+	.	
+ch.4214	RNASeq_stranded	transcript_region	203	219	4.0	+	.	
+ch.4214	RNASeq_reads	transcript_region	113	219	40.0	.	.	
+ch.4214	WormBase	CDS	103	219	.	+	.	ID=CDS:F33G12.7;Parent=Transcript:F33G12.7.1
+ch.4214	WormBase	exon	101	219	.	+	.	Parent=Transcript:F33G12.7.1
+ch.4214	RNASeq_stranded	transcript_region	196	202	7.0	+	.	
+ch.4214	RNASeq_stranded	transcript_region	104	195	11.0	+	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	113	192	196506.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	105	112	118839.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	105	112	24.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	102	104	74216.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	102	104	15.0	.	.	
+ch.4214	RNASeq_stranded	transcript_region	101	103	7.0	+	.	
+ch.4214	WormBase	five_prime_UTR	101	102	.	+	.	Parent=Transcript:F33G12.7.1
+ch.4214	RNASeq_R_asymmetry	transcript_region	101	101	46814.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	101	101	9.0	.	.	
+ch.4214	RNASeq_R_asymmetry	transcript_region	96	100	26014.0	.	.	
+ch.4214	RNASeq_reads	transcript_region	96	100	5.0	.	.	

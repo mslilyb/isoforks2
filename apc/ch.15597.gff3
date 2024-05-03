@@ -1,63 +1,63 @@
-ch.15597	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.15597	RNASeq	transcription_end_site	99	99	.	+	.	
-ch.15597	RNASeq	transcription_end_site	101	101	.	+	.	
-ch.15597	RNASeq_reads	transcript_region	101	105	1.0	.	.	
-ch.15597	RNASeq_stranded	transcript_region	101	106	1.0	-	.	
-ch.15597	WormBase	three_prime_UTR	101	155	.	-	.	Parent=Transcript:R90.2.1
-ch.15597	WormBase	exon	101	421	.	-	.	Parent=Transcript:R90.2.1
-ch.15597	WormBase	gene	101	649	.	-	.	ID=Gene:WBGene00011284
-ch.15597	WormBase	mRNA	101	649	.	-	.	ID=Transcript:R90.2.1;Parent=Gene:WBGene00011284
-ch.15597	RNASeq_reads	transcript_region	106	120	2.0	.	.	
-ch.15597	RNASeq_stranded	transcript_region	107	121	2.0	-	.	
-ch.15597	RNASeq_reads	transcript_region	121	122	4.0	.	.	
-ch.15597	RNASeq_stranded	transcript_region	122	139	4.0	-	.	
-ch.15597	RNASeq_reads	transcript_region	123	125	7.0	.	.	
-ch.15597	RNASeq_F_asymmetry	transcript_region	126	132	65888.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	126	132	15.0	.	.	
-ch.15597	RNASeq_F_asymmetry	transcript_region	133	146	109653.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	133	147	25.0	.	.	
-ch.15597	RNASeq_stranded	transcript_region	140	194	7.0	-	.	
-ch.15597	RNASeq_F_asymmetry	transcript_region	147	157	164544.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	148	183	39.0	.	.	
-ch.15597	WormBase	CDS	156	421	.	-	.	ID=CDS:R90.2;Parent=Transcript:R90.2.1
-ch.15597	RNASeq_F_asymmetry	transcript_region	158	179	247262.0	.	.	
-ch.15597	RNASeq_stranded	transcript_region	179	198	1.0	+	.	
-ch.15597	RNASeq_F_asymmetry	transcript_region	181	181	211319.0	.	.	
-ch.15597	RNASeq_F_asymmetry	transcript_region	183	189	212915.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	184	420	60.0	.	.	
-ch.15597	RNASeq_F_asymmetry	transcript_region	194	198	250016.0	.	.	
-ch.15597	RNASeq_stranded	transcript_region	195	233	11.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	234	240	7.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	241	289	11.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	290	291	7.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	292	337	4.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	338	390	7.0	-	.	
-ch.15597	RNASeq_splice	intron	389	468	135.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	391	418	4.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	419	421	2.0	-	.	
-ch.15597	RNASeq_reads	transcript_region	421	421	39.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	422	424	3.0	.	.	
-ch.15597	WormBase	intron	422	468	.	-	.	Parent=Transcript:R90.2.1
-ch.15597	RNASeq_splice	intron	422	468	182535.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	469	484	4.0	-	.	
-ch.15597	RNASeq_reads	transcript_region	469	609	38.0	.	.	
-ch.15597	WormBase	CDS	469	634	.	-	.	ID=CDS:R90.2;Parent=Transcript:R90.2.1
-ch.15597	WormBase	exon	469	649	.	-	.	Parent=Transcript:R90.2.1
-ch.15597	RNASeq_stranded	transcript_region	485	512	7.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	513	563	11.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	564	574	7.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	575	622	12.0	-	.	
-ch.15597	RNASeq_R_asymmetry	transcript_region	601	621	117838.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	610	621	25.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	622	644	16.0	.	.	
-ch.15597	RNASeq_R_asymmetry	transcript_region	622	649	71397.0	.	.	
-ch.15597	RNASeq_stranded	transcript_region	623	625	6.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	626	634	2.0	-	.	
-ch.15597	RNASeq_stranded	transcript_region	635	646	1.0	-	.	
-ch.15597	WormBase	five_prime_UTR	635	649	.	-	.	Parent=Transcript:R90.2.1
-ch.15597	RNASeq_reads	transcript_region	645	649	10.0	.	.	
-ch.15597	RNASeq_R_asymmetry	transcript_region	650	676	3414.0	.	.	
-ch.15597	RNASeq_reads	transcript_region	650	678	1.0	.	.	
-ch.15597	RNASeq_R_asymmetry	transcript_region	677	689	2233.0	.	.	
-ch.15597	RNASeq_R_asymmetry	transcript_region	690	701	1443.0	.	.	
-ch.15597	RNASeq_R_asymmetry	transcript_region	711	715	811.0	.	.	
+ch.15597	RNASeq	transcription_end_site	651	651	.	-	.	
+ch.15597	RNASeq	transcription_end_site	651	651	.	-	.	
+ch.15597	RNASeq	transcription_end_site	649	649	.	-	.	
+ch.15597	RNASeq_reads	transcript_region	645	649	1.0	.	.	
+ch.15597	RNASeq_stranded	transcript_region	644	649	1.0	+	.	
+ch.15597	WormBase	three_prime_UTR	595	649	.	+	.	Parent=Transcript:R90.2.1
+ch.15597	WormBase	exon	329	649	.	+	.	Parent=Transcript:R90.2.1
+ch.15597	WormBase	gene	101	649	.	+	.	ID=Gene:WBGene00011284
+ch.15597	WormBase	mRNA	101	649	.	+	.	ID=Transcript:R90.2.1;Parent=Gene:WBGene00011284
+ch.15597	RNASeq_reads	transcript_region	630	644	2.0	.	.	
+ch.15597	RNASeq_stranded	transcript_region	629	643	2.0	+	.	
+ch.15597	RNASeq_reads	transcript_region	628	629	4.0	.	.	
+ch.15597	RNASeq_stranded	transcript_region	611	628	4.0	+	.	
+ch.15597	RNASeq_reads	transcript_region	625	627	7.0	.	.	
+ch.15597	RNASeq_F_asymmetry	transcript_region	618	624	65888.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	618	624	15.0	.	.	
+ch.15597	RNASeq_F_asymmetry	transcript_region	604	617	109653.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	603	617	25.0	.	.	
+ch.15597	RNASeq_stranded	transcript_region	556	610	7.0	+	.	
+ch.15597	RNASeq_F_asymmetry	transcript_region	593	603	164544.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	567	602	39.0	.	.	
+ch.15597	WormBase	CDS	329	594	.	+	.	ID=CDS:R90.2;Parent=Transcript:R90.2.1
+ch.15597	RNASeq_F_asymmetry	transcript_region	571	592	247262.0	.	.	
+ch.15597	RNASeq_stranded	transcript_region	552	571	1.0	-	.	
+ch.15597	RNASeq_F_asymmetry	transcript_region	569	569	211319.0	.	.	
+ch.15597	RNASeq_F_asymmetry	transcript_region	561	567	212915.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	330	566	60.0	.	.	
+ch.15597	RNASeq_F_asymmetry	transcript_region	552	556	250016.0	.	.	
+ch.15597	RNASeq_stranded	transcript_region	517	555	11.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	510	516	7.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	461	509	11.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	459	460	7.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	413	458	4.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	360	412	7.0	+	.	
+ch.15597	RNASeq_splice	intron	282	361	135.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	332	359	4.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	329	331	2.0	+	.	
+ch.15597	RNASeq_reads	transcript_region	329	329	39.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	326	328	3.0	.	.	
+ch.15597	WormBase	intron	282	328	.	+	.	Parent=Transcript:R90.2.1
+ch.15597	RNASeq_splice	intron	282	328	182535.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	266	281	4.0	+	.	
+ch.15597	RNASeq_reads	transcript_region	141	281	38.0	.	.	
+ch.15597	WormBase	CDS	116	281	.	+	.	ID=CDS:R90.2;Parent=Transcript:R90.2.1
+ch.15597	WormBase	exon	101	281	.	+	.	Parent=Transcript:R90.2.1
+ch.15597	RNASeq_stranded	transcript_region	238	265	7.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	187	237	11.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	176	186	7.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	128	175	12.0	+	.	
+ch.15597	RNASeq_R_asymmetry	transcript_region	129	149	117838.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	129	140	25.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	106	128	16.0	.	.	
+ch.15597	RNASeq_R_asymmetry	transcript_region	101	128	71397.0	.	.	
+ch.15597	RNASeq_stranded	transcript_region	125	127	6.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	116	124	2.0	+	.	
+ch.15597	RNASeq_stranded	transcript_region	104	115	1.0	+	.	
+ch.15597	WormBase	five_prime_UTR	101	115	.	+	.	Parent=Transcript:R90.2.1
+ch.15597	RNASeq_reads	transcript_region	101	105	10.0	.	.	
+ch.15597	RNASeq_R_asymmetry	transcript_region	74	100	3414.0	.	.	
+ch.15597	RNASeq_reads	transcript_region	72	100	1.0	.	.	
+ch.15597	RNASeq_R_asymmetry	transcript_region	61	73	2233.0	.	.	
+ch.15597	RNASeq_R_asymmetry	transcript_region	49	60	1443.0	.	.	
+ch.15597	RNASeq_R_asymmetry	transcript_region	35	39	811.0	.	.	

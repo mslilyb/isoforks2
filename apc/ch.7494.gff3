@@ -1,80 +1,80 @@
-ch.7494	RNASeq_stranded	transcript_region	4	5	1.0	-	.	
-ch.7494	RNASeq_F_asymmetry	transcript_region	52	54	1139.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	63	81	1.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	79	83	1.0	.	.	
-ch.7494	RNASeq	transcription_end_site	81	81	.	+	.	
-ch.7494	RNASeq	transcription_end_site	81	81	.	+	.	
-ch.7494	RNASeq	transcription_end_site	82	82	.	+	.	
-ch.7494	RNASeq	transcription_end_site	82	82	.	+	.	
-ch.7494	RNASeq_stranded	transcript_region	82	83	2.0	-	.	
-ch.7494	RNASeq	transcription_end_site	83	83	.	+	.	
-ch.7494	RNASeq	transcription_end_site	83	83	.	+	.	
-ch.7494	RNASeq	transcription_end_site	84	84	.	+	.	
-ch.7494	RNASeq	transcription_end_site	84	84	.	+	.	
-ch.7494	RNASeq_reads	transcript_region	84	85	3.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	84	89	8.0	-	.	
-ch.7494	RNASeq_stranded	transcript_region	85	136	1.0	+	.	
-ch.7494	RNASeq_reads	transcript_region	86	88	7.0	.	.	
-ch.7494	RNASeq_F_asymmetry	transcript_region	89	95	47244.0	.	.	
-ch.7494	RNASeq_reads	transcript_region	89	95	11.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	90	102	13.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	96	107	17.0	.	.	
-ch.7494	RNASeq_F_asymmetry	transcript_region	96	108	75542.0	.	.	
-ch.7494	WormBase	three_prime_UTR	101	156	.	-	.	Parent=Transcript:B0336.8.1
-ch.7494	WormBase	exon	101	240	.	-	.	Parent=Transcript:B0336.8.1
-ch.7494	WormBase	gene	101	620	.	-	.	ID=Gene:WBGene00002982
-ch.7494	WormBase	mRNA	101	620	.	-	.	ID=Transcript:B0336.8.1;Parent=Gene:WBGene00002982
-ch.7494	RNASeq_stranded	transcript_region	103	124	21.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	108	138	26.0	.	.	
-ch.7494	RNASeq	transcription_end_site	109	109	.	+	.	
-ch.7494	RNASeq	transcription_end_site	109	109	.	+	.	
-ch.7494	RNASeq_F_asymmetry	transcript_region	109	133	113700.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	125	133	32.0	-	.	
-ch.7494	RNASeq_stranded	transcript_region	134	151	52.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	139	165	40.0	.	.	
-ch.7494	RNASeq_F_asymmetry	transcript_region	141	147	197197.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	143	161	1.0	+	.	
-ch.7494	RNASeq_stranded	transcript_region	152	239	85.0	-	.	
-ch.7494	WormBase	CDS	157	240	.	-	.	ID=CDS:B0336.8;Parent=Transcript:B0336.8.1
-ch.7494	RNASeq_reads	transcript_region	166	240	62.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	240	240	55.0	+	.	
-ch.7494	RNASeq_reads	transcript_region	241	242	10.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	241	242	13.0	-	.	
-ch.7494	RNASeq_splice	intron	241	289	40.0	-	.	
-ch.7494	WormBase	intron	241	293	.	-	.	Parent=Transcript:B0336.8.1
-ch.7494	RNASeq_splice	intron	241	293	381995.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	243	246	4.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	243	246	5.0	-	.	
-ch.7494	RNASeq_stranded	transcript_region	294	311	43.0	-	.	
-ch.7494	WormBase	CDS	294	386	.	-	.	ID=CDS:B0336.8;Parent=Transcript:B0336.8.1
-ch.7494	WormBase	exon	294	386	.	-	.	Parent=Transcript:B0336.8.1
-ch.7494	RNASeq_reads	transcript_region	294	386	74.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	312	362	26.0	-	.	
-ch.7494	RNASeq_stranded	transcript_region	363	386	17.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	387	387	10.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	387	387	2.0	+	.	
-ch.7494	WormBase	intron	387	437	.	-	.	Parent=Transcript:B0336.8.1
-ch.7494	RNASeq_splice	intron	387	437	422841.0	-	.	
-ch.7494	RNASeq_splice	intron	387	533	4.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	388	388	1.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	438	520	13.0	-	.	
-ch.7494	RNASeq_reads	transcript_region	438	605	73.0	.	.	
-ch.7494	WormBase	CDS	438	617	.	-	.	ID=CDS:B0336.8;Parent=Transcript:B0336.8.1
-ch.7494	WormBase	exon	438	620	.	-	.	Parent=Transcript:B0336.8.1
-ch.7494	RNASeq_stranded	transcript_region	521	616	20.0	-	.	
-ch.7494	RNASeq_R_asymmetry	transcript_region	539	610	320593.0	.	.	
-ch.7494	RNASeq_reads	transcript_region	606	616	48.0	.	.	
-ch.7494	RNASeq_R_asymmetry	transcript_region	611	617	202307.0	.	.	
-ch.7494	RNASeq_reads	transcript_region	617	621	27.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	617	621	13.0	-	.	
-ch.7494	WormBase	five_prime_UTR	618	620	.	-	.	Parent=Transcript:B0336.8.1
-ch.7494	RNASeq_R_asymmetry	transcript_region	618	621	132389.0	.	.	
-ch.7494	RNASeq_R_asymmetry	transcript_region	622	622	86749.0	.	.	
-ch.7494	RNASeq_reads	transcript_region	622	622	17.0	.	.	
-ch.7494	RNASeq_stranded	transcript_region	622	622	6.0	+	.	
-ch.7494	RNASeq_stranded	transcript_region	623	623	1.0	+	.	
-ch.7494	RNASeq_reads	transcript_region	623	627	2.0	.	.	
-ch.7494	RNASeq_R_asymmetry	transcript_region	623	631	8326.0	.	.	
-ch.7494	RNASeq_reads	transcript_region	628	661	1.0	.	.	
-ch.7494	RNASeq_R_asymmetry	transcript_region	632	638	5441.0	.	.	
-ch.7494	RNASeq_R_asymmetry	transcript_region	639	641	3298.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	716	717	1.0	+	.	
+ch.7494	RNASeq_F_asymmetry	transcript_region	667	669	1139.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	640	658	1.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	638	642	1.0	.	.	
+ch.7494	RNASeq	transcription_end_site	640	640	.	-	.	
+ch.7494	RNASeq	transcription_end_site	640	640	.	-	.	
+ch.7494	RNASeq	transcription_end_site	639	639	.	-	.	
+ch.7494	RNASeq	transcription_end_site	639	639	.	-	.	
+ch.7494	RNASeq_stranded	transcript_region	638	639	2.0	+	.	
+ch.7494	RNASeq	transcription_end_site	638	638	.	-	.	
+ch.7494	RNASeq	transcription_end_site	638	638	.	-	.	
+ch.7494	RNASeq	transcription_end_site	637	637	.	-	.	
+ch.7494	RNASeq	transcription_end_site	637	637	.	-	.	
+ch.7494	RNASeq_reads	transcript_region	636	637	3.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	632	637	8.0	+	.	
+ch.7494	RNASeq_stranded	transcript_region	585	636	1.0	-	.	
+ch.7494	RNASeq_reads	transcript_region	633	635	7.0	.	.	
+ch.7494	RNASeq_F_asymmetry	transcript_region	626	632	47244.0	.	.	
+ch.7494	RNASeq_reads	transcript_region	626	632	11.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	619	631	13.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	614	625	17.0	.	.	
+ch.7494	RNASeq_F_asymmetry	transcript_region	613	625	75542.0	.	.	
+ch.7494	WormBase	three_prime_UTR	565	620	.	+	.	Parent=Transcript:B0336.8.1
+ch.7494	WormBase	exon	481	620	.	+	.	Parent=Transcript:B0336.8.1
+ch.7494	WormBase	gene	101	620	.	+	.	ID=Gene:WBGene00002982
+ch.7494	WormBase	mRNA	101	620	.	+	.	ID=Transcript:B0336.8.1;Parent=Gene:WBGene00002982
+ch.7494	RNASeq_stranded	transcript_region	597	618	21.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	583	613	26.0	.	.	
+ch.7494	RNASeq	transcription_end_site	612	612	.	-	.	
+ch.7494	RNASeq	transcription_end_site	612	612	.	-	.	
+ch.7494	RNASeq_F_asymmetry	transcript_region	588	612	113700.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	588	596	32.0	+	.	
+ch.7494	RNASeq_stranded	transcript_region	570	587	52.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	556	582	40.0	.	.	
+ch.7494	RNASeq_F_asymmetry	transcript_region	574	580	197197.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	560	578	1.0	-	.	
+ch.7494	RNASeq_stranded	transcript_region	482	569	85.0	+	.	
+ch.7494	WormBase	CDS	481	564	.	+	.	ID=CDS:B0336.8;Parent=Transcript:B0336.8.1
+ch.7494	RNASeq_reads	transcript_region	481	555	62.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	481	481	55.0	-	.	
+ch.7494	RNASeq_reads	transcript_region	479	480	10.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	479	480	13.0	+	.	
+ch.7494	RNASeq_splice	intron	432	480	40.0	+	.	
+ch.7494	WormBase	intron	428	480	.	+	.	Parent=Transcript:B0336.8.1
+ch.7494	RNASeq_splice	intron	428	480	381995.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	475	478	4.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	475	478	5.0	+	.	
+ch.7494	RNASeq_stranded	transcript_region	410	427	43.0	+	.	
+ch.7494	WormBase	CDS	335	427	.	+	.	ID=CDS:B0336.8;Parent=Transcript:B0336.8.1
+ch.7494	WormBase	exon	335	427	.	+	.	Parent=Transcript:B0336.8.1
+ch.7494	RNASeq_reads	transcript_region	335	427	74.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	359	409	26.0	+	.	
+ch.7494	RNASeq_stranded	transcript_region	335	358	17.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	334	334	10.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	334	334	2.0	-	.	
+ch.7494	WormBase	intron	284	334	.	+	.	Parent=Transcript:B0336.8.1
+ch.7494	RNASeq_splice	intron	284	334	422841.0	+	.	
+ch.7494	RNASeq_splice	intron	188	334	4.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	333	333	1.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	201	283	13.0	+	.	
+ch.7494	RNASeq_reads	transcript_region	116	283	73.0	.	.	
+ch.7494	WormBase	CDS	104	283	.	+	.	ID=CDS:B0336.8;Parent=Transcript:B0336.8.1
+ch.7494	WormBase	exon	101	283	.	+	.	Parent=Transcript:B0336.8.1
+ch.7494	RNASeq_stranded	transcript_region	105	200	20.0	+	.	
+ch.7494	RNASeq_R_asymmetry	transcript_region	111	182	320593.0	.	.	
+ch.7494	RNASeq_reads	transcript_region	105	115	48.0	.	.	
+ch.7494	RNASeq_R_asymmetry	transcript_region	104	110	202307.0	.	.	
+ch.7494	RNASeq_reads	transcript_region	100	104	27.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	100	104	13.0	+	.	
+ch.7494	WormBase	five_prime_UTR	101	103	.	+	.	Parent=Transcript:B0336.8.1
+ch.7494	RNASeq_R_asymmetry	transcript_region	100	103	132389.0	.	.	
+ch.7494	RNASeq_R_asymmetry	transcript_region	99	99	86749.0	.	.	
+ch.7494	RNASeq_reads	transcript_region	99	99	17.0	.	.	
+ch.7494	RNASeq_stranded	transcript_region	99	99	6.0	-	.	
+ch.7494	RNASeq_stranded	transcript_region	98	98	1.0	-	.	
+ch.7494	RNASeq_reads	transcript_region	94	98	2.0	.	.	
+ch.7494	RNASeq_R_asymmetry	transcript_region	90	98	8326.0	.	.	
+ch.7494	RNASeq_reads	transcript_region	60	93	1.0	.	.	
+ch.7494	RNASeq_R_asymmetry	transcript_region	83	89	5441.0	.	.	
+ch.7494	RNASeq_R_asymmetry	transcript_region	80	82	3298.0	.	.	

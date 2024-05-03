@@ -1,67 +1,67 @@
-ch.17537	WormBase	exon	101	385	.	-	.	Parent=Transcript:T08D2.1.1
-ch.17537	WormBase	CDS	101	385	.	-	.	ID=CDS:T08D2.1;Parent=Transcript:T08D2.1.1
-ch.17537	WormBase	gene	101	706	.	-	.	ID=Gene:WBGene00011606
-ch.17537	WormBase	mRNA	101	706	.	-	.	ID=Transcript:T08D2.1.1;Parent=Gene:WBGene00011606
-ch.17537	RNASeq_stranded	transcript_region	215	236	1.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	215	239	9.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	237	241	2.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	240	293	14.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	242	289	4.0	-	.	
-ch.17537	RNASeq_stranded	transcript_region	290	293	2.0	-	.	
-ch.17537	RNASeq_stranded	transcript_region	294	366	1.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	294	385	9.0	.	.	
-ch.17537	RNASeq	transcription_end_site	320	320	.	+	.	
-ch.17537	RNASeq	transcription_end_site	342	342	.	+	.	
-ch.17537	RNASeq	transcription_end_site	342	342	.	+	.	
-ch.17537	RNASeq	transcription_end_site	343	343	.	+	.	
-ch.17537	RNASeq	transcription_end_site	345	345	.	+	.	
-ch.17537	RNASeq	transcription_end_site	345	345	.	+	.	
-ch.17537	RNASeq	transcription_end_site	347	347	.	+	.	
-ch.17537	RNASeq	transcription_end_site	347	347	.	+	.	
-ch.17537	RNASeq_stranded	transcript_region	367	385	2.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	386	387	1.0	.	.	
-ch.17537	WormBase	intron	386	436	.	-	.	Parent=Transcript:T08D2.1.1
-ch.17537	RNASeq_splice	intron	386	436	45847.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	430	436	2.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	434	436	1.0	-	.	
-ch.17537	RNASeq_stranded	transcript_region	437	461	3.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	437	462	10.0	.	.	
-ch.17537	WormBase	CDS	437	541	.	-	.	ID=CDS:T08D2.1;Parent=Transcript:T08D2.1.1
-ch.17537	WormBase	exon	437	541	.	-	.	Parent=Transcript:T08D2.1.1
-ch.17537	RNASeq_stranded	transcript_region	462	465	8.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	463	465	17.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	466	477	13.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	466	480	26.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	478	489	21.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	481	493	40.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	490	493	33.0	-	.	
-ch.17537	RNASeq_stranded	transcript_region	493	541	1.0	+	.	
-ch.17537	RNASeq_stranded	transcript_region	494	506	61.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	494	509	62.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	507	541	92.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	510	541	94.0	.	.	
-ch.17537	RNASeq_reads	transcript_region	542	542	16.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	542	542	36.0	+	.	
-ch.17537	WormBase	intron	542	592	.	-	.	Parent=Transcript:T08D2.1.1
-ch.17537	RNASeq_splice	intron	542	592	508210.0	-	.	
-ch.17537	RNASeq_stranded	transcript_region	571	590	1.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	591	592	20.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	591	592	9.0	-	.	
-ch.17537	RNASeq_stranded	transcript_region	593	608	1.0	+	.	
-ch.17537	RNASeq_stranded	transcript_region	593	627	48.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	593	691	105.0	.	.	
-ch.17537	WormBase	CDS	593	706	.	-	.	ID=CDS:T08D2.1;Parent=Transcript:T08D2.1.1
-ch.17537	WormBase	exon	593	706	.	-	.	Parent=Transcript:T08D2.1.1
-ch.17537	RNASeq_stranded	transcript_region	613	640	1.0	+	.	
-ch.17537	RNASeq_stranded	transcript_region	628	677	86.0	-	.	
-ch.17537	RNASeq_R_asymmetry	transcript_region	661	702	402045.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	678	678	53.0	+	.	
-ch.17537	RNASeq_stranded	transcript_region	679	693	32.0	-	.	
-ch.17537	RNASeq_reads	transcript_region	692	705	69.0	.	.	
-ch.17537	RNASeq_stranded	transcript_region	694	711	21.0	-	.	
-ch.17537	RNASeq_R_asymmetry	transcript_region	703	709	259375.0	.	.	
-ch.17537	RNASeq_reads	transcript_region	706	710	43.0	.	.	
-ch.17537	RNASeq_R_asymmetry	transcript_region	710	710	163067.0	.	.	
-ch.17537	RNASeq_R_asymmetry	transcript_region	711	711	99060.0	.	.	
-ch.17537	RNASeq_reads	transcript_region	711	711	20.0	.	.	
-ch.17537	RNASeq_reads	transcript_region	712	714	1.0	.	.	
+ch.17537	WormBase	exon	422	706	.	+	.	Parent=Transcript:T08D2.1.1
+ch.17537	WormBase	CDS	422	706	.	+	.	ID=CDS:T08D2.1;Parent=Transcript:T08D2.1.1
+ch.17537	WormBase	gene	101	706	.	+	.	ID=Gene:WBGene00011606
+ch.17537	WormBase	mRNA	101	706	.	+	.	ID=Transcript:T08D2.1.1;Parent=Gene:WBGene00011606
+ch.17537	RNASeq_stranded	transcript_region	571	592	1.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	568	592	9.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	566	570	2.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	514	567	14.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	518	565	4.0	+	.	
+ch.17537	RNASeq_stranded	transcript_region	514	517	2.0	+	.	
+ch.17537	RNASeq_stranded	transcript_region	441	513	1.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	422	513	9.0	.	.	
+ch.17537	RNASeq	transcription_end_site	487	487	.	-	.	
+ch.17537	RNASeq	transcription_end_site	465	465	.	-	.	
+ch.17537	RNASeq	transcription_end_site	465	465	.	-	.	
+ch.17537	RNASeq	transcription_end_site	464	464	.	-	.	
+ch.17537	RNASeq	transcription_end_site	462	462	.	-	.	
+ch.17537	RNASeq	transcription_end_site	462	462	.	-	.	
+ch.17537	RNASeq	transcription_end_site	460	460	.	-	.	
+ch.17537	RNASeq	transcription_end_site	460	460	.	-	.	
+ch.17537	RNASeq_stranded	transcript_region	422	440	2.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	420	421	1.0	.	.	
+ch.17537	WormBase	intron	371	421	.	+	.	Parent=Transcript:T08D2.1.1
+ch.17537	RNASeq_splice	intron	371	421	45847.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	371	377	2.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	371	373	1.0	+	.	
+ch.17537	RNASeq_stranded	transcript_region	346	370	3.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	345	370	10.0	.	.	
+ch.17537	WormBase	CDS	266	370	.	+	.	ID=CDS:T08D2.1;Parent=Transcript:T08D2.1.1
+ch.17537	WormBase	exon	266	370	.	+	.	Parent=Transcript:T08D2.1.1
+ch.17537	RNASeq_stranded	transcript_region	342	345	8.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	342	344	17.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	330	341	13.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	327	341	26.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	318	329	21.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	314	326	40.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	314	317	33.0	+	.	
+ch.17537	RNASeq_stranded	transcript_region	266	314	1.0	-	.	
+ch.17537	RNASeq_stranded	transcript_region	301	313	61.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	298	313	62.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	266	300	92.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	266	297	94.0	.	.	
+ch.17537	RNASeq_reads	transcript_region	265	265	16.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	265	265	36.0	-	.	
+ch.17537	WormBase	intron	215	265	.	+	.	Parent=Transcript:T08D2.1.1
+ch.17537	RNASeq_splice	intron	215	265	508210.0	+	.	
+ch.17537	RNASeq_stranded	transcript_region	217	236	1.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	215	216	20.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	215	216	9.0	+	.	
+ch.17537	RNASeq_stranded	transcript_region	199	214	1.0	-	.	
+ch.17537	RNASeq_stranded	transcript_region	180	214	48.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	116	214	105.0	.	.	
+ch.17537	WormBase	CDS	101	214	.	+	.	ID=CDS:T08D2.1;Parent=Transcript:T08D2.1.1
+ch.17537	WormBase	exon	101	214	.	+	.	Parent=Transcript:T08D2.1.1
+ch.17537	RNASeq_stranded	transcript_region	167	194	1.0	-	.	
+ch.17537	RNASeq_stranded	transcript_region	130	179	86.0	+	.	
+ch.17537	RNASeq_R_asymmetry	transcript_region	105	146	402045.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	129	129	53.0	-	.	
+ch.17537	RNASeq_stranded	transcript_region	114	128	32.0	+	.	
+ch.17537	RNASeq_reads	transcript_region	102	115	69.0	.	.	
+ch.17537	RNASeq_stranded	transcript_region	96	113	21.0	+	.	
+ch.17537	RNASeq_R_asymmetry	transcript_region	98	104	259375.0	.	.	
+ch.17537	RNASeq_reads	transcript_region	97	101	43.0	.	.	
+ch.17537	RNASeq_R_asymmetry	transcript_region	97	97	163067.0	.	.	
+ch.17537	RNASeq_R_asymmetry	transcript_region	96	96	99060.0	.	.	
+ch.17537	RNASeq_reads	transcript_region	96	96	20.0	.	.	
+ch.17537	RNASeq_reads	transcript_region	93	95	1.0	.	.	
