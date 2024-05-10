@@ -6,6 +6,84 @@ import math
 import random
 import sys
 
+GCODE = {
+	'AAA' : 'K',	'AAC' : 'N',	'AAG' : 'K',	'AAT' : 'N',
+	'AAR' : 'K',	'AAY' : 'N',	'ACA' : 'T',	'ACC' : 'T',
+	'ACG' : 'T',	'ACT' : 'T',	'ACR' : 'T',	'ACY' : 'T',
+	'ACK' : 'T',	'ACM' : 'T',	'ACW' : 'T',	'ACS' : 'T',
+	'ACB' : 'T',	'ACD' : 'T',	'ACH' : 'T',	'ACV' : 'T',
+	'ACN' : 'T',	'AGA' : 'R',	'AGC' : 'S',	'AGG' : 'R',
+	'AGT' : 'S',	'AGR' : 'R',	'AGY' : 'S',	'ATA' : 'I',
+	'ATC' : 'I',	'ATG' : 'M',	'ATT' : 'I',	'ATY' : 'I',
+	'ATM' : 'I',	'ATW' : 'I',	'ATH' : 'I',	'CAA' : 'Q',
+	'CAC' : 'H',	'CAG' : 'Q',	'CAT' : 'H',	'CAR' : 'Q',
+	'CAY' : 'H',	'CCA' : 'P',	'CCC' : 'P',	'CCG' : 'P',
+	'CCT' : 'P',	'CCR' : 'P',	'CCY' : 'P',	'CCK' : 'P',
+	'CCM' : 'P',	'CCW' : 'P',	'CCS' : 'P',	'CCB' : 'P',
+	'CCD' : 'P',	'CCH' : 'P',	'CCV' : 'P',	'CCN' : 'P',
+	'CGA' : 'R',	'CGC' : 'R',	'CGG' : 'R',	'CGT' : 'R',
+	'CGR' : 'R',	'CGY' : 'R',	'CGK' : 'R',	'CGM' : 'R',
+	'CGW' : 'R',	'CGS' : 'R',	'CGB' : 'R',	'CGD' : 'R',
+	'CGH' : 'R',	'CGV' : 'R',	'CGN' : 'R',	'CTA' : 'L',
+	'CTC' : 'L',	'CTG' : 'L',	'CTT' : 'L',	'CTR' : 'L',
+	'CTY' : 'L',	'CTK' : 'L',	'CTM' : 'L',	'CTW' : 'L',
+	'CTS' : 'L',	'CTB' : 'L',	'CTD' : 'L',	'CTH' : 'L',
+	'CTV' : 'L',	'CTN' : 'L',	'GAA' : 'E',	'GAC' : 'D',
+	'GAG' : 'E',	'GAT' : 'D',	'GAR' : 'E',	'GAY' : 'D',
+	'GCA' : 'A',	'GCC' : 'A',	'GCG' : 'A',	'GCT' : 'A',
+	'GCR' : 'A',	'GCY' : 'A',	'GCK' : 'A',	'GCM' : 'A',
+	'GCW' : 'A',	'GCS' : 'A',	'GCB' : 'A',	'GCD' : 'A',
+	'GCH' : 'A',	'GCV' : 'A',	'GCN' : 'A',	'GGA' : 'G',
+	'GGC' : 'G',	'GGG' : 'G',	'GGT' : 'G',	'GGR' : 'G',
+	'GGY' : 'G',	'GGK' : 'G',	'GGM' : 'G',	'GGW' : 'G',
+	'GGS' : 'G',	'GGB' : 'G',	'GGD' : 'G',	'GGH' : 'G',
+	'GGV' : 'G',	'GGN' : 'G',	'GTA' : 'V',	'GTC' : 'V',
+	'GTG' : 'V',	'GTT' : 'V',	'GTR' : 'V',	'GTY' : 'V',
+	'GTK' : 'V',	'GTM' : 'V',	'GTW' : 'V',	'GTS' : 'V',
+	'GTB' : 'V',	'GTD' : 'V',	'GTH' : 'V',	'GTV' : 'V',
+	'GTN' : 'V',	'TAA' : '*',	'TAC' : 'Y',	'TAG' : '*',
+	'TAT' : 'Y',	'TAR' : '*',	'TAY' : 'Y',	'TCA' : 'S',
+	'TCC' : 'S',	'TCG' : 'S',	'TCT' : 'S',	'TCR' : 'S',
+	'TCY' : 'S',	'TCK' : 'S',	'TCM' : 'S',	'TCW' : 'S',
+	'TCS' : 'S',	'TCB' : 'S',	'TCD' : 'S',	'TCH' : 'S',
+	'TCV' : 'S',	'TCN' : 'S',	'TGA' : '*',	'TGC' : 'C',
+	'TGG' : 'W',	'TGT' : 'C',	'TGY' : 'C',	'TTA' : 'L',
+	'TTC' : 'F',	'TTG' : 'L',	'TTT' : 'F',	'TTR' : 'L',
+	'TTY' : 'F',	'TRA' : '*',	'YTA' : 'L',	'YTG' : 'L',
+	'YTR' : 'L',	'MGA' : 'R',	'MGG' : 'R',	'MGR' : 'R',
+}
+
+def translate_str(seq):
+	pro = []
+	for i in range(0, len(seq), 3):
+		codon = seq[i:i+3]
+		if codon in GCODE: pro.append(GCODE[codon])
+		else: pro.append('X')
+	return ''.join(pro)
+
+def longest_orf(seq):
+	orfs = []
+	for f in range(3):
+		pro = translate_str(seq[f:])
+		start = 0
+		while start < len(pro):
+			stop = 0
+			if pro[start] == 'M':
+				for i, s in enumerate(pro[start+1:]):
+					if s == '*':
+						stop = i + start +1
+						break
+			if stop != 0:
+				orfs.append( (pro[start:stop], start*3 + f) )
+			start += 1
+	orfs.sort(key=lambda t: len(t[0]), reverse=True)
+
+	print(orfs)
+	sys.exit('testing')
+
+	if len(orfs) > 0: return orfs[0]
+	else:             return (None, None)
+
 #####################
 ## UTILITY SECTION ##
 #####################
@@ -346,7 +424,7 @@ def short_exon(dons, accs, seqlen, flank, min):
 def gtag_sites(seq, flank, minex):
 	dons = []
 	accs = []
-	for i in range(flank + minex, len(seq) -flank -minex):
+	for i in range(flank + minex, len(seq) -flank -minex -1):
 		if seq[i:i+2]   == 'GT': dons.append(i)
 		if seq[i-1:i+1] == 'AG': accs.append(i)
 	return dons, accs
@@ -500,6 +578,43 @@ def expdiff(introns1, introns2):
 		p1.append(i1[k])
 		p2.append(i2[k])
 		details.append((k, i1[k], i2[k]))
-	
+
 	distance = manhattan(p1, p2)
 	return distance, details
+
+#########################
+## TRANSLATION SECTION ##
+#########################
+
+def proteins(ff, gff):
+
+	defline, seq = next(read_fasta(ff))
+
+	txs = {}
+
+	# get exons
+	with open(gff) as fp:
+		for line in fp.readlines():
+			if line.startswith('#'): continue
+			f = line.split()
+			if len(f) < 8: continue
+
+			if f[2] != 'exon': continue
+			beg = int(f[3])
+			end = int(f[4])
+			name = f[8][3:]
+			if name not in txs: txs[name] = []
+			txs[name].append( (beg, end) )
+
+	# build mRNAs
+	txseq = []
+	for name in txs:
+		s = ''
+		for beg, end in txs[name]:
+			s += seq[beg-1:end]
+		txseq.append(s)
+
+	orfs = []
+	# build translations
+	for tx in txseq:
+		orf = longest_orf(tx)
