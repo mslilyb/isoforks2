@@ -8,7 +8,7 @@ import os
 
 # CLI
 
-parser = argparse.ArgumentParser(description='optiso wrapper')
+parser = argparse.ArgumentParser(description='isoformer & optiso runer')
 parser.add_argument('genes', help='directory of genes (e.g apc)')
 parser.add_argument('models', help='directory of models (e.g. models)')
 parser.add_argument('build', help='build directory (e.g. build)')
