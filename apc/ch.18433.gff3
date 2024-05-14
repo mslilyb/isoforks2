@@ -1,53 +1,24 @@
-ch.18433	RNASeq_stranded	transcript_region	899	958	2.0	-	.	
-ch.18433	RNASeq_reads	transcript_region	816	932	1.0	.	.	
-ch.18433	RNASeq_stranded	transcript_region	851	898	1.0	-	.	
-ch.18433	RNASeq_stranded	transcript_region	848	873	1.0	+	.	
 ch.18433	WormBase	three_prime_UTR	817	872	.	+	.	Parent=Transcript:F22F4.5.1
 ch.18433	WormBase	exon	577	872	.	+	.	Parent=Transcript:F22F4.5.1
 ch.18433	WormBase	gene	101	872	.	+	.	ID=Gene:WBGene00017718
 ch.18433	WormBase	mRNA	101	872	.	+	.	ID=Transcript:F22F4.5.1;Parent=Gene:WBGene00017718
 ch.18433	RNASeq_stranded	transcript_region	637	847	2.0	+	.	
 ch.18433	WormBase	CDS	577	816	.	+	.	ID=CDS:F22F4.5;Parent=Transcript:F22F4.5.1
-ch.18433	RNASeq_reads	transcript_region	799	815	2.0	.	.	
-ch.18433	RNASeq_F_asymmetry	transcript_region	799	804	10185.0	.	.	
-ch.18433	RNASeq_F_asymmetry	transcript_region	750	798	15400.0	.	.	
-ch.18433	RNASeq_reads	transcript_region	577	798	4.0	.	.	
 ch.18433	RNASeq_stranded	transcript_region	632	636	1.0	+	.	
 ch.18433	RNASeq_stranded	transcript_region	577	631	2.0	+	.	
 ch.18433	WormBase	intron	533	576	.	+	.	Parent=Transcript:F22F4.5.1
 ch.18433	RNASeq_splice	intron	533	576	23577.0	+	.	
 ch.18433	RNASeq_splice	intron	453	576	4.0	+	.	
-ch.18433	RNASeq_reads	transcript_region	533	534	1.0	.	.	
 ch.18433	RNASeq_stranded	transcript_region	510	532	2.0	+	.	
 ch.18433	WormBase	CDS	362	532	.	+	.	ID=CDS:F22F4.5;Parent=Transcript:F22F4.5.1
 ch.18433	WormBase	exon	362	532	.	+	.	Parent=Transcript:F22F4.5.1
-ch.18433	RNASeq_reads	transcript_region	362	532	5.0	.	.	
 ch.18433	RNASeq_stranded	transcript_region	362	509	1.0	+	.	
 ch.18433	RNASeq_splice	intron	408	458	6.0	+	.	
 ch.18433	RNASeq_splice	intron	408	452	94.0	+	.	
-ch.18433	RNASeq	transcription_end_site	444	444	.	-	.	
-ch.18433	RNASeq_reads	transcript_region	360	361	1.0	.	.	
 ch.18433	WormBase	intron	316	361	.	+	.	Parent=Transcript:F22F4.5.1
 ch.18433	RNASeq_splice	intron	316	361	27573.0	+	.	
-ch.18433	RNASeq_splice	intron	308	353	10.0	-	.	
-ch.18433	RNASeq_splice	intron	302	353	6.0	-	.	
-ch.18433	RNASeq_splice	intron	297	353	3.0	-	.	
-ch.18433	RNASeq_reads	transcript_region	316	317	1.0	.	.	
 ch.18433	RNASeq_stranded	transcript_region	243	315	1.0	+	.	
-ch.18433	RNASeq_reads	transcript_region	157	315	5.0	.	.	
 ch.18433	WormBase	CDS	136	315	.	+	.	ID=CDS:F22F4.5;Parent=Transcript:F22F4.5.1
 ch.18433	WormBase	exon	101	315	.	+	.	Parent=Transcript:F22F4.5.1
 ch.18433	RNASeq_stranded	transcript_region	126	221	1.0	+	.	
-ch.18433	RNASeq_R_asymmetry	transcript_region	179	179	16698.0	.	.	
-ch.18433	RNASeq_R_asymmetry	transcript_region	137	177	16467.0	.	.	
-ch.18433	RNASeq_reads	transcript_region	131	156	3.0	.	.	
-ch.18433	RNASeq_splice	intron	59	149	1969.0	-	.	
-ch.18433	RNASeq_splice	intron	6	149	46.0	-	.	
-ch.18433	RNASeq_R_asymmetry	transcript_region	131	136	10371.0	.	.	
 ch.18433	WormBase	five_prime_UTR	101	135	.	+	.	Parent=Transcript:F22F4.5.1
-ch.18433	RNASeq_R_asymmetry	transcript_region	126	130	6807.0	.	.	
-ch.18433	RNASeq_reads	transcript_region	121	130	1.0	.	.	
-ch.18433	RNASeq_R_asymmetry	transcript_region	122	125	4402.0	.	.	
-ch.18433	RNASeq_R_asymmetry	transcript_region	120	121	2588.0	.	.	
-ch.18433	RNASeq_R_asymmetry	transcript_region	117	119	1635.0	.	.	
-ch.18433	RNASeq_splice	intron	6	58	3.0	-	.	

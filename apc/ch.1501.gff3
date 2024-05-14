@@ -1,86 +1,38 @@
-ch.1501	RNASeq_splice	intron	42	100	3.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	45	50	8.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	51	57	5.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	58	88	3.0	+	.	
-ch.1501	RNASeq_splice	intron	58	100	202.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	89	94	1.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	95	98	2.0	+	.	
-ch.1501	RNASeq_F_asymmetry	transcript_region	95	99	120391.0	.	.	
-ch.1501	RNASeq_reads	transcript_region	95	99	27.0	.	.	
-ch.1501	RNASeq_stranded	transcript_region	99	100	5.0	+	.	
-ch.1501	RNASeq_F_asymmetry	transcript_region	100	105	229233.0	.	.	
-ch.1501	RNASeq_reads	transcript_region	100	105	49.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	101	111	8.0	+	.	
 ch.1501	WormBase	five_prime_UTR	101	129	.	+	.	Parent=Transcript:T28B8.1.1
 ch.1501	WormBase	exon	101	447	.	+	.	Parent=Transcript:T28B8.1.1
 ch.1501	WormBase	gene	101	1037	.	+	.	ID=Gene:WBGene00012113
 ch.1501	WormBase	mRNA	101	1037	.	+	.	ID=Transcript:T28B8.1.1;Parent=Gene:WBGene00012113
-ch.1501	RNASeq_reads	transcript_region	106	124	84.0	.	.	
-ch.1501	RNASeq_F_asymmetry	transcript_region	106	126	407969.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	112	118	13.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	119	307	20.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	125	294	127.0	.	.	
-ch.1501	RNASeq_F_asymmetry	transcript_region	127	177	615876.0	.	.	
 ch.1501	WormBase	CDS	130	447	.	+	.	ID=CDS:T28B8.1;Parent=Transcript:T28B8.1.1
 ch.1501	RNASeq_splice	intron	154	246	18.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	184	189	1.0	-	.	
 ch.1501	RNASeq_splice	intron	210	262	151.0	+	.	
-ch.1501	RNASeq_splice	intron	220	399	10.0	-	.	
-ch.1501	RNASeq_stranded	transcript_region	253	260	1.0	-	.	
 ch.1501	RNASeq_stranded	transcript_region	271	271	1.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	273	273	1.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	295	431	191.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	308	447	13.0	+	.	
 ch.1501	RNASeq_splice	intron	340	553	4.0	+	.	
-ch.1501	RNASeq_splice	intron	359	625	3.0	-	.	
-ch.1501	RNASeq_reads	transcript_region	432	447	126.0	.	.	
 ch.1501	RNASeq_splice	intron	441	526	6.0	+	.	
 ch.1501	RNASeq_splice	intron	445	526	216.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	448	450	9.0	.	.	
 ch.1501	WormBase	intron	448	526	.	+	.	Parent=Transcript:T28B8.1.1
 ch.1501	RNASeq_splice	intron	448	526	585788.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	451	525	3.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	524	526	1.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	526	526	19.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	527	547	13.0	+	.	
 ch.1501	WormBase	CDS	527	721	.	+	.	ID=CDS:T28B8.1;Parent=Transcript:T28B8.1.1
-ch.1501	RNASeq_reads	transcript_region	527	996	122.0	.	.	
 ch.1501	WormBase	exon	527	1037	.	+	.	Parent=Transcript:T28B8.1.1
 ch.1501	RNASeq_stranded	transcript_region	548	584	20.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	585	619	31.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	620	835	47.0	+	.	
 ch.1501	WormBase	three_prime_UTR	722	1037	.	+	.	Parent=Transcript:T28B8.1.1
-ch.1501	RNASeq_stranded	transcript_region	762	818	1.0	-	.	
-ch.1501	RNASeq_stranded	transcript_region	819	855	2.0	-	.	
 ch.1501	RNASeq_stranded	transcript_region	836	856	73.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	856	859	1.0	-	.	
 ch.1501	RNASeq_stranded	transcript_region	857	869	111.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	860	865	2.0	-	.	
-ch.1501	RNASeq_stranded	transcript_region	866	868	1.0	-	.	
-ch.1501	RNASeq_stranded	transcript_region	869	924	2.0	-	.	
 ch.1501	RNASeq_stranded	transcript_region	870	888	167.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	889	908	254.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	909	1003	395.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	925	925	1.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	926	950	2.0	-	.	
 ch.1501	RNASeq_splice	intron	927	961	4.0	+	.	
-ch.1501	RNASeq_stranded	transcript_region	951	1038	4.0	-	.	
-ch.1501	RNASeq_reads	transcript_region	997	1015	79.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	1004	1008	252.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	1009	1016	161.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	1016	1021	47.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	1017	1024	101.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	1022	1033	28.0	.	.	
 ch.1501	RNASeq_stranded	transcript_region	1025	1028	66.0	+	.	
 ch.1501	RNASeq_stranded	transcript_region	1029	1036	43.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	1034	1036	18.0	.	.	
-ch.1501	RNASeq_reads	transcript_region	1037	1037	11.0	.	.	
-ch.1501	RNASeq_stranded	transcript_region	1037	1039	26.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	1038	1039	7.0	.	.	
-ch.1501	RNASeq_stranded	transcript_region	1039	1039	2.0	+	.	
-ch.1501	RNASeq	transcription_end_site	1039	1039	.	+	.	
-ch.1501	RNASeq_stranded	transcript_region	1040	1041	4.0	+	.	
-ch.1501	RNASeq_reads	transcript_region	1040	1046	1.0	.	.	
-ch.1501	RNASeq	transcription_end_site	1041	1041	.	+	.	
-ch.1501	RNASeq_stranded	transcript_region	1042	1044	1.0	+	.	
-ch.1501	RNASeq	transcription_end_site	1044	1044	.	+	.	

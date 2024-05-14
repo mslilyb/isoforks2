@@ -1,50 +1,24 @@
-ch.13216	RNASeq_F_asymmetry	transcript_region	48	48	89.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	50	67	92.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	68	71	156.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	83	86	295.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	88	91	357.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	92	94	575.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	95	98	17384.0	.	.	
-ch.13216	RNASeq_reads	transcript_region	95	98	4.0	.	.	
-ch.13216	RNASeq_stranded	transcript_region	95	98	1.0	+	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	99	101	45433.0	.	.	
-ch.13216	RNASeq_reads	transcript_region	99	101	9.0	.	.	
-ch.13216	RNASeq_stranded	transcript_region	99	111	2.0	+	.	
 ch.13216	WormBase	five_prime_UTR	101	103	.	+	.	Parent=Transcript:T28A11.2.1
 ch.13216	WormBase	exon	101	229	.	+	.	Parent=Transcript:T28A11.2.1
 ch.13216	WormBase	gene	101	889	.	+	.	ID=Gene:WBGene00020869
 ch.13216	WormBase	mRNA	101	889	.	+	.	ID=Transcript:T28A11.2.1;Parent=Gene:WBGene00020869
-ch.13216	RNASeq_F_asymmetry	transcript_region	102	105	68673.0	.	.	
-ch.13216	RNASeq_reads	transcript_region	102	105	14.0	.	.	
 ch.13216	WormBase	CDS	104	229	.	+	.	ID=CDS:T28A11.2;Parent=Transcript:T28A11.2.1
-ch.13216	RNASeq_reads	transcript_region	106	124	23.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	106	132	117638.0	.	.	
 ch.13216	RNASeq_stranded	transcript_region	112	117	4.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	118	135	8.0	+	.	
-ch.13216	RNASeq_reads	transcript_region	125	218	35.0	.	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	133	212	178106.0	.	.	
 ch.13216	RNASeq_stranded	transcript_region	136	185	13.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	186	199	21.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	200	229	34.0	+	.	
-ch.13216	RNASeq_splice	intron	209	364	3.0	-	.	
-ch.13216	RNASeq_reads	transcript_region	219	229	54.0	.	.	
-ch.13216	RNASeq_splice	intron	219	262	10.0	-	.	
 ch.13216	WormBase	intron	230	272	.	+	.	Parent=Transcript:T28A11.2.1
 ch.13216	RNASeq_splice	intron	230	272	287915.0	+	.	
 ch.13216	RNASeq_splice	intron	230	282	7.0	+	.	
 ch.13216	RNASeq_splice	intron	230	296	17.0	+	.	
-ch.13216	RNASeq_F_asymmetry	transcript_region	262	271	2014.0	.	.	
-ch.13216	RNASeq_reads	transcript_region	272	272	5.0	.	.	
 ch.13216	RNASeq_stranded	transcript_region	272	272	1.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	273	282	23.0	+	.	
-ch.13216	RNASeq_reads	transcript_region	273	365	48.0	.	.	
 ch.13216	WormBase	CDS	273	683	.	+	.	ID=CDS:T28A11.2;Parent=Transcript:T28A11.2.1
 ch.13216	WormBase	exon	273	683	.	+	.	Parent=Transcript:T28A11.2.1
 ch.13216	RNASeq_stranded	transcript_region	283	350	11.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	351	362	30.0	+	.	
-ch.13216	RNASeq_stranded	transcript_region	355	394	1.0	-	.	
 ch.13216	RNASeq_stranded	transcript_region	363	384	51.0	+	.	
-ch.13216	RNASeq_reads	transcript_region	366	656	73.0	.	.	
 ch.13216	RNASeq_stranded	transcript_region	385	438	82.0	+	.	
 ch.13216	RNASeq	transcription_end_site	432	432	.	+	.	
 ch.13216	RNASeq	transcription_end_site	435	435	.	+	.	
@@ -54,36 +28,16 @@ ch.13216	RNASeq_splice	intron	448	591	1308.0	+	.
 ch.13216	RNASeq_stranded	transcript_region	449	516	30.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	517	521	46.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	522	572	90.0	+	.	
-ch.13216	RNASeq_stranded	transcript_region	541	556	1.0	-	.	
-ch.13216	RNASeq_stranded	transcript_region	557	563	2.0	-	.	
-ch.13216	RNASeq_stranded	transcript_region	564	565	1.0	-	.	
-ch.13216	RNASeq_stranded	transcript_region	566	636	2.0	-	.	
 ch.13216	RNASeq_stranded	transcript_region	573	583	48.0	+	.	
 ch.13216	RNASeq_stranded	transcript_region	584	679	30.0	+	.	
-ch.13216	RNASeq_stranded	transcript_region	637	640	1.0	-	.	
-ch.13216	RNASeq_reads	transcript_region	657	683	48.0	.	.	
 ch.13216	RNASeq_stranded	transcript_region	680	683	19.0	+	.	
 ch.13216	WormBase	intron	684	766	.	+	.	Parent=Transcript:T28A11.2.1
 ch.13216	RNASeq_splice	intron	684	766	199612.0	+	.	
 ch.13216	RNASeq_splice	intron	696	766	21.0	+	.	
 ch.13216	WormBase	CDS	767	832	.	+	.	ID=CDS:T28A11.2;Parent=Transcript:T28A11.2.1
 ch.13216	RNASeq_stranded	transcript_region	767	843	16.0	+	.	
-ch.13216	RNASeq_reads	transcript_region	767	848	34.0	.	.	
 ch.13216	WormBase	exon	767	889	.	+	.	Parent=Transcript:T28A11.2.1
 ch.13216	RNASeq	transcription_end_site	792	792	.	+	.	
-ch.13216	RNASeq_R_asymmetry	transcript_region	802	851	136847.0	.	.	
 ch.13216	WormBase	three_prime_UTR	833	889	.	+	.	Parent=Transcript:T28A11.2.1
 ch.13216	RNASeq_stranded	transcript_region	844	858	10.0	+	.	
-ch.13216	RNASeq_reads	transcript_region	849	852	22.0	.	.	
-ch.13216	RNASeq_R_asymmetry	transcript_region	852	852	88218.0	.	.	
-ch.13216	RNASeq_R_asymmetry	transcript_region	853	854	47590.0	.	.	
-ch.13216	RNASeq_reads	transcript_region	853	865	12.0	.	.	
 ch.13216	RNASeq_stranded	transcript_region	859	880	6.0	+	.	
-ch.13216	RNASeq_reads	transcript_region	866	885	7.0	.	.	
-ch.13216	RNASeq_R_asymmetry	transcript_region	869	885	28012.0	.	.	
-ch.13216	RNASeq_stranded	transcript_region	881	891	3.0	+	.	
-ch.13216	RNASeq_R_asymmetry	transcript_region	886	886	18135.0	.	.	
-ch.13216	RNASeq_reads	transcript_region	886	891	4.0	.	.	
-ch.13216	RNASeq_reads	transcript_region	892	893	1.0	.	.	
-ch.13216	RNASeq_stranded	transcript_region	892	893	1.0	+	.	
-ch.13216	RNASeq_splice	intron	892	939	6.0	+	.	

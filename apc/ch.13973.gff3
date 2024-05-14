@@ -1,99 +1,33 @@
-ch.13973	RNASeq	transcription_end_site	1064	1064	.	-	.	
-ch.13973	RNASeq	transcription_end_site	1064	1064	.	-	.	
-ch.13973	RNASeq_reads	transcript_region	1050	1053	1.0	.	.	
-ch.13973	RNASeq_stranded	transcript_region	1045	1053	2.0	+	.	
-ch.13973	RNASeq	transcription_end_site	1051	1051	.	-	.	
-ch.13973	RNASeq	transcription_end_site	1051	1051	.	-	.	
-ch.13973	RNASeq_reads	transcript_region	1045	1049	2.0	.	.	
-ch.13973	RNASeq_F_asymmetry	transcript_region	1045	1048	8834.0	.	.	
-ch.13973	RNASeq	transcription_end_site	1046	1046	.	-	.	
-ch.13973	RNASeq	transcription_end_site	1046	1046	.	-	.	
-ch.13973	RNASeq	transcription_end_site	1044	1044	.	-	.	
-ch.13973	RNASeq	transcription_end_site	1044	1044	.	-	.	
-ch.13973	RNASeq_reads	transcript_region	1041	1044	10.0	.	.	
-ch.13973	RNASeq_stranded	transcript_region	1041	1044	17.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	1038	1044	1.0	-	.	
 ch.13973	RNASeq_stranded	transcript_region	1038	1040	35.0	+	.	
-ch.13973	RNASeq_reads	transcript_region	1037	1040	21.0	.	.	
 ch.13973	WormBase	three_prime_UTR	594	1040	.	+	.	Parent=Transcript:T10H9.4.1
 ch.13973	WormBase	exon	381	1040	.	+	.	Parent=Transcript:T10H9.4.1
 ch.13973	WormBase	gene	101	1040	.	+	.	ID=Gene:WBGene00004897
 ch.13973	WormBase	mRNA	101	1040	.	+	.	ID=Transcript:T10H9.4.1;Parent=Gene:WBGene00004897
-ch.13973	RNASeq	transcription_end_site	1037	1037	.	-	.	
 ch.13973	RNASeq_stranded	transcript_region	1031	1037	53.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	1012	1037	2.0	-	.	
-ch.13973	RNASeq_reads	transcript_region	1029	1036	32.0	.	.	
 ch.13973	RNASeq_stranded	transcript_region	1028	1030	86.0	+	.	
-ch.13973	RNASeq_reads	transcript_region	1021	1028	50.0	.	.	
 ch.13973	RNASeq_stranded	transcript_region	1020	1027	132.0	+	.	
-ch.13973	RNASeq_reads	transcript_region	1008	1020	81.0	.	.	
 ch.13973	RNASeq_stranded	transcript_region	1003	1019	201.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	997	1011	4.0	-	.	
-ch.13973	RNASeq_reads	transcript_region	995	1007	123.0	.	.	
 ch.13973	RNASeq_stranded	transcript_region	970	1002	302.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	950	996	10.0	-	.	
-ch.13973	RNASeq_reads	transcript_region	804	994	194.0	.	.	
 ch.13973	RNASeq_stranded	transcript_region	905	969	458.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	947	949	6.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	946	946	3.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	938	945	1.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	873	937	2.0	-	.	
 ch.13973	RNASeq_stranded	transcript_region	890	904	293.0	+	.	
 ch.13973	RNASeq_stranded	transcript_region	875	889	192.0	+	.	
 ch.13973	RNASeq_stranded	transcript_region	839	874	112.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	825	872	4.0	-	.	
 ch.13973	RNASeq_splice	intron	637	868	12.0	+	.	
 ch.13973	RNASeq_stranded	transcript_region	787	838	169.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	823	824	2.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	800	822	1.0	-	.	
-ch.13973	RNASeq_reads	transcript_region	381	803	293.0	.	.	
-ch.13973	RNASeq_stranded	transcript_region	787	799	2.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	784	786	4.0	-	.	
 ch.13973	RNASeq_stranded	transcript_region	778	786	110.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	739	783	8.0	-	.	
 ch.13973	RNASeq_stranded	transcript_region	626	777	68.0	+	.	
-ch.13973	RNASeq_splice	intron	644	773	13.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	735	738	5.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	733	734	3.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	693	732	1.0	-	.	
 ch.13973	RNASeq_splice	intron	248	713	3.0	+	.	
-ch.13973	RNASeq_stranded	transcript_region	667	678	1.0	-	.	
-ch.13973	RNASeq_stranded	transcript_region	588	639	1.0	-	.	
 ch.13973	RNASeq_stranded	transcript_region	381	625	39.0	+	.	
-ch.13973	RNASeq_splice	intron	164	614	10.0	-	.	
 ch.13973	WormBase	CDS	381	593	.	+	.	ID=CDS:T10H9.4;Parent=Transcript:T10H9.4.1
-ch.13973	RNASeq_stranded	transcript_region	578	585	1.0	-	.	
-ch.13973	RNASeq_splice	intron	536	568	3.0	-	.	
-ch.13973	RNASeq_splice	intron	536	565	4.0	-	.	
 ch.13973	RNASeq_splice	intron	248	473	20.0	+	.	
 ch.13973	RNASeq_splice	intron	248	456	5.0	+	.	
-ch.13973	RNASeq_splice	intron	414	442	13.0	-	.	
-ch.13973	RNASeq_reads	transcript_region	379	380	32.0	.	.	
 ch.13973	RNASeq_stranded	transcript_region	379	380	6.0	+	.	
 ch.13973	WormBase	intron	248	380	.	+	.	Parent=Transcript:T10H9.4.1
 ch.13973	RNASeq_splice	intron	248	380	1434490.0	+	.	
-ch.13973	RNASeq_reads	transcript_region	374	378	3.0	.	.	
-ch.13973	RNASeq_reads	transcript_region	250	373	1.0	.	.	
 ch.13973	RNASeq_splice	intron	248	373	8213.0	+	.	
-ch.13973	RNASeq_reads	transcript_region	248	249	51.0	.	.	
 ch.13973	RNASeq_stranded	transcript_region	248	249	9.0	+	.	
 ch.13973	RNASeq_stranded	transcript_region	187	247	34.0	+	.	
 ch.13973	WormBase	CDS	131	247	.	+	.	ID=CDS:T10H9.4;Parent=Transcript:T10H9.4.1
-ch.13973	RNASeq_reads	transcript_region	118	247	305.0	.	.	
 ch.13973	WormBase	exon	101	247	.	+	.	Parent=Transcript:T10H9.4.1
 ch.13973	RNASeq_stranded	transcript_region	107	186	52.0	+	.	
-ch.13973	RNASeq_splice	intron	122	182	8.0	-	.	
-ch.13973	RNASeq_R_asymmetry	transcript_region	108	158	1178140.0	.	.	
 ch.13973	WormBase	five_prime_UTR	101	130	.	+	.	Parent=Transcript:T10H9.4.1
-ch.13973	RNASeq_reads	transcript_region	107	117	201.0	.	.	
-ch.13973	RNASeq_R_asymmetry	transcript_region	102	107	729353.0	.	.	
-ch.13973	RNASeq_reads	transcript_region	101	106	121.0	.	.	
-ch.13973	RNASeq_stranded	transcript_region	100	106	34.0	+	.	
-ch.13973	RNASeq_R_asymmetry	transcript_region	100	101	447863.0	.	.	
-ch.13973	RNASeq_reads	transcript_region	99	100	72.0	.	.	
-ch.13973	RNASeq_splice	intron	49	100	9.0	+	.	
-ch.13973	RNASeq_R_asymmetry	transcript_region	99	99	277682.0	.	.	
-ch.13973	RNASeq_stranded	transcript_region	99	99	20.0	-	.	
-ch.13973	RNASeq_R_asymmetry	transcript_region	95	98	181831.0	.	.	
-ch.13973	RNASeq_reads	transcript_region	95	98	38.0	.	.	
-ch.13973	RNASeq_stranded	transcript_region	95	98	3.0	+	.	

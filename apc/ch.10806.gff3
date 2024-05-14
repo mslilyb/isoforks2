@@ -1,76 +1,30 @@
-ch.10806	RNASeq	transcription_end_site	872	872	.	-	.	
-ch.10806	RNASeq	transcription_end_site	872	872	.	-	.	
-ch.10806	RNASeq	transcription_end_site	870	870	.	-	.	
-ch.10806	RNASeq	transcription_end_site	870	870	.	-	.	
-ch.10806	RNASeq_reads	transcript_region	863	870	1.0	.	.	
 ch.10806	WormBase	three_prime_UTR	809	868	.	+	.	Parent=Transcript:T11B7.5.1
 ch.10806	WormBase	exon	716	868	.	+	.	Parent=Transcript:T11B7.5.1
 ch.10806	WormBase	gene	101	868	.	+	.	ID=Gene:WBGene00011708
 ch.10806	WormBase	mRNA	101	868	.	+	.	ID=Transcript:T11B7.5.1;Parent=Gene:WBGene00011708
-ch.10806	RNASeq	transcription_end_site	867	867	.	-	.	
-ch.10806	RNASeq	transcription_end_site	867	867	.	-	.	
-ch.10806	RNASeq	transcription_end_site	866	866	.	-	.	
-ch.10806	RNASeq	transcription_end_site	866	866	.	-	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	863	865	4273.0	.	.	
 ch.10806	RNASeq_stranded	transcript_region	857	865	1.0	+	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	858	862	8182.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	856	862	2.0	.	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	854	857	12357.0	.	.	
 ch.10806	RNASeq_stranded	transcript_region	837	856	2.0	+	.	
-ch.10806	RNASeq_reads	transcript_region	809	855	4.0	.	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	821	853	19009.0	.	.	
 ch.10806	RNASeq_stranded	transcript_region	818	836	4.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	716	817	7.0	+	.	
-ch.10806	RNASeq_reads	transcript_region	798	808	7.0	.	.	
 ch.10806	WormBase	CDS	716	808	.	+	.	ID=CDS:T11B7.5;Parent=Transcript:T11B7.5.1
-ch.10806	RNASeq	transcription_end_site	804	804	.	-	.	
-ch.10806	RNASeq	transcription_end_site	804	804	.	-	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	791	798	40615.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	782	797	11.0	.	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	747	790	61779.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	716	781	17.0	.	.	
-ch.10806	RNASeq	transcription_end_site	758	758	.	-	.	
-ch.10806	RNASeq	transcription_end_site	748	748	.	-	.	
-ch.10806	RNASeq	transcription_end_site	747	747	.	-	.	
-ch.10806	RNASeq	transcription_end_site	747	747	.	-	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	745	745	91399.0	.	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	736	743	97958.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	715	715	3.0	.	.	
-ch.10806	RNASeq_stranded	transcript_region	715	715	1.0	-	.	
 ch.10806	WormBase	intron	672	715	.	+	.	Parent=Transcript:T11B7.5.1
 ch.10806	RNASeq_splice	intron	672	715	121464.0	+	.	
 ch.10806	RNASeq_splice	intron	661	715	14.0	+	.	
-ch.10806	RNASeq_F_asymmetry	transcript_region	672	672	19800.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	672	672	5.0	.	.	
 ch.10806	RNASeq_stranded	transcript_region	641	671	4.0	+	.	
 ch.10806	WormBase	CDS	492	671	.	+	.	ID=CDS:T11B7.5;Parent=Transcript:T11B7.5.1
 ch.10806	WormBase	exon	492	671	.	+	.	Parent=Transcript:T11B7.5.1
-ch.10806	RNASeq_reads	transcript_region	492	671	26.0	.	.	
 ch.10806	RNASeq_stranded	transcript_region	622	640	7.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	597	621	11.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	584	596	7.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	575	583	4.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	526	574	7.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	492	525	4.0	+	.	
-ch.10806	RNASeq_reads	transcript_region	490	491	4.0	.	.	
 ch.10806	RNASeq_stranded	transcript_region	490	491	1.0	+	.	
 ch.10806	WormBase	intron	431	491	.	+	.	Parent=Transcript:T11B7.5.1
 ch.10806	RNASeq_splice	intron	431	491	149890.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	411	430	2.0	+	.	
-ch.10806	RNASeq_reads	transcript_region	109	430	28.0	.	.	
 ch.10806	WormBase	CDS	101	430	.	+	.	ID=CDS:T11B7.5;Parent=Transcript:T11B7.5.1
 ch.10806	WormBase	exon	101	430	.	+	.	Parent=Transcript:T11B7.5.1
 ch.10806	RNASeq_stranded	transcript_region	374	410	4.0	+	.	
 ch.10806	RNASeq_stranded	transcript_region	115	373	7.0	+	.	
 ch.10806	RNASeq_splice	intron	162	206	3.0	+	.	
-ch.10806	RNASeq_R_asymmetry	transcript_region	108	177	130052.0	.	.	
-ch.10806	RNASeq_stranded	transcript_region	100	114	4.0	+	.	
-ch.10806	RNASeq_reads	transcript_region	104	108	18.0	.	.	
-ch.10806	RNASeq_R_asymmetry	transcript_region	103	107	71212.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	99	103	11.0	.	.	
-ch.10806	RNASeq_R_asymmetry	transcript_region	99	102	46575.0	.	.	
-ch.10806	RNASeq_stranded	transcript_region	99	99	2.0	-	.	
-ch.10806	RNASeq_R_asymmetry	transcript_region	95	98	23844.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	95	98	5.0	.	.	
-ch.10806	RNASeq_R_asymmetry	transcript_region	92	94	6612.0	.	.	
-ch.10806	RNASeq_reads	transcript_region	92	94	1.0	.	.	

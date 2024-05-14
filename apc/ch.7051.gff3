@@ -1,63 +1,22 @@
-ch.7051	RNASeq_reads	transcript_region	73	169	1.0	.	.	
 ch.7051	WormBase	five_prime_UTR	101	407	.	+	.	Parent=Transcript:C36A4.11.1
 ch.7051	WormBase	exon	101	606	.	+	.	Parent=Transcript:C36A4.11.1
 ch.7051	WormBase	gene	101	770	.	+	.	ID=Gene:WBGene00044167
 ch.7051	WormBase	mRNA	101	770	.	+	.	ID=Transcript:C36A4.11.1;Parent=Gene:WBGene00044167
-ch.7051	RNASeq_reads	transcript_region	170	223	2.0	.	.	
 ch.7051	RNASeq_stranded	transcript_region	205	230	1.0	+	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	224	239	15722.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	224	261	4.0	.	.	
 ch.7051	RNASeq_stranded	transcript_region	231	241	2.0	+	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	240	291	24225.0	.	.	
 ch.7051	RNASeq_stranded	transcript_region	242	291	5.0	+	.	
-ch.7051	RNASeq_reads	transcript_region	262	357	7.0	.	.	
 ch.7051	RNASeq_stranded	transcript_region	292	467	3.0	+	.	
 ch.7051	RNASeq_splice	intron	334	570	3.0	+	.	
-ch.7051	RNASeq_reads	transcript_region	358	604	11.0	.	.	
 ch.7051	WormBase	CDS	408	606	.	+	.	ID=CDS:C36A4.11;Parent=Transcript:C36A4.11.1
 ch.7051	RNASeq_stranded	transcript_region	468	518	5.0	+	.	
 ch.7051	RNASeq_stranded	transcript_region	519	536	2.0	+	.	
 ch.7051	RNASeq_stranded	transcript_region	537	586	4.0	+	.	
-ch.7051	RNASeq_R_asymmetry	transcript_region	584	606	43077.0	.	.	
 ch.7051	RNASeq_stranded	transcript_region	587	606	2.0	+	.	
-ch.7051	RNASeq_reads	transcript_region	605	606	7.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	607	610	1.0	.	.	
 ch.7051	WormBase	intron	607	664	.	+	.	Parent=Transcript:C36A4.11.1
 ch.7051	RNASeq_splice	intron	607	664	36561.0	+	.	
 ch.7051	RNASeq_splice	intron	625	694	5.0	+	.	
-ch.7051	RNASeq_R_asymmetry	transcript_region	663	664	4297.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	663	664	1.0	.	.	
 ch.7051	WormBase	CDS	665	672	.	+	.	ID=CDS:C36A4.11;Parent=Transcript:C36A4.11.1
-ch.7051	RNASeq_R_asymmetry	transcript_region	665	701	29838.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	665	703	7.0	.	.	
 ch.7051	RNASeq_stranded	transcript_region	665	745	2.0	+	.	
 ch.7051	WormBase	exon	665	770	.	+	.	Parent=Transcript:C36A4.11.1
 ch.7051	WormBase	three_prime_UTR	673	770	.	+	.	Parent=Transcript:C36A4.11.1
-ch.7051	RNASeq_R_asymmetry	transcript_region	702	710	19328.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	704	715	4.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	716	760	2.0	.	.	
-ch.7051	RNASeq_R_asymmetry	transcript_region	730	735	7861.0	.	.	
 ch.7051	RNASeq_stranded	transcript_region	746	770	1.0	+	.	
-ch.7051	RNASeq_stranded	transcript_region	754	778	1.0	-	.	
-ch.7051	RNASeq_reads	transcript_region	761	778	1.0	.	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	777	778	3954.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	779	783	3.0	.	.	
-ch.7051	RNASeq_stranded	transcript_region	779	784	5.0	-	.	
-ch.7051	RNASeq_stranded	transcript_region	779	868	1.0	+	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	784	784	29880.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	784	785	7.0	.	.	
-ch.7051	RNASeq_stranded	transcript_region	785	791	9.0	-	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	785	796	45004.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	786	797	11.0	.	.	
-ch.7051	RNASeq_stranded	transcript_region	792	800	14.0	-	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	797	804	69651.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	798	808	19.0	.	.	
-ch.7051	RNASeq_stranded	transcript_region	801	814	22.0	-	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	805	812	106072.0	.	.	
-ch.7051	RNASeq_reads	transcript_region	809	836	31.0	.	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	813	832	162467.0	.	.	
-ch.7051	RNASeq_stranded	transcript_region	815	821	34.0	-	.	
-ch.7051	RNASeq_stranded	transcript_region	822	841	52.0	-	.	
-ch.7051	RNASeq_reads	transcript_region	837	856	47.0	.	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	860	860	312208.0	.	.	
-ch.7051	RNASeq_F_asymmetry	transcript_region	862	862	325016.0	.	.	

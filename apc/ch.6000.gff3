@@ -1,23 +1,11 @@
-ch.6000	RNASeq_splice	intron	65	156	7.0	+	.	
 ch.6000	WormBase	five_prime_UTR	101	104	.	+	.	Parent=Transcript:Y38E10A.9.1
 ch.6000	WormBase	exon	101	273	.	+	.	Parent=Transcript:Y38E10A.9.1
 ch.6000	WormBase	gene	101	796	.	+	.	ID=Gene:WBGene00012587
 ch.6000	WormBase	mRNA	101	796	.	+	.	ID=Transcript:Y38E10A.9.1;Parent=Gene:WBGene00012587
 ch.6000	WormBase	CDS	105	273	.	+	.	ID=CDS:Y38E10A.9;Parent=Transcript:Y38E10A.9.1
-ch.6000	RNASeq_F_asymmetry	transcript_region	110	114	2693.0	.	.	
-ch.6000	RNASeq_reads	transcript_region	110	124	1.0	.	.	
-ch.6000	RNASeq_F_asymmetry	transcript_region	115	117	4051.0	.	.	
-ch.6000	RNASeq_F_asymmetry	transcript_region	118	143	6144.0	.	.	
-ch.6000	RNASeq_reads	transcript_region	125	273	2.0	.	.	
-ch.6000	RNASeq_F_asymmetry	transcript_region	144	187	9573.0	.	.	
-ch.6000	RNASeq_reads	transcript_region	274	274	1.0	.	.	
 ch.6000	WormBase	intron	274	679	.	+	.	Parent=Transcript:Y38E10A.9.1
 ch.6000	RNASeq_splice	intron	274	679	11452.0	+	.	
 ch.6000	RNASeq_splice	intron	406	679	37.0	+	.	
-ch.6000	RNASeq_reads	transcript_region	680	729	2.0	.	.	
 ch.6000	WormBase	CDS	680	744	.	+	.	ID=CDS:Y38E10A.9;Parent=Transcript:Y38E10A.9.1
 ch.6000	WormBase	exon	680	796	.	+	.	Parent=Transcript:Y38E10A.9.1
-ch.6000	RNASeq_R_asymmetry	transcript_region	715	724	7521.0	.	.	
-ch.6000	RNASeq_R_asymmetry	transcript_region	726	727	6275.0	.	.	
-ch.6000	RNASeq_reads	transcript_region	730	766	1.0	.	.	
 ch.6000	WormBase	three_prime_UTR	745	796	.	+	.	Parent=Transcript:Y38E10A.9.1

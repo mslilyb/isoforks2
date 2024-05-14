@@ -1,53 +1,30 @@
-ch.2654	RNASeq_reads	transcript_region	2	98	2.0	.	.	
-ch.2654	RNASeq_splice	intron	19	100	6.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	98	98	1.0	+	.	
-ch.2654	RNASeq_F_asymmetry	transcript_region	99	102	359755.0	.	.	
-ch.2654	RNASeq_reads	transcript_region	99	102	71.0	.	.	
-ch.2654	RNASeq_stranded	transcript_region	99	105	25.0	+	.	
 ch.2654	WormBase	five_prime_UTR	101	134	.	+	.	Parent=Transcript:W08E3.1.1
 ch.2654	WormBase	exon	101	137	.	+	.	Parent=Transcript:W08E3.1.1
 ch.2654	WormBase	gene	101	928	.	+	.	ID=Gene:WBGene00004915
 ch.2654	WormBase	mRNA	101	928	.	+	.	ID=Transcript:W08E3.1.1;Parent=Gene:WBGene00004915
-ch.2654	RNASeq_F_asymmetry	transcript_region	103	109	776845.0	.	.	
-ch.2654	RNASeq_reads	transcript_region	103	109	151.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	106	121	41.0	+	.	
-ch.2654	RNASeq_F_asymmetry	transcript_region	110	137	1225310.0	.	.	
-ch.2654	RNASeq_reads	transcript_region	110	137	240.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	122	137	62.0	+	.	
 ch.2654	WormBase	CDS	135	137	.	+	.	ID=CDS:W08E3.1;Parent=Transcript:W08E3.1.1
-ch.2654	RNASeq_reads	transcript_region	138	189	1.0	.	.	
 ch.2654	WormBase	intron	138	190	.	+	.	Parent=Transcript:W08E3.1.1
 ch.2654	RNASeq_splice	intron	138	190	2004740.0	+	.	
 ch.2654	RNASeq_splice	intron	138	202	3.0	+	.	
 ch.2654	RNASeq_splice	intron	142	190	3.0	+	.	
-ch.2654	RNASeq_F_asymmetry	transcript_region	190	190	146622.0	.	.	
-ch.2654	RNASeq_reads	transcript_region	190	190	37.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	190	190	10.0	+	.	
 ch.2654	RNASeq_stranded	transcript_region	191	225	60.0	+	.	
-ch.2654	RNASeq_F_asymmetry	transcript_region	191	233	1723710.0	.	.	
 ch.2654	WormBase	CDS	191	361	.	+	.	ID=CDS:W08E3.1;Parent=Transcript:W08E3.1.1
 ch.2654	WormBase	exon	191	361	.	+	.	Parent=Transcript:W08E3.1.1
-ch.2654	RNASeq_reads	transcript_region	191	361	356.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	226	275	95.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	237	287	1.0	-	.	
 ch.2654	RNASeq_splice	intron	258	317	84.0	+	.	
 ch.2654	RNASeq_stranded	transcript_region	276	361	57.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	288	335	2.0	-	.	
 ch.2654	RNASeq_splice	intron	299	335	6.0	+	.	
-ch.2654	RNASeq_splice	intron	311	447	3.0	-	.	
-ch.2654	RNASeq_stranded	transcript_region	336	346	1.0	-	.	
 ch.2654	RNASeq_splice	intron	350	534	18.0	+	.	
 ch.2654	WormBase	intron	362	417	.	+	.	Parent=Transcript:W08E3.1.1
 ch.2654	RNASeq_splice	intron	362	417	2014200.0	+	.	
 ch.2654	RNASeq_splice	intron	362	506	6.0	+	.	
-ch.2654	RNASeq_reads	transcript_region	415	415	1.0	.	.	
-ch.2654	RNASeq_reads	transcript_region	416	417	56.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	416	417	11.0	+	.	
 ch.2654	RNASeq_stranded	transcript_region	418	520	55.0	+	.	
 ch.2654	WormBase	CDS	418	726	.	+	.	ID=CDS:W08E3.1;Parent=Transcript:W08E3.1.1
-ch.2654	RNASeq_reads	transcript_region	418	766	398.0	.	.	
 ch.2654	WormBase	exon	418	928	.	+	.	Parent=Transcript:W08E3.1.1
-ch.2654	RNASeq_stranded	transcript_region	445	637	1.0	-	.	
 ch.2654	RNASeq_splice	intron	446	634	7.0	+	.	
 ch.2654	RNASeq_splice	intron	461	619	5.0	+	.	
 ch.2654	RNASeq_splice	intron	492	698	9.0	+	.	
@@ -56,8 +33,6 @@ ch.2654	RNASeq_stranded	transcript_region	521	746	83.0	+	.
 ch.2654	RNASeq_splice	intron	535	567	5.0	+	.	
 ch.2654	RNASeq_splice	intron	535	574	6.0	+	.	
 ch.2654	RNASeq_splice	intron	535	634	7.0	+	.	
-ch.2654	RNASeq_splice	intron	545	667	6.0	-	.	
-ch.2654	RNASeq_splice	intron	545	715	11.0	-	.	
 ch.2654	RNASeq_splice	intron	551	631	19.0	+	.	
 ch.2654	RNASeq_splice	intron	551	646	22.0	+	.	
 ch.2654	RNASeq_splice	intron	562	634	3.0	+	.	
@@ -65,51 +40,18 @@ ch.2654	RNASeq_splice	intron	575	634	210.0	+	.
 ch.2654	RNASeq_splice	intron	575	646	13.0	+	.	
 ch.2654	RNASeq_splice	intron	575	712	6.0	+	.	
 ch.2654	RNASeq_splice	intron	589	619	3.0	+	.	
-ch.2654	RNASeq_splice	intron	590	616	83.0	-	.	
 ch.2654	RNASeq_splice	intron	594	619	4.0	+	.	
 ch.2654	RNASeq_splice	intron	620	670	4.0	+	.	
 ch.2654	RNASeq_splice	intron	620	679	4.0	+	.	
 ch.2654	RNASeq_splice	intron	620	687	16.0	+	.	
 ch.2654	RNASeq_splice	intron	635	712	129.0	+	.	
 ch.2654	RNASeq_splice	intron	648	746	8.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	651	652	1.0	-	.	
-ch.2654	RNASeq_stranded	transcript_region	661	668	1.0	-	.	
-ch.2654	RNASeq_stranded	transcript_region	720	806	1.0	-	.	
 ch.2654	WormBase	three_prime_UTR	727	928	.	+	.	Parent=Transcript:W08E3.1.1
 ch.2654	RNASeq_stranded	transcript_region	747	757	126.0	+	.	
 ch.2654	RNASeq_stranded	transcript_region	758	775	192.0	+	.	
-ch.2654	RNASeq_reads	transcript_region	767	879	256.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	776	825	489.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	807	809	2.0	-	.	
-ch.2654	RNASeq_stranded	transcript_region	810	815	1.0	-	.	
 ch.2654	RNASeq	transcription_end_site	814	814	.	+	.	
-ch.2654	RNASeq_stranded	transcript_region	816	844	2.0	-	.	
 ch.2654	RNASeq_stranded	transcript_region	826	907	288.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	845	848	4.0	-	.	
 ch.2654	RNASeq_stranded	transcript_region	849	849	9.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	850	870	16.0	-	.	
-ch.2654	RNASeq_stranded	transcript_region	871	899	27.0	-	.	
-ch.2654	RNASeq_R_asymmetry	transcript_region	880	889	662293.0	.	.	
-ch.2654	RNASeq_reads	transcript_region	880	897	167.0	.	.	
-ch.2654	RNASeq_reads	transcript_region	898	907	108.0	.	.	
-ch.2654	RNASeq_stranded	transcript_region	900	905	13.0	-	.	
-ch.2654	RNASeq_stranded	transcript_region	906	920	3.0	-	.	
-ch.2654	RNASeq_reads	transcript_region	908	911	71.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	908	917	188.0	+	.	
-ch.2654	RNASeq_reads	transcript_region	912	926	45.0	.	.	
 ch.2654	RNASeq_stranded	transcript_region	918	926	116.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	921	931	1.0	-	.	
-ch.2654	RNASeq_reads	transcript_region	927	928	28.0	.	.	
-ch.2654	RNASeq_stranded	transcript_region	927	929	71.0	+	.	
-ch.2654	RNASeq_reads	transcript_region	929	929	18.0	.	.	
-ch.2654	RNASeq	transcription_end_site	929	929	.	+	.	
-ch.2654	RNASeq_reads	transcript_region	930	930	9.0	.	.	
-ch.2654	RNASeq_stranded	transcript_region	930	931	19.0	+	.	
-ch.2654	RNASeq_reads	transcript_region	931	931	5.0	.	.	
-ch.2654	RNASeq	transcription_end_site	931	931	.	+	.	
-ch.2654	RNASeq_reads	transcript_region	932	932	2.0	.	.	
-ch.2654	RNASeq	transcription_end_site	932	932	.	+	.	
-ch.2654	RNASeq_stranded	transcript_region	932	933	4.0	+	.	
-ch.2654	RNASeq_reads	transcript_region	933	936	1.0	.	.	
-ch.2654	RNASeq_stranded	transcript_region	934	937	1.0	+	.	
-ch.2654	RNASeq_stranded	transcript_region	940	941	1.0	+	.	

@@ -1,67 +1,38 @@
-ch.593	RNASeq_F_asymmetry	transcript_region	939	941	638.0	.	.	
-ch.593	RNASeq_F_asymmetry	transcript_region	910	938	969.0	.	.	
-ch.593	RNASeq_F_asymmetry	transcript_region	881	909	1587.0	.	.	
 ch.593	WormBase	three_prime_UTR	808	888	.	+	.	Parent=Transcript:F28H1.5.1
 ch.593	WormBase	exon	797	888	.	+	.	Parent=Transcript:F28H1.5.1
 ch.593	WormBase	gene	101	888	.	+	.	ID=Gene:WBGene00017910
 ch.593	WormBase	mRNA	101	888	.	+	.	ID=Transcript:F28H1.5.1;Parent=Gene:WBGene00017910
-ch.593	RNASeq_reads	transcript_region	844	882	1.0	.	.	
-ch.593	RNASeq_F_asymmetry	transcript_region	860	880	3073.0	.	.	
-ch.593	RNASeq_F_asymmetry	transcript_region	837	859	4753.0	.	.	
 ch.593	RNASeq_stranded	transcript_region	848	855	1.0	+	.	
-ch.593	RNASeq_reads	transcript_region	797	843	2.0	.	.	
 ch.593	RNASeq_stranded	transcript_region	838	839	1.0	+	.	
-ch.593	RNASeq_F_asymmetry	transcript_region	797	836	7155.0	.	.	
 ch.593	RNASeq_stranded	transcript_region	797	832	1.0	+	.	
 ch.593	WormBase	CDS	797	807	.	+	.	ID=CDS:F28H1.5;Parent=Transcript:F28H1.5.1
 ch.593	WormBase	intron	582	796	.	+	.	Parent=Transcript:F28H1.5.1
 ch.593	RNASeq_splice	intron	582	796	12703.0	+	.	
 ch.593	RNASeq_splice	intron	564	796	364.0	+	.	
 ch.593	RNASeq_splice	intron	381	796	3.0	+	.	
-ch.593	RNASeq_splice	intron	649	705	4.0	-	.	
-ch.593	RNASeq_F_asymmetry	transcript_region	559	581	11309.0	.	.	
-ch.593	RNASeq_reads	transcript_region	550	581	3.0	.	.	
 ch.593	RNASeq_stranded	transcript_region	418	581	1.0	+	.	
 ch.593	WormBase	CDS	350	581	.	+	.	ID=CDS:F28H1.5;Parent=Transcript:F28H1.5.1
 ch.593	WormBase	exon	350	581	.	+	.	Parent=Transcript:F28H1.5.1
-ch.593	RNASeq_reads	transcript_region	455	549	5.0	.	.	
 ch.593	RNASeq_splice	intron	381	487	6.0	+	.	
 ch.593	RNASeq_splice	intron	381	462	7.0	+	.	
-ch.593	RNASeq_reads	transcript_region	350	454	8.0	.	.	
 ch.593	RNASeq_splice	intron	381	427	25.0	+	.	
 ch.593	RNASeq_stranded	transcript_region	407	417	2.0	+	.	
 ch.593	RNASeq_stranded	transcript_region	365	406	4.0	+	.	
 ch.593	RNASeq_stranded	transcript_region	359	364	1.0	+	.	
 ch.593	RNASeq_stranded	transcript_region	357	358	2.0	+	.	
 ch.593	RNASeq_stranded	transcript_region	350	356	1.0	+	.	
-ch.593	RNASeq_R_asymmetry	transcript_region	343	349	633.0	.	.	
 ch.593	WormBase	intron	302	349	.	+	.	Parent=Transcript:F28H1.5.1
 ch.593	RNASeq_splice	intron	302	349	30041.0	+	.	
 ch.593	RNASeq_splice	intron	181	349	3.0	+	.	
-ch.593	RNASeq_splice	intron	53	349	3.0	+	.	
-ch.593	RNASeq_R_asymmetry	transcript_region	342	342	373.0	.	.	
 ch.593	RNASeq_stranded	transcript_region	300	301	2.0	+	.	
 ch.593	WormBase	CDS	233	301	.	+	.	ID=CDS:F28H1.5;Parent=Transcript:F28H1.5.1
 ch.593	WormBase	exon	233	301	.	+	.	Parent=Transcript:F28H1.5.1
-ch.593	RNASeq_reads	transcript_region	233	301	6.0	.	.	
 ch.593	RNASeq_stranded	transcript_region	251	299	4.0	+	.	
 ch.593	RNASeq_stranded	transcript_region	233	250	2.0	+	.	
 ch.593	WormBase	intron	181	232	.	+	.	Parent=Transcript:F28H1.5.1
 ch.593	RNASeq_splice	intron	181	232	20364.0	+	.	
-ch.593	RNASeq_splice	intron	53	232	10.0	+	.	
 ch.593	RNASeq_stranded	transcript_region	156	180	2.0	+	.	
-ch.593	RNASeq_reads	transcript_region	136	180	4.0	.	.	
-ch.593	RNASeq_R_asymmetry	transcript_region	135	180	16600.0	.	.	
 ch.593	WormBase	CDS	115	180	.	+	.	ID=CDS:F28H1.5;Parent=Transcript:F28H1.5.1
 ch.593	WormBase	exon	101	180	.	+	.	Parent=Transcript:F28H1.5.1
 ch.593	RNASeq_stranded	transcript_region	135	155	1.0	+	.	
-ch.593	RNASeq_splice	intron	53	155	11.0	+	.	
-ch.593	RNASeq_reads	transcript_region	125	135	2.0	.	.	
-ch.593	RNASeq_R_asymmetry	transcript_region	125	134	10920.0	.	.	
-ch.593	RNASeq_R_asymmetry	transcript_region	119	124	5772.0	.	.	
-ch.593	RNASeq_reads	transcript_region	117	124	1.0	.	.	
-ch.593	RNASeq_R_asymmetry	transcript_region	117	118	3255.0	.	.	
-ch.593	RNASeq_R_asymmetry	transcript_region	108	115	1302.0	.	.	
 ch.593	WormBase	five_prime_UTR	101	114	.	+	.	Parent=Transcript:F28H1.5.1
-ch.593	RNASeq_R_asymmetry	transcript_region	104	104	819.0	.	.	
-ch.593	RNASeq_splice	intron	53	92	5.0	+	.	

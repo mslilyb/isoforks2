@@ -1,48 +1,18 @@
-ch.13277	RNASeq_reads	transcript_region	101	125	1.0	.	.	
 ch.13277	WormBase	CDS	101	304	.	+	.	ID=CDS:C07G3.10;Parent=Transcript:C07G3.10.1
 ch.13277	WormBase	exon	101	304	.	+	.	Parent=Transcript:C07G3.10.1
 ch.13277	WormBase	gene	101	945	.	+	.	ID=Gene:WBGene00015578
 ch.13277	WormBase	mRNA	101	945	.	+	.	ID=Transcript:C07G3.10.1;Parent=Gene:WBGene00015578
-ch.13277	RNASeq_F_asymmetry	transcript_region	106	111	3158.0	.	.	
-ch.13277	RNASeq_F_asymmetry	transcript_region	112	153	5321.0	.	.	
-ch.13277	RNASeq_reads	transcript_region	126	304	2.0	.	.	
-ch.13277	RNASeq_F_asymmetry	transcript_region	154	161	7987.0	.	.	
 ch.13277	WormBase	intron	305	364	.	+	.	Parent=Transcript:C07G3.10.1
 ch.13277	RNASeq_splice	intron	305	364	12960.0	+	.	
-ch.13277	RNASeq_reads	transcript_region	365	819	2.0	.	.	
 ch.13277	WormBase	CDS	365	871	.	+	.	ID=CDS:C07G3.10;Parent=Transcript:C07G3.10.1
 ch.13277	WormBase	exon	365	945	.	+	.	Parent=Transcript:C07G3.10.1
 ch.13277	RNASeq_stranded	transcript_region	493	542	1.0	+	.	
 ch.13277	RNASeq_splice	intron	677	721	5.0	+	.	
-ch.13277	RNASeq_reads	transcript_region	820	911	1.0	.	.	
 ch.13277	WormBase	three_prime_UTR	872	945	.	+	.	Parent=Transcript:C07G3.10.1
 ch.13277	RNASeq	transcription_end_site	873	873	.	+	.	
 ch.13277	RNASeq_stranded	transcript_region	874	898	1.0	+	.	
-ch.13277	WormBase	three_prime_UTR	874	999	.	-	.	Parent=Transcript:C07G3.9a.2
 ch.13277	RNASeq	transcription_end_site	875	875	.	+	.	
-ch.13277	RNASeq_stranded	transcript_region	877	894	1.0	-	.	
-ch.13277	RNASeq_R_asymmetry	transcript_region	901	911	2438.0	.	.	
 ch.13277	RNASeq	transcription_end_site	918	918	.	+	.	
 ch.13277	RNASeq	transcription_end_site	918	918	.	+	.	
-ch.13277	RNASeq_reads	transcript_region	918	925	1.0	.	.	
 ch.13277	RNASeq	transcription_end_site	920	920	.	+	.	
 ch.13277	RNASeq	transcription_end_site	920	920	.	+	.	
-ch.13277	WormBase	three_prime_UTR	920	999	.	-	.	Parent=Transcript:C07G3.9a.3
-ch.13277	RNASeq_stranded	transcript_region	925	929	1.0	-	.	
-ch.13277	WormBase	three_prime_UTR	925	999	.	-	.	Parent=Transcript:C07G3.9a.1
-ch.13277	RNASeq_reads	transcript_region	926	943	2.0	.	.	
-ch.13277	RNASeq_stranded	transcript_region	930	936	2.0	-	.	
-ch.13277	RNASeq_stranded	transcript_region	937	954	4.0	-	.	
-ch.13277	RNASeq_reads	transcript_region	944	963	4.0	.	.	
-ch.13277	RNASeq_stranded	transcript_region	955	986	7.0	-	.	
-ch.13277	RNASeq_stranded	transcript_region	962	988	1.0	+	.	
-ch.13277	RNASeq_F_asymmetry	transcript_region	964	966	28496.0	.	.	
-ch.13277	RNASeq_reads	transcript_region	964	966	7.0	.	.	
-ch.13277	RNASeq_reads	transcript_region	967	991	13.0	.	.	
-ch.13277	RNASeq_F_asymmetry	transcript_region	967	992	57827.0	.	.	
-ch.13277	RNASeq	transcription_end_site	980	980	.	+	.	
-ch.13277	RNASeq	transcription_end_site	980	980	.	+	.	
-ch.13277	RNASeq_stranded	transcript_region	987	1016	11.0	-	.	
-ch.13277	RNASeq_stranded	transcript_region	989	1011	2.0	+	.	
-ch.13277	RNASeq_reads	transcript_region	992	1019	20.0	.	.	
-ch.13277	RNASeq_stranded	transcript_region	1012	1038	1.0	+	.	

@@ -1,114 +1,62 @@
-ch.4644	RNASeq	transcription_end_site	1070	1070	.	-	.	
 ch.4644	WormBase	three_prime_UTR	1026	1069	.	+	.	Parent=Transcript:C18H9.6.1
 ch.4644	WormBase	exon	818	1069	.	+	.	Parent=Transcript:C18H9.6.1
 ch.4644	WormBase	gene	101	1069	.	+	.	ID=Gene:WBGene00016004
 ch.4644	WormBase	mRNA	101	1069	.	+	.	ID=Transcript:C18H9.6.1;Parent=Gene:WBGene00016004
 ch.4644	RNASeq_stranded	transcript_region	1066	1068	16.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	1062	1068	4.0	.	.	
-ch.4644	RNASeq_stranded	transcript_region	979	1068	1.0	-	.	
 ch.4644	RNASeq_stranded	transcript_region	1056	1065	26.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	1054	1061	7.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	1049	1055	43.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	1044	1053	11.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	1042	1048	65.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	1030	1043	17.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	1026	1041	100.0	+	.	
-ch.4644	RNASeq	transcription_end_site	1037	1037	.	-	.	
-ch.4644	RNASeq_reads	transcript_region	1004	1029	26.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	996	1025	164.0	+	.	
 ch.4644	WormBase	CDS	818	1025	.	+	.	ID=CDS:C18H9.6;Parent=Transcript:C18H9.6.1
-ch.4644	RNASeq	transcription_end_site	1006	1006	.	-	.	
-ch.4644	RNASeq_reads	transcript_region	988	1003	40.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	925	995	249.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	957	987	61.0	.	.	
-ch.4644	RNASeq_reads	transcript_region	818	956	92.0	.	.	
-ch.4644	RNASeq	base_call_error_correction	946	946	.	-	.	
-ch.4644	RNASeq_stranded	transcript_region	919	926	1.0	-	.	
 ch.4644	RNASeq_stranded	transcript_region	898	924	161.0	+	.	
-ch.4644	RNASeq_stranded	transcript_region	917	917	1.0	-	.	
-ch.4644	RNASeq_stranded	transcript_region	887	909	1.0	-	.	
 ch.4644	RNASeq_stranded	transcript_region	891	897	103.0	+	.	
 ch.4644	RNASeq_stranded	transcript_region	879	890	66.0	+	.	
-ch.4644	RNASeq_stranded	transcript_region	879	882	1.0	-	.	
 ch.4644	RNASeq_stranded	transcript_region	848	878	42.0	+	.	
 ch.4644	RNASeq_stranded	transcript_region	818	847	65.0	+	.	
 ch.4644	RNASeq_splice	intron	765	825	720.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	814	817	2.0	.	.	
 ch.4644	RNASeq_splice	intron	769	817	112.0	+	.	
 ch.4644	WormBase	intron	765	817	.	+	.	Parent=Transcript:C18H9.6.1
 ch.4644	RNASeq_splice	intron	765	817	429845.0	+	.	
 ch.4644	RNASeq_stranded	transcript_region	765	817	1.0	+	.	
 ch.4644	RNASeq_splice	intron	760	817	12.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	765	813	1.0	.	.	
 ch.4644	RNASeq_splice	intron	765	803	175.0	+	.	
 ch.4644	RNASeq_stranded	transcript_region	723	764	79.0	+	.	
 ch.4644	WormBase	CDS	690	764	.	+	.	ID=CDS:C18H9.6;Parent=Transcript:C18H9.6.1
 ch.4644	WormBase	exon	690	764	.	+	.	Parent=Transcript:C18H9.6.1
-ch.4644	RNASeq_reads	transcript_region	690	764	84.0	.	.	
 ch.4644	RNASeq_splice	intron	604	724	24.0	+	.	
 ch.4644	RNASeq_stranded	transcript_region	690	722	52.0	+	.	
 ch.4644	RNASeq_splice	intron	604	711	997.0	+	.	
 ch.4644	RNASeq_splice	intron	578	711	9.0	+	.	
 ch.4644	RNASeq_splice	intron	604	691	205.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	688	689	13.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	688	689	7.0	+	.	
 ch.4644	RNASeq_splice	intron	635	689	18.0	+	.	
 ch.4644	WormBase	intron	604	689	.	+	.	Parent=Transcript:C18H9.6.1
 ch.4644	RNASeq_splice	intron	604	689	497744.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	604	687	3.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	604	687	1.0	+	.	
 ch.4644	RNASeq_splice	intron	604	664	26.0	+	.	
 ch.4644	RNASeq_splice	intron	604	649	40.0	+	.	
 ch.4644	WormBase	CDS	526	603	.	+	.	ID=CDS:C18H9.6;Parent=Transcript:C18H9.6.1
 ch.4644	WormBase	exon	526	603	.	+	.	Parent=Transcript:C18H9.6.1
-ch.4644	RNASeq_reads	transcript_region	526	603	111.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	526	603	52.0	+	.	
-ch.4644	RNASeq_stranded	transcript_region	543	593	1.0	-	.	
-ch.4644	RNASeq_splice	intron	484	531	29.0	-	.	
 ch.4644	RNASeq_splice	intron	481	528	1009.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	478	525	1.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	478	525	1.0	+	.	
 ch.4644	WormBase	intron	477	525	.	+	.	Parent=Transcript:C18H9.6.1
 ch.4644	RNASeq_splice	intron	477	525	572448.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	477	477	11.0	.	.	
-ch.4644	RNASeq_stranded	transcript_region	477	477	7.0	-	.	
 ch.4644	RNASeq_stranded	transcript_region	317	476	37.0	+	.	
 ch.4644	WormBase	CDS	313	476	.	+	.	ID=CDS:C18H9.6;Parent=Transcript:C18H9.6.1
-ch.4644	RNASeq_reads	transcript_region	252	476	118.0	.	.	
 ch.4644	WormBase	exon	101	476	.	+	.	Parent=Transcript:C18H9.6.1
-ch.4644	RNASeq_stranded	transcript_region	400	438	1.0	-	.	
-ch.4644	RNASeq_stranded	transcript_region	386	399	2.0	-	.	
 ch.4644	RNASeq_splice	intron	340	394	20.0	+	.	
-ch.4644	RNASeq_splice	intron	337	394	9.0	-	.	
-ch.4644	RNASeq_splice	intron	336	394	9.0	-	.	
-ch.4644	RNASeq_stranded	transcript_region	349	385	4.0	-	.	
-ch.4644	RNASeq_stranded	transcript_region	342	348	2.0	-	.	
-ch.4644	RNASeq_stranded	transcript_region	339	341	1.0	-	.	
-ch.4644	RNASeq_stranded	transcript_region	332	338	2.0	-	.	
-ch.4644	RNASeq_stranded	transcript_region	288	331	1.0	-	.	
 ch.4644	RNASeq_stranded	transcript_region	265	316	56.0	+	.	
 ch.4644	WormBase	five_prime_UTR	101	312	.	+	.	Parent=Transcript:C18H9.6.1
 ch.4644	RNASeq_stranded	transcript_region	257	264	35.0	+	.	
 ch.4644	RNASeq_stranded	transcript_region	218	256	16.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	144	251	77.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	185	217	29.0	+	.	
-ch.4644	RNASeq_R_asymmetry	transcript_region	136	197	282451.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	135	184	47.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	130	143	48.0	.	.	
-ch.4644	RNASeq_R_asymmetry	transcript_region	127	135	185542.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	123	134	31.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	123	129	31.0	.	.	
-ch.4644	RNASeq_R_asymmetry	transcript_region	120	126	118764.0	.	.	
-ch.4644	RNASeq_reads	transcript_region	120	122	19.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	118	122	20.0	+	.	
-ch.4644	RNASeq_R_asymmetry	transcript_region	118	119	50882.0	.	.	
-ch.4644	RNASeq_reads	transcript_region	116	119	11.0	.	.	
-ch.4644	RNASeq_R_asymmetry	transcript_region	113	117	32683.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	113	117	12.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	111	115	7.0	.	.	
-ch.4644	RNASeq_R_asymmetry	transcript_region	111	112	21331.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	111	112	7.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	105	110	3.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	105	110	3.0	+	.	
-ch.4644	RNASeq_reads	transcript_region	101	104	1.0	.	.	
 ch.4644	RNASeq_stranded	transcript_region	101	104	1.0	+	.	

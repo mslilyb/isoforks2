@@ -1,87 +1,33 @@
-ch.1074	RNASeq_F_asymmetry	transcript_region	101	108	1169.0	.	.	
 ch.1074	WormBase	five_prime_UTR	101	177	.	+	.	Parent=Transcript:C48E7.7.1
 ch.1074	WormBase	exon	101	257	.	+	.	Parent=Transcript:C48E7.7.1
 ch.1074	WormBase	gene	101	784	.	+	.	ID=Gene:WBGene00016752
 ch.1074	WormBase	mRNA	101	784	.	+	.	ID=Transcript:C48E7.7.1;Parent=Gene:WBGene00016752
-ch.1074	RNASeq_F_asymmetry	transcript_region	109	111	1974.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	111	111	1.0	.	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	112	119	11631.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	112	119	3.0	.	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	120	125	29608.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	120	125	6.0	.	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	126	127	80954.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	126	127	17.0	.	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	128	131	155740.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	128	131	32.0	.	.	
 ch.1074	RNASeq_stranded	transcript_region	129	135	1.0	+	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	132	133	243451.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	132	134	50.0	.	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	134	143	368207.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	135	143	77.0	.	.	
 ch.1074	RNASeq_stranded	transcript_region	136	140	2.0	+	.	
 ch.1074	RNASeq_stranded	transcript_region	141	151	4.0	+	.	
-ch.1074	RNASeq_reads	transcript_region	144	166	117.0	.	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	144	170	569707.0	.	.	
 ch.1074	RNASeq_stranded	transcript_region	152	169	11.0	+	.	
-ch.1074	RNASeq_reads	transcript_region	167	257	182.0	.	.	
 ch.1074	RNASeq_stranded	transcript_region	170	201	17.0	+	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	171	217	859881.0	.	.	
 ch.1074	WormBase	CDS	178	257	.	+	.	ID=CDS:C48E7.7;Parent=Transcript:C48E7.7.1
 ch.1074	RNASeq_stranded	transcript_region	202	209	9.0	+	.	
 ch.1074	RNASeq_stranded	transcript_region	210	210	5.0	+	.	
 ch.1074	RNASeq_stranded	transcript_region	211	231	3.0	+	.	
 ch.1074	RNASeq_stranded	transcript_region	232	245	5.0	+	.	
-ch.1074	RNASeq_splice	intron	245	289	3.0	-	.	
 ch.1074	RNASeq_stranded	transcript_region	246	257	10.0	+	.	
 ch.1074	RNASeq_splice	intron	250	302	128.0	+	.	
 ch.1074	RNASeq_splice	intron	256	302	8055.0	+	.	
-ch.1074	RNASeq_F_asymmetry	transcript_region	258	258	50567.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	258	258	11.0	.	.	
 ch.1074	WormBase	intron	258	302	.	+	.	Parent=Transcript:C48E7.7.1
 ch.1074	RNASeq_splice	intron	258	302	981828.0	+	.	
 ch.1074	RNASeq_splice	intron	258	316	18.0	+	.	
 ch.1074	RNASeq_splice	intron	258	370	49.0	+	.	
 ch.1074	RNASeq_splice	intron	262	302	6.0	+	.	
-ch.1074	RNASeq_reads	transcript_region	302	302	1.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	303	354	202.0	.	.	
 ch.1074	RNASeq_stranded	transcript_region	303	424	13.0	+	.	
 ch.1074	WormBase	CDS	303	681	.	+	.	ID=CDS:C48E7.7;Parent=Transcript:C48E7.7.1
 ch.1074	WormBase	exon	303	784	.	+	.	Parent=Transcript:C48E7.7.1
-ch.1074	RNASeq_stranded	transcript_region	336	342	1.0	-	.	
-ch.1074	RNASeq_stranded	transcript_region	343	392	2.0	-	.	
-ch.1074	RNASeq_reads	transcript_region	355	599	305.0	.	.	
-ch.1074	RNASeq_stranded	transcript_region	393	405	1.0	-	.	
 ch.1074	RNASeq_splice	intron	394	442	20.0	+	.	
 ch.1074	RNASeq_stranded	transcript_region	425	606	20.0	+	.	
-ch.1074	RNASeq_stranded	transcript_region	452	461	1.0	-	.	
-ch.1074	RNASeq_splice	intron	521	554	3.0	-	.	
-ch.1074	RNASeq_stranded	transcript_region	575	593	1.0	-	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	585	624	882072.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	600	628	201.0	.	.	
-ch.1074	RNASeq_stranded	transcript_region	605	624	1.0	-	.	
 ch.1074	RNASeq_stranded	transcript_region	607	685	13.0	+	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	625	656	569608.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	629	656	132.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	657	698	86.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	657	701	373660.0	.	.	
 ch.1074	WormBase	three_prime_UTR	682	784	.	+	.	Parent=Transcript:C48E7.7.1
 ch.1074	RNASeq_stranded	transcript_region	686	708	8.0	+	.	
-ch.1074	RNASeq_reads	transcript_region	699	714	56.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	702	714	244514.0	.	.	
 ch.1074	RNASeq_stranded	transcript_region	709	724	5.0	+	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	715	723	155536.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	715	723	35.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	724	731	100665.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	724	731	23.0	.	.	
 ch.1074	RNASeq_stranded	transcript_region	725	736	3.0	+	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	732	733	63524.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	732	734	15.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	735	736	7.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	737	739	5515.0	.	.	
-ch.1074	RNASeq_reads	transcript_region	737	747	1.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	740	742	3446.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	743	775	2238.0	.	.	
 ch.1074	RNASeq	possible_base_call_error	768	769	.	+	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	776	789	1473.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	790	797	953.0	.	.	
-ch.1074	RNASeq_R_asymmetry	transcript_region	798	798	486.0	.	.	

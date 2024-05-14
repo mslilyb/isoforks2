@@ -1,27 +1,17 @@
-ch.19412	RNASeq_F_asymmetry	transcript_region	97	101	3998.0	.	.	
-ch.19412	RNASeq_reads	transcript_region	97	101	1.0	.	.	
 ch.19412	RNASeq_stranded	transcript_region	101	101	1.0	+	.	
 ch.19412	WormBase	five_prime_UTR	101	126	.	+	.	Parent=Transcript:F54F7.4.1
 ch.19412	WormBase	exon	101	198	.	+	.	Parent=Transcript:F54F7.4.1
 ch.19412	WormBase	gene	101	1036	.	+	.	ID=Gene:WBGene00006965
 ch.19412	WormBase	mRNA	101	1036	.	+	.	ID=Transcript:F54F7.4.1;Parent=Gene:WBGene00006965
-ch.19412	RNASeq_F_asymmetry	transcript_region	102	108	9635.0	.	.	
-ch.19412	RNASeq_reads	transcript_region	102	120	2.0	.	.	
 ch.19412	RNASeq_stranded	transcript_region	102	125	2.0	+	.	
-ch.19412	RNASeq_F_asymmetry	transcript_region	109	149	14677.0	.	.	
-ch.19412	RNASeq_reads	transcript_region	121	198	4.0	.	.	
 ch.19412	RNASeq_stranded	transcript_region	126	198	4.0	+	.	
 ch.19412	WormBase	CDS	127	198	.	+	.	ID=CDS:F54F7.4;Parent=Transcript:F54F7.4.1
-ch.19412	RNASeq_F_asymmetry	transcript_region	150	198	22185.0	.	.	
 ch.19412	RNASeq_splice	intron	199	235	5.0	+	.	
 ch.19412	WormBase	intron	199	251	.	+	.	Parent=Transcript:F54F7.4.1
 ch.19412	RNASeq_splice	intron	199	251	25119.0	+	.	
 ch.19412	RNASeq_splice	intron	199	260	35.0	+	.	
-ch.19412	RNASeq_reads	transcript_region	250	251	1.0	.	.	
-ch.19412	RNASeq_stranded	transcript_region	250	342	1.0	-	.	
 ch.19412	RNASeq_stranded	transcript_region	252	318	1.0	+	.	
 ch.19412	WormBase	CDS	252	770	.	+	.	ID=CDS:F54F7.4;Parent=Transcript:F54F7.4.1
-ch.19412	RNASeq_reads	transcript_region	252	830	6.0	.	.	
 ch.19412	WormBase	exon	252	1036	.	+	.	Parent=Transcript:F54F7.4.1
 ch.19412	RNASeq_stranded	transcript_region	326	388	1.0	+	.	
 ch.19412	RNASeq_stranded	transcript_region	389	390	2.0	+	.	
@@ -42,15 +32,9 @@ ch.19412	RNASeq_stranded	transcript_region	681	682	1.0	+	.
 ch.19412	RNASeq_stranded	transcript_region	697	813	1.0	+	.	
 ch.19412	WormBase	three_prime_UTR	771	1036	.	+	.	Parent=Transcript:F54F7.4.1
 ch.19412	RNASeq_stranded	transcript_region	814	889	2.0	+	.	
-ch.19412	RNASeq_reads	transcript_region	831	884	3.0	.	.	
-ch.19412	RNASeq_splice	intron	884	1054	3.0	-	.	
-ch.19412	RNASeq_reads	transcript_region	885	1060	1.0	.	.	
 ch.19412	RNASeq_stranded	transcript_region	890	899	1.0	+	.	
 ch.19412	RNASeq_stranded	transcript_region	900	903	2.0	+	.	
 ch.19412	RNASeq_stranded	transcript_region	904	933	1.0	+	.	
 ch.19412	RNASeq_stranded	transcript_region	934	966	2.0	+	.	
 ch.19412	RNASeq_stranded	transcript_region	967	1030	1.0	+	.	
-ch.19412	RNASeq_stranded	transcript_region	985	1002	1.0	-	.	
-ch.19412	RNASeq_stranded	transcript_region	1016	1111	1.0	-	.	
 ch.19412	RNASeq	transcription_end_site	1031	1031	.	+	.	
-ch.19412	RNASeq_F_asymmetry	transcript_region	1034	1061	4990.0	.	.	

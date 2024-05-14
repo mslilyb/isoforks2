@@ -1,75 +1,37 @@
-ch.9164	RNASeq_R_asymmetry	transcript_region	1018	1019	3967.0	.	.	
-ch.9164	RNASeq_R_asymmetry	transcript_region	1016	1016	2734.0	.	.	
-ch.9164	RNASeq_R_asymmetry	transcript_region	1012	1012	2070.0	.	.	
-ch.9164	RNASeq	transcription_end_site	1012	1012	.	-	.	
-ch.9164	RNASeq	transcription_end_site	927	927	.	-	.	
-ch.9164	RNASeq	transcription_end_site	927	927	.	-	.	
 ch.9164	WormBase	three_prime_UTR	885	923	.	+	.	Parent=Transcript:T21D12.14.1
 ch.9164	WormBase	exon	818	923	.	+	.	Parent=Transcript:T21D12.14.1
 ch.9164	WormBase	gene	101	923	.	+	.	ID=Gene:WBGene00045177
 ch.9164	WormBase	mRNA	101	923	.	+	.	ID=Transcript:T21D12.14.1;Parent=Gene:WBGene00045177
-ch.9164	RNASeq	transcription_end_site	920	920	.	-	.	
-ch.9164	RNASeq	transcription_end_site	920	920	.	-	.	
-ch.9164	RNASeq_reads	transcript_region	914	920	1.0	.	.	
 ch.9164	RNASeq_stranded	transcript_region	902	920	1.0	+	.	
-ch.9164	RNASeq_F_asymmetry	transcript_region	914	916	4212.0	.	.	
-ch.9164	RNASeq_F_asymmetry	transcript_region	896	913	6526.0	.	.	
-ch.9164	RNASeq_reads	transcript_region	885	913	2.0	.	.	
 ch.9164	RNASeq_stranded	transcript_region	818	901	2.0	+	.	
-ch.9164	RNASeq_F_asymmetry	transcript_region	874	885	13772.0	.	.	
-ch.9164	RNASeq_reads	transcript_region	866	884	4.0	.	.	
 ch.9164	WormBase	CDS	818	884	.	+	.	ID=CDS:T21D12.14;Parent=Transcript:T21D12.14.1
-ch.9164	RNASeq_F_asymmetry	transcript_region	851	873	25498.0	.	.	
-ch.9164	RNASeq_reads	transcript_region	838	865	7.0	.	.	
-ch.9164	RNASeq_F_asymmetry	transcript_region	818	850	38474.0	.	.	
-ch.9164	RNASeq_reads	transcript_region	818	837	11.0	.	.	
-ch.9164	RNASeq_F_asymmetry	transcript_region	816	817	5982.0	.	.	
-ch.9164	RNASeq_reads	transcript_region	816	817	1.0	.	.	
 ch.9164	WormBase	intron	775	817	.	+	.	Parent=Transcript:T21D12.14.1
 ch.9164	RNASeq_splice	intron	775	817	58768.0	+	.	
 ch.9164	RNASeq_splice	intron	775	810	15.0	+	.	
-ch.9164	RNASeq_F_asymmetry	transcript_region	766	774	43288.0	.	.	
 ch.9164	RNASeq_stranded	transcript_region	739	774	2.0	+	.	
-ch.9164	RNASeq_reads	transcript_region	710	774	11.0	.	.	
 ch.9164	WormBase	CDS	668	774	.	+	.	ID=CDS:T21D12.14;Parent=Transcript:T21D12.14.1
 ch.9164	WormBase	exon	668	774	.	+	.	Parent=Transcript:T21D12.14.1
 ch.9164	RNASeq_stranded	transcript_region	688	738	5.0	+	.	
-ch.9164	RNASeq	transcription_end_site	711	711	.	-	.	
-ch.9164	RNASeq_reads	transcript_region	668	709	17.0	.	.	
 ch.9164	RNASeq_stranded	transcript_region	669	687	2.0	+	.	
 ch.9164	RNASeq_splice	intron	383	677	48.0	+	.	
 ch.9164	RNASeq_splice	intron	348	677	3.0	+	.	
 ch.9164	RNASeq_stranded	transcript_region	667	668	1.0	+	.	
-ch.9164	RNASeq_reads	transcript_region	667	667	2.0	.	.	
 ch.9164	RNASeq_splice	intron	562	667	5.0	+	.	
 ch.9164	WormBase	intron	383	667	.	+	.	Parent=Transcript:T21D12.14.1
 ch.9164	RNASeq_splice	intron	383	667	98225.0	+	.	
 ch.9164	RNASeq_splice	intron	348	667	196.0	+	.	
 ch.9164	RNASeq_splice	intron	203	667	12.0	+	.	
 ch.9164	RNASeq_splice	intron	383	539	14.0	+	.	
-ch.9164	RNASeq_reads	transcript_region	383	386	1.0	.	.	
 ch.9164	RNASeq_stranded	transcript_region	374	382	1.0	+	.	
 ch.9164	WormBase	CDS	287	382	.	+	.	ID=CDS:T21D12.14;Parent=Transcript:T21D12.14.1
 ch.9164	WormBase	exon	287	382	.	+	.	Parent=Transcript:T21D12.14.1
-ch.9164	RNASeq_reads	transcript_region	287	382	15.0	.	.	
 ch.9164	RNASeq_stranded	transcript_region	339	373	2.0	+	.	
-ch.9164	RNASeq	transcription_end_site	351	351	.	-	.	
-ch.9164	RNASeq	transcription_end_site	351	351	.	-	.	
 ch.9164	RNASeq_stranded	transcript_region	287	338	4.0	+	.	
-ch.9164	RNASeq_reads	transcript_region	286	286	2.0	.	.	
 ch.9164	RNASeq_splice	intron	226	286	5.0	+	.	
 ch.9164	WormBase	intron	203	286	.	+	.	Parent=Transcript:T21D12.14.1
 ch.9164	RNASeq_splice	intron	203	286	88132.0	+	.	
 ch.9164	RNASeq_splice	intron	203	276	3.0	+	.	
 ch.9164	WormBase	CDS	140	202	.	+	.	ID=CDS:T21D12.14;Parent=Transcript:T21D12.14.1
-ch.9164	RNASeq_reads	transcript_region	137	202	15.0	.	.	
-ch.9164	RNASeq_R_asymmetry	transcript_region	135	202	58398.0	.	.	
 ch.9164	RNASeq_stranded	transcript_region	126	202	3.0	+	.	
 ch.9164	WormBase	exon	101	202	.	+	.	Parent=Transcript:T21D12.14.1
 ch.9164	WormBase	five_prime_UTR	101	139	.	+	.	Parent=Transcript:T21D12.14.1
-ch.9164	RNASeq_reads	transcript_region	128	136	9.0	.	.	
-ch.9164	RNASeq_R_asymmetry	transcript_region	128	134	38344.0	.	.	
-ch.9164	RNASeq_R_asymmetry	transcript_region	126	127	18098.0	.	.	
-ch.9164	RNASeq_reads	transcript_region	126	127	4.0	.	.	
-ch.9164	RNASeq_R_asymmetry	transcript_region	121	125	5712.0	.	.	
-ch.9164	RNASeq_reads	transcript_region	121	125	1.0	.	.	

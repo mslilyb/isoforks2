@@ -1,38 +1,19 @@
-ch.2047	RNASeq_splice	intron	23	100	50.0	+	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	91	94	10571.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	91	94	2.0	.	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	95	98	26898.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	95	98	5.0	.	.	
-ch.2047	RNASeq_stranded	transcript_region	95	98	1.0	+	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	99	100	56620.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	99	100	11.0	.	.	
-ch.2047	RNASeq_stranded	transcript_region	99	100	3.0	+	.	
 ch.2047	WormBase	five_prime_UTR	101	102	.	+	.	Parent=Transcript:F59C6.4.1
 ch.2047	RNASeq_stranded	transcript_region	101	105	6.0	+	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	101	107	92161.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	101	107	18.0	.	.	
 ch.2047	WormBase	exon	101	266	.	+	.	Parent=Transcript:F59C6.4.1
 ch.2047	WormBase	gene	101	980	.	+	.	ID=Gene:WBGene00010325
 ch.2047	WormBase	mRNA	101	980	.	+	.	ID=Transcript:F59C6.4.1;Parent=Gene:WBGene00010325
 ch.2047	WormBase	CDS	103	266	.	+	.	ID=CDS:F59C6.4;Parent=Transcript:F59C6.4.1
 ch.2047	RNASeq_stranded	transcript_region	106	116	10.0	+	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	108	124	159652.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	108	125	32.0	.	.	
 ch.2047	RNASeq_stranded	transcript_region	117	167	30.0	+	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	125	176	239783.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	126	266	49.0	.	.	
 ch.2047	RNASeq_splice	intron	158	189	3.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	168	215	18.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	216	266	11.0	+	.	
-ch.2047	RNASeq_stranded	transcript_region	234	261	1.0	-	.	
-ch.2047	RNASeq_reads	transcript_region	267	269	4.0	.	.	
 ch.2047	WormBase	intron	267	317	.	+	.	Parent=Transcript:F59C6.4.1
 ch.2047	RNASeq_splice	intron	267	317	296588.0	+	.	
 ch.2047	RNASeq_splice	intron	267	330	45.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	316	317	9.0	.	.	
 ch.2047	RNASeq_stranded	transcript_region	316	317	3.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	318	322	11.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	318	430	58.0	.	.	
 ch.2047	WormBase	CDS	318	594	.	+	.	ID=CDS:F59C6.4;Parent=Transcript:F59C6.4.1
 ch.2047	WormBase	exon	318	594	.	+	.	Parent=Transcript:F59C6.4.1
 ch.2047	RNASeq_stranded	transcript_region	323	326	17.0	+	.	
@@ -40,61 +21,33 @@ ch.2047	RNASeq_stranded	transcript_region	327	374	26.0	+	.
 ch.2047	RNASeq_splice	intron	371	436	9.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	375	396	17.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	397	441	26.0	+	.	
-ch.2047	RNASeq_splice	intron	398	530	3.0	-	.	
-ch.2047	RNASeq_reads	transcript_region	431	594	88.0	.	.	
 ch.2047	RNASeq_splice	intron	437	493	9.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	442	504	42.0	+	.	
-ch.2047	RNASeq_stranded	transcript_region	469	554	1.0	-	.	
 ch.2047	RNASeq	transcription_end_site	470	470	.	+	.	
 ch.2047	RNASeq_stranded	transcript_region	505	594	25.0	+	.	
 ch.2047	RNASeq_splice	intron	588	643	97.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	595	596	7.0	.	.	
 ch.2047	RNASeq_stranded	transcript_region	595	596	4.0	+	.	
 ch.2047	WormBase	intron	595	643	.	+	.	Parent=Transcript:F59C6.4.1
 ch.2047	RNASeq_splice	intron	595	643	365793.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	642	643	1.0	.	.	
 ch.2047	RNASeq_stranded	transcript_region	644	663	20.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	644	861	68.0	.	.	
 ch.2047	WormBase	CDS	644	883	.	+	.	ID=CDS:F59C6.4;Parent=Transcript:F59C6.4.1
 ch.2047	WormBase	exon	644	980	.	+	.	Parent=Transcript:F59C6.4.1
 ch.2047	RNASeq_stranded	transcript_region	664	717	13.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	718	779	20.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	780	842	13.0	+	.	
 ch.2047	RNASeq	transcription_end_site	795	795	.	+	.	
-ch.2047	RNASeq_R_asymmetry	transcript_region	827	855	250305.0	.	.	
 ch.2047	RNASeq_stranded	transcript_region	843	857	20.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	858	946	31.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	862	917	44.0	.	.	
 ch.2047	RNASeq	transcription_end_site	864	864	.	+	.	
 ch.2047	RNASeq	transcription_end_site	869	869	.	+	.	
 ch.2047	WormBase	three_prime_UTR	884	980	.	+	.	Parent=Transcript:F59C6.4.1
 ch.2047	RNASeq	transcription_end_site	887	887	.	+	.	
-ch.2047	RNASeq_R_asymmetry	transcript_region	898	924	133643.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	918	925	29.0	.	.	
 ch.2047	RNASeq	transcription_end_site	925	925	.	+	.	
 ch.2047	RNASeq	transcription_end_site	926	926	.	+	.	
-ch.2047	RNASeq_reads	transcript_region	926	957	16.0	.	.	
 ch.2047	RNASeq	transcription_end_site	935	935	.	+	.	
-ch.2047	RNASeq_R_asymmetry	transcript_region	946	972	51042.0	.	.	
 ch.2047	RNASeq_stranded	transcript_region	947	954	20.0	+	.	
 ch.2047	RNASeq_stranded	transcript_region	955	962	13.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	958	975	10.0	.	.	
 ch.2047	RNASeq_stranded	transcript_region	963	970	8.0	+	.	
 ch.2047	RNASeq	transcription_end_site	970	970	.	+	.	
 ch.2047	RNASeq_stranded	transcript_region	971	977	5.0	+	.	
-ch.2047	RNASeq_R_asymmetry	transcript_region	973	980	32159.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	976	981	6.0	.	.	
-ch.2047	RNASeq_stranded	transcript_region	978	984	3.0	+	.	
 ch.2047	RNASeq	transcription_end_site	980	980	.	+	.	
-ch.2047	RNASeq_R_asymmetry	transcript_region	981	984	16892.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	982	985	3.0	.	.	
-ch.2047	RNASeq_R_asymmetry	transcript_region	985	985	8869.0	.	.	
-ch.2047	RNASeq	transcription_end_site	985	985	.	+	.	
-ch.2047	RNASeq_stranded	transcript_region	985	1011	1.0	+	.	
-ch.2047	RNASeq_reads	transcript_region	986	1011	1.0	.	.	
-ch.2047	RNASeq	transcription_end_site	1012	1012	.	+	.	
-ch.2047	RNASeq_reads	transcript_region	1021	1072	1.0	.	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	1064	1072	3263.0	.	.	
-ch.2047	RNASeq_F_asymmetry	transcript_region	1073	1076	17185.0	.	.	
-ch.2047	RNASeq_reads	transcript_region	1073	1076	4.0	.	.	
-ch.2047	RNASeq_stranded	transcript_region	1073	1078	1.0	+	.	

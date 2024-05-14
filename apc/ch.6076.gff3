@@ -1,57 +1,25 @@
-ch.6076	RNASeq_F_asymmetry	transcript_region	985	986	2126.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	965	985	1.0	.	.	
-ch.6076	RNASeq_F_asymmetry	transcript_region	971	984	3801.0	.	.	
 ch.6076	WormBase	three_prime_UTR	862	984	.	+	.	Parent=Transcript:Y38F1A.7.1
 ch.6076	WormBase	exon	601	984	.	+	.	Parent=Transcript:Y38F1A.7.1
 ch.6076	WormBase	gene	101	984	.	+	.	ID=Gene:WBGene00012609
 ch.6076	WormBase	mRNA	101	984	.	+	.	ID=Transcript:Y38F1A.7.1;Parent=Gene:WBGene00012609
-ch.6076	RNASeq_F_asymmetry	transcript_region	961	970	5721.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	883	964	2.0	.	.	
-ch.6076	RNASeq_F_asymmetry	transcript_region	901	960	8822.0	.	.	
 ch.6076	RNASeq_stranded	transcript_region	809	917	1.0	+	.	
-ch.6076	RNASeq	transcription_end_site	882	882	.	-	.	
-ch.6076	RNASeq	transcription_end_site	882	882	.	-	.	
-ch.6076	RNASeq_reads	transcript_region	829	882	4.0	.	.	
 ch.6076	WormBase	CDS	601	861	.	+	.	ID=CDS:Y38F1A.7;Parent=Transcript:Y38F1A.7.1
-ch.6076	RNASeq_reads	transcript_region	636	828	7.0	.	.	
 ch.6076	RNASeq_stranded	transcript_region	761	790	1.0	+	.	
 ch.6076	RNASeq_stranded	transcript_region	741	760	2.0	+	.	
 ch.6076	RNASeq_stranded	transcript_region	620	740	1.0	+	.	
-ch.6076	RNASeq_reads	transcript_region	601	635	11.0	.	.	
-ch.6076	RNASeq_stranded	transcript_region	617	617	1.0	-	.	
 ch.6076	WormBase	intron	339	600	.	+	.	Parent=Transcript:Y38F1A.7.1
 ch.6076	RNASeq_splice	intron	339	600	44273.0	+	.	
 ch.6076	RNASeq_splice	intron	249	600	16.0	+	.	
 ch.6076	WormBase	CDS	253	338	.	+	.	ID=CDS:Y38F1A.7;Parent=Transcript:Y38F1A.7.1
 ch.6076	WormBase	exon	253	338	.	+	.	Parent=Transcript:Y38F1A.7.1
-ch.6076	RNASeq_reads	transcript_region	253	338	9.0	.	.	
 ch.6076	RNASeq_stranded	transcript_region	285	327	1.0	+	.	
 ch.6076	RNASeq_stranded	transcript_region	280	284	2.0	+	.	
 ch.6076	RNASeq_stranded	transcript_region	253	279	4.0	+	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	253	270	33060.0	.	.	
 ch.6076	RNASeq_splice	intron	204	270	23.0	+	.	
 ch.6076	WormBase	intron	204	252	.	+	.	Parent=Transcript:Y38F1A.7.1
 ch.6076	RNASeq_splice	intron	204	252	34735.0	+	.	
 ch.6076	RNASeq_splice	intron	204	237	84.0	+	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	219	219	1320.0	.	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	207	217	1318.0	.	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	204	206	2705.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	204	206	1.0	.	.	
 ch.6076	RNASeq_stranded	transcript_region	182	203	4.0	+	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	175	203	29940.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	174	203	7.0	.	.	
 ch.6076	WormBase	CDS	101	203	.	+	.	ID=CDS:Y38F1A.7;Parent=Transcript:Y38F1A.7.1
 ch.6076	WormBase	exon	101	203	.	+	.	Parent=Transcript:Y38F1A.7.1
-ch.6076	RNASeq_stranded	transcript_region	181	181	2.0	-	.	
 ch.6076	RNASeq_stranded	transcript_region	179	180	1.0	+	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	171	174	19746.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	171	173	4.0	.	.	
-ch.6076	RNASeq_splice	intron	75	170	22847.0	+	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	41	74	18025.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	39	74	4.0	.	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	33	40	11869.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	32	38	2.0	.	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	29	32	6771.0	.	.	
-ch.6076	RNASeq_reads	transcript_region	26	31	1.0	.	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	26	28	4279.0	.	.	
-ch.6076	RNASeq_R_asymmetry	transcript_region	20	24	1020.0	.	.	

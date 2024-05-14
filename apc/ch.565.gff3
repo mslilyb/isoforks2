@@ -1,105 +1,35 @@
-ch.565	RNASeq_stranded	transcript_region	918	940	23.0	-	.	
-ch.565	RNASeq_R_asymmetry	transcript_region	870	932	215631.0	.	.	
-ch.565	RNASeq_stranded	transcript_region	857	917	37.0	-	.	
-ch.565	RNASeq_stranded	transcript_region	857	911	1.0	+	.	
-ch.565	RNASeq_R_asymmetry	transcript_region	857	869	141100.0	.	.	
-ch.565	RNASeq_reads	transcript_region	857	868	33.0	.	.	
-ch.565	RNASeq_reads	transcript_region	852	856	16.0	.	.	
-ch.565	RNASeq_stranded	transcript_region	850	856	24.0	-	.	
-ch.565	RNASeq	transcription_end_site	855	855	.	-	.	
-ch.565	RNASeq	transcription_end_site	854	854	.	-	.	
-ch.565	RNASeq	transcription_end_site	853	853	.	-	.	
-ch.565	RNASeq_stranded	transcript_region	852	852	1.0	-	.	
-ch.565	RNASeq_reads	transcript_region	828	851	10.0	.	.	
-ch.565	RNASeq_stranded	transcript_region	832	850	1.0	+	.	
-ch.565	RNASeq_stranded	transcript_region	843	849	15.0	-	.	
 ch.565	WormBase	three_prime_UTR	653	848	.	+	.	Parent=Transcript:T03F1.12.1
 ch.565	WormBase	exon	535	848	.	+	.	Parent=Transcript:T03F1.12.1
 ch.565	WormBase	gene	101	848	.	+	.	ID=Gene:WBGene00020193
 ch.565	WormBase	mRNA	101	848	.	+	.	ID=Transcript:T03F1.12.1;Parent=Gene:WBGene00020193
-ch.565	RNASeq_stranded	transcript_region	836	842	9.0	-	.	
-ch.565	RNASeq	transcription_end_site	839	839	.	-	.	
-ch.565	RNASeq_stranded	transcript_region	829	835	5.0	-	.	
-ch.565	RNASeq	transcription_end_site	833	833	.	-	.	
 ch.565	RNASeq_stranded	transcript_region	774	831	2.0	+	.	
-ch.565	RNASeq_stranded	transcript_region	822	828	3.0	-	.	
-ch.565	RNASeq_reads	transcript_region	822	827	6.0	.	.	
-ch.565	RNASeq_stranded	transcript_region	821	821	1.0	-	.	
-ch.565	RNASeq	transcription_end_site	821	821	.	-	.	
-ch.565	RNASeq_reads	transcript_region	773	821	3.0	.	.	
-ch.565	RNASeq_F_asymmetry	transcript_region	782	794	10157.0	.	.	
-ch.565	RNASeq	transcription_end_site	792	792	.	-	.	
-ch.565	RNASeq	transcription_end_site	792	792	.	-	.	
-ch.565	RNASeq	transcription_end_site	791	791	.	-	.	
-ch.565	RNASeq	transcription_end_site	791	791	.	-	.	
-ch.565	RNASeq_F_asymmetry	transcript_region	770	776	14104.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	765	773	4.0	+	.	
-ch.565	RNASeq	transcription_end_site	772	772	.	-	.	
-ch.565	RNASeq	transcription_end_site	772	772	.	-	.	
-ch.565	RNASeq_reads	transcript_region	753	772	5.0	.	.	
-ch.565	RNASeq	transcription_end_site	767	767	.	-	.	
 ch.565	RNASeq_stranded	transcript_region	747	764	7.0	+	.	
-ch.565	RNASeq_F_asymmetry	transcript_region	747	752	34855.0	.	.	
-ch.565	RNASeq_reads	transcript_region	741	752	9.0	.	.	
-ch.565	RNASeq_F_asymmetry	transcript_region	716	746	54109.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	698	746	12.0	+	.	
-ch.565	RNASeq_reads	transcript_region	697	740	14.0	.	.	
-ch.565	RNASeq_F_asymmetry	transcript_region	702	715	81572.0	.	.	
-ch.565	RNASeq	transcription_end_site	702	702	.	-	.	
-ch.565	RNASeq	transcription_end_site	701	701	.	-	.	
-ch.565	RNASeq	transcription_end_site	698	698	.	-	.	
-ch.565	RNASeq	transcription_end_site	698	698	.	-	.	
 ch.565	RNASeq_stranded	transcript_region	646	697	19.0	+	.	
-ch.565	RNASeq_reads	transcript_region	535	696	22.0	.	.	
-ch.565	RNASeq_F_asymmetry	transcript_region	680	695	100541.0	.	.	
 ch.565	RNASeq_splice	intron	627	684	21.0	+	.	
-ch.565	RNASeq_stranded	transcript_region	649	663	1.0	-	.	
-ch.565	RNASeq	transcription_end_site	655	655	.	-	.	
 ch.565	WormBase	CDS	535	652	.	+	.	ID=CDS:T03F1.12;Parent=Transcript:T03F1.12.1
-ch.565	RNASeq	transcription_end_site	648	648	.	-	.	
-ch.565	RNASeq	transcription_end_site	648	648	.	-	.	
 ch.565	RNASeq_stranded	transcript_region	585	645	12.0	+	.	
-ch.565	RNASeq_stranded	transcript_region	610	642	1.0	-	.	
 ch.565	RNASeq_stranded	transcript_region	535	584	7.0	+	.	
 ch.565	RNASeq_splice	intron	488	548	5.0	+	.	
-ch.565	RNASeq_reads	transcript_region	534	534	3.0	.	.	
-ch.565	RNASeq_stranded	transcript_region	534	534	1.0	-	.	
 ch.565	WormBase	intron	488	534	.	+	.	Parent=Transcript:T03F1.12.1
 ch.565	RNASeq_splice	intron	488	534	130952.0	+	.	
 ch.565	RNASeq_splice	intron	418	534	27.0	+	.	
-ch.565	RNASeq_reads	transcript_region	488	489	5.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	488	489	1.0	+	.	
-ch.565	RNASeq_reads	transcript_region	406	487	29.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	398	487	5.0	+	.	
 ch.565	WormBase	CDS	315	487	.	+	.	ID=CDS:T03F1.12;Parent=Transcript:T03F1.12.1
 ch.565	WormBase	exon	315	487	.	+	.	Parent=Transcript:T03F1.12.1
-ch.565	RNASeq	transcription_end_site	473	473	.	-	.	
-ch.565	RNASeq	transcription_end_site	473	473	.	-	.	
-ch.565	RNASeq_reads	transcript_region	315	405	44.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	318	397	8.0	+	.	
 ch.565	RNASeq_stranded	transcript_region	315	317	5.0	+	.	
-ch.565	RNASeq_reads	transcript_region	312	314	4.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	312	314	1.0	+	.	
 ch.565	WormBase	intron	270	314	.	+	.	Parent=Transcript:T03F1.12.1
 ch.565	RNASeq_splice	intron	270	314	157120.0	+	.	
 ch.565	RNASeq_splice	intron	207	314	8.0	+	.	
 ch.565	RNASeq_stranded	transcript_region	163	269	5.0	+	.	
-ch.565	RNASeq_reads	transcript_region	127	269	34.0	.	.	
 ch.565	WormBase	CDS	114	269	.	+	.	ID=CDS:T03F1.12;Parent=Transcript:T03F1.12.1
 ch.565	WormBase	exon	101	269	.	+	.	Parent=Transcript:T03F1.12.1
-ch.565	RNASeq_R_asymmetry	transcript_region	122	172	145039.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	126	162	8.0	+	.	
-ch.565	RNASeq_reads	transcript_region	118	126	22.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	116	125	5.0	+	.	
-ch.565	RNASeq_R_asymmetry	transcript_region	116	121	94830.0	.	.	
-ch.565	RNASeq_reads	transcript_region	115	117	14.0	.	.	
-ch.565	RNASeq_R_asymmetry	transcript_region	111	115	47394.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	111	115	3.0	+	.	
-ch.565	RNASeq_reads	transcript_region	111	114	9.0	.	.	
 ch.565	WormBase	five_prime_UTR	101	113	.	+	.	Parent=Transcript:T03F1.12.1
-ch.565	RNASeq_R_asymmetry	transcript_region	107	110	21683.0	.	.	
-ch.565	RNASeq_reads	transcript_region	107	110	4.0	.	.	
 ch.565	RNASeq_stranded	transcript_region	107	110	1.0	+	.	
-ch.565	RNASeq_R_asymmetry	transcript_region	104	106	6495.0	.	.	
-ch.565	RNASeq_reads	transcript_region	104	106	1.0	.	.	
-ch.565	RNASeq_R_asymmetry	transcript_region	43	43	629.0	.	.	

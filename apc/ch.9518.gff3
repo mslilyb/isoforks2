@@ -1,40 +1,18 @@
-ch.9518	RNASeq_F_asymmetry	transcript_region	41	42	1517.0	.	.	
-ch.9518	RNASeq_F_asymmetry	transcript_region	95	98	127201.0	.	.	
-ch.9518	RNASeq_reads	transcript_region	95	98	25.0	.	.	
-ch.9518	RNASeq_stranded	transcript_region	95	98	3.0	+	.	
-ch.9518	RNASeq_F_asymmetry	transcript_region	99	100	306670.0	.	.	
-ch.9518	RNASeq_reads	transcript_region	99	100	61.0	.	.	
-ch.9518	RNASeq_stranded	transcript_region	99	112	37.0	+	.	
 ch.9518	WormBase	five_prime_UTR	101	102	.	+	.	Parent=Transcript:Y69A2AR.3.1
-ch.9518	RNASeq_reads	transcript_region	101	107	96.0	.	.	
-ch.9518	RNASeq_F_asymmetry	transcript_region	101	108	485244.0	.	.	
 ch.9518	WormBase	exon	101	202	.	+	.	Parent=Transcript:Y69A2AR.3.1
 ch.9518	WormBase	gene	101	904	.	+	.	ID=Gene:WBGene00022075
 ch.9518	WormBase	mRNA	101	904	.	+	.	ID=Transcript:Y69A2AR.3.1;Parent=Gene:WBGene00022075
 ch.9518	WormBase	CDS	103	202	.	+	.	ID=CDS:Y69A2AR.3;Parent=Transcript:Y69A2AR.3.1
-ch.9518	RNASeq_reads	transcript_region	108	132	145.0	.	.	
-ch.9518	RNASeq_F_asymmetry	transcript_region	109	162	777956.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	113	157	56.0	+	.	
-ch.9518	RNASeq_reads	transcript_region	133	202	218.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	158	202	36.0	+	.	
-ch.9518	RNASeq_F_asymmetry	transcript_region	164	164	1052190.0	.	.	
 ch.9518	RNASeq_splice	intron	196	658	213.0	+	.	
-ch.9518	RNASeq_F_asymmetry	transcript_region	203	203	147597.0	.	.	
-ch.9518	RNASeq_reads	transcript_region	203	203	34.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	203	203	5.0	+	.	
 ch.9518	RNASeq_splice	intron	203	585	4.0	+	.	
 ch.9518	RNASeq_splice	intron	203	604	3.0	+	.	
 ch.9518	WormBase	intron	203	658	.	+	.	Parent=Transcript:Y69A2AR.3.1
 ch.9518	RNASeq_splice	intron	203	658	1483150.0	+	.	
-ch.9518	RNASeq_reads	transcript_region	204	338	1.0	.	.	
-ch.9518	RNASeq_splice	intron	209	667	3.0	-	.	
-ch.9518	RNASeq_splice	intron	213	699	23.0	-	.	
-ch.9518	RNASeq_splice	intron	221	699	10.0	-	.	
-ch.9518	RNASeq_reads	transcript_region	601	657	1.0	.	.	
-ch.9518	RNASeq_reads	transcript_region	658	658	30.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	658	658	11.0	+	.	
 ch.9518	RNASeq_stranded	transcript_region	659	675	48.0	+	.	
-ch.9518	RNASeq_reads	transcript_region	659	789	282.0	.	.	
 ch.9518	WormBase	CDS	659	810	.	+	.	ID=CDS:Y69A2AR.3;Parent=Transcript:Y69A2AR.3.1
 ch.9518	WormBase	exon	659	904	.	+	.	Parent=Transcript:Y69A2AR.3.1
 ch.9518	RNASeq_stranded	transcript_region	676	810	73.0	+	.	
@@ -43,46 +21,17 @@ ch.9518	RNASeq_splice	intron	706	799	6.0	+	.
 ch.9518	RNASeq_splice	intron	719	785	10.0	+	.	
 ch.9518	RNASeq_splice	intron	720	765	7.0	+	.	
 ch.9518	RNASeq_splice	intron	722	784	4.0	+	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	755	784	1004480.0	.	.	
 ch.9518	RNASeq_splice	intron	759	785	14.0	+	.	
-ch.9518	RNASeq_reads	transcript_region	790	845	186.0	.	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	797	806	725399.0	.	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	808	820	581905.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	811	852	113.0	+	.	
 ch.9518	WormBase	three_prime_UTR	811	904	.	+	.	Parent=Transcript:Y69A2AR.3.1
-ch.9518	RNASeq_stranded	transcript_region	821	825	1.0	-	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	822	822	548494.0	.	.	
-ch.9518	RNASeq_stranded	transcript_region	826	843	2.0	-	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	826	851	524299.0	.	.	
-ch.9518	RNASeq_stranded	transcript_region	844	846	1.0	-	.	
-ch.9518	RNASeq_reads	transcript_region	846	851	122.0	.	.	
-ch.9518	RNASeq_stranded	transcript_region	847	854	2.0	-	.	
-ch.9518	RNASeq_reads	transcript_region	852	872	72.0	.	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	852	875	300095.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	853	860	73.0	+	.	
 ch.9518	RNASeq	transcription_end_site	854	854	.	+	.	
-ch.9518	RNASeq_stranded	transcript_region	855	903	1.0	-	.	
 ch.9518	RNASeq_stranded	transcript_region	861	873	48.0	+	.	
-ch.9518	RNASeq_reads	transcript_region	873	879	47.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	874	881	31.0	+	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	876	879	194986.0	.	.	
-ch.9518	RNASeq_reads	transcript_region	880	894	30.0	.	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	880	895	127951.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	882	886	20.0	+	.	
 ch.9518	RNASeq_stranded	transcript_region	887	897	12.0	+	.	
 ch.9518	RNASeq	transcription_end_site	889	889	.	+	.	
 ch.9518	RNASeq	transcription_end_site	894	894	.	+	.	
-ch.9518	RNASeq_reads	transcript_region	895	897	19.0	.	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	896	897	81947.0	.	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	898	903	54042.0	.	.	
-ch.9518	RNASeq_reads	transcript_region	898	903	12.0	.	.	
 ch.9518	RNASeq_stranded	transcript_region	898	903	7.0	+	.	
 ch.9518	RNASeq	transcription_end_site	901	901	.	+	.	
 ch.9518	RNASeq	transcription_end_site	903	903	.	+	.	
-ch.9518	RNASeq_R_asymmetry	transcript_region	904	904	14389.0	.	.	
-ch.9518	RNASeq_reads	transcript_region	904	905	3.0	.	.	
-ch.9518	RNASeq_stranded	transcript_region	904	905	3.0	+	.	
-ch.9518	RNASeq	transcription_end_site	905	905	.	+	.	
-ch.9518	RNASeq_reads	transcript_region	906	907	1.0	.	.	
-ch.9518	RNASeq	transcription_end_site	907	907	.	+	.	
-ch.9518	RNASeq	transcription_end_site	909	909	.	+	.	

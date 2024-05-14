@@ -1,97 +1,41 @@
-ch.5046	RNASeq_stranded	transcript_region	1	18	36.0	+	.	
-ch.5046	RNASeq	transcription_end_site	7	7	.	+	.	
-ch.5046	RNASeq_reads	transcript_region	7	38	9.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	19	29	23.0	+	.	
-ch.5046	RNASeq_stranded	transcript_region	30	44	14.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	39	47	5.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	45	51	9.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	48	53	3.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	52	53	5.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	54	58	1.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	54	58	3.0	+	.	
-ch.5046	RNASeq_F_asymmetry	transcript_region	60	60	1598.0	.	.	
-ch.5046	RNASeq_F_asymmetry	transcript_region	64	65	1490.0	.	.	
-ch.5046	RNASeq_F_asymmetry	transcript_region	92	95	2526.0	.	.	
-ch.5046	RNASeq_reads	transcript_region	92	95	1.0	.	.	
-ch.5046	RNASeq_F_asymmetry	transcript_region	96	98	8734.0	.	.	
-ch.5046	RNASeq_reads	transcript_region	96	98	2.0	.	.	
-ch.5046	RNASeq_F_asymmetry	transcript_region	99	104	57603.0	.	.	
-ch.5046	RNASeq_reads	transcript_region	99	104	12.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	99	123	6.0	+	.	
 ch.5046	WormBase	CDS	101	389	.	+	.	ID=CDS:F22B5.1;Parent=Transcript:F22B5.1.1
 ch.5046	WormBase	exon	101	389	.	+	.	Parent=Transcript:F22B5.1.1
 ch.5046	WormBase	gene	101	971	.	+	.	ID=Gene:WBGene00001358
 ch.5046	WormBase	mRNA	101	971	.	+	.	ID=Transcript:F22B5.1.1;Parent=Gene:WBGene00001358
-ch.5046	RNASeq_reads	transcript_region	105	124	20.0	.	.	
-ch.5046	RNASeq_F_asymmetry	transcript_region	105	128	94476.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	124	172	10.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	125	191	31.0	.	.	
-ch.5046	RNASeq_F_asymmetry	transcript_region	129	161	142179.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	173	240	16.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	192	389	49.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	241	273	10.0	+	.	
 ch.5046	RNASeq_stranded	transcript_region	274	389	6.0	+	.	
 ch.5046	WormBase	intron	390	439	.	+	.	Parent=Transcript:F22B5.1.1
 ch.5046	RNASeq_splice	intron	390	439	192989.0	+	.	
 ch.5046	RNASeq_splice	intron	390	441	26.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	438	439	4.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	438	439	1.0	+	.	
 ch.5046	RNASeq_stranded	transcript_region	440	518	6.0	+	.	
 ch.5046	WormBase	CDS	440	570	.	+	.	ID=CDS:F22B5.1;Parent=Transcript:F22B5.1.1
 ch.5046	WormBase	exon	440	570	.	+	.	Parent=Transcript:F22B5.1.1
-ch.5046	RNASeq_reads	transcript_region	440	570	39.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	519	570	10.0	+	.	
 ch.5046	RNASeq_stranded	transcript_region	571	571	2.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	571	573	5.0	.	.	
 ch.5046	RNASeq_splice	intron	571	754	476.0	+	.	
 ch.5046	WormBase	intron	571	764	.	+	.	Parent=Transcript:F22B5.1.1
 ch.5046	RNASeq_splice	intron	571	764	204765.0	+	.	
 ch.5046	RNASeq_splice	intron	571	811	631.0	+	.	
 ch.5046	RNASeq_stranded	transcript_region	572	573	1.0	+	.	
 ch.5046	RNASeq_splice	intron	619	764	21.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	755	762	1.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	763	763	1.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	763	764	3.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	764	764	2.0	+	.	
 ch.5046	RNASeq_stranded	transcript_region	765	775	7.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	765	864	40.0	.	.	
 ch.5046	WormBase	CDS	765	899	.	+	.	ID=CDS:F22B5.1;Parent=Transcript:F22B5.1.1
 ch.5046	WormBase	exon	765	971	.	+	.	Parent=Transcript:F22B5.1.1
 ch.5046	RNASeq_stranded	transcript_region	776	793	11.0	+	.	
 ch.5046	RNASeq_stranded	transcript_region	794	829	18.0	+	.	
 ch.5046	RNASeq_stranded	transcript_region	830	933	11.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	865	926	26.0	.	.	
-ch.5046	RNASeq_R_asymmetry	transcript_region	891	933	90278.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	892	921	1.0	-	.	
 ch.5046	RNASeq	transcription_end_site	899	899	.	+	.	
 ch.5046	WormBase	three_prime_UTR	900	971	.	+	.	Parent=Transcript:F22B5.1.1
-ch.5046	RNASeq_reads	transcript_region	927	936	17.0	.	.	
-ch.5046	RNASeq_R_asymmetry	transcript_region	934	938	58437.0	.	.	
 ch.5046	RNASeq_stranded	transcript_region	934	949	7.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	937	941	11.0	.	.	
-ch.5046	RNASeq_R_asymmetry	transcript_region	940	941	31235.0	.	.	
-ch.5046	RNASeq_reads	transcript_region	942	984	6.0	.	.	
 ch.5046	RNASeq	transcription_end_site	944	944	.	+	.	
 ch.5046	RNASeq	transcription_end_site	946	946	.	+	.	
 ch.5046	RNASeq	transcription_end_site	950	950	.	+	.	
 ch.5046	RNASeq_stranded	transcript_region	950	965	4.0	+	.	
 ch.5046	RNASeq	transcription_end_site	953	953	.	+	.	
 ch.5046	RNASeq	transcription_end_site	962	962	.	+	.	
-ch.5046	WormBase	three_prime_UTR	963	1063	.	-	.	Parent=Transcript:F22B5.3.1
 ch.5046	RNASeq_stranded	transcript_region	966	970	2.0	+	.	
-ch.5046	RNASeq_stranded	transcript_region	968	970	1.0	-	.	
-ch.5046	RNASeq_stranded	transcript_region	971	973	2.0	-	.	
-ch.5046	RNASeq_stranded	transcript_region	971	994	1.0	+	.	
-ch.5046	RNASeq_stranded	transcript_region	974	1006	4.0	-	.	
-ch.5046	RNASeq	transcription_end_site	983	983	.	+	.	
-ch.5046	RNASeq	transcription_end_site	983	983	.	+	.	
-ch.5046	RNASeq_reads	transcript_region	985	995	10.0	.	.	
-ch.5046	RNASeq	transcription_end_site	995	995	.	+	.	
-ch.5046	RNASeq_reads	transcript_region	996	1001	16.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	997	999	1.0	+	.	
-ch.5046	RNASeq_reads	transcript_region	1002	1004	28.0	.	.	
-ch.5046	RNASeq_reads	transcript_region	1005	1023	44.0	.	.	
-ch.5046	RNASeq_stranded	transcript_region	1007	1009	7.0	-	.	
-ch.5046	RNASeq_stranded	transcript_region	1010	1017	11.0	-	.	
-ch.5046	RNASeq_stranded	transcript_region	1018	1026	17.0	-	.	
-ch.5046	RNASeq	transcription_end_site	1039	1039	.	+	.	

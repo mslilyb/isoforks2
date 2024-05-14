@@ -1,121 +1,50 @@
-ch.5439	RNASeq_stranded	transcript_region	950	964	2.0	+	.	
-ch.5439	RNASeq_stranded	transcript_region	930	962	46.0	-	.	
-ch.5439	RNASeq_stranded	transcript_region	908	949	4.0	+	.	
-ch.5439	RNASeq	transcription_end_site	939	939	.	-	.	
-ch.5439	RNASeq	transcription_end_site	939	939	.	-	.	
-ch.5439	RNASeq_reads	transcript_region	911	930	44.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	920	929	29.0	-	.	
-ch.5439	RNASeq_stranded	transcript_region	912	919	18.0	-	.	
-ch.5439	RNASeq_R_asymmetry	transcript_region	911	914	125146.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	894	911	11.0	-	.	
-ch.5439	RNASeq_reads	transcript_region	902	910	29.0	.	.	
 ch.5439	WormBase	three_prime_UTR	839	908	.	+	.	Parent=Transcript:ZK892.2.1
 ch.5439	WormBase	exon	740	908	.	+	.	Parent=Transcript:ZK892.2.1
 ch.5439	WormBase	gene	101	908	.	+	.	ID=Gene:WBGene00003773
 ch.5439	WormBase	mRNA	101	908	.	+	.	ID=Transcript:ZK892.2.1;Parent=Gene:WBGene00003773
 ch.5439	RNASeq_stranded	transcript_region	906	907	7.0	+	.	
-ch.5439	RNASeq	transcription_end_site	905	905	.	-	.	
-ch.5439	RNASeq	transcription_end_site	905	905	.	-	.	
 ch.5439	RNASeq_stranded	transcript_region	902	905	12.0	+	.	
-ch.5439	RNASeq	transcription_end_site	901	901	.	-	.	
-ch.5439	RNASeq	transcription_end_site	901	901	.	-	.	
 ch.5439	RNASeq_stranded	transcript_region	896	901	19.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	869	901	48.0	.	.	
-ch.5439	RNASeq_F_asymmetry	transcript_region	893	899	189372.0	.	.	
 ch.5439	RNASeq_stranded	transcript_region	888	895	36.0	+	.	
-ch.5439	RNASeq_stranded	transcript_region	855	893	7.0	-	.	
-ch.5439	RNASeq_F_asymmetry	transcript_region	890	891	210009.0	.	.	
 ch.5439	RNASeq_stranded	transcript_region	872	887	55.0	+	.	
 ch.5439	RNASeq_stranded	transcript_region	852	871	83.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	851	868	73.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	854	854	4.0	-	.	
-ch.5439	RNASeq_stranded	transcript_region	852	853	2.0	-	.	
-ch.5439	RNASeq_stranded	transcript_region	816	851	4.0	-	.	
 ch.5439	RNASeq_stranded	transcript_region	740	851	130.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	844	850	110.0	.	.	
-ch.5439	RNASeq_F_asymmetry	transcript_region	849	849	505710.0	.	.	
-ch.5439	RNASeq_F_asymmetry	transcript_region	829	847	534378.0	.	.	
-ch.5439	RNASeq_reads	transcript_region	810	843	166.0	.	.	
 ch.5439	WormBase	CDS	740	838	.	+	.	ID=CDS:ZK892.2;Parent=Transcript:ZK892.2.1
-ch.5439	RNASeq_F_asymmetry	transcript_region	820	828	816458.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	800	815	7.0	-	.	
-ch.5439	RNASeq_reads	transcript_region	740	809	254.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	765	799	4.0	-	.	
 ch.5439	RNASeq_splice	intron	152	793	8.0	+	.	
 ch.5439	RNASeq_splice	intron	469	784	5.0	+	.	
 ch.5439	RNASeq_splice	intron	469	769	36.0	+	.	
-ch.5439	RNASeq_stranded	transcript_region	740	764	1.0	-	.	
 ch.5439	RNASeq_splice	intron	337	763	11.0	+	.	
-ch.5439	RNASeq_splice	intron	372	761	3.0	-	.	
 ch.5439	RNASeq_splice	intron	469	752	5.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	737	739	28.0	.	.	
 ch.5439	RNASeq_stranded	transcript_region	737	739	12.0	+	.	
 ch.5439	RNASeq_splice	intron	619	739	27.0	+	.	
 ch.5439	WormBase	intron	469	739	.	+	.	Parent=Transcript:ZK892.2.1
 ch.5439	RNASeq_splice	intron	469	739	1397580.0	+	.	
-ch.5439	RNASeq	transcription_end_site	736	736	.	-	.	
 ch.5439	RNASeq_stranded	transcript_region	677	736	1.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	470	736	3.0	.	.	
 ch.5439	RNASeq_splice	intron	469	682	15.0	+	.	
-ch.5439	RNASeq	transcription_end_site	657	657	.	-	.	
 ch.5439	RNASeq_stranded	transcript_region	646	652	1.0	+	.	
 ch.5439	RNASeq_stranded	transcript_region	553	590	1.0	+	.	
 ch.5439	RNASeq_stranded	transcript_region	546	550	1.0	+	.	
 ch.5439	RNASeq_splice	intron	469	522	91.0	+	.	
 ch.5439	RNASeq_stranded	transcript_region	470	491	1.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	469	469	21.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	469	469	6.0	-	.	
-ch.5439	RNASeq_stranded	transcript_region	445	468	1.0	-	.	
 ch.5439	RNASeq_stranded	transcript_region	391	468	112.0	+	.	
 ch.5439	WormBase	CDS	265	468	.	+	.	ID=CDS:ZK892.2;Parent=Transcript:ZK892.2.1
 ch.5439	WormBase	exon	265	468	.	+	.	Parent=Transcript:ZK892.2.1
-ch.5439	RNASeq_reads	transcript_region	265	468	255.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	435	444	2.0	-	.	
-ch.5439	RNASeq_stranded	transcript_region	350	434	1.0	-	.	
-ch.5439	RNASeq_splice	intron	317	431	6.0	-	.	
 ch.5439	RNASeq_stranded	transcript_region	265	390	63.0	+	.	
-ch.5439	RNASeq_stranded	transcript_region	292	321	1.0	-	.	
 ch.5439	RNASeq_splice	intron	195	282	54.0	+	.	
 ch.5439	RNASeq_splice	intron	199	271	18.0	+	.	
 ch.5439	RNASeq_splice	intron	195	271	28.0	+	.	
-ch.5439	RNASeq_R_asymmetry	transcript_region	265	269	922378.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	264	264	1.0	-	.	
 ch.5439	RNASeq_splice	intron	199	264	41.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	196	264	2.0	.	.	
 ch.5439	WormBase	intron	195	264	.	+	.	Parent=Transcript:ZK892.2.1
 ch.5439	RNASeq_splice	intron	195	264	1096950.0	+	.	
 ch.5439	RNASeq_splice	intron	212	254	6.0	+	.	
 ch.5439	RNASeq_splice	intron	195	254	341.0	+	.	
 ch.5439	RNASeq_splice	intron	195	242	6.0	+	.	
 ch.5439	RNASeq_stranded	transcript_region	196	236	1.0	+	.	
-ch.5439	RNASeq_R_asymmetry	transcript_region	195	195	61112.0	.	.	
-ch.5439	RNASeq_reads	transcript_region	195	195	13.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	195	195	11.0	-	.	
-ch.5439	RNASeq_reads	transcript_region	144	194	209.0	.	.	
 ch.5439	RNASeq_stranded	transcript_region	143	194	67.0	+	.	
 ch.5439	WormBase	CDS	141	194	.	+	.	ID=CDS:ZK892.2;Parent=Transcript:ZK892.2.1
-ch.5439	RNASeq_R_asymmetry	transcript_region	139	194	883158.0	.	.	
 ch.5439	WormBase	exon	101	194	.	+	.	Parent=Transcript:ZK892.2.1
-ch.5439	RNASeq_reads	transcript_region	134	143	137.0	.	.	
 ch.5439	RNASeq_stranded	transcript_region	133	142	44.0	+	.	
 ch.5439	WormBase	five_prime_UTR	101	140	.	+	.	Parent=Transcript:ZK892.2.1
-ch.5439	RNASeq_R_asymmetry	transcript_region	133	138	571095.0	.	.	
-ch.5439	RNASeq_reads	transcript_region	133	133	88.0	.	.	
-ch.5439	RNASeq_R_asymmetry	transcript_region	131	132	263529.0	.	.	
-ch.5439	RNASeq_reads	transcript_region	131	132	54.0	.	.	
 ch.5439	RNASeq_stranded	transcript_region	131	132	23.0	+	.	
-ch.5439	RNASeq_splice	intron	90	132	11167.0	+	.	
-ch.5439	RNASeq_splice	intron	77	132	5.0	+	.	
 ch.5439	RNASeq_stranded	transcript_region	127	130	5.0	+	.	
-ch.5439	RNASeq_R_asymmetry	transcript_region	124	130	72948.0	.	.	
-ch.5439	RNASeq_reads	transcript_region	124	130	16.0	.	.	
 ch.5439	RNASeq_stranded	transcript_region	112	126	3.0	+	.	
-ch.5439	RNASeq_splice	intron	90	125	7.0	+	.	
-ch.5439	RNASeq_R_asymmetry	transcript_region	115	123	37185.0	.	.	
-ch.5439	RNASeq_reads	transcript_region	115	123	9.0	.	.	
-ch.5439	RNASeq_reads	transcript_region	105	114	5.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	90	111	1.0	+	.	
-ch.5439	RNASeq_reads	transcript_region	90	104	3.0	.	.	
-ch.5439	RNASeq_stranded	transcript_region	88	89	2.0	+	.	
-ch.5439	RNASeq_stranded	transcript_region	82	87	1.0	+	.	
-ch.5439	RNASeq_stranded	transcript_region	69	81	2.0	+	.	

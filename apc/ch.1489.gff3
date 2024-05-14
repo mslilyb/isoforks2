@@ -1,38 +1,12 @@
-ch.1489	RNASeq_stranded	transcript_region	8	25	27.0	+	.	
-ch.1489	RNASeq_reads	transcript_region	11	25	12.0	.	.	
-ch.1489	RNASeq	transcription_end_site	25	25	.	+	.	
-ch.1489	RNASeq_stranded	transcript_region	26	32	17.0	+	.	
-ch.1489	RNASeq_reads	transcript_region	26	33	7.0	.	.	
-ch.1489	RNASeq	transcription_end_site	28	28	.	+	.	
-ch.1489	RNASeq_stranded	transcript_region	33	36	11.0	+	.	
-ch.1489	RNASeq	transcription_end_site	34	34	.	+	.	
-ch.1489	RNASeq_reads	transcript_region	34	36	4.0	.	.	
-ch.1489	RNASeq	transcription_end_site	36	36	.	+	.	
-ch.1489	RNASeq_reads	transcript_region	37	39	2.0	.	.	
-ch.1489	RNASeq_stranded	transcript_region	37	39	7.0	+	.	
-ch.1489	RNASeq	transcription_end_site	40	40	.	+	.	
-ch.1489	RNASeq_reads	transcript_region	40	43	1.0	.	.	
-ch.1489	RNASeq_stranded	transcript_region	40	43	4.0	+	.	
-ch.1489	RNASeq	transcription_end_site	45	45	.	+	.	
-ch.1489	RNASeq	transcription_end_site	52	52	.	+	.	
-ch.1489	RNASeq_F_asymmetry	transcript_region	69	81	1535.0	.	.	
-ch.1489	RNASeq_reads	transcript_region	81	252	1.0	.	.	
-ch.1489	RNASeq_F_asymmetry	transcript_region	82	139	2565.0	.	.	
 ch.1489	WormBase	five_prime_UTR	101	516	.	+	.	Parent=Transcript:K04G2.12.1
 ch.1489	WormBase	exon	101	595	.	+	.	Parent=Transcript:K04G2.12.1
 ch.1489	WormBase	gene	101	932	.	+	.	ID=Gene:WBGene00077768
 ch.1489	WormBase	mRNA	101	932	.	+	.	ID=Transcript:K04G2.12.1;Parent=Gene:WBGene00077768
-ch.1489	RNASeq_reads	transcript_region	253	254	2.0	.	.	
-ch.1489	RNASeq_reads	transcript_region	255	255	1.0	.	.	
-ch.1489	RNASeq_reads	transcript_region	256	504	2.0	.	.	
 ch.1489	RNASeq_stranded	transcript_region	468	475	1.0	+	.	
 ch.1489	RNASeq_stranded	transcript_region	476	529	2.0	+	.	
-ch.1489	RNASeq_reads	transcript_region	505	595	4.0	.	.	
 ch.1489	WormBase	CDS	517	595	.	+	.	ID=CDS:K04G2.12;Parent=Transcript:K04G2.12.1
 ch.1489	RNASeq_stranded	transcript_region	530	555	1.0	+	.	
 ch.1489	RNASeq_stranded	transcript_region	556	595	2.0	+	.	
-ch.1489	RNASeq_F_asymmetry	transcript_region	596	596	2361.0	.	.	
-ch.1489	RNASeq_reads	transcript_region	596	596	1.0	.	.	
 ch.1489	WormBase	intron	596	639	.	+	.	Parent=Transcript:K04G2.12.1
 ch.1489	RNASeq_splice	intron	596	639	15300.0	+	.	
 ch.1489	RNASeq_splice	intron	596	787	106.0	+	.	
@@ -40,14 +14,10 @@ ch.1489	RNASeq_splice	intron	625	787	24.0	+	.
 ch.1489	RNASeq_stranded	transcript_region	640	666	1.0	+	.	
 ch.1489	WormBase	CDS	640	739	.	+	.	ID=CDS:K04G2.12;Parent=Transcript:K04G2.12.1
 ch.1489	WormBase	exon	640	739	.	+	.	Parent=Transcript:K04G2.12.1
-ch.1489	RNASeq_reads	transcript_region	640	739	3.0	.	.	
 ch.1489	RNASeq_stranded	transcript_region	672	739	1.0	+	.	
 ch.1489	WormBase	intron	740	787	.	+	.	Parent=Transcript:K04G2.12.1
 ch.1489	RNASeq_splice	intron	740	787	18435.0	+	.	
 ch.1489	RNASeq_stranded	transcript_region	788	887	1.0	+	.	
-ch.1489	RNASeq_reads	transcript_region	788	892	4.0	.	.	
 ch.1489	WormBase	CDS	788	914	.	+	.	ID=CDS:K04G2.12;Parent=Transcript:K04G2.12.1
 ch.1489	WormBase	exon	788	932	.	+	.	Parent=Transcript:K04G2.12.1
-ch.1489	RNASeq_reads	transcript_region	893	908	2.0	.	.	
-ch.1489	RNASeq_reads	transcript_region	909	924	1.0	.	.	
 ch.1489	WormBase	three_prime_UTR	915	932	.	+	.	Parent=Transcript:K04G2.12.1

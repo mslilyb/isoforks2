@@ -1,65 +1,37 @@
-ch.9086	RNASeq_reads	transcript_region	86	94	2.0	.	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	95	98	138451.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	95	98	28.0	.	.	
-ch.9086	RNASeq_stranded	transcript_region	95	98	4.0	+	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	99	103	212958.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	99	103	43.0	.	.	
-ch.9086	RNASeq_stranded	transcript_region	99	104	28.0	+	.	
 ch.9086	WormBase	five_prime_UTR	101	109	.	+	.	Parent=Transcript:T12D8.6.1
 ch.9086	WormBase	exon	101	187	.	+	.	Parent=Transcript:T12D8.6.1
 ch.9086	WormBase	gene	101	957	.	+	.	ID=Gene:WBGene00011734
 ch.9086	WormBase	mRNA	101	957	.	+	.	ID=Transcript:T12D8.6.1;Parent=Gene:WBGene00011734
-ch.9086	RNASeq_F_asymmetry	transcript_region	104	111	333795.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	104	111	67.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	105	119	44.0	+	.	
 ch.9086	WormBase	CDS	110	187	.	+	.	ID=CDS:T12D8.6;Parent=Transcript:T12D8.6.1
-ch.9086	RNASeq_reads	transcript_region	112	128	114.0	.	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	112	131	565628.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	120	187	71.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	129	187	174.0	.	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	132	187	874370.0	.	.	
 ch.9086	RNASeq_splice	intron	132	235	3.0	+	.	
 ch.9086	RNASeq_splice	intron	137	334	15.0	+	.	
 ch.9086	RNASeq_splice	intron	179	235	73.0	+	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	188	189	123148.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	188	189	25.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	188	189	4.0	+	.	
 ch.9086	WormBase	intron	188	235	.	+	.	Parent=Transcript:T12D8.6.1
 ch.9086	RNASeq_splice	intron	188	235	1150310.0	+	.	
 ch.9086	RNASeq_splice	intron	188	265	3.0	+	.	
 ch.9086	RNASeq_splice	intron	188	502	11.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	231	232	1.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	232	232	1.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	233	235	26.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	233	235	45.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	236	278	105.0	+	.	
 ch.9086	WormBase	CDS	236	372	.	+	.	ID=CDS:T12D8.6;Parent=Transcript:T12D8.6.1
 ch.9086	WormBase	exon	236	372	.	+	.	Parent=Transcript:T12D8.6.1
-ch.9086	RNASeq_reads	transcript_region	236	372	225.0	.	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	238	243	923262.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	279	280	69.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	281	283	44.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	284	320	29.0	+	.	
-ch.9086	RNASeq_stranded	transcript_region	314	341	1.0	-	.	
 ch.9086	RNASeq_stranded	transcript_region	321	372	19.0	+	.	
-ch.9086	RNASeq_stranded	transcript_region	342	372	2.0	-	.	
 ch.9086	RNASeq_splice	intron	355	908	6.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	373	373	1.0	.	.	
 ch.9086	WormBase	intron	373	422	.	+	.	Parent=Transcript:T12D8.6.1
 ch.9086	RNASeq_splice	intron	373	422	1429520.0	+	.	
 ch.9086	RNASeq_splice	intron	373	429	19.0	+	.	
 ch.9086	RNASeq_splice	intron	377	422	6.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	397	421	1.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	422	422	29.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	422	422	7.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	423	433	22.0	+	.	
-ch.9086	RNASeq_stranded	transcript_region	423	456	2.0	-	.	
 ch.9086	WormBase	CDS	423	529	.	+	.	ID=CDS:T12D8.6;Parent=Transcript:T12D8.6.1
 ch.9086	WormBase	exon	423	529	.	+	.	Parent=Transcript:T12D8.6.1
-ch.9086	RNASeq_reads	transcript_region	423	529	268.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	434	529	34.0	+	.	
-ch.9086	RNASeq_stranded	transcript_region	457	479	1.0	-	.	
-ch.9086	RNASeq_reads	transcript_region	530	530	36.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	530	530	7.0	+	.	
 ch.9086	RNASeq_splice	intron	530	574	20.0	+	.	
 ch.9086	RNASeq_splice	intron	530	613	3.0	+	.	
@@ -67,58 +39,26 @@ ch.9086	WormBase	intron	530	644	.	+	.	Parent=Transcript:T12D8.6.1
 ch.9086	RNASeq_splice	intron	530	644	1395120.0	+	.	
 ch.9086	RNASeq_splice	intron	530	647	1421.0	+	.	
 ch.9086	RNASeq_splice	intron	530	665	11.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	531	540	1.0	.	.	
 ch.9086	RNASeq_splice	intron	542	644	191.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	565	643	1.0	.	.	
 ch.9086	RNASeq_splice	intron	571	647	8.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	644	644	34.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	644	644	7.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	645	709	46.0	+	.	
 ch.9086	WormBase	CDS	645	751	.	+	.	ID=CDS:T12D8.6;Parent=Transcript:T12D8.6.1
-ch.9086	RNASeq_reads	transcript_region	645	848	272.0	.	.	
 ch.9086	WormBase	exon	645	957	.	+	.	Parent=Transcript:T12D8.6.1
 ch.9086	RNASeq_stranded	transcript_region	710	791	71.0	+	.	
-ch.9086	RNASeq_stranded	transcript_region	720	755	1.0	-	.	
 ch.9086	RNASeq_splice	intron	728	768	24.0	+	.	
 ch.9086	WormBase	three_prime_UTR	752	957	.	+	.	Parent=Transcript:T12D8.6.1
-ch.9086	RNASeq_stranded	transcript_region	756	806	2.0	-	.	
-ch.9086	RNASeq_splice	intron	769	816	4.0	-	.	
 ch.9086	RNASeq_stranded	transcript_region	792	813	232.0	+	.	
-ch.9086	RNASeq_stranded	transcript_region	807	816	1.0	-	.	
 ch.9086	RNASeq_stranded	transcript_region	814	847	484.0	+	.	
-ch.9086	RNASeq_stranded	transcript_region	827	929	1.0	-	.	
 ch.9086	RNASeq_stranded	transcript_region	848	848	314.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	849	857	70.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	849	902	176.0	.	.	
-ch.9086	RNASeq_R_asymmetry	transcript_region	849	909	698672.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	858	892	117.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	893	944	57.0	+	.	
-ch.9086	RNASeq_reads	transcript_region	903	923	116.0	.	.	
-ch.9086	RNASeq_R_asymmetry	transcript_region	910	925	456817.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	924	928	76.0	.	.	
-ch.9086	RNASeq_R_asymmetry	transcript_region	926	928	296864.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	929	933	44.0	.	.	
 ch.9086	RNASeq	transcription_end_site	931	931	.	+	.	
-ch.9086	RNASeq_reads	transcript_region	934	942	29.0	.	.	
 ch.9086	RNASeq	transcription_end_site	938	938	.	+	.	
-ch.9086	RNASeq_reads	transcript_region	943	955	19.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	945	949	35.0	+	.	
 ch.9086	RNASeq_stranded	transcript_region	950	955	23.0	+	.	
 ch.9086	RNASeq	transcription_end_site	955	955	.	+	.	
 ch.9086	RNASeq	transcription_end_site	956	956	.	+	.	
-ch.9086	RNASeq_reads	transcript_region	956	957	12.0	.	.	
 ch.9086	RNASeq_stranded	transcript_region	956	957	15.0	+	.	
 ch.9086	RNASeq	transcription_end_site	957	957	.	+	.	
-ch.9086	RNASeq	transcription_end_site	958	958	.	+	.	
-ch.9086	RNASeq_reads	transcript_region	958	959	7.0	.	.	
-ch.9086	RNASeq_stranded	transcript_region	958	959	8.0	+	.	
-ch.9086	RNASeq	transcription_end_site	959	959	.	+	.	
-ch.9086	RNASeq	transcription_end_site	960	960	.	+	.	
-ch.9086	RNASeq_reads	transcript_region	960	970	1.0	.	.	
-ch.9086	RNASeq	transcription_end_site	963	963	.	+	.	
-ch.9086	RNASeq	transcription_end_site	965	965	.	+	.	
-ch.9086	RNASeq	transcription_end_site	978	978	.	+	.	
-ch.9086	RNASeq_reads	transcript_region	982	986	1.0	.	.	
-ch.9086	RNASeq_reads	transcript_region	992	1001	1.0	.	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	995	1004	4909.0	.	.	
-ch.9086	RNASeq_F_asymmetry	transcript_region	1005	1026	7401.0	.	.	

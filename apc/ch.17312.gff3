@@ -1,24 +1,13 @@
-ch.17312	RNASeq_F_asymmetry	transcript_region	88	88	740.0	.	.	
-ch.17312	RNASeq_F_asymmetry	transcript_region	96	108	814.0	.	.	
 ch.17312	WormBase	five_prime_UTR	101	364	.	+	.	Parent=Transcript:M162.2.1
 ch.17312	WormBase	exon	101	587	.	+	.	Parent=Transcript:M162.2.1
 ch.17312	WormBase	gene	101	1046	.	+	.	ID=Gene:WBGene00010928
 ch.17312	WormBase	mRNA	101	1046	.	+	.	ID=Transcript:M162.2.1;Parent=Gene:WBGene00010928
-ch.17312	RNASeq_F_asymmetry	transcript_region	109	134	1283.0	.	.	
-ch.17312	RNASeq_F_asymmetry	transcript_region	135	151	1949.0	.	.	
-ch.17312	RNASeq_reads	transcript_region	141	312	1.0	.	.	
-ch.17312	RNASeq_F_asymmetry	transcript_region	155	155	2211.0	.	.	
-ch.17312	RNASeq_F_asymmetry	transcript_region	157	162	2423.0	.	.	
-ch.17312	RNASeq_reads	transcript_region	313	361	2.0	.	.	
 ch.17312	RNASeq_stranded	transcript_region	348	386	1.0	+	.	
-ch.17312	RNASeq_reads	transcript_region	362	433	4.0	.	.	
 ch.17312	WormBase	CDS	365	587	.	+	.	ID=CDS:M162.2;Parent=Transcript:M162.2.1
-ch.17312	RNASeq_F_asymmetry	transcript_region	371	399	17768.0	.	.	
 ch.17312	RNASeq_stranded	transcript_region	387	395	2.0	+	.	
 ch.17312	RNASeq_stranded	transcript_region	396	409	1.0	+	.	
 ch.17312	RNASeq_stranded	transcript_region	410	433	2.0	+	.	
 ch.17312	RNASeq_stranded	transcript_region	434	482	4.0	+	.	
-ch.17312	RNASeq_reads	transcript_region	434	587	7.0	.	.	
 ch.17312	RNASeq_stranded	transcript_region	483	484	2.0	+	.	
 ch.17312	RNASeq_stranded	transcript_region	485	546	1.0	+	.	
 ch.17312	RNASeq_stranded	transcript_region	547	587	2.0	+	.	
@@ -27,10 +16,8 @@ ch.17312	RNASeq_splice	intron	588	652	30328.0	+	.
 ch.17312	RNASeq_splice	intron	588	754	5.0	+	.	
 ch.17312	RNASeq_splice	intron	588	866	63.0	+	.	
 ch.17312	RNASeq_splice	intron	588	872	9.0	+	.	
-ch.17312	RNASeq_reads	transcript_region	652	652	1.0	.	.	
 ch.17312	RNASeq_stranded	transcript_region	653	706	2.0	+	.	
 ch.17312	WormBase	CDS	653	942	.	+	.	ID=CDS:M162.2;Parent=Transcript:M162.2.1
-ch.17312	RNASeq_reads	transcript_region	653	946	5.0	.	.	
 ch.17312	WormBase	exon	653	1046	.	+	.	Parent=Transcript:M162.2.1
 ch.17312	RNASeq_stranded	transcript_region	707	717	1.0	+	.	
 ch.17312	RNASeq_stranded	transcript_region	718	719	2.0	+	.	
@@ -52,8 +39,3 @@ ch.17312	RNASeq_stranded	transcript_region	876	888	1.0	+	.
 ch.17312	RNASeq_stranded	transcript_region	889	939	2.0	+	.	
 ch.17312	RNASeq_stranded	transcript_region	940	1025	1.0	+	.	
 ch.17312	WormBase	three_prime_UTR	943	1046	.	+	.	Parent=Transcript:M162.2.1
-ch.17312	RNASeq_reads	transcript_region	947	1015	3.0	.	.	
-ch.17312	RNASeq_R_asymmetry	transcript_region	963	971	12346.0	.	.	
-ch.17312	RNASeq_R_asymmetry	transcript_region	974	1015	9865.0	.	.	
-ch.17312	RNASeq_R_asymmetry	transcript_region	1016	1016	6296.0	.	.	
-ch.17312	RNASeq_reads	transcript_region	1016	1029	1.0	.	.	

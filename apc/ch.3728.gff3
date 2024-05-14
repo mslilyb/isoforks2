@@ -1,51 +1,23 @@
-ch.3728	RNASeq_F_asymmetry	transcript_region	68	73	568.0	.	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	74	79	1189.0	.	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	80	86	1835.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	84	95	1.0	.	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	87	92	2755.0	.	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	93	95	4452.0	.	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	96	101	8827.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	96	101	2.0	.	.	
-ch.3728	RNASeq_stranded	transcript_region	96	142	1.0	-	.	
 ch.3728	WormBase	five_prime_UTR	101	111	.	+	.	Parent=Transcript:Y27F2A.8.1
 ch.3728	WormBase	exon	101	200	.	+	.	Parent=Transcript:Y27F2A.8.1
 ch.3728	WormBase	gene	101	941	.	+	.	ID=Gene:WBGene00021299
 ch.3728	WormBase	mRNA	101	941	.	+	.	ID=Transcript:Y27F2A.8.1;Parent=Gene:WBGene00021299
-ch.3728	RNASeq_F_asymmetry	transcript_region	102	108	18001.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	102	109	4.0	.	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	109	126	29363.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	110	134	7.0	.	.	
 ch.3728	WormBase	CDS	112	200	.	+	.	ID=CDS:Y27F2A.8;Parent=Transcript:Y27F2A.8.1
 ch.3728	RNASeq_stranded	transcript_region	118	200	1.0	+	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	127	177	45252.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	135	200	11.0	.	.	
-ch.3728	RNASeq_stranded	transcript_region	143	194	2.0	-	.	
-ch.3728	RNASeq_stranded	transcript_region	195	200	1.0	-	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	201	201	4454.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	201	201	1.0	.	.	
 ch.3728	RNASeq_splice	intron	201	269	10.0	+	.	
 ch.3728	RNASeq_splice	intron	201	365	43.0	+	.	
 ch.3728	RNASeq_splice	intron	201	369	9.0	+	.	
 ch.3728	WormBase	intron	201	450	.	+	.	Parent=Transcript:Y27F2A.8.1
 ch.3728	RNASeq_splice	intron	201	450	72228.0	+	.	
 ch.3728	RNASeq_splice	intron	201	457	5.0	+	.	
-ch.3728	RNASeq_F_asymmetry	transcript_region	202	214	952.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	409	419	1.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	421	439	1.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	441	450	1.0	.	.	
-ch.3728	RNASeq_stranded	transcript_region	451	480	2.0	-	.	
 ch.3728	RNASeq_stranded	transcript_region	451	518	1.0	+	.	
 ch.3728	WormBase	CDS	451	826	.	+	.	ID=CDS:Y27F2A.8;Parent=Transcript:Y27F2A.8.1
-ch.3728	RNASeq_reads	transcript_region	451	879	14.0	.	.	
 ch.3728	WormBase	exon	451	941	.	+	.	Parent=Transcript:Y27F2A.8.1
-ch.3728	RNASeq_stranded	transcript_region	481	526	1.0	-	.	
 ch.3728	RNASeq_stranded	transcript_region	519	575	2.0	+	.	
 ch.3728	RNASeq_stranded	transcript_region	529	529	1.0	+	.	
-ch.3728	RNASeq_stranded	transcript_region	536	572	1.0	-	.	
 ch.3728	RNASeq_splice	intron	549	602	1037.0	+	.	
 ch.3728	RNASeq_splice	intron	564	602	12.0	+	.	
 ch.3728	RNASeq_stranded	transcript_region	576	613	1.0	+	.	
-ch.3728	RNASeq_stranded	transcript_region	596	606	1.0	-	.	
 ch.3728	RNASeq_stranded	transcript_region	614	700	2.0	+	.	
 ch.3728	RNASeq_stranded	transcript_region	701	785	4.0	+	.	
 ch.3728	RNASeq_stranded	transcript_region	786	829	7.0	+	.	
@@ -53,14 +25,5 @@ ch.3728	WormBase	three_prime_UTR	827	941	.	+	.	Parent=Transcript:Y27F2A.8.1
 ch.3728	RNASeq_stranded	transcript_region	830	845	13.0	+	.	
 ch.3728	RNASeq_stranded	transcript_region	846	871	20.0	+	.	
 ch.3728	RNASeq_stranded	transcript_region	872	879	13.0	+	.	
-ch.3728	RNASeq_reads	transcript_region	880	913	9.0	.	.	
 ch.3728	RNASeq_stranded	transcript_region	880	919	8.0	+	.	
-ch.3728	RNASeq_R_asymmetry	transcript_region	882	883	35342.0	.	.	
-ch.3728	RNASeq_R_asymmetry	transcript_region	886	888	32667.0	.	.	
-ch.3728	RNASeq_R_asymmetry	transcript_region	892	893	31305.0	.	.	
-ch.3728	RNASeq_reads	transcript_region	914	925	5.0	.	.	
 ch.3728	RNASeq_stranded	transcript_region	920	934	5.0	+	.	
-ch.3728	RNASeq_reads	transcript_region	926	940	3.0	.	.	
-ch.3728	RNASeq_stranded	transcript_region	935	944	3.0	+	.	
-ch.3728	RNASeq_reads	transcript_region	941	954	1.0	.	.	
-ch.3728	RNASeq_stranded	transcript_region	945	948	1.0	+	.	

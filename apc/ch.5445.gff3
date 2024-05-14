@@ -1,92 +1,49 @@
-ch.5445	RNASeq_F_asymmetry	transcript_region	98	100	11810.0	.	.	
-ch.5445	RNASeq_reads	transcript_region	98	101	3.0	.	.	
-ch.5445	RNASeq_F_asymmetry	transcript_region	101	104	21032.0	.	.	
 ch.5445	RNASeq_stranded	transcript_region	101	104	1.0	+	.	
 ch.5445	WormBase	five_prime_UTR	101	116	.	+	.	Parent=Transcript:F52H3.5.1
 ch.5445	WormBase	exon	101	319	.	+	.	Parent=Transcript:F52H3.5.1
 ch.5445	WormBase	gene	101	881	.	+	.	ID=Gene:WBGene00009947
 ch.5445	WormBase	mRNA	101	881	.	+	.	ID=Transcript:F52H3.5.1;Parent=Gene:WBGene00009947
-ch.5445	RNASeq_reads	transcript_region	102	104	5.0	.	.	
 ch.5445	RNASeq_stranded	transcript_region	105	107	5.0	+	.	
-ch.5445	RNASeq_F_asymmetry	transcript_region	105	108	52886.0	.	.	
-ch.5445	RNASeq_reads	transcript_region	105	108	11.0	.	.	
 ch.5445	RNASeq_stranded	transcript_region	108	173	8.0	+	.	
-ch.5445	RNASeq_F_asymmetry	transcript_region	109	112	84666.0	.	.	
-ch.5445	RNASeq_reads	transcript_region	109	112	17.0	.	.	
-ch.5445	RNASeq_reads	transcript_region	113	132	27.0	.	.	
-ch.5445	RNASeq_F_asymmetry	transcript_region	113	136	135869.0	.	.	
 ch.5445	WormBase	CDS	117	319	.	+	.	ID=CDS:F52H3.5;Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_reads	transcript_region	133	305	41.0	.	.	
-ch.5445	RNASeq_F_asymmetry	transcript_region	137	182	204027.0	.	.	
 ch.5445	RNASeq_stranded	transcript_region	174	209	13.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	210	229	8.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	230	247	13.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	248	304	20.0	+	.	
 ch.5445	RNASeq_splice	intron	283	604	3.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	305	319	13.0	+	.	
-ch.5445	RNASeq_reads	transcript_region	306	319	62.0	.	.	
 ch.5445	RNASeq_splice	intron	311	371	3.0	+	.	
 ch.5445	WormBase	intron	320	371	.	+	.	Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_reads	transcript_region	320	371	1.0	.	.	
 ch.5445	RNASeq_splice	intron	320	371	350438.0	+	.	
 ch.5445	RNASeq_splice	intron	320	373	69.0	+	.	
 ch.5445	RNASeq_splice	intron	320	382	10.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	372	399	8.0	+	.	
 ch.5445	WormBase	CDS	372	451	.	+	.	ID=CDS:F52H3.5;Parent=Transcript:F52H3.5.1
 ch.5445	WormBase	exon	372	451	.	+	.	Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_reads	transcript_region	372	451	63.0	.	.	
 ch.5445	RNASeq_stranded	transcript_region	400	420	14.0	+	.	
 ch.5445	RNASeq_splice	intron	416	504	3.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	421	451	22.0	+	.	
 ch.5445	WormBase	intron	452	502	.	+	.	Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_reads	transcript_region	452	502	1.0	.	.	
 ch.5445	RNASeq_splice	intron	452	502	375142.0	+	.	
 ch.5445	RNASeq_splice	intron	452	504	43.0	+	.	
 ch.5445	RNASeq_splice	intron	452	668	8.0	+	.	
 ch.5445	WormBase	CDS	503	624	.	+	.	ID=CDS:F52H3.5;Parent=Transcript:F52H3.5.1
 ch.5445	WormBase	exon	503	624	.	+	.	Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_reads	transcript_region	503	624	68.0	.	.	
 ch.5445	RNASeq_stranded	transcript_region	503	624	20.0	+	.	
-ch.5445	RNASeq_stranded	transcript_region	525	554	1.0	-	.	
-ch.5445	RNASeq_stranded	transcript_region	555	585	2.0	-	.	
 ch.5445	RNASeq_splice	intron	561	741	11.0	+	.	
-ch.5445	RNASeq_stranded	transcript_region	586	605	1.0	-	.	
 ch.5445	RNASeq_splice	intron	601	766	19.0	+	.	
 ch.5445	RNASeq	transcription_end_site	625	625	.	+	.	
 ch.5445	WormBase	intron	625	668	.	+	.	Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_reads	transcript_region	625	668	2.0	.	.	
 ch.5445	RNASeq_splice	intron	625	668	274063.0	+	.	
-ch.5445	RNASeq_reads	transcript_region	669	793	50.0	.	.	
 ch.5445	WormBase	CDS	669	803	.	+	.	ID=CDS:F52H3.5;Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_stranded	transcript_region	669	820	1.0	-	.	
 ch.5445	RNASeq_stranded	transcript_region	669	828	23.0	+	.	
 ch.5445	WormBase	exon	669	881	.	+	.	Parent=Transcript:F52H3.5.1
 ch.5445	RNASeq	transcription_end_site	738	738	.	+	.	
-ch.5445	RNASeq_splice	intron	742	955	6.0	-	.	
-ch.5445	RNASeq_R_asymmetry	transcript_region	746	793	216520.0	.	.	
-ch.5445	RNASeq_R_asymmetry	transcript_region	794	795	117152.0	.	.	
-ch.5445	RNASeq_reads	transcript_region	794	797	28.0	.	.	
-ch.5445	RNASeq_reads	transcript_region	798	817	15.0	.	.	
-ch.5445	WormBase	three_prime_UTR	800	934	.	-	.	Parent=Transcript:F52H3.2.1
 ch.5445	WormBase	three_prime_UTR	804	881	.	+	.	Parent=Transcript:F52H3.5.1
-ch.5445	RNASeq_reads	transcript_region	818	914	9.0	.	.	
-ch.5445	RNASeq_stranded	transcript_region	821	848	2.0	-	.	
 ch.5445	RNASeq_stranded	transcript_region	829	847	15.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	848	859	9.0	+	.	
-ch.5445	RNASeq_stranded	transcript_region	849	878	4.0	-	.	
 ch.5445	RNASeq_stranded	transcript_region	860	868	5.0	+	.	
 ch.5445	RNASeq_stranded	transcript_region	869	874	3.0	+	.	
 ch.5445	RNASeq	transcription_end_site	874	874	.	+	.	
 ch.5445	RNASeq	transcription_end_site	875	875	.	+	.	
 ch.5445	RNASeq_stranded	transcript_region	875	881	1.0	+	.	
-ch.5445	RNASeq_stranded	transcript_region	879	887	7.0	-	.	
-ch.5445	RNASeq	transcription_end_site	885	885	.	+	.	
-ch.5445	RNASeq	transcription_end_site	886	886	.	+	.	
-ch.5445	RNASeq_stranded	transcript_region	888	915	11.0	-	.	
-ch.5445	RNASeq	transcription_end_site	912	912	.	+	.	
-ch.5445	RNASeq	transcription_end_site	912	912	.	+	.	
-ch.5445	RNASeq	transcription_end_site	913	913	.	+	.	
-ch.5445	RNASeq_reads	transcript_region	915	919	14.0	.	.	
-ch.5445	RNASeq_F_asymmetry	transcript_region	920	942	89655.0	.	.	
-ch.5445	RNASeq_reads	transcript_region	920	943	22.0	.	.	
-ch.5445	RNASeq_F_asymmetry	transcript_region	943	973	135580.0	.	.	

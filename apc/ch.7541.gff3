@@ -1,114 +1,64 @@
-ch.7541	RNASeq_splice	intron	47	100	108.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	88	91	1.0	.	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	92	98	15645.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	92	98	3.0	.	.	
-ch.7541	RNASeq_stranded	transcript_region	96	98	1.0	+	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	99	100	88076.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	99	100	18.0	.	.	
-ch.7541	RNASeq_stranded	transcript_region	99	102	16.0	+	.	
 ch.7541	WormBase	five_prime_UTR	101	105	.	+	.	Parent=Transcript:F01F1.2.1
-ch.7541	RNASeq_F_asymmetry	transcript_region	101	109	169004.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	101	109	34.0	.	.	
 ch.7541	WormBase	exon	101	250	.	+	.	Parent=Transcript:F01F1.2.1
 ch.7541	WormBase	gene	101	962	.	+	.	ID=Gene:WBGene00017159
 ch.7541	WormBase	mRNA	101	962	.	+	.	ID=Transcript:F01F1.2.1;Parent=Gene:WBGene00017159
 ch.7541	RNASeq_stranded	transcript_region	103	133	56.0	+	.	
 ch.7541	WormBase	CDS	106	250	.	+	.	ID=CDS:F01F1.2;Parent=Transcript:F01F1.2.1
-ch.7541	RNASeq_reads	transcript_region	110	130	57.0	.	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	110	132	280838.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	131	186	87.0	.	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	133	176	437564.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	134	153	85.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	154	178	51.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	179	198	77.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	187	250	131.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	199	217	50.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	218	250	30.0	+	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	251	252	42737.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	251	252	11.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	251	252	3.0	+	.	
 ch.7541	WormBase	intron	251	306	.	+	.	Parent=Transcript:F01F1.2.1
 ch.7541	RNASeq_splice	intron	251	306	607322.0	+	.	
 ch.7541	RNASeq_splice	intron	251	315	3.0	+	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	253	255	23570.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	253	255	5.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	253	255	1.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	305	306	12.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	305	306	4.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	307	344	30.0	+	.	
 ch.7541	WormBase	CDS	307	411	.	+	.	ID=CDS:F01F1.2;Parent=Transcript:F01F1.2.1
 ch.7541	WormBase	exon	307	411	.	+	.	Parent=Transcript:F01F1.2.1
-ch.7541	RNASeq_reads	transcript_region	307	411	116.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	345	411	19.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	412	412	13.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	412	412	3.0	+	.	
 ch.7541	RNASeq_splice	intron	412	457	362.0	+	.	
 ch.7541	WormBase	intron	412	482	.	+	.	Parent=Transcript:F01F1.2.1
 ch.7541	RNASeq_splice	intron	412	482	521183.0	+	.	
 ch.7541	RNASeq_splice	intron	412	621	1170.0	+	.	
 ch.7541	RNASeq_splice	intron	412	635	4.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	413	421	1.0	.	.	
 ch.7541	RNASeq_splice	intron	416	482	3.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	425	477	1.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	478	480	7.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	478	480	1.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	481	482	13.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	481	482	5.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	483	501	26.0	+	.	
 ch.7541	WormBase	CDS	483	576	.	+	.	ID=CDS:F01F1.2;Parent=Transcript:F01F1.2.1
 ch.7541	WormBase	exon	483	576	.	+	.	Parent=Transcript:F01F1.2.1
-ch.7541	RNASeq_reads	transcript_region	483	576	102.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	502	574	41.0	+	.	
 ch.7541	RNASeq_splice	intron	557	723	6.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	575	576	27.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	577	589	1.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	577	618	3.0	.	.	
 ch.7541	WormBase	intron	577	621	.	+	.	Parent=Transcript:F01F1.2.1
 ch.7541	RNASeq_splice	intron	577	621	501166.0	+	.	
 ch.7541	RNASeq_splice	intron	577	635	48.0	+	.	
 ch.7541	RNASeq_splice	intron	582	621	5.0	+	.	
 ch.7541	RNASeq_splice	intron	593	635	7.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	600	621	1.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	619	621	11.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	622	633	22.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	622	739	103.0	.	.	
 ch.7541	WormBase	CDS	622	763	.	+	.	ID=CDS:F01F1.2;Parent=Transcript:F01F1.2.1
 ch.7541	WormBase	exon	622	962	.	+	.	Parent=Transcript:F01F1.2.1
 ch.7541	RNASeq_stranded	transcript_region	634	773	51.0	+	.	
-ch.7541	RNASeq_splice	intron	637	710	3.0	-	.	
-ch.7541	RNASeq_stranded	transcript_region	683	727	1.0	-	.	
-ch.7541	RNASeq_R_asymmetry	transcript_region	705	709	380310.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	740	754	67.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	755	800	44.0	.	.	
 ch.7541	RNASeq_splice	intron	760	807	79.0	+	.	
 ch.7541	WormBase	three_prime_UTR	764	962	.	+	.	Parent=Transcript:F01F1.2.1
 ch.7541	RNASeq	transcription_end_site	772	772	.	+	.	
 ch.7541	RNASeq_stranded	transcript_region	774	907	33.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	801	871	29.0	.	.	
 ch.7541	RNASeq	transcription_end_site	821	821	.	+	.	
 ch.7541	RNASeq	transcription_end_site	830	830	.	+	.	
-ch.7541	RNASeq_splice	intron	830	900	4.0	-	.	
 ch.7541	RNASeq	transcription_end_site	831	831	.	+	.	
 ch.7541	RNASeq	transcription_end_site	832	832	.	+	.	
 ch.7541	RNASeq	transcription_end_site	838	838	.	+	.	
 ch.7541	RNASeq	transcription_end_site	843	843	.	+	.	
-ch.7541	RNASeq_R_asymmetry	transcript_region	847	873	84685.0	.	.	
 ch.7541	RNASeq	transcription_end_site	858	858	.	+	.	
-ch.7541	RNASeq_reads	transcript_region	872	894	19.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	895	927	12.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	908	927	21.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	928	940	7.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	928	941	13.0	+	.	
 ch.7541	RNASeq	transcription_end_site	934	934	.	+	.	
-ch.7541	RNASeq_reads	transcript_region	941	956	4.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	942	949	8.0	+	.	
 ch.7541	RNASeq_stranded	transcript_region	950	956	5.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	957	962	2.0	.	.	
 ch.7541	RNASeq_stranded	transcript_region	957	962	3.0	+	.	
-ch.7541	RNASeq_stranded	transcript_region	963	965	1.0	+	.	
-ch.7541	RNASeq_reads	transcript_region	963	966	1.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	1001	1004	1.0	.	.	
-ch.7541	RNASeq_reads	transcript_region	1006	1054	1.0	.	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	1046	1046	2949.0	.	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	1049	1052	3214.0	.	.	
-ch.7541	RNASeq_F_asymmetry	transcript_region	1053	1057	5257.0	.	.	

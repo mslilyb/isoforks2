@@ -1,63 +1,16 @@
-ch.14341	RNASeq	transcription_end_site	964	964	.	-	.	
-ch.14341	RNASeq	transcription_end_site	956	956	.	-	.	
-ch.14341	RNASeq	transcription_end_site	935	935	.	-	.	
-ch.14341	RNASeq_splice	intron	725	924	140.0	-	.	
-ch.14341	RNASeq_reads	transcript_region	911	918	9.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	854	910	5.0	.	.	
-ch.14341	RNASeq_stranded	transcript_region	890	905	11.0	-	.	
-ch.14341	RNASeq	transcription_end_site	904	904	.	-	.	
-ch.14341	RNASeq_splice	intron	725	902	3.0	-	.	
-ch.14341	RNASeq	transcription_end_site	895	895	.	-	.	
-ch.14341	WormBase	three_prime_UTR	858	894	.	-	.	Parent=Transcript:F26D11.1.1
-ch.14341	RNASeq	transcription_end_site	889	889	.	-	.	
-ch.14341	RNASeq_stranded	transcript_region	876	889	7.0	-	.	
-ch.14341	RNASeq	transcription_end_site	888	888	.	-	.	
-ch.14341	RNASeq	transcription_end_site	888	888	.	-	.	
-ch.14341	RNASeq	transcription_end_site	883	883	.	-	.	
-ch.14341	RNASeq	transcription_end_site	882	882	.	-	.	
-ch.14341	RNASeq_stranded	transcript_region	879	882	1.0	+	.	
-ch.14341	RNASeq_stranded	transcript_region	869	878	2.0	+	.	
-ch.14341	RNASeq_stranded	transcript_region	863	875	4.0	-	.	
 ch.14341	WormBase	three_prime_UTR	784	875	.	+	.	Parent=Transcript:Y97E10AL.3.1
 ch.14341	WormBase	exon	561	875	.	+	.	Parent=Transcript:Y97E10AL.3.1
 ch.14341	WormBase	gene	101	875	.	+	.	ID=Gene:WBGene00022394
 ch.14341	WormBase	mRNA	101	875	.	+	.	ID=Transcript:Y97E10AL.3.1;Parent=Gene:WBGene00022394
 ch.14341	RNASeq_stranded	transcript_region	851	868	4.0	+	.	
-ch.14341	RNASeq_stranded	transcript_region	857	862	2.0	-	.	
-ch.14341	RNASeq	transcription_end_site	859	859	.	-	.	
-ch.14341	RNASeq	transcription_end_site	859	859	.	-	.	
-ch.14341	RNASeq_stranded	transcript_region	816	856	1.0	-	.	
-ch.14341	RNASeq_reads	transcript_region	837	853	8.0	.	.	
 ch.14341	RNASeq_stranded	transcript_region	815	850	7.0	+	.	
-ch.14341	RNASeq	transcription_end_site	849	849	.	-	.	
-ch.14341	RNASeq	transcription_end_site	844	844	.	-	.	
-ch.14341	RNASeq	transcription_end_site	844	844	.	-	.	
-ch.14341	RNASeq_F_asymmetry	transcript_region	835	838	44156.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	828	836	13.0	.	.	
-ch.14341	RNASeq_F_asymmetry	transcript_region	813	834	69135.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	780	827	20.0	.	.	
 ch.14341	RNASeq_stranded	transcript_region	799	814	11.0	+	.	
-ch.14341	RNASeq_F_asymmetry	transcript_region	794	812	104091.0	.	.	
-ch.14341	RNASeq	transcription_end_site	811	811	.	-	.	
-ch.14341	RNASeq	transcription_end_site	806	806	.	-	.	
 ch.14341	RNASeq_stranded	transcript_region	791	798	17.0	+	.	
 ch.14341	RNASeq_stranded	transcript_region	776	790	26.0	+	.	
-ch.14341	RNASeq	transcription_end_site	786	786	.	-	.	
-ch.14341	RNASeq	transcription_end_site	786	786	.	-	.	
 ch.14341	WormBase	CDS	561	783	.	+	.	ID=CDS:Y97E10AL.3;Parent=Transcript:Y97E10AL.3.1
-ch.14341	RNASeq_reads	transcript_region	778	779	33.0	.	.	
-ch.14341	RNASeq_F_asymmetry	transcript_region	764	777	207164.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	761	777	51.0	.	.	
 ch.14341	RNASeq_stranded	transcript_region	742	775	40.0	+	.	
-ch.14341	RNASeq_stranded	transcript_region	728	765	1.0	-	.	
-ch.14341	RNASeq_F_asymmetry	transcript_region	732	763	319156.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	561	760	77.0	.	.	
-ch.14341	RNASeq_splice	intron	703	741	9.0	-	.	
 ch.14341	RNASeq_stranded	transcript_region	640	741	26.0	+	.	
-ch.14341	RNASeq_stranded	transcript_region	596	674	1.0	-	.	
-ch.14341	RNASeq_splice	intron	507	648	13.0	-	.	
 ch.14341	RNASeq_stranded	transcript_region	573	639	17.0	+	.	
-ch.14341	RNASeq_stranded	transcript_region	587	590	1.0	-	.	
 ch.14341	RNASeq_stranded	transcript_region	561	572	27.0	+	.	
 ch.14341	RNASeq_splice	intron	518	566	9.0	+	.	
 ch.14341	RNASeq_splice	intron	514	566	33.0	+	.	
@@ -66,49 +19,23 @@ ch.14341	RNASeq_splice	intron	514	560	412233.0	+	.
 ch.14341	RNASeq_splice	intron	501	560	16.0	+	.	
 ch.14341	RNASeq_splice	intron	514	551	571.0	+	.	
 ch.14341	RNASeq_stranded	transcript_region	469	513	36.0	+	.	
-ch.14341	RNASeq_reads	transcript_region	405	513	77.0	.	.	
 ch.14341	WormBase	CDS	384	513	.	+	.	ID=CDS:Y97E10AL.3;Parent=Transcript:Y97E10AL.3.1
 ch.14341	WormBase	exon	384	513	.	+	.	Parent=Transcript:Y97E10AL.3.1
 ch.14341	RNASeq_stranded	transcript_region	459	468	23.0	+	.	
 ch.14341	RNASeq_stranded	transcript_region	414	458	35.0	+	.	
-ch.14341	RNASeq_splice	intron	425	453	3.0	-	.	
-ch.14341	RNASeq_stranded	transcript_region	384	413	1.0	-	.	
 ch.14341	RNASeq_stranded	transcript_region	384	413	23.0	+	.	
-ch.14341	RNASeq_reads	transcript_region	384	404	116.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	383	383	10.0	.	.	
-ch.14341	RNASeq_stranded	transcript_region	383	383	3.0	-	.	
 ch.14341	RNASeq_splice	intron	337	383	6.0	+	.	
 ch.14341	WormBase	intron	333	383	.	+	.	Parent=Transcript:Y97E10AL.3.1
 ch.14341	RNASeq_splice	intron	333	383	595881.0	+	.	
 ch.14341	RNASeq_splice	intron	333	370	630.0	+	.	
 ch.14341	RNASeq_stranded	transcript_region	313	332	19.0	+	.	
-ch.14341	RNASeq_stranded	transcript_region	254	332	1.0	-	.	
 ch.14341	WormBase	CDS	242	332	.	+	.	ID=CDS:Y97E10AL.3;Parent=Transcript:Y97E10AL.3.1
 ch.14341	WormBase	exon	242	332	.	+	.	Parent=Transcript:Y97E10AL.3.1
-ch.14341	RNASeq_reads	transcript_region	242	332	103.0	.	.	
 ch.14341	RNASeq_stranded	transcript_region	250	312	29.0	+	.	
-ch.14341	RNASeq_splice	intron	185	259	106.0	-	.	
 ch.14341	RNASeq_stranded	transcript_region	242	249	19.0	+	.	
-ch.14341	RNASeq_reads	transcript_region	241	241	13.0	.	.	
-ch.14341	RNASeq_stranded	transcript_region	241	241	4.0	-	.	
 ch.14341	WormBase	intron	193	241	.	+	.	Parent=Transcript:Y97E10AL.3.1
 ch.14341	RNASeq_splice	intron	193	241	534314.0	+	.	
-ch.14341	RNASeq_reads	transcript_region	117	192	104.0	.	.	
 ch.14341	WormBase	CDS	115	192	.	+	.	ID=CDS:Y97E10AL.3;Parent=Transcript:Y97E10AL.3.1
 ch.14341	RNASeq_stranded	transcript_region	103	192	15.0	+	.	
 ch.14341	WormBase	exon	101	192	.	+	.	Parent=Transcript:Y97E10AL.3.1
-ch.14341	RNASeq_splice	intron	150	179	5.0	-	.	
-ch.14341	RNASeq_R_asymmetry	transcript_region	109	169	406360.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	107	116	66.0	.	.	
 ch.14341	WormBase	five_prime_UTR	101	114	.	+	.	Parent=Transcript:Y97E10AL.3.1
-ch.14341	RNASeq_R_asymmetry	transcript_region	103	108	227623.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	103	106	43.0	.	.	
-ch.14341	RNASeq_R_asymmetry	transcript_region	99	102	134735.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	99	102	26.0	.	.	
-ch.14341	RNASeq_stranded	transcript_region	99	102	9.0	+	.	
-ch.14341	RNASeq_splice	intron	50	100	6.0	+	.	
-ch.14341	RNASeq_splice	intron	34	100	5.0	+	.	
-ch.14341	RNASeq_reads	transcript_region	95	98	1.0	.	.	
-ch.14341	RNASeq_reads	transcript_region	76	90	1.0	.	.	
-ch.14341	RNASeq_F_asymmetry	transcript_region	79	83	2148.0	.	.	
-ch.14341	RNASeq_F_asymmetry	transcript_region	76	76	2152.0	.	.	

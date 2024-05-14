@@ -1,45 +1,20 @@
-ch.939	RNASeq_F_asymmetry	transcript_region	1	4	437.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	5	7	282.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	28	37	297.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	38	39	452.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	40	41	1347.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	42	44	2277.0	.	.	
-ch.939	RNASeq_reads	transcript_region	43	56	1.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	45	53	3928.0	.	.	
-ch.939	RNASeq_splice	intron	45	100	6.0	+	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	54	65	6134.0	.	.	
-ch.939	RNASeq_stranded	transcript_region	55	98	1.0	+	.	
-ch.939	RNASeq_reads	transcript_region	57	98	2.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	66	98	9310.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	99	99	70404.0	.	.	
-ch.939	RNASeq_reads	transcript_region	99	99	14.0	.	.	
-ch.939	RNASeq_stranded	transcript_region	99	106	7.0	+	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	100	108	125542.0	.	.	
-ch.939	RNASeq_reads	transcript_region	100	108	25.0	.	.	
 ch.939	WormBase	five_prime_UTR	101	109	.	+	.	Parent=Transcript:T19B4.4.1
 ch.939	WormBase	exon	101	235	.	+	.	Parent=Transcript:T19B4.4.1
 ch.939	WormBase	gene	101	920	.	+	.	ID=Gene:WBGene00001039
 ch.939	WormBase	mRNA	101	920	.	+	.	ID=Transcript:T19B4.4.1;Parent=Gene:WBGene00001039
 ch.939	RNASeq_stranded	transcript_region	107	112	11.0	+	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	109	115	189077.0	.	.	
-ch.939	RNASeq_reads	transcript_region	109	115	38.0	.	.	
 ch.939	WormBase	CDS	110	235	.	+	.	ID=CDS:T19B4.4;Parent=Transcript:T19B4.4.1
 ch.939	RNASeq_stranded	transcript_region	113	148	17.0	+	.	
-ch.939	RNASeq_reads	transcript_region	116	145	60.0	.	.	
-ch.939	RNASeq_F_asymmetry	transcript_region	116	168	285895.0	.	.	
-ch.939	RNASeq_reads	transcript_region	146	235	91.0	.	.	
 ch.939	RNASeq_stranded	transcript_region	149	197	31.0	+	.	
 ch.939	RNASeq_stranded	transcript_region	198	199	20.0	+	.	
 ch.939	RNASeq_stranded	transcript_region	200	235	12.0	+	.	
 ch.939	RNASeq_splice	intron	221	284	3.0	+	.	
 ch.939	RNASeq_splice	intron	228	284	8.0	+	.	
-ch.939	RNASeq_reads	transcript_region	236	239	7.0	.	.	
 ch.939	WormBase	intron	236	284	.	+	.	Parent=Transcript:T19B4.4.1
 ch.939	RNASeq_splice	intron	236	284	408400.0	+	.	
 ch.939	RNASeq_splice	intron	236	289	1435.0	+	.	
 ch.939	RNASeq_splice	intron	236	306	5.0	+	.	
 ch.939	RNASeq_splice	intron	236	774	74.0	+	.	
-ch.939	RNASeq_reads	transcript_region	240	240	4.0	.	.	
 ch.939	RNASeq_splice	intron	240	284	6.0	+	.	
 ch.939	RNASeq_splice	intron	240	289	199.0	+	.	
 ch.939	RNASeq_splice	intron	242	284	24.0	+	.	
@@ -47,25 +22,16 @@ ch.939	RNASeq_splice	intron	242	289	100.0	+	.
 ch.939	RNASeq_stranded	transcript_region	285	370	12.0	+	.	
 ch.939	WormBase	CDS	285	429	.	+	.	ID=CDS:T19B4.4;Parent=Transcript:T19B4.4.1
 ch.939	WormBase	exon	285	429	.	+	.	Parent=Transcript:T19B4.4.1
-ch.939	RNASeq_reads	transcript_region	285	429	80.0	.	.	
 ch.939	RNASeq_splice	intron	322	793	9.0	+	.	
 ch.939	RNASeq_stranded	transcript_region	371	429	19.0	+	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	419	429	305511.0	.	.	
-ch.939	RNASeq_reads	transcript_region	430	430	9.0	.	.	
 ch.939	RNASeq_stranded	transcript_region	430	430	2.0	+	.	
 ch.939	WormBase	intron	430	774	.	+	.	Parent=Transcript:T19B4.4.1
 ch.939	RNASeq_splice	intron	430	774	359367.0	+	.	
 ch.939	RNASeq_splice	intron	430	777	8.0	+	.	
-ch.939	RNASeq_reads	transcript_region	773	774	5.0	.	.	
 ch.939	RNASeq_stranded	transcript_region	773	774	7.0	+	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	775	809	262025.0	.	.	
-ch.939	RNASeq_reads	transcript_region	775	812	65.0	.	.	
 ch.939	WormBase	CDS	775	842	.	+	.	ID=CDS:T19B4.4;Parent=Transcript:T19B4.4.1
 ch.939	RNASeq_stranded	transcript_region	775	845	24.0	+	.	
 ch.939	WormBase	exon	775	920	.	+	.	Parent=Transcript:T19B4.4.1
-ch.939	RNASeq_reads	transcript_region	813	841	41.0	.	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	832	838	143212.0	.	.	
-ch.939	RNASeq_reads	transcript_region	842	883	24.0	.	.	
 ch.939	WormBase	three_prime_UTR	843	920	.	+	.	Parent=Transcript:T19B4.4.1
 ch.939	RNASeq	transcription_end_site	844	844	.	+	.	
 ch.939	RNASeq_stranded	transcript_region	846	863	15.0	+	.	
@@ -73,21 +39,5 @@ ch.939	RNASeq	transcription_end_site	854	854	.	+	.
 ch.939	RNASeq	transcription_end_site	862	862	.	+	.	
 ch.939	RNASeq	transcription_end_site	864	864	.	+	.	
 ch.939	RNASeq_stranded	transcript_region	864	905	9.0	+	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	873	904	64294.0	.	.	
-ch.939	RNASeq_reads	transcript_region	884	906	15.0	.	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	905	916	41974.0	.	.	
 ch.939	RNASeq_stranded	transcript_region	906	914	5.0	+	.	
 ch.939	RNASeq	transcription_end_site	907	907	.	+	.	
-ch.939	RNASeq_reads	transcript_region	907	916	9.0	.	.	
-ch.939	RNASeq_stranded	transcript_region	915	923	3.0	+	.	
-ch.939	RNASeq_reads	transcript_region	917	920	5.0	.	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	917	923	20117.0	.	.	
-ch.939	RNASeq_reads	transcript_region	921	923	3.0	.	.	
-ch.939	RNASeq	transcription_end_site	923	923	.	+	.	
-ch.939	RNASeq	transcription_end_site	924	924	.	+	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	924	949	5516.0	.	.	
-ch.939	RNASeq_reads	transcript_region	924	969	1.0	.	.	
-ch.939	RNASeq_stranded	transcript_region	924	969	1.0	+	.	
-ch.939	RNASeq	transcription_end_site	928	928	.	+	.	
-ch.939	RNASeq_R_asymmetry	transcript_region	950	950	3447.0	.	.	
-ch.939	RNASeq	transcription_end_site	982	982	.	+	.	

@@ -1,19 +1,8 @@
-ch.4126	RNASeq_F_asymmetry	transcript_region	65	99	364.0	.	.	
-ch.4126	RNASeq_splice	intron	68	124	3.0	+	.	
-ch.4126	RNASeq_splice	intron	75	124	258.0	+	.	
-ch.4126	RNASeq_F_asymmetry	transcript_region	100	111	581.0	.	.	
 ch.4126	WormBase	five_prime_UTR	101	181	.	+	.	Parent=Transcript:F41C3.1.1
 ch.4126	WormBase	exon	101	283	.	+	.	Parent=Transcript:F41C3.1.1
 ch.4126	WormBase	gene	101	785	.	+	.	ID=Gene:WBGene00018267
 ch.4126	WormBase	mRNA	101	785	.	+	.	ID=Transcript:F41C3.1.1;Parent=Gene:WBGene00018267
-ch.4126	RNASeq_F_asymmetry	transcript_region	112	119	1027.0	.	.	
-ch.4126	RNASeq_F_asymmetry	transcript_region	120	126	1670.0	.	.	
-ch.4126	RNASeq_reads	transcript_region	125	157	1.0	.	.	
-ch.4126	RNASeq_F_asymmetry	transcript_region	127	137	2602.0	.	.	
-ch.4126	RNASeq_F_asymmetry	transcript_region	138	150	4132.0	.	.	
 ch.4126	RNASeq_stranded	transcript_region	148	233	1.0	+	.	
-ch.4126	RNASeq_F_asymmetry	transcript_region	151	183	6364.0	.	.	
-ch.4126	RNASeq_reads	transcript_region	158	283	2.0	.	.	
 ch.4126	WormBase	CDS	182	283	.	+	.	ID=CDS:F41C3.1;Parent=Transcript:F41C3.1.1
 ch.4126	RNASeq_stranded	transcript_region	250	283	1.0	+	.	
 ch.4126	WormBase	intron	284	329	.	+	.	Parent=Transcript:F41C3.1.1
@@ -21,24 +10,18 @@ ch.4126	RNASeq_splice	intron	284	329	10344.0	+	.
 ch.4126	RNASeq_stranded	transcript_region	330	384	1.0	+	.	
 ch.4126	WormBase	CDS	330	467	.	+	.	ID=CDS:F41C3.1;Parent=Transcript:F41C3.1.1
 ch.4126	WormBase	exon	330	467	.	+	.	Parent=Transcript:F41C3.1.1
-ch.4126	RNASeq_reads	transcript_region	330	467	2.0	.	.	
 ch.4126	WormBase	intron	468	537	.	+	.	Parent=Transcript:F41C3.1.1
 ch.4126	RNASeq_splice	intron	468	537	10286.0	+	.	
 ch.4126	RNASeq_splice	intron	468	547	5.0	+	.	
-ch.4126	RNASeq_splice	intron	517	559	3.0	-	.	
 ch.4126	WormBase	CDS	538	603	.	+	.	ID=CDS:F41C3.1;Parent=Transcript:F41C3.1.1
 ch.4126	WormBase	exon	538	603	.	+	.	Parent=Transcript:F41C3.1.1
-ch.4126	RNASeq_reads	transcript_region	538	603	2.0	.	.	
 ch.4126	RNASeq_stranded	transcript_region	542	584	1.0	+	.	
 ch.4126	RNASeq_stranded	transcript_region	585	603	2.0	+	.	
 ch.4126	WormBase	intron	604	652	.	+	.	Parent=Transcript:F41C3.1.1
 ch.4126	RNASeq_splice	intron	604	652	10373.0	+	.	
-ch.4126	RNASeq_reads	transcript_region	653	722	2.0	.	.	
 ch.4126	WormBase	CDS	653	736	.	+	.	ID=CDS:F41C3.1;Parent=Transcript:F41C3.1.1
 ch.4126	RNASeq_stranded	transcript_region	653	744	2.0	+	.	
 ch.4126	WormBase	exon	653	785	.	+	.	Parent=Transcript:F41C3.1.1
-ch.4126	RNASeq_R_asymmetry	transcript_region	708	718	7255.0	.	.	
-ch.4126	RNASeq_reads	transcript_region	723	755	1.0	.	.	
 ch.4126	RNASeq	transcription_end_site	733	733	.	+	.	
 ch.4126	WormBase	three_prime_UTR	737	785	.	+	.	Parent=Transcript:F41C3.1.1
 ch.4126	RNASeq_stranded	transcript_region	745	772	1.0	+	.	

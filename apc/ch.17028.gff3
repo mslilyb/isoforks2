@@ -1,37 +1,9 @@
-ch.17028	RNASeq_F_asymmetry	transcript_region	95	95	1638.0	.	.	
-ch.17028	RNASeq_F_asymmetry	transcript_region	96	97	2563.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	96	99	1.0	.	.	
-ch.17028	RNASeq_F_asymmetry	transcript_region	98	99	5472.0	.	.	
-ch.17028	RNASeq_F_asymmetry	transcript_region	100	100	17279.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	100	100	3.0	.	.	
-ch.17028	RNASeq_F_asymmetry	transcript_region	101	123	31594.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	101	132	6.0	.	.	
 ch.17028	WormBase	CDS	101	289	.	+	.	ID=CDS:Y51A2A.11;Parent=Transcript:Y51A2A.11.1
 ch.17028	WormBase	exon	101	289	.	+	.	Parent=Transcript:Y51A2A.11.1
 ch.17028	WormBase	gene	101	491	.	+	.	ID=Gene:WBGene00013064
 ch.17028	WormBase	mRNA	101	491	.	+	.	ID=Transcript:Y51A2A.11.1;Parent=Gene:WBGene00013064
-ch.17028	RNASeq_F_asymmetry	transcript_region	124	200	47560.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	133	201	10.0	.	.	
-ch.17028	RNASeq_F_asymmetry	transcript_region	201	201	28822.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	202	274	6.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	275	289	10.0	.	.	
-ch.17028	RNASeq_R_asymmetry	transcript_region	290	290	7603.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	290	290	2.0	.	.	
 ch.17028	WormBase	intron	290	335	.	+	.	Parent=Transcript:Y51A2A.11.1
 ch.17028	RNASeq_splice	intron	290	335	37307.0	+	.	
 ch.17028	RNASeq_splice	intron	290	346	16.0	+	.	
-ch.17028	RNASeq_reads	transcript_region	336	373	8.0	.	.	
 ch.17028	WormBase	CDS	336	491	.	+	.	ID=CDS:Y51A2A.11;Parent=Transcript:Y51A2A.11.1
 ch.17028	WormBase	exon	336	491	.	+	.	Parent=Transcript:Y51A2A.11.1
-ch.17028	RNASeq_R_asymmetry	transcript_region	371	470	45412.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	374	444	13.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	445	471	8.0	.	.	
-ch.17028	RNASeq_R_asymmetry	transcript_region	471	473	24376.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	472	475	5.0	.	.	
-ch.17028	RNASeq_R_asymmetry	transcript_region	474	535	16043.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	476	548	3.0	.	.	
-ch.17028	RNASeq_R_asymmetry	transcript_region	536	549	10388.0	.	.	
-ch.17028	RNASeq_reads	transcript_region	549	554	1.0	.	.	
-ch.17028	RNASeq_R_asymmetry	transcript_region	550	554	6565.0	.	.	
-ch.17028	RNASeq_R_asymmetry	transcript_region	555	555	1608.0	.	.	
-ch.17028	RNASeq_R_asymmetry	transcript_region	556	556	1029.0	.	.	
