@@ -539,7 +539,7 @@ def get_introns(gff):
 	introns = {}
 	total = 0
 	with open(gff) as fp:
-		for line in fp.readlines():
+		for line in fp.:
 			if line.startswith('#'): continue
 			f = line.split()
 			if len(f) < 8: continue
@@ -581,6 +581,11 @@ def expdiff(introns1, introns2):
 
 	distance = manhattan(p1, p2)
 	return distance, details
+
+def idiff(introns1, introns2):
+	print(introns1)
+	print(introns2)
+	sys.exit()
 
 #########################
 ## TRANSLATION SECTION ##
