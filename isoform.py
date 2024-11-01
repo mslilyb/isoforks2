@@ -582,11 +582,6 @@ def expdiff(introns1, introns2):
 	distance = manhattan(p1, p2)
 	return distance, details
 
-def idiff(introns1, introns2):
-	print(introns1)
-	print(introns2)
-	sys.exit()
-
 #########################
 ## TRANSLATION SECTION ##
 #########################
