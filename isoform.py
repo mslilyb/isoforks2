@@ -539,7 +539,7 @@ def get_introns(gff):
 	introns = {}
 	total = 0
 	with open(gff) as fp:
-		for line in fp.:
+		for line in fp:
 			if line.startswith('#'): continue
 			f = line.split()
 			if len(f) < 8: continue
