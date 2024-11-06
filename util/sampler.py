@@ -6,38 +6,6 @@ import random
 import re
 import sys
 
-from grimoire.genome import Reader
-
-def harvest_introns(fasta, gff, rna=False):
-	# get all introns
-	introns = []
-	genome = Reader(gff=gff, fasta=fasta)
-	chrom = next(genome)
-	for f in chrom.ftable.features:
-		if f.type != 'intron': continue
-		if rna:
-			if f.source != 'RNASeq_splice': continue
-			if f.strand != '+': continue
-		introns.append(f)
-	return introns
-
-	# aggregate introns by position
-	ipos = {}
-	total = 0
-	for intron in introns:
-		sig = (intron.beg, intron.end)
-		if sig not in ipos: ipos[sig] = 0
-		ipos[sig] += intron.score
-		total += intron.score
-	for sig in ipos: ipos[sig] /= total # convert to probs
-
-	return ipos
-
-def freq_dist(vals, pseudo=0):
-	assert(pseudo >= 0)
-	total = sum(vals) + pseudo * len(vals)
-	return [(x+pseudo) / total for x in vals]
-
 parser = argparse.ArgumentParser(description='more testing')
 parser.add_argument('apc', help='path to apc directory')
 parser.add_argument('build', help='path to build directory')
