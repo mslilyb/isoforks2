@@ -108,7 +108,7 @@ def read_fasta(filename):
 
 	fp = get_filepointer(filename)
 
-	for line in fp.readlines():
+	for line in fp:
 		line = line.rstrip()
 		if line.startswith('>'):
 			if len(seqs) > 0:
@@ -182,7 +182,7 @@ def read_pwm(file):
 
 	# read raw values
 	with open(file) as fp:
-		for line in fp.readlines():
+		for line in fp:
 			if line.startswith('%'): continue
 			f = line.split()
 			d = {}
@@ -268,7 +268,7 @@ def write_len(file, hist):
 def read_len(file):
 	model = []
 	with open(file) as fp:
-		for line in fp.readlines():
+		for line in fp:
 			if line.startswith('%'): continue
 			line = line.rstrip()
 			model.append(float(line))
@@ -328,7 +328,7 @@ def read_markov(file):
 	mm = {}
 	k = None
 	with open(file) as fp:
-		for line in fp.readlines():
+		for line in fp:
 			if line.startswith('%'): continue
 			f = line.split()
 			if len(f) == 2:
@@ -433,7 +433,7 @@ def gff_sites(seq, gff, gtag=True):
 	dond = {}
 	accd = {}
 	with open(gff) as fp:
-		for line in fp.readlines():
+		for line in fp:
 			if line.startswith('#'): continue
 			f = line.split()
 			if len(f) < 8: continue
@@ -594,7 +594,7 @@ def proteins(ff, gff):
 
 	# get exons
 	with open(gff) as fp:
-		for line in fp.readlines():
+		for line in fp:
 			if line.startswith('#'): continue
 			f = line.split()
 			if len(f) < 8: continue
