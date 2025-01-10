@@ -2,6 +2,7 @@
 
 import argparse
 import isoform
+from isoform import Locus
 
 ## Command Line Interface ##
 
@@ -47,6 +48,8 @@ parser.add_argument('--wilen', required=False, type=float, default=1.0,
 	metavar='<float>', help='ilen weight [%(default).2f]')
 parser.add_argument('--icost', required=False, type=float, default=0.0,
 	metavar='<float>', help='cost for each intron [%(default).2f]')
+parser.add_argument('--alt', action='store_true',
+	help='use alternative algorithm')
 arg = parser.parse_args()
 
 assert(arg.icost >= 0)
@@ -60,8 +63,20 @@ imm  = isoform.read_markov(arg.imm) if arg.imm  else None
 # generate isoforms
 
 name, seq = next(isoform.read_fasta(arg.fasta))
+
+if arg.alt:
+	sys.exit('under development')
+	models = (dpwm, apwm, emm, imm, elen, ilen)
+	weights = (arg.wdpm, arg.wapwm, arg.wemm, arg.wimm, arg.welen, arg.wilen)
+	locus = Locus(seq, arg.min_intron, arg.min_exon,
+		arg.max_splice, arg.flank, models, weights, arg.icost,
+		limit=arg.limit, gff=arg.introns)
+	for isoform in locus.isoforms: print(isoform)
+	sys.exit('ok')
+
+
 txs, info = isoform.all_possible(seq, arg.min_intron, arg.min_exon,
-	arg.max_splice, arg.flank, gff=arg.introns)
+		arg.max_splice, arg.flank, gff=arg.introns)
 
 # score isoforms
 

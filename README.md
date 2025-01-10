@@ -1,6 +1,16 @@
 Isoforms
 ========
 
+## Notes ##
+
+Redesign the isoform generators
+
+- suffix tree algorithm
+- scoring during generation
+- option to keep N-best isoforms
+- probabilities at the end
+- self gff output
+
 ## Programs ##
 
 ### Python

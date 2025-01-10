@@ -520,6 +520,30 @@ def all_possible(seq, minin, minex, maxs, flank, gff=None):
 
 	return isoforms, info
 
+class Locus:
+	"""class to represent an alternatively spliced locus"""
+
+	def __init__(self, seq, name, imin, emin, smax, flank, mods, w8s, icost,
+			gff=None, limit=None):
+		self.seq = seq
+		self.name = name
+		self.isoforms = []
+
+	def gff(self):
+		"""gff-based version of locus"""
+		return 'test'
+
+	def __str__(self):
+		"""locus objects can stringify themselves"""
+		return self.gff()
+
+class Isoform:
+	"""class to represent an individual isoform"""
+
+	def __init__(self, exons):
+		self.exons = exon
+
+
 ########################
 ## EXPRESSION SECTION ##
 ########################
