@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import argparse
+import sys
+
 import isoform
 from isoform import Locus
 
@@ -8,7 +10,7 @@ from isoform import Locus
 
 parser = argparse.ArgumentParser(
 	description='Alternative isoform generator')
-parser.add_argument('fasta', type=str, metavar='<file>',
+parser.add_argument('fasta', type=str, metavar='<fasta file>',
 	help='input fasta file (reads only the first sequence if multi-fasta)')
 parser.add_argument('--min_intron', required=False, type=int, default=35,
 	metavar='<int>', help='minimum length of intron [%(default)i]')
@@ -32,7 +34,7 @@ parser.add_argument('--ilen', required=False, type=str, metavar='<file>',
 	help='length model for introns [%(default)s]')
 parser.add_argument('--introns', required=False, type=str, metavar='<file>',
 	help='use introns in gff for source of splice sites [%(default)s]')
-parser.add_argument('--limit', required=False, type=int, default=20,
+parser.add_argument('--limit', required=False, type=int, default=100,
 	metavar='<int>', help='limit number of transcripts [%(default)i]')
 parser.add_argument('--wdpwm', required=False, type=float, default=1.0,
 	metavar='<float>', help='dpwm weight [%(default).2f]')
@@ -46,34 +48,39 @@ parser.add_argument('--welen', required=False, type=float, default=1.0,
 	metavar='<float>', help='elen weight [%(default).2f]')
 parser.add_argument('--wilen', required=False, type=float, default=1.0,
 	metavar='<float>', help='ilen weight [%(default).2f]')
-parser.add_argument('--icost', required=False, type=float, default=0.0,
+parser.add_argument('--icost', required=False, type=float, default=0.001,
 	metavar='<float>', help='cost for each intron [%(default).2f]')
-parser.add_argument('--alt', action='store_true',
-	help='use alternative algorithm')
+parser.add_argument('--old', action='store_true', help='use old algorithm')
 arg = parser.parse_args()
 
-assert(arg.icost >= 0)
+assert(arg.icost >= 0 and arg.icost <= 1)
+icost = isoform.prob2score(arg.icost)
 dpwm = isoform.read_pwm(arg.dpwm)   if arg.dpwm else None
 apwm = isoform.read_pwm(arg.apwm)   if arg.apwm else None
 elen = isoform.read_len(arg.elen)   if arg.elen else None
 ilen = isoform.read_len(arg.ilen)   if arg.ilen else None
 emm  = isoform.read_markov(arg.emm) if arg.emm  else None
 imm  = isoform.read_markov(arg.imm) if arg.imm  else None
-
-# generate isoforms
-
 name, seq = next(isoform.read_fasta(arg.fasta))
 
-if arg.alt:
-	sys.exit('under development')
-	models = (dpwm, apwm, emm, imm, elen, ilen)
-	weights = (arg.wdpm, arg.wapwm, arg.wemm, arg.wimm, arg.welen, arg.wilen)
-	locus = Locus(seq, arg.min_intron, arg.min_exon,
-		arg.max_splice, arg.flank, models, weights, arg.icost,
-		limit=arg.limit, gff=arg.introns)
-	for isoform in locus.isoforms: print(isoform)
-	sys.exit('ok')
+#####################
+# generate isoforms #
+#####################
 
+if not arg.old:
+	models = (dpwm, apwm, emm, imm, elen, ilen)
+	weights = (arg.wdpwm, arg.wapwm, arg.wemm, arg.wimm, arg.welen, arg.wilen)
+	locus = Locus(name, seq, arg.min_intron, arg.min_exon,
+		arg.max_splice, arg.flank, models, weights, icost,
+		limit=arg.limit, gff=arg.introns)
+	for isoform in locus.isoforms(): print(isoform['score'], isoform['introns'])
+	sys.exit('still need to do gff output')
+
+#####################
+# the old algorithm #
+#####################
+
+# generate isoforms
 
 txs, info = isoform.all_possible(seq, arg.min_intron, arg.min_exon,
 		arg.max_splice, arg.flank, gff=arg.introns)

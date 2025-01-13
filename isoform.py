@@ -393,38 +393,38 @@ def score_imm(mm, tx, dpwm, apwm):
 ## ISOFORM GENERATION SECTION ##
 ################################
 
-def short_intron(dons, accs, min):
+def short_intron(dons, accs, t):
 	for d, a in zip(dons, accs):
 		intron_length = a - d + 1
-		if intron_length < min: return True
+		if intron_length < t: return True
 	return False
 
-def short_exon(dons, accs, seqlen, flank, min):
+def short_exon(dons, accs, seqlen, flank, t):
 
 	# first exon
-	exon_beg = flank + 1
+	exon_beg = flank
 	exon_end = dons[0] -1
 	exon_len = exon_end - exon_beg + 1
-	if exon_len < min: return True
+	if exon_len < t: return True
 
 	# last exon
 	exon_beg = accs[-1] + 1
-	exon_end = seqlen - flank + 1
-	exon_len = exon_end - exon_beg + 1
-	if exon_len < min: return True
+	exon_end = seqlen - flank
+	exon_len = exon_end - exon_beg
+	if exon_len < t: return True
 
 	# interior exons
 	for i in range(1, len(dons)):
 		exon_beg = accs[i-1] + 1
 		exon_end = dons[i] - 1
-		exon_len = exon_end - exon_beg
-		if exon_len < min: return True
+		exon_len = exon_end - exon_beg + 1
+		if exon_len < t: return True
 	return False
 
 def gtag_sites(seq, flank, minex):
 	dons = []
 	accs = []
-	for i in range(flank + minex, len(seq) -flank -minex -1):
+	for i in range(flank + minex, len(seq) -flank -minex):
 		if seq[i:i+2]   == 'GT': dons.append(i)
 		if seq[i-1:i+1] == 'AG': accs.append(i)
 	return dons, accs
@@ -521,13 +521,109 @@ def all_possible(seq, minin, minex, maxs, flank, gff=None):
 	return isoforms, info
 
 class Locus:
-	"""class to represent an alternatively spliced locus"""
+	"""Class to represent an alternatively spliced locus"""
 
-	def __init__(self, seq, name, imin, emin, smax, flank, mods, w8s, icost,
+	def __init__(self, name, seq, imin, emin, smax, flank, mods, w8s, icost,
 			gff=None, limit=None):
-		self.seq = seq
+
+		# sequence stuff
 		self.name = name
-		self.isoforms = []
+		self.seq = seq
+
+		# model stuff
+		self.imin = imin
+		self.emin = emin
+		self.smax = smax
+		self.flank = flank
+		self.don = mods[0]
+		self.acc = mods[1]
+		self.emm = mods[2]
+		self.imm = mods[3]
+		self.elen = mods[4]
+		self.ilen = mods[5]
+		self.wdon = w8s[0]
+		self.wacc = w8s[1]
+		self.wemm = w8s[2]
+		self.wimm = w8s[3]
+		self.welen = w8s[4]
+		self.wilen = w8s[5]
+		self.icost = icost
+
+		# algorithm stuff
+		if gff: self.dons, self.accs = gff_sites(seq, gff)
+		else:   self.dons, self.accs = gtag_sites(seq, flank, emin)
+		self.keep = []       # isoforms kept when limited
+		self.worst = None    # score of worst isoform in keep
+		self.limit = limit
+		if self.limit: self.resize = self.limit * 2
+		else:          self.resize = None
+
+	def keep_isoform(self, introns):
+		dsites = [x[0] for x in introns]
+		asites = [x[1] for x in introns]
+		tx = build_mRNA(self.seq, self.flank, len(self.seq) - self.flank -1,
+			dsites, asites)
+		s = 0
+		if self.acc:  s += score_apwm(self.acc, tx) * self.wacc
+		if self.don:  s += score_dpwm(self.don, tx) * self.wdon
+		if self.elen: s += score_elen(self.elen, tx) * self.welen
+		if self.ilen: s += score_ilen(self.ilen, tx) * self.wilen
+		if self.emm:  s += score_emm(self.emm, tx) * self.wemm
+		if self.imm:  s += score_imm(self.imm, tx, self.don, self.acc) \
+			* self.wimm
+		s -= len(introns) * self.icost
+		tx['score'] = s
+
+		# leave early if keeping everything
+		if self.limit is None:
+			self.keep.append(tx)
+			return
+
+		 # don't keep bad isoforms
+		if self.worst is not None and s < self.worst: return
+
+		# storing, sorting, pruning
+		self.keep.append(tx)
+		if len(self.keep) > self.resize:
+			keep = sorted(self.keep, key=lambda d: d['score'], reverse=True)
+			self.keep = keep[:self.limit]
+			self.worst = self.keep[-1]['score']
+
+	def build_isoforms(self, dons, accs, introns):
+		don = dons[0]
+		for aix, acc in enumerate(accs):
+			if acc - don + 1 < self.imin: continue
+			intron = (don, acc)
+
+			# legit isoform as is, keep it
+			iso = copy.copy(introns)
+			iso.append(intron)
+			self.keep_isoform(iso)
+
+			# also extend it
+			descendable = False
+			for dix, ndon in enumerate(dons):
+				elen = ndon - acc -1
+				if elen >= self.emin:
+					ext = copy.copy(iso)
+					self.build_isoforms(dons[dix:], accs[aix:], ext)
+
+	def isoforms(self):
+		"""generate all possible isoforms"""
+		introns = []
+		for i in range(len(self.dons)):
+			self.build_isoforms(self.dons[i:], self.accs, introns)
+		if self.limit is not None:
+			keep = sorted(self.keep, key=lambda d: d['score'], reverse=True)
+			self.keep = keep[:self.limit]
+		return self.keep
+
+class Isoform:
+	"""Class to represent an individual isoform"""
+
+	def __init__(self, locus, exons):
+		self.locus = locus
+		self.exons = exon
 
 	def gff(self):
 		"""gff-based version of locus"""
@@ -536,13 +632,6 @@ class Locus:
 	def __str__(self):
 		"""locus objects can stringify themselves"""
 		return self.gff()
-
-class Isoform:
-	"""class to represent an individual isoform"""
-
-	def __init__(self, exons):
-		self.exons = exon
-
 
 ########################
 ## EXPRESSION SECTION ##
