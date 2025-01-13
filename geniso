@@ -49,7 +49,6 @@ parser.add_argument('--wilen', required=False, type=float, default=1.0,
 	metavar='<float>', help='ilen weight [%(default).2f]')
 parser.add_argument('--icost', required=False, type=float, default=0.001,
 	metavar='<float>', help='prob cost for each intron [%(default).2f]')
-parser.add_argument('--old', action='store_true', help='use old algorithm')
 arg = parser.parse_args()
 
 assert(arg.icost >= 0 and arg.icost <= 1)

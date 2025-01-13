@@ -530,11 +530,12 @@ def ftx_like(tx):
 class Locus:
 	"""Class to represent an alternatively spliced locus"""
 
-	def __init__(self, name, seq, imin, emin, flank, mods, w8s, icost,
-			gff=None, limit=None):
+	def __init__(self, desc, seq, imin, emin, flank, mods, w8s, icost,
+			gff=None, limit=None, countonly=False):
 
 		# sequence stuff
-		self.name = name
+		self.desc = desc
+		self.name = desc.split()[0]
 		self.seq = seq
 
 		# model stuff
@@ -564,10 +565,13 @@ class Locus:
 		self.limit = limit
 		if self.limit: self.resize = self.limit * 2
 		else:          self.resize = None
+		self.countonly = countonly
+		self.isocount = 0
 
 		# recursion
 		introns = []
 		for i in range(len(self.dons)):
+			if self.countonly and self.limit and self.isocount >= self.limit: return
 			self._build_isoforms(self.dons[i:], self.accs, introns)
 		if self.limit is not None:
 			x = sorted(self.isoforms, key=lambda d: d['score'], reverse=True)
@@ -586,12 +590,14 @@ class Locus:
 			tx['prob'] = p
 
 	def _build_isoforms(self, dons, accs, introns):
+		if self.countonly and self.limit and self.isocount >= self.limit: return
 		don = dons[0]
 		for aix, acc in enumerate(accs):
 			if acc - don + 1 < self.imin: continue
 			intron = (don, acc)
 
 			# legit isoform as is, save it
+			if self.countonly and self.limit and self.isocount >= self.limit: return
 			iso = copy.copy(introns)
 			iso.append(intron)
 			self._save_isoform(iso)
@@ -605,6 +611,13 @@ class Locus:
 					self._build_isoforms(dons[dix:], accs[aix:], ext)
 
 	def _save_isoform(self, introns):
+
+		# counting only?
+		if self.countonly:
+			self.isocount += 1
+			return
+
+		# create transcript and score it
 		dsites = [x[0] for x in introns]
 		asites = [x[1] for x in introns]
 		tx = build_mRNA(self.seq, self.flank, len(self.seq) - self.flank -1,
@@ -645,20 +658,21 @@ class Locus:
 		print('# acceptors:', len(self.accs), file=fp)
 		print('# isoforms:', len(self.isoforms), file=fp)
 		print('# rejected:', self.rejected, file=fp)
-		print(f'# complexity: {complexity(self.isoforms):.4f}', file=fp)
+		print(f'# maxprob: {self.isoforms[0]['prob']:.4g}')
+		print(f'# minprob {self.isoforms[-1]['prob']:.4g}')
+		print(f'# complexity: {complexity(self.isoforms):.3f}', file=fp)
 
-		chrom = self.name.split()[0]
 		src = 'apc'
-		cs = f'{chrom}\t{src}\t'
+		cs = f'{self.name}\t{src}\t'
 		b = self.flank + 1
 		e = len(self.seq) - self.flank
-		gene = f'Gene-{chrom}'
+		gene = f'Gene-{self.name}'
 		print(f'{cs}gene\t{b}\t{e}\t.\t+\t.\tID={gene}\n', file=fp)
 		for i, tx in enumerate(self.isoforms):
 			b = tx['beg'] + 1
 			e = tx['end'] + 1
 			s = tx['prob']
-			tid = f'tx-{chrom}-{i+1}'
+			tid = f'tx-{self.name}-{i+1}'
 			print(f'{cs}mRNA\t{b}\t{e}\t{s:.4g}\t+\t.\tID={tid};Parent={gene}',
 				file=fp)
 			p = f'Parent={tid}'
