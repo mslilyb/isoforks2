@@ -6,8 +6,6 @@ import sys
 import isoform
 from isoform import Locus
 
-## Command Line Interface ##
-
 parser = argparse.ArgumentParser(
 	description='Alternative isoform generator')
 parser.add_argument('fasta', type=str, metavar='<fasta file>',
@@ -60,7 +58,6 @@ ilen = isoform.read_len(arg.ilen)   if arg.ilen else None
 emm  = isoform.read_markov(arg.emm) if arg.emm  else None
 imm  = isoform.read_markov(arg.imm) if arg.imm  else None
 name, seq = next(isoform.read_fasta(arg.fasta))
-
 models = (dpwm, apwm, emm, imm, elen, ilen)
 weights = (arg.wdpwm, arg.wapwm, arg.wemm, arg.wimm, arg.welen, arg.wilen)
 locus = Locus(name, seq, arg.min_intron, arg.min_exon, arg.flank,
