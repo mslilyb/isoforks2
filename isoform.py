@@ -464,7 +464,8 @@ def build_mRNA(seq, beg, end, dons, accs):
 		'end': end,
 		'exons': [],
 		'introns': [],
-		'score': 0
+		'score': 0,
+		'prob': 0,
 	}
 
 	if len(dons) == 0:
@@ -549,16 +550,56 @@ class Locus:
 		self.wilen = w8s[5]
 		self.icost = icost
 
-		# algorithm stuff
+		# algorithm init
 		if gff: self.dons, self.accs = gff_sites(seq, gff)
 		else:   self.dons, self.accs = gtag_sites(seq, flank, emin)
-		self.keep = []       # isoforms kept when limited
-		self.worst = None    # score of worst isoform in keep
+		self.isoforms = []
+		self.rejected = 0
+		self.worst = None
 		self.limit = limit
 		if self.limit: self.resize = self.limit * 2
 		else:          self.resize = None
 
-	def keep_isoform(self, introns):
+		# recursion
+		introns = []
+		for i in range(len(self.dons)):
+			self._build_isoforms(self.dons[i:], self.accs, introns)
+		if self.limit is not None:
+			x = sorted(self.isoforms, key=lambda d: d['score'], reverse=True)
+			self.rejected += len(x) - self.limit
+			self.isoforms = x[:self.limit]
+
+		# calculate probability of each isoform
+		weight = []
+		total = 0
+		for tx in self.isoforms:
+			w = 2 ** tx['score']
+			weight.append(w)
+			total += w
+		prob = [w / total for w in weight]
+		for p, tx in zip(prob, self.isoforms):
+			tx['prob'] = p
+
+	def _build_isoforms(self, dons, accs, introns):
+		don = dons[0]
+		for aix, acc in enumerate(accs):
+			if acc - don + 1 < self.imin: continue
+			intron = (don, acc)
+
+			# legit isoform as is, save it
+			iso = copy.copy(introns)
+			iso.append(intron)
+			self._save_isoform(iso)
+
+			# also extend it
+			descendable = False
+			for dix, ndon in enumerate(dons):
+				elen = ndon - acc -1
+				if elen >= self.emin:
+					ext = copy.copy(iso)
+					self._build_isoforms(dons[dix:], accs[aix:], ext)
+
+	def _save_isoform(self, introns):
 		dsites = [x[0] for x in introns]
 		asites = [x[1] for x in introns]
 		tx = build_mRNA(self.seq, self.flank, len(self.seq) - self.flank -1,
@@ -574,49 +615,53 @@ class Locus:
 		s -= len(introns) * self.icost
 		tx['score'] = s
 
-		# leave early if keeping everything
+		# leave early if unlimited
 		if self.limit is None:
-			self.keep.append(tx)
+			self.isoforms.append(tx)
 			return
 
-		 # don't keep bad isoforms
-		if self.worst is not None and s < self.worst: return
+		 # don't save low-scoring isoforms
+		if self.worst is not None and s < self.worst:
+			self.rejected += 1
+			return
 
-		# storing, sorting, pruning
-		self.keep.append(tx)
-		if len(self.keep) > self.resize:
-			keep = sorted(self.keep, key=lambda d: d['score'], reverse=True)
-			self.keep = keep[:self.limit]
-			self.worst = self.keep[-1]['score']
+		# store (sort and prune as necessary)
+		self.isoforms.append(tx)
+		if len(self.isoforms) > self.resize:
+			x = sorted(self.isoforms, key=lambda d: d['score'], reverse=True)
+			self.isoforms = x[:self.limit]
+			self.worst = self.isoforms[-1]['score']
 
-	def build_isoforms(self, dons, accs, introns):
-		don = dons[0]
-		for aix, acc in enumerate(accs):
-			if acc - don + 1 < self.imin: continue
-			intron = (don, acc)
+	def gff(self, fp):
+		"""write locus as GFF to stream"""
 
-			# legit isoform as is, keep it
-			iso = copy.copy(introns)
-			iso.append(intron)
-			self.keep_isoform(iso)
+		print('# name:', self.name, file=fp)
+		print('# length:', len(self.seq), file=fp)
+		print('# donors:', len(self.dons), file=fp)
+		print('# acceptors:', len(self.accs), file=fp)
+		print('# isoforms:', len(self.isoforms), file=fp)
+		print('# rejected:', self.rejected, file=fp)
+		print(f'# complexity: {complexity(self.isoforms):.4f}', file=fp)
 
-			# also extend it
-			descendable = False
-			for dix, ndon in enumerate(dons):
-				elen = ndon - acc -1
-				if elen >= self.emin:
-					ext = copy.copy(iso)
-					self.build_isoforms(dons[dix:], accs[aix:], ext)
-
-	def isoforms(self):
-		"""generate all possible isoforms"""
-		introns = []
-		for i in range(len(self.dons)):
-			self.build_isoforms(self.dons[i:], self.accs, introns)
-		if self.limit is not None:
-			keep = sorted(self.keep, key=lambda d: d['score'], reverse=True)
-			self.keep = keep[:self.limit]
-		return self.keep
+		chrom = self.name.split()[0]
+		src = 'apc'
+		cs = f'{chrom}\t{src}\t'
+		b = self.flank + 1
+		e = len(self.seq) - self.flank
+		gene = f'Gene-{chrom}'
+		print(f'{cs}gene\t{b}\t{e}\t.\t+\t.\tID={gene}\n', file=fp)
+		for i, tx in enumerate(self.isoforms):
+			b = tx['beg'] + 1
+			e = tx['end'] + 1
+			s = tx['prob']
+			tid = f'tx-{chrom}-{i+1}'
+			print(f'{cs}mRNA\t{b}\t{e}\t{s:.4g}\t+\t.\tID={tid};Parent={gene}',
+				file=fp)
+			p = f'Parent={tid}'
+			for b, e in tx['exons']:
+				print(f'{cs}exon\t{b+1}\t{e+1}\t{s:.4g}\t+\t.\t{p}', file=fp)
+			for b, e in tx['introns']:
+				print(f'{cs}intron\t{b+1}\t{e+1}\t{s:.4g}\t+\t.\t{p}', file=fp)
 
 ########################
 ## EXPRESSION SECTION ##

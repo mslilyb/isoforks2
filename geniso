@@ -73,8 +73,8 @@ if not arg.old:
 	locus = Locus(name, seq, arg.min_intron, arg.min_exon,
 		arg.max_splice, arg.flank, models, weights, icost,
 		limit=arg.limit, gff=arg.introns)
-	for isoform in locus.isoforms(): print(isoform['score'], isoform['introns'])
-	sys.exit('still need to do gff output')
+	locus.gff(sys.stdout)
+	sys.exit()
 
 #####################
 # the old algorithm #
