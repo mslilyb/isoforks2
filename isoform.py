@@ -521,10 +521,16 @@ def all_possible(seq, minin, minex, maxs, flank, gff=None):
 
 	return isoforms, info
 
+def ftx_like(tx):
+	exons = []
+	for beg, end in tx['exons']: exons.append(f'{beg+1}-{end+1}')
+	coords = ','.join(exons)
+	print(coords, tx['score'], sep='|')
+
 class Locus:
 	"""Class to represent an alternatively spliced locus"""
 
-	def __init__(self, name, seq, imin, emin, smax, flank, mods, w8s, icost,
+	def __init__(self, name, seq, imin, emin, flank, mods, w8s, icost,
 			gff=None, limit=None):
 
 		# sequence stuff
@@ -534,7 +540,6 @@ class Locus:
 		# model stuff
 		self.imin = imin
 		self.emin = emin
-		self.smax = smax
 		self.flank = flank
 		self.don = mods[0]
 		self.acc = mods[1]
@@ -610,12 +615,11 @@ class Locus:
 		if self.elen: s += score_elen(self.elen, tx) * self.welen
 		if self.ilen: s += score_ilen(self.ilen, tx) * self.wilen
 		if self.emm:  s += score_emm(self.emm, tx) * self.wemm
-		if self.imm:  s += score_imm(self.imm, tx, self.don, self.acc) \
-			* self.wimm
-		s -= len(introns) * self.icost
+		if self.imm:  s += score_imm(self.imm, tx, self.don, self.acc) * self.wimm
+		s += len(introns) * self.icost
 		tx['score'] = s
 
-		# leave early if unlimited
+		# unlimited?
 		if self.limit is None:
 			self.isoforms.append(tx)
 			return
@@ -662,6 +666,8 @@ class Locus:
 				print(f'{cs}exon\t{b+1}\t{e+1}\t{s:.4g}\t+\t.\t{p}', file=fp)
 			for b, e in tx['introns']:
 				print(f'{cs}intron\t{b+1}\t{e+1}\t{s:.4g}\t+\t.\t{p}', file=fp)
+			print(file=fp)
+
 
 ########################
 ## EXPRESSION SECTION ##

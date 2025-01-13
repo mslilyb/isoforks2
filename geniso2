@@ -4,6 +4,7 @@ import argparse
 import sys
 
 import isoform
+from isoform import Locus
 
 ## Command Line Interface ##
 
@@ -15,8 +16,6 @@ parser.add_argument('--min_intron', required=False, type=int, default=35,
 	metavar='<int>', help='minimum length of intron [%(default)i]')
 parser.add_argument('--min_exon', required=False, type=int, default=25,
 	metavar='<int>', help='minimum length exon [%(default)i]')
-parser.add_argument('--max_splice', required=False, type=int, default=3,
-	metavar='<int>', help='maximum number of introns [%(default)i]')
 parser.add_argument('--flank', required=False, type=int, default=99,
 	metavar='<int>', help='genomic flank on each side [%(default)i]')
 parser.add_argument('--dpwm', required=False, type=str, metavar='<file>',
@@ -62,80 +61,8 @@ emm  = isoform.read_markov(arg.emm) if arg.emm  else None
 imm  = isoform.read_markov(arg.imm) if arg.imm  else None
 name, seq = next(isoform.read_fasta(arg.fasta))
 
-# generate isoforms
-
-txs, info = isoform.all_possible(seq, arg.min_intron, arg.min_exon,
-		arg.max_splice, arg.flank, gff=arg.introns)
-
-# score isoforms
-
-for tx in txs:
-	score = 0
-	if apwm: score += isoform.score_apwm(apwm, tx) * arg.wapwm
-	if dpwm: score += isoform.score_dpwm(dpwm, tx) * arg.wdpwm
-	if elen: score += isoform.score_elen(elen, tx) * arg.welen
-	if ilen: score += isoform.score_ilen(ilen, tx) * arg.wilen
-	if emm:  score += isoform.score_emm(emm, tx) * arg.wemm
-	if imm:  score += isoform.score_imm(imm, tx, dpwm, apwm) * arg.wimm
-	score += len(tx['introns']) * icost
-	tx['score'] = score
-
-# summary output
-
-print('# name:', name)
-print('# length:', len(seq))
-print('# donors:', info['donors'])
-print('# acceptors:', info['acceptors'])
-print('# trials:', info['trials'])
-print('# isoforms:', len(txs))
-print(f'# complexity: {isoform.complexity(txs):.4f}')
-
-
-if arg.limit:
-	limit = arg.limit
-	if limit > len(txs): limit = len(txs)
-else:
-	limit = len(txs)
-
-txs = sorted(txs, key=lambda item: item['score'], reverse=True)
-
-# calculate probability of each isoform
-
-weight = []
-total = 0
-for i in range(limit):
-	tx = txs[i]
-	w = 2 ** tx['score']
-	weight.append(w)
-	total += w
-prob = []
-for w in weight: prob.append(w / total)
-
-# create gff
-
-chrom = name.split()[0]
-src = 'asg'
-cs = f'{chrom}\t{src}\t'
-b = txs[0]['beg'] + 1
-e = txs[0]['end'] + 1
-gene = f'Gene-{chrom}'
-print(f'{cs}gene\t{b}\t{e}\t.\t+\t.\tID={gene}\n')
-for i in range(limit):
-	tx = txs[i]
-	b = tx['beg'] + 1
-	e = tx['end'] + 1
-	s = prob[i]
-	tid = f'tx-{chrom}-{i+1}'
-	print(f'{cs}mRNA\t{b}\t{e}\t{s:.4g}\t+\t.\tID={tid};Parent={gene}')
-
-	for exon in tx['exons']:
-		b = exon[0] + 1
-		e = exon[1] + 1
-		print(f'{cs}exon\t{b}\t{e}\t{s:.4g}\t+\t.\tParent={tid}')
-
-	for intron in tx['introns']:
-		b = intron[0] + 1
-		e = intron[1] + 1
-		print(f'{cs}intron\t{b}\t{e}\t{s:.4g}\t+\t.\tParent={tid}')
-
-	print()
+models = (dpwm, apwm, emm, imm, elen, ilen)
+weights = (arg.wdpwm, arg.wapwm, arg.wemm, arg.wimm, arg.welen, arg.wilen)
+locus = Locus(name, seq, arg.min_intron, arg.min_exon, arg.flank,
+	models, weights, icost, limit=arg.limit, gff=arg.introns)
+locus.gff(sys.stdout)
