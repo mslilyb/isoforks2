@@ -618,21 +618,6 @@ class Locus:
 			self.keep = keep[:self.limit]
 		return self.keep
 
-class Isoform:
-	"""Class to represent an individual isoform"""
-
-	def __init__(self, locus, exons):
-		self.locus = locus
-		self.exons = exon
-
-	def gff(self):
-		"""gff-based version of locus"""
-		return 'test'
-
-	def __str__(self):
-		"""locus objects can stringify themselves"""
-		return self.gff()
-
 ########################
 ## EXPRESSION SECTION ##
 ########################
