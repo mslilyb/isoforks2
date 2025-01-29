@@ -1,9 +1,0 @@
-ch.13507	WormBase	three_prime_UTR	515	575	.	+	.	Parent=Transcript:Y47D7A.7.1
-ch.13507	WormBase	exon	420	575	.	+	.	Parent=Transcript:Y47D7A.7.1
-ch.13507	WormBase	gene	101	575	.	+	.	ID=Gene:WBGene00021620
-ch.13507	WormBase	mRNA	101	575	.	+	.	ID=Transcript:Y47D7A.7.1;Parent=Gene:WBGene00021620
-ch.13507	WormBase	CDS	420	514	.	+	.	ID=CDS:Y47D7A.7;Parent=Transcript:Y47D7A.7.1
-ch.13507	WormBase	intron	372	419	.	+	.	Parent=Transcript:Y47D7A.7.1
-ch.13507	RNASeq_splice	intron	372	419	16546.0	+	.	
-ch.13507	WormBase	CDS	101	371	.	+	.	ID=CDS:Y47D7A.7;Parent=Transcript:Y47D7A.7.1
-ch.13507	WormBase	exon	101	371	.	+	.	Parent=Transcript:Y47D7A.7.1

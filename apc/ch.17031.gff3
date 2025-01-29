@@ -1,9 +1,0 @@
-ch.17031	WormBase	exon	336	491	.	+	.	Parent=Transcript:Y51A2A.7.1
-ch.17031	WormBase	CDS	336	491	.	+	.	ID=CDS:Y51A2A.7;Parent=Transcript:Y51A2A.7.1
-ch.17031	WormBase	gene	101	491	.	+	.	ID=Gene:WBGene00013063
-ch.17031	WormBase	mRNA	101	491	.	+	.	ID=Transcript:Y51A2A.7.1;Parent=Gene:WBGene00013063
-ch.17031	RNASeq_splice	intron	290	346	14.0	+	.	
-ch.17031	WormBase	intron	290	335	.	+	.	Parent=Transcript:Y51A2A.7.1
-ch.17031	RNASeq_splice	intron	290	335	36822.0	+	.	
-ch.17031	WormBase	CDS	101	289	.	+	.	ID=CDS:Y51A2A.7;Parent=Transcript:Y51A2A.7.1
-ch.17031	WormBase	exon	101	289	.	+	.	Parent=Transcript:Y51A2A.7.1

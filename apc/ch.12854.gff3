@@ -1,9 +1,0 @@
-ch.12854	WormBase	CDS	101	239	.	+	.	ID=CDS:Y32G9A.1;Parent=Transcript:Y32G9A.1.1
-ch.12854	WormBase	exon	101	239	.	+	.	Parent=Transcript:Y32G9A.1.1
-ch.12854	WormBase	gene	101	861	.	+	.	ID=Gene:WBGene00001785
-ch.12854	WormBase	mRNA	101	861	.	+	.	ID=Transcript:Y32G9A.1.1;Parent=Gene:WBGene00001785
-ch.12854	RNASeq_splice	intron	240	359	6.0	+	.	
-ch.12854	WormBase	intron	240	370	.	+	.	Parent=Transcript:Y32G9A.1.1
-ch.12854	RNASeq_splice	intron	240	370	13971.0	+	.	
-ch.12854	WormBase	CDS	371	861	.	+	.	ID=CDS:Y32G9A.1;Parent=Transcript:Y32G9A.1.1
-ch.12854	WormBase	exon	371	861	.	+	.	Parent=Transcript:Y32G9A.1.1
