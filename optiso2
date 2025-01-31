@@ -1,0 +1,162 @@
+#!/usr/bin/env python3
+import argparse
+import json
+import os
+import random
+
+from isoform import Locus
+
+# Score Memoizers
+ACC = dict()
+DON = dict()
+EXS = dict()
+INS = dict()
+EXL = dict()
+INL = dict()
+
+
+
+
+	sys.exit('under development')
+
+	score = 0
+	
+	# acceptors
+	for intron in tx['introns']:
+		pos = intron[1] - len(pwm) +1
+		if pos not in ACC:
+			ACC[pos] = score_pwm(model['acc'], tx['seq'], pos)
+		score += ACC[pos] * guy['wacc']
+	
+	# donors
+	for intron in tx['introns']:
+		pos = intron[0]
+		if pos not in DON:
+			DON[pos] = score_pwm(model['don'], tx['seq'], pos)
+		score += DON[pos] * guy['wdon']
+
+	# exon sequence
+	for beg, end in tx['exons']:
+		if (beg,end) not in EXS:
+			EXS[(beg,end)] = score_markov(model['exs'], tx['seq'], beg, end)
+		score += EXS[(beg,end)] * guy['wexs']
+	
+	# intron sequence
+	for intron in tx['introns']:
+		beg = intron[0] + len(dpwm)
+		end = intron[1] - len(apwm)
+		if (beg,end) not in INS:
+			INS[(beg,end)] = score_markov(model['ins'], tx['seq'], beg, end)
+		score += INS[(beg,end)] * guy['wins']
+	
+	# exon length
+	for beg, end in tx['exons']:
+		size = end - beg + 1
+		if size not in EXL:
+			EXL[size] = score_len(model, size)
+		score += EXL[size] * guy['wexl']
+	
+	# intron length
+	for beg, end in tx['introns']:
+		size = end - beg + 1
+		if size not in INL:
+			INL[size] = score_len(model, size)
+		score += INL[size] * guy['winl']
+	
+	# intron frequency
+	score += len(tx['introns']) * model['inf'] * guy['winf']
+	
+	
+def get_fitness(guy, model):
+	return score
+	
+
+def random_guy():
+	return {
+		'wacc': random.random(),
+		'wdon': random.random(),
+		'wexs': random.random(),
+		'wins': random.random(),
+		'wexl': random.random(),
+		'winl': random.random(),
+		'winf': random.random(),
+		'fitness': None,
+	}
+
+def mate(p1, p2, mut):
+	child = {
+		'genotype': {},
+		'fitness': None
+	}
+
+	weight = ('--wdpwm', '--wapwm', '--wemm', '--wimm', '--welen', '--wilen',
+		'--icost')
+	for k in weight:
+		if random.random() < 0.5: child['genotype'][k] = p1['genotype'][k]
+		else:                     child['genotype'][k] = p2['genotype'][k]
+		if random.random() < mut: child['genotype'][k] = random.random();
+
+	return child
+
+# CLI
+
+parser = argparse.ArgumentParser(
+	description='Parameter optimization program')
+parser.add_argument('fasta')
+parser.add_argument('gff')
+parser.add_argument('model', help='splice model file')
+parser.add_argument('--pop', required=False, type=int, default=100,
+	metavar='<int>', help='population size [%(default)i]')
+parser.add_argument('--gen', required=False, type=int, default=100,
+	metavar='<int>', help='generations [%(default)i]')
+parser.add_argument('--die', required=False, type=float, default=0.5,
+	metavar='<int>', help='fraction that die each gen [%(default).2f]')
+parser.add_argument('--mut', required=False, type=float, default=0.1,
+	metavar='<int>', help='mutation frequency [%(default).2f]')
+parser.add_argument('--seed', required=False, type=int,
+	metavar='<int>', help='random seed')
+parser.add_argument('--name', required=False, type=str, default='',
+	metavar='<int>', help='name the output')
+parser.add_argument('--verbose', action='store_true', help='show progress')
+arg = parser.parse_args()
+
+# Initialize
+model = isoform.read_splicemodel(arg.model)
+# create the locus and all its isoforms
+# pre-load all of the score memoizers
+# cull the isoform list to something tractable if necessary
+# re-score the various components
+# compare to real data for fitness
+
+
+if arg.seed: random.seed(arg.seed)
+pop = []
+for i in range(arg.pop): pop.append(random_guy())
+for guy in pop: guy['fitness'] = get_fitness(guy, model)
+
+# Evolve population
+
+half = int(len(pop) * arg.die)
+for g in range(arg.gen):
+	pop = sorted(pop, key=lambda item: item['fitness'])
+	if arg.verbose: print(f'generation: {g}, fitness: {pop[0]["fitness"]}')
+
+	# mate
+	children = []
+	for i in range(half, len(pop)):
+		p1 = random.randint(0, half)
+		p2 = random.randint(0, half)
+		pop[i] = mate(pop[p1], pop[p2], arg.mut)
+		children.append(pop[i])
+
+	# fitness
+	for child in children: child['fitness'] = get_fitness(child, model)
+
+# Final report
+
+pop = sorted(pop, key=lambda item: item['fitness'])
+best = pop[0]
+print(f'{best["fitness"]:.4f}', end='\t')
+for prop, val in best['genotype'].items():
+	print(f'{val:.4f}', end='\t')
+print(arg.name)
