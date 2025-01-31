@@ -649,9 +649,7 @@ class Locus:
 			return
 
 		 # don't save low-scoring isoforms
-		if self.worst is not None and s < self.worst:
-			self.rejected += 1
-			return
+		if self.worst is not None and s < self.worst: return
 
 		# store (sort and prune as necessary)
 		self.isoforms.append(tx)
