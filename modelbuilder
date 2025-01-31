@@ -43,8 +43,8 @@ def create_length_model(seqs, lmin, lmax):
 
 parser = argparse.ArgumentParser(description='splice model builder')
 parser.add_argument('dir', help='path to directory of genes (e.g. smallgenes)')
-parser.add_argument('name', help='name of the model')
-parser.add_argument('--out', help='save sub-models to directory')
+parser.add_argument('name', help='name of the model (e.g. worm)')
+parser.add_argument('out', help='save sub-models to directory (e.g. models)')
 parser.add_argument('--don', type=int, default=5, help="[%(default)i]")
 parser.add_argument('--acc', type=int, default=6, help="[%(default)i]")
 parser.add_argument('--emm', type=int, default=3, help="[%(default)i]")
@@ -84,25 +84,31 @@ exl = create_length_model(exons, arg.emin, arg.emax)
 inl = create_length_model(introns, arg.imin, arg.imax)
 
 ## write individual models (hard-coded names)
-if arg.out:
-	if not os.path.exists(arg.out): os.makedirs(arg.out)
-	isoform.write_pwm(f'{arg.out}/acc.pwm', acc)
-	isoform.write_pwm(f'{arg.out}/don.pwm', don)
-	isoform.write_markov(f'{arg.out}/exon.mm', exs)
-	isoform.write_markov(f'{arg.out}/intron.mm', ins)
-	isoform.write_len(f'{arg.out}/exon.len', exl)
-	isoform.write_len(f'{arg.out}/intron.len', inl)
-	with open(f'{arg.out}/ifreq', 'w') as fp: print(inf, file=fp)
+facc = f'{arg.out}/acc.pwm'
+fdon = f'{arg.out}/don.pwm'
+fexs = f'{arg.out}/exon.mm'
+fins = f'{arg.out}/intron.mm'
+fexl = f'{arg.out}/exon.len'
+finl = f'{arg.out}/intron.len'
+finf = f'{arg.out}/intron.freq'
+if not os.path.exists(arg.out): os.makedirs(arg.out)
+isoform.write_pwm(facc, acc)
+isoform.write_pwm(fdon, don)
+isoform.write_markov(fexs, exs)
+isoform.write_markov(fins, ins)
+isoform.write_len(fexl, exl)
+isoform.write_len(finl, inl)
+with open(finf, 'w') as fp: print(inf, file=fp)
 
 # write ghmm
 ghmm = {
 	'name': arg.name,
-	'inf': inf,
-	'acc': acc,
-	'don': don,
-	'exs': exs,
-	'ins': ins,
-	'exl': exl,
-	'inl': inl,
+	'inf': isoform.prob2score(inf),
+	'acc': isoform.read_pwm(facc),
+	'don': isoform.read_pwm(fdon),
+	'exs': isoform.read_markov(fexs),
+	'ins': isoform.read_markov(fins),
+	'exl': isoform.read_len(fexl),
+	'inl': isoform.read_len(finl),
 }
-print(json.dumps(ghmm, indent=4))
+print(json.dumps(ghmm, indent=1))

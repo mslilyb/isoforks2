@@ -41,22 +41,29 @@ parser.add_argument('--countonly', action='store_true',
 arg = parser.parse_args()
 
 name, seq = next(isoform.read_fasta(arg.fasta))
-splicemod = isoform.read_splicemodel(arg.model)
+model = isoform.read_splicemodel(arg.model)
 
 weights = {
-	'wacc', arg.wacc,
-	'wdon', arg.wdon,
-	'wexs', arg.wexs,
-	'wins', arg.wins,
-	'wexl', arg.wexl,
-	'winl', arg.winl,
-	'winf', arg.winf,
+	'wacc': arg.wacc,
+	'wdon': arg.wdon,
+	'wexs': arg.wexs,
+	'wins': arg.wins,
+	'wexl': arg.wexl,
+	'winl': arg.winl,
+	'winf': arg.winf,
 }
+
+constraints = {
+	'min_intron': arg.min_intron,
+	'min_exon': arg.min_exon,
+	'flank': arg.flank
+}
+
 if arg.countonly:
-	locus = Locus(name, seq, arg.min_intron, arg.min_exon, arg.flank,
-		splicemod, weights, gff=arg.introns, limt=arg.limit, countonly=True)
+	locus = Locus(name, seq, model, constraints, weights,
+		gff=arg.introns, limt=arg.limit, countonly=True)
 	print(locus.name, locus.isocount, sep='\t')
 else:
-	locus = Locus(name, seq, arg.min_intron, arg.min_exon, arg.flank,
-		splicemod, weights, limit=arg.limit, gff=arg.introns)
+	locus = Locus(name, seq, model, constraints, weights,
+		limit=arg.limit, gff=arg.introns)
 	locus.gff(sys.stdout)

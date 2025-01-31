@@ -156,34 +156,8 @@ def manhattan(p, q):
 ## SPLICEMODEL SECTION ##
 #########################
 
-def _convert_pwm(pwm):
-	nts = 'ACGT'
-	for i in range(len(pwm)):
-		for nt in nts:
-			pwm[i][nt] = prob2score(pwm[i][nt])
-
-def _convert_mm(mm):
-	for ctx in mm:
-		for nt in mm[ctx]:
-			mm[ctx][nt] = prob2score(mm[ctx][nt])
-
-def _convert_len(model):
-	size = len(model)
-	tail = find_tail(model[-1], size)
-	expect = 1 / size;
-	for i in range(len(model)):
-		if model[i] == 0: model[i] = -100
-		else:             model[i] = math.log2(model[i] / expect)
-
 def read_splicemodel(file):
-	with open(file) as fp: model = json.load(fp)
-	_convert_pwm(model['acc'])
-	_convert_pwm(model['don'])
-	_convert_mm(model['exs'])
-	_convert_mm(model['ins'])
-	_convert_len(model['exl'])
-	_convert_len(model['inl'])
-	model['inf'] = math.log2(model['inf'])
+	with open(file) as fp: model = json.load(fp)	
 	return model
 
 #################
@@ -292,8 +266,6 @@ def find_tail(val, x): ## this shouldn't be needed anymore...
 		else:       hi -= (hi - m) / 2
 
 	return m
-
-
 
 def write_len(file, hist):
 	with open(file, 'w') as fp:
@@ -566,7 +538,7 @@ def ftx_like(tx):
 class Locus:
 	"""Class to represent an alternatively spliced locus"""
 
-	def __init__(self, desc, seq, imin, emin, flank, mods, w8s, icost,
+	def __init__(self, desc, seq, model, constraints, weights,
 			gff=None, limit=None, countonly=False):
 
 		# sequence stuff
@@ -574,29 +546,33 @@ class Locus:
 		self.name = desc.split()[0]
 		self.seq = seq
 
-		# model stuff
-		self.imin = imin
-		self.emin = emin
-		self.flank = flank
-		self.don = mods[0]
-		self.acc = mods[1]
-		self.emm = mods[2]
-		self.imm = mods[3]
-		self.elen = mods[4]
-		self.ilen = mods[5]
-		self.wdon = w8s[0]
-		self.wacc = w8s[1]
-		self.wemm = w8s[2]
-		self.wimm = w8s[3]
-		self.welen = w8s[4]
-		self.wilen = w8s[5]
-		self.icost = icost
+		# model
+		self.don = model['don']
+		self.acc = model['acc']
+		self.exs = model['exs']
+		self.ins = model['ins']
+		self.exl = model['exl']
+		self.inl = model['inl']
+		self.inf = model['inf']
+		
+		# constraints
+		self.imin = constraints['min_intron']
+		self.emin = constraints['min_exon']
+		self.flank = constraints['flank']
+		
+		# weights
+		self.wdon = weights['wdon']
+		self.wacc = weights['wacc']
+		self.wexs = weights['wexs']
+		self.wins = weights['wins']
+		self.wexl = weights['wexl']
+		self.winl = weights['winl']
+		self.winf = weights['winf']
 
 		# algorithm init
 		if gff: self.dons, self.accs = gff_sites(seq, gff)
-		else:   self.dons, self.accs = gtag_sites(seq, flank, emin)
+		else:   self.dons, self.accs = gtag_sites(seq, self.flank, self.emin)
 		self.isoforms = []
-		self.rejected = 0
 		self.worst = None
 		self.limit = limit
 		if self.limit: self.resize = self.limit * 2
@@ -611,7 +587,6 @@ class Locus:
 			self._build_isoforms(self.dons[i:], self.accs, introns)
 		if self.limit is not None:
 			x = sorted(self.isoforms, key=lambda d: d['score'], reverse=True)
-			self.rejected += len(x) - self.limit
 			self.isoforms = x[:self.limit]
 
 		# calculate probability of each isoform
@@ -659,13 +634,13 @@ class Locus:
 		tx = build_mRNA(self.seq, self.flank, len(self.seq) - self.flank -1,
 			dsites, asites)
 		s = 0
-		if self.acc:  s += score_apwm(self.acc, tx) * self.wacc
-		if self.don:  s += score_dpwm(self.don, tx) * self.wdon
-		if self.elen: s += score_elen(self.elen, tx) * self.welen
-		if self.ilen: s += score_ilen(self.ilen, tx) * self.wilen
-		if self.emm:  s += score_emm(self.emm, tx) * self.wemm
-		if self.imm:  s += score_imm(self.imm, tx, self.don, self.acc) * self.wimm
-		s += len(introns) * self.icost
+		s += score_apwm(self.acc, tx) * self.wacc
+		s += score_dpwm(self.don, tx) * self.wdon
+		s += score_elen(self.exl, tx) * self.wexl
+		s += score_ilen(self.inl, tx) * self.winl
+		s += score_emm(self.exs, tx) * self.wexs
+		s += score_imm(self.ins, tx, self.don, self.acc) * self.wins
+		s += len(introns) * self.inf * self.winf
 		tx['score'] = s
 
 		# unlimited?
@@ -693,7 +668,7 @@ class Locus:
 		print('# donors:', len(self.dons), file=fp)
 		print('# acceptors:', len(self.accs), file=fp)
 		print('# isoforms:', len(self.isoforms), file=fp)
-		print('# rejected:', self.rejected, file=fp)
+		print('# limit:', self.limit, file=fp)
 		print(f'# maxprob: {self.isoforms[0]['prob']:.4g}')
 		print(f'# minprob {self.isoforms[-1]['prob']:.4g}')
 		print(f'# complexity: {complexity(self.isoforms):.3f}', file=fp)
