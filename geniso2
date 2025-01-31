@@ -43,8 +43,6 @@ arg = parser.parse_args()
 name, seq = next(isoform.read_fasta(arg.fasta))
 splicemod = isoform.read_splicemodel(arg.model)
 
-sys.exit('testing')
-
 weights = {
 	'wacc', arg.wacc,
 	'wdon', arg.wdon,
