@@ -2,6 +2,7 @@
 import copy
 import gzip
 import itertools
+import json
 import math
 import random
 import sys
@@ -149,6 +150,41 @@ def manhattan(p, q):
 	for pi, qi in zip(p, q):
 		d += abs(pi - qi)
 	return d
+
+
+#########################
+## SPLICEMODEL SECTION ##
+#########################
+
+def _convert_pwm(pwm):
+	nts = 'ACGT'
+	for i in range(len(pwm)):
+		for nt in nts:
+			pwm[i][nt] = prob2score(pwm[i][nt])
+
+def _convert_mm(mm):
+	for ctx in mm:
+		for nt in mm[ctx]:
+			mm[ctx][nt] = prob2score(mm[ctx][nt])
+
+def _convert_len(model):
+	size = len(model)
+	tail = find_tail(model[-1], size)
+	expect = 1 / size;
+	for i in range(len(model)):
+		if model[i] == 0: model[i] = -100
+		else:             model[i] = math.log2(model[i] / expect)
+
+def read_splicemodel(file):
+	with open(file) as fp: model = json.load(fp)
+	_convert_pwm(model['acc'])
+	_convert_pwm(model['don'])
+	_convert_mm(model['exs'])
+	_convert_mm(model['ins'])
+	_convert_len(model['exl'])
+	_convert_len(model['inl'])
+	model['inf'] = math.log2(model['inf'])
+	return model
 
 #################
 ## PWM SECTION ##
