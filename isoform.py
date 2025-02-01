@@ -556,18 +556,32 @@ class Locus:
 		self.inf = model['inf']
 		
 		# constraints
-		self.imin = constraints['min_intron']
-		self.emin = constraints['min_exon']
-		self.flank = constraints['flank']
+		if constraints is None:
+			self.imin = 35
+			self.emin = 25
+			self.flank = 100
+		else:
+			self.imin = constraints['min_intron']
+			self.emin = constraints['min_exon']
+			self.flank = constraints['flank']
 		
 		# weights
-		self.wdon = weights['wdon']
-		self.wacc = weights['wacc']
-		self.wexs = weights['wexs']
-		self.wins = weights['wins']
-		self.wexl = weights['wexl']
-		self.winl = weights['winl']
-		self.winf = weights['winf']
+		if weights is None:
+			self.wdon = 1.0
+			self.wacc = 1.0
+			self.wexs = 1.0
+			self.wins = 1.0
+			self.wexl = 1.0
+			self.winl = 1.0
+			self.winf = 1.0
+		else:
+			self.wdon = weights['wdon']
+			self.wacc = weights['wacc']
+			self.wexs = weights['wexs']
+			self.wins = weights['wins']
+			self.wexl = weights['wexl']
+			self.winl = weights['winl']
+			self.winf = weights['winf']
 
 		# algorithm init
 		if gff: self.dons, self.accs = gff_sites(seq, gff)
@@ -599,6 +613,9 @@ class Locus:
 		prob = [w / total for w in weight]
 		for p, tx in zip(prob, self.isoforms):
 			tx['prob'] = p
+
+		x = sorted(self.isoforms, key=lambda d: d['score'], reverse=True)
+		self.isoforms = x[:self.limit]
 
 	def _build_isoforms(self, dons, accs, introns):
 		if self.countonly and self.limit and self.isocount >= self.limit: return
