@@ -207,7 +207,7 @@ def read_pwm(file):
 
 	return pwm
 
-def score_pwm(pwm, seq, pos):
+def score_pwm(pwm, seq, pos, memo=None):
 	score = 0
 	for i in range(len(pwm)):
 		nt = seq[pos+i]
@@ -254,7 +254,7 @@ def read_len(file):
 
 	return {'tail': tail, 'size':len(model), 'val': model}
 
-def score_len(model, x):
+def score_len(model, x, memo=None):
 	assert(x > 0)
 	if x >= model['size']:
 		p = 1 / model['tail']
@@ -308,7 +308,7 @@ def read_markov(file):
 				if k == None: k = len(f[0])
 	return {'k': k, 'mm': mm}
 
-def score_markov(model, seq, beg, end):
+def score_markov(model, seq, beg, end, memo=None):
 	score = 0
 	k = model['k']
 	mm = model['mm']
