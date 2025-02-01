@@ -3,8 +3,8 @@
 import argparse
 import sys
 
-import isoform
-from isoform import Locus
+import isoform2
+from isoform2 import Locus
 
 parser = argparse.ArgumentParser(
 	description='Alternative isoform generator')
@@ -40,8 +40,8 @@ parser.add_argument('--countonly', action='store_true',
 	help='report the total number of isoforms')
 arg = parser.parse_args()
 
-name, seq = next(isoform.read_fasta(arg.fasta))
-model = isoform.read_splicemodel(arg.model)
+name, seq = next(isoform2.read_fasta(arg.fasta))
+model = isoform2.read_splicemodel(arg.model)
 
 weights = {
 	'wacc': arg.wacc,

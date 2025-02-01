@@ -151,6 +151,15 @@ def manhattan(p, q):
 		d += abs(pi - qi)
 	return d
 
+
+#########################
+## SPLICEMODEL SECTION ##
+#########################
+
+def read_splicemodel(file):
+	with open(file) as fp: model = json.load(fp)	
+	return model
+
 #################
 ## PWM SECTION ##
 #################
@@ -310,79 +319,10 @@ def score_markov(model, seq, beg, end):
 
 	return score
 
-################################
-## TRANSCRIPT SCORING SECTION ##
-################################
-
-def score_apwm(pwm, tx):
-	score = 0
-	for intron in tx['introns']:
-		score += score_pwm(pwm, tx['seq'], intron[1] - len(pwm) +1)
-	return score
-
-def score_dpwm(pwm, tx):
-	score = 0
-	for intron in tx['introns']:
-		score += score_pwm(pwm, tx['seq'], intron[0])
-	return score
-
-def score_elen(model, tx):
-	score = 0
-	for exon in tx['exons']:
-		score += score_len(model, exon[1] - exon[0] + 1)
-	return score
-
-def score_ilen(model, tx):
-	score = 0
-	for intron in tx['introns']:
-		score += score_len(model, intron[1] - intron[0] + 1)
-	return score
-
-def score_emm(mm, tx):
-	score = 0
-	for exon in tx['exons']:
-		score += score_markov(mm, tx['seq'], exon[0], exon[1])
-	return score
-
-def score_imm(mm, tx, dpwm, apwm):
-	score = 0
-	for intron in tx['introns']:
-		beg = intron[0] + len(dpwm)
-		end = intron[1] - len(apwm)
-		score += score_markov(mm, tx['seq'], beg, end)
-	return score
 
 ################################
 ## ISOFORM GENERATION SECTION ##
 ################################
-
-def short_intron(dons, accs, t):
-	for d, a in zip(dons, accs):
-		intron_length = a - d + 1
-		if intron_length < t: return True
-	return False
-
-def short_exon(dons, accs, seqlen, flank, t):
-
-	# first exon
-	exon_beg = flank
-	exon_end = dons[0] -1
-	exon_len = exon_end - exon_beg + 1
-	if exon_len < t: return True
-
-	# last exon
-	exon_beg = accs[-1] + 1
-	exon_end = seqlen - flank
-	exon_len = exon_end - exon_beg
-	if exon_len < t: return True
-
-	# interior exons
-	for i in range(1, len(dons)):
-		exon_beg = accs[i-1] + 1
-		exon_end = dons[i] - 1
-		exon_len = exon_end - exon_beg + 1
-		if exon_len < t: return True
-	return False
 
 def gtag_sites(seq, flank, minex):
 	dons = []
@@ -417,72 +357,212 @@ def gff_sites(seq, gff, gtag=True):
 
 	return dons, accs
 
-def build_mRNA(seq, beg, end, dons, accs):
-	assert(beg <= end)
-	assert(len(dons) == len(accs))
+class Isoform:
+	"""Class to represent a single isoform"""
 
-	tx = {
-		'seq': seq,
-		'beg': beg,
-		'end': end,
-		'exons': [],
-		'introns': [],
-		'score': 0,
-		'prob': 0,
-	}
+	def __init__(self, seq, beg, end, dons, accs, model=None, weights=None):
+		assert(beg <= end)
+		assert(len(dons) == len(accs))
+		
+		self.seq = seq
+		self.beg = beg
+		self.end = end
+		self.dons = dons
+		self.accs = accs
+		self.exons = []
+		self.introns = []
+		self.score = None
+		self.prob = None   # set externally: via Locus
+		
+		if len(dons) == 0:
+			self.exons.append((beg, end))
+		else:
+			for a, b in zip(dons, accs): self.introns.append((a, b))
+			self.exons.append((beg, dons[0] -1))
+			for i in range(1, len(dons)):
+				a = accs[i-1] + 1
+				b = dons[i] -1
+				self.exons.append((a, b))
+			self.exons.append((accs[-1] +1, end))
+	
+		if model is not None: self.compute_score(model, weights)
+	
+	def compute_score(self, model, weights):
+	
+		if model is None:
+			self.score = None
+			return
+		
+		seq = self.seq
+		acc = model['acc']
+		don = model['don']
+		exs = model['exs']
+		ins = model['ins']
+		exl = model['exl']
+		inl = model['inl']
+		inf = model['inf']
+		wacc = weights['wacc'] if weights is not None else 1
+		wdon = weights['wdon'] if weights is not None else 1
+		wexs = weights['wexs'] if weights is not None else 1
+		wins = weights['wins'] if weights is not None else 1
+		wexl = weights['wexl'] if weights is not None else 1
+		winl = weights['winl'] if weights is not None else 1
+		winf = weights['winf'] if weights is not None else 1
+		
+		s = 0
+		for i in self.accs: s += score_pwm(acc, seq, i -len(acc)+1) * wacc
+		for i in self.dons: s += score_pwm(don, seq, i) * wdon
+		for b, e in self.exons: s += score_len(exl, e - b + 1) * wexl
+		for b, e in self.introns: s += score_len(inl, e - b + 1) * winl
+		for b, e in self.exons: s += score_markov(exs, seq, b, e) * wexs
+		for b, e in self.introns: s += score_markov(ins, seq,
+			b + len(don), e - len(acc)) * wins
+		s += inf * len(self.introns) * winf
+		
+		self.score = s
 
-	if len(dons) == 0:
-		tx['exons'].append((beg, end))
-		return tx
 
-	# introns
-	for a, b in zip(dons, accs):
-		tx['introns'].append((a, b))
+class Locus:
+	"""Class to represent an alternatively spliced locus"""
 
-	# exons
-	tx['exons'].append((beg, dons[0] -1))
-	for i in range(1, len(dons)):
-		a = accs[i-1] + 1
-		b = dons[i] -1
-		tx['exons'].append((a, b))
-	tx['exons'].append((accs[-1] +1, end))
+	def __init__(self, desc, seq, model, constraints, weights,
+			gff=None, limit=None, countonly=False):
 
-	return tx
+		# sequence stuff
+		self.desc = desc
+		self.name = desc.split()[0]
+		self.seq = seq
 
-def all_possible(seq, minin, minex, maxs, flank, gff=None):
+		# model and weights pass-through to transcript
+		self.model = model
+		self.weights = weights
+		
+		# constraints
+		if constraints is None:
+			self.imin = 35
+			self.emin = 25
+			self.flank = 100
+		else:
+			self.imin = constraints['min_intron']
+			self.emin = constraints['min_exon']
+			self.flank = constraints['flank']
+		
+		# algorithm init
+		if gff: self.dons, self.accs = gff_sites(seq, gff)
+		else:   self.dons, self.accs = gtag_sites(seq, self.flank, self.emin)
+		self.isoforms = []
+		self.worst = None
+		self.limit = limit
+		if self.limit: self.resize = self.limit * 2
+		else:          self.resize = None
+		self.countonly = countonly
+		self.isocount = 0
 
-	if gff: dons, accs = gff_sites(seq, gff)
-	else:   dons, accs = gtag_sites(seq, flank, minex)
+		# recursion
+		introns = []
+		for i in range(len(self.dons)):
+			if self.countonly and self.limit and self.isocount >= self.limit: return
+			self._build_isoforms(self.dons[i:], self.accs, introns)
+		if self.limit is not None:
+			x = sorted(self.isoforms, key=lambda d: d.score, reverse=True)
+			self.isoforms = x[:self.limit]
 
-	info = {
-		'trials' : 0,
-		'donors': len(dons),
-		'acceptors': len(accs),
-		'short_intron': 0,
-		'short_exon': 0,
-	}
+		# calculate probability of each isoform
+		weight = []
+		total = 0
+		for tx in self.isoforms:
+			w = 2 ** tx.score
+			weight.append(w)
+			total += w
+		prob = [w / total for w in weight]
+		for p, tx in zip(prob, self.isoforms):
+			tx.prob = p
 
-	isoforms = []
-	sites = min(len(dons), len(accs), maxs)
-	for n in range(1, sites+1):
-		for dsites in itertools.combinations(dons, n):
-			for asites in itertools.combinations(accs, n):
-				info['trials'] += 1
+		x = sorted(self.isoforms, key=lambda d: d.score, reverse=True)
+		self.isoforms = x[:self.limit]
 
-				# sanity checks
-				if short_intron(dsites, asites, minin):
-					info['short_intron'] += 1
-					continue
+	def _build_isoforms(self, dons, accs, introns):
+		if self.countonly and self.limit and self.isocount >= self.limit: return
+		don = dons[0]
+		for aix, acc in enumerate(accs):
+			if acc - don + 1 < self.imin: continue
+			intron = (don, acc)
 
-				if short_exon(dsites, asites, len(seq), flank, minex):
-					info['short_exon'] += 1
-					continue
+			# legit isoform as is, save it
+			if self.countonly and self.limit and self.isocount >= self.limit: return
+			iso = copy.copy(introns)
+			iso.append(intron)
+			self._save_isoform(iso)
 
-				# create isoform and save
-				tx = build_mRNA(seq, flank, len(seq) -flank -1, dsites, asites)
-				isoforms.append(tx)
+			# also extend it
+			descendable = False
+			for dix, ndon in enumerate(dons):
+				elen = ndon - acc -1
+				if elen >= self.emin:
+					ext = copy.copy(iso)
+					self._build_isoforms(dons[dix:], accs[aix:], ext)
 
-	return isoforms, info
+	def _save_isoform(self, introns):
+
+		# counting only?
+		if self.countonly:
+			self.isocount += 1
+			return
+
+		# create transcript
+		dsites = [x[0] for x in introns]
+		asites = [x[1] for x in introns]
+		tx = Isoform(self.seq, self.flank, len(self.seq) - self.flank -1,
+			dsites, asites, model=self.model, weights=self.weights)
+
+		# unlimited?
+		if self.limit is None:
+			self.isoforms.append(tx)
+			return
+
+		 # don't save low-scoring isoforms
+		if self.worst is not None and tx.score < self.worst: return
+
+		# store (sort and prune as necessary)
+		self.isoforms.append(tx)
+		if len(self.isoforms) > self.resize:
+			x = sorted(self.isoforms, key=lambda d: d['score'], reverse=True)
+			self.isoforms = x[:self.limit]
+			self.worst = self.isoforms[-1].score
+
+	def gff(self, fp):
+		"""write locus as GFF to stream"""
+
+		print('# name:', self.name, file=fp)
+		print('# length:', len(self.seq), file=fp)
+		print('# donors:', len(self.dons), file=fp)
+		print('# acceptors:', len(self.accs), file=fp)
+		print('# isoforms:', len(self.isoforms), file=fp)
+		print('# limit:', self.limit, file=fp)
+		print(f'# maxprob: {self.isoforms[0].prob:.4g}')
+		print(f'# minprob {self.isoforms[-1].prob:.4g}')
+		print(f'# complexity: {complexity(self.isoforms):.3f}', file=fp)
+
+		src = 'apc'
+		cs = f'{self.name}\t{src}\t'
+		b = self.flank + 1
+		e = len(self.seq) - self.flank
+		gene = f'Gene-{self.name}'
+		print(f'{cs}gene\t{b}\t{e}\t.\t+\t.\tID={gene}\n', file=fp)
+		for i, tx in enumerate(self.isoforms):
+			b = tx.beg + 1
+			e = tx.end + 1
+			s = tx.prob
+			tid = f'tx-{self.name}-{i+1}'
+			print(f'{cs}mRNA\t{b}\t{e}\t{s:.4g}\t+\t.\tID={tid};Parent={gene}',
+				file=fp)
+			p = f'Parent={tid}'
+			for b, e in tx.exons:
+				print(f'{cs}exon\t{b+1}\t{e+1}\t{s:.4g}\t+\t.\t{p}', file=fp)
+			for b, e in tx.introns:
+				print(f'{cs}intron\t{b+1}\t{e+1}\t{s:.4g}\t+\t.\t{p}', file=fp)
+			print(file=fp)
+
 
 ########################
 ## EXPRESSION SECTION ##
@@ -492,7 +572,7 @@ def complexity(txs):
 	prob = []
 	total = 0
 	for tx in txs:
-		w = 2 ** tx['score']
+		w = 2 ** tx.score
 		prob.append(w)
 		total += w
 	for i in range(len(prob)):
