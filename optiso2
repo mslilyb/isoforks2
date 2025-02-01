@@ -5,34 +5,46 @@ import os
 import random
 import sys
 
-import isoform
-from isoform import Locus
+import isoform2
+from isoform2 import Locus
 
-# Global Memoizers
-ACC = dict()
-DON = dict()
-EXS = dict()
-INS = dict()
-EXL = dict()
-INL = dict()
-RNASEQ = dict()
 
-def set_fitness(guy, gene):
+def set_fitness(guy, gene, rna):
 
-    # re-score the transcripts with guy's weights
-    # compare tx probabilities to RNA-Seq
-	guy['fitness'] = 1
+	# recompute tx scores and isoform probabilities
+	for tx in gene.isoforms: tx.compute_score(reweight=guy['genotype'])
+	gene.calculate_isoform_probabilities()
+	
+	# count introns and re-weight as probabilities
+	apc = {}
+	for tx in gene.isoforms:
+		for intron in tx.introns:
+			if intron not in apc: apc[intron] = 0
+			apc[intron] += tx.prob
+	total = sum(apc.values())
+	for intron in apc: apc[intron] /= total
+
+	# compute manhattan distance between isoform and rna introns
+	d1 = 0
+	for intron in apc.keys() | rna.keys():
+		if intron in apc and intron in rna: d1 += abs(apc[intron] - rna[intron])
+		elif intron in apc: d1 += apc[intron]
+		else: d1 += rna[intron]
+	
+	guy['fitness'] = d1
 	
 
 def random_guy():
 	return {
-		'wacc': random.random(),
-		'wdon': random.random(),
-		'wexs': random.random(),
-		'wins': random.random(),
-		'wexl': random.random(),
-		'winl': random.random(),
-		'winf': random.random(),
+		'genotype': {
+			'wacc': random.random(),
+			'wdon': random.random(),
+			'wexs': random.random(),
+			'wins': random.random(),
+			'wexl': random.random(),
+			'winl': random.random(),
+			'winf': random.random(),
+		},
 		'fitness': None,
 	}
 
@@ -42,12 +54,11 @@ def mate(p1, p2, mut):
 		'fitness': None
 	}
 
-	weight = ('--wdpwm', '--wapwm', '--wemm', '--wimm', '--welen', '--wilen',
-		'--icost')
-	for k in weight:
-		if random.random() < 0.5: child['genotype'][k] = p1['genotype'][k]
-		else:                     child['genotype'][k] = p2['genotype'][k]
-		if random.random() < mut: child['genotype'][k] = random.random();
+	att = ('wacc', 'wdon', 'wexs', 'wins', 'wexl', 'winl', 'winf')
+	for a in att:
+		if random.random() < 0.5: child['genotype'][a] = p1['genotype'][a]
+		else:                     child['genotype'][a] = p2['genotype'][a]
+		if random.random() < mut: child['genotype'][a] = random.random();
 
 	return child
 
@@ -81,46 +92,29 @@ parser.add_argument('--verbose', action='store_true', help='show progress')
 arg = parser.parse_args()
 
 # Initialize
-name, seq = next(isoform.read_fasta(arg.fasta))
-model = isoform.read_splicemodel(arg.model)
+if arg.seed: random.seed(arg.seed)
+name, seq = next(isoform2.read_fasta(arg.fasta))
+model = isoform2.read_splicemodel(arg.model)
 gene = Locus(name, seq, model, None, None, limit=arg.limit)
 
-# Model score memoizers
-for tx in gene.isoforms:
-	for beg, end in tx['introns']:
-		apos = end - len(model['acc']) +1
-		dpos = beg
-		size = end - beg + 1
-		if size not in INL:
-			INL[size] = isoform.score_len(model['inl'], size)
-		if apos not in ACC:
-			ACC[apos] = isoform.score_pwm(model['acc'], tx['seq'], apos)
-		if dpos not in DON:
-			DON[dpos] = isoform.score_pwm(model['don'], tx['seq'], dpos)
-		if (beg,end) not in INS:
-			INS[(beg,end)] = isoform.score_markov(model['ins'], tx['seq'],
-				beg + len(model['don']), end - len(model['acc']))
-	for beg, end in tx['exons']:
-		if (beg,end) not in EXS:
-			EXS[(beg,end)] = isoform.score_markov(model['exs'], tx['seq'],
-				beg, end)
-		size = end - beg + 1
-		if size not in EXL:
-			EXL[size] = isoform.score_len(model['exl'], size)
+# RNA-Seq from GFF
+rnaseq = {}
+total = 0
+with open(arg.gff) as fp:
+	for line in fp:
+		f = line.split()
+		if f[2] != 'intron': continue
+		if f[5] == '.': continue
+		beg, end, n = int(f[3])-1, int(f[4])-1, float(f[5])
+		rnaseq[(beg,end)] = n
+		total += n
+for loc in rnaseq: rnaseq[loc] /= total
 
-# RNASEQ memoizer
-# read in the RNA-seq values and convert to probabilities
-# need our own Manhattan comparer
+# Genetic Algorithm
 
-
-sys.exit()
-
-if arg.seed: random.seed(arg.seed)
 pop = []
 for i in range(arg.pop): pop.append(random_guy())
-for guy in pop: set_fitness(guy, gene, model)
-
-# Evolve population
+for guy in pop: set_fitness(guy, gene, rnaseq)
 
 half = int(len(pop) * arg.die)
 for g in range(arg.gen):
@@ -136,7 +130,7 @@ for g in range(arg.gen):
 		children.append(pop[i])
 
 	# fitness
-	for child in children: child['fitness'] = get_fitness(child, model)
+	for child in children: set_fitness(child, gene, rnaseq)
 
 # Final report
 
@@ -144,5 +138,5 @@ pop = sorted(pop, key=lambda item: item['fitness'])
 best = pop[0]
 print(f'{best["fitness"]:.4f}', end='\t')
 for prop, val in best['genotype'].items():
-	print(f'{val:.4f}', end='\t')
+	print(f'{prop}:{val:.4f}', end='\t')
 print(arg.name)

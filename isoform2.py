@@ -371,6 +371,8 @@ class Isoform:
 		self.accs = accs
 		self.exons = []
 		self.introns = []
+		self.model = model
+		self.weights = weights
 		self.score = None
 		self.prob = None   # set externally: via Locus
 		
@@ -385,22 +387,24 @@ class Isoform:
 				self.exons.append((a, b))
 			self.exons.append((accs[-1] +1, end))
 	
-		if model is not None: self.compute_score(model, weights)
+		if model is not None: self.compute_score()
 	
-	def compute_score(self, model, weights):
+	def compute_score(self, reweight=None):
 	
-		if model is None:
+		if self.model is None:
 			self.score = None
 			return
 		
+		weights = reweight if reweight else self.weights
+		
 		seq = self.seq
-		acc = model['acc']
-		don = model['don']
-		exs = model['exs']
-		ins = model['ins']
-		exl = model['exl']
-		inl = model['inl']
-		inf = model['inf']
+		acc = self.model['acc']
+		don = self.model['don']
+		exs = self.model['exs']
+		ins = self.model['ins']
+		exl = self.model['exl']
+		inl = self.model['inl']
+		inf = self.model['inf']
 		wacc = weights['wacc'] if weights is not None else 1
 		wdon = weights['wdon'] if weights is not None else 1
 		wexs = weights['wexs'] if weights is not None else 1
@@ -463,11 +467,14 @@ class Locus:
 		for i in range(len(self.dons)):
 			if self.countonly and self.limit and self.isocount >= self.limit: return
 			self._build_isoforms(self.dons[i:], self.accs, introns)
-		if self.limit is not None:
+		
+		# finalization
+		if self.limit:
 			x = sorted(self.isoforms, key=lambda d: d.score, reverse=True)
 			self.isoforms = x[:self.limit]
+		self.calculate_isoform_probabilities()
 
-		# calculate probability of each isoform
+	def calculate_isoform_probabilities(self):
 		weight = []
 		total = 0
 		for tx in self.isoforms:
@@ -475,11 +482,9 @@ class Locus:
 			weight.append(w)
 			total += w
 		prob = [w / total for w in weight]
-		for p, tx in zip(prob, self.isoforms):
-			tx.prob = p
-
+		for p, tx in zip(prob, self.isoforms): tx.prob = p
 		x = sorted(self.isoforms, key=lambda d: d.score, reverse=True)
-		self.isoforms = x[:self.limit]
+		self.isoforms = x
 
 	def _build_isoforms(self, dons, accs, introns):
 		if self.countonly and self.limit and self.isocount >= self.limit: return
@@ -526,7 +531,7 @@ class Locus:
 		# store (sort and prune as necessary)
 		self.isoforms.append(tx)
 		if len(self.isoforms) > self.resize:
-			x = sorted(self.isoforms, key=lambda d: d['score'], reverse=True)
+			x = sorted(self.isoforms, key=lambda d: d.score, reverse=True)
 			self.isoforms = x[:self.limit]
 			self.worst = self.isoforms[-1].score
 
