@@ -157,7 +157,7 @@ def manhattan(p, q):
 #########################
 
 def read_splicemodel(file):
-	with open(file) as fp: model = json.load(fp)	
+	with open(file) as fp: model = json.load(fp)
 	return model
 
 #################
@@ -208,10 +208,12 @@ def read_pwm(file):
 	return pwm
 
 def score_pwm(pwm, seq, pos, memo=None):
+	if memo is not None and pos in memo: return memo[pos]
 	score = 0
 	for i in range(len(pwm)):
 		nt = seq[pos+i]
 		score += pwm[i][nt]
+	if memo is not None: memo[pos] = score
 	return score
 
 ####################
@@ -255,7 +257,6 @@ def read_len(file):
 	return {'tail': tail, 'size':len(model), 'val': model}
 
 def score_len(model, x, memo=None):
-	assert(x > 0)
 	if x >= model['size']:
 		p = 1 / model['tail']
 		q = (1-p)**(x-1) * p
@@ -309,6 +310,7 @@ def read_markov(file):
 	return {'k': k, 'mm': mm}
 
 def score_markov(model, seq, beg, end, memo=None):
+	if memo is not None and (beg,end) in memo: return memo[(beg,end)]
 	score = 0
 	k = model['k']
 	mm = model['mm']
@@ -317,6 +319,7 @@ def score_markov(model, seq, beg, end, memo=None):
 		kmer = seq[i:i+k]
 		score += mm[kmer]
 
+	if memo is not None: memo[(beg,end)] = score
 	return score
 
 
@@ -360,10 +363,11 @@ def gff_sites(seq, gff, gtag=True):
 class Isoform:
 	"""Class to represent a single isoform"""
 
-	def __init__(self, seq, beg, end, dons, accs, model=None, weights=None):
+	def __init__(self, seq, beg, end, dons, accs, model=None, weights=None,
+			memo=None):
 		assert(beg <= end)
 		assert(len(dons) == len(accs))
-		
+
 		self.seq = seq
 		self.beg = beg
 		self.end = end
@@ -373,9 +377,10 @@ class Isoform:
 		self.introns = []
 		self.model = model
 		self.weights = weights
+		self.memo = memo
 		self.score = None
 		self.prob = None   # set externally: via Locus
-		
+
 		if len(dons) == 0:
 			self.exons.append((beg, end))
 		else:
@@ -386,17 +391,17 @@ class Isoform:
 				b = dons[i] -1
 				self.exons.append((a, b))
 			self.exons.append((accs[-1] +1, end))
-	
+
 		if model is not None: self.compute_score()
-	
+
 	def compute_score(self, reweight=None):
-	
+
 		if self.model is None:
 			self.score = None
 			return
-		
+
 		weights = reweight if reweight else self.weights
-		
+
 		seq = self.seq
 		acc = self.model['acc']
 		don = self.model['don']
@@ -412,17 +417,26 @@ class Isoform:
 		wexl = weights['wexl'] if weights is not None else 1
 		winl = weights['winl'] if weights is not None else 1
 		winf = weights['winf'] if weights is not None else 1
-		
+		macc = self.memo['acc'] if self.memo is not None else None
+		mdon = self.memo['don'] if self.memo is not None else None
+		mexs = self.memo['exs'] if self.memo is not None else None
+		mins = self.memo['ins'] if self.memo is not None else None
+
 		s = 0
-		for i in self.accs: s += score_pwm(acc, seq, i -len(acc)+1) * wacc
-		for i in self.dons: s += score_pwm(don, seq, i) * wdon
-		for b, e in self.exons: s += score_len(exl, e - b + 1) * wexl
-		for b, e in self.introns: s += score_len(inl, e - b + 1) * winl
-		for b, e in self.exons: s += score_markov(exs, seq, b, e) * wexs
+		for i in self.accs:
+			s += score_pwm(acc, seq, i -len(acc)+1, memo=macc) * wacc
+		for i in self.dons:
+			s += score_pwm(don, seq, i, memo=mdon) * wdon
+		for b, e in self.exons:
+			s += score_len(exl, e - b + 1) * wexl
+		for b, e in self.introns:
+			s += score_len(inl, e - b + 1) * winl
+		for b, e in self.exons:
+			s += score_markov(exs, seq, b, e, memo=mexs) * wexs
 		for b, e in self.introns: s += score_markov(ins, seq,
-			b + len(don), e - len(acc)) * wins
+			b + len(don), e - len(acc), memo=mins) * wins
 		s += inf * len(self.introns) * winf
-		
+
 		self.score = s
 
 
@@ -430,17 +444,19 @@ class Locus:
 	"""Class to represent an alternatively spliced locus"""
 
 	def __init__(self, desc, seq, model, constraints, weights,
-			gff=None, limit=None, countonly=False):
+			gff=None, limit=None, countonly=False, memoize=False):
 
 		# sequence stuff
 		self.desc = desc
 		self.name = desc.split()[0]
 		self.seq = seq
 
-		# model and weights pass-through to transcript
+		# model, weights, and memoizers pass-through to transcript
 		self.model = model
 		self.weights = weights
-		
+		if memoize: self.memo = {'acc': {}, 'don': {}, 'exs': {}, 'ins': {}}
+		else: self.memo = None
+
 		# constraints
 		if constraints is None:
 			self.imin = 35
@@ -450,7 +466,7 @@ class Locus:
 			self.imin = constraints['min_intron']
 			self.emin = constraints['min_exon']
 			self.flank = constraints['flank']
-		
+
 		# algorithm init
 		if gff: self.dons, self.accs = gff_sites(seq, gff)
 		else:   self.dons, self.accs = gtag_sites(seq, self.flank, self.emin)
@@ -467,7 +483,7 @@ class Locus:
 		for i in range(len(self.dons)):
 			if self.countonly and self.limit and self.isocount >= self.limit: return
 			self._build_isoforms(self.dons[i:], self.accs, introns)
-		
+
 		# finalization
 		if self.limit:
 			x = sorted(self.isoforms, key=lambda d: d.score, reverse=True)
@@ -518,7 +534,8 @@ class Locus:
 		dsites = [x[0] for x in introns]
 		asites = [x[1] for x in introns]
 		tx = Isoform(self.seq, self.flank, len(self.seq) - self.flank -1,
-			dsites, asites, model=self.model, weights=self.weights)
+			dsites, asites, model=self.model, weights=self.weights,
+			memo=self.memo)
 
 		# unlimited?
 		if self.limit is None:

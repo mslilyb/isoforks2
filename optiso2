@@ -14,7 +14,7 @@ def set_fitness(guy, gene, rna):
 	# recompute tx scores and isoform probabilities
 	for tx in gene.isoforms: tx.compute_score(reweight=guy['genotype'])
 	gene.calculate_isoform_probabilities()
-	
+
 	# count introns and re-weight as probabilities
 	apc = {}
 	for tx in gene.isoforms:
@@ -30,9 +30,9 @@ def set_fitness(guy, gene, rna):
 		if intron in apc and intron in rna: d1 += abs(apc[intron] - rna[intron])
 		elif intron in apc: d1 += apc[intron]
 		else: d1 += rna[intron]
-	
+
 	guy['fitness'] = d1
-	
+
 
 def random_guy():
 	return {
@@ -96,7 +96,7 @@ if arg.seed: random.seed(arg.seed)
 name, seq = next(isoform2.read_fasta(arg.fasta))
 model = isoform2.read_splicemodel(arg.model)
 if arg.verbose: print('computing isoforms...', end='', flush=True)
-gene = Locus(name, seq, model, None, None, limit=arg.limit)
+gene = Locus(name, seq, model, None, None, limit=arg.limit, memoize=True)
 if arg.verbose: print(f'found {len(gene.isoforms)} isoforms', flush=True)
 
 # RNA-Seq from GFF
@@ -142,3 +142,4 @@ print(f'{best["fitness"]:.4f}', end='\t')
 for prop, val in best['genotype'].items():
 	print(f'{prop}:{val:.4f}', end='\t')
 print(arg.name)
+
