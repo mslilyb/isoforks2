@@ -472,6 +472,7 @@ class Locus:
 		else:   self.dons, self.accs = gtag_sites(seq, self.flank, self.emin)
 		self.isoforms = []
 		self.worst = None
+		self.rejected = 0
 		self.limit = limit
 		if self.limit: self.resize = self.limit * 2
 		else:          self.resize = None
@@ -516,7 +517,6 @@ class Locus:
 			self._save_isoform(iso)
 
 			# also extend it
-			descendable = False
 			for dix, ndon in enumerate(dons):
 				elen = ndon - acc -1
 				if elen >= self.emin:
@@ -543,13 +543,18 @@ class Locus:
 			return
 
 		 # don't save low-scoring isoforms
-		if self.worst is not None and tx.score < self.worst: return
+		if self.worst is not None and tx.score < self.worst:
+			self.rejected += 1
+			return
 
 		# store (sort and prune as necessary)
 		self.isoforms.append(tx)
 		if len(self.isoforms) > self.resize:
 			x = sorted(self.isoforms, key=lambda d: d.score, reverse=True)
+			before = len(x)
 			self.isoforms = x[:self.limit]
+			diff = before - len(self.isoforms)
+			self.rejected += diff
 			self.worst = self.isoforms[-1].score
 
 	def gff(self, fp):
@@ -560,7 +565,7 @@ class Locus:
 		print('# donors:', len(self.dons), file=fp)
 		print('# acceptors:', len(self.accs), file=fp)
 		print('# isoforms:', len(self.isoforms), file=fp)
-		print('# limit:', self.limit, file=fp)
+		print('# rejected:', self.rejected, file=fp)
 		print(f'# maxprob: {self.isoforms[0].prob:.4g}')
 		print(f'# minprob {self.isoforms[-1].prob:.4g}')
 		print(f'# complexity: {complexity(self.isoforms):.3f}', file=fp)
