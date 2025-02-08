@@ -61,7 +61,7 @@ constraints = {
 
 if arg.countonly:
 	locus = Locus(name, seq, model, constraints, weights,
-		gff=arg.introns, limt=arg.limit, countonly=True)
+		gff=arg.introns, limit=arg.limit, countonly=True)
 	print(locus.name, locus.isocount, sep='\t')
 else:
 	locus = Locus(name, seq, model, constraints, weights,
