@@ -27,6 +27,12 @@ for gID in fpaths:
     cmd = f'./{args.program} {fpaths[gID][0]} {fpaths[gID][1]} {args.model}'
     cmds.append(cmd)
 
-print(cmds[0])
+with open('results_optiso2_defaults.txt', 'w') as file:
+    for c in cmds:
+        c = c.split(' ')
+        gid = c[1].split('.')[-2]
+        print(f'working on {gid}...')
+        result = subprocess.run(c, stdout=subprocess.PIPE, text=True)
+        print(result)
 
-#subprocess.run(['ls'])
+
