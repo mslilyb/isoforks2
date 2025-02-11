@@ -4,6 +4,7 @@ import subprocess
 import multiprocessing as mp
 from multiprocessing import Pool
 import time
+import csv
 
 parser = argparse.ArgumentParser(description='wrapper for optiso2')
 parser.add_argument('apc_dir', type=str, metavar='<directory>', 
@@ -27,6 +28,7 @@ for file in os.listdir(args.apc_dir):
     if file.endswith('.gff3'):
         fpaths[gID][1] = f'{args.apc_dir}{file}'
 
+'''
 cmds = []
 for gID in fpaths:
     cmd = f'./{args.program} {fpaths[gID][0]} {fpaths[gID][1]} {args.model}'
@@ -42,6 +44,7 @@ with open('results_optiso2_defaults.txt', 'w') as file:
         print(result)
 e = time.perf_counter()
 print('no multi:', e-s)
+'''
 
 def optimize(prog, fasta, gff, model):
 
@@ -49,6 +52,7 @@ def optimize(prog, fasta, gff, model):
     cmd = cmd.split(' ')
     gid = cmd[1].split('.')[-2]
     output = subprocess.run(cmd, stdout=subprocess.PIPE, text=True).stdout.split()
+    print(f'working on {gid}...')
     return [gid] + output
 
 def worker(inputs):
@@ -60,12 +64,30 @@ for gID in fpaths:
     input = [args.program, fpaths[gID][0], fpaths[gID][1], args.model]
     inputs.append(input)
 
-if args.notes: print(f'# {args.notes}')
-
-s = time.perf_counter()
+#s = time.perf_counter()
 with Pool(processes=mp.cpu_count()) as pool:
     result = pool.map(worker, inputs)
-    print(result)
-e = time.perf_counter()
-print('multi:', e-s)
+    #print(result)
+#e = time.perf_counter()
+#print('multi:', e-s)
+
+ref = []
+for res in result:
+    gid = res[0]
+    fitness = res[1]
+    wacc = res[2].split(':')[1]
+    wdon = res[3].split(':')[1]
+    wexs = res[4].split(':')[1]
+    wins = res[5].split(':')[1]
+    wexl = res[6].split(':')[1]
+    winl = res[7].split(':')[1]
+    winf = res[8].split(':')[1]
+    ref.append([gid, fitness, wacc, wdon, wexs, wins, wexl, winl, winf])
+
+with open('results_optiso2.csv', 'w') as file:
+    writer = csv.writer(file)
+    if args.notes: 
+        writer.writerow([args.notes])
+    writer.writerow(['gid', 'fitness', 'wacc', 'wdon', 'wexs', 'wins', 'wexl', 'winl', 'winf'])
+    writer.writerows(ref)
 
