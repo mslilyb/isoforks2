@@ -65,7 +65,7 @@ for gID in fpaths:
     inputs.append(input)
 
 #s = time.perf_counter()
-with Pool(processes=mp.cpu_count()) as pool:
+with Pool(processes=mp.cpu_count()-1) as pool:
     result = pool.map(worker, inputs)
     #print(result)
 #e = time.perf_counter()
