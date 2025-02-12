@@ -11,6 +11,8 @@ parser.add_argument('apc_dir', type=str, metavar='<directory>',
     help='directory with APC .gff3 and .fa files')
 parser.add_argument('model', type=str, metavar='<file>',
     help='splice model file')
+parser.add_argument('--limit', required=False, type=str, default=1000,
+    metavar='<int>', help='limit number of isoforms [%(default)i]')
 parser.add_argument('--notes', required=False, type=str, metavar='<string>',
     help='any metadata you want to add')
 parser.add_argument('--program', required=False, type=str, default='optiso2', 
@@ -46,9 +48,9 @@ e = time.perf_counter()
 print('no multi:', e-s)
 '''
 
-def optimize(prog, fasta, gff, model):
+def optimize(prog, fasta, gff, model, limit):
 
-    cmd = f'./{prog} {fasta} {gff} {model}'
+    cmd = f'./{prog} {fasta} {gff} {model} --limit {limit}'
     cmd = cmd.split(' ')
     gid = cmd[1].split('.')[-2]
     output = subprocess.run(cmd, stdout=subprocess.PIPE, text=True).stdout.split()
@@ -57,7 +59,7 @@ def optimize(prog, fasta, gff, model):
 
 def worker(inputs):
 
-    return optimize(inputs[0], inputs[1], inputs[2], inputs[3])
+    return optimize(inputs[0], inputs[1], inputs[2], inputs[3], args.limit)
 
 inputs = []
 for gID in fpaths:
