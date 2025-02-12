@@ -12,6 +12,7 @@ parser.add_argument('fasta', type=str, metavar='<fasta file>',
 	help='input fasta file (reads only the first sequence if multi-fasta)')
 parser.add_argument('model', type=str, metavar='<splice model>',
 	help='input splicemodel file')
+parser.add_argument('--out', help='save to named output file')
 parser.add_argument('--min_intron', required=False, type=int, default=35,
 	metavar='<int>', help='minimum length of intron [%(default)i]')
 parser.add_argument('--min_exon', required=False, type=int, default=25,
@@ -59,6 +60,9 @@ constraints = {
 	'flank': arg.flank
 }
 
+if arg.out: fp = open(arg.out, 'w')
+else: fp = sys.stdout
+
 if arg.countonly:
 	locus = Locus(name, seq, model, constraints, weights,
 		gff=arg.introns, limit=arg.limit, countonly=True)
@@ -66,4 +70,4 @@ if arg.countonly:
 else:
 	locus = Locus(name, seq, model, constraints, weights,
 		limit=arg.limit, gff=arg.introns)
-	locus.gff(sys.stdout)
+	locus.gff(fp)
