@@ -1,5 +1,5 @@
-defaults limit 1000 minin 35 minex 25 flank 99 pop 100 gen 100 die 0.5 mut 0.1
-gid,fitness,wacc,wdon,wexs,wins,wexl,winl,winf
+% defaults limit 1000 minin 35 minex 25 flank 99 pop 100 gen 100 die 0.5 mut 0.1
+% gid,fitness,wacc,wdon,wexs,wins,wexl,winl,winf
 2_316,0.1678,0.9194,0.9975,0.9918,0.9954,0.7451,0.0018,0.9959
 2_256,1.0169,0.2531,0.0101,0.9920,0.0001,0.0090,0.1757,0.9996
 1_204,0.0870,0.6274,0.9201,0.8301,0.9923,0.0031,0.0074,0.9999
