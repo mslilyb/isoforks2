@@ -3,6 +3,7 @@ import os
 import subprocess
 import multiprocessing as mp
 from multiprocessing import Pool
+import time
 
 parser = argparse.ArgumentParser(description='wrapper for geniso2')
 parser.add_argument('apc_dir', type=str, metavar='<directory>', 
@@ -75,6 +76,14 @@ for gID in fpaths:
     ]
     inputs.append(input)
 
+#s = time.perf_counter()
+with Pool(processes=mp.cpu_count()-1) as pool:
+    result = pool.map(worker, inputs)
+    #print(result)
+#e = time.perf_counter()
+#print('multi:', e-s)
+
+start = time.perf_counter()
 with Pool(processes=mp.cpu_count()-1) as pool:
     result = pool.map(worker, inputs)
 
@@ -87,3 +96,6 @@ for res in result:
     for line in res.split('\n'):
         f.write(line+'\n')         
     f.close()
+
+end = time.perf_counter()
+print('time:', end-start)
