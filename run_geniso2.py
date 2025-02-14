@@ -10,7 +10,7 @@ parser.add_argument('apc_dir', type=str, metavar='<directory>',
 parser.add_argument('model', type=str, metavar='<file>',
     help='splice model file')
 parser.add_argument('--outdir', required=False, type=str, default='APCisos/',
-    metavar='<outdir>', help='name of output directory [%(default)i]')
+    metavar='<outdir>', help='name of output directory [%(default)s]')
 parser.add_argument('--limit', required=False, type=int, default=100,
 	metavar='<int>', help='limit number of transcripts [%(default)i]')
 parser.add_argument('--weights', type=str, metavar='<file>',
