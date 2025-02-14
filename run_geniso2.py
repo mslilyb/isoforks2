@@ -73,7 +73,6 @@ for gID in fpaths:
         args.program, fpaths[gID][0], args.model, wacc, wdon, wexs, wins,
         wexl, winl, winf, args.limit
     ]
-    print(input)
     inputs.append(input)
 
 with Pool(processes=mp.cpu_count()-1) as pool:
