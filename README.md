@@ -1,16 +1,6 @@
 Isoforms
 ========
 
-## Notes ##
-
-Redesign the isoform generators
-
-- suffix tree algorithm
-- scoring during generation
-- option to keep N-best isoforms
-- probabilities at the end
-- self gff output
-
 ## Programs ##
 
 ### Python
@@ -51,5 +41,5 @@ build the models.
 
 ## Trivia ##
 
-There are 19.938218229 billion RNASeq_splice records in WormBase. As a rough
-estimate of intron frequency, divide by 20 billion.
+There are 19.938 billion RNASeq_splice records in WormBase. As a rough estimate
+of intron frequency, divide intron counts by 20 billion.
