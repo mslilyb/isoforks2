@@ -1,16 +1,6 @@
 Isoforms
 ========
 
-## Notes ##
-
-Redesign the isoform generators
-
-- suffix tree algorithm
-- scoring during generation
-- option to keep N-best isoforms
-- probabilities at the end
-- self gff output
-
 ## Programs ##
 
 ### Python
@@ -41,10 +31,15 @@ The genomikon repo contains a couple of faster implementations in the
 
 ## Data ##
 
-Data collection is described in `datacore2024/project_splicing`. The 665 genes
-of the APC set are in the `apc` directory.
+Data collection is described in `datacore2024/project_splicing`. The 1045 genes
+of the smallgenes dataset.
 
 ## Models ##
 
 See the `models` directory for standard models and `modelbuilder` for how to
 build the models.
+
+## Trivia ##
+
+There are 19.938 billion RNASeq_splice records in WormBase. As a rough estimate
+of intron frequency, divide intron counts by 20 billion.
