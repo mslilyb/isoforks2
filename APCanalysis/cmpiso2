@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import isoform2
+import csv
+
+parser = argparse.ArgumentParser()
+parser.add_argument('APCgen_gffs', type=str, metavar='<directory>',
+    help='directory with APC generated gff files')
+parser.add_argument('WB_gffs', type=str, metavar='<directory>',
+    help='directory with WormBase gff files')
+
+args = parser.parse_args()
+
+gffPaths = {}
+for fname in os.listdir(args.APCgen_gffs):
+    if fname.endswith('.gff'):
+        gID = fname.split('.')[1]
+        gffPaths[gID] = [args.APCgen_gffs + fname]
+
+for fname in os.listdir(args.WB_gffs):
+    if fname.endswith('.gff3'):
+        gID = fname.split('.')[1]
+        gffPaths[gID].append(args.WB_gffs + fname)
+
+comparisons = {}
+for g in gffPaths:
+    i1 = isoform2.get_introns(gffPaths[g][0])
+    i2 = isoform2.get_introns(gffPaths[g][1])
+    dist, details = isoform2.expdiff(i1, i2)
+    comparisons[g] = dist
+        
+ranked = dict(sorted(comparisons.items(), key=lambda item: item[1]))
+
+for r in ranked:
+    print(r, ranked[r])
+
+with open('ranked_dist.csv', 'w') as csvfile:
+    writer = csv.writer(csvfile, delimiter=' ')
+    writer.writerow('[wow]')
