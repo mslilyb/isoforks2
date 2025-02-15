@@ -41,10 +41,15 @@ The genomikon repo contains a couple of faster implementations in the
 
 ## Data ##
 
-Data collection is described in `datacore2024/project_splicing`. The 665 genes
-of the APC set are in the `apc` directory.
+Data collection is described in `datacore2024/project_splicing`. The 1045 genes
+of the smallgenes dataset.
 
 ## Models ##
 
 See the `models` directory for standard models and `modelbuilder` for how to
 build the models.
+
+## Trivia ##
+
+There are 19.938218229 billion RNASeq_splice records in WormBase. As a rough
+estimate of intron frequency, divide by 20 billion.
