@@ -24,18 +24,49 @@ for fname in os.listdir(args.WB_gffs):
         gID = fname.split('.')[1]
         gffPaths[gID].append(args.WB_gffs + fname)
 
+'''
 comparisons = {}
 for g in gffPaths:
     i1 = isoform2.get_introns(gffPaths[g][0])
     i2 = isoform2.get_introns(gffPaths[g][1])
     dist, details = isoform2.expdiff(i1, i2)
     comparisons[g] = dist
-        
+            
 ranked = dict(sorted(comparisons.items(), key=lambda item: item[1]))
 
 for r in ranked:
     print(r, ranked[r])
 
 with open('ranked_dist.csv', 'w') as csvfile:
-    writer = csv.writer(csvfile, delimiter=' ')
-    writer.writerow('[wow]')
+    writer = csv.writer(csvfile, delimiter=',')
+    for r in ranked:
+        writer.writerow([f'{r}', f'{ranked[r]}'])
+'''
+
+
+# create wormbase annotated gene in same format as APC output
+# reads from the top isoform belong to the same parent transcript
+
+
+parents = {}
+with open(gffPaths['2_1'][1], 'r') as file:
+    for line in file.readlines():
+        line = line.rstrip()
+        line = line.split('\t')
+        if line[1] == 'WormBase' and line[2] == 'intron':
+            parent = f'{line[0]}_{line[8]}'
+            if parent not in parents:
+                parents[parent] = [line[3:5]]
+            else:
+                parents[parent].append(line[3:5])
+ 
+print(parents)
+
+print('#####')
+
+with open(gffPaths['2_1'][0], 'r') as file:
+    for line in file.readlines():
+        line = line.rstrip()
+        print(line)
+
+
