@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <math.h>
 
 // information we need for isoform creation
 
@@ -16,10 +17,13 @@ typedef struct
     int *ac_end;
     int dons_count;
     int accs_count;
-    int string_len;
+    int seq_len;
     int flank_size;
     int min_ex;
     int min_in;
+    int max_isoform_length;
+    int *isoform;
+    int isoform_count;
 
 } SpliceSiteData;
 
@@ -36,7 +40,7 @@ void splice_site_reader(SpliceSiteData *ssd, const char *seq);
 void pointer_printer(const int *start, const int *end);
 
 // creating isoform
-void all_isoform(const SpliceSiteData *ssd, const int *donor, const int *acceptor, const int spot);
+void all_isoform(SpliceSiteData *ssd, const int *donor, const int *acceptor, const int spot);
 
 // ====================  test sequence ==================== 
 
@@ -59,13 +63,19 @@ int main(void){
     splice_site_reader(&ssd, seq);
 
     // if we wanna print donor and acceptor out for visual
-    pointer_printer(ssd.ds_start, ssd.ds_end);
-    pointer_printer(ssd.ac_start, ssd.ac_end);
+    // pointer_printer(ssd.ds_start, ssd.ds_end);
+    // pointer_printer(ssd.ac_start, ssd.ac_end);
+
+    printf(" There is %d donors\n", ssd.dons_count);
+    printf(" There is %d acceptors\n", ssd.accs_count);
 
     all_isoform(&ssd, ssd.ds_start, ssd.ac_start, 0);
 
+    printf(" There is %d isoforms\n", ssd.isoform_count);
+
     free(ssd.dons);
     free(ssd.accs);
+    free(ssd.isoform);
 
     return 0;
 
@@ -88,7 +98,7 @@ void allocate_da_array(SpliceSiteData *ssd, const char *seq)
 
 {
     size_t len = strlen(seq);
-    ssd->string_len = len;
+    ssd->seq_len = len;
     
     if (len <= 500)
 
@@ -117,10 +127,13 @@ void allocate_da_array(SpliceSiteData *ssd, const char *seq)
 
 void splice_site_reader(SpliceSiteData *ssd, const char *seq)
 {
+    ssd->max_isoform_length = floor ( ( ssd->seq_len + 1 - 2 * ssd->flank_size - ssd-> min_ex ) / (ssd->min_ex + ssd->min_in) );
+    ssd->isoform = malloc ( ssd->max_isoform_length * sizeof(int) );
     ssd->dons_count = 0;
     ssd->accs_count = 0;
+    ssd->isoform_count = 0;
 
-    for (int i = ssd->flank_size+ ssd->min_ex ; i < ssd->string_len - 1 - ssd->flank_size - ssd->min_ex; i++)
+    for (int i = ssd->flank_size+ ssd->min_ex ; i < ssd->seq_len - 1 - ssd->flank_size - ssd->min_ex; i++)
     {
 
         if (seq[i] == 'G' && seq[i+1] == 'T')
@@ -165,11 +178,10 @@ void pointer_printer(const int *start, const int *end)
 // combinator
 
 
-void all_isoform(const SpliceSiteData *ssd, const int *donor, const int *acceptor, int spot)
+void all_isoform(SpliceSiteData *ssd, const int *donor, const int *acceptor, int spot)
 {
 
     assert(spot % 2 == 0);
-    static int isoform[20];
 
     // whenever we are out of donor and acceptor, exit
     if ( donor > ssd->ds_end || acceptor > ssd->ac_end)
@@ -181,7 +193,7 @@ void all_isoform(const SpliceSiteData *ssd, const int *donor, const int *accepto
     for (const int *p1 = donor; p1 <= ssd->ds_end ; p1++ )
     {
         // check the middle exon
-        if (spot != 0 && ( ( *p1 - isoform[spot - 1] ) < (ssd->min_ex + 1) ) )
+        if (spot != 0 && ( ( *p1 - ssd->isoform[spot - 1] ) < (ssd->min_ex + 1) ) )
         {
             continue;
         }
@@ -190,7 +202,8 @@ void all_isoform(const SpliceSiteData *ssd, const int *donor, const int *accepto
         // add whatever features we want to continue the loop if bad isoform \\
         // ==================================================================\\
 
-        isoform[spot] = *p1;
+        // update donor site
+        ssd->isoform[spot] = *p1;
         
 
         // picking acceptors
@@ -202,8 +215,14 @@ void all_isoform(const SpliceSiteData *ssd, const int *donor, const int *accepto
                 continue;
             }
 
-            isoform[spot + 1] = *p2;
-            pointer_printer( isoform, isoform + spot + 1 );
+            // update acceptor site
+            ssd->isoform[spot + 1] = *p2;
+
+            // if we want to get the exact isoform, might not be print it out
+            // pointer_printer( ssd->isoform, ssd->isoform + spot + 1 );
+
+            // update tracker
+            ssd->isoform_count++;
 
             // ======================================================================\\
             // here we could add the mRNA function which used to store and check then\\
