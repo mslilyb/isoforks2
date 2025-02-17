@@ -64,9 +64,13 @@ print(parents)
 
 print('#####')
 
+count = 0
 with open(gffPaths['2_1'][0], 'r') as file:
     for line in file.readlines():
         line = line.rstrip()
+        if line == '': print('wow')
+        count += 1
+        if count == 20: break
         print(line)
 
 
