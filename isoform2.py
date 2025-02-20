@@ -443,7 +443,7 @@ class Isoform:
 class Locus:
 	"""Class to represent an alternatively spliced locus"""
 
-	def __init__(self, desc, seq, model, constraints, weights,
+	def __init__(self, desc, seq, model, constraints=None, weights=None,
 			gff=None, limit=None, countonly=False, memoize=False):
 
 		# sequence stuff
@@ -557,7 +557,7 @@ class Locus:
 			self.rejected += diff
 			self.worst = self.isoforms[-1].score
 
-	def gff(self, fp):
+	def write_gff(self, fp):
 		"""write locus as GFF to stream"""
 
 		print('# name:', self.name, file=fp)
@@ -653,39 +653,3 @@ def expdiff(introns1, introns2):
 	distance = manhattan(p1, p2)
 	return distance, details
 
-#########################
-## TRANSLATION SECTION ##
-#########################
-
-def proteins(ff, gff):
-
-	defline, seq = next(read_fasta(ff))
-
-	txs = {}
-
-	# get exons
-	with open(gff) as fp:
-		for line in fp:
-			if line.startswith('#'): continue
-			f = line.split()
-			if len(f) < 8: continue
-
-			if f[2] != 'exon': continue
-			beg = int(f[3])
-			end = int(f[4])
-			name = f[8][3:]
-			if name not in txs: txs[name] = []
-			txs[name].append( (beg, end) )
-
-	# build mRNAs
-	txseq = []
-	for name in txs:
-		s = ''
-		for beg, end in txs[name]:
-			s += seq[beg-1:end]
-		txseq.append(s)
-
-	orfs = []
-	# build translations
-	for tx in txseq:
-		orf = longest_orf(tx)

@@ -64,10 +64,10 @@ if arg.out: fp = open(arg.out, 'w')
 else: fp = sys.stdout
 
 if arg.countonly:
-	locus = Locus(name, seq, model, constraints, weights,
+	locus = Locus(name, seq, model, constraints=constraints, weights=weights,
 		gff=arg.introns, limit=arg.limit, countonly=True)
 	print(locus.name, locus.isocount, sep='\t')
 else:
-	locus = Locus(name, seq, model, constraints, weights,
+	locus = Locus(name, seq, model, constraints=constraints, weights=weights,
 		limit=arg.limit, gff=arg.introns)
-	locus.gff(fp)
+	locus.write_gff(fp)
