@@ -47,30 +47,64 @@ with open('ranked_dist.csv', 'w') as csvfile:
 # create wormbase annotated gene in same format as APC output
 # reads from the top isoform belong to the same parent transcript
 
-
 parents = {}
+iscores = {}
 with open(gffPaths['2_1'][1], 'r') as file:
     for line in file.readlines():
         line = line.rstrip()
         line = line.split('\t')
+        if line[1] == 'RNASeq_splice':
+            score = line[5]
+            intron = (line[3], line[4])
+            iscores[intron] = score
         if line[1] == 'WormBase' and line[2] == 'intron':
             parent = f'{line[0]}_{line[8]}'
+            intron = (line[3], line[4])
             if parent not in parents:
-                parents[parent] = [line[3:5]]
+                parents[parent] = [intron]
             else:
-                parents[parent].append(line[3:5])
- 
-print(parents)
+                parents[parent].append(intron)
+
+# get WB isos by picking parent transcript with higher score
+WBisos = {}
+for tx in parents:
+    total_score = 0
+    iso = []
+    for intron in parents[tx]:
+       iso.append(intron)
+       total_score += float(iscores[intron])
+    WBisos[total_score] = [tx, iso]
+
+print(max(WBisos), WBisos[max(WBisos)])
 
 print('#####')
 
-count = 0
-with open(gffPaths['2_1'][0], 'r') as file:
+count = 1
+APCisos = {}
+shortfile = 'shortAPC.gff'
+#with open(gffPaths['2_1'][0], 'r') as file:
+with open(shortfile, 'r') as file:
     for line in file.readlines():
         line = line.rstrip()
-        if line == '': print('wow')
-        count += 1
-        if count == 20: break
-        print(line)
+        line = line.split('\t')
+        if line[0] == '': 
+            APCisos[count] = []
+            count += 1
+        elif count > 1:
+            if line[2] == 'intron':
+                intron = (line[3], line[4]) 
+                APCisos[count-1].append(intron)
+
+for iso in APCisos:
+    print(iso, APCisos[iso])
+    print(WBisos[max(WBisos)][1])
+    if APCisos[iso] == WBisos[max(WBisos)][1]: 
+        print('same')
+
+
+print('##############')
+# is top isos same as WB iso?
+
+
 
 
