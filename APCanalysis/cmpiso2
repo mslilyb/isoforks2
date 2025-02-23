@@ -66,32 +66,19 @@ for gID in gffPaths:
                     parents[parent].append(intron)
     wbintron_info[gID] = {'parents': parents, 'iscores': iscores}
 
-print(wbintron_info)
-print('')
-# get WB annotated isoform by picking parent transcript with higher score
-for gID in wbintron_info:
-    WBisos = {}
-    print('')
-    print(gID, '###$$')
-    total_score = 0
-    iso = []
-    for parent in wbintron_info[gID]['parents']:
-        print(parent)
-        print(wbintron_info[gID]['parents'][parent], 'oifhjaodif')
-        for intron in wbintron_info[gID]['parents'][parent]:
-            print(intron, wbintron_info[gID]['iscores'][intron], '###$##')
-            iso.append(intron)
-            total_score += float(wbintron_info[gID]['iscores'][intron])
-    print(total_score)
-    print(iso)
+wbg_scores = {}
+for gene in wbintron_info:
+    p_scores = {}
+    for parent in wbintron_info[gene]['parents']:
+        p_score = 0
+        for intron in wbintron_info[gene]['parents'][parent]:
+            p_score += float(wbintron_info[gene]['iscores'][intron])
+        p_scores[parent] = p_score
+    max_p = max(p_scores, key=p_scores.get)
+    wbg_scores[gene] = wbintron_info[gene]['parents'][max_p]
 
-# does the same intron have two different parents?
-# yes the same intron has two different parent transcripts
-# this is normal
-# but you total score isn't correct yet
-# problem: 2_1 has the same intron twice
-
-#print(max(WBisos), WBisos[max(WBisos)])
+# returns dictionary with only the top scoring/annotated wormbase isoform
+print(wbg_scores)
 
 print('#####')
 '''
