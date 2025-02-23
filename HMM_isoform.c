@@ -1,10 +1,6 @@
 // constructing Hidden Markov Model for isoform analysis
 // given numerical definition of HMM 
-
 // HMM = {N, M, A, B, pi}
-// necessary condition we need to calcualte
-// for isoform analysis, we don't need to give out the initial state of pi
-// since the starting point is settle down either A T C or G
 
 #include <stdlib.h>
 #include <stdio.h>
