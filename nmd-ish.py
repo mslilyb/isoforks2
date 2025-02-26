@@ -4,6 +4,30 @@ import sys
 import isoform2
 from grimoire.genome import Reader
 
+def display_isoform(gseq, cds_beg, cds_end, exons, wrap=100):
+	rna = ['.'] * len(gseq)
+	for beg, end in exons:
+		for i in range(beg, end+1): rna[i] = gseq[i]
+	tseq = ''.join(rna)
+
+	print('cdsbeg', cds_beg)
+	for i in range(0, len(gseq), wrap):
+		rbeg = i
+		rend = i + wrap
+		print(gseq[rbeg:rend], rbeg+1, rend)
+		print(tseq[rbeg:rend])
+		if cds_beg >= rbeg and cds_beg <= rend:
+			diff = cds_beg - rbeg
+			s = ' ' * diff
+			print(s, 'ATG', sep='')
+		if cds_end >= rbeg and cds_end <= rend:
+			diff = cds_end - rbeg
+			s = ' ' * diff
+			print(s, 'STOP', sep='')
+		print()
+	
+	sys.exit()
+
 parser = argparse.ArgumentParser()
 parser.add_argument('model', help='splicing model file (from smallgenes)')
 parser.add_argument('fasta', help='fasta file (from smallgenes)')
@@ -12,10 +36,14 @@ parser.add_argument('--min-orf', type=int, default=25,
 	help='minimum distance from start to stop [%(default)i]')
 parser.add_argument('--nostop', type=float, default=1e-3,
 	help='degredation from no stop codon [%(default)g]')
+parser.add_argument('--min-ejc', type=int, default=10,
+	help='minimum distance from stop to ejc [%(default)i]')
 parser.add_argument('--ejc', type=float, default=1e-3,
 	help='degredation from ejc after stop codon [%(default)g]')
-parser.add_argument('--tail', type=float, default=1e-3)
-#parser.add_argument('--kozak', type=int, default=
+parser.add_argument('--tail', type=float, default=1e-3,
+	help='degredation from a too long 3\'UTR [%(default)g]')
+parser.add_argument('--utr', type=int, default=300,
+	help='long tail trigger length [%(default)i]')
 arg = parser.parse_args()
 
 model = isoform2.read_splicemodel(arg.model)
@@ -34,15 +62,20 @@ locus = isoform2.Locus(region.name, region.seq, model)
 print(f'CDS: {cds_beg}..{cds_end}') # 114..143, 190..351
 
 for isoform in locus.isoforms:
-	#print(isoform.score)
+
+	display_isoform(region.seq, cds_beg, cds_end, isoform.exons)
+
 	cds_found = False
 	cds_idx = None
 	for i, (beg, end) in enumerate(isoform.exons):
 		if cds_beg >= beg and cds_beg <= end:
 			cds_found = True
 			cds_idx = i			
-	if not cds_found:  # use alt start based on longest ORF?
-		continue       # for now, the transcript won't translate
+	if not cds_found: continue
+		# use some other atg at reduced efficiency?
+		# set the isoform score to zero?
+		# find the longest ORF?
+		# leave isoform score as is?
 
 	cds_seqs = []
 	intron_len = 0
@@ -56,35 +89,54 @@ for isoform in locus.isoforms:
 	
 		if cds_beg > exon_end: continue
 		if cds_beg > exon_beg: exon_beg = cds_beg
-		#print('i', exon_beg, exon_end)
 		cds_seqs.append(region.seq[exon_beg:exon_end+1])
-	cds_seq = ''.join(cds_seqs)
-	protein = isoform2.translate_str(cds_seq)
-	stop = protein.find('*')
-	print(protein, cds_seqs)
-	if stop == -1: # this is a target for non-stop degredation
-		print('no stop codon')
-		continue   # change this at some point
-	orf_len = stop * 3 + 2
-	stop_pos = cds_beg + orf_len + intron_len
-	if stop_pos < cds_end: print('NMD target')
-	elif stop_pos > cds_end: print('normal stop skipped')
-	else: print('expected')
+
 	
+	cds_seq = ''.join(cds_seqs)
+	protein = isoform2.translate_str(cds_seq) # debugging
+	print(cds_seqs) # debugging
+	print(protein)  # debugging
+	print(isoform.exons)
+	print(isoform.introns)
 
-	# is the nomral cds_beg inside the transcript?
-	# if so, use it. if not???
-
-
-#name, seq = next(isoform2.read_fasta(arg.fasta))
-#gene = isoform2.Locus(name, seq, model)
-# transcripts without stop codons would also be destroyed
+	# look for first in-frame stop codon
+	stop_pos = None
+	for i in range(0, len(cds_seq) -2, 3):
+		codon = cds_seq[i:i+3]
+		if codon == 'TAA' or codon == 'TAG' or codon == 'TGA':
+			stop_pos= i
+			break
+	
+	# look for ejc downstream of stop codon
+	ejc_found = False
+	ejcs = []
+	prev = 0
+	for cds_seq in cds_seqs[1:]:
+		ejcs.append(prev + len(cds_seq))
+		prev += len(cds_seq)
+	for ejc in ejcs:
+		if ejc > stop_pos:
+			ejc_found = True
+			break
+	
+	print('stop:', stop_pos, ', ecjs:', ejcs)
+	
+	# measure 3'UTR length
+	utr_len = 0 if stop_pos is None else len(cds_seq) - stop_pos 
+	
+	# finalization
+	if ejc_found:
+		isoform.score *= arg.ejc
+		print('ejc found')
+	elif utr_len == 0:
+		isoform.score *= arg.nonstop
+		print('no stop')
+	elif utr_len > arg.utr:
+		isoform.score *= arg.tail
+		print('long tail')
+	else:
+		print('ok')
 
 
 
 sys.exit('dev')
-
-isoforms = []
-for isoform in gene.isoforms:
-	print(isoform.beg)
-	
