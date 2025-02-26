@@ -5,28 +5,60 @@ import isoform2
 from grimoire.genome import Reader
 
 def display_isoform(gseq, cds_beg, cds_end, exons, wrap=100):
-	rna = ['.'] * len(gseq)
+	rna = ['-'] * len(gseq)
 	for beg, end in exons:
 		for i in range(beg, end+1): rna[i] = gseq[i]
 	tseq = ''.join(rna)
-
-	print('cdsbeg', cds_beg)
+	txcoor = 0
+	tpos = []
+	for nt in tseq:
+		if nt != '-': txcoor += 1
+		tpos.append(txcoor)
+	
 	for i in range(0, len(gseq), wrap):
 		rbeg = i
 		rend = i + wrap
-		print(gseq[rbeg:rend], rbeg+1, rend)
-		print(tseq[rbeg:rend])
+	
+		# genome coor
+		for j in range(0, wrap, 10):
+			print(f'{i+j+10:>10}', end='')
+		print()
+		for j in range(0, wrap, 10):
+			print(' ' * 9, end='')
+			print('|', end='')
+		print()
+		
+		# sequences
+		print(gseq[i:i+wrap])
+		print(tseq[i:i+wrap])
+		
+		# transcriptome coor
+		for j in range(0, wrap, 10):
+			print(' ' * 9, end='')
+			print('|', end='')
+		print()
+		
+		for j in range(0, wrap, 10):
+			p = i + j + 9
+			if p >= len(tseq): break
+			x = tpos[p]
+			
+			if tseq[p] == '.': print(' ' * 10, end='')
+			else: print(f'{x:>10}', end='')
+		print()
+		
+		# print start and stop codons
 		if cds_beg >= rbeg and cds_beg <= rend:
 			diff = cds_beg - rbeg
 			s = ' ' * diff
 			print(s, 'ATG', sep='')
 		if cds_end >= rbeg and cds_end <= rend:
-			diff = cds_end - rbeg
+			diff = cds_end - rbeg -2
 			s = ' ' * diff
-			print(s, 'STOP', sep='')
+			stop = tseq[cds_end-2:cds_end+1]
+			print(s, stop, sep='')
 		print()
-	
-	sys.exit()
+		
 
 parser = argparse.ArgumentParser()
 parser.add_argument('model', help='splicing model file (from smallgenes)')
@@ -58,8 +90,6 @@ cds_beg = cdss[0].beg -1
 cds_end = cdss[-1].end -1
 
 locus = isoform2.Locus(region.name, region.seq, model)
-
-print(f'CDS: {cds_beg}..{cds_end}') # 114..143, 190..351
 
 for isoform in locus.isoforms:
 
