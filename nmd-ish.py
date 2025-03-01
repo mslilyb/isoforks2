@@ -1,19 +1,41 @@
 import argparse
+import re
 import sys
 
 import isoform2
 from grimoire.genome import Reader
 
-def display_isoform(gseq, cds_beg, cds_end, exons, wrap=100):
-	rna = ['-'] * len(gseq)
-	for beg, end in exons:
-		for i in range(beg, end+1): rna[i] = gseq[i]
+def display_isoform(gseq, tx, cds_beg, wrap=100, flank=99):
+	
+	rna = [' '] * len(gseq)
+	for beg, end in tx.exons:
+		for i in range(beg+1, end): rna[i] = 'X'
+		rna[beg] = '['
+		rna[end] = ']'
+	for beg, end in tx.introns:
+		for i in range(beg, end+1): rna[i] = '-'
 	tseq = ''.join(rna)
 	txcoor = 0
 	tpos = []
 	for nt in tseq:
 		if nt != '-': txcoor += 1
 		tpos.append(txcoor)
+	
+	cds = [' '] * len(gseq)
+	x = cds_beg - tx.exons[0][0] # first atg
+	while True:
+		c0 = tx.rnaidx_to_dnaidx(x)	
+		c1 = tx.rnaidx_to_dnaidx(x+1)
+		c2 = tx.rnaidx_to_dnaidx(x+2)
+		if c0 is None: break
+		if c1 is None: break
+		if c2 is None: break
+		codon = gseq[c0] + gseq[c1] + gseq[c2]
+		aa = isoform2.GCODE[codon]
+		cds[c1] = aa
+		if codon == 'TAA' or codon == 'TAG' or codon == 'TGA': break
+		x += 3
+	cseq = ''.join(cds)
 	
 	for i in range(0, len(gseq), wrap):
 		rbeg = i
@@ -30,35 +52,29 @@ def display_isoform(gseq, cds_beg, cds_end, exons, wrap=100):
 		
 		# sequences
 		print(gseq[i:i+wrap])
-		print(tseq[i:i+wrap])
+		has_cds = False
+		has_exon = False
+		if re.search(r'\S', cseq[i:i+wrap]): has_cds = True
+		if re.search(r'\S', tseq[i:i+wrap]): has_exon = True
 		
-		# transcriptome coor
-		for j in range(0, wrap, 10):
-			print(' ' * 9, end='')
-			print('|', end='')
-		print()
+		if has_cds: print(cseq[i:i+wrap])
 		
-		for j in range(0, wrap, 10):
-			p = i + j + 9
-			if p >= len(tseq): break
-			x = tpos[p]
+		if has_exon:
+			print(tseq[i:i+wrap])
+			for j in range(0, wrap, 10):
+				print(' ' * 9, end='')
+				print('|', end='')
+			print()
 			
-			if tseq[p] == '.': print(' ' * 10, end='')
-			else: print(f'{x:>10}', end='')
+			for j in range(0, wrap, 10):
+				p = i + j + 9
+				if p >= len(tseq): break
+				x = tpos[p]
+				
+				if tseq[p] == '.': print(' ' * 10, end='')
+				else: print(f'{x:>10}', end='')
+			print()
 		print()
-		
-		# print start and stop codons
-		if cds_beg >= rbeg and cds_beg <= rend:
-			diff = cds_beg - rbeg
-			s = ' ' * diff
-			print(s, 'ATG', sep='')
-		if cds_end >= rbeg and cds_end <= rend:
-			diff = cds_end - rbeg -2
-			s = ' ' * diff
-			stop = tseq[cds_end-2:cds_end+1]
-			print(s, stop, sep='')
-		print()
-		
 
 parser = argparse.ArgumentParser()
 parser.add_argument('model', help='splicing model file (from smallgenes)')
@@ -76,58 +92,52 @@ parser.add_argument('--tail', type=float, default=1e-3,
 	help='degredation from a too long 3\'UTR [%(default)g]')
 parser.add_argument('--utr', type=int, default=300,
 	help='long tail trigger length [%(default)i]')
+parser.add_argument('--flank', type=int, default=99,
+	help='flanking, non-coding sequence [%(default)i]')
 arg = parser.parse_args()
 
+# create the locus
 model = isoform2.read_splicemodel(arg.model)
 reader = Reader(fasta=arg.fasta, gff=arg.gff)
 region = next(reader)
-gene = region.ftable.build_genes()[0]
-txs = gene.transcripts()
-if len(txs) > 1: sys.exit('not sure what to do about that')
-tx = txs[0]
-cdss = sorted(tx.cdss, key=lambda x: x.beg)
-cds_beg = cdss[0].beg -1
-cds_end = cdss[-1].end -1
-
 locus = isoform2.Locus(region.name, region.seq, model)
 
+# find the canonical start codon (5' atg if there are more than one)
+gene = region.ftable.build_genes()[0]
+txs = gene.transcripts()
+atgs = set()
+for tx in txs:
+	cdss = sorted(tx.cdss, key=lambda x: x.beg)
+	atgs.add(cdss[0].beg -1)
+cds_beg = sorted(list(atgs))[0]
+
+# examine the isoforms to determine if they are NMD targets
 for isoform in locus.isoforms:
-
-	display_isoform(region.seq, cds_beg, cds_end, isoform.exons)
-
-	cds_found = False
-	cds_idx = None
-	for i, (beg, end) in enumerate(isoform.exons):
-		if cds_beg >= beg and cds_beg <= end:
-			cds_found = True
-			cds_idx = i			
-	if not cds_found: continue
-		# use some other atg at reduced efficiency?
-		# set the isoform score to zero?
-		# find the longest ORF?
-		# leave isoform score as is?
-
-	cds_seqs = []
-	intron_len = 0
-	for i in range(len(isoform.exons)):
-		exon_beg = isoform.exons[i][0]
-		exon_end = isoform.exons[i][1]
-		if i >= 1:
-			intron_beg = isoform.introns[i-1][0]
-			intron_end = isoform.introns[i-1][1]
-			intron_len += intron_end - intron_beg + 1
 	
-		if cds_beg > exon_end: continue
-		if cds_beg > exon_beg: exon_beg = cds_beg
-		cds_seqs.append(region.seq[exon_beg:exon_end+1])
-
+	# prefer the annotated atg to the first atg
+	atg_found = True
+	atg_pos = None
+	for i in range(cds_beg, cds_beg + 3):
+		if isoform.dnaidx_to_rnaidx(i) is None:
+			atg_found = False
+			break
+	if atg_found is False: # find the first atg of the transcript
+		x = isoform.txseq.find('ATG')
+		if x != -1: atg_pos = isoform.rnaidx_to_dnaidx(x)
+	else: atg_pos = cds_beg
 	
-	cds_seq = ''.join(cds_seqs)
-	protein = isoform2.translate_str(cds_seq) # debugging
-	print(cds_seqs) # debugging
-	print(protein)  # debugging
-	print(isoform.exons)
-	print(isoform.introns)
+	# short-circuit on non-start transcripts (maybe not be degraded)
+	if atg_pos is None: continue
+	
+	# check for NMD and other surveillance
+	isoform.translate(atg_pos)
+
+	print(isoform.start, isoform.stop)
+
+	display_isoform(region.seq, isoform, atg_pos)
+	
+	continue
+
 
 	# look for first in-frame stop codon
 	stop_pos = None
@@ -136,6 +146,8 @@ for isoform in locus.isoforms:
 		if codon == 'TAA' or codon == 'TAG' or codon == 'TGA':
 			stop_pos= i
 			break
+	
+	
 	
 	# look for ejc downstream of stop codon
 	ejc_found = False

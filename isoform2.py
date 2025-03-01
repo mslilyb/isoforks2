@@ -380,7 +380,15 @@ class Isoform:
 		self.memo = memo
 		self.score = None
 		self.prob = None   # set externally: via Locus
+		self.txseq = ''
+		
+		self.start  = None  # triggered externally by self.translate()
+		self.stop   = None
+		self.cdsseq = None
+		self.aaseq  = None
+		self.rnaidx = []
 
+		# create exons, introns, and txseq
 		if len(dons) == 0:
 			self.exons.append((beg, end))
 		else:
@@ -391,6 +399,7 @@ class Isoform:
 				b = dons[i] -1
 				self.exons.append((a, b))
 			self.exons.append((accs[-1] +1, end))
+		for beg, end in self.exons: self.txseq += seq[beg:end+1]
 
 		if model is not None: self.compute_score()
 
@@ -438,7 +447,53 @@ class Isoform:
 		s += inf * len(self.introns) * winf
 
 		self.score = s
+	
+	def translate(self, atg):
+		self.start = atg
+		aas = []
+		cds = []
+		x = self.dnaidx_to_rnaidx(atg)
+		while True:
+			c0 = self.rnaidx_to_dnaidx(x)
+			c1 = self.rnaidx_to_dnaidx(x+1)
+			c2 = self.rnaidx_to_dnaidx(x+2)
+			if c0 is None: break
+			if c1 is None: break
+			if c2 is None: break
+			codon = self.seq[c0] + self.seq[c1] + self.seq[c2]
+			cds.append(codon)
+			aa = GCODE[codon]
+			aas.append(aa)
+			if codon == 'TAA' or codon == 'TAG' or codon == 'TGA': break
+			x += 3
+		self.stop = self.rnaidx_to_dnaidx(x + 3)
+		self.aaseq = ''.join(aas)
+		self.cdsseq = ''.join(cds)
+	
+	def _compute_txcoords(self):
+		rna = ['-'] * len(self.seq)
+		for beg, end in self.exons:
+			for i in range(beg, end+1): rna[i] = self.seq[i]
+		tseq = ''.join(rna)
+		txcoor = 0
+		tpos = []
+		for nt in tseq:
+			if nt == '-':
+				tpos.append(None)
+			else:
+				tpos.append(txcoor)
+				txcoor += 1
+		self.rnaidx = tpos
+	
+	def dnaidx_to_rnaidx(self, dnaidx):
+		if len(self.rnaidx) == 0: self._compute_txcoords()
+		return self.rnaidx[dnaidx]
 
+	def rnaidx_to_dnaidx(self, rnaidx):
+		if len(self.rnaidx) == 0: self._compute_txcoords()
+		for i, pos in enumerate(self.rnaidx):
+			if pos is not None and pos == rnaidx: return i
+		return None
 
 class Locus:
 	"""Class to represent an alternatively spliced locus"""
