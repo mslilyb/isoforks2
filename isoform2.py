@@ -381,12 +381,16 @@ class Isoform:
 		self.score = None
 		self.prob = None   # set externally: via Locus
 		self.txseq = ''
-		
-		self.start  = None  # triggered externally by self.translate()
-		self.stop   = None
-		self.cdsseq = None
-		self.aaseq  = None
 		self.rnaidx = []
+
+		# translation specific tiggered by self.translate(pos)
+		self.start_codon = None
+		self.stop_codon = None
+		self.cdsseq = None
+		self.aaseq = None
+		self.no_stop_codon = None
+		self.ejc_after_stop = None
+		self.long_3utr = None
 
 		# create exons, introns, and txseq
 		if len(dons) == 0:
@@ -447,12 +451,35 @@ class Isoform:
 		s += inf * len(self.introns) * winf
 
 		self.score = s
-	
-	def translate(self, atg):
-		self.start = atg
+
+	def _canonical_start_codon(self, x):
+		pos = set()
+		pos.add(self.dnaidx_to_rnaidx(x))
+		pos.add(self.dnaidx_to_rnaidx(x+1))
+		pos.add(self.dnaidx_to_rnaidx(x+2))
+		if None in pos: return False
+
+		aug = self.dnaidx_to_rnaidx(x)
+		start_codon = self.txseq[aug:aug+3]
+		if start_codon != 'ATG': return False
+
+		return True
+
+	def translate(self, dna_start, fallback='first-atg'):
+		if self._canonical_start_codon(dna_start):
+			self.start_codon = dna_start
+		else:
+			if fallback == 'first-atg':
+				x = self.txseq.find('ATG')
+				if x != -1: self.start_codon = self.rnaidx_to_dnaidx(x)
+				else: return # there is no place to start of translation
+			elif fallback == 'longest-orf':
+				sys.exit('longest-orf not yet implemented')
+
+		self.stop_codon = None
 		aas = []
 		cds = []
-		x = self.dnaidx_to_rnaidx(atg)
+		x = self.dnaidx_to_rnaidx(self.start_codon)
 		while True:
 			c0 = self.rnaidx_to_dnaidx(x)
 			c1 = self.rnaidx_to_dnaidx(x+1)
@@ -464,12 +491,15 @@ class Isoform:
 			cds.append(codon)
 			aa = GCODE[codon]
 			aas.append(aa)
-			if codon == 'TAA' or codon == 'TAG' or codon == 'TGA': break
+			if codon == 'TAA' or codon == 'TAG' or codon == 'TGA':
+				self.stop = self.rnaidx_to_dnaidx(x + 3)
+				break
 			x += 3
-		self.stop = self.rnaidx_to_dnaidx(x + 3)
 		self.aaseq = ''.join(aas)
 		self.cdsseq = ''.join(cds)
-	
+
+
+
 	def _compute_txcoords(self):
 		rna = ['-'] * len(self.seq)
 		for beg, end in self.exons:
@@ -484,7 +514,7 @@ class Isoform:
 				tpos.append(txcoor)
 				txcoor += 1
 		self.rnaidx = tpos
-	
+
 	def dnaidx_to_rnaidx(self, dnaidx):
 		if len(self.rnaidx) == 0: self._compute_txcoords()
 		return self.rnaidx[dnaidx]
