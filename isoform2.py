@@ -388,9 +388,8 @@ class Isoform:
 		self.stop_codon = None
 		self.cdsseq = None
 		self.aaseq = None
-		self.no_stop_codon = None
-		self.ejc_after_stop = None
-		self.long_3utr = None
+		self.splice_after_stop = 0 # distance
+		self.utr3_length = 0
 
 		# create exons, introns, and txseq
 		if len(dons) == 0:
@@ -498,6 +497,23 @@ class Isoform:
 		self.aaseq = ''.join(aas)
 		self.cdsseq = ''.join(cds)
 
+		# surveillance checks
+		if self.stop_codon is None: return
+
+		self.splice_after_stop = 0
+		for beg, end in self.introns:
+			d = beg - self.stop_codon
+			if d > self.splice_after_stop:
+				self.splice_after_stop = d
+				break
+		self.utr3_length = len(self.seq) - self.stop_codon
+
+
+		if self.
+
+		self.no_stop_codon = None
+		self.ejc_after_stop = None
+		self.long_3utr = None
 
 
 	def _compute_txcoords(self):
