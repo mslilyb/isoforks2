@@ -388,8 +388,9 @@ class Isoform:
 		self.stop_codon = None
 		self.cdsseq = None
 		self.aaseq = None
-		self.splice_after_stop = 0 # distance
-		self.utr3_length = 0
+		self.splice_after_stop = None # will be a distance
+		self.utr3_length = None # will be a distance
+		self.rnatype = None # coding, non-coding, non-stop, nmd-target
 
 		# create exons, introns, and txseq
 		if len(dons) == 0:
@@ -464,17 +465,18 @@ class Isoform:
 
 		return True
 
-	def translate(self, dna_start, fallback='first-atg'):
+	def translate(self, dna_start, minejc=10, minutr=300):
+		# find the start codon: canonical, alternate, or non-coding
 		if self._canonical_start_codon(dna_start):
-			self.start_codon = dna_start
+			self.start_codon = dna_start                # canonical
 		else:
-			if fallback == 'first-atg':
-				x = self.txseq.find('ATG')
-				if x != -1: self.start_codon = self.rnaidx_to_dnaidx(x)
-				else: return # there is no place to start of translation
-			elif fallback == 'longest-orf':
-				sys.exit('longest-orf not yet implemented')
+			x = self.txseq.find('ATG')
+			if x == -1:
+				self.rnatype = 'non-coding'             # non-coding
+				return
+			self.start_codon = self.rnaidx_to_dnaidx(x) # alternate
 
+		# translate to find the stop codon
 		self.stop_codon = None
 		aas = []
 		cds = []
@@ -491,30 +493,31 @@ class Isoform:
 			aa = GCODE[codon]
 			aas.append(aa)
 			if codon == 'TAA' or codon == 'TAG' or codon == 'TGA':
-				self.stop = self.rnaidx_to_dnaidx(x + 3)
+				self.stop_codon = self.rnaidx_to_dnaidx(x + 2)
 				break
 			x += 3
 		self.aaseq = ''.join(aas)
 		self.cdsseq = ''.join(cds)
 
-		# surveillance checks
-		if self.stop_codon is None: return
+		# check for non-stop
+		if self.stop_codon is None:
+			self.rnatype = 'non-stop'
+			return
 
-		self.splice_after_stop = 0
+		# find maximum distance of EJC/splice after stop codon
+		self.splice_after_stop = -1
 		for beg, end in self.introns:
 			d = beg - self.stop_codon
 			if d > self.splice_after_stop:
 				self.splice_after_stop = d
 				break
 		self.utr3_length = len(self.seq) - self.stop_codon
+		if self.splice_after_stop > minejc or self.utr3_length > minutr:
+			self.rnatype = 'nmd-target'
+			return
 
-
-		if self.
-
-		self.no_stop_codon = None
-		self.ejc_after_stop = None
-		self.long_3utr = None
-
+		# made it!
+		self.rnatype = 'coding'
 
 	def _compute_txcoords(self):
 		rna = ['-'] * len(self.seq)

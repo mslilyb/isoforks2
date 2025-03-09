@@ -6,7 +6,7 @@ import isoform2
 from grimoire.genome import Reader
 
 def display_isoform(gseq, tx, cds_beg, wrap=100, flank=99):
-
+	# was used in the crafting/debugging
 	rna = [' '] * len(gseq)
 	for beg, end in tx.exons:
 		for i in range(beg+1, end): rna[i] = 'X'
@@ -76,22 +76,23 @@ def display_isoform(gseq, tx, cds_beg, wrap=100, flank=99):
 			print()
 		print()
 
+
 parser = argparse.ArgumentParser()
 parser.add_argument('model', help='splicing model file (from smallgenes)')
 parser.add_argument('fasta', help='fasta file (from smallgenes)')
 parser.add_argument('gff', help='gff file (from smallgenes)')
 parser.add_argument('--min-orf', type=int, default=25,
 	help='minimum distance from start to stop [%(default)i]')
-parser.add_argument('--nostop', type=float, default=1e-3,
+parser.add_argument('--nonstop', type=float, default=1e-3,
 	help='degredation from no stop codon [%(default)g]')
+parser.add_argument('--nmd', type=float, default=1e-3,
+	help='degredation from NMD [%(default)g]')
 parser.add_argument('--min-ejc', type=int, default=10,
-	help='minimum distance from stop to ejc [%(default)i]')
-parser.add_argument('--ejc', type=float, default=1e-3,
-	help='degredation from ejc after stop codon [%(default)g]')
-parser.add_argument('--tail', type=float, default=1e-3,
-	help='degredation from a too long 3\'UTR [%(default)g]')
+	help='NMD minimum distance from stop to ejc [%(default)i]')
 parser.add_argument('--utr', type=int, default=300,
-	help='long tail trigger length [%(default)i]')
+	help='NMD long tail trigger length [%(default)i]')
+parser.add_argument('--limit', type=int, default=100,
+	help='maximum number of isoforms [%(default)i]')
 parser.add_argument('--flank', type=int, default=99,
 	help='flanking, non-coding sequence [%(default)i]')
 arg = parser.parse_args()
@@ -100,9 +101,9 @@ arg = parser.parse_args()
 model = isoform2.read_splicemodel(arg.model)
 reader = Reader(fasta=arg.fasta, gff=arg.gff)
 region = next(reader)
-locus = isoform2.Locus(region.name, region.seq, model)
+locus = isoform2.Locus(region.name, region.seq, model, limit=arg.limit)
 
-# find the canonical start codon (5' atg if there are more than one)
+# find the canonical start codon (5' atg if there are more than one listed)
 gene = region.ftable.build_genes()[0]
 txs = gene.transcripts()
 atgs = set()
@@ -112,43 +113,21 @@ for tx in txs:
 cds_beg = sorted(list(atgs))[0]
 
 # examine the isoforms to determine if they are NMD targets
+prevs = [iso.prob for iso in locus.isoforms]
+posts = []
+rtypes = []
 for iso in locus.isoforms:
 	iso.translate(cds_beg)
+	if   iso.rnatype == 'non-stop': iso.prob *= arg.nonstop
+	elif iso.rnatype == 'nmd-target': iso.prob *= arg.nmd
+	posts.append(iso.prob)
+	rtypes.append(iso.rnatype)
 
-	#if iso.start_codon is None:
-	print(iso.start_codon, iso.exons)
-	print(iso.aaseq)
-	display_isoform(region.seq, iso, iso.start_codon, wrap=80)
-	continue
+# recompute probabilities
+total = sum([iso.prob for iso in locus.isoforms])
+for iso in locus.isoforms:
+	iso.prob /= total
 
-	# short-circuit on non-start transcripts (maybe not be degraded)
-	if atg_pos is None: continue
-
-	# check for NMD and other surveillance
-	iso.translate(atg_pos)
-
-	# ejc downstream of stop codon?
-	ejc_dist = 0
-	for beg, end in iso.introns:
-		if beg > iso.stop:
-			ejc_dist = beg - iso.stop + 1
-			break
-
-	if ejc_dist == 0 : continue
-
-
-	# stop codon in genomic flank?
-	stop_in_flank = True if iso.stop > iso.end else True
-
-	# long 3'UTR?
-	long_utr = True if iso.end - iso.stop > arg.utr else False
-
-
-	print(iso.start, iso.stop, ejc_dist)
-	display_isoform(region.seq, iso, atg_pos, wrap=80)
-
-	sys.exit()
-
-
-
-sys.exit('dev')
+print('rna-type', 'original', 'reduced', 'normalized', sep='\t')
+for rtype, prev, post, iso in zip(rtypes, prevs, posts, locus.isoforms):
+	print(f'{rtype}\t{prev:.3g}\t{post:.3g}\t{iso.prob:.3g}')
