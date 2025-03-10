@@ -5,8 +5,9 @@ import sys
 import isoform2
 from grimoire.genome import Reader
 
-def display_isoform(gseq, tx, cds_beg, wrap=100, flank=99):
-	# was used in the crafting/debugging
+def display_isoform(gseq, tx, cds_beg, wrap=80, flank=99):
+	# used for debugging
+	print(iso.aaseq)
 	rna = [' '] * len(gseq)
 	for beg, end in tx.exons:
 		for i in range(beg+1, end): rna[i] = 'X'
@@ -75,6 +76,7 @@ def display_isoform(gseq, tx, cds_beg, wrap=100, flank=99):
 				else: print(f'{x:>10}', end='')
 			print()
 		print()
+	sys.exit()
 
 
 parser = argparse.ArgumentParser()
@@ -118,6 +120,7 @@ posts = []
 rtypes = []
 for iso in locus.isoforms:
 	iso.translate(cds_beg)
+	display_isoform(region.seq, iso, cds_beg)
 	if   iso.rnatype == 'non-stop': iso.prob *= arg.nonstop
 	elif iso.rnatype == 'nmd-target': iso.prob *= arg.nmd
 	posts.append(iso.prob)
