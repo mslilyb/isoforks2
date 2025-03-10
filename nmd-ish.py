@@ -97,6 +97,7 @@ parser.add_argument('--limit', type=int, default=100,
 	help='maximum number of isoforms [%(default)i]')
 parser.add_argument('--flank', type=int, default=99,
 	help='flanking, non-coding sequence [%(default)i]')
+parser.add_argument('--debug', action='store_true')
 arg = parser.parse_args()
 
 # create the locus
@@ -120,7 +121,7 @@ posts = []
 rtypes = []
 for iso in locus.isoforms:
 	iso.translate(cds_beg)
-	display_isoform(region.seq, iso, cds_beg)
+	if arg.debug: display_isoform(region.seq, iso, cds_beg)
 	if   iso.rnatype == 'non-stop': iso.prob *= arg.nonstop
 	elif iso.rnatype == 'nmd-target': iso.prob *= arg.nmd
 	posts.append(iso.prob)
