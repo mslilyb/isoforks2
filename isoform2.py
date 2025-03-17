@@ -5,6 +5,7 @@ import itertools
 import json
 import math
 import random
+from scipy import stats as scistats
 import sys
 
 GCODE = {
@@ -151,6 +152,36 @@ def manhattan(p, q):
 		d += abs(pi - qi)
 	return d
 
+def mannu(p, q):
+	"""wrapper for mannuwhitney, asserts included. unknown if needed"""
+	newp = [i for i in p if not math.isclose(i, 0, abs_tol=1e-6)]
+	newq = [i for i in q if not math.isclose(i, 0, abs_tol=1e-6)]
+	return scistats.mannwhitneyu(newp, newq, alternative='two-sided')
+
+
+def ks(p,q):
+	"""wrapper for mannuwhitney, asserts included. unknown if needed"""
+	newp = [i for i in p if not math.isclose(i, 0, abs_tol=1e-6)]
+	newq = [i for i in q if not math.isclose(i, 0, abs_tol=1e-6)]
+	return scistats.ks_2samp(newp, newq)
+
+def wilcox(p,q):
+	assert(len(p) == len(q))
+	p.sort()
+	q.sort()
+	#newp = q[:30]
+	#newq = p[:30]
+	return scistats.wilcoxon(q,p)
+
+def weird(p,q):
+	total = 0
+	for pi, qi in zip(p, q):
+		if math.isclose(pi, 0.0, abs_tol=1e-6) and math.isclose(qi, 0.0, abs_tol=1e-6):
+			continue
+		total += abs(pi - qi) * max(pi/(pi+qi), qi/(pi+qi))
+
+	print(total)
+	return total
 
 #########################
 ## SPLICEMODEL SECTION ##
@@ -755,5 +786,8 @@ def expdiff(introns1, introns2):
 		details.append((k, i1[k], i2[k]))
 
 	distance = manhattan(p1, p2)
-	return distance, details
-
+	mannus, mannuv = mannu(p1, p2)
+	kts, kv = ks(p1, p2)
+	wts, wtv = wilcox(p1, p2)
+	w = weird(p1,p2)
+	return distance, details, kts, kv, wts, wtv, w, mannus, mannuv

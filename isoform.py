@@ -5,6 +5,7 @@ import itertools
 import json
 import math
 import random
+from scipy import stats as scistats
 import sys
 
 GCODE = {
@@ -151,6 +152,12 @@ def manhattan(p, q):
 		d += abs(pi - qi)
 	return d
 
+def mannu(p, q):
+	"""Wrapper function for mannwhitneyu, checks that lists sum to one?"""
+	assert(math.isclose(sum(p), 1.0, abs_tol=1e-6))
+	assert(math.isclose(sum(q), 1.0, abs_tol=1e-6))
+
+	return scistats.mannwhitneyu(p, q, alternative='two-sided')
 #################
 ## PWM SECTION ##
 #################
