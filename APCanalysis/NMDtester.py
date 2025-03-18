@@ -5,96 +5,72 @@ import sys
 import isoform2
 from grimoire.genome import Reader
 
-def display_isoform(gseq, tx, cds_beg, wrap=80, flank=99):
-	# used for debugging
-	print(iso.aaseq)
-	rna = [' '] * len(gseq)
-	for beg, end in tx.exons:
-		for i in range(beg+1, end): rna[i] = 'X'
-		rna[beg] = '['
-		rna[end] = ']'
-	for beg, end in tx.introns:
-		for i in range(beg, end+1): rna[i] = '-'
-	tseq = ''.join(rna)
-	txcoor = 0
-	tpos = []
-	for nt in tseq:
-		if nt != '-': txcoor += 1
-		tpos.append(txcoor)
-
-	cds = [' '] * len(gseq)
-	x = cds_beg - tx.exons[0][0] # first atg
-	while True:
-		c0 = tx.rnaidx_to_dnaidx(x)
-		c1 = tx.rnaidx_to_dnaidx(x+1)
-		c2 = tx.rnaidx_to_dnaidx(x+2)
-		if c0 is None: break
-		if c1 is None: break
-		if c2 is None: break
-		codon = gseq[c0] + gseq[c1] + gseq[c2]
-		aa = isoform2.GCODE[codon]
-		cds[c1] = aa
-		if codon == 'TAA' or codon == 'TAG' or codon == 'TGA': break
-		x += 3
-	cseq = ''.join(cds)
-
-	for i in range(0, len(gseq), wrap):
-		rbeg = i
-		rend = i + wrap
-
-		# genome coor
-		for j in range(0, wrap, 10):
-			print(f'{i+j+10:>10}', end='')
-		print()
-		for j in range(0, wrap, 10):
-			print(' ' * 9, end='')
-			print('|', end='')
-		print()
-
-		# sequences
-		print(gseq[i:i+wrap])
-		has_cds = False
-		has_exon = False
-		if re.search(r'\S', cseq[i:i+wrap]): has_cds = True
-		if re.search(r'\S', tseq[i:i+wrap]): has_exon = True
-
-		if has_cds: print(cseq[i:i+wrap])
-
-		if has_exon:
-			print(tseq[i:i+wrap])
-			for j in range(0, wrap, 10):
-				print(' ' * 9, end='')
-				print('|', end='')
-			print()
-
-			for j in range(0, wrap, 10):
-				p = i + j + 9
-				if p >= len(tseq): break
-				x = tpos[p]
-
-				if tseq[p] == '.': print(' ' * 10, end='')
-				else: print(f'{x:>10}', end='')
-			print()
-		print()
-	sys.exit()
+##### Copy-paste from Ian's nmd-ish.py #####
+# need to get gff file from Locus
+# re-order gff with new probabilities
+# ch.2_1 has lots of nmd targets and non stops for testing at limit 10
 
 parser = argparse.ArgumentParser(description='Does nmd-ish improve APC predictions?')
 parser.add_argument('model', help='splice model file')
 parser.add_argument('fasta', help='fasta file')
 parser.add_argument('gff', help='gff file')
-parser.add_argument('--debug', action='store_true')
+parser.add_argument('--min-orf', type=int, default=25,
+	help='minimum distance from start to stop [%(default)i]')
+parser.add_argument('--nonstop', type=float, default=1e-3,
+	help='degredation from no stop codon [%(default)g]')
+parser.add_argument('--nmd', type=float, default=1e-3,
+	help='degredation from NMD [%(default)g]')
+parser.add_argument('--min-ejc', type=int, default=10,
+	help='NMD minimum distance from stop to ejc [%(default)i]')
+parser.add_argument('--utr', type=int, default=300,
+	help='NMD long tail trigger length [%(default)i]')
+parser.add_argument('--limit', type=int, default=100,
+	help='maximum number of isoforms [%(default)i]')
+parser.add_argument('--flank', type=int, default=99,
+	help='flanking, non-coding sequence [%(default)i]')
 
 args = parser.parse_args()
-
-# ch.2_1 has lots of nmd targets and non stops
-
-# what does nmd-ish do? let's recreate it
 
 model = isoform2.read_splicemodel(args.model)
 reader = Reader(fasta=args.fasta, gff=args.gff)
 region = next(reader)
-locus = isoform2.Locus(region.name, region.seq, model, limit=10)
+locus = isoform2.Locus(region.name, region.seq, model, limit=args.limit)
 
+# create gff to rewrite it
+# don't want to edit code in class Locus...
+with open('locus.tmp', 'w') as tmp:
+	locus.write_gff(tmp)
+
+headers = {}
+isos = {}
+count = 0
+with open('locus.tmp', 'r') as gfp:
+	for line in gfp.readlines():
+		line = line.rstrip()
+		if line.startswith('#'): 
+			hline = line.split(' ')
+			headers[hline[1][:-1]] = hline[2]
+			continue
+		if line == '': 
+			count += 1
+			continue
+		if count not in isos:
+			isos[count] = []
+			isos[count].append(line)
+		else:
+			isos[count].append(line)
+			
+print(headers)
+
+for i in isos:
+	print(i)
+	for j in isos[i]:
+		print(j)
+
+
+
+
+'''
 gene = region.ftable.build_genes()[0]
 txs = gene.transcripts()
 atgs = set()
@@ -108,8 +84,6 @@ posts = []
 rtypes = []
 for iso in locus.isoforms:
 	iso.translate(cds_beg)
-	print(iso.rnatype, iso.prob)
-	if args.debug: display_isoform(region.seq, iso, cds_beg)
 	if   iso.rnatype == 'non-stop': iso.prob *= 1e-3
 	elif iso.rnatype == 'nmd-target': iso.prob *= 1e-3
 	posts.append(iso.prob)
@@ -140,3 +114,12 @@ for rtype, prev, post, iso in zip(rtypes, prevs, posts, locus.isoforms):
 # now i need to recompute the Mdist using the new probabilities
 # start without weighted models
 # need to read in nmd-ish output
+'''
+
+'''
+python3 nmd-ish.py models/worm.splicemodel ../datacore2024/project_splicing/smallgenes/ch.2_1.fa ../datacore2024/project_splicing/smallgenes/ch.2_1.gff3 --limit 10
+'''
+
+parser = argparse.ArgumentParser()
+parser.add_argument('nmd_file', help='nmd-ish output file')
+
