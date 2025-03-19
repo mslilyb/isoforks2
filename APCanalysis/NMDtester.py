@@ -14,6 +14,8 @@ parser.add_argument('model', help='splice model file')
 #parser.add_argument('fasta', help='fasta file')
 #parser.add_argument('gff', help='gff file')
 parser.add_argument('smallgenes', help='smallgenes directory')
+parser.add_argument('--weights', required=False, type=str, 
+	help='optiso2 output with model weights')
 parser.add_argument('--min-orf', type=int, default=25,
 	help='minimum distance from start to stop [%(default)i]')
 parser.add_argument('--nonstop', type=float, default=1e-3,
@@ -31,12 +33,22 @@ parser.add_argument('--flank', type=int, default=99,
 
 args = parser.parse_args()
 
-def compare_dists(model, infasta, ingff, inlimit):
+
+
+# can I implement the new distance equation?
+# Dtf(P||Q) = Sum |pi - qi| * max(pi/qi, qi/pi)
+# how to account for 0s?
+
+def compare_dists(model, infasta, ingff, inlimit, inweights=None):
 
 	model = isoform2.read_splicemodel(model)
 	reader = Reader(fasta=infasta, gff=ingff)
 	region = next(reader)
-	locus = isoform2.Locus(region.name, region.seq, model, limit=inlimit)
+	if inweights:
+		locus = isoform2.Locus(region.name, region.seq, model, limit=inlimit, 
+						weights=inweights)
+	else:
+		locus = isoform2.Locus(region.name, region.seq, model, limit=inlimit)
 
 	with open('prenmdish.gff.tmp', 'w') as fp:
 		locus.write_gff(fp)
@@ -81,7 +93,6 @@ def compare_dists(model, infasta, ingff, inlimit):
 
 	return info
 
-# glob time
 file_pairs = {}
 for fpath in glob.glob(f'{args.smallgenes}/*.gff3'):
 	gid = fpath.split('/')[-1].split('.')[1]
@@ -91,16 +102,40 @@ for fpath in glob.glob(f'{args.smallgenes}/*.fa'):
 	gid = fpath.split('/')[-1].split('.')[1]
 	file_pairs[gid].append(fpath)
 
-# i need to parrellize this...
-print(f'gene\tprenmdish\tpostnmdish\tdelta')
-for p in file_pairs:
-	# test only some genes
-	if int(p.split('_')[0]) == 1 and int(p.split('_')[1]) < 20:
-		info = compare_dists(args.model, file_pairs[p][1], file_pairs[p][0], args.limit)
-		print(f'{info[0]}\t{info[1]}\t{info[2]}\t{info[3]}')
+if args.weights:
+	weights = {}
+	with open(args.weights, 'r') as file:
+		for line in file.readlines():
+			line = line.rstrip()
+			if line.startswith('%'): continue
+			line = line.split(',')
+			weights[line[0]] = [x for x in line[1:]]
 	
-'''
-python3 nmd-ish.py models/worm.splicemodel ../datacore2024/project_splicing/smallgenes/ch.2_1.fa ../datacore2024/project_splicing/smallgenes/ch.2_1.gff3 --limit 10
-'''
+	print(f'gene\tprenmdish\tpostnmdish\tdelta')
+	for p in file_pairs:
+		w = weights[p]
+		wf = {
+			'wacc': float(w[1]),
+			'wdon': float(w[2]),
+			'wexs': float(w[3]),
+			'wins': float(w[4]),
+			'wexl': float(w[5]),
+			'winl': float(w[6]),
+			'winf': float(w[7])
+		}
+		info = compare_dists(args.model, file_pairs[p][1], file_pairs[p][0],
+					args.limit, inweights=wf)
+		print(f'{info[0]}\t{info[1]}\t{info[2]}\t{info[3]}')
+
+else:
+	print(f'gene\tprenmdish\tpostnmdish\tdelta')
+	for p in file_pairs:
+		info = compare_dists(args.model, file_pairs[p][1], file_pairs[p][0],
+					args.limit)
+		print(f'{info[0]}\t{info[1]}\t{info[2]}\t{info[3]}')
+
+
+# why are the Mdists worse after including the weights???
+# need to parellize
 
 
