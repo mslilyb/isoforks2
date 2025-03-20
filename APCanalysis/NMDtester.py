@@ -34,13 +34,39 @@ parser.add_argument('--flank', type=int, default=99,
 
 args = parser.parse_args()
 
+##### New Dist #####
 
+def dtf(introns1, introns2):
 
-# can I implement the new distance equation?
-# Dtf(P||Q) = Sum |pi - qi| * max(pi/qi, qi/pi)
-# how to account for 0s?
+	i1 = isoform2.get_introns(introns1)
+	i2 = isoform2.get_introns(introns2)
 
-def compare_dists(model, infasta, ingff, inlimit, inweights=None):
+	sdi1 = {}
+	for i in sorted(i1, key=lambda i: float(i1[i]), reverse=True):
+		sdi1[i] = i1[i]
+	sdi2 = {}
+	for i in sorted(i2, key=lambda i: float(i2[i]), reverse=True):
+		sdi2[i] = i2[i]
+
+	for i in sdi1:
+		if i not in sdi2: sdi2[i] = 0
+
+	for i in sdi2:
+		if i not in sdi1: sdi1[i] = 0
+
+	dtf = 0
+	for p, q in zip(sdi1, sdi2):
+		print(p, sdi1[p], q, sdi2[q])
+		pf = sdi1[p]
+		qf = sdi2[q]
+		if pf == 0 and qf == 0: continue
+		pq = abs(pf - qf) * max(pf/(qf+pf), qf/(pf+qf))
+		dtf += pq
+
+	return dtf
+
+def compare_dists(model, infasta, ingff, inlimit, inweights=None, 
+				  whichdist='mdist'):
 
 	model = isoform2.read_splicemodel(model)
 	reader = Reader(fasta=infasta, gff=ingff)
@@ -87,8 +113,13 @@ def compare_dists(model, infasta, ingff, inlimit, inweights=None):
 	i2 = isoform2.get_introns('prenmdish.gff.tmp')
 	i3 = isoform2.get_introns('postnmdish.gff.tmp')
 
-	dist1, details1 = isoform2.expdiff(i1, i2)
-	dist2, details2 = isoform2.expdiff(i1, i3)
+	if whichdist == 'mdist':
+		dist1, details1 = isoform2.expdiff(i1, i2)
+		dist2, details2 = isoform2.expdiff(i1, i3)
+
+	if whichdist == 'dtf':
+		dist1 = dtf(i1, i2)
+		dist2 = dtf(i1, i3)
 
 	info = [region.name, dist1, dist2, dist2-dist1]
 
@@ -134,37 +165,6 @@ else:
 		info = compare_dists(args.model, file_pairs[p][1], file_pairs[p][0],
 					args.limit)
 		print(f'{info[0]}\t{info[1]}\t{info[2]}\t{info[3]}')
-
-print('##### New Dist #####')
-
-
-i2 = isoform2.get_introns('testgenes/ch.1_100.gff3')
-i1 = isoform2.get_introns('ch.1_100.apc.gff')
-
-introns = [i1, i2]
-
-sdi1 = {}
-for i in sorted(i1, key=lambda i: float(i1[i]), reverse=True):
-    sdi1[i] = i1[i]
-sdi2 = {}
-for i in sorted(i2, key=lambda i: float(i2[i]), reverse=True):
-    sdi2[i] = i2[i]
-
-for i in sdi1:
-	if i not in sdi2: sdi2[i] = 0
-
-for i in sdi2:
-	if i not in sdi1: sdi1[i] = 0
-
-print('#####')
-
-for p, q in zip(sdi1, sdi2):
-    print(p, sdi1[p], q, sdi2[q])
-
-#i1 = sorted(i1, key=lambda i: float(i1[i]), reverse=True)
-#i2 = sorted(i2, key=lambda i: float(i2[i]), reverse=True)
-
-#print(i1)
 
 
 
