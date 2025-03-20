@@ -9,7 +9,8 @@ from grimoire.genome import Reader
 # order of isos in gffs does not matter?
 # ch.2_1 has lots of nmd targets and non stops for testing at limit 10
 
-parser = argparse.ArgumentParser(description='Does nmd-ish improve APC predictions?')
+parser = argparse.ArgumentParser(
+        description='Does nmd-ish improve APC predictions?')
 parser.add_argument('model', help='splice model file')
 #parser.add_argument('fasta', help='fasta file')
 #parser.add_argument('gff', help='gff file')
@@ -134,8 +135,38 @@ else:
 					args.limit)
 		print(f'{info[0]}\t{info[1]}\t{info[2]}\t{info[3]}')
 
+print('##### New Dist #####')
 
-# why are the Mdists worse after including the weights???
-# need to parellize
+
+i2 = isoform2.get_introns('testgenes/ch.1_100.gff3')
+i1 = isoform2.get_introns('ch.1_100.apc.gff')
+
+introns = [i1, i2]
+
+sdi1 = {}
+for i in sorted(i1, key=lambda i: float(i1[i]), reverse=True):
+    sdi1[i] = i1[i]
+sdi2 = {}
+for i in sorted(i2, key=lambda i: float(i2[i]), reverse=True):
+    sdi2[i] = i2[i]
+
+for i in sdi1:
+	if i not in sdi2: sdi2[i] = 0
+
+for i in sdi2:
+	if i not in sdi1: sdi1[i] = 0
+
+print('#####')
+
+for p, q in zip(sdi1, sdi2):
+    print(p, sdi1[p], q, sdi2[q])
+
+#i1 = sorted(i1, key=lambda i: float(i1[i]), reverse=True)
+#i2 = sorted(i2, key=lambda i: float(i2[i]), reverse=True)
+
+#print(i1)
+
+
+
 
 
