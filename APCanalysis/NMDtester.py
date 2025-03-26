@@ -1,5 +1,6 @@
 import argparse
 import glob
+import os
 
 import isoform2
 from grimoire.genome import Reader
@@ -15,6 +16,8 @@ parser.add_argument('model', help='splice model file')
 #parser.add_argument('fasta', help='fasta file')
 #parser.add_argument('gff', help='gff file')
 parser.add_argument('smallgenes', help='smallgenes directory')
+parser.add_argument('--dtf', action='store_true', 
+	help='switch from Manhattan distance to DTF')
 parser.add_argument('--weights', required=False, type=str, 
 	help='optiso2 output with model weights')
 parser.add_argument('--min-orf', type=int, default=25,
@@ -36,17 +39,14 @@ args = parser.parse_args()
 
 ##### New Dist #####
 
-def dtf(introns1, introns2):
-
-	i1 = isoform2.get_introns(introns1)
-	i2 = isoform2.get_introns(introns2)
+def dtf_dist(introns1, introns2):
 
 	sdi1 = {}
-	for i in sorted(i1, key=lambda i: float(i1[i]), reverse=True):
-		sdi1[i] = i1[i]
+	for i in sorted(introns1, key=lambda i: float(introns1[i]), reverse=True):
+		sdi1[i] = introns1[i]
 	sdi2 = {}
-	for i in sorted(i2, key=lambda i: float(i2[i]), reverse=True):
-		sdi2[i] = i2[i]
+	for i in sorted(introns2, key=lambda i: float(introns2[i]), reverse=True):
+		sdi2[i] = introns2[i]
 
 	for i in sdi1:
 		if i not in sdi2: sdi2[i] = 0
@@ -54,19 +54,18 @@ def dtf(introns1, introns2):
 	for i in sdi2:
 		if i not in sdi1: sdi1[i] = 0
 
-	dtf = 0
+	dist = 0
 	for p, q in zip(sdi1, sdi2):
-		print(p, sdi1[p], q, sdi2[q])
 		pf = sdi1[p]
 		qf = sdi2[q]
 		if pf == 0 and qf == 0: continue
 		pq = abs(pf - qf) * max(pf/(qf+pf), qf/(pf+qf))
-		dtf += pq
+		dist += pq
 
-	return dtf
+	return dist
 
 def compare_dists(model, infasta, ingff, inlimit, inweights=None, 
-				  whichdist='mdist'):
+				  dtf=False):
 
 	model = isoform2.read_splicemodel(model)
 	reader = Reader(fasta=infasta, gff=ingff)
@@ -113,13 +112,15 @@ def compare_dists(model, infasta, ingff, inlimit, inweights=None,
 	i2 = isoform2.get_introns('prenmdish.gff.tmp')
 	i3 = isoform2.get_introns('postnmdish.gff.tmp')
 
-	if whichdist == 'mdist':
+	os.remove('prenmdish.gff.tmp')
+	os.remove('postnmdish.gff.tmp')
+
+	if dtf:
+		dist1 = dtf_dist(i1, i2)
+		dist2 = dtf_dist(i1, i3)
+	else:	
 		dist1, details1 = isoform2.expdiff(i1, i2)
 		dist2, details2 = isoform2.expdiff(i1, i3)
-
-	if whichdist == 'dtf':
-		dist1 = dtf(i1, i2)
-		dist2 = dtf(i1, i3)
 
 	info = [region.name, dist1, dist2, dist2-dist1]
 
@@ -163,7 +164,7 @@ else:
 	print(f'gene\tprenmdish\tpostnmdish\tdelta')
 	for p in file_pairs:
 		info = compare_dists(args.model, file_pairs[p][1], file_pairs[p][0],
-					args.limit)
+					args.limit, dtf=args.dtf)
 		print(f'{info[0]}\t{info[1]}\t{info[2]}\t{info[3]}')
 
 
