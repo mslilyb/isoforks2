@@ -167,7 +167,64 @@ else:
 					args.limit, dtf=args.dtf)
 		print(f'{info[0]}\t{info[1]}\t{info[2]}\t{info[3]}')
 
+# parellize compare_dists
 
+print('#####')
+
+info = compare_dists(args.model, file_pairs['1_101'][1], file_pairs['1_101'][0], 
+		args.limit, dtf=args.dtf, inweights=wf)
+
+print(file_pairs['1_101'][1])
+print(info)
+
+import subprocess
+import multiprocessing as mp
+from multiprocessing import Pool
+
+def worker(input):
+
+	info = compare_dists(input[0], input[1], input[2], input[3], input[4])
+
+	return info
+
+inputs = [
+	[args.model, file_pairs['1_101'][1], file_pairs['1_101'][0], 
+		args.limit, args.dtf],
+	[args.model, file_pairs['1_101'][1], file_pairs['1_101'][0], 
+		args.limit, args.dtf]
+]
+
+
+info = worker([args.model, file_pairs['1_101'][1], file_pairs['1_101'][0], 
+		args.limit, args.dtf])
+
+
+# too confusing, rewrite NMDtester to be more parellizalbjkeljakjfe
+
+print(info, '#######')
+
+#with Pool(processes=mp.cpu_count()-1) as pool:
+#	result = pool.map(worker, inputs)
+
+#for res in result:
+#	print(res)
+
+
+
+inputs = [
+	[1, 2],
+	[3, 4]
+]
+
+def worker(inp):
+
+	return inp[0] + inp[1]
+
+with Pool(processes=mp.cpu_count()-1) as pool:
+	result = pool.map(worker, inputs)
+
+for r in result:
+	print(r)
 
 
 
