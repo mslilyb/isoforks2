@@ -104,7 +104,9 @@ def gen_introns(model, infasta, ingff, inlimit, inweights=None):
 	else:
 		locus = isoform2.Locus(region.name, region.seq, model, limit=inlimit)
 
-	with open('prenmdish.gff.tmp', 'w') as fp:
+	pretmpname = f'{os.getpid()}_prenmdish.gff.tmp'
+
+	with open(pretmpname, 'w') as fp:
 		locus.write_gff(fp)
 
 	gene = region.ftable.build_genes()[0]
@@ -132,16 +134,18 @@ def gen_introns(model, infasta, ingff, inlimit, inweights=None):
 	for iso in locus.isoforms:
 		iso.prob /= total
 		
-	with open('postnmdish.gff.tmp', 'w') as fp:
+	posttmpname = f'{os.getpid()}_postnmdish.gff.tmp'
+
+	with open(posttmpname, 'w') as fp:
 		locus.write_gff(fp)
 
 	# compare mdist before and after nmd-ish
 	i1 = isoform2.get_introns(ingff)
-	i2 = isoform2.get_introns('prenmdish.gff.tmp')
-	i3 = isoform2.get_introns('postnmdish.gff.tmp')
+	i2 = isoform2.get_introns(pretmpname)
+	i3 = isoform2.get_introns(posttmpname)
 
-	os.remove('prenmdish.gff.tmp')
-	os.remove('postnmdish.gff.tmp')
+	os.remove(pretmpname)
+	os.remove(posttmpname)
 
 	return region.name, i1, i2, i3
 
@@ -184,14 +188,14 @@ if args.deqn == 'all':
 
 if args.deqn != 'all':
 	info = [gname, dist1, dist2, dist2-dist1]
-	print(info)
+	print(f'{gname},{dist1},{dist2},{dist2-dist1}')
 
 elif args.deqn == 'all':
 	cinfo = [gname, distc1, distc2, distc2-distc1]
 	kinfo = [gname, distk1, distk2, distk2-distk1]
 	xinfo = [gname, distx1, distx2, distx2-distx1]
 	yinfo = [gname, disty1, disty2, disty2-disty1]
-	print(cinfo)
-	print(kinfo)
-	print(xinfo)
-	print(yinfo)
+	print(f'{gname},{distc1},{distc2},{distc2-distc1}')
+	print(f'{gname},{distk1},{distk2},{distk2-distk1}')
+	print(f'{gname},{distx1},{distx2},{distx2-distx1}')
+	print(f'{gname},{disty1},{disty2},{disty2-disty1}')

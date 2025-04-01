@@ -1,5 +1,6 @@
 import argparse
 import os
+import csv
 import glob
 import subprocess
 import multiprocessing as mp
@@ -79,4 +80,13 @@ def worker(input):
 
 with Pool(processes=mp.cpu_count()-1) as pool:
     result = pool.map(worker, inputs)
-    print(result)
+
+# pre nmd distance, post nmd distance, delta
+# if using --deqn all, from top to bottom:
+# dtc, dkl, dtx, dty
+with open('nmd.res', 'w') as fp:
+	for res in result:
+		fp.write(f'{res}\n')
+
+
+
