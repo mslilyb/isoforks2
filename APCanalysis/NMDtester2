@@ -4,6 +4,7 @@ import argparse
 import glob
 import os
 import math
+import tempfile
 
 import isoform2
 from grimoire.genome import Reader
@@ -105,7 +106,7 @@ def gen_introns(model, infasta, ingff, inlimit, inweights=None):
 
 	with open('prenmdish.gff.tmp', 'w') as fp:
 		locus.write_gff(fp)
-				
+
 	gene = region.ftable.build_genes()[0]
 	txs = gene.transcripts()
 	atgs = set()
@@ -145,8 +146,6 @@ def gen_introns(model, infasta, ingff, inlimit, inweights=None):
 	return region.name, i1, i2, i3
 
 # split APC from distance, don't recalc isos
-
-	
 
 wf = {
 			'wacc': args.wacc,

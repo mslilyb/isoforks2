@@ -77,28 +77,6 @@ def worker(input):
         input[12]
      )
 
-
-#s = time.perf_counter()
 with Pool(processes=mp.cpu_count()-1) as pool:
     result = pool.map(worker, inputs)
-    #print(result)
-#e = time.perf_counter()
-#print('multi:', e-s)
-
-start = time.perf_counter()
-with Pool(processes=mp.cpu_count()-1) as pool:
-    result = pool.map(worker, inputs)
-
-if not os.path.exists(args.outdir):
-    os.makedirs(args.outdir)
-
-for res in result:
-    gID = res.split('\n')[0].split(' ')[2]
-    f = open(f'{args.outdir}{gID}.APC.gff', 'w')
-    for line in res.split('\n'):
-        f.write(line+'\n')         
-    f.close()
-
-end = time.perf_counter()
-print('time:', end-start)'
-'''
+    print(result)
