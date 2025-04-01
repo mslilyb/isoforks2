@@ -3,6 +3,7 @@
 import argparse
 import glob
 import os
+import math
 
 import isoform2
 from grimoire.genome import Reader
@@ -18,8 +19,10 @@ parser = argparse.ArgumentParser(
 parser.add_argument('model', help='splice model file')
 parser.add_argument('fasta', help='fasta file')
 parser.add_argument('gff', help='gff file')
-parser.add_argument('--dtf', action='store_true', 
-	help='switch from Manhattan distance to DTF')
+parser.add_argument('--deqn', required=False, type=str, default='dtc',
+	metavar='<string>', help='choose which distance equation to use, '
+	'i.e. dtc (Manhattan), dtx, dty, dkl (Kullback-Leibler), '
+	'or all [%(default)s]')
 # weights
 parser.add_argument('--wdon', required=False, type=float, default=1.0,
 	metavar='<float>', help='donor weight [%(default).2f]')
@@ -53,9 +56,9 @@ parser.add_argument('--flank', type=int, default=99,
 
 args = parser.parse_args()
 
-##### New Dist #####
+##### New Dists #####
 
-def dtf_dist(introns1, introns2):
+def distance(introns1, introns2, type='dtc'):
 
 	sdi1 = {}
 	for i in sorted(introns1, key=lambda i: float(introns1[i]), reverse=True):
@@ -74,14 +77,22 @@ def dtf_dist(introns1, introns2):
 	for p, q in zip(sdi1, sdi2):
 		pf = sdi1[p]
 		qf = sdi2[q]
-		if pf == 0 and qf == 0: continue
-		pq = abs(pf - qf) * max(pf/(qf+pf), qf/(pf+qf))
+		#if pf == 0 and qf == 0: continue
+		#write a switch for pseudo counts? skip for now
+		if pf == 0 or qf == 0: continue
+		if type == 'dtc':
+			pq = abs(pf-qf)
+		if type == 'dkl':
+			pq = pf * math.log2(pf/qf)
+		if type == 'dtx':
+			pq = abs(pf - qf) * max(pf/(qf), qf/(pf))
+		if type == 'dty':
+			pq = abs(pf - qf) * abs(math.log(pf/qf))
 		dist += pq
 
 	return dist
 
-def compare_dists(model, infasta, ingff, inlimit, inweights=None, 
-				  dtf=False):
+def gen_introns(model, infasta, ingff, inlimit, inweights=None):
 
 	model = isoform2.read_splicemodel(model)
 	reader = Reader(fasta=infasta, gff=ingff)
@@ -131,16 +142,11 @@ def compare_dists(model, infasta, ingff, inlimit, inweights=None,
 	os.remove('prenmdish.gff.tmp')
 	os.remove('postnmdish.gff.tmp')
 
-	if dtf:
-		dist1 = dtf_dist(i1, i2)
-		dist2 = dtf_dist(i1, i3)
-	else:	
-		dist1, details1 = isoform2.expdiff(i1, i2)
-		dist2, details2 = isoform2.expdiff(i1, i3)
+	return region.name, i1, i2, i3
 
-	info = [region.name, dist1, dist2, dist2-dist1]
+# split APC from distance, don't recalc isos
 
-	return info
+	
 
 wf = {
 			'wacc': args.wacc,
@@ -152,7 +158,41 @@ wf = {
 			'winf': args.winf
 		}
 
-info = compare_dists(args.model, args.fasta, args.gff, args.limit, 
-		inweights=wf, dtf=args.dtf)
+gname, i1, i2, i3 = gen_introns(args.model, args.fasta, args.gff, args.limit, 
+		inweights=wf)
 
-print(info)
+if args.deqn == 'dtc':
+	dist1 = distance(i1, i2, type='dtc')
+	dist2 = distance(i1, i3, type='dtc')
+if args.deqn == 'dkl':
+	dist1 = distance(i1, i2, type='dkl')
+	dist2 = distance(i1, i3, type='dkl')
+if args.deqn == 'dtx':
+	dist1 = distance(i1, i2, type='dtx')
+	dist2 = distance(i1, i3, type='dtx')
+if args.deqn == 'dty':	
+	dist1 = distance(i1, i3, type='dty')
+	dist2 = distance(i1, i3, type='dty')
+if args.deqn == 'all':
+	distc1 = distance(i1, i2, type='dtc')
+	distc2 = distance(i1, i3, type='dtc')
+	distk1 = distance(i1, i2, type='dkl')
+	distk2 = distance(i1, i3, type='dkl')
+	distx1 = distance(i1, i2, type='dtx')
+	distx2 = distance(i1, i3, type='dtx')
+	disty1 = distance(i1, i3, type='dty')
+	disty2 = distance(i1, i3, type='dty')
+
+if args.deqn != 'all':
+	info = [gname, dist1, dist2, dist2-dist1]
+	print(info)
+
+elif args.deqn == 'all':
+	cinfo = [gname, distc1, distc2, distc2-distc1]
+	kinfo = [gname, distk1, distk2, distk2-distk1]
+	xinfo = [gname, distx1, distx2, distx2-distx1]
+	yinfo = [gname, disty1, disty2, disty2-disty1]
+	print(cinfo)
+	print(kinfo)
+	print(xinfo)
+	print(yinfo)
