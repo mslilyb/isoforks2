@@ -1,0 +1,160 @@
+---
+title: "splicing_paper"
+format: html
+editor: visual
+---
+
+Describing the APC algorithm Position weight matrix The quality of donor and acceptor sites are evaluated using a position weight matrix (PWM). PWMs that cover the length of a spcific motif give insight into the prevalence of each nucleotide base at a given position.
+
+https://www.sciencedirect.com/topics/medicine-and-dentistry/position-weight-matrix According to this, Position Specific Scoring Matrix is the same as a PWM.
+
+Why do we used 5 bases for donor, 6 for acceptor?
+
+Papers in support of PWM: Methods to define and locate patterns of motifs in sequences, Rodger Staden, 1988 Identification of sequence pattersn, motifs and domains, Michael Gribskov, 2019, Encyclopedia of bioinformatics and computational biology
+
+```{r}
+library(reticulate)
+```
+
+```{r}
+library(reticulate)
+
+myenvs=conda_list()
+myenvs
+
+# need to install python in the environment
+# don't add python from tools > global options
+# it conflicts
+use_condaenv("Renv")
+# can only be run once?
+```
+
+```{r}
+library("dplyr")
+```
+
+```{python}
+# need to load conda environment first
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+import logomaker
+```
+
+logomaker should allow me to import our pwm instead of calculating the values itself https://logomaker.readthedocs.io/en/latest/examples.html#splice-site-probability-logo
+
+to run python code that is more than one line, need to run the top line first and then the second one.
+
+```{python}
+crp_df = logomaker.get_example_matrix(
+  'crp_energy_matrix', print_description=False)
+crp_df
+```
+
+```{python}
+crp_df = logomaker.get_example_matrix(
+  'crp_energy_matrix', print_description=False)
+
+crp_logo = logomaker.Logo(crp_df, shade_below=.5,
+fade_below=.5)
+
+crp_logo.style_spines(visible=False)
+crp_logo.style_spines(spines=['left', 'bottom'], visible=True)
+crp_logo.style_xticks(rotation=90, fmt='%d', anchor=0)
+
+crp_logo.ax.set_ylabel("ylabel", labelpad=-1)
+crp_logo.ax.xaxis.set_ticks_position('none')
+crp_logo.ax.xaxis.set_tick_params(pad=-1)
+
+# it works, but not sure how
+# logomaker is creating a plt object? but not explicitly named
+plt.show()
+```
+
+# will probably need to reformat things into csvs for R
+
+```{r}
+nuc <- c("A", "C", "G", "T")
+p1 <- c(0, 0, 1, 0)
+p2 <- c(0, 0, 0, 1)
+p3 <- c(0.6, 0, 0.2, 0.2)
+p4 <- c(0.7, 0, 0.1, 0.2)
+p5 <- c(0.1, 0, 0.8, 0.1)
+
+pwm <- data.frame(p1, p2, p3, p4, p5) %>% 
+  t() %>% 
+  tibble::as_tibble() %>% 
+  as.data.frame() %>% 
+  setNames(nuc) 
+ 
+
+```
+
+```{python}
+test_logo = logomaker.Logo(r.pwm, shade_below=.5,
+fade_below=.5)
+
+plt.show()
+
+```
+
+How is the intron frequency calculated? See modelbuilder line 78 len(introns) / exon sum Total number of introns over total number of exon sequences Example with actual numbers: 1570 introns in the smallgenes dataset 489418 total number of exon bases inf = 1570/489418 = 0.00320...
+
+Length model
+
+The length of an intron
+
+Create histogram of distances https://www.datacamp.com/tutorial/make-histogram-ggplot2
+
+```{r}
+mdists <- read.csv("../isoforms/APCanalysis/cdist_sorted.csv", header = FALSE)
+
+library(ggplot2)
+library(dplyr)
+
+head(mdists)
+```
+
+```{r}
+dstats <- mdists %>% 
+  summarize(mean_dist = mean(V2), median_dist = median(V2))
+
+ggplot(data = mdists, aes(x = V2)) +
+  geom_histogram(bins = 100) +
+  geom_vline(aes(xintercept = mean_dist), dstats, color = "red") +
+  #geom_vline(aes(xintercept = median_dist), dstats, color = "green") +
+  #geom_density(color = "blue") +
+  labs(x = "Manhattan Distance", y = "Counts")
+```
+
+correlation between intron length and distance, intron count and distance? intron count is independent variable x axis intron count y axis is all the manhattan distances, each one gets a single point on the graph will the points cluster? or not cluster? if they do cluster, they do correlate make a box plot, can do pairwise comparison and a linear regression also do MD vs avg intron length
+
+BLAST has a probability model...95 percent of things are predicted from being different
+
+use the bli algorithm to compute all possible isoforms compare bli to apc
+
+```{r}
+mdists$introns <- sub("ch.(\\d+)_.*", "\\1", mdists$V1)
+
+ggplot(mdists, aes(x = introns, y = V2)) + geom_point() +
+  geom_smooth(method=lm, color="red") +
+  labs(y = "Manhattan Distance")
+```
+
+```{r}
+
+ggplot(mdists, aes(x = V3, y = V2)) + geom_point() +
+  geom_smooth(method=lm, color="red")
+
+```
+
+
+
+
+
+
+
+
+
+

@@ -28,17 +28,14 @@ for g in genes:
 	
 # if deltas are 0, no NMD? look at individual genes to verify
 
-with open('cdist_sorted.csv', 'w') as csvfile:
+with open('mdist_sorted.csv', 'w') as csvfile:
 	writer = csv.writer(csvfile)
 	for item in sorted(cdist.items(), key=lambda item: float(item[1][0])):
-		print(item)
-		writer.writerow(['wo', 'wowo'])
-print('###')
+		info = item[1]
+		info.insert(0, item[0])
+		writer.writerow(info)
 
-line = [x for x in item[1]]
-listy = [1, 2, 3]
-listy.insert(0, 4)
-print(listy)
+# manhattan distance is probably all we need
 
 # quick stats
 # distribution of distances, does intron number affect predictability?
