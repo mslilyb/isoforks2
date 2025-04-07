@@ -112,6 +112,7 @@ mdists <- read.csv("../isoforms/APCanalysis/mdist_sorted.csv", header = FALSE)
 
 library(ggplot2)
 library(dplyr)
+library (multcompView)
 
 head(mdists)
 ```
@@ -155,4 +156,48 @@ p <- ggplot(mdists, aes(x=introns, y=V2)) +
   geom_violin() + stat_summary(fun.y=mean, geom="point", shape=23, size=2) + geom_boxplot(width=0.1)
 
 p
+
+# http://vassarstats.net/textbook/ch14pt2.html
+# https://courses.lumenlearning.com/introstats1/chapter/the-f-distribution-and-the-f-ratio/
 ```
+saw online that you can use a heatmap to represent statistical differences between pairs, so one cube is one comparisson
+```{r}
+library(multcompView)
+
+set.seed(1)
+treatment <- rep(c("A", "B", "C", "D", "E"), each=20)
+value=c(sample(2:5, 20, replace=T), sample(6:10, 20, replace=T), sample(1:7, 20, replace=T), sample(3:10, 20, replace=T), sample(10:20, 20, replace=T))
+data=data.frame(treatment, value)
+
+model=lm(data$value ~ data$treatment)
+ANOVA=aov(model)
+```
+
+<https://bookdown.org/steve_midway/DAR/understanding-anova-in-r.html>
+
+```{r}
+m = lm(mdists$V2 ~ mdists$introns)
+A = aov(m)
+
+TUKEY <- TukeyHSD(x=A, 'mdists$introns', conf.level=0.95)
+
+plot(TUKEY, las=1, col="brown")
+```
+none of the groups are significantly different from another
+https://statisticsbyjim.com/anova/post-hoc-tests-anova/
+
+Next let's do a test without the intron cost
+
+What are the distribution of weights?
+
+```{r}
+weights <- read.csv("/home/ismael/Code/isoforms/results_optiso2.csv", skip=1)
+
+summary(weights)
+```
+```{r}
+wt <- t(weights) %>% 
+  
+
+```
+
