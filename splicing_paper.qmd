@@ -108,7 +108,7 @@ The length of an intron
 Create histogram of distances https://www.datacamp.com/tutorial/make-histogram-ggplot2
 
 ```{r}
-mdists <- read.csv("../isoforms/APCanalysis/cdist_sorted.csv", header = FALSE)
+mdists <- read.csv("../isoforms/APCanalysis/mdist_sorted.csv", header = FALSE)
 
 library(ggplot2)
 library(dplyr)
@@ -149,12 +149,10 @@ ggplot(mdists, aes(x = V3, y = V2)) + geom_point() +
 
 ```
 
+```{r}
+# violin plot
+p <- ggplot(mdists, aes(x=introns, y=V2)) + 
+  geom_violin() + stat_summary(fun.y=mean, geom="point", shape=23, size=2) + geom_boxplot(width=0.1)
 
-
-
-
-
-
-
-
-
+p
+```
