@@ -186,6 +186,23 @@ plot(TUKEY, las=1, col="brown")
 none of the groups are significantly different from another
 https://statisticsbyjim.com/anova/post-hoc-tests-anova/
 
+
+```{r}
+TUKEY$`mdists$introns`
+```
+```{r}
+whatdis <- TUKEY$`mdists$introns`
+```
+
+
+
+
+
+
+
+
+
+
 Next let's do a test without the intron cost
 
 What are the distribution of weights?
