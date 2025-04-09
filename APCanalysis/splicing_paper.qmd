@@ -108,7 +108,7 @@ The length of an intron
 Create histogram of distances https://www.datacamp.com/tutorial/make-histogram-ggplot2
 
 ```{r}
-mdists <- read.csv("../isoforms/APCanalysis/mdist_sorted.csv", header = FALSE)
+mdists <- read.csv("/home/carl/Code/isoforms/APCanalysis/cdist_sorted.csv", header = FALSE)
 
 library(ggplot2)
 library(dplyr)
@@ -160,7 +160,9 @@ p
 # http://vassarstats.net/textbook/ch14pt2.html
 # https://courses.lumenlearning.com/introstats1/chapter/the-f-distribution-and-the-f-ratio/
 ```
+
 saw online that you can use a heatmap to represent statistical differences between pairs, so one cube is one comparisson
+
 ```{r}
 library(multcompView)
 
@@ -183,38 +185,44 @@ TUKEY <- TukeyHSD(x=A, 'mdists$introns', conf.level=0.95)
 
 plot(TUKEY, las=1, col="brown")
 ```
-none of the groups are significantly different from another
-https://statisticsbyjim.com/anova/post-hoc-tests-anova/
 
+none of the groups are significantly different from another https://statisticsbyjim.com/anova/post-hoc-tests-anova/
 
 ```{r}
 TUKEY$`mdists$introns`
 ```
+
 ```{r}
 whatdis <- TUKEY$`mdists$introns`
 ```
-
-
-
-
-
-
-
-
-
 
 Next let's do a test without the intron cost
 
 What are the distribution of weights?
 
 ```{r}
-weights <- read.csv("/home/ismael/Code/isoforms/results_optiso2.csv", skip=1)
+weights <- read.csv("/home/carl/Code/isoforms/results_optiso2.csv", skip=1)
 
 summary(weights)
 ```
+
 ```{r}
 wt <- t(weights) %>% 
   
 
 ```
 
+Transcripts on WB have varrying support for each intron. What is that variation?
+In a single transcript, intron counts should be the same. But what is the actual manhattan distance within a transcript?
+All pairwise comparisons between introns in a single transcript?
+Compare introns 1, 2, 3, 4...
+1/2 ratio difference?
+Expected deviation?
+Expected manhattan distance?
+Compare intron space where all are 1:1:1:1
+only introns that match the canonical isoform
+Not raw counts instead ratios, 0.25 vs 0.35? 
+Do on all genes and all transcripts
+Ratio of transcript distribution
+
+lookat datacore2024/genome_celegans for the code
