@@ -14,11 +14,9 @@ with open(args.gff, 'r') as gp:
 		line = line.split('\t')
 		if line[2] == 'intron':
 			intron = (line[0], int(line[3]), int(line[4]), line[6])
-			#if line[6] == '-' and int(line[4])-int(line[3]) < 100:
-				#print(line)
 			introns.append(intron)
 		if line[2] == 'exon':
-			exon = (line[0], int(line[3]), int(line[4]))
+			exon = (line[0], int(line[3]), int(line[4]), line[6])
 			exons.append(exon)
 
 chroms = {}
@@ -33,41 +31,55 @@ with open(args.genome, 'r') as fp:
 			else:
 				chroms[chrom] += line
 
+def revcomp(seq):
+
+	comps = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A'}
+
+	rev = ''
+	for i in range(1, len(seq) + 1):
+		rev += comps[seq[-i]]
+
+	return rev
+
 accs = []
 dons = []
 eseqs = []
 iseqs = []
 exonsum = 0
 
-total = 0
-nc = 0
 for i in introns:
 	beg = i[1]-1
 	end = i[2]
-	iseq = chroms[i[0]][beg:end]
+	if i[3] == '-':
+		miseq = chroms[i[0]][beg:end]
+		iseq = revcomp(miseq)
+	else:
+		iseq = chroms[i[0]][beg:end]
 	aseq = iseq[-6:]
 	dseq = iseq[:5]
-	if aseq.endswith('AG'): total += 1
-	if not aseq.endswith('AG'):
-		#if i[2] - i[1] < 100:
-            #print(i, aseq)
-		nc += 1
 	accs.append(aseq)
 	dons.append(dseq)
-	iseqs.append((iseq, i[3]))
+	iseqs.append(iseq)
 
-print(total)
-print(nc)
-
-compseq = ''
-
-for i in iseqs:
-	if i[1] == '-':
-		compseq = i[0]
-		break
-		
-print(compseq)
+for e in exons:
+	beg = e[1]-1
+	end = e[2]
+	if e[3] == '-':
+		meseq = chroms[e[0]][beg:end]
+		eseq = revcomp(meseq)
+	else:
+		eseq = chroms[i[0]][beg:end]
+	exonsum += len(eseq)
+	eseqs.append(eseq)
 	
+# i need to ge only intron and exon seqs from annotations.gff3
+
+
+
+
+
+
+
 	
 # need to weight the introns, so highly expressed ones are represented more
 '''
