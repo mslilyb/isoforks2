@@ -108,8 +108,10 @@ for i in introns:
 		iseq = chroms[i[0]][beg:end]
 	aseq = iseq[-6:]
 	dseq = iseq[:5]
-	accs.append(aseq)
-	dons.append(dseq)
+	if aseq.endswith('AG'):
+		accs.append(aseq)
+	if dseq.startswith('GT'):
+		dons.append(dseq)
 	iseqs.append(iseq)
 
 for e in exons:

@@ -57,7 +57,9 @@ for i in introns:
 		iseq = chroms[i[0]][beg:end]
 	aseq = iseq[-6:]
 	dseq = iseq[:5]
+	if not aseq.endswith('AG'): continue
 	accs.append(aseq)
+	if not dseq.startswith('GT'): continue
 	dons.append(dseq)
 	iseqs.append(iseq)
 
