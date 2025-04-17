@@ -12,6 +12,8 @@ Why do we used 5 bases for donor, 6 for acceptor?
 
 Papers in support of PWM: Methods to define and locate patterns of motifs in sequences, Rodger Staden, 1988 Identification of sequence pattersn, motifs and domains, Michael Gribskov, 2019, Encyclopedia of bioinformatics and computational biology
 
+Ramani et al 2009 used chi squared test of pwm
+
 ```{r}
 library(reticulate)
 ```
@@ -212,17 +214,6 @@ wt <- t(weights) %>%
 
 ```
 
-Transcripts on WB have varrying support for each intron. What is that variation?
-In a single transcript, intron counts should be the same. But what is the actual manhattan distance within a transcript?
-All pairwise comparisons between introns in a single transcript?
-Compare introns 1, 2, 3, 4...
-1/2 ratio difference?
-Expected deviation?
-Expected manhattan distance?
-Compare intron space where all are 1:1:1:1
-only introns that match the canonical isoform
-Not raw counts instead ratios, 0.25 vs 0.35? 
-Do on all genes and all transcripts
-Ratio of transcript distribution
+Transcripts on WB have varrying support for each intron. What is that variation? In a single transcript, intron counts should be the same. But what is the actual manhattan distance within a transcript? All pairwise comparisons between introns in a single transcript? Compare introns 1, 2, 3, 4... 1/2 ratio difference? Expected deviation? Expected manhattan distance? Compare intron space where all are 1:1:1:1 only introns that match the canonical isoform Not raw counts instead ratios, 0.25 vs 0.35? Do on all genes and all transcripts Ratio of transcript distribution
 
 lookat datacore2024/genome_celegans for the code
