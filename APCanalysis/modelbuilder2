@@ -65,6 +65,24 @@ parser.add_argument('--imin', type=int, default=35, help="[%(default)i]")
 parser.add_argument('--imax', type=int, default=1000, help="[%(default)i]")
 args = parser.parse_args()
 
+
+
+'''
+Sequences I need to gather from wormbase genome annotation
+Exons
+WormBase	exon
+in column 9, some parents are pseudogenes, maybe exclude those
+should say Parent=Transcript
+
+Introns
+first find:
+WormBase	intron
+then filter for duplicates
+then get score for the boundaries of that intron
+which is in 
+RNASeq_splice intron
+'''
+
 ## collect subsequences
 introns = []
 exons = []

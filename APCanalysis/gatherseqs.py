@@ -1,16 +1,42 @@
 import argparse
+import glob
+
+from grimoire.genome import Reader
 
 parser = argparse.ArgumentParser()
-parser.add_argument('genome')
-parser.add_argument('gff')
+#parser.add_argument('genome')
+#parser.add_argument('gff')
+
+parser.add_argument('dir')
+parser.add_argument('annot')
 
 args = parser.parse_args()
 
+# this method is only getting the cannonical intron
+for ff in glob.glob(f'{args.dir}/*.fa'):
+	gf = ff[:-2] + 'gff3'
+	genome = Reader(gff=gf, fasta=ff)
+	tx = next(genome).ftable.build_genes()[0].transcripts()[0]
+	for f in tx.exons:
+		print(f)
+	print('#####')
+	for f in tx.introns:
+		print(f)
+	break
+	
+'''
+with open(args.annot, 'r') as fp:
+	for line in fp.readlines():
+		line = line.rstrip()
+		print(line)
+'''
+
+'''
 introns = []
 exons = []
 with open(args.gff, 'r') as gp:
 	for line in gp.readlines():
-		line = line.rstrip()
+		line = line.rstrip()1
 		line = line.split('\t')
 		if line[2] == 'intron':
 			intron = (line[0], int(line[3]), int(line[4]), line[6])
@@ -73,7 +99,7 @@ for e in exons:
 		eseq = chroms[i[0]][beg:end]
 	exonsum += len(eseq)
 	eseqs.append(eseq)
-	
+'''
 # i need to ge only intron and exon seqs from annotations.gff3
 
 
