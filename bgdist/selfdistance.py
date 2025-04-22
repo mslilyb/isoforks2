@@ -7,6 +7,7 @@ genome = Reader(gff=sys.argv[2], fasta=sys.argv[1])
 ratios = []
 disttot = 0
 gcount = 0
+m2_dtot = 0
 for chrom in genome:
 	#print(chrom.name, file=sys.stderr, flush=True)
 	icount = {}
@@ -35,6 +36,7 @@ for chrom in genome:
 			print(gene.id, counts)
 			continue
 
+		# Method 1
 		countmean = statistics.mean(counts)
 
 		cratios = [count/countmean  for count in counts]
@@ -42,7 +44,20 @@ for chrom in genome:
 		gcount += 1
 		disttot += distsum
 
-print('Background Distance:', disttot/gcount)
+		# Method 2
+		countot = sum(counts)
+
+		cfreqs = [count/countot for count in counts]
+
+		unidist = [1/len(counts) for i in range(len(counts))]
+		
+		m2_dsum = sum([abs(cfreq - unifreq) for cfreq, unifreq in zip(cfreqs, unidist)])
+		m2_dtot += m2_dsum
+
+		
+
+print('Background Distance, Method 1:', disttot/gcount)
+print('Background Distance, Method 2:', m2_dtot/gcount)
 
 """
 			if len(counts) < 2 or bad_tx: continue
