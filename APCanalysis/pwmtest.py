@@ -1,9 +1,9 @@
 import sys
+import csv
 
 introns = sys.argv[1]
 
-minin = 35
-
+# potential donors/acceptors
 pds = []
 pas = []
 nt_counts = {'A': 0, 'C': 0, 'G': 0, 'T': 0}
@@ -11,18 +11,20 @@ total = 0
 with open(introns, 'r') as fp:
 	for line in fp.readlines():
 		line = line.rstrip()
-		pd = line[:17]
-		if pd.startswith('GT'):
+		pd = line[:25]
+		if pd[5:7] == 'GT':
 			pds.append(pd)
-		pa = line[-18:]
-		if pa.endswith('AG'):
+		pa = line[-25:]
+		if pa[-7:].startswith('AG'):
 			pas.append(pa)
 		for nt in line:
 			nt_counts[nt] += 1
 			total += 1	
-	
+
+# nt frequencies
 f = [nt_counts[x]/total for x in nt_counts]
 nseqs = len(pds)
+# nt background counts
 bg = [nseqs * f[0], nseqs * f[1], nseqs * f[2], nseqs * f[3]]
 print(f)
 
@@ -38,20 +40,44 @@ def chi_test(seqs, background):
 chi_test(pds, bg)
 '''
 		
+# get donor/acceptor nt counts
+
+def counter(seqs):
 	
-count = []
-total = 0
-for seq in pds:
-	for i, nt in enumerate(seq):
-		if len(count) <= i:
-			count.append({'A': 0, 'C': 0, 'G': 0, 'T': 0})
-		count[i][nt] += 1
-		total += 1
+	counts = []
+	total = 0
+	for seq in seqs:
+		for i, nt in enumerate(seq):
+			if len(counts) <= i:
+				counts.append({'A': 0, 'C': 0, 'G': 0, 'T': 0})
+			counts[i][nt] += 1
+			total += 1
+			
+	return counts
+		
+dcounts = counter(pds)
+acounts = counter(pas)
 
-print(count)
+print(dcounts)
 
+with open('donor_counts.csv', 'w') as csvfile:
+	iwriter = csv.writer(csvfile)
+	iwriter.writerow([x for x in f])
+	for d in dcounts:
+		iwriter.writerow([d[x] for x in d])
+	
+
+with open('acceptor_counts.csv', 'w') as csvfile:
+	iwriter = csv.writer(csvfile)
+	iwriter.writerow([x for x in f])
+	for a in acounts:
+		iwriter.writerow([a[x] for x in d])
+
+# just do this in R
+# include some bases from before the GT and after the AG
+'''
 chis = []
-for site in count:
+for site in dcounts:
 	chi = 0
 	for i, nt in enumerate(site):
 		# even if GT is 100%, background for G and T is different
@@ -61,7 +87,7 @@ for site in count:
 	
 for x in chis:
 	print(x)
-		
+'''
 
 
 '''

@@ -30,8 +30,7 @@ $$ P_{ij} = \sum_{j=1}^L C_i/L $$
 
 Frequencies are then converted to scores using a log odds ratio, where $P_{ij}$ is the frequency of nucleotide $i$ at position $j$, and $P_i$ is the background frequency of that nucleotide (0.25). If $P_{ij}$ is 0, -100 is returned.
 
-$$PWM_{ij} = log_2(p_{ij}/p_i)$$
-https://www.sciencedirect.com/topics/medicine-and-dentistry/position-weight-matrix According to this, Position Specific Scoring Matrix is the same as a PWM.
+$$PWM_{ij} = log_2(p_{ij}/p_i)$$ https://www.sciencedirect.com/topics/medicine-and-dentistry/position-weight-matrix According to this, Position Specific Scoring Matrix is the same as a PWM.
 
 Why do we used 5 bases for donor, 6 for acceptor?
 
@@ -46,18 +45,13 @@ start by reading in intron sequences with reticulate
 ```{r}
 # this is the same as pwmtest.py in isoforms
 obs <- c(1462, 601, 5244, 1342)
+obs <- c(3000, 1500, 1500, 3000)
 exp <- c(0.3208, 0.1786, 0.1762, 0.3244)
 chisq.test(obs, p=exp)
 ```
 
-
-
-
 ```{r}
-library(reticulate)
-```
-
-```{r}
+library(dplyr)
 library(reticulate)
 
 myenvs=conda_list()
@@ -79,9 +73,20 @@ library("dplyr")
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
 import logomaker
 ```
+```{r}
+
+```
+
+```{python}
+introns = "lessintrons.txt"
+with open(introns, 'r') as fp:
+  for line in fp.readlines():
+    print(line)
+
+```
+
 
 logomaker should allow me to import our pwm instead of calculating the values itself https://logomaker.readthedocs.io/en/latest/examples.html#splice-site-probability-logo
 
@@ -236,6 +241,10 @@ TUKEY$`mdists$introns`
 ```{r}
 whatdis <- TUKEY$`mdists$introns`
 ```
+
+NEED TO DO 
+Genome stats-how many genes are there for each intron count? Is 4 introns good enough for APC?
+Average structure of gene in wormbase
 
 Next let's do a test without the intron cost
 
