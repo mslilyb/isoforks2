@@ -132,6 +132,13 @@ for i in introns:
 		dons.append(dseq)
 	iseqs.append(iseq)
 
+# get introns for testing
+'''
+with open('introns.txt', 'w') as ip:
+	for i in iseqs:
+		ip.write(f'{i}\n')
+'''
+
 for e in exons:
 	beg = e[1]-1
 	end = e[2]
@@ -139,7 +146,7 @@ for e in exons:
 		meseq = chroms[e[0]][beg:end]
 		eseq = revcomp(meseq)
 	else:
-		eseq = chroms[i[0]][beg:end]
+		eseq = chroms[e[0]][beg:end]
 	exonsum += len(eseq)
 	eseqs.append(eseq)
 

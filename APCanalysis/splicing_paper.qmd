@@ -4,15 +4,54 @@ format: html
 editor: visual
 ---
 
-Describing the APC algorithm Position weight matrix The quality of donor and acceptor sites are evaluated using a position weight matrix (PWM). PWMs that cover the length of a spcific motif give insight into the prevalence of each nucleotide base at a given position.
+# Describing the APC model
 
+## Algorithm
+
+All possible combinations (APC) of exons and introns are generated from a given DNA sequence. Introns are gathered based only on canonical donor and acceptor sites. A modified backtracking algorithm is used to generate only valid combinations of introns (isoforms), for example introns that overlap would be excluded from the output. This reduces the search space. **Need graph showing algorithm performance**
+
+## Smallgenes
+
+Due to the inefficiency of generating almost every possible isoform, our test data set needs to be limited in order to reduce the search space. Here we use a small genes data set, with the following constraints.
+
+## Isoform Scoring
+
+Each isoform is scored using 3 probabilistic components: a position weight matrix for donor and acceptor sites, an exon and intron length distribution, and kmer model for exon and intron sequences.
+
+### PWM
+
+The quality of donor and acceptor sites are evaluated using a position weight matrix (PWM). PWMs that cover the length of a specific motif give insight into the prevalence of each nucleotide base at a given position. Training sequences are gathered from the entire worm genome, as opposed to only the smallgenes dataset. This ensures that PWMs are not overtuned for smaller genes, and splice site quality can be more in line with the majority of sites. Splice site quality is evaluated using a Chi square test (Xia, 2012). **PWM equations are also from this paper** For
+
+A position probability matrix is first computed by summing all occurrences of a nucleotide i (either A, C, G, or T) at each position j.
+
+https://www.bioconductor.org/packages/release/bioc/vignettes/universalmotif/inst/doc/IntroductionToSequenceMotifs.pdf
+
+$$ P_{ij} = \sum_{j=1}^L C_i/L $$
+
+Frequencies are then converted to scores using a log odds ratio, where $P_{ij}$ is the frequency of nucleotide $i$ at position $j$, and $P_i$ is the background frequency of that nucleotide (0.25). If $P_{ij}$ is 0, -100 is returned.
+
+$$PWM_{ij} = log_2(p_{ij}/p_i)$$
 https://www.sciencedirect.com/topics/medicine-and-dentistry/position-weight-matrix According to this, Position Specific Scoring Matrix is the same as a PWM.
 
 Why do we used 5 bases for donor, 6 for acceptor?
 
 Papers in support of PWM: Methods to define and locate patterns of motifs in sequences, Rodger Staden, 1988 Identification of sequence pattersn, motifs and domains, Michael Gribskov, 2019, Encyclopedia of bioinformatics and computational biology
 
-Ramani et al 2009 used chi squared test of pwm
+Info on stats is from Xia, 2012. The minimum length of an intron we consider is 35. So for the chi square test, use a 'donor' site length of 17 and 'acceptor' site length of 18 and see where the frequency stops being significantly different from the background.
+
+https://www.simplilearn.com/tutorials/statistics-tutorial/chi-square-test#chisquare_test_formula
+
+start by reading in intron sequences with reticulate
+
+```{r}
+# this is the same as pwmtest.py in isoforms
+obs <- c(1462, 601, 5244, 1342)
+exp <- c(0.3208, 0.1786, 0.1762, 0.3244)
+chisq.test(obs, p=exp)
+```
+
+
+
 
 ```{r}
 library(reticulate)
