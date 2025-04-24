@@ -27,6 +27,7 @@ nseqs = len(pds)
 # nt background counts
 bg = [nseqs * f[0], nseqs * f[1], nseqs * f[2], nseqs * f[3]]
 print(f)
+print(sum(f))
 
 # instead just make a table that can be used in R	
 '''
@@ -57,8 +58,6 @@ def counter(seqs):
 		
 dcounts = counter(pds)
 acounts = counter(pas)
-
-print(dcounts)
 
 with open('donor_counts.csv', 'w') as csvfile:
 	iwriter = csv.writer(csvfile)

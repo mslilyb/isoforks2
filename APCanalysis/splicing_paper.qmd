@@ -1,5 +1,5 @@
 ---
-title: "splicing_paper"
+title: "splicing paper"
 format: html
 editor: visual
 ---
@@ -8,7 +8,7 @@ editor: visual
 
 ## Algorithm
 
-All possible combinations (APC) of exons and introns are generated from a given DNA sequence. Introns are gathered based only on canonical donor and acceptor sites. A modified backtracking algorithm is used to generate only valid combinations of introns (isoforms), for example introns that overlap would be excluded from the output. This reduces the search space. **Need graph showing algorithm performance**
+All possible combinations (APC) of exons and introns are generated from a given DNA sequence. Introns are gathered based only on canonical donor and acceptor sites. A modified backtracking algorithm is used to generate only valid combinations of introns (isoforms), for example introns that overlap would not be considered. This reduces the search space. **Need graph showing algorithm performance**
 
 ## Smallgenes
 
@@ -40,7 +40,10 @@ Info on stats is from Xia, 2012. The minimum length of an intron we consider is 
 
 https://www.simplilearn.com/tutorials/statistics-tutorial/chi-square-test#chisquare_test_formula
 
-start by reading in intron sequences with reticulate
+```{r}
+library(dplyr)
+```
+
 
 ```{r}
 # this is the same as pwmtest.py in isoforms
@@ -51,7 +54,30 @@ chisq.test(obs, p=exp)
 ```
 
 ```{r}
-library(dplyr)
+data <- read.csv("donor_counts.csv", header = FALSE)
+counts <- data %>% slice(-1)
+freqs <- as.numeric(slice(data, 1))
+sdata <- split(counts, 1:nrow(counts))
+
+nums <- lapply(sdata, as.numeric)
+
+ctests <- lapply(nums, function(x) chisq.test(x, p=freqs))
+
+results <- counts
+
+stat <- lapply(ctests, function(x) x$statistic)
+pval <- lapply(ctests, function(x) x$p.value)
+
+
+
+
+results$pval <- pval
+results$stat <- stat
+
+```
+
+```{r}
+
 library(reticulate)
 
 myenvs=conda_list()
@@ -75,6 +101,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import logomaker
 ```
+
 ```{r}
 
 ```
@@ -86,7 +113,6 @@ with open(introns, 'r') as fp:
     print(line)
 
 ```
-
 
 logomaker should allow me to import our pwm instead of calculating the values itself https://logomaker.readthedocs.io/en/latest/examples.html#splice-site-probability-logo
 
@@ -242,9 +268,7 @@ TUKEY$`mdists$introns`
 whatdis <- TUKEY$`mdists$introns`
 ```
 
-NEED TO DO 
-Genome stats-how many genes are there for each intron count? Is 4 introns good enough for APC?
-Average structure of gene in wormbase
+NEED TO DO Genome stats-how many genes are there for each intron count? Is 4 introns good enough for APC? Average structure of gene in wormbase
 
 Next let's do a test without the intron cost
 
