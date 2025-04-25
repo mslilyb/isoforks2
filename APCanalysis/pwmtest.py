@@ -2,6 +2,7 @@ import sys
 import csv
 
 introns = sys.argv[1]
+genome = sys.argv[2]
 
 # potential donors/acceptors
 pds = []
@@ -28,6 +29,21 @@ nseqs = len(pds)
 bg = [nseqs * f[0], nseqs * f[1], nseqs * f[2], nseqs * f[3]]
 print(f)
 print(sum(f))
+
+# get nt freq for entire genome
+ntc = {'A': 0, 'C': 0, 'G': 0, 'T': 0}
+nt_total = 0
+with open(genome, 'r') as fp:
+	for line in fp.readlines():
+		line = line.rstrip()
+		if line.startswith('>'): continue
+		for nt in line:
+			ntc[nt] += 1
+			nt_total += 1
+			
+fg = [ntc[x]/nt_total for x in nt_counts]
+print(fg)
+print(sum(fg))
 
 # instead just make a table that can be used in R	
 '''
@@ -61,14 +77,14 @@ acounts = counter(pas)
 
 with open('donor_counts.csv', 'w') as csvfile:
 	iwriter = csv.writer(csvfile)
-	iwriter.writerow([x for x in f])
+	iwriter.writerow([x for x in fg])
 	for d in dcounts:
 		iwriter.writerow([d[x] for x in d])
 	
 
 with open('acceptor_counts.csv', 'w') as csvfile:
 	iwriter = csv.writer(csvfile)
-	iwriter.writerow([x for x in f])
+	iwriter.writerow([x for x in fg])
 	for a in acounts:
 		iwriter.writerow([a[x] for x in d])
 

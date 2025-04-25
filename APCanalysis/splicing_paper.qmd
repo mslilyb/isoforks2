@@ -54,13 +54,41 @@ chisq.test(obs, p=exp)
 ```
 
 use lintr to check for style
+
+Maybe just use the chi square statistic
+```{r}
+d <- read.csv("donor_counts.csv", header = FALSE)
+a <- read.csv("acceptor_counts.csv", header = FALSE)
+
+dcounts <- d %>% slice(-1)
+acounts <- a %>% slice(-1)
+
+dfreqs <- as.numeric(slice(d, 1))
+afreqs <- as.numeric(slice(a, 1))
+
+dnums <- lapply(split(dcounts, seq_len(nrow(dcounts))), function(x) as.numeric(x))
+anums <- lapply(split(acounts, seq_len(nrow(acounts))), function(x) as.numeric(x))
+
+# d and a freqs are the same
+dc <- lapply(dnums, function(x) chisq.test(x, p=dfreqs))
+ac <- lapply(anums, function(x) chisq.test(x, p=afreqs))
+
+dres <- dcounts
+ares <- acounts
+
+dstat <- lapply(dc, function(x) x$statistic)
+astat <- lapply(ac, function(x) x$statistic)
+
+dres$chi_stat <- dstat
+ares$chi_stat <- astat
+```
+
+
 ```{r}
 data <- read.csv("donor_counts.csv", header = FALSE)
 counts <- data %>% slice(-1)
 freqs <- as.numeric(slice(data, 1))
-sdata <- split(counts, 1:nrow(counts))
-
-nums <- lapply(sdata, as.numeric)
+nums <- lapply(split(counts, seq_len(nrow(counts))), function(x) as.numeric(x))
 
 ctests <- lapply(nums, function(x) chisq.test(x, p=freqs))
 
@@ -69,16 +97,26 @@ results <- counts
 stat <- lapply(ctests, function(x) x$statistic)
 pval <- lapply(ctests, function(x) x$p.value)
 
-
-y <- stopifnot(all(sapply(nums, length) == length(freqs)))
-
 # returns true
 # identical(nums[[12]], c(2450, 1080, 1596, 3523))
-
-results$pval <- pval
+# pval not consistent/correct
+#results$pval <- pval
 results$stat <- stat
-
 ```
+
+instead of chi square, what does manhattan distance look like?
+not good
+```{r}
+data <- read.csv("donor_counts.csv", header = FALSE)
+counts <- data %>% slice(-1)
+freqs <- as.numeric(slice(data, 1))
+exp <- as.numeric(lapply(freqs, function(x) x * rowSums(data)[2]))
+nums <- lapply(split(counts, seq_len(nrow(counts))), function (x) as.numeric(x))
+
+m <- lapply(nums, function(x) x - exp)
+md <- lapply(m, function(x) sum(abs(x)))
+```
+
 
 ```{r}
 
@@ -94,9 +132,6 @@ use_condaenv("Renv")
 # can only be run once?
 ```
 
-```{r}
-library("dplyr")
-```
 
 ```{python}
 # need to load conda environment first
@@ -236,8 +271,14 @@ p
 # http://vassarstats.net/textbook/ch14pt2.html
 # https://courses.lumenlearning.com/introstats1/chapter/the-f-distribution-and-the-f-ratio/
 ```
-
+The more introns we have, the distances get smaller because there are more introns to even out bad ones. Manhattan distance is not good at ranking genes, does not consider if single intron is bad.
+Use CHERBYSEV distance to find the genes with the worst intron.
+Optiso with CHERB (D1) compare DTC and D1, Cartesian, Kulback
+Need fig to show different distances don't really matter, "worst 10% will be the same"
 saw online that you can use a heatmap to represent statistical differences between pairs, so one cube is one comparisson
+
+See this for distances:
+# identical(nums[[12]], c(2450, 1080, 1596, 3523))
 
 ```{r}
 library(multcompView)
