@@ -53,6 +53,7 @@ exp <- c(0.3208, 0.1786, 0.1762, 0.3244)
 chisq.test(obs, p=exp)
 ```
 
+use lintr to check for style
 ```{r}
 data <- read.csv("donor_counts.csv", header = FALSE)
 counts <- data %>% slice(-1)
@@ -69,7 +70,10 @@ stat <- lapply(ctests, function(x) x$statistic)
 pval <- lapply(ctests, function(x) x$p.value)
 
 
+y <- stopifnot(all(sapply(nums, length) == length(freqs)))
 
+# returns true
+# identical(nums[[12]], c(2450, 1080, 1596, 3523))
 
 results$pval <- pval
 results$stat <- stat
