@@ -280,6 +280,9 @@ saw online that you can use a heatmap to represent statistical differences betwe
 See this for distances:
 # identical(nums[[12]], c(2450, 1080, 1596, 3523))
 
+Venn diagram for comparing different distance equations? But hen need a hard cutoff
+
+
 ```{r}
 library(multcompView)
 
@@ -334,3 +337,5 @@ wt <- t(weights) %>%
 Transcripts on WB have varrying support for each intron. What is that variation? In a single transcript, intron counts should be the same. But what is the actual manhattan distance within a transcript? All pairwise comparisons between introns in a single transcript? Compare introns 1, 2, 3, 4... 1/2 ratio difference? Expected deviation? Expected manhattan distance? Compare intron space where all are 1:1:1:1 only introns that match the canonical isoform Not raw counts instead ratios, 0.25 vs 0.35? Do on all genes and all transcripts Ratio of transcript distribution
 
 lookat datacore2024/genome_celegans for the code
+
+do man u whit test on intron distributions

@@ -4,6 +4,7 @@ import argparse
 import os
 import isoform2
 import math
+import csv
 
 parser = argparse.ArgumentParser(
 	description='Test different distance equations on APC results')
@@ -55,10 +56,15 @@ def intsort(i1, i2):
 	
 	return sdi1, sdi2
 	
-'''
+# for chebyshev DO NOT add 0s. not needed
+# cannot calc chebyshev for ones that do not share introns
+# ignore undefined, or group together
+# if undefined 0
+	
 dtcs = {}
 dkls = {}
 dchs = {}
+freqs = {}
 for g in genes:
 	ints1, ints2 = intsort(genes[g][0], genes[g][1])
 	dtc = 0
@@ -67,15 +73,35 @@ for g in genes:
 	for i in ints1:
 		pf = ints1[i]
 		qf = ints2[i]
+		# gene_id: (apc, wb)
+		freqs[g] = (pf, qf)
 		if pf == 0 or qf == 0: continue
 		ch_vals.append(abs(pf-qf))
 		dkl += pf * math.log(pf/qf)
 		dtc += abs(pf-qf)
 	dtcs[g] = dtc
 	dkls[g] = dkl
-	dchs[g] = max(ch_vals)
-'''
+	if len(ch_vals) == 0: 
+		dchs[g] = 'NA'
+	else:
+		dchs[g] = max(ch_vals)
 
+with open('intron_frequencies.csv', 'w') as csvfile:
+	fwriter = csv.writer(csvfile)
+	fwriter.writerow(['gene_id', 'apc', 'wb'])
+	for gn in freqs:
+		fwriter.writerow([gn, freqs[gn][0], freqs[gn][1]])
+		
+with open('intron_distances.csv', 'w') as csvfile:
+	dwriter = csv.writer(csvfile)
+	dwriter.writerow(['gene_id', 'dtc', 'dkl', 'dchs'])
+	for gn in dtcs:
+		dwriter.writerow([g, dtcs[g], dkls[g], dchs[g]])
+		
+
+
+
+'''
 # 1_490 does not share any introns between APC and WB?
 ints1, ints2 = intsort(genes['1_490'][0], genes['1_490'][1])
 
@@ -90,13 +116,12 @@ for i in ints1:
 	m += abs(pf-qf)
 	
 print(m)
-	
-'''	
+'''
+'''
 print(f'gene_id,dtc,dkl,dchs')
 for g in dtcs:
 	print(f'{g},{dtcs[g]},{dkls[g]},{dchs[g]}')
 '''
-
 '''
 with open('../smallgenes/ch.1_490.gff3', 'r') as fp:
 	for line in fp.readlines():
