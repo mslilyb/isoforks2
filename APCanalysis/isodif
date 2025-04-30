@@ -74,7 +74,10 @@ for g in genes:
 		pf = ints1[i]
 		qf = ints2[i]
 		# gene_id: (apc, wb)
-		freqs[g] = (pf, qf)
+		if g not in freqs:
+			freqs[g] = [(pf, qf)]
+		else:
+			freqs[g].append((pf, qf))
 		if pf == 0 or qf == 0: continue
 		ch_vals.append(abs(pf-qf))
 		dkl += pf * math.log(pf/qf)
@@ -90,7 +93,8 @@ with open('intron_frequencies.csv', 'w') as csvfile:
 	fwriter = csv.writer(csvfile)
 	fwriter.writerow(['gene_id', 'apc', 'wb'])
 	for gn in freqs:
-		fwriter.writerow([gn, freqs[gn][0], freqs[gn][1]])
+		for fq in freqs[gn]:
+			fwriter.writerow([gn, fq[0], fq[1]])
 		
 with open('intron_distances.csv', 'w') as csvfile:
 	dwriter = csv.writer(csvfile)

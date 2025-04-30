@@ -339,3 +339,31 @@ Transcripts on WB have varrying support for each intron. What is that variation?
 lookat datacore2024/genome_celegans for the code
 
 do man u whit test on intron distributions
+https://www.r-tutor.com/elementary-statistics/non-parametric-methods/mann-whitney-wilcoxon-test
+```{r}
+ifreqs <- read.csv("intron_frequencies.csv")
+
+df <- 
+
+
+d <- ifreqs %>% 
+  group_by(gene_id) %>% 
+  summarise(mean_value = mean(apc))
+  
+
+# i didn't get all the intron freqs for one gene
+
+#wilcox.test(ifreqs$apc, ifreqs$wb)
+```
+
+
+
+
+
+
+
+
+
+
+
+
