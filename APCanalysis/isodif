@@ -94,6 +94,8 @@ with open('intron_frequencies.csv', 'w') as csvfile:
 	fwriter.writerow(['gene_id', 'apc', 'wb'])
 	for gn in freqs:
 		for fq in freqs[gn]:
+			# drop non-shared introns
+			if fq[0] == 0 or fq[1] == 0: continue
 			fwriter.writerow([gn, fq[0], fq[1]])
 		
 with open('intron_distances.csv', 'w') as csvfile:

@@ -341,22 +341,55 @@ lookat datacore2024/genome_celegans for the code
 do man u whit test on intron distributions
 https://www.r-tutor.com/elementary-statistics/non-parametric-methods/mann-whitney-wilcoxon-test
 ```{r}
+library(tidyvers)
+library(tidyr)
+
 ifreqs <- read.csv("intron_frequencies.csv")
 
-df <- 
 
 
-d <- ifreqs %>% 
+wres <- ifreqs %>% 
   group_by(gene_id) %>% 
-  summarise(mean_value = mean(apc))
+  summarise(
+    pval = wilcox.test(apc, wb, paired = TRUE)$p.value,
+    stat = wilcox.test(apc, wb, paired = TRUE)$statistic  
+  )
+
+
+ifreqs %>% wilcox.test(apc ~ wb, paired=TRUE)
   
+# results not the same individually
+
+# test on subset
+# sub <- ifreqs %>% filter(gene_id == "2_325")
+# wilcox.test(sub$apc, sub$wb)
+# for 2_325, should get W = 3454, p < 2.2e-16
 
 # i didn't get all the intron freqs for one gene
 
 #wilcox.test(ifreqs$apc, ifreqs$wb)
 ```
 
+```{r}
+v1 <- c("g1", 0.2, 0.1)
+v2 <- c("g1", 0.3, 0.4)
+v3 <- c("g2", 0.1, 0.5)
+v4 <- c("g2", 0.3, 0.6)
+test <- data.frame(rbind(v1, v2, v3, v4))
+test$X2 <- as.numeric(test$X2)
+test$X3 <- as.numeric(test$X3)
 
+result <- test %>% 
+  group_by(X1) %>% 
+  summarise(
+    p = wilcox.test(X2, X3, paired = TRUE)$p.value,
+    s = wilcox.test(X2, X3, paired = TRUE)$statistic
+  )
+```
+
+```{r}
+
+```
 
 
 
