@@ -1,5 +1,8 @@
 .DS_Store
 
+# Ignore all precompiled files
+**/*.o
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

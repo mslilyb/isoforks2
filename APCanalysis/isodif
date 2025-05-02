@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import isoform2
+import math
+import csv
+
+parser = argparse.ArgumentParser(
+	description='Test different distance equations on APC results')
+	
+parser.add_argument('apcgen_gffs', help='APC generated gff files')
+parser.add_argument('smallgenes', 
+	help='Directory with WormBase gff/fasta files')
+
+args = parser.parse_args()
+
+apc = {}
+for file in os.listdir(args.apcgen_gffs):
+	gid = file.split('.')[1]
+	if args.apcgen_gffs.endswith('/'):
+		apc[gid] = f'{args.apcgen_gffs}{file}'
+	else:
+		apc[gid] = f'{args.apcgen_gffs}/{file}'
+
+wb = {}
+for file in os.listdir(args.smallgenes):
+	gid = file.split('.')[1]
+	if file.endswith('.gff3'):
+		if args.smallgenes.endswith('/'):
+			wb[gid] = f'{args.smallgenes}{file}'
+		else:
+			wb[gid] = f'{args.smallgenes}/{file}'
+
+genes = {}
+for a in apc:
+	i1 = isoform2.get_introns(apc[a])
+	i2 = isoform2.get_introns(wb[a])
+	genes[a] = (i1, i2)
+
+def intsort(i1, i2):
+	
+	sdi1 = {}
+	for i in sorted(i1, key=lambda i: float(i1[i]), reverse=True):
+		sdi1[i] = i1[i]
+		
+	sdi2 = {}
+	for i in sorted(i2, key=lambda i: float(i2[i]), reverse=True):
+		sdi2[i] = i2[i]
+	
+	for i in sdi1:
+		if i not in sdi2: sdi2[i] = 0
+	
+	for i in sdi2:
+		if i not in sdi1: sdi1[i] = 0
+	
+	return sdi1, sdi2
+	
+# for chebyshev DO NOT add 0s. not needed
+# cannot calc chebyshev for ones that do not share introns
+# ignore undefined, or group together
+# if undefined 0
+	
+dtcs = {}
+dkls = {}
+dchs = {}
+freqs = {}
+for g in genes:
+	ints1, ints2 = intsort(genes[g][0], genes[g][1])
+	dtc = 0
+	dkl = 0
+	ch_vals = []
+	for i in ints1:
+		pf = ints1[i]
+		qf = ints2[i]
+		# gene_id: (apc, wb)
+		if g not in freqs:
+			freqs[g] = [(pf, qf)]
+		else:
+			freqs[g].append((pf, qf))
+		if pf == 0 or qf == 0: continue
+		ch_vals.append(abs(pf-qf))
+		dkl += pf * math.log(pf/qf)
+		dtc += abs(pf-qf)
+	dtcs[g] = dtc
+	dkls[g] = dkl
+	if len(ch_vals) == 0: 
+		dchs[g] = 'NA'
+	else:
+		dchs[g] = max(ch_vals)
+
+with open('intron_frequencies.csv', 'w') as csvfile:
+	fwriter = csv.writer(csvfile)
+	fwriter.writerow(['gene_id', 'apc', 'wb'])
+	for gn in freqs:
+		for fq in freqs[gn]:
+			# drop non-shared introns
+			if fq[0] == 0 or fq[1] == 0: continue
+			fwriter.writerow([gn, fq[0], fq[1]])
+		
+with open('intron_distances.csv', 'w') as csvfile:
+	dwriter = csv.writer(csvfile)
+	dwriter.writerow(['gene_id', 'dtc', 'dkl', 'dchs'])
+	for gn in dtcs:
+		dwriter.writerow([g, dtcs[g], dkls[g], dchs[g]])
+		
+
+
+
+'''
+# 1_490 does not share any introns between APC and WB?
+ints1, ints2 = intsort(genes['1_490'][0], genes['1_490'][1])
+
+m = 0
+for i in ints1:
+	print(ints1[i], ints2[i], i)
+	pf = ints1[i]
+	qf = ints2[i]
+	if pf == 0 or qf == 0: continue
+	#print(pf, qf)
+	#print(abs(pf-qf))
+	m += abs(pf-qf)
+	
+print(m)
+'''
+'''
+print(f'gene_id,dtc,dkl,dchs')
+for g in dtcs:
+	print(f'{g},{dtcs[g]},{dkls[g]},{dchs[g]}')
+'''
+'''
+with open('../smallgenes/ch.1_490.gff3', 'r') as fp:
+	for line in fp.readlines():
+		line = line.rstrip()
+		line = line.split('\t')
+		if line[2] == 'intron':
+			print(line)
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
