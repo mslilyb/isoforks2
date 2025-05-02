@@ -45,10 +45,25 @@ for f1, f2, f3 in zip(apcgs, rnags, apcgffs):
 
 	assert(len(rnafreqs) == len(apcfreqs))
 
-	ustat, pval = isoform2.mannu(rnafreqs, apcfreqs)
+	ustat, pval = isoform2.mannu(apcfreqs, rnafreqs)
 
 	print(name, ustat, pval, sep=',')
 	print('missed', misscount/len(rnais.keys()) * 100, 'percent of introns', file=sys.stderr)
+
+
+
+
+'''
+Needs documentation. Here was the old method for comparison:
+
+def mannu(p, q):
+	"""wrapper for mannuwhitney, asserts included. unknown if needed"""
+	newp = [i for i in p if not math.isclose(i, 0, abs_tol=1e-6)]
+	newq = [i for i in q if not math.isclose(i, 0, abs_tol=1e-6)]
+	return scistats.mannwhitneyu(newp, newq, alternative='two-sided')
+
+this involved dropping 0s from BOTH sets of freqs, which explains the difference in results. i believe we should add 0s to the apc data to acknowledge missed introns
+'''
 
 
 
