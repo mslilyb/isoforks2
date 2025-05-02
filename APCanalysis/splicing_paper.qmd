@@ -386,11 +386,39 @@ result <- test %>%
     s = wilcox.test(X2, X3, paired = TRUE)$statistic
   )
 ```
-
+https://www.geeksforgeeks.org/how-to-merge-two-dataframes-in-r/
 ```{r}
+t1 <- data.frame(
+    cbind(rep('g1', 10), 
+    (sample.int(11, size=10, replace=TRUE)-1)/100,
+    (sample.int(11, size=10, replace=TRUE)-1)/100)
+  )
+t2 <- data.frame(
+    cbind(rep('g2', 10), 
+    (sample.int(11, size=10, replace=TRUE)-1)/100,
+    (sample.int(11, size=10, replace=TRUE)-1)/100)
+  )
 
+t <- rbind(t1, t2)
+t$X2 <- as.numeric(t$X2)
+t$X3 <- as.numeric(t$X3)
+
+result <- t %>% 
+  group_by(X1) %>% 
+  summarise(
+    p = wilcox.test(X2, X3, paired = TRUE, exact = FALSE)$p.value,
+    s = wilcox.test(X2, X3, paired = TRUE, exact = FALSE)$statistic
+  )
 ```
-
+make sure all the parameters are the same
+results are the same now
+d <- t[t$X1 == 'g1',]
+wilcox.test(d$X2, d$X3, paired = TRUE, exact = FALSE)
+```{r}
+tg <- ifreqs[ifreqs$gene_id == '2_325',]
+sum(tg$apc)
+sum(tg$wb)
+```
 
 
 
