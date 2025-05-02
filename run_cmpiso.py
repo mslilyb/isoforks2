@@ -21,14 +21,16 @@ count = 0
 
 for f1, f2 in zip(apcgffs, rnagffs):
 	name = f1.rstrip('.APC.gff3')
-	cmd = f'./cmpiso smallgenes/{f2} APCisos/{f1} > {outdir}/{name}.cmp'
-	print('running:', cmd)
+	cmd = f'./cmpiso smallgenes/{f2} APCisos/{f1}'# > {outdir}/{name}.cmp'
+	#print('running:', cmd)
 	result = subprocess.run(cmd, shell=True)
 
 	if result == 1:
 		print('uh oh')
 
-	#count += 1
+	count += 1
 
 	#if count > test:
 		#break
+
+print(count,file=sys.stderr)

@@ -2,6 +2,7 @@
 
 import argparse
 import isoform2
+import sys
 
 parser = argparse.ArgumentParser(
 	description='Isoform comparing program')
@@ -14,8 +15,22 @@ arg = parser.parse_args()
 i1 = isoform2.get_introns(arg.gff1)
 i2 = isoform2.get_introns(arg.gff2)
 
-dist, details, tstat, tpval, wtstat, wtpval, weirdval, mannustat, mannupval = isoform2.expdiff(i1, i2)
-print(dist)
-print('weird:', weirdval)
-for exon, p1, p2 in details:
-	print(f'{exon[0]}\t{exon[1]}\t{p1:.6f}\t{p2:.6f}')
+wemisscount = 0
+for key in i1:
+	if key not in i2.keys():
+		wemisscount += 1
+
+if wemisscount > 0:
+	print(wemisscount)
+
+
+if wemisscount > 3:
+	print('WOAH, we missed', wemisscount, 'in', arg.gff1)
+#mannut, mannup = isoform2.mannu(i1, i2)
+
+#print('mann-u U stat:', mannut)
+#print('mann-u pval:', mannup)
+
+
+#for exon, p1, p2 in details:
+#	print(f'{exon[0]}\t{exon[1]}\t{p1:.6f}\t{p2:.6f}')

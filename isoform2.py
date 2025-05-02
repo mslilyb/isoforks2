@@ -152,11 +152,9 @@ def manhattan(p, q):
 		d += abs(pi - qi)
 	return d
 
-def mannu(p, q):
+def mannu(exp, pre):
 	"""wrapper for mannuwhitney, asserts included. unknown if needed"""
-	newp = [i for i in p if not math.isclose(i, 0, abs_tol=1e-6)]
-	newq = [i for i in q if not math.isclose(i, 0, abs_tol=1e-6)]
-	return scistats.mannwhitneyu(newp, newq, alternative='two-sided')
+	return scistats.mannwhitneyu(exp, pre, alternative='two-sided')
 
 
 def ks(p,q):
