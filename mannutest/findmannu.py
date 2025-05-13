@@ -28,7 +28,7 @@ smallcount = 0
 skipped = []
 
 for f1, f2, f3 in zip(apcgs, rnags, apcgffs):
-	misscount = 0
+	missedit = False
 	apcis = isoform2.get_introns(os.path.abspath(f1))
 	rnais = isoform2.get_introns(os.path.abspath(f2))
 
@@ -38,7 +38,8 @@ for f1, f2, f3 in zip(apcgs, rnags, apcgffs):
 	for key in rnais.keys():
 		rnafreqs.append(rnais[key])
 		if key not in apcis.keys():
-			misscount += 1
+			missedit = True
+			print('Missed an intron!', file=sys.stderr)
 			apcis[key] = 0.0
 			apcfreqs.append(apcis[key])
 		else:
@@ -46,10 +47,13 @@ for f1, f2, f3 in zip(apcgs, rnags, apcgffs):
 
 	assert(len(rnafreqs) == len(apcfreqs))
 
+	if missedit:
+		misscount += 1
+
 	if len(rnafreqs) * len(apcfreqs) < 16:
 		smallcount += 1
 		for key in rnais.keys():
-			print(f1, len(rnafreqs), key, rnais[key], apcis[key], rnais[key] - apcis[key], sep=',', file=sys.stderr)
+			print(f1, len(rnafreqs), key, rnais[key], apcis[key], rnais[key] - apcis[key], sep=',') #file=sys.stderr)
 		continue #failed to meet minimum sample size for mann U 2 tailed @ 5%
 
 	ustat, pval = isoform2.mannu(apcfreqs, rnafreqs)
@@ -58,6 +62,7 @@ for f1, f2, f3 in zip(apcgs, rnags, apcgffs):
 
 
 print(smallcount, "skipped genes with insufficient sample sizes.", file=sys.stderr)
+print(misscount, "genes where APC failed to predict introns found in WB", file=sys.stderr)
 
 '''
 Needs documentation. Here was the old method for comparison:
